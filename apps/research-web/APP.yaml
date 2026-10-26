@@ -1,0 +1,46 @@
+schema: oriel.app/v1
+packageId: io.oriel.investment-research
+name: 研习 · 投资研究
+version: 1.2.0
+kind: service
+summary: 以文档为事实源的公司研究、分析快照、验证与复盘工作台
+runtime:
+  adapter: node
+  engine: node-22
+  workingDirectory: .
+artifact:
+  kind: directory
+  path: .
+  entry: server.js
+launch:
+  args:
+    - --library-root
+    - /Users/zhuqiang/Dev/investment-research
+bindings:
+  - id: http
+    protocol: http
+    listen: loopback
+    allocation: dynamic
+    injectAs: PORT
+entrypoints:
+  - id: home
+    kind: web
+    binding: http
+    path: /
+    presentation: embedded
+    primary: true
+probes:
+  readiness:
+    kind: http
+    binding: http
+    path: /healthz
+    timeoutSeconds: 30
+permissions:
+  outboundNetwork: []
+  workspaceFiles: read-write
+  externalVolumes: none
+verification:
+  - id: core
+    action: npm-script
+    target: test
+    network: deny

@@ -1,0 +1,22 @@
+{
+  "analysis": "companies/xiaomi/analyses/2026-10-21-growth-evidence",
+  "price_as_of": "2026-10-21",
+  "price_session": "2026-10-21",
+  "engine": "DuckDB v1.5.6",
+  "formula_sha256": "33fce481e6886743bebff85dc8de49406e30bd2002dcb300d485887102cf3f22",
+  "inputs": {
+    "facts.csv": "7e00be27af24a5127047a97b7ab139734145363d35966d8a312ee84919428411",
+    "claims.csv": "6e64bb204867d7e155b7a00252d8cbbad9ba9ccabeb5c49914479e868f94377f",
+    "inputs/prices.csv": "69513e3316640965df9ea499136cd3348c034f50a81a2d7b7e00033a0fd58ffd",
+    "runs/base/parameters.json": "0b22216b3024face0f0bb5363b0a561683a2b57aa8d3713abcea83b32e815fe4"
+  },
+  "outputs": {
+    "results.csv": "76fcb15f8b8f3264ba9b6cd005e3573838a9fdfce0de903a37d9f958445e0616",
+    "event-returns.csv": "10f8a2d5689f713fc360543bce8a6d30171a11ec0f55fbfc294c6c96a50538b9"
+  },
+  "limits": [
+    "行情不复权，收益为价格变化，不含分红/汇率/交易成本",
+    "情景为研究者假设，不是公司指引或概率预测",
+    "事件采用披露日后首个交易日，不识别因果效应"
+  ]
+}

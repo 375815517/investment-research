@@ -1,0 +1,11 @@
+source_id,title,source_type,publisher,published_at,retrieved_at,url,local_path,sha256,archive_status,notes
+X26H,2026中期报告,financial_report,Xiaomi,,2026-10-21,https://ir.mi.com/static-files/b903a881-8143-44a3-b759-703653bbb043,2026-h1.pdf,e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce,archived,印刷页码比PDF物理页码少2；上传日期未确认；覆盖2026H1
+X25R,2025年度报告,financial_report,Xiaomi,2026-04-28,2026-10-21,https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf,2025-results.pdf,b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2,archived,文件名保留；内容为年度报告；印刷页码比物理页码少2
+X24A,2024全年业绩公告及2025交付目标,company_plan,Xiaomi,2025-03-18,2026-10-21,https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801045.pdf,2025-target.pdf,1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145,archived,第7页目标350000；版本固定为该次公告
+X25A,2025全年业绩公告及2026目标,company_plan,Xiaomi,2026-03-24,2026-10-21,https://www.hkexnews.hk/listedco/listconews/sehk/2026/0324/2026032400608.pdf,,,link_only,第8页2026目标550000；公开港交所原文已核对，未归档第二份PDF
+X26Q,2026中期业绩公告,financial_report,Xiaomi,2026-08-18,2026-10-21,https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c,,,link_only,事件日期依公司IR日历；勿把业绩发布日期等同中报上传日
+X24P,2024Q4业绩演示材料,company_plan,Xiaomi,2025-03-18,2026-10-21,https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2025/03/18/6-16-00/Xiaomi%20Corp_24Q4_ER_ENG%20vF.pdf,,,link_only,第8页海外门店计划；链接留存，无本地PDF
+OMD-G,2026Q2全球智能手机出货量,industry_report,Omdia,2026-07-30,2026-10-21,https://omdia.tech.informa.com/pr/2026/july/global-smartphone-shipments-fell-6percent-in-2q26-as-supply-side-pressures-reshape-the-market,,,link_only,采用7月30日完整更新，非早期初值；sell-in不是零售销量
+OMD-L,2026Q2拉美智能手机出货量,industry_report,Omdia,2026-09-01,2026-10-21,https://omdia.tech.informa.com/pr/2026/sep/latin-american-smartphone-market-fell-12percent-in-2q-2026-as-rising-memory-costs-weighed-on-demand,,,link_only,sell-in；厂商合并口径参见原文
+PRICE-T,01810香港未复权日线,market_data,Tencent Finance,2026-10-21,2026-10-21,"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk01810,day,,,320,",,,link_only,原始JSON保存在../data/market/raw；成交量为股；非实时和总回报
+CAL,公司业绩日历,event_calendar,Xiaomi,,2026-10-21,https://ir.mi.com/news-events/event-calendar,,,link_only,日期粒度，未确认具体时刻

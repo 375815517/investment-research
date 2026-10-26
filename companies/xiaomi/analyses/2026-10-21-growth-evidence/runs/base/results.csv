@@ -1,0 +1,19 @@
+metric,value,unit,formula,inputs
+revenue_yoy,-8.442794,%,(current/prior-1)*100,F01;F02
+adjusted_profit_yoy,-42.848375,%,(current/prior-1)*100,F03;F04
+operating_cash_yoy,-92.692023,%,(current/prior-1)*100,F05;F06
+overseas_yoy,5.217722,%,(current/prior-1)*100,F07;F08
+cash_after_selected_asset_purchases,-1723.305,CNY million,CFO-selected asset purchases,F05;F09
+ev_2025_target_excess,61082.0,vehicles,actual-threshold,F10;F11
+ev_2025_target_excess_pct,17.452,%,(actual/threshold-1)*100,F10;F11
+ev_2026_h1_progress,33.646364,%,H1 deliveries/full-year target*100,F12;F13
+snapshot_close,26.8,HKD,latest close on or before price_as_of,inputs/prices.csv
+bear_profit,22500.0,CNY million,revenue*net_margin,parameters.json
+bear_value,18.382353,HKD/share,profit/shares*PE/FX,parameters.json
+bear_price_gap,-31.409131,%,(scenario value/snapshot close-1)*100,parameters.json;inputs/prices.csv
+base_profit,36400.0,CNY million,revenue*net_margin,parameters.json
+base_value,35.686275,HKD/share,profit/shares*PE/FX,parameters.json
+base_price_gap,33.157741,%,(scenario value/snapshot close-1)*100,parameters.json;inputs/prices.csv
+bull_profit,54000.0,CNY million,revenue*net_margin,parameters.json
+bull_value,61.764706,HKD/share,profit/shares*PE/FX,parameters.json
+bull_price_gap,130.46532,%,(scenario value/snapshot close-1)*100,parameters.json;inputs/prices.csv

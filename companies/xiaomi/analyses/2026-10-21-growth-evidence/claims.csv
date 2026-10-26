@@ -1,0 +1,5 @@
+claim_id,claim,fact_ids,counterevidence,invalidation,status
+C01,交付增长尚未转化为集团盈利和现金改善,F01;F02;F03;F04;F05;F06;F12;F22,汽车交付增长且新业务毛利为正,后续可比期利润及现金流持续改善,supported_current_period
+C02,海外收入增长与全球手机竞争压力并存,F07;F08;F25;F26;F27;F28,海外集团收入包含多业务和汇率影响,同口径地区份额与盈利改善,supported_with_scope_limits
+C03,AI和海外门店属于需要验证的长期投入计划,F23;F24;F29;F30,已有研发与门店落地但口径并非完全一致,披露可归因回报与现金转化,open
+C04,2025年3月版交付阈值兑现但2026年目标未到期,F10;F11;F12;F13,不能以较早版本阈值代表最终修订目标,核实后续目标版本与全年实绩,partly_resolved

@@ -1,0 +1,31 @@
+fact_id,metric,period,value,unit,source_id,locator,kind
+F01,revenue,2026H1,208063.227,CNY million,X26H,print p78,disclosed
+F02,revenue,2025H1,227249.428,CNY million,X26H,print p78,disclosed
+F03,adjusted_net_profit,2026H1,12291.2,CNY million,X26H,print p6,disclosed
+F04,adjusted_net_profit,2025H1,21506.3,CNY million,X26H,print p6,disclosed
+F05,operating_cash_flow,2026H1,2050.234,CNY million,X26H,print p63,disclosed
+F06,operating_cash_flow,2025H1,28054.74,CNY million,X26H,print p63,disclosed
+F07,overseas_revenue,2026H1,78824.477,CNY million,X26H,print p79,disclosed
+F08,overseas_revenue,2025H1,74915.59,CNY million,X26H,print p79,disclosed
+F09,selected_asset_cash_purchases,2026H1,3773.539,CNY million,X26H,print p63,disclosed
+F10,ev_deliveries,2025FY,411082,vehicles,X25R,print p14,disclosed
+F11,ev_delivery_target_threshold,2025FY,350000,vehicles,X24A,p7; version 2025-03-18; target 350000; attainment >=,company_guidance
+F12,ev_deliveries,2026H1,185055,vehicles,X26H,print p9/p13,disclosed
+F13,ev_delivery_target,2026FY,550000,vehicles,X25A,p8,company_guidance
+F14,smartphone_revenue,2026H1,86392.014,CNY million,X26H,print p78,disclosed
+F15,smartphone_gross_profit,2026H1,8075.871,CNY million,X26H,print p78,disclosed
+F16,iot_revenue,2026H1,55959.16,CNY million,X26H,print p78,disclosed
+F17,iot_gross_profit,2026H1,12487.854,CNY million,X26H,print p78,disclosed
+F18,internet_revenue,2026H1,18512.009,CNY million,X26H,print p78,disclosed
+F19,internet_gross_profit,2026H1,14148.315,CNY million,X26H,print p78,disclosed
+F20,ev_ai_other_revenue,2026H1,44760.253,CNY million,X26H,print p78,disclosed
+F21,ev_ai_other_gross_profit,2026H1,8785.853,CNY million,X26H,print p78,disclosed
+F22,ev_ai_other_operating_loss_approx,2026H1,-5700,CNY million,X26H,print p13; rounded,disclosed
+F23,research_development_approx,2026H1,18200,CNY million,X26H,print p13; rounded,disclosed
+F24,research_plan_lower_bound,2026-2030,200000,CNY million,X25R,print p9; > cumulative,company_guidance
+F25,xiaomi_global_shipments,2026Q2,31.2,million units,OMD-G,table sell-in,disclosed
+F26,global_shipments,2026Q2,272.0,million units,OMD-G,table sell-in,disclosed
+F27,xiaomi_latin_america_shipments,2026Q2,4.9,million units,OMD-L,table sell-in,disclosed
+F28,latin_america_shipments,2026Q2,30.3,million units,OMD-L,table sell-in,disclosed
+F29,overseas_store_plan,future five years from 2025,10000,stores,X24P,p8; approximate target,company_guidance
+F30,overseas_new_retail_stores_lower_bound,2026H1,640,stores,X26H,print p10; >640,disclosed
