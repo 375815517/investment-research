@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T11:05:30.717356+00:00",
+      "final_url": "https://ir.mi.com/financial-information/quarterly-results",
+      "path": "/workspace/investment-research/.research-local/collections/3755c8e3220244938940e3047249af55/response-2a20405d86d24612b57a4d43443b777a.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-results"
+      },
+      "request_url": "https://ir.mi.com/financial-information/quarterly-results",
+      "rows": 0,
+      "sha256": "e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "size_bytes": 81313,
+      "source_id": "xiaomi-results"
+    }
+  },
+  "collection_id": "collection-6586df5f7aa84aa3acc5444fdf4f8bd8",
+  "document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:05:30.734173+00:00",
+  "origin_url": "https://ir.mi.com/financial-information/quarterly-results",
+  "publication_assertion": null,
+  "sha256": "e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+  "source_id": "xiaomi-results",
+  "status": "received"
+}

@@ -1,0 +1,135 @@
+{
+  "event_hash": "c5be168675e3684263b1fdbccd4e2d10e27cd7fcac764a6cd7841c723524d5cf",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-ff1991c2b0a21b82833af2cbba897616149ca09c45213ac0675b133e0af6bc2c",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/candidates/candidate-ff1991c2b0a21b82833af2cbba897616149ca09c45213ac0675b133e0af6bc2c.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent/2026/collection-1806c22b656e423893f832ce2ee51285/collection.json"
+      ],
+      "context": "2026-10-28",
+      "document_id": "doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/document.json",
+        "data/outputs/research-records/ingest-3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757/candidate.json",
+        "data/outputs/research-records/ingest-3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757/validation.json",
+        "data/outputs/research-records/ingest-3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757/review.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-16b75a92f61fda4b7e9b43f038ce0c803e886f1de4e6838ec0abefd90f9a3eef/market-observations.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-16b75a92f61fda4b7e9b43f038ce0c803e886f1de4e6838ec0abefd90f9a3eef/batch.json",
+        "data/outputs/research-records/ingest-3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757/receipt.json"
+      ],
+      "item_id": "item-0a4d5b023820e4a92cfb9d5b",
+      "listing_document_id": null,
+      "observed_date": "2026-10-28",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/6a42c3ec62a54c0b8183c8050a981bdd.json": "0ee86914631e87535bbbb6407ff21aaafcae4d7ef7b259f70ead5b063e499820"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/6a42c3ec62a54c0b8183c8050a981bdd.json"
+      ],
+      "stage": "verified",
+      "title": "hkex-daily 2026-10-28",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-4342a104df9e7a0e3b9748bbaf534c26404ed0b7decd19391014def26955d548",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/candidates/candidate-4342a104df9e7a0e3b9748bbaf534c26404ed0b7decd19391014def26955d548.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent/2026/collection-3e7f0c60b7c943c7bf5b358cb97f31d9/collection.json"
+      ],
+      "context": "2026-10-15",
+      "document_id": "doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/document.json",
+        "data/outputs/research-records/ingest-cdbd36ea7319ed4b610a74ccdca487aac483fde32fa0391bdd9e033cf41b49d5/candidate.json",
+        "data/outputs/research-records/ingest-cdbd36ea7319ed4b610a74ccdca487aac483fde32fa0391bdd9e033cf41b49d5/validation.json",
+        "data/outputs/research-records/ingest-cdbd36ea7319ed4b610a74ccdca487aac483fde32fa0391bdd9e033cf41b49d5/review.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-d16e4f64c5edef150eb1ac3140f28b55e71e43c640ef747aaf528b82c7d284fb/market-observations.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-d16e4f64c5edef150eb1ac3140f28b55e71e43c640ef747aaf528b82c7d284fb/batch.json",
+        "data/outputs/research-records/ingest-cdbd36ea7319ed4b610a74ccdca487aac483fde32fa0391bdd9e033cf41b49d5/receipt.json"
+      ],
+      "item_id": "item-0d1684dc71d32a38781125fd",
+      "listing_document_id": null,
+      "observed_date": "2026-10-15",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/d3364279f3d04ab8a7d8d5c9c9def8fe.json": "321b93ca27d88078f7cc5d9d8c6392395c9becc8006c1ad7494b38508f9751d1"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/d3364279f3d04ab8a7d8d5c9c9def8fe.json"
+      ],
+      "stage": "verified",
+      "title": "hkex-daily 2026-10-15",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-c82ba054b894f7f0763796d9e1d1cb72aae5a7ce35c021a8ae30cd36d556318b",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/candidates/candidate-c82ba054b894f7f0763796d9e1d1cb72aae5a7ce35c021a8ae30cd36d556318b.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent/2026/collection-4e0162063bf14e09ab5c7deeb8cd16fb/collection.json"
+      ],
+      "context": "2026-10-02",
+      "document_id": "doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/document.json",
+        "data/outputs/research-records/ingest-e99efff78ec58067cfc4145c47fedf142b7924716e732ed5191ec238bdbd0b76/candidate.json",
+        "data/outputs/research-records/ingest-e99efff78ec58067cfc4145c47fedf142b7924716e732ed5191ec238bdbd0b76/validation.json",
+        "data/outputs/research-records/ingest-e99efff78ec58067cfc4145c47fedf142b7924716e732ed5191ec238bdbd0b76/review.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-1f1c443315ab0fcf8116cc7c4c08dd17a3cf68f558432f5199d2a697b461f0c6/market-observations.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-1f1c443315ab0fcf8116cc7c4c08dd17a3cf68f558432f5199d2a697b461f0c6/batch.json",
+        "data/outputs/research-records/ingest-e99efff78ec58067cfc4145c47fedf142b7924716e732ed5191ec238bdbd0b76/receipt.json"
+      ],
+      "item_id": "item-184ad27290cf9a5d30e1c8d4",
+      "listing_document_id": null,
+      "observed_date": "2026-10-02",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/d5ee2c8877904b7289d4a57aefdf9635.json": "29969a625fa6e639a0a1a57578ab357060701ac9347d6d9ab40d85940a94a304"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/reviews/d5ee2c8877904b7289d4a57aefdf9635.json"
+      ],
+      "stage": "verified",
+      "title": "hkex-daily 2026-10-02",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm"
+    },
+    {
+      "attempts": 1,
+      "candidate_id": "candidate-cc6f486b2fb256a48fdec72f3105ed1593540326e0570f9beead4c92a6f7d085",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-8884f1c13a4df54c8cf767f1/candidates/candidate-cc6f486b2fb256a48fdec72f3105ed1593540326e0570f9beead4c92a6f7d085.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/original.html",
+        "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent/2026/collection-26ebbe148c514a0b8862abaebba98a87/collection.json"
+      ],
+      "context": "2026-10-29",
+      "document_id": "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+      "item_id": "item-38281525a862e9fcc8e6b51c",
+      "listing_document_id": null,
+      "observed_date": "2026-10-29",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {},
+      "review_refs": [],
+      "stage": "awaiting_review",
+      "title": "hkex-daily 2026-10-29",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm"
+    }
+  ],
+  "previous_hash": "6c13b43be5efb0b1209c54f024109e10a71c43df532e7c2dd3ba0378ea930c4a",
+  "recorded_at": "2026-10-30T11:04:38.240121+00:00",
+  "sequence": 18,
+  "task_id": "acquisition-8884f1c13a4df54c8cf767f1"
+}

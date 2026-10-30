@@ -1,0 +1,352 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "half_year",
+    "period_start": "2018-01-01",
+    "period_end": "2018-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated interim statements; six-month current reporting-period column; signed expenses retained",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 26,
+      "pattern": "^Revenues\\s*\\n[\\s\\S]*?^\\s*(?:[567]\\s+)?[\\d,]+(?:\\s+[\\d,]+){1,3}\\s*$",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Revenues\n    Value-addedservices                                                 42,069               36,804                88,946                71,912\n    Onlineadvertising                                                   14,110               10,148                24,799                17,036\n    Others                                                              17,496                 9,654               33,458                17,210\n\n                                                                        73,675               56,606               147,203              106,158"
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Costofrevenues                                       9                 (39,229)             (28,300)              (75,715)              (52,409)"
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Grossprofit                                                             34,446               28,306                71,488                53,749"
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {
+        "basis": "Interim original presentation includes investment gains and interest income, before 2023 annual report reclassification; not directly comparable with post-reclassification presentation"
+      },
+      "evidence_excerpt": "Operatingprofit                                                         21,807               22,560                52,499                41,832"
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+expenses?[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Incometaxexpense                                    11                  (3,602)               (3,970)               (9,348)              (7,628)"
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Profit(?:/\\(loss\\))?\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Profitfortheperiod                                                      18,580               18,254                42,553                32,802"
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity\\s+holders)\\s+of\\s+the\\s+Company[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "EquityholdersoftheCompany                                           17,867               18,231                41,157                32,707"
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      },
+      "evidence_excerpt": "–basic                                         12(a)                 1.893                 1.939                 4.363                3.480"
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      },
+      "evidence_excerpt": "–diluted                                      12(b)                  1.868                 1.914                 4.303                3.436"
+    },
+    {
+      "metric_id": "total-assets",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+assets[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Totalassets                                                                                                        646,808                554,672"
+    },
+    {
+      "metric_id": "total-liabilities",
+      "page": 30,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+liabilities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Totalliabilities                                                                                                   326,066               277,579"
+    },
+    {
+      "metric_id": "total-equity",
+      "page": 29,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+equity\\b(?!\\s+and)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Totalequity                                                                                                        320,742               277,093"
+    },
+    {
+      "metric_id": "cash-and-cash-equivalents",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cash\\s+and\\s+cash\\s+equivalents[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Cashandcashequivalents                                                                                         104,623                105,697"
+    },
+    {
+      "metric_id": "inventories",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Inventories[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "trade-receivables",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Trade\\s+and\\s+notes\\s+receivables|Trade\\s+receivables|Accounts\\s+receivable)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Accounts receivable as separately disclosed; notes inclusion not assumed"
+      },
+      "evidence_excerpt": "Accountsreceivable                                                                           21                  21,558                16,549"
+    },
+    {
+      "metric_id": "trade-payables",
+      "page": 30,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Trade\\s+payables|Accounts\\s+payable)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Accountspayable                                                                              24                 60,838                50,085"
+    },
+    {
+      "metric_id": "current-assets",
+      "page": 28,
+      "pattern": "^Current\\s+assets\\s*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Total\\s+assets)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Currentassets\n    Inventories                                                                                                          306                   295\n    Accountsreceivable                                                                           21                  21,558                16,549\n    Prepayments,depositsandotherassets                                                           18                  23,499                17,110\n    Otherfinancialassets                                                                      4(a),19                    394                   465\n    Financialassetsatfairvaluethroughprofitorloss                                             4(a),16                  5,782                      –\n    Termdeposits                                                                                                     23,638                36,724\n    Restrictedcash                                                                                                     2,051                 1,606\n    Cashandcashequivalents                                                                                         104,623                105,697\n\n                                                                                                                   181,851                178,446"
+    },
+    {
+      "metric_id": "current-liabilities",
+      "page": 30,
+      "pattern": "^Current\\s+liabilities\\s*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Total\\s+liabilities)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "Currentliabilities\n    Accountspayable                                                                              24                 60,838                50,085\n    Otherpayablesandaccruals                                                                     25                 26,731                29,433\n    Borrowings                                                                                   27                 28,109                15,696\n    Notespayable                                                                                 28                 14,059                  4,752\n    Currentincometaxliabilities                                                                                       7,485                 8,708\n    Othertaxliabilities                                                                                                 825                   934\n    Deferredrevenue                                                                              29                 40,827                42,132\n\n                                                                                                                   178,874               151,740"
+    },
+    {
+      "metric_id": "equity-attributable-to-owners",
+      "page": 29,
+      "pattern": "^Equity attributable to [^\\n]*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Non-controlling\\s+interests)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      },
+      "evidence_excerpt": "EquityattributabletoequityholdersoftheCompany\n               Sharecapital                                                                                 22                         –                     –\n               Sharepremium                                                                                                     25,215                22,204\n               Sharesheldforshareawardschemes                                                                                    (4,184)              (3,970)\n               Otherreserves                                                                               4(a)                 17,204                35,158\n               Retainedearnings                                                                            4(a)               256,551               202,682\n\n                                                                                                                              294,786               256,074"
+    },
+    {
+      "metric_id": "short-term-borrowings",
+      "page": 30,
+      "pattern": "^Current\\s+liabilities\\s*\\n[\\s\\S]*?^\\s*Borrowings\\s+[^\\n]+",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Borrowings classified as current liabilities, including any current portion of long-term borrowing"
+      },
+      "evidence_excerpt": "Currentliabilities\n    Accountspayable                                                                              24                 60,838                50,085\n    Otherpayablesandaccruals                                                                     25                 26,731                29,433\n    Borrowings                                                                                   27                 28,109                15,696"
+    },
+    {
+      "metric_id": "long-term-borrowings",
+      "page": 29,
+      "pattern": "^Non-current\\s+liabilities\\s*\\n[\\s\\S]*?^\\s*Borrowings\\s+[^\\n]+",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Borrowings classified as non-current liabilities; excludes separately disclosed notes payable"
+      },
+      "evidence_excerpt": "Non-currentliabilities\n               Borrowings                                                                                   27                  77,876                82,094"
+    },
+    {
+      "metric_id": "operating-cash-flow",
+      "page": 33,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?operating activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {},
+      "evidence_excerpt": "Netcashflowsgeneratedfromoperatingactivities                                                                         41,403                47,082"
+    },
+    {
+      "metric_id": "investing-cash-flow",
+      "page": 33,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?investing activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {},
+      "evidence_excerpt": "Netcashflowsusedininvestingactivities                                                                               (72,896)              (50,333)"
+    },
+    {
+      "metric_id": "financing-cash-flow",
+      "page": 34,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?financing activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {},
+      "evidence_excerpt": "Netcashflowsgeneratedfromfinancingactivities                                                                       30,123                  2,590"
+    },
+    {
+      "metric_id": "cash-flow-net-change",
+      "page": 34,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Net\\s+(?:increase|decrease|\\(decrease\\)|\\(increase\\))(?:/\\((?:decrease|increase)\\)|/(?:decrease|increase))?\\s+in\\s+cash\\s+and\\s+cash\\s+equivalents[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {},
+      "evidence_excerpt": "Netdecreaseincashandcashequivalents                                                                                 (1,370)                 (661)"
+    },
+    {
+      "metric_id": "cash-flow-exchange-effect",
+      "page": 34,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Effects\\s+of\\s+exchange\\s+rate\\s+changes\\s+on\\s+cash\\s+and\\s+cash\\s+equivalents|Exchange[^\\n]*on\\s+cash\\s+and\\s+cash\\s+equivalents)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {},
+      "evidence_excerpt": "Exchangegains/(losses)oncashandcashequivalents                                                                         296                  (940)"
+    },
+    {
+      "metric_id": "finance-costs-net",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs,\\s+net[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {},
+      "evidence_excerpt": "Financecosts,net                                    10                  (1,151)                 (834)               (1,805)              (1,525)"
+    }
+  ],
+  "selection_review": {
+    "report_year": 2018,
+    "statement_pages": {
+      "income": [
+        26
+      ],
+      "balance": [
+        28,
+        29,
+        30
+      ],
+      "cash": [
+        33,
+        34
+      ]
+    },
+    "missing": [
+      {
+        "metric": "finance-costs",
+        "reason": "ambiguous_or_absent_row",
+        "matches": 0
+      }
+    ],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

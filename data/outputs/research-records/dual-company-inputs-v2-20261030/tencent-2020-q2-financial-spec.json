@@ -1,0 +1,139 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2020-04-01",
+    "period_end": "2020-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated interim statements; directly disclosed three-month April-June current-year column; not a difference of cumulative values",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 25,
+      "pattern": "^Revenues\\s*\\n[\\s\\S]*?^\\s*(?:[567]\\s+)?[\\d,]+(?:\\s+[\\d,]+){1,3}\\s*$",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "basis": "Interim original presentation includes investment gains and interest income, before 2023 annual report reclassification; not directly comparable with post-reclassification presentation"
+      }
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+expenses?[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Profit(?:/\\(loss\\))?\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity\\s+holders)\\s+of\\s+the\\s+Company[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "finance-costs-net",
+      "page": 25,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs,\\s+net[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    }
+  ],
+  "selection_review": {
+    "report_year": 2020,
+    "statement_pages": {
+      "income": [
+        25
+      ],
+      "balance": [
+        27,
+        28,
+        29
+      ],
+      "cash": [
+        34,
+        35
+      ]
+    },
+    "missing": [
+      {
+        "metric": "finance-costs",
+        "reason": "ambiguous_or_absent_row",
+        "matches": 0
+      }
+    ],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

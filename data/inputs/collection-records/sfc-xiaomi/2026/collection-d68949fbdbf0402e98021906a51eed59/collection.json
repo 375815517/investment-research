@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/plain",
+      "fetched_at": "2026-10-30T10:52:27.423635+00:00",
+      "final_url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/10/Short_Position_Reporting_Aggregated_Data_20251010.csv?rev=f75db4acb90748169e05889d51d4e1af",
+      "path": "/workspace/investment-research/.research-local/collections/b5879ab39992408da253824184031b99/response-d05ac2104d54454599942dcbdd69d6c6.csv",
+      "request": {
+        "parameter_names": [],
+        "source_id": "sfc-xiaomi"
+      },
+      "request_url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/10/Short_Position_Reporting_Aggregated_Data_20251010.csv?rev=f75db4acb90748169e05889d51d4e1af",
+      "rows": 2,
+      "sha256": "63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef",
+      "size_bytes": 44697,
+      "source_id": "sfc-xiaomi"
+    }
+  },
+  "collection_id": "collection-d68949fbdbf0402e98021906a51eed59",
+  "document_id": "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:52:27.425988+00:00",
+  "origin_url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/10/Short_Position_Reporting_Aggregated_Data_20251010.csv?rev=f75db4acb90748169e05889d51d4e1af",
+  "publication_assertion": null,
+  "sha256": "63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef",
+  "source_id": "sfc-xiaomi",
+  "status": "received"
+}

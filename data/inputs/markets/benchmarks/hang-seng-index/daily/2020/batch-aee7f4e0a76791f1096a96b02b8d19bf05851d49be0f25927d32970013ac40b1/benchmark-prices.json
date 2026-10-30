@@ -1,0 +1,50 @@
+[
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "26314.630",
+    "currency": null,
+    "excerpt": "[\"2020-12-28\",\"26288.370\",\"26314.630\",\"26514.080\",\"26264.320\",\"190735176150.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-12-28",
+    "record_kind": "source_reported",
+    "trading_date": "2020-12-28",
+    "unit": "points"
+  },
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "26568.490",
+    "currency": null,
+    "excerpt": "[\"2020-12-29\",\"26490.450\",\"26568.490\",\"26618.780\",\"26432.910\",\"138819563680.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-12-29",
+    "record_kind": "source_reported",
+    "trading_date": "2020-12-29",
+    "unit": "points"
+  },
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "27147.110",
+    "currency": null,
+    "excerpt": "[\"2020-12-30\",\"26695.110\",\"27147.110\",\"27159.470\",\"26670.970\",\"153320852180.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-12-30",
+    "record_kind": "source_reported",
+    "trading_date": "2020-12-30",
+    "unit": "points"
+  },
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "27231.130",
+    "currency": null,
+    "excerpt": "[\"2020-12-31\",\"27194.790\",\"27231.130\",\"27340.990\",\"27163.510\",\"105700642140.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-12-31",
+    "record_kind": "source_reported",
+    "trading_date": "2020-12-31",
+    "unit": "points"
+  }
+]

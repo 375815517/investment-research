@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "evidence_sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "excerpt": "Release Time: 02/04/2020 17:51 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report] ANNUAL REPORT 2019 ( 2MB )",
+  "locator": "html:table:ANNUAL REPORT 2019",
+  "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2020-04-02",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:57:43.800912+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa"
+}

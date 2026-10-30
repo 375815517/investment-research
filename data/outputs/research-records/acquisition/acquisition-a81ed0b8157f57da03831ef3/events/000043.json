@@ -1,0 +1,318 @@
+{
+  "event_hash": "522f179f3d6e8c1fb5ceb07a609a3fc0d93a63a60cf95af6ac70fe5231c8f3b1",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-d5a00c4ac45ba8387af27132d6cbe1b0505a137c8705a7c8776d16189da5568c",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/candidates/candidate-d5a00c4ac45ba8387af27132d6cbe1b0505a137c8705a7c8776d16189da5568c.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-dd664d8ef34440669ba640e0cd039f53/collection.json"
+      ],
+      "context": "Financial reports",
+      "document_id": "doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/document.json",
+        "data/outputs/research-records/ingest-f8908ca504e21b8fc8f1bfecc682b44d64c0151bcc56c692e7c76c25b35eda54/candidate.json",
+        "data/outputs/research-records/ingest-f8908ca504e21b8fc8f1bfecc682b44d64c0151bcc56c692e7c76c25b35eda54/validation.json",
+        "data/outputs/research-records/ingest-f8908ca504e21b8fc8f1bfecc682b44d64c0151bcc56c692e7c76c25b35eda54/review.json",
+        "data/inputs/companies/tencent/financials/2018/batch-b1f36c24713dd5dad432d94d2718746601cd0942ab85b9107c08e766873ec345/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2018/batch-b1f36c24713dd5dad432d94d2718746601cd0942ab85b9107c08e766873ec345/batch.json",
+        "data/outputs/research-records/ingest-f8908ca504e21b8fc8f1bfecc682b44d64c0151bcc56c692e7c76c25b35eda54/receipt.json"
+      ],
+      "item_id": "item-00d0e5a0c108b91ab802a602",
+      "listing_document_id": "doc-5e0a36e93c1841e4633d9e756a3393a7723787bddd59581c131d98429d45a8ea",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/e98ad2f46eb24b4c8817d384ecf686f2.json": "4257d1e641eb6f5c0a10804ba61f06d441dfbe202e287401b0b506a4af44bbab"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/e98ad2f46eb24b4c8817d384ecf686f2.json"
+      ],
+      "stage": "verified",
+      "title": "2018 Interim Report",
+      "url": "https://static.www.tencent.com/storage/uploads/2019/11/09/8814f91dcf0822b8c48fe48e1b49617e.PDF"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-76b5c299229125513f679b68afed139a2e77bc880d9365d800c1de5240f709ec",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/candidates/candidate-76b5c299229125513f679b68afed139a2e77bc880d9365d800c1de5240f709ec.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-5cc4576a726c4e6da993bccefdf866b8/collection.json"
+      ],
+      "context": "2018",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/document.json",
+        "data/outputs/research-records/ingest-11762b0cab8e2e2f37cd8d4edab3c824e393407d331b1dcc1c5c01f2b7c57ea4/candidate.json",
+        "data/outputs/research-records/ingest-11762b0cab8e2e2f37cd8d4edab3c824e393407d331b1dcc1c5c01f2b7c57ea4/validation.json",
+        "data/outputs/research-records/ingest-11762b0cab8e2e2f37cd8d4edab3c824e393407d331b1dcc1c5c01f2b7c57ea4/review.json",
+        "data/inputs/companies/tencent/financials/2018/batch-0a4c818ba56a8c4a8a1c89187c410ac2c23fde99602c28e3c47091ae759ec393/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2018/batch-0a4c818ba56a8c4a8a1c89187c410ac2c23fde99602c28e3c47091ae759ec393/batch.json",
+        "data/outputs/research-records/ingest-11762b0cab8e2e2f37cd8d4edab3c824e393407d331b1dcc1c5c01f2b7c57ea4/receipt.json"
+      ],
+      "item_id": "item-392daf58613a95c159a40c71",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/4f31a8b1353848e995747538a23c36f7.json": "d9e16e6b8d398a9dac16818e5aca1a0ca98462221868c52af3e37cd35d63a0d4"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/4f31a8b1353848e995747538a23c36f7.json"
+      ],
+      "stage": "verified",
+      "title": "2018 Annual Report",
+      "url": "https://static.www.tencent.com/storage/uploads/2019/11/09/da62661e976ea6cf64551dc5cdf079ea.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-170e6e9f786c6c1fddbe5e34989d7de05f25830f1e7d85dd0a000f6e74b466e7",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/candidates/candidate-170e6e9f786c6c1fddbe5e34989d7de05f25830f1e7d85dd0a000f6e74b466e7.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-9f41a8ed116146c8b1f04fd5c0d6cdf6/collection.json"
+      ],
+      "context": "2025 Annual Report",
+      "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/document.json",
+        "data/outputs/research-records/ingest-7dbc0b74815f97e0ee62043f3117fa14fbf3aef9fd7b028f13a3b3d5ca3db73d/candidate.json",
+        "data/outputs/research-records/ingest-7dbc0b74815f97e0ee62043f3117fa14fbf3aef9fd7b028f13a3b3d5ca3db73d/validation.json",
+        "data/outputs/research-records/ingest-7dbc0b74815f97e0ee62043f3117fa14fbf3aef9fd7b028f13a3b3d5ca3db73d/review.json",
+        "data/inputs/companies/tencent/financials/2025/batch-c9dd66ed2af17bc5017a9ebe3027d78638909b048c5246526f306a6d3895b6f3/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2025/batch-c9dd66ed2af17bc5017a9ebe3027d78638909b048c5246526f306a6d3895b6f3/batch.json",
+        "data/outputs/research-records/ingest-7dbc0b74815f97e0ee62043f3117fa14fbf3aef9fd7b028f13a3b3d5ca3db73d/receipt.json"
+      ],
+      "item_id": "item-4c36e4d117f5136bbde26afc",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/cb4f5c038c1c4a61a0b18d1fdb8e39de.json": "424ca963b421b7d50a511e84fe1cb57507faee8a72287929c4124b03bdfb2164"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-a81ed0b8157f57da03831ef3/reviews/cb4f5c038c1c4a61a0b18d1fdb8e39de.json"
+      ],
+      "stage": "verified",
+      "title": "2025 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2025/08/26/d1d2fb988f5e910e254b3abb41dadb0f.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-147d649be6e347f9b58a45d5baf8644e/collection.json"
+      ],
+      "context": "2021 Annual Report",
+      "document_id": "doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "item_id": "item-566e7cfbca1965edfc75a127",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2021 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2021/08/31/7276c2279348d70e0b0f74f6c470f92e.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-3464bebd2ff24099a972a7ce7792fb8b/collection.json"
+      ],
+      "context": "2025",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "item_id": "item-60c1f4794c890ca471b9ffc3",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2025 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-59e188c6d7be47aeaa20eadb7bd3a80a/collection.json"
+      ],
+      "context": "2024 Annual Report",
+      "document_id": "doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357",
+      "item_id": "item-69a2ccb194e08faac6be5c57",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2024 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2024/08/27/b4be8f6abc923f2bce5fe6ee766648c8.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-9286b5cfbf9e4875830466ac5c3f77da/collection.json"
+      ],
+      "context": "2019",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "item_id": "item-7a05e41d27d438efae411ce8",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2019 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2020/04/02/ed18b0a8465d8bb733e338a1abe76b73.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-aabe65b129b0419bb79c24eb6e000189/collection.json"
+      ],
+      "context": "2021",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "item_id": "item-7c514c0d779dbc564b4a748c",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2021 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2022/04/07/7c31a327fb1c068906b70ba7ebede899.PDF"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-3521dbc188864c29aabf8e92f504d107/collection.json"
+      ],
+      "context": "Financial reports",
+      "document_id": "doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "item_id": "item-89029ae77f4b19150892b083",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2022 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2022/09/01/9865e43220e76fe82356b91d3b2a70e6.PDF"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-1d0be1d25dcc4bf2987db136606edfa6/collection.json"
+      ],
+      "context": "2023 Annual Report",
+      "document_id": "doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "item_id": "item-8d4bbd9e57130293a84ce876",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2023 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2023/08/29/e52fe16910b6e500fabf46bf4011bfad.PDF"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-588848979ded4470bd7f20d47f209b48/collection.json"
+      ],
+      "context": "2020",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "item_id": "item-966bedff2c054eb6f931f4d2",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2020 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2021/04/08/960eae1f18dd716fd3a7d704e123d7a5.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-9b375fd4c1454223807be62f4bacbdaf/collection.json"
+      ],
+      "context": "2024",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "item_id": "item-9bd2957e102745f110e036dd",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2024 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2025/04/08/1132b72b565389d1b913aea60a648d73.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-471f53f84d2f48d69506d49e6eb0b9c8/collection.json"
+      ],
+      "context": "2023",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "item_id": "item-acb9c03328651218192311ab",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2023 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2024/04/08/e95c902973fc282be3b3e285c6245281.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-a714a75209764997bfb5442ddef33973/collection.json"
+      ],
+      "context": "Financial reports",
+      "document_id": "doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "item_id": "item-b74e0d375f6db3a548036aff",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2026 Interim Report",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-e576e92dd47f487a95f8c21bdf8520c1/collection.json"
+      ],
+      "context": "2019 Annual Report",
+      "document_id": "doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "item_id": "item-c46eea082bed9b230ed585c8",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2019 Interim Report",
+      "url": "https://static.www.tencent.com/storage/uploads/2019/11/09/7536055957ef88a09712fc5c5c24abab.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-75a3feb19f3a4e10afa5a7b2639de647/collection.json"
+      ],
+      "context": "2022",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "item_id": "item-c6a7d685b4ae6ed9b0432036",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "stage": "awaiting_extraction",
+      "title": "2022 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2023/04/06/214dce4c5312264800b20cfab64861ba.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/original.pdf",
+        "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/document.json",
+        "data/inputs/collection-records/tencent-reports/2026/collection-1e1891ac0c4e4197b0430058577f0d80/collection.json"
+      ],
+      "context": "2020 Annual Report",
+      "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "item_id": "item-d91ed57e036e9a3a0083466b",
+      "listing_document_id": "doc-297a9b73b5d7b162f7e0d3b5854b75c59a37fb523f5f223cbe39fa54e99b59f6",
+      "stage": "awaiting_extraction",
+      "title": "2020 Interim Report",
+      "url": "https://static.www.tencent.com/website-2026-upload/2020-interim-report-1651c7.pdf"
+    }
+  ],
+  "previous_hash": "85cab2ca334c3316935a238171b30a46432ad432a2f2502bb3c475d60922251c",
+  "recorded_at": "2026-10-30T11:42:09.406803+00:00",
+  "sequence": 43,
+  "task_id": "acquisition-a81ed0b8157f57da03831ef3"
+}

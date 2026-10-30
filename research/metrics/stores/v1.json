@@ -1,0 +1,29 @@
+{
+  "metric_id": "stores",
+  "version": "1",
+  "name": "门店数",
+  "description": "来源披露的门店数；人数、账号、订阅和设备的统计对象不得互换，具体总体和统计窗口须由basis及维度描述。",
+  "dataset_id": "operating-observations",
+  "unit": "units",
+  "measure_kind": "stock",
+  "allowed_period_types": [
+    "instant"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": false,
+  "comparability_notes": "出货不等于零售或交付，月活不等于累计用户或年平均用户；跨产品/地域/总体比较必须有相同定义和时期。"
+}

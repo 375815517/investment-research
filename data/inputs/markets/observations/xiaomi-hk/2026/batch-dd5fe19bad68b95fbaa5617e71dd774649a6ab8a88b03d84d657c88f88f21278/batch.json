@@ -1,0 +1,99 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-1fc0597f9a49ece40afb4727ecdf0b4727b56018710b050936e98e469bdd7c04/candidate.json",
+  "batch_id": "batch-dd5fe19bad68b95fbaa5617e71dd774649a6ab8a88b03d84d657c88f88f21278",
+  "candidate_hash": "1fc0597f9a49ece40afb4727ecdf0b4727b56018710b050936e98e469bdd7c04",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-dd5fe19bad68b95fbaa5617e71dd774649a6ab8a88b03d84d657c88f88f21278/market-observations.json",
+      "sha256": "70cbcaf3db1856e9143991c47ddec8fc60b8d5fb81cbeef24aa933aeb71129a8"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:28:31.886707+00:00",
+  "parser_version": "hkex-daily-turnover-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T11:01:44.681655+00:00",
+  "rows": [
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 18,736,400 483,583,896 88,051,477 2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "short_sale_volume",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "18736400",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 18,736,400 483,583,896 88,051,477 2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "short_sale_turnover",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "483583896",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 18,736,400 483,583,896 88,051,477 2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "volume",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "88051477",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 18,736,400 483,583,896 88,051,477 2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "turnover",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "2273256204",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "hkex-xiaomi",
+  "status": "complete",
+  "subject_id": "xiaomi-hk",
+  "supersedes": []
+}

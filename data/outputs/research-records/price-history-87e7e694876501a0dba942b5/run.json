@@ -1,0 +1,66 @@
+{
+  "finished_at": "2026-10-30T10:54:08.804825+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "benchmark-prices",
+    "end": "2026-03-31",
+    "source_id": "hsi-chart",
+    "start": "2026-01-01",
+    "subject_id": "hang-seng-index"
+  },
+  "started_at": "2026-10-30T10:53:57.858275+00:00",
+  "status": "partial",
+  "windows": [
+    {
+      "code": "STALE_PLAN",
+      "collection_refs": [
+        "data/inputs/source-files/hsi-chart/2026/doc-bf0c43e97088076cdb0008afa3fa88f5ffe3eab2210845aa35387ec70da50a36/v1/original.json",
+        "data/inputs/source-files/hsi-chart/2026/doc-bf0c43e97088076cdb0008afa3fa88f5ffe3eab2210845aa35387ec70da50a36/v1/document.json",
+        "data/inputs/collection-records/hsi-chart/2026/collection-72f5ecc77db54fb298b2b8c5c81f4cc8/collection.json"
+      ],
+      "document_id": "doc-bf0c43e97088076cdb0008afa3fa88f5ffe3eab2210845aa35387ec70da50a36",
+      "end": "2026-03-31",
+      "reason": "Repository or review changed after planning",
+      "start": "2026-01-01",
+      "status": "blocked",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-46398a46f799a23856954696b96b9c7aa660e28e43345ce88663f224646dfd5b/e8d29d0dbc542a9920d7ab9907f045ec4dabeb6dd26e1fde5633604bb9d4487c.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "review"
+        ],
+        "operation_id": "op-de809d039a6941e7837c92a9cdf925db",
+        "protocol_version": "1",
+        "status": "review_required",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "b3085b7d06772ab05a0ecd4ba9470c8b6576a3f21bf39e79f17483c40e2d3882",
+          "candidate_id": "candidate-46398a46f799a23856954696b96b9c7aa660e28e43345ce88663f224646dfd5b",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 60,
+          "rule_version": "v1",
+          "status": "review_required"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "scope": "segment",
+    "dimensions": {},
+    "basis": "MD&A revenue by segment/product line; CNY million rounded to one decimal, not audited-statement thousands precision",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^Smartphone [×x] AIoT\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "segment": "smartphone-aiot"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^Smart EV(?:, AI)? and other new initiatives\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "segment": "smart-ev-ai-other-initiatives"
+        },
+        "basis": "Reported annual segment revenue; 2024 Smart EV and other initiatives vs 2025 Smart EV, AI and other initiatives are not silently reclassified"
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^\\s*Smartphones\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "smartphones"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^\\s*IoT and lifestyle products\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "iot-lifestyle"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^\\s*Internet services\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "internet-services"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^\\s*Other related businesses\\s+[\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "other-related-businesses"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 16,
+      "pattern": "consisting of RMB[\\d,]+(?:\\.\\d+)?(?= billion from smart EV)",
+      "numeric_columns": 1,
+      "overrides": {
+        "scale": "billions",
+        "scope": "product",
+        "dimensions": {
+          "segment": "smart-ev-ai-other-initiatives",
+          "product": "smart-ev"
+        },
+        "basis": "Smart EV product revenue component of EV/AI/other new-initiatives segment, rounded CNY billion; not whole segment"
+      }
+    },
+    {
+      "metric_id": "gross-margin",
+      "page": 14,
+      "pattern": "gross profit margin of our smartphone × AIoT segment reached a record high of [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "percent",
+        "scale": "units",
+        "currency": null,
+        "measure_kind": "ratio",
+        "dimensions": {
+          "segment": "smartphone-aiot"
+        },
+        "basis": "Source reported segment gross profit margin, percent"
+      }
+    },
+    {
+      "metric_id": "gross-margin",
+      "page": 14,
+      "pattern": "with a gross profit margin of [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "percent",
+        "scale": "units",
+        "currency": null,
+        "measure_kind": "ratio",
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "smartphones"
+        },
+        "basis": "Source reported smartphone product gross profit margin, percent"
+      }
+    },
+    {
+      "metric_id": "gross-margin",
+      "page": 15,
+      "pattern": "Gross profit margin reached a\\s+record high of [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "percent",
+        "scale": "units",
+        "currency": null,
+        "measure_kind": "ratio",
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "iot-lifestyle"
+        },
+        "basis": "Source reported IoT and lifestyle product gross profit margin, percent"
+      }
+    },
+    {
+      "metric_id": "gross-margin",
+      "page": 16,
+      "pattern": "margin of our internet services reached [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "percent",
+        "scale": "units",
+        "currency": null,
+        "measure_kind": "ratio",
+        "scope": "product",
+        "dimensions": {
+          "segment": "smartphone-aiot",
+          "product": "internet-services"
+        },
+        "basis": "Source reported internet services product gross profit margin, percent"
+      }
+    },
+    {
+      "metric_id": "gross-margin",
+      "page": 16,
+      "pattern": "(?:smart EV and other new initiatives segment reached|smart EV, AI and other new initiatives segment\\s+reached) [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "percent",
+        "scale": "units",
+        "currency": null,
+        "measure_kind": "ratio",
+        "dimensions": {
+          "segment": "smart-ev-ai-other-initiatives"
+        },
+        "basis": "Source reported gross profit margin of whole new-initiatives segment; not standalone EV margin"
+      }
+    }
+  ],
+  "selection_review": {
+    "report_year": 2025,
+    "status": "awaiting_independent_review",
+    "limitations": [
+      "MD&A rounded amounts retain source precision",
+      "Product components and parent segments must not be added together",
+      "Different year segment names preserved; no assumption about restated organizational scope"
+    ]
+  }
+}

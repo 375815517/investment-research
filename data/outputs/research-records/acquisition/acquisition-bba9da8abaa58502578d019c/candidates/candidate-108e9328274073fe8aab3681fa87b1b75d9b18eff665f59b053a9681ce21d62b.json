@@ -1,0 +1,42 @@
+{
+  "candidate_id": "candidate-108e9328274073fe8aab3681fa87b1b75d9b18eff665f59b053a9681ce21d62b",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "document_id": "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec",
+  "document_sha256": "d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec",
+  "parser_version": "sfc-short-positions-v1",
+  "records": [
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": null,
+      "excerpt": "16/10/2026,1810,XIAOMI-W,1379970926,36790024887",
+      "locator": "text:line:358",
+      "metric_id": "reported_short_position",
+      "observed_date": "2026-10-16",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "1379970926",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": "HKD",
+      "excerpt": "16/10/2026,1810,XIAOMI-W,1379970926,36790024887",
+      "locator": "text:line:358",
+      "metric_id": "reported_short_position_value",
+      "observed_date": "2026-10-16",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "36790024887",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "sfc-xiaomi",
+  "supersedes": []
+}

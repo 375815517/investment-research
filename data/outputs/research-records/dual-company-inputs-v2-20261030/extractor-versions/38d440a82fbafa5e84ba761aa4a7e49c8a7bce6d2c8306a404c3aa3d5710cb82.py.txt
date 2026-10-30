@@ -1,0 +1,100 @@
+"""Replay reviewed page/row selections into candidates, never directly into input data.
+
+A specification binds an archived document, physical page, unique row expression,
+column count and semantic metadata. Review the generated rows against page headings
+and footnotes before using the shared prepare/review/ingest service.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+from pathlib import Path
+
+from pypdf import PdfReader
+
+from investment_domain import FinancialObservation, OperatingObservation
+from investment_repository import Repository
+
+NUMBER = r"(?:\(?-?\d[\d,]*(?:\.\d+)?\)?|[—–-])"
+
+
+def number(value: str) -> str:
+    value = value.replace(",", "")
+    if value in {"—", "–", "-"}:
+        raise ValueError("Dashes require explicit semantic review; they are not automatically zero")
+    return "-" + value[1:-1] if value.startswith("(") else value
+
+
+def extract(root: Path, specification: dict) -> dict:
+    repository = Repository(root)
+    document, metadata = repository.document(specification["document_id"])
+    reader = PdfReader(repository.path(document["path"]))
+    cache = {}
+    records = []
+    for selection in specification["selections"]:
+        page = selection["page"]
+        if page not in cache:
+            cache[page] = reader.pages[page - 1].extract_text()
+        text = cache[page]
+        matches = list(re.finditer(selection["pattern"], text, re.MULTILINE | re.IGNORECASE))
+        if len(matches) != 1:
+            raise ValueError(f"{selection['metric_id']} page {page}: expected one row, got {len(matches)}")
+        excerpt = matches[0].group(0).strip()
+        # Only trailing numeric columns are interpreted; row labels and note numbers remain evidence.
+        columns = selection.get("numeric_columns", 2)
+        suffix = re.search(rf"((?:{NUMBER}\s+){{{columns - 1}}}{NUMBER})\s*$", excerpt)
+        if suffix is None:
+            raise ValueError(f"Cannot find {columns} numeric columns: {excerpt}")
+        values = re.findall(NUMBER, suffix[1])
+        value = number(values[selection.get("value_column", 0)])
+        if "evidence_excerpt" in selection:
+            # PDF reading orders can space superscripts differently. An explicit
+            # reviewed citation must still occur verbatim in the validator's layout.
+            excerpt = selection["evidence_excerpt"]
+            layout = reader.pages[page - 1].extract_text(extraction_mode="layout")
+            if " ".join(excerpt.split()) not in " ".join(layout.split()):
+                raise ValueError("Reviewed evidence excerpt is absent from PDF layout")
+        record = dict(specification["defaults"])
+        record.update(selection.get("overrides", {}))
+        record.update(
+            company_id=specification["company_id"],
+            metric_id=selection["metric_id"],
+            source_value=value,
+            locator=f"pdf:page:{page}",
+            excerpt=excerpt,
+        )
+        model = FinancialObservation if specification["dataset_id"] == "financial-observations" else OperatingObservation
+        records.append(model.model_validate(record).model_dump(mode="json"))
+    return dict(
+        status="candidate_only",
+        document_id=document["document_id"],
+        document_sha256=document["sha256"],
+        metadata_ref=metadata,
+        dataset_id=specification["dataset_id"],
+        parser_version="reviewed-page-row-selections-v1",
+        script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        records=records,
+        limitations=[
+            "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+            "Generated candidates are not admitted observations until shared validation and review succeed",
+        ],
+    )
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--workspace", type=Path, default=Path.cwd())
+    parser.add_argument("--spec", required=True, type=Path)
+    parser.add_argument("--output", required=True, type=Path)
+    args = parser.parse_args()
+    result = extract(args.workspace, json.loads(args.spec.read_text()))
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps(dict(status=result["status"], records=len(result["records"]), output=str(args.output))))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,36 @@
+{
+  "event_hash": "722a0ebf9bf43be887def334945865b1dfd8e7943d9d417e2b261caabdecf8b1",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-f858bddba20032a7f79275a08da020ebf8a21c27c8aacb9d06dd404685b3164d/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-f858bddba20032a7f79275a08da020ebf8a21c27c8aacb9d06dd404685b3164d/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-96a9cdada2bc461d96e99de2640bd2fd/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-f858bddba20032a7f79275a08da020ebf8a21c27c8aacb9d06dd404685b3164d",
+      "item_id": "item-7c88dee51e2855fe0ce94930",
+      "listing_document_id": "doc-8a0a0afda55c7394415688e82e1bbf563cb15ed9907568af1805d93491f5cd30",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "DISTRIBUTION IN CONNECTION WITH THE SPIN-OFF AND SEPARATE LISTING OF TENCENT MUSIC ENTERTAINMENT GROUP",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0110/ltn20190110846.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-a5e15d757a34b04412b2eb28",
+      "listing_document_id": "doc-8a0a0afda55c7394415688e82e1bbf563cb15ed9907568af1805d93491f5cd30",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "DECLARATION OF A DISTRIBUTION IN CONNECTION WITH THE SPIN-OFF AND SEPARATE LISTING OF TENCENT MUSIC ENTERTAINMENT GROUP",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1213/ltn20181213057.pdf"
+    }
+  ],
+  "previous_hash": null,
+  "recorded_at": "2026-10-30T11:32:58.844709+00:00",
+  "sequence": 1,
+  "task_id": "acquisition-a00ba07825c57bc223822be5"
+}

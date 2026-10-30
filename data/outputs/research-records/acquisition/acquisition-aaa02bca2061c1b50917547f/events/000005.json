@@ -1,0 +1,42 @@
+{
+  "event_hash": "f25578466d33676a63ae925d81ad0cd957ad1f85512600b2c42d14768dc6eefb",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-ce13cee74d545faf0f149f727953dc401d3c18120b9bc8632e343c0a06d617fe",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-aaa02bca2061c1b50917547f/candidates/candidate-ce13cee74d545faf0f149f727953dc401d3c18120b9bc8632e343c0a06d617fe.json",
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-070457a516b44b7283e335760cc2537b/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "ingest_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b/v1/document.json",
+        "data/outputs/research-records/ingest-da9f0686b3daa5456b4ceb192652c74406645c971f6dedb40d190ed2f7d9a2f7/candidate.json",
+        "data/outputs/research-records/ingest-da9f0686b3daa5456b4ceb192652c74406645c971f6dedb40d190ed2f7d9a2f7/validation.json",
+        "data/outputs/research-records/ingest-da9f0686b3daa5456b4ceb192652c74406645c971f6dedb40d190ed2f7d9a2f7/review.json",
+        "data/inputs/companies/xiaomi/financials/2023/batch-6d18281e3738e0c1559f623fe1562aaed4ebc3adc35d58af0329cf4cb44f89bf/financial-observations.json",
+        "data/inputs/companies/xiaomi/financials/2023/batch-6d18281e3738e0c1559f623fe1562aaed4ebc3adc35d58af0329cf4cb44f89bf/batch.json",
+        "data/outputs/research-records/ingest-da9f0686b3daa5456b4ceb192652c74406645c971f6dedb40d190ed2f7d9a2f7/receipt.json"
+      ],
+      "item_id": "item-f1f20fb4e74bdb8e7aff9514",
+      "listing_document_id": "doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-aaa02bca2061c1b50917547f/reviews/d119e7869263426ba1c90ac823cd6b83.json": "182caaf7306fc2ecc7d60ecb4dfec76921564f5848597bc289269ea8ce49c1e4"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-aaa02bca2061c1b50917547f/reviews/d119e7869263426ba1c90ac823cd6b83.json"
+      ],
+      "stage": "verified",
+      "title": "2023 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/09/26/5-22-07/XIAOMI%202023%20INTERIM%20REPORT-ENG.pdf"
+    }
+  ],
+  "previous_hash": "1a677d17eab28643f3b4ef0138c23f64937c957182240093f97da8e91710806d",
+  "recorded_at": "2026-10-30T11:43:36.495477+00:00",
+  "sequence": 5,
+  "task_id": "acquisition-aaa02bca2061c1b50917547f"
+}

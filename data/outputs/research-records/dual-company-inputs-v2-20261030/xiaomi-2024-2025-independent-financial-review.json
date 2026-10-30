@@ -1,0 +1,63 @@
+{
+  "reviewed_at": "2026-10-30T10:45:45.246366+00:00",
+  "reviewer": "contracts_v2-independent-financial-review",
+  "method": "Read physical PDF pages and headers independently; compare manually transcribed current-year values, units, periods and deterministic reconciliations",
+  "results": [
+    {
+      "year": 2024,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-financial-candidates.json",
+      "candidate_file_sha256": "f11460330a3da3c29d91fbbb237bdaf1bd03ed9308fe87e59eec344d72eadf8c",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 27,
+      "statement_pages": [
+        230,
+        232,
+        233,
+        237,
+        238
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": [],
+      "limitations": [
+        "Source disclosure accuracy and table extraction reviewed; no audit of issuer economic truth",
+        "Trade receivables include notes, current borrowings may include current portion of long-term debt; explicit basis must accompany comparison",
+        "Exact historical publication time remains separately assessed; board approval date is not automatically publication date"
+      ]
+    },
+    {
+      "year": 2025,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-financial-candidates.json",
+      "candidate_file_sha256": "c9a6ccde21a3aeac8dd3bce3326fb9ca3de328d9cf804896f4f7ae487cb7fa09",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 27,
+      "statement_pages": [
+        270,
+        272,
+        273,
+        278,
+        279
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": [],
+      "limitations": [
+        "Source disclosure accuracy and table extraction reviewed; no audit of issuer economic truth",
+        "Trade receivables include notes, current borrowings may include current portion of long-term debt; explicit basis must accompany comparison",
+        "Exact historical publication time remains separately assessed; board approval date is not automatically publication date"
+      ]
+    }
+  ]
+}

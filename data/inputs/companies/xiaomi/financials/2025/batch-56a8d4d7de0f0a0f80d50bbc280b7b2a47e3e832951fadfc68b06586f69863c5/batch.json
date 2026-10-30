@@ -1,0 +1,82 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-ccbcdf8dd03769714899be8d1af192e6f6180bd89a865143e15d9688902ec7c2/candidate.json",
+  "batch_id": "batch-56a8d4d7de0f0a0f80d50bbc280b7b2a47e3e832951fadfc68b06586f69863c5",
+  "candidate_hash": "ccbcdf8dd03769714899be8d1af192e6f6180bd89a865143e15d9688902ec7c2",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2025/batch-56a8d4d7de0f0a0f80d50bbc280b7b2a47e3e832951fadfc68b06586f69863c5/financial-observations.json",
+      "sha256": "01a1044d640d4c9741d23080cf5eb58a7471d4b1ad9878397fa3ccd2c12c3f0f"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:53:08.770248+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:44:16.711432+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-a"
+      },
+      "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144",
+      "locator": "pdf:page:378",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "4511553144",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "and 21,535,682,134",
+      "locator": "pdf:page:378",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "21535682134",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

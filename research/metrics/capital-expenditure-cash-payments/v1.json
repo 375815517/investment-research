@@ -1,0 +1,33 @@
+{
+  "metric_id": "capital-expenditure-cash-payments",
+  "version": "1",
+  "name": "资本性支出现金付款（原披露范围）",
+  "description": "来源以Capital expenditures披露的现金流，不预设等于纯固定资产支出。",
+  "dataset_id": "financial-observations",
+  "unit": "currency",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "保留原始现金流负号及来源资产组成；不同资产范围不得直接合并，购买和预付组成依basis及证据。"
+}

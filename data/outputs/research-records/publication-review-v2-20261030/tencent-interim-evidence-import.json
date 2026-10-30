@@ -1,0 +1,26 @@
+{
+  "status": "received",
+  "document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "document": {
+    "document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+    "content_revision": "v1",
+    "source_id": "tencent-publication-evidence",
+    "title": "tencent HKEX interim report release times 2018–2026",
+    "sha256": "a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+    "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54/v1/original.html",
+    "published_at": null,
+    "first_observed_at": "2026-10-30T11:02:20.538093+00:00"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/tencent-publication-evidence/2026/doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54/v1/original.html",
+    "data/inputs/source-files/tencent-publication-evidence/2026/doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54/v1/document.json",
+    "data/inputs/collection-records/tencent-publication-evidence/2026/collection-ddd902bbcde848b1834f9a65b2e754aa/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-95202b3b00064147bb2700bcf950f59f",
+  "summary": "import",
+  "issues": []
+}

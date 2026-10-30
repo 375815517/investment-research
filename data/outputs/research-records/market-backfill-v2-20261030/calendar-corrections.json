@@ -1,0 +1,44 @@
+{
+  "evidence": [
+    {
+      "date": "2023-09-01",
+      "document_id": "doc-5edd0dcb9db0430aa7cc1eafe4c832caec004f4bccb655ac3a6d8bc1ff34a0f2",
+      "excerpt": "Market Operations 01 Sep 2023 Hong Kong Exchanges and Clearing Limited (HKEX) announces that all trading sessions today (Friday) in the securities and derivatives markets, including After-Hours Trading session, have been cancelled due to the issuance of Typhoon Signal No. 8. No securities clearing and settlement services will be provided for the day. Stock Connect trading is also suspended for the day. For details of the arrangements for trading and clearing and settlement during typhoons and Black rainstorms / Extreme Conditions, please refer to the rule books and summary table, which can be accessed via the Services - Trading Overview-Severe Weather Arrangements section of the HKEX website. For details of the trading arrangements under St",
+      "metadata_revision": {
+        "artifact_refs": [
+          "data/inputs/source-files/hkex-market-notices/2026/doc-5edd0dcb9db0430aa7cc1eafe4c832caec004f4bccb655ac3a6d8bc1ff34a0f2/v1/document.json",
+          "data/inputs/source-files/hkex-market-notices/2026/doc-5edd0dcb9db0430aa7cc1eafe4c832caec004f4bccb655ac3a6d8bc1ff34a0f2/v1/metadata-revisions/metadata-59313e56dea4987795f68a205c8293e2c3e5e85596569de14e81d24434bf5372.json"
+        ],
+        "issues": [],
+        "next_actions": [],
+        "operation_id": "op-2a26d8d1da4542f78e75fd8d2d0b769a",
+        "protocol_version": "1",
+        "revision_id": "metadata-59313e56dea4987795f68a205c8293e2c3e5e85596569de14e81d24434bf5372",
+        "status": "registered",
+        "summary": "revise metadata"
+      },
+      "url": "https://www.hkex.com.hk/News/Market-Communications/2023/2309012news?sc_lang=en"
+    },
+    {
+      "date": "2023-09-08",
+      "document_id": "doc-995b10ac1c4660fed93d919f4837185e44c1180d891c9fa4f4f86bf9e03d7979",
+      "excerpt": "Market Operations 08 Sep 2023 Hong Kong Exchanges and Clearing Limited (HKEX) announces that all trading sessions today (Friday) in the securities and derivatives markets, including After-Hours Trading session, have been cancelled, due to a Black Rainstorm Warning remaining in force and the announcement of Extreme Conditions by the Hong Kong Government. No securities clearing and settlement services will be provided for the day. Stock Connect Northbound trading is also suspended for the day. For details of the arrangements for trading and clearing and settlement during typhoons and Black rainstorms / Extreme Conditions, please refer to the rule books and summary table, which can be accessed via the Services - Trading Overview-Severe Weather",
+      "metadata_revision": {
+        "artifact_refs": [
+          "data/inputs/source-files/hkex-market-notices/2026/doc-995b10ac1c4660fed93d919f4837185e44c1180d891c9fa4f4f86bf9e03d7979/v1/document.json",
+          "data/inputs/source-files/hkex-market-notices/2026/doc-995b10ac1c4660fed93d919f4837185e44c1180d891c9fa4f4f86bf9e03d7979/v1/metadata-revisions/metadata-205c93371ecc1ed49322828000a1f34fc78c0bb44a6b430fc9605034671d8f15.json"
+        ],
+        "issues": [],
+        "next_actions": [],
+        "operation_id": "op-56dc407005e24b5591420a728e8299d1",
+        "protocol_version": "1",
+        "revision_id": "metadata-205c93371ecc1ed49322828000a1f34fc78c0bb44a6b430fc9605034671d8f15",
+        "status": "registered",
+        "summary": "revise metadata"
+      },
+      "url": "https://www.hkex.com.hk/News/Market-Communications/2023/2309083news?sc_lang=en"
+    }
+  ],
+  "expected_dates_after": 2046,
+  "expected_dates_before": 2048
+}

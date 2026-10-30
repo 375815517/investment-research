@@ -1,0 +1,32 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "shares",
+    "scale": "thousands",
+    "currency": null,
+    "measure_kind": "stock",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-31",
+    "scope": "consolidated",
+    "dimensions": {
+      "share_class": "all-ordinary"
+    },
+    "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "issued-shares",
+      "page": 291,
+      "pattern": "As\\s+of December 31,\\s*2019\\s+[\\d,]+",
+      "numeric_columns": 1
+    }
+  ]
+}

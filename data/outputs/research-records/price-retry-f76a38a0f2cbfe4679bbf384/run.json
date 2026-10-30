@@ -1,0 +1,518 @@
+{
+  "retry_of": "data/outputs/research-records/price-history-d9667f1c105f169fd85c2ba0/run.json",
+  "runs": [
+    {
+      "finished_at": "2026-10-30T10:51:20.203298+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2018-10-06",
+        "source_id": "tencent-chart",
+        "start": "2018-07-09",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:12.075836+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-307c78bfc447d8d32bc853dea874a2d7478836d6536f27c9c79d1a7e3a3a2100/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-307c78bfc447d8d32bc853dea874a2d7478836d6536f27c9c79d1a7e3a3a2100/v1/document.json",
+            "data/outputs/research-records/ingest-b46c3f8d8374d6f882efc8edecd14c36f3d916942492ead28bd009e4b6893905/candidate.json",
+            "data/outputs/research-records/ingest-b46c3f8d8374d6f882efc8edecd14c36f3d916942492ead28bd009e4b6893905/validation.json",
+            "data/outputs/research-records/ingest-b46c3f8d8374d6f882efc8edecd14c36f3d916942492ead28bd009e4b6893905/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2018/batch-247a0bdb7abfb309b3b3b80652c19b6240bfd9bd2ab8d3f97a5db191c453e60f/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2018/batch-247a0bdb7abfb309b3b3b80652c19b6240bfd9bd2ab8d3f97a5db191c453e60f/batch.json",
+            "data/outputs/research-records/ingest-b46c3f8d8374d6f882efc8edecd14c36f3d916942492ead28bd009e4b6893905/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-307c78bfc447d8d32bc853dea874a2d7478836d6536f27c9c79d1a7e3a3a2100/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-307c78bfc447d8d32bc853dea874a2d7478836d6536f27c9c79d1a7e3a3a2100/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-f76e905868034f34aaf5bfc200cce658/collection.json"
+          ],
+          "document_id": "doc-307c78bfc447d8d32bc853dea874a2d7478836d6536f27c9c79d1a7e3a3a2100",
+          "end": "2018-10-06",
+          "first": "2018-07-09",
+          "last": "2018-10-05",
+          "observed_rows": 63,
+          "start": "2018-07-09",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-77882dd790e06a23a3753f2bd5a94ae33cdf011c51b92f0ea3a27ac1b74e0e39/5d6525a29c5a4b7bf42d7612d597fd5eff3bb0bf7f095b75a3757f1aa888762e.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-02fc57e5874d44bf9d346956a98423f7",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "b46c3f8d8374d6f882efc8edecd14c36f3d916942492ead28bd009e4b6893905",
+              "candidate_id": "candidate-77882dd790e06a23a3753f2bd5a94ae33cdf011c51b92f0ea3a27ac1b74e0e39",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 63,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:51:28.339752+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2018-12-31",
+        "source_id": "tencent-chart",
+        "start": "2018-10-07",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:20.209404+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/document.json",
+            "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/candidate.json",
+            "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/validation.json",
+            "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2018/batch-9b5274d3b9740a515781c3124463e705c4fe76f415ab857b21bd53eca8527203/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2018/batch-9b5274d3b9740a515781c3124463e705c4fe76f415ab857b21bd53eca8527203/batch.json",
+            "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-0c5f56165a1c4239b5bfa6ef3d426df4/collection.json"
+          ],
+          "document_id": "doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be",
+          "end": "2018-12-31",
+          "first": "2018-10-08",
+          "last": "2018-12-31",
+          "observed_rows": 58,
+          "start": "2018-10-07",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-cc4b4b4402ba3bdd5093db31eb70bd0d8c8b55b0c5b1938b9c4c85ae15014cb3/d79aa0a0f0bf28700a44ba958fadbbd807dd505618f16fa53fa7d38b27d2ad21.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-4e7666af4f7b4920b6f80e2fa916e454",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b",
+              "candidate_id": "candidate-cc4b4b4402ba3bdd5093db31eb70bd0d8c8b55b0c5b1938b9c4c85ae15014cb3",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 58,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:51:36.752000+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2022-03-31",
+        "source_id": "tencent-chart",
+        "start": "2022-01-01",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:28.345803+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-04d2b3f260938c8b7b4bdc4d0220768d87dd98ed36eb165042fbbd3fa2253bf5/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-04d2b3f260938c8b7b4bdc4d0220768d87dd98ed36eb165042fbbd3fa2253bf5/v1/document.json",
+            "data/outputs/research-records/ingest-b7eaf600640eb2562a6dab1f7de1b0a75687c6d44a76034abc5663b61ea41c5a/candidate.json",
+            "data/outputs/research-records/ingest-b7eaf600640eb2562a6dab1f7de1b0a75687c6d44a76034abc5663b61ea41c5a/validation.json",
+            "data/outputs/research-records/ingest-b7eaf600640eb2562a6dab1f7de1b0a75687c6d44a76034abc5663b61ea41c5a/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-22da098ff3006bd5425b830755dd972fcb2542e8e88db2b5b91cf4cb25f61180/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-22da098ff3006bd5425b830755dd972fcb2542e8e88db2b5b91cf4cb25f61180/batch.json",
+            "data/outputs/research-records/ingest-b7eaf600640eb2562a6dab1f7de1b0a75687c6d44a76034abc5663b61ea41c5a/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-04d2b3f260938c8b7b4bdc4d0220768d87dd98ed36eb165042fbbd3fa2253bf5/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-04d2b3f260938c8b7b4bdc4d0220768d87dd98ed36eb165042fbbd3fa2253bf5/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-c6b1d79da0a84d7f83c5ed0a759d8a75/collection.json"
+          ],
+          "document_id": "doc-04d2b3f260938c8b7b4bdc4d0220768d87dd98ed36eb165042fbbd3fa2253bf5",
+          "end": "2022-03-31",
+          "first": "2022-01-03",
+          "last": "2022-03-31",
+          "observed_rows": 61,
+          "start": "2022-01-01",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-8ced4b203fe327a437fca1d5dd051e973e40793a70dcbfa47995ccdd701e44a5/44f47711c0a79c69930129e34a3c6c79586a11ad6374d55536a499f9a35171c5.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-ab0192bdb04c4b14a1c1c06fa9a9f3f7",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "b7eaf600640eb2562a6dab1f7de1b0a75687c6d44a76034abc5663b61ea41c5a",
+              "candidate_id": "candidate-8ced4b203fe327a437fca1d5dd051e973e40793a70dcbfa47995ccdd701e44a5",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 61,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:51:45.966157+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2022-06-29",
+        "source_id": "tencent-chart",
+        "start": "2022-04-01",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:36.758415+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-7aa27192f337a1d56659f217580096e4c49a1c627460c9a6eddd07d39fdef556/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-7aa27192f337a1d56659f217580096e4c49a1c627460c9a6eddd07d39fdef556/v1/document.json",
+            "data/outputs/research-records/ingest-ced3f57a55149a12a6333cc913cc6bc8a16dcb48fd56687e0b429e3c6ddec253/candidate.json",
+            "data/outputs/research-records/ingest-ced3f57a55149a12a6333cc913cc6bc8a16dcb48fd56687e0b429e3c6ddec253/validation.json",
+            "data/outputs/research-records/ingest-ced3f57a55149a12a6333cc913cc6bc8a16dcb48fd56687e0b429e3c6ddec253/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-0cd085c0fca7d1f6d585c8645083c8800c677b1c82add1404ec51d17454aa7c4/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-0cd085c0fca7d1f6d585c8645083c8800c677b1c82add1404ec51d17454aa7c4/batch.json",
+            "data/outputs/research-records/ingest-ced3f57a55149a12a6333cc913cc6bc8a16dcb48fd56687e0b429e3c6ddec253/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-7aa27192f337a1d56659f217580096e4c49a1c627460c9a6eddd07d39fdef556/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-7aa27192f337a1d56659f217580096e4c49a1c627460c9a6eddd07d39fdef556/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-7c04492d0ab7470f8924e4c70df12d32/collection.json"
+          ],
+          "document_id": "doc-7aa27192f337a1d56659f217580096e4c49a1c627460c9a6eddd07d39fdef556",
+          "end": "2022-06-29",
+          "first": "2022-04-01",
+          "last": "2022-06-29",
+          "observed_rows": 58,
+          "start": "2022-04-01",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-18c2dc703e4c2a6ad691a38b9b4ea446551b3d404e26ac564ae325425bdfa1c8/f080b6a53099da378b690a95ec771e7f5ae3c2c32f6b727ec88a9addbce8f413.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-af0f4f38b84f48dd83c0832367d4a597",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "ced3f57a55149a12a6333cc913cc6bc8a16dcb48fd56687e0b429e3c6ddec253",
+              "candidate_id": "candidate-18c2dc703e4c2a6ad691a38b9b4ea446551b3d404e26ac564ae325425bdfa1c8",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 58,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:51:53.247971+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2022-06-30",
+        "source_id": "tencent-chart",
+        "start": "2022-06-30",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:45.971931+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da/v1/document.json",
+            "data/outputs/research-records/ingest-f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123/candidate.json",
+            "data/outputs/research-records/ingest-f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123/validation.json",
+            "data/outputs/research-records/ingest-f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-799a6111487426e64c00beff0fe262a9674eddcb82c7cb589ef3557e73fd8d37/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2022/batch-799a6111487426e64c00beff0fe262a9674eddcb82c7cb589ef3557e73fd8d37/batch.json",
+            "data/outputs/research-records/ingest-f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-12b29bd41e004c64bfd8392b6222c8ac/collection.json"
+          ],
+          "document_id": "doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+          "end": "2022-06-30",
+          "first": "2022-06-30",
+          "last": "2022-06-30",
+          "observed_rows": 1,
+          "start": "2022-06-30",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-a96a2cda9fda97b26c6d69b9da02ea6c25f4cf01fe73dd67c74f18321975594e/fbda2993e57a4965779efab448020b0c47be4886d7bd46e2626d8848fd1f6f03.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-47cd50c25d6c49daa14b5ff5618b4fc8",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123",
+              "candidate_id": "candidate-a96a2cda9fda97b26c6d69b9da02ea6c25f4cf01fe73dd67c74f18321975594e",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 1,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:52:00.976191+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2024-03-30",
+        "source_id": "tencent-chart",
+        "start": "2024-01-01",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:51:53.253724+00:00",
+      "status": "collected",
+      "windows": [
+        {
+          "artifact_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/document.json",
+            "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/candidate.json",
+            "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/validation.json",
+            "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/review.json",
+            "data/inputs/markets/prices/tencent-hk/daily/2024/batch-2444f3a38f09755bb9af9ccbd0a856eacfd560380b1a799eabfe3babcb489723/daily-prices.csv",
+            "data/inputs/markets/prices/tencent-hk/daily/2024/batch-2444f3a38f09755bb9af9ccbd0a856eacfd560380b1a799eabfe3babcb489723/batch.json",
+            "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/receipt.json"
+          ],
+          "collection_refs": [
+            "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/original.json",
+            "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/document.json",
+            "data/inputs/collection-records/tencent-chart/2026/collection-3bf74dec547f4a53aa73f483d980c855/collection.json"
+          ],
+          "document_id": "doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904",
+          "end": "2024-03-30",
+          "first": "2024-01-02",
+          "last": "2024-03-28",
+          "observed_rows": 61,
+          "start": "2024-01-01",
+          "status": "registered",
+          "validation": {
+            "artifact_refs": [
+              ".research-local/validations/candidate-93b46e97be1ca8d052b7c25adee76615fd02b78d61c24363706d452ef8c51f87/98bcbb83964e25382b1656639fef86e76ecaf44920e97ed12894456830d50aba.json"
+            ],
+            "issues": [
+              {
+                "code": "PUBLICATION_UNKNOWN",
+                "message": "Historical/live cutoff queries exclude this batch",
+                "retryable": false,
+                "severity": "warning"
+              }
+            ],
+            "next_actions": [
+              "ingest_plan"
+            ],
+            "operation_id": "op-7093090eee6444a8a2fa7e81c914ba2e",
+            "protocol_version": "1",
+            "status": "eligible",
+            "summary": "validate",
+            "validation": {
+              "candidate_hash": "daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df",
+              "candidate_id": "candidate-93b46e97be1ca8d052b7c25adee76615fd02b78d61c24363706d452ef8c51f87",
+              "issues": [
+                {
+                  "code": "PUBLICATION_UNKNOWN",
+                  "message": "Historical/live cutoff queries exclude this batch",
+                  "retryable": false,
+                  "severity": "warning"
+                }
+              ],
+              "record_count": 61,
+              "rule_version": "v1",
+              "status": "eligible"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:52:04.613312+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2024-06-28",
+        "source_id": "tencent-chart",
+        "start": "2024-03-31",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:52:00.982232+00:00",
+      "status": "partial",
+      "windows": [
+        {
+          "code": "SOURCE_HTTP_ERROR",
+          "end": "2024-06-28",
+          "reason": "Source acquisition failed; see the archived collection receipt",
+          "start": "2024-03-31",
+          "status": "blocked"
+        }
+      ]
+    },
+    {
+      "finished_at": "2026-10-30T10:52:05.930445+00:00",
+      "limitations": [
+        "Collection success is not trading-calendar completeness",
+        "Price and volume semantics remain as declared by each source"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2024-06-30",
+        "source_id": "tencent-chart",
+        "start": "2024-06-29",
+        "subject_id": "tencent-hk"
+      },
+      "started_at": "2026-10-30T10:52:04.620307+00:00",
+      "status": "partial",
+      "windows": [
+        {
+          "code": "SOURCE_CONTENT_INVALID",
+          "end": "2024-06-30",
+          "reason": "Source acquisition failed; see the archived collection receipt",
+          "start": "2024-06-29",
+          "status": "blocked"
+        }
+      ]
+    }
+  ],
+  "status": "partial"
+}

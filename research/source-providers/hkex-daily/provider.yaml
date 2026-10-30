@@ -1,0 +1,21 @@
+provider_id: hkex-daily
+url: https://www.hkex.com.hk/eng/stat/smstat/dayquot/d{yymmdd}e.htm
+connector_id: hkex-daily-turnover-v1
+dataset_id: market-observations
+allowed_hosts:
+- www.hkex.com.hk
+allowed_parameters:
+- date
+link_pattern: /dayquot/d\d{6}e\.htm$
+max_pages: 1
+max_attempts: 1
+max_bytes: 33554432
+archive_permissions: research-only
+usage_basis: User-authorized bounded investment research archive of public regulatory/exchange
+  reports; no redistribution license asserted
+known_limitations:
+- Retrieval does not prove historical publication time
+- Reportable short positions and short-selling turnover have different populations
+  and time semantics
+discovery_mode: date_window
+window_days: 31

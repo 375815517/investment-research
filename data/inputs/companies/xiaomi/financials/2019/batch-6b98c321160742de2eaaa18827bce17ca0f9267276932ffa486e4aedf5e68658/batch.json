@@ -1,0 +1,80 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-939c2ebf30eeb74934b3bd9e60132795bd61cdef60c45ac4d6ed11991bc141d7/candidate.json",
+  "batch_id": "batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658",
+  "candidate_hash": "939c2ebf30eeb74934b3bd9e60132795bd61cdef60c45ac4d6ed11991bc141d7",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/financial-observations.json",
+      "sha256": "dca8e5ef5f29cba3175152f369c3f876774c0c05b778dbed778f7c39fa35d6ce"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:26.880637+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:55:46.154018+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "291 25 Share capital and treasury shares (continued) (b) Treasury shares Number of shares Amounts ’000 RMB’000 As of January 1, 2018 and 2019 — — Shares repurchased 358,196 2,932,111 Shares cancelled (227,956) (1,879,289) As of December 31, 2019 130,240 1,052,822 During the year ended December 31, 2019, the Company repurchased its own ordinary shares on the Stock Exchange of Hong Kong Limited as follows: Number of Highest Lowest price shares price paid paid per Aggregate Month/Year per share share price paid ’000 HK$ HK$ HK$ January 2019 19,972 10.20 9.74 199,931,233 June 2019 97,928 10.04 8.96 925,210,318 July 2019 7,610 10.00 9.70 74,840,553 September 2019 91,254 9.38 8.73 824,790,890 October 2019 31,115 9.12 8.82 280,023,901 November 2019 44,828 9.00 8.79 399,982,282 December 2019 65,489 9.09 8.85 589,464,196 Total 358,196 3,294,243,373",
+      "locator": "pdf:page:293",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2019-12-31",
+      "period_start": "2019-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "358196",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "190 Year ended December 31, Note 2019 2018 RMB’000 RMB’000 Cash flows from financing activities Proceeds from borrowings 17,036,724 10,269,415 Repayment of borrowings (10,417,425) (10,505,637) Finance expenses paid (218,994) (243,966) Placement of restricted cash — (4,152,345) Withdrawal of restricted cash 75,773 5,059,245 Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary (187,000) (165,000) Proceeds from fund investors — 2,781,000 Net proceeds from issuance of ordinary shares relating to the initial public offering — 23,248,620 Net proceeds from exercise of share options 186,838 — Payments for shares repurchase (2,932,111) — Payment of lease liabilities (578,063) — Capital contribution from non-controlling interests 155,496 — Proceeds from release of ordinary shares from Share Scheme Trust — 91,967 Others — 190,873 Net cash generated from financing activities 3,121,238 26,574,172 Net (decrease)/increase in cash and cash equivalents (4,638,544) 17,651,561 Cash and cash equivalents at the beginning of the year 24(a) 30,230,147 11,563,282 Effects of exchange rate changes on cash and cash equivalents 328,258 1,015,304 Cash and cash equivalents at the end of the year 24(a) 25,919,861 30,230,147 The notes on pages 191 to 325 are an integral part of these consolidated financial statements.",
+      "locator": "pdf:page:192",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2019-12-31",
+      "period_start": "2019-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-2932111",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2019-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

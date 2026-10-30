@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "evidence_document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "evidence_sha256": "2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "excerpt": "\"formatedDate\":\"Apr 26, 2020\",\"title\":\"2019 ANNUAL REPORT\"",
+  "locator": "json:News:ID=3936289",
+  "notes": "Issuer IR embeds Euroland announcements. Displayed filing date associated with exact annual-report title; attachment prID joins announcement ID and downloaded attachment SHA256 equals archived target. Source date interpreted as Hong Kong market calendar date; no exact publication instant claimed. Raw epoch not used.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2020-04-26",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:53:57.926145+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+}

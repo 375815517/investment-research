@@ -1,0 +1,31 @@
+{
+  "binding_fingerprint": "0a7ea2f994073ced30d91a445857fc89c865b95ddab061a3803f5b91e081e54a",
+  "binding_id": "hkex-tencent-announcements",
+  "discovery_id": "discovery-6a9736fc5b007a7b1a7aad5e",
+  "entries": [],
+  "issues": [
+    {
+      "code": "SOURCE_DISCOVERY_EMPTY",
+      "parameters": {
+        "from": "20180101",
+        "title": "SPECIAL DIVIDEND",
+        "to": "20191231"
+      },
+      "retryable": false
+    }
+  ],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": {
+    "from": "20180101",
+    "title": "SPECIAL DIVIDEND",
+    "to": "20191231"
+  },
+  "pages": [],
+  "provider_fingerprint": "855ee9b86b0c3d6ddf53e2cb88492751f7f042570ee53a5b296d7085720e4f7a",
+  "provider_id": "hkex-titles",
+  "recorded_at": "2026-10-30T11:32:54.570937+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

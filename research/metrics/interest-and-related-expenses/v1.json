@@ -1,0 +1,33 @@
+{
+  "metric_id": "interest-and-related-expenses",
+  "version": "1",
+  "name": "利息及相关费用",
+  "description": "来源附注明确披露的利息及相关费用，不代表所有财务成本，也不替代净财务成本。",
+  "dataset_id": "financial-observations",
+  "unit": "currency",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "保留来源费用符号、资本化扣除及费用组成说明；不得自动视为finance-costs或finance-costs-net。"
+}

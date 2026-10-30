@@ -20,6 +20,7 @@ import urllib.request
 import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, date, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any, Callable
 from zoneinfo import ZoneInfo
@@ -35,11 +36,19 @@ _SENSITIVE = re.compile(r"token|secret|password|key|authorization|credential", r
 
 
 class ConnectorError(Exception):
-    def __init__(self, code: str, message: str, *, retryable: bool = False):
+    def __init__(
+        self,
+        code: str,
+        message: str,
+        *,
+        retryable: bool = False,
+        retry_after_seconds: float | None = None,
+    ):
         super().__init__(message)
         self.code = code
         self.message = message
         self.retryable = retryable
+        self.retry_after_seconds = retry_after_seconds
         self.exit_code = 5 if code.startswith("SOURCE_") else 2
 
 
@@ -87,16 +96,23 @@ class SourceDefinition:
     usage_basis: str = ""
     source_symbol: str = ""
     security_id: str = ""
+    benchmark_id: str = ""
     currency: str = ""
     subject_id: str = ""
     subject_type: str = ""
     document_kind: str = ""
     source_category: str = ""
+    template_variables: dict[str, str] = field(default_factory=dict)
+    allowed_redirect_hosts: tuple[str, ...] = ()
+    request_method: str = "GET"
+    fixed_parameters: dict[str, str] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
         if not isinstance(self.source_id, str) or not _ID.fullmatch(self.source_id):
             raise ConnectorError("CONFIG_INVALID", "Invalid source_id.")
         _url_check(self.url)
+        if self.request_method not in {"GET", "POST"}:
+            raise ConnectorError("CONFIG_INVALID", "Only GET or form POST acquisition is supported")
         for value in (self.timeout_seconds, self.retry_delay_seconds):
             if (
                 isinstance(value, bool)
@@ -112,6 +128,7 @@ class SourceDefinition:
             "yahoo-chart-v1",
             "http-document-v1",
             "tencent-kline-v1",
+            "tencent-benchmark-v1",
             "http-html-v1",
             *OBSERVATION_PARSERS,
         }:
@@ -123,6 +140,7 @@ class SourceDefinition:
             "http-csv-v1": {"daily-prices"},
             "yahoo-chart-v1": {"daily-prices"},
             "tencent-kline-v1": {"daily-prices"},
+            "tencent-benchmark-v1": {"benchmark-prices"},
             "http-document-v1": {"financial-facts", "document-facts", "market-observations"},
             "http-html-v1": {"document-facts", "market-observations"},
             **{key: {"market-observations"} for key in OBSERVATION_PARSERS},
@@ -143,6 +161,12 @@ class SourceDefinition:
             raise ConnectorError(
                 "CONFIG_INVALID", "Research-only acquisition requires usage_basis."
             )
+        if set(self.fixed_parameters) - set(self.allowed_parameters) or any(
+            not isinstance(v, str) for v in self.fixed_parameters.values()
+        ):
+            raise ConnectorError(
+                "CONFIG_INVALID", "Fixed request parameters must be declared strings"
+            )
         for name in self.allowed_parameters:
             if (
                 not isinstance(name, str)
@@ -159,6 +183,10 @@ class SourceDefinition:
         path = root / "research" / "sources" / source_id / "source.yaml"
         if not path.resolve().is_relative_to(root):
             raise ConnectorError("CONFIG_INVALID", "Source definition escapes the workspace.")
+        if not path.exists():
+            from .providers import bound_source
+
+            return bound_source(root, source_id)
         try:
             data = yaml.safe_load(path.read_text(encoding="utf-8"))
         except (OSError, yaml.YAMLError) as exc:
@@ -209,6 +237,8 @@ class FetchResult:
     attempts: int
     rows: int
     request: dict[str, Any] = field(default_factory=dict)
+    request_url: str = ""
+    final_url: str = ""
 
 
 class _SafeRedirect(urllib.request.HTTPRedirectHandler):
@@ -218,6 +248,11 @@ class _SafeRedirect(urllib.request.HTTPRedirectHandler):
         _url_check(newurl)
         previous = urllib.parse.urlsplit(req.full_url)
         target = urllib.parse.urlsplit(newurl)
+        allowed = getattr(req, "_research_allowed_hosts", ())
+        if allowed and target.hostname not in allowed:
+            raise ConnectorError(
+                "SOURCE_REDIRECT_DENIED", "Redirect left the registered provider scope"
+            )
         if previous.scheme == "https" and target.scheme != "https":
             raise ConnectorError("SOURCE_REDIRECT_DENIED", "HTTPS downgrade redirect was rejected.")
         if req.has_header("Authorization") and (previous.hostname, previous.port) != (
@@ -228,7 +263,10 @@ class _SafeRedirect(urllib.request.HTTPRedirectHandler):
                 "SOURCE_REDIRECT_DENIED",
                 "Credential forwarding to a different origin was rejected.",
             )
-        return super().redirect_request(req, fp, code, msg, headers, newurl)
+        redirected = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if redirected is not None:
+            setattr(redirected, "_research_allowed_hosts", allowed)
+        return redirected
 
 
 class HttpFetcher:
@@ -244,6 +282,14 @@ class HttpFetcher:
             raise ConnectorError(
                 "SOURCE_ARCHIVE_BLOCKED", "Source archival permission must be explicitly allowed."
             )
+        if any(
+            key in parameters and parameters[key] != value
+            for key, value in source.fixed_parameters.items()
+        ):
+            raise ConnectorError(
+                "CONFIG_INVALID", "Object-bound request parameters cannot be overridden"
+            )
+        parameters = dict(source.fixed_parameters, **parameters)
         if set(parameters) - set(source.allowed_parameters):
             raise ConnectorError(
                 "CONFIG_INVALID", "Request contains parameters not declared by the source."
@@ -270,19 +316,47 @@ class HttpFetcher:
             if not re.fullmatch(r"[A-Za-z0-9.^=_-]{1,40}", symbol):
                 raise ConnectorError("CONFIG_INVALID", "A valid source symbol is required.")
             base_url = base_url.replace("{symbol}", urllib.parse.quote(symbol, safe=""))
+        if "{" in base_url:
+            from .providers import render_url
+
+            base_url, query_parameters = render_url(
+                base_url, query_parameters, source.template_variables
+            )
         query = urllib.parse.urlencode(query_parameters)
-        url = base_url + (("&" if "?" in base_url else "?") + query if query else "")
+        url = base_url + (
+            ("&" if "?" in base_url else "?") + query
+            if query and source.request_method == "GET"
+            else ""
+        )
+        request_body = query.encode("utf-8") if source.request_method == "POST" else None
+        if request_body is not None:
+            headers["Content-Type"] = "application/x-www-form-urlencoded"
         data: bytes | None = None
         content_type = ""
+        final_url = url
         for attempt in range(1, source.max_attempts + 1):
             try:
-                request = urllib.request.Request(url, headers=headers)
+                request = urllib.request.Request(
+                    url, data=request_body, headers=headers, method=source.request_method
+                )
+                setattr(request, "_research_allowed_hosts", source.allowed_redirect_hosts)
                 with self.opener.open(request, timeout=source.timeout_seconds) as response:
+                    final_url = response.geturl() if hasattr(response, "geturl") else url
+                    _url_check(final_url)
+                    if (
+                        source.allowed_redirect_hosts
+                        and urllib.parse.urlsplit(final_url).hostname
+                        not in source.allowed_redirect_hosts
+                    ):
+                        raise ConnectorError(
+                            "SOURCE_REDIRECT_DENIED", "Response left the registered provider scope"
+                        )
                     content_type = response.headers.get_content_type()
                     if content_type in {"text/html", "application/xhtml+xml"} and (
                         source.connector_id
                         not in {
                             "tencent-kline-v1",
+                            "tencent-benchmark-v1",
                             "http-html-v1",
                             "hkex-short-turnover-v1",
                             "stockanalysis-statistics-v1",
@@ -300,21 +374,35 @@ class HttpFetcher:
                 break
             except urllib.error.HTTPError as exc:
                 retryable = exc.code in {408, 429, 500, 502, 503, 504}
+                retry_after = exc.headers.get("Retry-After", "") if exc.headers else ""
+                requested_wait = None
+                if retry_after.isdigit():
+                    requested_wait = float(retry_after)
+                elif retry_after:
+                    try:
+                        requested_wait = max(
+                            0.0,
+                            (
+                                parsedate_to_datetime(retry_after) - datetime.now(UTC)
+                            ).total_seconds(),
+                        )
+                    except (TypeError, ValueError, OverflowError):
+                        pass
                 if not retryable or attempt == source.max_attempts:
                     raise ConnectorError(
                         "SOURCE_HTTP_ERROR",
                         f"Source returned HTTP {exc.code}.",
                         retryable=retryable,
+                        retry_after_seconds=requested_wait,
                     ) from None
                 wait = source.retry_delay_seconds
-                retry_after = exc.headers.get("Retry-After", "") if exc.headers else ""
-                if retry_after.isdigit():
-                    requested_wait = int(retry_after)
+                if requested_wait is not None:
                     if requested_wait > 5:
                         raise ConnectorError(
                             "SOURCE_RATE_LIMITED",
                             "Source requested a longer retry interval; retry later.",
                             retryable=True,
+                            retry_after_seconds=requested_wait,
                         ) from None
                     wait = max(wait, requested_wait)
                 self.sleep(wait)
@@ -355,7 +443,7 @@ class HttpFetcher:
             if not data.startswith(b"%PDF-") or b"%%EOF" not in data[-2048:]:
                 raise ConnectorError("SOURCE_CONTENT_INVALID", "Expected a complete PDF document.")
             rows, extension = 0, "pdf"
-        elif source.connector_id == "tencent-kline-v1":
+        elif source.connector_id in {"tencent-kline-v1", "tencent-benchmark-v1"}:
             parsed = parse_tencent_kline(
                 data, str(parameters.get("param", "")).split(",")[0], observed_at=observed_at
             )
@@ -395,6 +483,8 @@ class HttpFetcher:
             attempts=attempt,
             rows=rows,
             request={"source_id": source.source_id, "parameter_names": sorted(parameters)},
+            request_url=url,
+            final_url=final_url,
         )
 
 
@@ -471,6 +561,11 @@ class ConnectorService:
         self.fetcher = fetcher or HttpFetcher()
 
     def execute(self, operation: str, payload: dict[str, Any]) -> dict[str, Any]:
+        if operation in {"discover", "collect_item"}:
+            from .providers import discover_page, collect_item
+
+            handler = discover_page if operation == "discover" else collect_item
+            return handler(self.workspace, self.fetcher, payload)
         if operation == "extract_text":
             path = Path(payload["path"])
             raw = path.read_bytes()
@@ -484,7 +579,11 @@ class ConnectorService:
         source = SourceDefinition.load(self.workspace, str(payload.get("source_id", "")))
         if operation == "plan":
             parameters: dict[str, Any] = {}
-            if source.connector_id in {"yahoo-chart-v1", "tencent-kline-v1"}:
+            if source.connector_id in {
+                "yahoo-chart-v1",
+                "tencent-kline-v1",
+                "tencent-benchmark-v1",
+            }:
                 try:
                     start = date.fromisoformat(payload["start_date"])
                     end = date.fromisoformat(payload["end_date"])
@@ -513,12 +612,15 @@ class ConnectorService:
             return {
                 "source_id": source.source_id,
                 "security_id": source.security_id,
+                "benchmark_id": source.benchmark_id,
                 "parameters": parameters,
                 "dataset_id": source.dataset_id,
             }
         if operation == "parse":
             path = Path(payload.get("document_path", payload.get("path", "")))
-            security_id = source.security_id or str(payload.get("security_id", ""))
+            security_id = (
+                source.security_id or source.benchmark_id or str(payload.get("security_id", ""))
+            )
             if not security_id or not source.source_symbol:
                 raise ConnectorError(
                     "CONFIG_INVALID", "Parsing requires configured security and source symbol."
@@ -544,12 +646,42 @@ class ConnectorService:
                     observed_at=payload.get("first_observed_at", ""),
                 )
                 records = parsed["records"]
-            elif source.connector_id == "tencent-kline-v1":
+            elif source.connector_id in {"tencent-kline-v1", "tencent-benchmark-v1"}:
                 parsed = parse_tencent_kline(
                     path.read_bytes(),
                     source.source_symbol,
                     observed_at=payload.get("first_observed_at", ""),
                 )
+                if source.connector_id == "tencent-benchmark-v1":
+                    raw_text = path.read_text()
+                    records = []
+                    for row in parsed["observations"]:
+                        match = re.search(
+                            r'\["' + re.escape(row["trading_date"]) + r'"[^\]]*\]', raw_text
+                        )
+                        if match is None:
+                            raise ConnectorError(
+                                "SOURCE_CONTENT_INVALID", "Index source row not found"
+                            )
+                        records.append(
+                            dict(
+                                benchmark_id=source.benchmark_id,
+                                trading_date=row["trading_date"],
+                                close=row["close"],
+                                unit="points",
+                                currency=None,
+                                index_type="price_index",
+                                basis="Provider Hang Seng price index close in index points; not total return",
+                                locator=f"json:{source.source_symbol}:day:{row['trading_date']}",
+                                excerpt=match.group(),
+                                record_kind="source_reported",
+                            )
+                        )
+                    return dict(
+                        records=records,
+                        parser_id=source.connector_id,
+                        limitations=parsed["limitations"],
+                    )
                 if not re.fullmatch(r"[A-Z]{3}", source.currency):
                     raise ConnectorError("CONFIG_INVALID", "Configured quote currency is required.")
                 records = [
@@ -620,7 +752,7 @@ class ConnectorService:
                 str(payload.get("security_id", "source-preview")),
                 observed_at=result.fetched_at,
             )
-        elif source.connector_id == "tencent-kline-v1":
+        elif source.connector_id in {"tencent-kline-v1", "tencent-benchmark-v1"}:
             output["candidate_preview"] = parse_tencent_kline(
                 Path(result.path).read_bytes(),
                 str(payload.get("parameters", {}).get("param", "")).split(",")[0],
@@ -632,7 +764,7 @@ class ConnectorService:
 def parse_tencent_kline(data: bytes, expected_symbol: str, *, observed_at: str) -> dict[str, Any]:
     """Retain provider field semantics; unit and price basis require separate evidence."""
     try:
-        if not re.fullmatch(r"hk[0-9]{5}", expected_symbol):
+        if not re.fullmatch(r"hk(?:[0-9]{5}|HSI)", expected_symbol):
             raise ValueError("symbol")
         response = json.loads(data)
         if response["code"] != 0:

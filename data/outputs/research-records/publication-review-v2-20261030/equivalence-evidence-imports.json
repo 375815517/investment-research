@@ -1,0 +1,62 @@
+[
+  {
+    "company": "xiaomi",
+    "year": 2024,
+    "response": {
+      "status": "received",
+      "document_id": "doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f",
+      "document": {
+        "document_id": "doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f",
+        "content_revision": "v1",
+        "source_id": "publication-equivalence-review",
+        "title": "Reviewed xiaomi 2024 report textual equivalence",
+        "sha256": "4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f",
+        "path": "data/inputs/source-files/publication-equivalence-review/2026/doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f/v1/original.json",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T11:00:37.074293+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/publication-equivalence-review/2026/doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f/v1/original.json",
+        "data/inputs/source-files/publication-equivalence-review/2026/doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f/v1/document.json",
+        "data/inputs/collection-records/publication-equivalence-review/2026/collection-bcdf2b993a9246959b3b51228bd39a51/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-a8b5709168da47afa526f5308965c479",
+      "summary": "import",
+      "issues": []
+    }
+  },
+  {
+    "company": "tencent",
+    "year": 2023,
+    "response": {
+      "status": "received",
+      "document_id": "doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e",
+      "document": {
+        "document_id": "doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e",
+        "content_revision": "v1",
+        "source_id": "publication-equivalence-review",
+        "title": "Reviewed tencent 2023 report textual equivalence",
+        "sha256": "56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e",
+        "path": "data/inputs/source-files/publication-equivalence-review/2026/doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e/v1/original.json",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T11:00:42.743088+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/publication-equivalence-review/2026/doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e/v1/original.json",
+        "data/inputs/source-files/publication-equivalence-review/2026/doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e/v1/document.json",
+        "data/inputs/collection-records/publication-equivalence-review/2026/collection-2eacc5867e994a58983bd1440ed1dec3/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-d753d52a866e4b8693cbc1e4132c1a1a",
+      "summary": "import",
+      "issues": []
+    }
+  }
+]

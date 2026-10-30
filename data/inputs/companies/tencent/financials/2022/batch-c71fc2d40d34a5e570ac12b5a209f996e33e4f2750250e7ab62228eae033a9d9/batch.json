@@ -1,0 +1,55 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-df9bd66b105fcb061038a96b3cb748a3b94f2753401cf4eb3dd7be046f213f40/candidate.json",
+  "batch_id": "batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9",
+  "candidate_hash": "df9bd66b105fcb061038a96b3cb748a3b94f2753401cf4eb3dd7be046f213f40",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/financial-observations.json",
+      "sha256": "56959af10d2ba5dd62ad4fbec535fb69c91e2da2225bc7fc9f62ffc59e7d81fe"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:26.392367+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:43:37.357042+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "At 31 December 2022 9,568,738,935",
+      "locator": "pdf:page:245",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2022-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "9568738935",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

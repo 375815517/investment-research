@@ -1,0 +1,1207 @@
+{
+  "reviewed_at": "2026-10-30T11:20:57.231315+00:00",
+  "reviewer": "interfaces-v2-independent-source-review",
+  "method": "Independently reopened archived PDF originals with verified hashes; checked physical page, full row label, year headings/current first column, original amount sign, issuer scope, units and annual period. No admission performed.",
+  "results": [
+    {
+      "year": 2018,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "5b9ea5f16a30d5fef1e1bb57d65cc3030ede8b51f1efc84018dddbf064df9260",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-19743",
+          "locator": "pdf:page:141",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2018,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "b7195c187fcd9bae8f58d3fdf7a9197eab9952aa28fe7e7244d126810059b639",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9444",
+          "locator": "pdf:page:202",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9568",
+          "locator": "pdf:page:203",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2019,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "8d500f7ffb7bbfbaa82aebcf2c914a314dfccf158f9e87b188e2d2951bc776b7",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-22766",
+          "locator": "pdf:page:146",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2019,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "1bc138cb05e92cd0d60315bd249ccb4d12a9c012b35819ad8bdaf8d8d464f86e",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9468",
+          "locator": "pdf:page:202",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9603",
+          "locator": "pdf:page:203",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2020,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "3ba229909778160a00b75671993674758f635f95f2dfdd61f4229bb46112cf15",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-34070",
+          "locator": "pdf:page:174",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2020,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "38809dbd22fff73fa38ae58e9687a3dc95e81fcc9123ba146e48249376d69e2a",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9490",
+          "locator": "pdf:page:237",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9650",
+          "locator": "pdf:page:238",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2021,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "c1576a28ace37f4f4ce6a0b512690924c758ae83d89e4cb09e9a89aeb867e40e",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-29302",
+          "locator": "pdf:page:179",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2021,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "6a6e48e44475b52e337b80f78f3f2e19ce6181d3ada285d959f8dd55fbc1d0ca",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9528",
+          "locator": "pdf:page:245",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9696",
+          "locator": "pdf:page:246",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2022,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "736f5d3f370dc10be85bef2a217e20d3d32c6f5244955a4eb233d39edf7d5169",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-22679",
+          "locator": "pdf:page:141",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2022,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "2cae3f16857210ddeb7ab01985e9ec4b19a5290e913b994e80211ead69f0de7e",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9528",
+          "locator": "pdf:page:206",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9695",
+          "locator": "pdf:page:207",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2023,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "62ad14829ce4c5425b6e711c4e41cc34ae2511d4bbfa2ad484932c57e6648b79",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-21008",
+          "locator": "pdf:page:138",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2023,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "7e26cbc951cd7d8054f1a71806d4f545e57faca2c02a4f1242f779ca8e3c005f",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9455",
+          "locator": "pdf:page:206",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9610",
+          "locator": "pdf:page:206",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2024,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "7be91dd5ea0ad069ac424968822dee5fc603e9578467c513d8bc0416eaa267cf",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-62927",
+          "locator": "pdf:page:133",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2024,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "e067583e36b43ac876135e3fb1803d4aaa5e3bb259b7dc3676d5a34a26843791",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9269",
+          "locator": "pdf:page:199",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9408",
+          "locator": "pdf:page:200",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2025,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "0e0eb1c33c21d61d8fa10a63b4177c477dddde55e2736d5b6037672b558c9d0a",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-construction-investment-cash-payments",
+          "source_value": "-87482",
+          "locator": "pdf:page:139",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2025,
+      "company_id": "tencent",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "3fdada046bef0247d930c068364ae95054fdbf08f14fbea6ec1d182ee545a9d2",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "9085",
+          "locator": "pdf:page:207",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "9244",
+          "locator": "pdf:page:208",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2018,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "6cedba471c82c111f33d46079e292ec77e02e0a75ddfec0f7a1a8dc148e6f12d",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-3785259",
+          "locator": "pdf:page:177",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2018,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "3460864aa59f6c8351c8e94f9014f03d43ccb7202f74231bae3c0a98f7d55a76",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "16069770",
+          "locator": "pdf:page:251",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "23562930",
+          "locator": "pdf:page:253",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2019,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "49fd0a8c779b1e271d5a43c73eec08ad3fd9c062c9db9fda972514569c98f3e0",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-3405163",
+          "locator": "pdf:page:191",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2019,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "0e1ad4357cbf9de280db636f87139b4dba906c93cc34eeab0f9cd075aa6f7dcd",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "23746463",
+          "locator": "pdf:page:267",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "24508764",
+          "locator": "pdf:page:268",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2020,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "074b039dd692f0f88c8b9a2e2e5c0066e0aa429dd77f3983145819a3c11c6c1b",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "document_sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-3025523",
+          "locator": "pdf:page:227",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2020,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "c25262ce236c82031917a6621ec1a9dfc9e9298e8bd7af55872fa0b53ec51a50",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "document_sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "23986829",
+          "locator": "pdf:page:304",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "24668280",
+          "locator": "pdf:page:305",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2021,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "ca0b6fc476cb1a0e2044b9778fc41e70f155b374c9583100461f77e714861113",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "document_sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-7169313",
+          "locator": "pdf:page:194",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2021,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "cec3640bcef1ac2e808a81784f1e874abe75ff548622735ad3e2b29c3e3f8362",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "document_sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "24927461",
+          "locator": "pdf:page:274",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "25509431",
+          "locator": "pdf:page:275",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2022,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "f9b38ce1dc9bb84465a02e9c1a06a2dc367f1352d2175958185cee3ce0c46c34",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "document_sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-5799570",
+          "locator": "pdf:page:195",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2022,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "54be230908ec52a0b4b6aa961865a5a222cb0ac0bccd7a5a4f9bc9d9afaedb66",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "document_sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "24828316",
+          "locator": "pdf:page:271",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "25297383",
+          "locator": "pdf:page:272",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2023,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "963c00f54e1bec79efe7e9458234a7803019ae624c9383bc672cad04b0ada17d",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "document_sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-6268900",
+          "locator": "pdf:page:208",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2023,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "f97421f362300a58e89b7136b8623707407943205a52c128f3a978abf2ea1e23",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "document_sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "24884874",
+          "locator": "pdf:page:283",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "25324991",
+          "locator": "pdf:page:284",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2024,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "3b4f33fb960bcee7661cc56a09f06f4de521acb30b10f7f696231b0318fae4b8",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "capital-expenditure-cash-payments",
+          "source_value": "-7297307",
+          "locator": "pdf:page:237",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2024,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "dc6714bc5f60f0a26f8e0c167a148ea4d27841ccb6193c93e12ebc2c756cfb4d",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "24825170",
+          "locator": "pdf:page:316",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "25500733",
+          "locator": "pdf:page:316",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2025,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-annual-capital-cash-candidates.json",
+      "candidate_file_sha256": "b549b8f06bb44e2661af917c103d183a407ca930f34fdecfe1d41187d939e3ea",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "property-land-intangible-cash-payments",
+          "source_value": "-12769155",
+          "locator": "pdf:page:278",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    },
+    {
+      "year": 2025,
+      "company_id": "xiaomi",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-annual-share-denominators-candidates.json",
+      "candidate_file_sha256": "c2e9ef41c3a9e014ae50be045f043d90946f749b0c82b77db75bd23101091c14",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "weighted-average-basic-shares",
+          "source_value": "25656635",
+          "locator": "pdf:page:353",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        },
+        {
+          "metric_id": "weighted-average-diluted-shares",
+          "source_value": "26695326",
+          "locator": "pdf:page:354",
+          "checks": {
+            "row_verified": true,
+            "column_verified": true,
+            "unit_scale_verified": true,
+            "period_verified": true,
+            "kind_verified": true,
+            "currency_verified": true
+          }
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Annual current-year original disclosure, not a later comparative restatement. Xiaomi 2022 diluted shares 25297383 retained; 2023 comparative 25296728 does not overwrite it.",
+        "Cash payments preserve issuer scope: Xiaomi capital expenditure or property/land/intangibles; Tencent property/construction/investment properties with prepayments in 2024/25. No PPE-only or automatic cross-company comparability claim.",
+        "Weighted average annual share denominators are not period-end outstanding share capital."
+      ]
+    }
+  ]
+}

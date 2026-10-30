@@ -1,0 +1,39 @@
+{
+  "candidate_id": "candidate-efb904938a3f1ef3f5fd48a6eaaabf589d9d99b18f8dd65e22858370c24366e8",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "At 31 December 2019 9,552,615,286",
+      "locator": "pdf:page:235",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2019-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "9552615286",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

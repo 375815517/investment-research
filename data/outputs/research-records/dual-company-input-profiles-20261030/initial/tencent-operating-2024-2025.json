@@ -1,0 +1,452 @@
+{
+  "recorded_at": "2026-10-30T10:50:26.229627+00:00",
+  "profile_path": "research/input-profiles/tencent-operating-2024-2025/v1.json",
+  "request": {
+    "comparison_groups": [],
+    "expected_keys": [
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "weixin-wechat-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "combined-monthly-active-accounts",
+            "product": "weixin-wechat"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "qq-mobile-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "mobile-device-monthly-active-accounts",
+            "product": "qq-mobile"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "average-daily-paid-subscriptions-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "average-daily-paid-subscriptions",
+            "product": "fee-based-vas"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "average-daily-paid-subscriptions",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-10-01",
+          "period_type": "quarter",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "subscriptions"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "weixin-wechat-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "combined-monthly-active-accounts",
+            "product": "weixin-wechat"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "qq-mobile-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "mobile-device-monthly-active-accounts",
+            "product": "qq-mobile"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "average-daily-paid-subscriptions-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "average-daily-paid-subscriptions",
+            "product": "fee-based-vas"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "average-daily-paid-subscriptions",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-10-01",
+          "period_type": "quarter",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "subscriptions"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      }
+    ],
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "tencent-operating-2024-2025",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "result": {
+    "status": "blocked",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "purpose": "source_description",
+    "audit": {
+      "status": "partial",
+      "scope": "declared_exact_keys",
+      "profile_id": "tencent-operating-2024-2025",
+      "profile_version": "1",
+      "keys": [
+        {
+          "key_id": "weixin-wechat-mau-2024",
+          "expected": {
+            "key_id": "weixin-wechat-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "combined-monthly-active-accounts",
+                "product": "weixin-wechat"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "qq-mobile-mau-2024",
+          "expected": {
+            "key_id": "qq-mobile-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "mobile-device-monthly-active-accounts",
+                "product": "qq-mobile"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "average-daily-paid-subscriptions-2024",
+          "expected": {
+            "key_id": "average-daily-paid-subscriptions-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-10-01",
+              "period_type": "quarter",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "subscriptions"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weixin-wechat-mau-2025",
+          "expected": {
+            "key_id": "weixin-wechat-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "combined-monthly-active-accounts",
+                "product": "weixin-wechat"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "qq-mobile-mau-2025",
+          "expected": {
+            "key_id": "qq-mobile-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "mobile-device-monthly-active-accounts",
+                "product": "qq-mobile"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "average-daily-paid-subscriptions-2025",
+          "expected": {
+            "key_id": "average-daily-paid-subscriptions-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "tencent",
+            "source_id": "tencent-reports",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-10-01",
+              "period_type": "quarter",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "subscriptions"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        }
+      ],
+      "required_count": 6,
+      "satisfied_required_count": 0,
+      "missing_key_ids": [
+        "weixin-wechat-mau-2024",
+        "qq-mobile-mau-2024",
+        "average-daily-paid-subscriptions-2024",
+        "weixin-wechat-mau-2025",
+        "qq-mobile-mau-2025",
+        "average-daily-paid-subscriptions-2025"
+      ],
+      "artifact_refs": [],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ]
+    },
+    "findings": [
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weixin-wechat-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "qq-mobile-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "average-daily-paid-subscriptions-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weixin-wechat-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "qq-mobile-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "average-daily-paid-subscriptions-2025"
+        ],
+        "group_id": null
+      }
+    ],
+    "artifact_refs": [],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [
+      "EXACT_KEY_MISSING"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-095544c6a8f3499694be08e28d1efa33",
+    "summary": "profile assess",
+    "issues": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-c728267815d2d0f690de9959",
+  "entries": [],
+  "issues": [
+    {
+      "code": "SOURCE_DISCOVERY_EMPTY",
+      "parameters": {
+        "year": 2026
+      },
+      "retryable": false
+    }
+  ],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": {
+    "year": 2026
+  },
+  "pages": [],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:30.028994+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

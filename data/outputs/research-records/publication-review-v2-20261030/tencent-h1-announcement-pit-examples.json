@@ -1,0 +1,218 @@
+[
+  {
+    "document_id": "doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-08-15T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/metadata-revisions/metadata-2e118b3f941e46b053a204ca42ecad4e893430f17a18ba11c05de6efb90f04e8.json"
+  },
+  {
+    "document_id": "doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-08-15T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/metadata-revisions/metadata-2e118b3f941e46b053a204ca42ecad4e893430f17a18ba11c05de6efb90f04e8.json"
+  },
+  {
+    "document_id": "doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2018-08-15T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/document.json"
+  },
+  {
+    "document_id": "doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-08-14T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384/v1/metadata-revisions/metadata-ced3adacdf061e340c58292bd58d2bf4eab3df90f4987250f80f146752124c7b.json"
+  },
+  {
+    "document_id": "doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-08-14T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384/v1/metadata-revisions/metadata-ced3adacdf061e340c58292bd58d2bf4eab3df90f4987250f80f146752124c7b.json"
+  },
+  {
+    "document_id": "doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2019-08-14T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-43306b74eb1b1d096780d5ef1d7f7ce6452bfa6a898c81b771fa82a9ec0e6384/v1/document.json"
+  },
+  {
+    "document_id": "doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-08-12T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f/v1/metadata-revisions/metadata-053cf8864b2c3bbd03cca2df3c029d2402240277adb3d0fa0643be9d0235f91d.json"
+  },
+  {
+    "document_id": "doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-08-12T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f/v1/metadata-revisions/metadata-053cf8864b2c3bbd03cca2df3c029d2402240277adb3d0fa0643be9d0235f91d.json"
+  },
+  {
+    "document_id": "doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2020-08-12T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f/v1/document.json"
+  },
+  {
+    "document_id": "doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-08-18T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd/v1/metadata-revisions/metadata-2c21641ac821f2ed1579f16f47faa53e4004f1bbb75c10039e9e481d7a8186f9.json"
+  },
+  {
+    "document_id": "doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-08-18T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd/v1/metadata-revisions/metadata-2c21641ac821f2ed1579f16f47faa53e4004f1bbb75c10039e9e481d7a8186f9.json"
+  },
+  {
+    "document_id": "doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2021-08-18T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-8b4788e247a7caf8876f7f4518f589f74d63f4146f52038de465639bade41bbd/v1/document.json"
+  },
+  {
+    "document_id": "doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-08-17T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8/v1/metadata-revisions/metadata-13a6f4b8bfabda10ce42ebdff82356b1c554e473ef2e08a8b2663f73bec5a213.json"
+  },
+  {
+    "document_id": "doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-08-17T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8/v1/metadata-revisions/metadata-13a6f4b8bfabda10ce42ebdff82356b1c554e473ef2e08a8b2663f73bec5a213.json"
+  },
+  {
+    "document_id": "doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2022-08-17T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8/v1/document.json"
+  },
+  {
+    "document_id": "doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-08-16T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed/v1/metadata-revisions/metadata-bca2c8f22e8574cd79c827a7734780e03cd8f13b69ea15a790c8b7a481b41b4b.json"
+  },
+  {
+    "document_id": "doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-08-16T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed/v1/metadata-revisions/metadata-bca2c8f22e8574cd79c827a7734780e03cd8f13b69ea15a790c8b7a481b41b4b.json"
+  },
+  {
+    "document_id": "doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2023-08-16T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9c05b0819d43797dd35ce187fffc815740e50a9f9f9bedbcc708384f3f5b17ed/v1/document.json"
+  },
+  {
+    "document_id": "doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-08-14T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449/v1/metadata-revisions/metadata-06da2c4da1a5d2da433a3d7a5ec278c2923beb6ea7325bad372abbbda41cf45f.json"
+  },
+  {
+    "document_id": "doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-08-14T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449/v1/metadata-revisions/metadata-06da2c4da1a5d2da433a3d7a5ec278c2923beb6ea7325bad372abbbda41cf45f.json"
+  },
+  {
+    "document_id": "doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2024-08-14T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eae4d435efcb2d04ef4a34201577840ca1dc9f40e5b51a08d4e197fcf09e7449/v1/document.json"
+  },
+  {
+    "document_id": "doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-08-13T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/metadata-revisions/metadata-8cc4fa5743d5f9ec0d090886f13987a2608ab5e3860e122ed96ddfa195aa5d57.json"
+  },
+  {
+    "document_id": "doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-08-13T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/metadata-revisions/metadata-8cc4fa5743d5f9ec0d090886f13987a2608ab5e3860e122ed96ddfa195aa5d57.json"
+  },
+  {
+    "document_id": "doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2025-08-13T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/document.json"
+  },
+  {
+    "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2026-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-08-12T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/metadata-revisions/metadata-1b3a16b012c307ff6d0add6af44d94554c2f290cc06e7d7ba188ca0c1dc2c724.json"
+  },
+  {
+    "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2026-h1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-08-12T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/metadata-revisions/metadata-1b3a16b012c307ff6d0add6af44d94554c2f290cc06e7d7ba188ca0c1dc2c724.json"
+  },
+  {
+    "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2026-h1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2026-08-12T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/document.json"
+  }
+]

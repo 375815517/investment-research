@@ -1,0 +1,53 @@
+{
+  "event_hash": "c8eec6993d9b0f691bf0daa9b2692f6f72d10bb74f8c20a8557a8f127eec327d",
+  "items": [
+    {
+      "attempts": 1,
+      "context": "2026-10-15",
+      "issue": {
+        "code": "SOURCE_CONFIG_CHANGED",
+        "retryable": false
+      },
+      "item_id": "item-3e63141da27b2a15c88216a4",
+      "listing_document_id": null,
+      "observed_date": "2026-10-15",
+      "stage": "failed",
+      "title": "hkex-daily 2026-10-15",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-28",
+      "item_id": "item-51fcb6bffdb4044769778ec2",
+      "listing_document_id": null,
+      "observed_date": "2026-10-28",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-28",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-02",
+      "item_id": "item-a7d91a16a8129b63705e1510",
+      "listing_document_id": null,
+      "observed_date": "2026-10-02",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-02",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-29",
+      "item_id": "item-afbfd43a3ecb869771b99d50",
+      "listing_document_id": null,
+      "observed_date": "2026-10-29",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-29",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm"
+    }
+  ],
+  "previous_hash": null,
+  "recorded_at": "2026-10-30T10:59:15.638064+00:00",
+  "sequence": 1,
+  "task_id": "acquisition-61ab6428d7ec482bcba0b388"
+}

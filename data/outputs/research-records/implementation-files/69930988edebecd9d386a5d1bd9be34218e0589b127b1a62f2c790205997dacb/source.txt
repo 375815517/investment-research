@@ -1,0 +1,207 @@
+"""Immutable input bundles pin evidence, metadata selections and executable sources."""
+
+import subprocess
+from pathlib import Path
+
+from investment_domain import DomainError, FreezeInputsRequest, VerifyBundleRequest
+from investment_repository import digest_bytes, fingerprint
+
+from .profiles import assess
+from .transforms import replay
+
+BUNDLE_VERSION = "input-bundle-v1"
+
+
+def _code_manifest(root):
+    files = []
+    for folder in ("packages", "apps", "ai/tooling", "scripts"):
+        directory = root / folder
+        if directory.is_dir():
+            for path in directory.rglob("*.py"):
+                if any(part in {"__pycache__", "build", "dist", ".venv"} for part in path.parts):
+                    continue
+                if path.is_symlink():
+                    raise DomainError("UNSAFE_PATH", str(path))
+                files.append(
+                    dict(
+                        path=path.relative_to(root).as_posix(),
+                        sha256=digest_bytes(path.read_bytes()),
+                    )
+                )
+    for relative in ("uv.lock", "pyproject.toml"):
+        path = root / relative
+        if path.is_file():
+            files.append(dict(path=relative, sha256=digest_bytes(path.read_bytes())))
+    try:
+        head = subprocess.check_output(
+            ["git", "-C", str(root), "rev-parse", "HEAD"],
+            stderr=subprocess.DEVNULL,
+            timeout=5,
+            text=True,
+        ).strip()
+    except (subprocess.SubprocessError, OSError):
+        head = None
+    return dict(
+        git_head_at_freeze=head,
+        files=sorted(files, key=lambda f: f["path"]),
+        note="File hashes identify the actual code; HEAD alone does not certify a clean tree",
+    )
+
+
+def _pinned_files(service, assessment):
+    refs = set(assessment["artifact_refs"])
+    documents, selections = set(), {}
+    for key in assessment["audit"]["keys"]:
+        for row in key["rows"]:
+            documents.update(row.get("document_refs", []))
+            refs.update(row.get("document_metadata_refs", []))
+            selections.update(row.get("metadata_revision_ids", {}))
+            refs.update(row.get("batch_refs", []))
+    for ref in list(refs):
+        if ref.endswith("/batch.json"):
+            batch = service.repo.read_json(ref)
+            refs.update(file["path"] for file in batch["files"])
+    pinned_documents = {}
+    for doc_id in sorted(documents):
+        doc, metadata_ref = service.repo.document(doc_id)
+        refs.update((metadata_ref, doc["path"]))
+        selection = selections.get(doc_id, "original")
+        pinned_documents[doc_id] = dict(original_sha256=doc["sha256"], metadata_revision=selection)
+    # Metadata revisions cite evidence originals. Pin their exact bytes and original
+    # metadata; do not resolve those evidence documents through future revisions.
+    pending = [ref for ref in refs if "/metadata-revisions/" in ref]
+    visited = set()
+    while pending:
+        ref = pending.pop()
+        if ref in visited:
+            continue
+        visited.add(ref)
+        revision = service.repo.read_json(ref)
+        evidence_ids = list(revision.get("evidence_document_ids", []))
+        if revision.get("evidence_document_id"):
+            evidence_ids.append(revision["evidence_document_id"])
+        evidence_ids.extend(item.get("document_id") for item in revision.get("evidence", []))
+        evidence_ids.extend(
+            item["document_id"] for item in revision.get("supporting_documents", [])
+        )
+        for evidence_id in filter(None, evidence_ids):
+            evidence, metadata_ref = service.repo.document(evidence_id)
+            refs.update((metadata_ref, evidence["path"]))
+        previous = revision.get("previous_revision_id")
+        if previous and previous != "original":
+            parent = str(Path(ref).parent / (previous + ".json"))
+            refs.add(parent)
+            pending.append(parent)
+    manifest = []
+    for ref in sorted(refs):
+        path = service.repo.path(ref)
+        if not path.is_file():
+            raise DomainError("BUNDLE_INPUT_MISSING", ref)
+        manifest.append(dict(path=ref, sha256=digest_bytes(path.read_bytes())))
+    return manifest, pinned_documents
+
+
+def freeze(service, payload):
+    request = FreezeInputsRequest.model_validate(payload)
+    with service.repo.read_snapshot():
+        assessment = assess(service, request.profile.model_dump(mode="json"))
+        files, documents = _pinned_files(service, assessment)
+        transformations = []
+        frozen_rows = {
+            (key["key_id"], fingerprint(row))
+            for key in assessment["audit"]["keys"]
+            for row in key["rows"]
+        }
+        for transformation_id in request.transformation_ids:
+            ref = f"data/outputs/research-records/transformations/{transformation_id}/run.json"
+            run = service.repo.read_json(ref)
+            if "normalization-" + fingerprint(run)[:32] != transformation_id:
+                raise DomainError("TRANSFORM_CHANGED", transformation_id, 4)
+            for record in run["records"]:
+                if (record["key_id"], record["input_sha256"]) not in frozen_rows:
+                    raise DomainError("TRANSFORM_INPUT_NOT_IN_BUNDLE", record["key_id"], 4)
+            replayed = replay(run)
+            files.append(dict(path=ref, sha256=digest_bytes(service.repo.path(ref).read_bytes())))
+            transformations.append(
+                dict(transformation_id=transformation_id, path=ref, replayed_values=replayed)
+            )
+        files.sort(key=lambda item: item["path"])
+        bundle = dict(
+            bundle_version=BUNDLE_VERSION,
+            label=request.label,
+            profile=request.profile.model_dump(mode="json"),
+            assessment=assessment,
+            evidence_files=files,
+            documents=documents,
+            implementation=_code_manifest(service.repo.root),
+            transformations=transformations,
+            limitations=[
+                "Freezing a blocked or limited input set preserves its limitations; it does not certify readiness",
+                "Verification reads pinned files and rows, never substitutes newly available data",
+                "Source and implementation hashes establish reproducibility boundaries, not source authenticity",
+            ],
+        )
+    bundle_id = "inputs-" + fingerprint(bundle)[:32]
+    path = f"data/outputs/research-records/input-bundles/{bundle_id}/bundle.json"
+    service.repo.json(path, dict(bundle_id=bundle_id, **bundle))
+    return dict(
+        status="frozen",
+        bundle_id=bundle_id,
+        assessment_status=assessment["status"],
+        artifact_refs=[path],
+        findings=assessment["findings"],
+        limitations=bundle["limitations"],
+    )
+
+
+def verify(service, payload):
+    request = VerifyBundleRequest.model_validate(payload)
+    ref = f"data/outputs/research-records/input-bundles/{request.bundle_id}/bundle.json"
+    bundle = service.repo.read_json(ref)
+    core = {key: value for key, value in bundle.items() if key != "bundle_id"}
+    if bundle.get("bundle_id") != request.bundle_id or (
+        "inputs-" + fingerprint(core)[:32] != request.bundle_id
+    ):
+        raise DomainError("BUNDLE_CHANGED", "Bundle content no longer matches its identifier", 4)
+    issues = []
+    for kind, files in (
+        ("evidence", bundle["evidence_files"]),
+        ("implementation", bundle["implementation"]["files"]),
+    ):
+        for file in files:
+            path = service.repo.path(file["path"])
+            if not path.is_file() or digest_bytes(path.read_bytes()) != file["sha256"]:
+                issues.append(dict(code="PINNED_FILE_CHANGED", kind=kind, path=file["path"]))
+    replay_results = []
+    if not issues:
+        for transformation in bundle.get("transformations", []):
+            try:
+                values = replay(service.repo.read_json(transformation["path"]))
+                if values != transformation["replayed_values"]:
+                    raise DomainError("TRANSFORM_REPLAY_MISMATCH", transformation["path"], 4)
+                replay_results.append(
+                    dict(
+                        transformation_id=transformation["transformation_id"],
+                        status="reproduced",
+                        values=values,
+                    )
+                )
+            except (DomainError, ValueError, KeyError) as exc:
+                issues.append(
+                    dict(
+                        code=getattr(exc, "code", "TRANSFORM_REPLAY_MISMATCH"),
+                        kind="transformation",
+                        path=transformation["path"],
+                    )
+                )
+    return dict(
+        status="blocked" if issues else "verified",
+        bundle_id=request.bundle_id,
+        assessment_status=bundle["assessment"]["status"],
+        profile=bundle["profile"],
+        issues=issues,
+        artifact_refs=[ref],
+        replay_results=replay_results,
+        record_count=sum(len(key["rows"]) for key in bundle["assessment"]["audit"]["keys"]),
+        limitations=bundle["limitations"],
+    )

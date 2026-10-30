@@ -1,0 +1,375 @@
+{
+  "results": [
+    {
+      "bundle_id": "inputs-ce240f5e903186680a5ad41ec3d8cb1a",
+      "implementation_recoverable": true,
+      "issues": [
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/api/src/investment_api/server.py",
+          "restore_from": "data/outputs/research-records/implementation-files/87cc36f346c11370fc3b525bd1035cb5e46091cb2bf61f45aafb28bb8969bb8f/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/cli/src/investment_cli/main.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2e730f87cef7a0ebf259b8db04bce0821ad820c882739cd2199eb823ff61d725/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/connectors/src/investment_connectors/providers.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ce8024a6ce946c3af5f5b47d90e522d5f44a1e66749f232c76295d00286603cc/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/market_context.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2613ce53ff4211c13a0479fba7e561a6ffb37b862325bd55246cb4a3012acd91/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/a085de0a1ffd14380eeef75e47c20d243750cb810ea5e07643a84cd5a1c43818/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ed7108dfeb06fd23fa9cd980c58d4678972b402038f26ea423ec4e6ff05c0a29/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/acquisition.py",
+          "restore_from": "data/outputs/research-records/implementation-files/b8ff34fbb10288f362e46519bd1e9e0236f9b7aae08c835bcf76ed010ee9ed00/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/bundles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/69930988edebecd9d386a5d1bd9be34218e0589b127b1a62f2c790205997dacb/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/market_status.py",
+          "restore_from": "data/outputs/research-records/implementation-files/d594ee82d6e04c3369c2a83cf6e223a21213857c205d5d83da12a14dd5547a95/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/repository/src/investment_repository/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/023a663a7cc5aa590d04c062ad67a0db6b713d0f9b4fcbd924ea686d53f8978a/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/build_input_profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/90667078c55c90b9fc1b1a9d81741b135addf5cf83364cd1b21342c9a0baf320/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/extract_report_candidates.py",
+          "restore_from": "data/outputs/research-records/implementation-files/4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196/source.txt"
+        }
+      ],
+      "status": "blocked"
+    },
+    {
+      "bundle_id": "inputs-953dd95fea2c954d8ee6bbe7490bc75a",
+      "implementation_recoverable": true,
+      "issues": [
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/api/src/investment_api/server.py",
+          "restore_from": "data/outputs/research-records/implementation-files/87cc36f346c11370fc3b525bd1035cb5e46091cb2bf61f45aafb28bb8969bb8f/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/cli/src/investment_cli/main.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2e730f87cef7a0ebf259b8db04bce0821ad820c882739cd2199eb823ff61d725/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/connectors/src/investment_connectors/providers.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ce8024a6ce946c3af5f5b47d90e522d5f44a1e66749f232c76295d00286603cc/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/market_context.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2613ce53ff4211c13a0479fba7e561a6ffb37b862325bd55246cb4a3012acd91/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/a085de0a1ffd14380eeef75e47c20d243750cb810ea5e07643a84cd5a1c43818/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ed7108dfeb06fd23fa9cd980c58d4678972b402038f26ea423ec4e6ff05c0a29/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/acquisition.py",
+          "restore_from": "data/outputs/research-records/implementation-files/b8ff34fbb10288f362e46519bd1e9e0236f9b7aae08c835bcf76ed010ee9ed00/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/bundles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/69930988edebecd9d386a5d1bd9be34218e0589b127b1a62f2c790205997dacb/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/market_status.py",
+          "restore_from": "data/outputs/research-records/implementation-files/d594ee82d6e04c3369c2a83cf6e223a21213857c205d5d83da12a14dd5547a95/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/repository/src/investment_repository/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/023a663a7cc5aa590d04c062ad67a0db6b713d0f9b4fcbd924ea686d53f8978a/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/build_input_profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/90667078c55c90b9fc1b1a9d81741b135addf5cf83364cd1b21342c9a0baf320/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/extract_report_candidates.py",
+          "restore_from": "data/outputs/research-records/implementation-files/4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196/source.txt"
+        }
+      ],
+      "status": "blocked"
+    },
+    {
+      "bundle_id": "inputs-4d9100ab116a63b5288c409efe809a02",
+      "implementation_recoverable": true,
+      "issues": [
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/api/src/investment_api/server.py",
+          "restore_from": "data/outputs/research-records/implementation-files/87cc36f346c11370fc3b525bd1035cb5e46091cb2bf61f45aafb28bb8969bb8f/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/cli/src/investment_cli/main.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2e730f87cef7a0ebf259b8db04bce0821ad820c882739cd2199eb823ff61d725/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/connectors/src/investment_connectors/providers.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ce8024a6ce946c3af5f5b47d90e522d5f44a1e66749f232c76295d00286603cc/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/market_context.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2613ce53ff4211c13a0479fba7e561a6ffb37b862325bd55246cb4a3012acd91/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/a085de0a1ffd14380eeef75e47c20d243750cb810ea5e07643a84cd5a1c43818/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ed7108dfeb06fd23fa9cd980c58d4678972b402038f26ea423ec4e6ff05c0a29/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/acquisition.py",
+          "restore_from": "data/outputs/research-records/implementation-files/b8ff34fbb10288f362e46519bd1e9e0236f9b7aae08c835bcf76ed010ee9ed00/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/bundles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/69930988edebecd9d386a5d1bd9be34218e0589b127b1a62f2c790205997dacb/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/market_status.py",
+          "restore_from": "data/outputs/research-records/implementation-files/d594ee82d6e04c3369c2a83cf6e223a21213857c205d5d83da12a14dd5547a95/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/repository/src/investment_repository/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/023a663a7cc5aa590d04c062ad67a0db6b713d0f9b4fcbd924ea686d53f8978a/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/build_input_profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/90667078c55c90b9fc1b1a9d81741b135addf5cf83364cd1b21342c9a0baf320/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/extract_report_candidates.py",
+          "restore_from": "data/outputs/research-records/implementation-files/4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196/source.txt"
+        }
+      ],
+      "status": "blocked"
+    },
+    {
+      "bundle_id": "inputs-4dbaad558621ccc449f56f4859b536ce",
+      "implementation_recoverable": true,
+      "issues": [
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/api/src/investment_api/server.py",
+          "restore_from": "data/outputs/research-records/implementation-files/87cc36f346c11370fc3b525bd1035cb5e46091cb2bf61f45aafb28bb8969bb8f/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "apps/cli/src/investment_cli/main.py",
+          "restore_from": "data/outputs/research-records/implementation-files/2e730f87cef7a0ebf259b8db04bce0821ad820c882739cd2199eb823ff61d725/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/connectors/src/investment_connectors/providers.py",
+          "restore_from": "data/outputs/research-records/implementation-files/ce8024a6ce946c3af5f5b47d90e522d5f44a1e66749f232c76295d00286603cc/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/market_context.py",
+          "restore_from": "data/outputs/research-records/implementation-files/4a62fe2537f1981989b4061380827c545cdf340adcb031de3ba9cade85444e11/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/domain/src/investment_domain/profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/a085de0a1ffd14380eeef75e47c20d243750cb810ea5e07643a84cd5a1c43818/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/aa50231675cae36449e58839bbf764803d770b91c111a7242deb64c516221f64/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/acquisition.py",
+          "restore_from": "data/outputs/research-records/implementation-files/b8ff34fbb10288f362e46519bd1e9e0236f9b7aae08c835bcf76ed010ee9ed00/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/action_dependencies.py",
+          "restore_from": "data/outputs/research-records/implementation-files/f5a11a5746ac31809eca6fbe4aa4c7b72f15b728642b420e546d9d056f98fa0f/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/bundles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/e570eea1dd8b4c7e90d6e2658df9d0dfc53315c6aa7bfe4fe5cc26c434268932/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/engine/src/investment_engine/market_status.py",
+          "restore_from": "data/outputs/research-records/implementation-files/d594ee82d6e04c3369c2a83cf6e223a21213857c205d5d83da12a14dd5547a95/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "packages/repository/src/investment_repository/__init__.py",
+          "restore_from": "data/outputs/research-records/implementation-files/023a663a7cc5aa590d04c062ad67a0db6b713d0f9b4fcbd924ea686d53f8978a/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/build_input_profiles.py",
+          "restore_from": "data/outputs/research-records/implementation-files/90667078c55c90b9fc1b1a9d81741b135addf5cf83364cd1b21342c9a0baf320/source.txt"
+        },
+        {
+          "action": "Restore the archived file into an isolated checkout before verification; no code is executed automatically",
+          "code": "PINNED_FILE_CHANGED",
+          "kind": "implementation",
+          "path": "scripts/extract_report_candidates.py",
+          "restore_from": "data/outputs/research-records/implementation-files/4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196/source.txt"
+        }
+      ],
+      "status": "blocked"
+    }
+  ]
+}

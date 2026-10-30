@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "evidence_sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "excerpt": "Release Time: 09/04/2026 17:21 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2025 ( 4MB )",
+  "locator": "html:table:ANNUAL REPORT 2025",
+  "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2026-04-09",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:57:21.561405+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+}

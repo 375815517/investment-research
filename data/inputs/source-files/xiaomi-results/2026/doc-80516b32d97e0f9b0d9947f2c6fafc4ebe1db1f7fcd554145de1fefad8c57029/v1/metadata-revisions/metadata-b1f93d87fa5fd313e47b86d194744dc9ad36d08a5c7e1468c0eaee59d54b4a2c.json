@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+  "document_sha256": "80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+  "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "evidence_sha256": "aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "excerpt": "Release Time: 24/03/2021 17:49 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2020 ( 666KB )",
+  "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2020",
+  "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2021-03-24",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:19:17.099606+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-b1f93d87fa5fd313e47b86d194744dc9ad36d08a5c7e1468c0eaee59d54b4a2c",
+  "supporting_documents": []
+}

@@ -1,0 +1,593 @@
+{
+  "company": "tencent",
+  "period": "2026-10",
+  "binding_id": "hkex-tencent",
+  "discovery": {
+    "status": "discovered",
+    "issues": [],
+    "discovery_id": "discovery-24c9e6ddf1bb4938b8e1e455",
+    "entries": [
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261001e.htm",
+        "title": "hkex-daily 2026-10-01",
+        "context": "2026-10-01",
+        "observed_date": "2026-10-01",
+        "item_id": "item-facd0ec37041f120dd2dbbb5",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm",
+        "title": "hkex-daily 2026-10-02",
+        "context": "2026-10-02",
+        "observed_date": "2026-10-02",
+        "item_id": "item-184ad27290cf9a5d30e1c8d4",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261003e.htm",
+        "title": "hkex-daily 2026-10-03",
+        "context": "2026-10-03",
+        "observed_date": "2026-10-03",
+        "item_id": "item-a92dbe5745fd2ed2f16586c1",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261004e.htm",
+        "title": "hkex-daily 2026-10-04",
+        "context": "2026-10-04",
+        "observed_date": "2026-10-04",
+        "item_id": "item-509aa4f1ee35d06b7dd99240",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261005e.htm",
+        "title": "hkex-daily 2026-10-05",
+        "context": "2026-10-05",
+        "observed_date": "2026-10-05",
+        "item_id": "item-2fa49ac8130c7e0ef64e0a8c",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261006e.htm",
+        "title": "hkex-daily 2026-10-06",
+        "context": "2026-10-06",
+        "observed_date": "2026-10-06",
+        "item_id": "item-2b566b984af44a8296d4e1a0",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261007e.htm",
+        "title": "hkex-daily 2026-10-07",
+        "context": "2026-10-07",
+        "observed_date": "2026-10-07",
+        "item_id": "item-24e3a7ce397f5d54a04ac10d",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261008e.htm",
+        "title": "hkex-daily 2026-10-08",
+        "context": "2026-10-08",
+        "observed_date": "2026-10-08",
+        "item_id": "item-e701f1fc49886a804b1a758d",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261009e.htm",
+        "title": "hkex-daily 2026-10-09",
+        "context": "2026-10-09",
+        "observed_date": "2026-10-09",
+        "item_id": "item-5696d8cc9a6061b5a29d911f",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261010e.htm",
+        "title": "hkex-daily 2026-10-10",
+        "context": "2026-10-10",
+        "observed_date": "2026-10-10",
+        "item_id": "item-d69c1a6c7d30e149eac0a38e",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261011e.htm",
+        "title": "hkex-daily 2026-10-11",
+        "context": "2026-10-11",
+        "observed_date": "2026-10-11",
+        "item_id": "item-f5bd1593b013d5530d22ef53",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261012e.htm",
+        "title": "hkex-daily 2026-10-12",
+        "context": "2026-10-12",
+        "observed_date": "2026-10-12",
+        "item_id": "item-d14abeed4c8e5b0f24403d5d",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261013e.htm",
+        "title": "hkex-daily 2026-10-13",
+        "context": "2026-10-13",
+        "observed_date": "2026-10-13",
+        "item_id": "item-7e98fedd7a7650cfb4f9d1fc",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261014e.htm",
+        "title": "hkex-daily 2026-10-14",
+        "context": "2026-10-14",
+        "observed_date": "2026-10-14",
+        "item_id": "item-77f3a9297c179a743174b1b7",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm",
+        "title": "hkex-daily 2026-10-15",
+        "context": "2026-10-15",
+        "observed_date": "2026-10-15",
+        "item_id": "item-0d1684dc71d32a38781125fd",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261016e.htm",
+        "title": "hkex-daily 2026-10-16",
+        "context": "2026-10-16",
+        "observed_date": "2026-10-16",
+        "item_id": "item-458e4763deb82e0c8e6c4c8d",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261017e.htm",
+        "title": "hkex-daily 2026-10-17",
+        "context": "2026-10-17",
+        "observed_date": "2026-10-17",
+        "item_id": "item-8b7186275042d96a746752d6",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261018e.htm",
+        "title": "hkex-daily 2026-10-18",
+        "context": "2026-10-18",
+        "observed_date": "2026-10-18",
+        "item_id": "item-3114e2f1911d4aa7f4926b59",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261019e.htm",
+        "title": "hkex-daily 2026-10-19",
+        "context": "2026-10-19",
+        "observed_date": "2026-10-19",
+        "item_id": "item-b742e61ea7b8b2bc8e4842a8",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261020e.htm",
+        "title": "hkex-daily 2026-10-20",
+        "context": "2026-10-20",
+        "observed_date": "2026-10-20",
+        "item_id": "item-c8fffa5dc77bf2eb518b3d86",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261021e.htm",
+        "title": "hkex-daily 2026-10-21",
+        "context": "2026-10-21",
+        "observed_date": "2026-10-21",
+        "item_id": "item-8c419e3658e130786683f2ad",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261022e.htm",
+        "title": "hkex-daily 2026-10-22",
+        "context": "2026-10-22",
+        "observed_date": "2026-10-22",
+        "item_id": "item-a9a9da838ae33d84ffbec9d2",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261023e.htm",
+        "title": "hkex-daily 2026-10-23",
+        "context": "2026-10-23",
+        "observed_date": "2026-10-23",
+        "item_id": "item-7c6516aff1ee2089b53665f3",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261024e.htm",
+        "title": "hkex-daily 2026-10-24",
+        "context": "2026-10-24",
+        "observed_date": "2026-10-24",
+        "item_id": "item-5eaf6c114ee5007ef383a589",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261025e.htm",
+        "title": "hkex-daily 2026-10-25",
+        "context": "2026-10-25",
+        "observed_date": "2026-10-25",
+        "item_id": "item-d53efd4c5696704bc3d5bfb7",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261026e.htm",
+        "title": "hkex-daily 2026-10-26",
+        "context": "2026-10-26",
+        "observed_date": "2026-10-26",
+        "item_id": "item-52961a32ffb801def052633d",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261027e.htm",
+        "title": "hkex-daily 2026-10-27",
+        "context": "2026-10-27",
+        "observed_date": "2026-10-27",
+        "item_id": "item-1e51eaf05f5bb1c3bf6b991e",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm",
+        "title": "hkex-daily 2026-10-28",
+        "context": "2026-10-28",
+        "observed_date": "2026-10-28",
+        "item_id": "item-0a4d5b023820e4a92cfb9d5b",
+        "listing_document_id": null
+      },
+      {
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm",
+        "title": "hkex-daily 2026-10-29",
+        "context": "2026-10-29",
+        "observed_date": "2026-10-29",
+        "item_id": "item-38281525a862e9fcc8e6b51c",
+        "listing_document_id": null
+      }
+    ],
+    "next_parameters": null,
+    "scope": "configured_date_requests_not_calendar_or_source_coverage",
+    "artifact_refs": [
+      "data/outputs/research-records/acquisition/discoveries/discovery-24c9e6ddf1bb4938b8e1e455.json"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-c60a732e06b44fb38e69955e2a492fd1",
+    "summary": "source discover",
+    "next_actions": []
+  },
+  "selected": [
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm",
+      "title": "hkex-daily 2026-10-02",
+      "context": "2026-10-02",
+      "observed_date": "2026-10-02",
+      "item_id": "item-184ad27290cf9a5d30e1c8d4",
+      "listing_document_id": null,
+      "expected_date": "2026-10-02"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261005e.htm",
+      "title": "hkex-daily 2026-10-05",
+      "context": "2026-10-05",
+      "observed_date": "2026-10-05",
+      "item_id": "item-2fa49ac8130c7e0ef64e0a8c",
+      "listing_document_id": null,
+      "expected_date": "2026-10-05"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261006e.htm",
+      "title": "hkex-daily 2026-10-06",
+      "context": "2026-10-06",
+      "observed_date": "2026-10-06",
+      "item_id": "item-2b566b984af44a8296d4e1a0",
+      "listing_document_id": null,
+      "expected_date": "2026-10-06"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261007e.htm",
+      "title": "hkex-daily 2026-10-07",
+      "context": "2026-10-07",
+      "observed_date": "2026-10-07",
+      "item_id": "item-24e3a7ce397f5d54a04ac10d",
+      "listing_document_id": null,
+      "expected_date": "2026-10-07"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261008e.htm",
+      "title": "hkex-daily 2026-10-08",
+      "context": "2026-10-08",
+      "observed_date": "2026-10-08",
+      "item_id": "item-e701f1fc49886a804b1a758d",
+      "listing_document_id": null,
+      "expected_date": "2026-10-08"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261009e.htm",
+      "title": "hkex-daily 2026-10-09",
+      "context": "2026-10-09",
+      "observed_date": "2026-10-09",
+      "item_id": "item-5696d8cc9a6061b5a29d911f",
+      "listing_document_id": null,
+      "expected_date": "2026-10-09"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261012e.htm",
+      "title": "hkex-daily 2026-10-12",
+      "context": "2026-10-12",
+      "observed_date": "2026-10-12",
+      "item_id": "item-d14abeed4c8e5b0f24403d5d",
+      "listing_document_id": null,
+      "expected_date": "2026-10-12"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261013e.htm",
+      "title": "hkex-daily 2026-10-13",
+      "context": "2026-10-13",
+      "observed_date": "2026-10-13",
+      "item_id": "item-7e98fedd7a7650cfb4f9d1fc",
+      "listing_document_id": null,
+      "expected_date": "2026-10-13"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261014e.htm",
+      "title": "hkex-daily 2026-10-14",
+      "context": "2026-10-14",
+      "observed_date": "2026-10-14",
+      "item_id": "item-77f3a9297c179a743174b1b7",
+      "listing_document_id": null,
+      "expected_date": "2026-10-14"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm",
+      "title": "hkex-daily 2026-10-15",
+      "context": "2026-10-15",
+      "observed_date": "2026-10-15",
+      "item_id": "item-0d1684dc71d32a38781125fd",
+      "listing_document_id": null,
+      "expected_date": "2026-10-15"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261016e.htm",
+      "title": "hkex-daily 2026-10-16",
+      "context": "2026-10-16",
+      "observed_date": "2026-10-16",
+      "item_id": "item-458e4763deb82e0c8e6c4c8d",
+      "listing_document_id": null,
+      "expected_date": "2026-10-16"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261020e.htm",
+      "title": "hkex-daily 2026-10-20",
+      "context": "2026-10-20",
+      "observed_date": "2026-10-20",
+      "item_id": "item-c8fffa5dc77bf2eb518b3d86",
+      "listing_document_id": null,
+      "expected_date": "2026-10-20"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261021e.htm",
+      "title": "hkex-daily 2026-10-21",
+      "context": "2026-10-21",
+      "observed_date": "2026-10-21",
+      "item_id": "item-8c419e3658e130786683f2ad",
+      "listing_document_id": null,
+      "expected_date": "2026-10-21"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261022e.htm",
+      "title": "hkex-daily 2026-10-22",
+      "context": "2026-10-22",
+      "observed_date": "2026-10-22",
+      "item_id": "item-a9a9da838ae33d84ffbec9d2",
+      "listing_document_id": null,
+      "expected_date": "2026-10-22"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261023e.htm",
+      "title": "hkex-daily 2026-10-23",
+      "context": "2026-10-23",
+      "observed_date": "2026-10-23",
+      "item_id": "item-7c6516aff1ee2089b53665f3",
+      "listing_document_id": null,
+      "expected_date": "2026-10-23"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261026e.htm",
+      "title": "hkex-daily 2026-10-26",
+      "context": "2026-10-26",
+      "observed_date": "2026-10-26",
+      "item_id": "item-52961a32ffb801def052633d",
+      "listing_document_id": null,
+      "expected_date": "2026-10-26"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261027e.htm",
+      "title": "hkex-daily 2026-10-27",
+      "context": "2026-10-27",
+      "observed_date": "2026-10-27",
+      "item_id": "item-1e51eaf05f5bb1c3bf6b991e",
+      "listing_document_id": null,
+      "expected_date": "2026-10-27"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm",
+      "title": "hkex-daily 2026-10-28",
+      "context": "2026-10-28",
+      "observed_date": "2026-10-28",
+      "item_id": "item-0a4d5b023820e4a92cfb9d5b",
+      "listing_document_id": null,
+      "expected_date": "2026-10-28"
+    },
+    {
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm",
+      "title": "hkex-daily 2026-10-29",
+      "context": "2026-10-29",
+      "observed_date": "2026-10-29",
+      "item_id": "item-38281525a862e9fcc8e6b51c",
+      "listing_document_id": null,
+      "expected_date": "2026-10-29"
+    }
+  ],
+  "task": {
+    "status": "planned",
+    "task_id": "acquisition-e05026e73dcf696c3298823e",
+    "items": [
+      {
+        "context": "2026-10-28",
+        "item_id": "item-0a4d5b023820e4a92cfb9d5b",
+        "listing_document_id": null,
+        "observed_date": "2026-10-28",
+        "title": "hkex-daily 2026-10-28",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm"
+      },
+      {
+        "context": "2026-10-15",
+        "item_id": "item-0d1684dc71d32a38781125fd",
+        "listing_document_id": null,
+        "observed_date": "2026-10-15",
+        "title": "hkex-daily 2026-10-15",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm"
+      },
+      {
+        "context": "2026-10-02",
+        "item_id": "item-184ad27290cf9a5d30e1c8d4",
+        "listing_document_id": null,
+        "observed_date": "2026-10-02",
+        "title": "hkex-daily 2026-10-02",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm"
+      },
+      {
+        "context": "2026-10-27",
+        "item_id": "item-1e51eaf05f5bb1c3bf6b991e",
+        "listing_document_id": null,
+        "observed_date": "2026-10-27",
+        "title": "hkex-daily 2026-10-27",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261027e.htm"
+      },
+      {
+        "context": "2026-10-07",
+        "item_id": "item-24e3a7ce397f5d54a04ac10d",
+        "listing_document_id": null,
+        "observed_date": "2026-10-07",
+        "title": "hkex-daily 2026-10-07",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261007e.htm"
+      },
+      {
+        "context": "2026-10-06",
+        "item_id": "item-2b566b984af44a8296d4e1a0",
+        "listing_document_id": null,
+        "observed_date": "2026-10-06",
+        "title": "hkex-daily 2026-10-06",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261006e.htm"
+      },
+      {
+        "context": "2026-10-05",
+        "item_id": "item-2fa49ac8130c7e0ef64e0a8c",
+        "listing_document_id": null,
+        "observed_date": "2026-10-05",
+        "title": "hkex-daily 2026-10-05",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261005e.htm"
+      },
+      {
+        "context": "2026-10-29",
+        "item_id": "item-38281525a862e9fcc8e6b51c",
+        "listing_document_id": null,
+        "observed_date": "2026-10-29",
+        "title": "hkex-daily 2026-10-29",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm"
+      },
+      {
+        "context": "2026-10-16",
+        "item_id": "item-458e4763deb82e0c8e6c4c8d",
+        "listing_document_id": null,
+        "observed_date": "2026-10-16",
+        "title": "hkex-daily 2026-10-16",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261016e.htm"
+      },
+      {
+        "context": "2026-10-26",
+        "item_id": "item-52961a32ffb801def052633d",
+        "listing_document_id": null,
+        "observed_date": "2026-10-26",
+        "title": "hkex-daily 2026-10-26",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261026e.htm"
+      },
+      {
+        "context": "2026-10-09",
+        "item_id": "item-5696d8cc9a6061b5a29d911f",
+        "listing_document_id": null,
+        "observed_date": "2026-10-09",
+        "title": "hkex-daily 2026-10-09",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261009e.htm"
+      },
+      {
+        "context": "2026-10-14",
+        "item_id": "item-77f3a9297c179a743174b1b7",
+        "listing_document_id": null,
+        "observed_date": "2026-10-14",
+        "title": "hkex-daily 2026-10-14",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261014e.htm"
+      },
+      {
+        "context": "2026-10-23",
+        "item_id": "item-7c6516aff1ee2089b53665f3",
+        "listing_document_id": null,
+        "observed_date": "2026-10-23",
+        "title": "hkex-daily 2026-10-23",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261023e.htm"
+      },
+      {
+        "context": "2026-10-13",
+        "item_id": "item-7e98fedd7a7650cfb4f9d1fc",
+        "listing_document_id": null,
+        "observed_date": "2026-10-13",
+        "title": "hkex-daily 2026-10-13",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261013e.htm"
+      },
+      {
+        "context": "2026-10-21",
+        "item_id": "item-8c419e3658e130786683f2ad",
+        "listing_document_id": null,
+        "observed_date": "2026-10-21",
+        "title": "hkex-daily 2026-10-21",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261021e.htm"
+      },
+      {
+        "context": "2026-10-22",
+        "item_id": "item-a9a9da838ae33d84ffbec9d2",
+        "listing_document_id": null,
+        "observed_date": "2026-10-22",
+        "title": "hkex-daily 2026-10-22",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261022e.htm"
+      },
+      {
+        "context": "2026-10-20",
+        "item_id": "item-c8fffa5dc77bf2eb518b3d86",
+        "listing_document_id": null,
+        "observed_date": "2026-10-20",
+        "title": "hkex-daily 2026-10-20",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261020e.htm"
+      },
+      {
+        "context": "2026-10-12",
+        "item_id": "item-d14abeed4c8e5b0f24403d5d",
+        "listing_document_id": null,
+        "observed_date": "2026-10-12",
+        "title": "hkex-daily 2026-10-12",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261012e.htm"
+      },
+      {
+        "context": "2026-10-08",
+        "item_id": "item-e701f1fc49886a804b1a758d",
+        "listing_document_id": null,
+        "observed_date": "2026-10-08",
+        "title": "hkex-daily 2026-10-08",
+        "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261008e.htm"
+      }
+    ],
+    "artifact_refs": [
+      "data/outputs/research-records/acquisition/acquisition-e05026e73dcf696c3298823e/plan.json"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-71d0a9c14b4c440b8f2c48fd9f5b2e27",
+    "summary": "acquisition plan",
+    "issues": [],
+    "next_actions": []
+  },
+  "recorded_at": "2026-10-30T10:55:55.501661+00:00"
+}

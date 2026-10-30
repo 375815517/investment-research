@@ -1,0 +1,31 @@
+{
+  "metric_id": "average-daily-paid-subscriptions",
+  "version": "1",
+  "name": "期间日均付费订阅数",
+  "description": "来源披露的期间日均付费订阅数；是期间平均统计，不是期末存量或独立订阅人数。",
+  "dataset_id": "operating-observations",
+  "unit": "subscriptions",
+  "measure_kind": "period_measure",
+  "allowed_period_types": [
+    "quarter",
+    "half_year",
+    "annual"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": false,
+  "comparability_notes": "Average daily subscriptions during a stated interval; not period-end subscribers or unique users. Preserve reporting-definition revision and interval."
+}

@@ -1,0 +1,404 @@
+{
+  "reviewed_at": "2026-10-30T11:42:27.575037+00:00",
+  "reviewer": "data-v2-independent-of-contracts-extractor",
+  "method": "Independently reopened original physical share-capital note pages, read Number of issued ordinary shares versus adjacent currency columns, units, year-end closing rows and Class A/B narrative; verified exact values/citations. Original reported share counts retained, no free-float or treasury-adjusted inference. 2023 Xiaomi source discrepancy explicitly rejected.",
+  "results": [
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "5a36e49431b1b42c0826c9a129ed3e26afb59c1618d19deaa9541908a6609c60",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9520307091",
+          "physical_page": 236,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "778081e5c97dd848c90c9d8dd6234f5d678fcda6459910c198fc2dbfaa8be575",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9552615286",
+          "physical_page": 235,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "2456a8e65d85e55859460d908965711746c8afe6a56142c2730e4808790f77b2",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9593912711",
+          "physical_page": 271,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "3e641124e94ea20c22acc95215f3f559cb2dbb80ca5a61eb372e900c56a0789d",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9608378469",
+          "physical_page": 281,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "acde185aaff83aed2868a0273f7b8ca43213d98753d5bd83032f476646191202",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9568738935",
+          "physical_page": 245,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "f7b30a2653a96767bb49c5da258f087590ae4b80cebe031491f365e3e5a0c1da",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9482992820",
+          "physical_page": 243,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "b4697ab8483ead37013742fb6c50384910fe17a24ca352ed02a03214e9123ff2",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9224914953",
+          "physical_page": 236,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "dc18173a8a1cfd194a5b9f966e0a965562ea9642a106b4989e4b6f035f8eed6d",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "9120235999",
+          "physical_page": 244,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "37aff608733d2cad679bf8439049895bd50511c2db3a55c356a412224515d395",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "23626423",
+          "physical_page": 273,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "1ba84105779e971b1c07cb8f5279c4d7ac3be1eeb9f6fe0877e12025573e5c10",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "24107395",
+          "physical_page": 291,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "1f06bad42d6773cda6f6ffe5d488081c1b6e13f87cecf9a48ca55c21e6a67492",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "document_sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "25187308",
+          "physical_page": 329,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "245c00be44a214f5321f8947720cb724dcac557402e7ded5e2b92ca8415d8b0a",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "document_sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "24992449",
+          "physical_page": 302,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "7a4125b0a527b9fde1efba2e6ca1a866c37a0ae516a0fb377e779e3603d8f872",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "document_sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "24951334",
+          "physical_page": 296,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "rejected_source_conflict",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "d43abc2f91a8cc1563b820c81329c69e9fc7de8953772c8202c06e3cee8ecc18",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "document_sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "25073427",
+          "physical_page": 309,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": [
+        {
+          "code": "SOURCE_SHARE_CAPITAL_CONFLICT",
+          "aggregate_table_shares": 25073427000,
+          "class_a_shares": 4576032760,
+          "class_b_shares": 20506393747,
+          "class_sum_shares": 25082426507,
+          "difference_shares": 8999507,
+          "physical_page": 309,
+          "policy": "Reject observation admission pending explicit source resolution; raw PDF and candidate retained; do not use either representation for valuation denominators automatically"
+        }
+      ]
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-class-issued-shares-candidates.json",
+      "candidate_file_sha256": "3ee5282ce16376958db28269243ae55753b928a1302556f7091f63a28ecf9017",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "4517510134",
+          "physical_page": 341,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        },
+        {
+          "metric_id": "issued-shares",
+          "value": "20581641676",
+          "physical_page": 341,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        },
+        {
+          "class_total_minus_rounded_thousand_table": "-190",
+          "within_half_thousand_rounding": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "81458bc529ed494edce3c21af698d2979f47eaf19ea5be347368e58882594e7f",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "25099152",
+          "physical_page": 341,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-class-issued-shares-candidates.json",
+      "candidate_file_sha256": "0ae2a8b7c181b2e357caf578d13c68164e010be42feb3022711705f00a658fe6",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 2,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "4511553144",
+          "physical_page": 378,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        },
+        {
+          "metric_id": "issued-shares",
+          "value": "21535682134",
+          "physical_page": 378,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        },
+        {
+          "class_total_minus_rounded_thousand_table": "278",
+          "within_half_thousand_rounding": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-year-end-issued-shares-candidates.json",
+      "candidate_file_sha256": "e9cd3c2f879cb5e00f67b20a7776424cea8b6a1870bbe4350abd34a42a4757d0",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "issued-shares",
+          "value": "26047235",
+          "physical_page": 378,
+          "source_excerpt_matches": true,
+          "year_end_first_column_or_class_narrative": true,
+          "share_unit_scale_not_currency": true,
+          "not_free_float_or_weighted_average": true
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

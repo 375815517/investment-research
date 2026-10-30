@@ -1,0 +1,44 @@
+{
+  "candidate_id": "candidate-eeb5f69e9368f95e43873b45f674095aae8f1836843613c7e5924ce4a9896bab",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "document_id": "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1",
+  "document_sha256": "7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1",
+  "document_source_id": "sfc-short-latest",
+  "parser_source_id": "sfc-tencent",
+  "parser_version": "sfc-short-positions-v1",
+  "records": [
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": null,
+      "excerpt": "23/10/2026,700,TENCENT,72213645,27874466970",
+      "locator": "text:line:160",
+      "metric_id": "reported_short_position",
+      "observed_date": "2026-10-23",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "72213645",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": "HKD",
+      "excerpt": "23/10/2026,700,TENCENT,72213645,27874466970",
+      "locator": "text:line:160",
+      "metric_id": "reported_short_position_value",
+      "observed_date": "2026-10-23",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "27874466970",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "sfc-tencent",
+  "supersedes": []
+}

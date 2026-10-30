@@ -1,0 +1,74 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "scope": "segment",
+    "dimensions": {},
+    "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 130,
+      "pattern": "^\\s*Value-added Services\\*?\\s+[\\d,]+\\s+[\\d,]+",
+      "numeric_columns": 2,
+      "overrides": {
+        "dimensions": {
+          "segment": "value-added-services"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 130,
+      "pattern": "^\\s*Marketing Services\\*?\\s+[\\d,]+\\s+[\\d,]+",
+      "numeric_columns": 2,
+      "overrides": {
+        "dimensions": {
+          "segment": "marketing-services"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 130,
+      "pattern": "^\\s*FinTech and Business Services\\*?\\s+[\\d,]+\\s+[\\d,]+",
+      "numeric_columns": 2,
+      "overrides": {
+        "dimensions": {
+          "segment": "fintech-business-services"
+        }
+      }
+    },
+    {
+      "metric_id": "revenue",
+      "page": 130,
+      "pattern": "^\\s*Others\\*?\\s+[\\d,]+\\s+[\\d,]+",
+      "numeric_columns": 2,
+      "overrides": {
+        "dimensions": {
+          "segment": "others"
+        }
+      }
+    }
+  ],
+  "selection_review": {
+    "status": "awaiting_independent_review",
+    "report_year": 2025,
+    "limitations": [
+      "Marketing Services source rename retained; not blindly spliced with prior Online Advertising definitions"
+    ]
+  }
+}

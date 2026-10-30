@@ -44,12 +44,16 @@ def assess(service, payload):
         refs = coverage["artifact_refs"]
         documents = {}
         for document_id in sorted({ref for row in rows for ref in row["document_refs"]}):
-            document, metadata_path = service.repo.document(document_id)
+            document, metadata_path = service.repo.effective_document(
+                document_id, request.knowledge_mode, request.information_cutoff
+            )
             documents[document_id] = document
             all_refs.update((metadata_path, document["path"]))
         sources = sorted({row["source_id"] for row in rows})
         unknown_publication = sorted(
-            document_id for document_id, doc in documents.items() if not doc.get("published_at")
+            document_id
+            for document_id, doc in documents.items()
+            if not doc.get("availability_upper_bound")
         )
         observations.append(
             dict(
@@ -74,7 +78,7 @@ def assess(service, payload):
             finding(
                 "PUBLICATION_TIME_UNKNOWN",
                 "temporal",
-                "Some originals lack a precise public availability time; do not use them for historical decisions",
+                "Some originals lack a supported public availability bound; do not use them for historical decisions",
                 index,
                 [documents[key]["path"] for key in unknown_publication],
             )

@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+  "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+  "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "evidence_sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "excerpt": "Release Time: 06/04/2023 22:08 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2022 ( 5MB )",
+  "locator": "html:table:ANNUAL REPORT 2022",
+  "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2023-04-06",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:57:42.504343+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499"
+}

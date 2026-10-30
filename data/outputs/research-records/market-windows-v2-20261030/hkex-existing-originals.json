@@ -1,0 +1,80 @@
+[
+  {
+    "status": "received",
+    "document_id": "doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301",
+    "document": {
+      "document_id": "doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301",
+      "content_revision": "v1",
+      "source_id": "hkex-xiaomi",
+      "title": "HKEX Daily Quotations 261002",
+      "sha256": "0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301",
+      "path": "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T10:54:15.173283+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/original.html",
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-0deb21687920f4900ffefc23de931a2270e738b40689619ac913db05eda5d301/v1/document.json",
+      "data/inputs/collection-records/hkex-xiaomi/2026/collection-e722edc5f88b4d798c2d0108e068bc6e/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-c105381b6dea46fcb5b0d9bb61863918",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f",
+    "document": {
+      "document_id": "doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f",
+      "content_revision": "v1",
+      "source_id": "hkex-xiaomi",
+      "title": "HKEX Daily Quotations 261015",
+      "sha256": "5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f",
+      "path": "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T10:54:15.410816+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/original.html",
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/document.json",
+      "data/inputs/collection-records/hkex-xiaomi/2026/collection-f4dc79283f5448c98263af04beaaf686/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-597ca821399b4c3a89fb499e13ea7253",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3",
+    "document": {
+      "document_id": "doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3",
+      "content_revision": "v1",
+      "source_id": "hkex-xiaomi",
+      "title": "HKEX Daily Quotations 261028",
+      "sha256": "beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3",
+      "path": "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T10:54:15.483656+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/original.html",
+      "data/inputs/source-files/hkex-xiaomi/2026/doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3/v1/document.json",
+      "data/inputs/collection-records/hkex-xiaomi/2026/collection-58f6718dab474784a4d1e9545e1770e5/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-9ffb5a9b13b043c98f874f16fa5ae548",
+    "summary": "import",
+    "issues": []
+  }
+]

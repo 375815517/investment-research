@@ -1,0 +1,32 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "shares",
+    "scale": "units",
+    "currency": null,
+    "measure_kind": "stock",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2024-12-31",
+    "scope": "consolidated",
+    "dimensions": {
+      "share_class": "ordinary"
+    },
+    "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "issued-shares",
+      "page": 236,
+      "pattern": "At 31 December 2024\\s+[\\d,]+",
+      "numeric_columns": 1
+    }
+  ]
+}

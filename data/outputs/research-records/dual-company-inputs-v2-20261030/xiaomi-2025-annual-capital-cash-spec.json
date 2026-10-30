@@ -1,0 +1,31 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "thousands",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "来源合并披露购买固定资产、土地使用权及无形资产的现金付款，不是纯PPE。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "property-land-intangible-cash-payments",
+      "page": 278,
+      "pattern": "Purchase\\ of\\ property,\\ plant\\ and\\ equipment,\\ land\\ use\\ rights\\ \\\n\\ and\\ intangible\\ assets\\ \\(12,769,155\\)\\ \\(7,297,307\\)",
+      "numeric_columns": 2,
+      "value_column": 0
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "reviewed_at": "2026-10-30T11:01:13.464117+00:00",
+  "reviewer": "interfaces-v2-independent-source-review",
+  "method": "Independently reopened archived PDF physical pages 237 and 253, verified source file hash, current-year headings and original row subtotal, capitalisation deduction, unit/period and reconciliation to net finance income.",
+  "results": [
+    {
+      "year": 2018,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-finance-costs-note-candidates.json",
+      "candidate_file_sha256": "7a8fa4b1ebda7af8ebd1a457e1b19abb58fba8cb784870cb879facb85af7fae4",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "finance-costs",
+          "source_value": "384692",
+          "locator": "pdf:page:237",
+          "current_year_column_verified": true,
+          "positive_expense_magnitude_verified": true,
+          "CNY_thousands_verified": true,
+          "annual_period_verified": true,
+          "note_subtotal_components": [
+            42504,
+            415465,
+            -73277
+          ],
+          "subtotal_difference": 0,
+          "finance_income_minus_cost_minus_statement_net": 0
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "After-capitalisation finance expense magnitude, not net finance income; positive source sign must be explicitly inverted in a derived signed comparison.",
+        "This supplementary candidate supersedes the prior review limitation that gross finance costs were absent from the selected income-statement rows; previous 27-row candidate remains unchanged."
+      ]
+    },
+    {
+      "year": 2019,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-finance-costs-note-candidates.json",
+      "candidate_file_sha256": "c90db3a3159fb91a7950f7c774d3c9fb1dc4bf467b83aba5f8707f28d7a23342",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "checked_records": 1,
+      "field_checks": [
+        {
+          "metric_id": "finance-costs",
+          "source_value": "528460",
+          "locator": "pdf:page:253",
+          "current_year_column_verified": true,
+          "positive_expense_magnitude_verified": true,
+          "CNY_thousands_verified": true,
+          "annual_period_verified": true,
+          "note_subtotal_components": [
+            250706,
+            407141,
+            -129387
+          ],
+          "subtotal_difference": 0,
+          "finance_income_minus_cost_minus_statement_net": 0
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "After-capitalisation finance expense magnitude, not net finance income; positive source sign must be explicitly inverted in a derived signed comparison.",
+        "This supplementary candidate supersedes the prior review limitation that gross finance costs were absent from the selected income-statement rows; previous 27-row candidate remains unchanged."
+      ]
+    }
+  ]
+}

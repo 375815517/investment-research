@@ -1,0 +1,25 @@
+{
+  "finished_at": "2026-10-30T10:53:31.206790+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "benchmark-prices",
+    "end": "2023-12-31",
+    "source_id": "hsi-chart",
+    "start": "2023-12-28",
+    "subject_id": "hang-seng-index"
+  },
+  "started_at": "2026-10-30T10:53:30.850942+00:00",
+  "status": "partial",
+  "windows": [
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2023-12-31",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2023-12-28",
+      "status": "blocked"
+    }
+  ]
+}

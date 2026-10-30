@@ -1,0 +1,59 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/hsi-chart/2026/doc-7ff7757df8f0ebd88e527f42964604dd78428676a4686f6f118a8ca1984bbc92/v1/original.json",
+    "data/inputs/source-files/hsi-chart/2026/doc-7ff7757df8f0ebd88e527f42964604dd78428676a4686f6f118a8ca1984bbc92/v1/document.json",
+    "data/outputs/research-records/ingest-a1b3d933e1021d71c8760ab4d4c889954198d9c1c2bcbb775e579d0775de18ae/candidate.json",
+    "data/outputs/research-records/ingest-a1b3d933e1021d71c8760ab4d4c889954198d9c1c2bcbb775e579d0775de18ae/validation.json",
+    "data/outputs/research-records/ingest-a1b3d933e1021d71c8760ab4d4c889954198d9c1c2bcbb775e579d0775de18ae/review.json",
+    "data/inputs/markets/benchmarks/hang-seng-index/daily/2019/batch-6640a5c6a4ddcee5c4ea9438e8621f26c8242ef83277b7d7ac0d354e718d009a/benchmark-prices.json",
+    "data/inputs/markets/benchmarks/hang-seng-index/daily/2019/batch-6640a5c6a4ddcee5c4ea9438e8621f26c8242ef83277b7d7ac0d354e718d009a/batch.json",
+    "data/outputs/research-records/ingest-a1b3d933e1021d71c8760ab4d4c889954198d9c1c2bcbb775e579d0775de18ae/receipt.json"
+  ],
+  "collection_refs": [
+    "data/inputs/source-files/hsi-chart/2026/doc-7ff7757df8f0ebd88e527f42964604dd78428676a4686f6f118a8ca1984bbc92/v1/original.json",
+    "data/inputs/source-files/hsi-chart/2026/doc-7ff7757df8f0ebd88e527f42964604dd78428676a4686f6f118a8ca1984bbc92/v1/document.json",
+    "data/inputs/collection-records/hsi-chart/2026/collection-ef486af67d8d4b5ca69b6d5cd908500d/collection.json"
+  ],
+  "document_id": "doc-7ff7757df8f0ebd88e527f42964604dd78428676a4686f6f118a8ca1984bbc92",
+  "end": "2019-09-28",
+  "first": "2019-07-02",
+  "last": "2019-09-27",
+  "observed_rows": 64,
+  "start": "2019-07-01",
+  "status": "registered",
+  "validation": {
+    "artifact_refs": [
+      ".research-local/validations/candidate-fc0d7d8973a46738d9500a1a0abf33b92ed8c16a02df051c1abdc70a618acab2/caa2257afc9c64037161b9b656a04eaa0c18d086853a1d10af4dcf3c32479e28.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "retryable": false,
+        "severity": "warning"
+      }
+    ],
+    "next_actions": [
+      "review"
+    ],
+    "operation_id": "op-4046adc534c0467a9ddc2f6db7101612",
+    "protocol_version": "1",
+    "status": "review_required",
+    "summary": "validate",
+    "validation": {
+      "candidate_hash": "a1b3d933e1021d71c8760ab4d4c889954198d9c1c2bcbb775e579d0775de18ae",
+      "candidate_id": "candidate-fc0d7d8973a46738d9500a1a0abf33b92ed8c16a02df051c1abdc70a618acab2",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "retryable": false,
+          "severity": "warning"
+        }
+      ],
+      "record_count": 64,
+      "rule_version": "v1",
+      "status": "review_required"
+    }
+  }
+}

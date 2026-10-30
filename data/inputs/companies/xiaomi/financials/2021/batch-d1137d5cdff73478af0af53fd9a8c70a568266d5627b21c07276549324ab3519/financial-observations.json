@@ -1,0 +1,29 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+    "company_id": "xiaomi",
+    "currency": null,
+    "dimensions": {
+      "share_class": "all-ordinary"
+    },
+    "excerpt": "As of December 31, 2021  24,992,449",
+    "locator": "pdf:page:302",
+    "measure_kind": "stock",
+    "metric_id": "issued-shares",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2021-12-31",
+    "period_start": null,
+    "period_type": "instant",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "thousands",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "24992449",
+    "unit": "shares",
+    "value_status": "reported"
+  }
+]

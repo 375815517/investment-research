@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T11:07:39.196076+00:00",
+      "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516704.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/09795d80ba4444298bbdec9b813e600d/response-2e8e5221c0184457aae0e84ca1af3871.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "hkex-tencent-announcements"
+      },
+      "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516704.pdf",
+      "rows": 0,
+      "sha256": "39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e",
+      "size_bytes": 84737,
+      "source_id": "hkex-tencent-announcements"
+    }
+  },
+  "collection_id": "collection-6994d455c5a547d1873c654c70e24f85",
+  "document_id": "doc-39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:07:39.196774+00:00",
+  "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516704.pdf",
+  "publication_assertion": null,
+  "sha256": "39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e",
+  "source_id": "hkex-tencent-announcements",
+  "status": "received"
+}

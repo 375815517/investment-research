@@ -1,0 +1,33 @@
+{
+  "event_hash": "8695d5f6d320ac83a99580efe526e5f123f068786227bd873459812da6f75fb9",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-e4a276d17cd147ce93272921c23f36358439f8f1df3c61debb183f9acecf6a0b",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-2b17052fcea6d649c7641c60/candidates/candidate-e4a276d17cd147ce93272921c23f36358439f8f1df3c61debb183f9acecf6a0b.json",
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-d45026d08db74a94b2e1a4d286e95053/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce",
+      "item_id": "item-8242a79798ff96597a95b53c",
+      "listing_document_id": "doc-7de1f87dabdea337d58732392cfdb880e50f4445c469217ea27dbf6cb617cb38",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-2b17052fcea6d649c7641c60/reviews/bf5b4650d2e44339bf94daacf131e9b6.json": "f2d7330d9b2be170fe3ba6ae4ae37566c0762c88e5dab1290ded4a812ebe2853"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-2b17052fcea6d649c7641c60/reviews/bf5b4650d2e44339bf94daacf131e9b6.json"
+      ],
+      "stage": "approved",
+      "title": "2026 Interim Report",
+      "url": "https://ir.mi.com/static-files/b903a881-8143-44a3-b759-703653bbb043"
+    }
+  ],
+  "previous_hash": "5e44852261f50009849ebb424622d952a145581897f46a5c2a1ab8c3492647ca",
+  "recorded_at": "2026-10-30T11:39:07.140081+00:00",
+  "sequence": 4,
+  "task_id": "acquisition-2b17052fcea6d649c7641c60"
+}

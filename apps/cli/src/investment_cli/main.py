@@ -97,6 +97,16 @@ def build_parser() -> Parser:
         "index": (),
         "audit-inputs": (),
         "assess-inputs": ("purpose", "knowledge_mode", "information_cutoff"),
+        "profile-audit": (),
+        "profile-assess": (),
+        "normalize-inputs": (),
+        "revise-metadata": (),
+        "source-discover": (),
+        "acquisition-plan": (),
+        "acquisition-run": (),
+        "acquisition-status": (),
+        "freeze-inputs": (),
+        "verify-bundle": (),
     }
     for name, names in fields.items():
         child = operations.add_parser(name)
@@ -257,6 +267,8 @@ def dispatch(args: argparse.Namespace) -> dict:
 def result_exit_code(result: dict) -> int:
     status = result.get("status", "")
     if status in {
+        "pending",
+        "completed_with_skips",
         "needs_review",
         "review_required",
         "blocked",

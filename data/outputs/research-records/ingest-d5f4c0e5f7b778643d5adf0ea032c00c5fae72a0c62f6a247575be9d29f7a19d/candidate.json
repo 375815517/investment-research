@@ -1,0 +1,37 @@
+{
+  "candidate_id": "candidate-ff67225fd46a2cb7e1eb8b0012a7b13d74d5bd2cc125178886ffb9d45755bd14",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Cash and cash equivalents at beginning of the year 132,991 97,814",
+      "locator": "pdf:page:175",
+      "measure_kind": "stock",
+      "metric_id": "cash-and-cash-equivalents",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2020-01-01",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "132991",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

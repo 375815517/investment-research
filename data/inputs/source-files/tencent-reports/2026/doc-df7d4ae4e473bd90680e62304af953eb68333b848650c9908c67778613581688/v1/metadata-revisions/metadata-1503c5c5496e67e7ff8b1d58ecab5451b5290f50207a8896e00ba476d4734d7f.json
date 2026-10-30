@@ -1,0 +1,40 @@
+{
+  "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+  "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+  "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "evidence_sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "excerpt": "Release Time: 08/04/2024 19:35 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2023 ( 6MB )",
+  "locator": "html:table:ANNUAL REPORT 2023",
+  "notes": "HKEX official list release date and annual report title explicitly linked. PDF binary differs from current issuer archive but all 282 physical pages have identical whitespace-normalized extracted text; counterpart archived doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d. Reviewed report-content equivalence, not proof of original binary publication. Only Hong Kong calendar date component used. Appended version adds hash-bound counterpart and per-page text comparison evidence for automatic freeze dependency closure.",
+  "previous_publication": {
+    "date": "2024-04-08",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "previous_revision_id": "metadata-827dabfc00807edb3ad51cd12336b0edbe7c89cc6e00c4eb00b8b3a89bd59380",
+  "publication": {
+    "date": "2024-04-08",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:01:03.970416+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f",
+  "supporting_documents": [
+    {
+      "document_id": "doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d",
+      "sha256": "d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d"
+    },
+    {
+      "document_id": "doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e",
+      "sha256": "56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e"
+    }
+  ]
+}

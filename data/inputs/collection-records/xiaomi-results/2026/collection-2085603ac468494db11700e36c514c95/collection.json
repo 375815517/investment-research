@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T11:06:04.197890+00:00",
+      "final_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/23/11-04-36/20211123%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20THREE%20AND%20NINE%20MONTHS%20ENDED%20SEPTEMBER%2030%2C%202021.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/f61c593a23aa4e0ca0ab087827697a02/response-71f20338317a44d1adce035bbc511bbe.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-results"
+      },
+      "request_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/23/11-04-36/20211123%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20THREE%20AND%20NINE%20MONTHS%20ENDED%20SEPTEMBER%2030%2C%202021.pdf",
+      "rows": 0,
+      "sha256": "39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+      "size_bytes": 695004,
+      "source_id": "xiaomi-results"
+    }
+  },
+  "collection_id": "collection-2085603ac468494db11700e36c514c95",
+  "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:06:04.199742+00:00",
+  "origin_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/23/11-04-36/20211123%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20THREE%20AND%20NINE%20MONTHS%20ENDED%20SEPTEMBER%2030%2C%202021.pdf",
+  "publication_assertion": null,
+  "sha256": "39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+  "source_id": "xiaomi-results",
+  "status": "received"
+}

@@ -14,11 +14,20 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from investment_connectors import ConnectorService, ConnectorError
-from investment_domain import DomainError, AuditInputsRequest, AssessInputsRequest
+from investment_domain import (
+    DomainError,
+    AuditInputsRequest,
+    AssessInputsRequest,
+    InputRequirementProfile,
+    NormalizeInputsRequest,
+    FreezeInputsRequest,
+    VerifyBundleRequest,
+    DocumentMetadataRevisionRequest,
+)
 from investment_engine import Service
 
 MAX_PREVIEW = 512 * 1024
@@ -55,6 +64,72 @@ class EnsureRequest(GapRequest):
 class ApplyRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
     plan_id: str = Field(pattern=r"^[A-Za-z0-9][A-Za-z0-9_.-]*$", max_length=200)
+
+
+class ProfileFileRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    profile_path: str = Field(min_length=1, max_length=500)
+    knowledge_mode: (
+        Literal["retrospective_explanation", "historical_reconstruction", "live_observed"] | None
+    ) = None
+    information_cutoff: str | None = None
+    purpose: (
+        Literal["source_description", "historical_point_in_time", "quantitative_comparison"] | None
+    ) = None
+
+
+class NormalizeProfileFileRequest(ProfileFileRequest):
+    target_scale: Literal["units", "thousands", "millions", "billions"] = "units"
+
+
+class FreezeProfileFileRequest(ProfileFileRequest):
+    transformation_ids: list[str] = Field(default_factory=list, max_length=100)
+    label: str | None = Field(default=None, pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")
+
+
+class DiscoveryRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    binding_id: str = Field(pattern=r"^[A-Za-z0-9][A-Za-z0-9_-]*$", max_length=200)
+    parameters: dict[str, str | int | float | bool] = Field(default_factory=dict)
+    max_pages: int = Field(default=1, ge=1, le=20)
+    resume_discovery_id: str | None = Field(
+        default=None, pattern=r"^[A-Za-z0-9][A-Za-z0-9_-]*$", max_length=200
+    )
+
+
+class AcquisitionPlanRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    discovery_id: str = Field(pattern=r"^[A-Za-z0-9][A-Za-z0-9_-]*$", max_length=200)
+    dataset_id: str = Field(min_length=1, max_length=100)
+    item_ids: list[str] | None = Field(default=None, max_length=1000)
+
+
+class TaskReview(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    reviewer: str = Field(min_length=1, max_length=200)
+    decision: Literal["approved", "rejected"]
+    notes: str = Field(min_length=1, max_length=10000)
+    statement_consistency_checked: bool = False
+
+
+class TaskSubmission(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    records: list[dict[str, Any]] | None = Field(default=None, max_length=10000)
+    review: TaskReview | None = None
+    skip_reason: str | None = Field(default=None, min_length=1, max_length=2000)
+    supersedes: list[str] | None = Field(default=None, max_length=10000)
+    parser_version: str | None = Field(default=None, min_length=1, max_length=200)
+
+
+class TaskRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    task_id: str = Field(pattern=r"^[A-Za-z0-9][A-Za-z0-9_-]*$", max_length=200)
+
+
+class AcquisitionRunRequest(TaskRequest):
+    reuse_archived: bool = False
+    max_items: int = Field(default=1, ge=1, le=20)
+    submissions: dict[str, TaskSubmission] = Field(default_factory=dict)
 
 
 def safe_input_file(workspace: Path, relative: str) -> Path:
@@ -175,6 +250,16 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
             "status",
             "audit_inputs",
             "assess_inputs",
+            "profile_audit",
+            "profile_assess",
+            "normalize_inputs",
+            "revise_metadata",
+            "source_discover",
+            "acquisition_plan",
+            "acquisition_run",
+            "acquisition_status",
+            "freeze_inputs",
+            "verify_bundle",
         ]
         return result
 
@@ -186,12 +271,20 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
         expectations = []
         datasets = []
         audits = []
+        profiles = []
+        providers = []
+        tasks = []
+        bindings = []
         truncated = False
         for dirname in (
             "data/inputs",
             "research/sources",
             "research/datasets",
             "research/coverage-policies",
+            "research/input-profiles",
+            "research/source-providers",
+            "research/source-bindings",
+            "data/outputs/research-records/acquisition",
         ):
             base = root / dirname
             for path in sorted(base.rglob("*")) if base.exists() else []:
@@ -209,7 +302,9 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                     )
                 else:
                     truncated = True
-                if path.stat().st_size <= MAX_PREVIEW:
+                if path.stat().st_size <= MAX_PREVIEW or (
+                    dirname == "research/input-profiles" and path.stat().st_size <= 8 * 1024 * 1024
+                ):
                     try:
                         value = (
                             yaml.safe_load(path.read_text())
@@ -217,6 +312,54 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                             else json.loads(path.read_text())
                         )
                         if isinstance(value, dict):
+                            if (
+                                dirname == "research/input-profiles"
+                                and value.get("profile_id")
+                                and isinstance(value.get("expected_keys"), list)
+                            ):
+                                profiles.append(
+                                    {
+                                        "path": relative,
+                                        "id": value["profile_id"],
+                                        "name": f"{value['profile_id']} · v{value.get('version', '1')}",
+                                        "count": len(value["expected_keys"]),
+                                    }
+                                )
+                            if value.get("provider_id") and dirname == "research/source-providers":
+                                providers.append(
+                                    {
+                                        "path": relative,
+                                        "id": value["provider_id"],
+                                        "name": value.get("name", value["provider_id"]),
+                                    }
+                                )
+                            if dirname == "research/source-bindings" and value.get("binding_id"):
+                                bindings.append(
+                                    {
+                                        "path": relative,
+                                        "id": value["binding_id"],
+                                        "name": value.get("name", value["binding_id"]),
+                                        "provider_id": value.get("provider_id"),
+                                        "subject_id": value.get("subject_id"),
+                                        "subject_type": value.get("subject_type"),
+                                        "security_id": value.get("security_id"),
+                                        "benchmark_id": value.get("benchmark_id"),
+                                    }
+                                )
+                            if (
+                                value.get("task_id")
+                                and dirname == "data/outputs/research-records/acquisition"
+                                and path.name == "plan.json"
+                            ):
+                                tasks.append(
+                                    {
+                                        "path": relative,
+                                        "id": value["task_id"],
+                                        "name": value["task_id"],
+                                        "stage": value.get("stage"),
+                                        "status": value.get("status"),
+                                    }
+                                )
                             if dirname == "research/coverage-policies" and isinstance(
                                 value.get("requirements"), list
                             ):
@@ -281,6 +424,10 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
             "datasets": datasets,
             "audits": audits,
             "truncated": truncated,
+            "profiles": profiles,
+            "providers": providers,
+            "tasks": tasks,
+            "bindings": bindings,
         }
 
     @app.get("/api/coverage")
@@ -321,6 +468,101 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
     @app.post("/api/assess-inputs")
     def assess_inputs(request: AssessInputsRequest):
         return engine.execute("assess_inputs", request.model_dump(mode="json", exclude_none=True))
+
+    def read_profile(request: InputRequirementProfile | ProfileFileRequest) -> dict:
+        if isinstance(request, InputRequirementProfile):
+            return request.model_dump(mode="json", exclude_none=True)
+        if not request.profile_path.startswith("research/input-profiles/"):
+            raise HTTPException(
+                400, "Input profiles must be registered under research/input-profiles/"
+            )
+        path = safe_input_file(root, request.profile_path)
+        if path.stat().st_size > 8 * 1024 * 1024:
+            raise HTTPException(413, "Input profile exceeds 8 MiB")
+        try:
+            payload = json.loads(path.read_text())
+            if not isinstance(payload, dict):
+                raise ValueError("Profile must be an object")
+            for field in ("knowledge_mode", "information_cutoff", "purpose"):
+                if field in request.model_fields_set:
+                    payload[field] = getattr(request, field)
+            if (
+                request.knowledge_mode == "retrospective_explanation"
+                and request.information_cutoff is None
+            ):
+                payload.pop("information_cutoff", None)
+            return InputRequirementProfile.model_validate(payload).model_dump(
+                mode="json", exclude_none=True
+            )
+        except (ValueError, UnicodeError, ValidationError):
+            raise HTTPException(
+                422, "Registered profile does not match the input contract"
+            ) from None
+
+    @app.post("/api/profile-audit")
+    def profile_audit(request: InputRequirementProfile | ProfileFileRequest):
+        return engine.execute("profile_audit", read_profile(request))
+
+    @app.post("/api/profile-assess")
+    def profile_assess(request: InputRequirementProfile | ProfileFileRequest):
+        return engine.execute("profile_assess", read_profile(request))
+
+    @app.post("/api/normalize-inputs")
+    def normalize_inputs(request: NormalizeInputsRequest | NormalizeProfileFileRequest):
+        payload = (
+            request.model_dump(mode="json", exclude_none=True)
+            if isinstance(request, NormalizeInputsRequest)
+            else {"profile": read_profile(request), "target_scale": request.target_scale}
+        )
+        return engine.execute("normalize_inputs", payload)
+
+    @app.post("/api/freeze-inputs")
+    def freeze_inputs(request: FreezeInputsRequest | FreezeProfileFileRequest):
+        payload = (
+            request.model_dump(mode="json", exclude_none=True)
+            if isinstance(request, FreezeInputsRequest)
+            else {
+                "profile": read_profile(request),
+                "transformation_ids": request.transformation_ids,
+                **({"label": request.label} if request.label else {}),
+            }
+        )
+        return engine.execute("freeze_inputs", payload)
+
+    @app.post("/api/verify-bundle")
+    def verify_bundle(request: VerifyBundleRequest):
+        return engine.execute("verify_bundle", request.model_dump(mode="json", exclude_none=True))
+
+    @app.post("/api/revise-metadata")
+    def revise_metadata(request: DocumentMetadataRevisionRequest):
+        return engine.execute("revise_metadata", request.model_dump(mode="json", exclude_none=True))
+
+    @app.get("/api/schema/{contract}")
+    def schema(contract: str):
+        return engine.execute("schema", {"contract": contract})
+
+    @app.post("/api/source-discover")
+    def source_discover(request: DiscoveryRequest):
+        validate_acquisition(
+            Acquisition(source_id=request.binding_id, parameters=request.parameters)
+        )
+        return engine.execute("source_discover", request.model_dump(mode="json", exclude_none=True))
+
+    @app.post("/api/acquisition-plan")
+    def acquisition_plan(request: AcquisitionPlanRequest):
+        return engine.execute(
+            "acquisition_plan", request.model_dump(mode="json", exclude_none=True)
+        )
+
+    @app.post("/api/acquisition-run")
+    def acquisition_run(request: AcquisitionRunRequest):
+        return engine.execute("acquisition_run", request.model_dump(mode="json", exclude_none=True))
+
+    @app.post("/api/acquisition-status")
+    def acquisition_status(request: TaskRequest):
+        return engine.execute(
+            "acquisition_status", request.model_dump(mode="json", exclude_none=True)
+        )
 
     @app.post("/api/gaps")
     def gaps(request: GapRequest):

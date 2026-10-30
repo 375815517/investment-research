@@ -1,0 +1,31 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "thousands",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "来源以Capital expenditures披露的现金流，不预设等于纯固定资产支出。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "capital-expenditure-cash-payments",
+      "page": 208,
+      "pattern": "Capital\\ expenditures\\ \\(6,268,900\\)\\ \\(5,799,570\\)",
+      "numeric_columns": 2,
+      "value_column": 0
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2023-10-01",
+    "period_end": "2023-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited fourth-quarter comparative management table directly disclosed in annual results announcement; current-quarter column, source precision in CNY millions; not annual minus YTD",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Revenues?[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Gross\\s+profit[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Income\\s+tax[^\\n]*?[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?(?:Profit(?:/\\(loss\\))?|\\(Loss\\)/profit)\\s+for\\s+the\\s+period[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "finance-income-net",
+      "page": 13,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Finance\\s+(?:income(?:/\\((?:expenses?|costs)\\))?|\\(expenses?\\)/income),\\s+net[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    }
+  ],
+  "selection_review": {
+    "quarter": 4,
+    "report_year": 2023,
+    "statement_pages": [
+      13
+    ],
+    "missing": [
+      "finance-costs",
+      "profit-attributable-to-owners",
+      "basic-eps",
+      "diluted-eps"
+    ],
+    "scope": "Directly reported Q4 values; unavailable columns remain explicit gaps"
+  }
+}

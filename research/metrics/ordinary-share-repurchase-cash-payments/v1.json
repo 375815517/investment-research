@@ -1,0 +1,29 @@
+{
+  "metric_id": "ordinary-share-repurchase-cash-payments",
+  "name": "普通股回购现金支出",
+  "description": "现金流量表披露的回购自身普通股现金付款，保留原始流出负号；不是按成交日统计的购入对价或库存股账面增加额。",
+  "unit": "currency",
+  "allow_negative": true,
+  "required_dimensions": [],
+  "comparability_notes": "保留原币、大小级和流出符号；现金付款和回购股数可能因结算时点与费用范围不同，不能直接相除推算成交均价。",
+  "version": "1",
+  "dataset_id": "financial-observations",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "share_class",
+    "channel"
+  ],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ]
+}

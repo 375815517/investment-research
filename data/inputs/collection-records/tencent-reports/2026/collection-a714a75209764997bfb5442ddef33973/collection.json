@@ -1,0 +1,29 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:44:24.616445+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/1fc239cdd6df4343b792e306150aa00f/response-25f4f29fb236433ea99f0833bb6db4d9.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-reports"
+      },
+      "rows": 0,
+      "sha256": "4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "size_bytes": 5135808,
+      "source_id": "tencent-reports"
+    }
+  },
+  "collection_id": "collection-a714a75209764997bfb5442ddef33973",
+  "document_id": "doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:44:24.625858+00:00",
+  "origin_url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+  "publication_assertion": null,
+  "sha256": "4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+  "source_id": "tencent-reports",
+  "status": "received"
+}

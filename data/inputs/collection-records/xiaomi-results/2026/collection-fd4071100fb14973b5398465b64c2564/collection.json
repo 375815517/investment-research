@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T11:07:10.075272+00:00",
+      "final_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/03/24/7-35-20/HKEX-EPS_20230324_10644395_0.PDF",
+      "path": "/workspace/investment-research/.research-local/collections/34347f3f66464158a46545ad2e95290f/response-1f795de999d24f32af75bbb69b782093.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-results"
+      },
+      "request_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/03/24/7-35-20/HKEX-EPS_20230324_10644395_0.PDF",
+      "rows": 0,
+      "sha256": "7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+      "size_bytes": 738255,
+      "source_id": "xiaomi-results"
+    }
+  },
+  "collection_id": "collection-fd4071100fb14973b5398465b64c2564",
+  "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:07:10.077930+00:00",
+  "origin_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/03/24/7-35-20/HKEX-EPS_20230324_10644395_0.PDF",
+  "publication_assertion": null,
+  "sha256": "7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+  "source_id": "xiaomi-results",
+  "status": "received"
+}

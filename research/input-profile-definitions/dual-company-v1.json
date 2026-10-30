@@ -1,0 +1,410 @@
+{
+  "version": "1",
+  "companies": [
+    {
+      "company_id": "xiaomi",
+      "confirmed_security_id": "xiaomi-hk",
+      "source_id_template": "xiaomi-{year}-annual",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "annual-core",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "revenue"
+            },
+            {
+              "metric_id": "cost-of-sales"
+            },
+            {
+              "metric_id": "gross-profit"
+            },
+            {
+              "metric_id": "operating-profit"
+            },
+            {
+              "metric_id": "finance-costs"
+            },
+            {
+              "metric_id": "income-tax-expense"
+            },
+            {
+              "metric_id": "profit-for-year"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners"
+            },
+            {
+              "metric_id": "basic-eps"
+            },
+            {
+              "metric_id": "diluted-eps"
+            },
+            {
+              "metric_id": "total-assets"
+            },
+            {
+              "metric_id": "total-liabilities"
+            },
+            {
+              "metric_id": "total-equity"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents"
+            },
+            {
+              "metric_id": "current-assets"
+            },
+            {
+              "metric_id": "current-liabilities"
+            },
+            {
+              "metric_id": "inventories"
+            },
+            {
+              "metric_id": "trade-receivables"
+            },
+            {
+              "metric_id": "trade-payables"
+            },
+            {
+              "metric_id": "short-term-borrowings"
+            },
+            {
+              "metric_id": "long-term-borrowings"
+            },
+            {
+              "metric_id": "operating-cash-flow"
+            },
+            {
+              "metric_id": "investing-cash-flow"
+            },
+            {
+              "metric_id": "financing-cash-flow"
+            },
+            {
+              "metric_id": "cash-flow-net-change"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect"
+            },
+            {
+              "metric_id": "property-equipment-cash-payments"
+            }
+          ]
+        },
+        {
+          "name": "annual-valuation-dependencies",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "weighted-average-basic-shares"
+            },
+            {
+              "metric_id": "weighted-average-diluted-shares"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "opening-cash",
+              "year_offset": -1
+            }
+          ]
+        },
+        {
+          "name": "operating-2024-2025",
+          "years": [
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "shipments",
+              "field_id": "smartphone-shipments",
+              "scope": "product",
+              "dimensions": {
+                "product": "smartphones",
+                "region": "global"
+              }
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "global-smartphone-tablet-mau",
+              "scope": "product",
+              "period_type": "month",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "global"
+              },
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "china-smartphone-tablet-mau",
+              "scope": "product",
+              "period_type": "month",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "mainland-china"
+              },
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "mi-home-mau",
+              "scope": "product",
+              "period_type": "month",
+              "dimensions": {
+                "product": "mi-home-app"
+              },
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "ai-assistant-mau",
+              "scope": "product",
+              "period_type": "month",
+              "dimensions": {
+                "product": "ai-assistant"
+              },
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "smart-tv-mau",
+              "scope": "product",
+              "period_type": "month",
+              "dimensions": {
+                "product": "smart-tv-box-stick"
+              },
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "connected-devices",
+              "field_id": "aiot-devices",
+              "scope": "product",
+              "dimensions": {
+                "product": "aiot-platform",
+                "population": "excluding-smartphones-tablets-laptops"
+              }
+            },
+            {
+              "metric_id": "deliveries",
+              "field_id": "smart-ev-deliveries",
+              "scope": "product",
+              "dimensions": {
+                "product": "smart-ev"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "tencent",
+      "confirmed_security_id": "tencent-hk",
+      "source_id_template": "tencent-reports",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "annual-core",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "revenue"
+            },
+            {
+              "metric_id": "cost-of-sales"
+            },
+            {
+              "metric_id": "gross-profit"
+            },
+            {
+              "metric_id": "operating-profit"
+            },
+            {
+              "metric_id": "finance-costs"
+            },
+            {
+              "metric_id": "income-tax-expense"
+            },
+            {
+              "metric_id": "profit-for-year"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners"
+            },
+            {
+              "metric_id": "basic-eps"
+            },
+            {
+              "metric_id": "diluted-eps"
+            },
+            {
+              "metric_id": "total-assets"
+            },
+            {
+              "metric_id": "total-liabilities"
+            },
+            {
+              "metric_id": "total-equity"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents"
+            },
+            {
+              "metric_id": "current-assets"
+            },
+            {
+              "metric_id": "current-liabilities"
+            },
+            {
+              "metric_id": "inventories"
+            },
+            {
+              "metric_id": "trade-receivables"
+            },
+            {
+              "metric_id": "trade-payables"
+            },
+            {
+              "metric_id": "short-term-borrowings"
+            },
+            {
+              "metric_id": "long-term-borrowings"
+            },
+            {
+              "metric_id": "operating-cash-flow"
+            },
+            {
+              "metric_id": "investing-cash-flow"
+            },
+            {
+              "metric_id": "financing-cash-flow"
+            },
+            {
+              "metric_id": "cash-flow-net-change"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect"
+            },
+            {
+              "metric_id": "property-equipment-cash-payments"
+            }
+          ]
+        },
+        {
+          "name": "annual-valuation-dependencies",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "weighted-average-basic-shares"
+            },
+            {
+              "metric_id": "weighted-average-diluted-shares"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "opening-cash",
+              "year_offset": -1
+            }
+          ]
+        },
+        {
+          "name": "operating-2024-2025",
+          "years": [
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "weixin-wechat-mau",
+              "scope": "product",
+              "dimensions": {
+                "product": "weixin-wechat",
+                "population": "combined-monthly-active-accounts"
+              },
+              "period_type": "month",
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "qq-mobile-mau",
+              "scope": "product",
+              "dimensions": {
+                "product": "qq-mobile",
+                "population": "mobile-device-monthly-active-accounts"
+              },
+              "period_type": "month",
+              "period_start_month_day": "12-01",
+              "period_end_month_day": "12-31"
+            },
+            {
+              "metric_id": "average-daily-paid-subscriptions",
+              "field_id": "average-daily-paid-subscriptions",
+              "scope": "product",
+              "dimensions": {
+                "product": "fee-based-vas",
+                "population": "average-daily-paid-subscriptions"
+              },
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

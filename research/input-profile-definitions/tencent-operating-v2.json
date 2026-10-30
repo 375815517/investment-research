@@ -1,0 +1,55 @@
+{
+  "version": "2",
+  "companies": [
+    {
+      "company_id": "tencent",
+      "confirmed_security_id": "tencent-hk",
+      "source_id_template": "tencent-reports",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "operating-2024-2025",
+          "years": [
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "weixin-wechat-mau",
+              "scope": "product",
+              "dimensions": {
+                "product": "weixin-wechat",
+                "population": "combined-monthly-active-accounts"
+              },
+              "period_type": "instant"
+            },
+            {
+              "metric_id": "monthly-active-users",
+              "field_id": "qq-mobile-mau",
+              "scope": "product",
+              "dimensions": {
+                "product": "qq-mobile",
+                "population": "mobile-device-monthly-active-accounts"
+              },
+              "period_type": "instant"
+            },
+            {
+              "metric_id": "average-daily-paid-subscriptions",
+              "field_id": "average-daily-paid-subscriptions",
+              "scope": "product",
+              "dimensions": {
+                "product": "fee-based-vas",
+                "population": "average-daily-paid-subscriptions"
+              },
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

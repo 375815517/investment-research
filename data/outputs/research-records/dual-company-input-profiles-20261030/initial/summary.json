@@ -1,0 +1,38 @@
+[
+  {
+    "profile_id": "tencent-annual-core",
+    "status": "blocked",
+    "satisfied": 0,
+    "required": 224
+  },
+  {
+    "profile_id": "tencent-annual-valuation-dependencies",
+    "status": "blocked",
+    "satisfied": 0,
+    "required": 24
+  },
+  {
+    "profile_id": "tencent-operating-2024-2025",
+    "status": "blocked",
+    "satisfied": 0,
+    "required": 6
+  },
+  {
+    "profile_id": "xiaomi-annual-core",
+    "status": "blocked",
+    "satisfied": 54,
+    "required": 224
+  },
+  {
+    "profile_id": "xiaomi-annual-valuation-dependencies",
+    "status": "blocked",
+    "satisfied": 0,
+    "required": 24
+  },
+  {
+    "profile_id": "xiaomi-operating-2024-2025",
+    "status": "blocked",
+    "satisfied": 0,
+    "required": 16
+  }
+]

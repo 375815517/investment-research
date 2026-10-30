@@ -1,0 +1,26 @@
+{
+  "candidate_id": "candidate-1558cb32b5f6d989edda1bac7b87ce443f1bb887d29134b2b4d5ba7debffe8ee",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717",
+  "document_sha256": "eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-meituan-distribution-declared",
+      "action_status": "approved",
+      "action_type": "spinoff",
+      "announcement_date": "2022-11-16",
+      "basis": "Board resolved distribution in specie; fractional entitlements cash in lieu. Ex-date is not explicitly stated and remains unknown; ratio orientation must not be inverted silently.",
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS B ORDINARY SHARES OF MEITUAN RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF MEITUAN SHARES The Board is pleased to announce that, on 16 November 2022, it has resolved to declare a special interim dividend in the form of a distribution in specie of approximately 958,121,562 Class B ordinary shares of Meituan (assuming there is no change in the total number of issued Shares from the date of this announcement to the Record Date) indirectly held by the Company through Huai River and/or TML to the Shareholders whose names appear on the register of members of the Company on the Record Date in proportion to their then respective shareholdings in the Company on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held by the Qualifying Shareholders, being rounded down to the nearest whole number of Meituan Shares. The exact number of Meituan Shares to be distributed by the Company is subject to such possible adjustments where appropriate and necessary in order to give effect to the Distribution in Specie on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held on the Record Date and such other arrangements in relation to the Distribution in Specie as set out in this announcement. Non-Qualifying Shareholders will not be entitled to receive the Meituan Shares and will instead receive cash-in-lieu payments in respect of the Shares held by them on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held on the Record Date. No fraction of a Meituan Share will be distributed. Nevertheless, fractional entitlements to the Meituan Shares of both Qualifying Shareholders and Non-Qualifying Shareholders (i.e., whose shareholding in the Company is not an integral multiple of 10 Shares) will be distributed in the form of cash-in-lieu payments. – 1 –",
+      "locator": "pdf:page:1",
+      "ratio": "10",
+      "ratio_definition": "Tencent ordinary shares held (numerator) per one distributed Meituan Class B ordinary share (denominator)",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary"
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "supersedes": []
+}

@@ -1,0 +1,360 @@
+{
+  "event_hash": "d51b5281b156c7d96e035ff9cc1552c20cadd7b37fab1c153addadd0572af48d",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-87fbfdbc8b876df0bb913ddf3794925675a9e2ecb202759670fad203e8575f2d/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-results/2026/doc-87fbfdbc8b876df0bb913ddf3794925675a9e2ecb202759670fad203e8575f2d/v1/document.json",
+        "data/inputs/collection-records/xiaomi-results/2026/collection-a250928d8c09453387bb7c1e4b98acde/collection.json"
+      ],
+      "context": "Quarterly Results | 2022",
+      "document_id": "doc-87fbfdbc8b876df0bb913ddf3794925675a9e2ecb202759670fad203e8575f2d",
+      "item_id": "item-0a02c18f92ec1ef474012b9a",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "retrieval_mode": "fetched",
+      "source_title": "Annoucement_22Q2_EN.pdf",
+      "stage": "awaiting_extraction",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/08/19/5-40-32/Annoucement_22Q2_EN.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-93eaf06d8c26f78b06d2681bf7bf529aae07f153d8812058ceb0c3747dd3e950/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-results/2026/doc-93eaf06d8c26f78b06d2681bf7bf529aae07f153d8812058ceb0c3747dd3e950/v1/document.json",
+        "data/inputs/collection-records/xiaomi-results/2026/collection-494769de88d04db8a36f5fd7b158db94/collection.json"
+      ],
+      "context": "Quarterly Results | 2020",
+      "document_id": "doc-93eaf06d8c26f78b06d2681bf7bf529aae07f153d8812058ceb0c3747dd3e950",
+      "item_id": "item-138e0d3e04cd22d971aa54c5",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "retrieval_mode": "fetched",
+      "source_title": "RAF_20200630.pdf",
+      "stage": "awaiting_extraction",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/20/12-01-59/RAF_20200630.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-1c8b3ff17553bf27f1c8c47f0686e5e74cf041030dccb716817f1d348b3656f7/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-results/2026/doc-1c8b3ff17553bf27f1c8c47f0686e5e74cf041030dccb716817f1d348b3656f7/v1/document.json",
+        "data/inputs/collection-records/xiaomi-results/2026/collection-93563359db89463db95eeb748962e58e/collection.json"
+      ],
+      "context": "Quarterly Results | 2023",
+      "document_id": "doc-1c8b3ff17553bf27f1c8c47f0686e5e74cf041030dccb716817f1d348b3656f7",
+      "item_id": "item-17960fcd6c4fda14b19d5ae8",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "retrieval_mode": "fetched",
+      "source_title": "2023082900551.pdf",
+      "stage": "awaiting_extraction",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/08/29/6-36-44/2023082900551.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2024",
+      "item_id": "item-179dfa3b237876a36e8687b0",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "24Q1_EN_Announcement.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/4c11aa9d-79c8-4370-9f72-bc00ac39241c"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2024",
+      "item_id": "item-207c966a0456d0d274874b47",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "24Q3_Announcement.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/11/18/5-32-31/24Q3_Announcement.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2021",
+      "item_id": "item-24c7aa264016c5db867658e3",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "e228826_(Xiaomi_IRA_Eng)_AsPrint_Fullset_1735.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/09/29/5-22-41/e228826_%28Xiaomi_IRA_Eng%29_AsPrint_Fullset_1735.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2023",
+      "item_id": "item-27ecdffad4f696f1549ded55",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "23Q4_EN_797121_(Xiaomi RA Eng)_AsPrint_Fullset_1652.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/03/19/5-34-07/23Q4_EN_797121_%28Xiaomi%20RA%20Eng%29_AsPrint_Fullset_1652.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2025",
+      "item_id": "item-2f3dd0d07dff56d5c434edd8",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "25Q2 AC_ENG.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2025/08/19/5-36-23/25Q2%20AC_ENG.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2021",
+      "item_id": "item-343a77239fa683dc68699e73",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "report_20210526_e.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/6c2215a4-3712-4ec9-b748-f80551baae6a"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2018",
+      "item_id": "item-3c176dc9985f6cf4fdac6349",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2018Q3.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-45-30/2018Q3.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2023",
+      "item_id": "item-3f0eebac653dcb5837b0ca63",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2023052400737.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/05/24/6-14-31/2023052400737.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2026",
+      "item_id": "item-437dd337a90e3eda6c5d5f73",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "26Q1_EN_AC.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/098acc43-1b58-4d1b-b375-9ea25f35477b"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2024",
+      "item_id": "item-4478b0b0069e43d112c02615",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "英文公告.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2025/03/18/5-38-56/%E8%8B%B1%E6%96%87%E5%85%AC%E5%91%8A.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2019",
+      "item_id": "item-5dc4ef8b960b51efafcbcd97",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2019Q3.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-00-59/2019Q3.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2018",
+      "item_id": "item-663460971480e13bdb40ef71",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2018Q2.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-49-18/2018Q2.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2019",
+      "item_id": "item-6d20b8dea127bed9c89d2252",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2019Q2_e.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/6008527d-b4a8-4ccf-8b6f-c4df3a150d1c"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2021",
+      "item_id": "item-6ffc3828ee27ac10e53aadd4",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "20211123 RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2021.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/23/11-04-36/20211123%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20THREE%20AND%20NINE%20MONTHS%20ENDED%20SEPTEMBER%2030%2C%202021.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2026",
+      "item_id": "item-77b0d2389c5975f2a475df66",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "26Q2_EN_AC.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2025",
+      "item_id": "item-7acef15334f97f1ba85064fe",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "25Q1_EN_Announcement(1).pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/ad8fe815-6b9f-4ee5-bd3c-5a83c1c76f9a"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2023",
+      "item_id": "item-895de6a28927513810b4bd2e",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "ANNOUNCEMENT.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/11/20/4-56-29/ANNOUNCEMENT.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2018",
+      "item_id": "item-948187a63dac5c48c69b222d",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2018Q4.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-39-22/2018Q4.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2020",
+      "item_id": "item-9cbe3fdbc16fa93484108ed9",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "RAF_20200520_e.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/20/12-05-14/RAF_20200520_e.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2020",
+      "item_id": "item-ba618a6113667e2d90b6c6f2",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "RATH_20201124_e.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/20/11-57-37/RATH_20201124_e.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2024",
+      "item_id": "item-bbd6cb4466795bd33af58b9a",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "Announcement.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/08/21/5-44-48/Announcement.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2022",
+      "item_id": "item-bd5bb3f9f1560f0386f72e83",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "Announcement_1Q22_EN.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/05/19/5-48-58/Announcement_1Q22_EN.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2021",
+      "item_id": "item-c54a744e98d3bf3c7f3abfc0",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2021.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/03/31/1-55-53/ANNUAL%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20YEAR%20ENDED%20DECEMBER%2031%2C%202021.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2022",
+      "item_id": "item-c70e92b5ff603295e731b860",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "HKEX-EPS_20230324_10644395_0.PDF",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/03/24/7-35-20/HKEX-EPS_20230324_10644395_0.PDF"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2020",
+      "item_id": "item-c99844cc7777d6ad174cc38f",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "ARAY_20210324_e.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/20/11-52-53/ARAY_20210324_e.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2025",
+      "item_id": "item-d16115600e96b7d6797e1f17",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "25Q4 EN AC Xiaomi.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/03/24/5-35-03/25Q4%20EN%20AC%20Xiaomi.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2022",
+      "item_id": "item-e6db8639b8a3d54eaecfdd2e",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "Annoucement_22Q3_EN.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/11/23/4-48-56/Annoucement_22Q3_EN.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2025",
+      "item_id": "item-eea6fc173269985177bb62b2",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "25Q3 EN AC.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/static-files/e4830480-8ce9-45f8-a09d-64e40b2bdfac"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2019",
+      "item_id": "item-ef3720b6305e4118e1ea2c22",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2019Q4.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-06-38/2019Q4.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "Quarterly Results | 2019",
+      "item_id": "item-ef3784785e981acc6587d15d",
+      "listing_document_id": "doc-e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275",
+      "source_title": "2019Q1.pdf",
+      "stage": "pending_fetch",
+      "title": "Announcement",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-25-55/2019Q1.pdf"
+    }
+  ],
+  "previous_hash": "664014a1ae37a0e4803869fe2b803e8d5eafd3c52d20a289ea85a06b3a3d8528",
+  "recorded_at": "2026-10-30T11:05:41.213034+00:00",
+  "sequence": 6,
+  "task_id": "acquisition-73471611f15c46373f31495c"
+}

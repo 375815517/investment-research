@@ -1,0 +1,40 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+  "document_sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+  "metadata_ref": "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "xiaomi",
+      "metric_id": "capital-expenditure-cash-payments",
+      "metric_version": "1",
+      "source_value": "-3025523",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "thousands",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2020-01-01",
+      "period_end": "2020-12-31",
+      "scope": "consolidated",
+      "dimensions": {},
+      "basis": "来源以Capital expenditures披露的现金流，不预设等于纯固定资产支出。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:227",
+      "excerpt": "Capital expenditures (3,025,523) (3,405,163)"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

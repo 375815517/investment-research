@@ -1,0 +1,16 @@
+{
+  "reviewer": "data_v2 independent of contracts_v2 extraction",
+  "status": "passed",
+  "checks": [
+    "Read full PDF page5 table headings and subscription footnotes in both reports",
+    "Read full audited income statements pages124/130; CNY millions annual current-year column",
+    "Segment revenue sums 660257 and751766 agree with primary total",
+    "MAU as-at date retains unknown window; fee VAS is quarterly average daily number, not stock"
+  ],
+  "files": {
+    "tencent-2024-operating-candidates.json": "3ad70bb7969e0441eba0f0af8789c5a958d6129949831fd58ab789726cc970ca",
+    "tencent-2024-segments-candidates.json": "97eabcaba74705d96ca606c03fac203016fc08a36c0f23055afa93167b5db80c",
+    "tencent-2025-operating-candidates.json": "b5f999d8d6572f02d5dbb8a4a11d50c0215310c033e706e715680f865da01fbb",
+    "tencent-2025-segments-candidates.json": "0db978964a6da8435002637def36a6c0b48421de80a33c78e4dfc545d3b4a300"
+  }
+}

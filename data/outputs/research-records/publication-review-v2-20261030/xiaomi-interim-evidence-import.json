@@ -1,0 +1,26 @@
+{
+  "status": "received",
+  "document_id": "doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+  "document": {
+    "document_id": "doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+    "content_revision": "v1",
+    "source_id": "xiaomi-publication-evidence",
+    "title": "xiaomi HKEX interim report release times 2018–2026",
+    "sha256": "47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+    "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab/v1/original.html",
+    "published_at": null,
+    "first_observed_at": "2026-10-30T11:02:30.842186+00:00"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab/v1/original.html",
+    "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab/v1/document.json",
+    "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-829e16f4fda9476dabddd899dd79fdc7/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-230a4e4e9da141259f6d2f04012001a3",
+  "summary": "import",
+  "issues": []
+}

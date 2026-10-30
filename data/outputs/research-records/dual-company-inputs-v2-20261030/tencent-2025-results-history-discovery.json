@@ -1,0 +1,55 @@
+{
+  "status": "discovered",
+  "issues": [],
+  "discovery_id": "discovery-36bec58fb995ba9a973a5728",
+  "entries": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2025",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-688f548fc105fb3d1c57c504",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0813/2025081300261.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2025",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-594b60b9afbee41928bb8f09",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051401103.pdf",
+      "title": "POLL RESULTS FOR THE 2025 ANNUAL GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-260e67cfed7f53913fba75b4",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051400273.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2025",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-a37b65a27898211a0b798a3a",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900336.pdf",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-e510cf3cf969ac0384b439f0",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a"
+    }
+  ],
+  "next_parameters": null,
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a/v1/original.html",
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a/v1/document.json",
+    "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-f5517710e7b047a89b8705eab14d9b5c/collection.json",
+    "data/outputs/research-records/acquisition/discoveries/discovery-36bec58fb995ba9a973a5728.json"
+  ]
+}

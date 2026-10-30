@@ -1,0 +1,23 @@
+{
+  "candidate_id": "candidate-352d178a12d0b15f3289f8cb94e26d4a9239bc0d004fa233562edf418a6c3d2f",
+  "contract_version": "1",
+  "dataset_id": "document-facts",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "company_statement",
+      "event_date": "2025-03-31",
+      "excerpt": "2025 ANNUAL REPORT 377 NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Issued (continued): Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, “Share Scheme Trusts”). (b) On March 31, 2025, the Company allotted and issued 800,000,000 Class B ordinary shares to independent third parties, at the price of HK$53.25 for each placing share, and raised gross proceeds of HK$42,600,000,000. (b) Treasury shares Number of shares Amounts ’000 RMB’000 As of January 1, 2025 4,213 34,678 Shares repurchased 177,976 6,585,318 Shares cancelled (34,125) (1,404,300) Release of ordinary shares from Share Scheme Trusts (14,457) (487,604) As of December 31, 2025 133,607 4,728,092 As of January 1, 2024 32,828 438,291 Shares repurchased 260,375 3,531,531 Shares cancelled (272,648) (3,702,569) Release of ordinary shares from Share Scheme Trusts (16,342) (232,575) As of December 31, 2024 4,213 34,678 During the year ended December 31, 2025, the shares were repurchased at prices ranging from HK$32.60 to HK$53.25 per share, with an average price of HK$40.75 per share. During the year ended December 31, 2024, the shares were repurchased at prices ranging from HK$12.08 to HK$18.50 per share, with an average price of HK$14.91 per share.",
+      "fact_id": "xiaomi-2025-private-placement",
+      "locator": "pdf:page:379",
+      "statement": "Xiaomi allotted and issued800000000 ClassB ordinary shares to independent third parties atHKD53.25 per placing share on2025-03-31. This is a placement, not an entitlement rights issue to existing shareholders.",
+      "subject_id": "xiaomi",
+      "subject_type": "company"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "supersedes": []
+}

@@ -1,0 +1,40 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "metadata_ref": "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "38d440a82fbafa5e84ba761aa4a7e49c8a7bce6d2c8306a404c3aa3d5710cb82",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "xiaomi",
+      "metric_id": "finance-costs",
+      "metric_version": "1",
+      "source_value": "528460",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "thousands",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2019-01-01",
+      "period_end": "2019-12-31",
+      "scope": "consolidated",
+      "dimensions": {},
+      "basis": "Finance costs subtotal in audited notes, positive expense magnitude after capitalisation; source sign retained, must invert explicitly before signed income-statement comparisons",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:253",
+      "excerpt": "Finance costs:\n Interest expense from liabilities to fund investors (Note 29) 250,706 42,504\n Interest expense from borrowings (Note 33) and \n  lease liabilities (Note 16) 407,141 415,465\n Less: amount capitalized (129,387) (73,277)\n528,460 384,692"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

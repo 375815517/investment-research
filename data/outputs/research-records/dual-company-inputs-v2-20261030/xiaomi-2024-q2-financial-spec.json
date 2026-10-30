@@ -1,0 +1,130 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "thousands",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2024-04-01",
+    "period_end": "2024-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated interim statements; directly disclosed three-month April-June current-year column; not a difference of cumulative values",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Revenue\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "finance-costs",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs(?!,\\s+net)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+expenses?[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Profit(?:/\\(loss\\))?\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity\\s+holders)\\s+of\\s+the\\s+Company[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 56,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    }
+  ],
+  "selection_review": {
+    "report_year": 2024,
+    "statement_pages": {
+      "income": [
+        56
+      ],
+      "balance": [
+        58,
+        59
+      ],
+      "cash": [
+        62,
+        63
+      ]
+    },
+    "missing": [],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

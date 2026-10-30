@@ -1,0 +1,72 @@
+{
+  "event_hash": "33306bc0d10fa1b298f65835fb9c9b547797cd84cfe156f2fdccda07efb6e071",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-f8fc49d381cc95472e6ddbdbe77aeb77f4b8d98a1f59c673cec2dbd463ea1f6d",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/candidates/candidate-f8fc49d381cc95472e6ddbdbe77aeb77f4b8d98a1f59c673cec2dbd463ea1f6d.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-87d3094331474e7d82ff50daa898d296/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193",
+      "issue": {
+        "code": "QUALITY_BLOCKED",
+        "retryable": false
+      },
+      "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "review_hashes": {},
+      "review_refs": [],
+      "source_title": "",
+      "stage": "failed",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0320/2024032000531.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-8852c3fea864071224fbd547db09f08d17aef6a6c81de230e014672a5c9be633",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/candidates/candidate-8852c3fea864071224fbd547db09f08d17aef6a6c81de230e014672a5c9be633.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-a7a831f47ab1413a8bff8750bfb960e2/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a",
+      "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "review_hashes": {},
+      "review_refs": [],
+      "source_title": "",
+      "stage": "awaiting_review",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800476.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-49dbe6241b174ab9a2a595eb477128e8/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b",
+      "item_id": "item-cfdcfcedc435733853396edd",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900412.pdf"
+    }
+  ],
+  "previous_hash": "2b06955693aa27c8cf63ca493248ef0f0599cb233d7bf44ce98cedf7a10aa724",
+  "recorded_at": "2026-10-30T11:05:10.663643+00:00",
+  "sequence": 9,
+  "task_id": "acquisition-70190d3bf1f472134c5045ed"
+}

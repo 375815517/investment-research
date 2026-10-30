@@ -1,0 +1,42 @@
+{
+  "event_hash": "da48cb17809e65516c8bad3ee5d5526af12b7e2f096b7bd4d2d76526ac4d9141",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-fe635d0e3d583bd2e306f52e19aae2b5ae31bd1933c6b579f6f90e1e39f01d4e",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-4bf876bea91c2c3d21efdfd5/candidates/candidate-fe635d0e3d583bd2e306f52e19aae2b5ae31bd1933c6b579f6f90e1e39f01d4e.json",
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-5f7233249ebc4b39a2d4db0727ec0db8/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7",
+      "ingest_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7/v1/document.json",
+        "data/outputs/research-records/ingest-b6e0f7bd17493a8a604d741e61574d5cee04a6d1ef0acb1deff6769bd7e6aca0/candidate.json",
+        "data/outputs/research-records/ingest-b6e0f7bd17493a8a604d741e61574d5cee04a6d1ef0acb1deff6769bd7e6aca0/validation.json",
+        "data/outputs/research-records/ingest-b6e0f7bd17493a8a604d741e61574d5cee04a6d1ef0acb1deff6769bd7e6aca0/review.json",
+        "data/inputs/companies/xiaomi/financials/2022/batch-23b2ae049943215349561480b196ce0092914321dd0bfcf3649b74d3ef7b797c/financial-observations.json",
+        "data/inputs/companies/xiaomi/financials/2022/batch-23b2ae049943215349561480b196ce0092914321dd0bfcf3649b74d3ef7b797c/batch.json",
+        "data/outputs/research-records/ingest-b6e0f7bd17493a8a604d741e61574d5cee04a6d1ef0acb1deff6769bd7e6aca0/receipt.json"
+      ],
+      "item_id": "item-beb1a673ef39f397a1ab1717",
+      "listing_document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-4bf876bea91c2c3d21efdfd5/reviews/cd2959ec036a4c99b5f00ee35363c17c.json": "70c378366af633c698c9d3532b9e62cfdb8e1d9f6d6992cba35b8d08847ce8f9"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-4bf876bea91c2c3d21efdfd5/reviews/cd2959ec036a4c99b5f00ee35363c17c.json"
+      ],
+      "stage": "verified",
+      "title": "2022 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/09/26/4-52-30/2022%20Interim%20Report.pdf"
+    }
+  ],
+  "previous_hash": "23ec7d464b80329ceb3edc326b9fc3e31ef34a9be6af09e04afce73298e8c728",
+  "recorded_at": "2026-10-30T11:39:32.035456+00:00",
+  "sequence": 5,
+  "task_id": "acquisition-4bf876bea91c2c3d21efdfd5"
+}

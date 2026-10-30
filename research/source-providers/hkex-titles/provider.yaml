@@ -1,0 +1,35 @@
+provider_id: hkex-titles
+url: https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en
+connector_id: http-document-v1
+dataset_id: financial-facts
+request_method: POST
+allowed_hosts:
+- www1.hkexnews.hk
+- www.hkexnews.hk
+allowed_parameters:
+- lang
+- category
+- market
+- searchType
+- documentType
+- t1code
+- t2Gcode
+- t2code
+- stockId
+- title
+- from
+- to
+fixed_parameters:
+  lang: EN
+  category: '0'
+  market: SEHK
+  searchType: '0'
+  documentType: '-1'
+  t1code: '-2'
+  t2Gcode: '-2'
+  t2code: '-2'
+archive_permissions: research-only
+usage_basis: User-authorized public issuer exchange announcement research; no redistribution
+  license established
+max_pages: 1
+max_bytes: 32000000

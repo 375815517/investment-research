@@ -1,0 +1,33 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-f1fb16f23f282f790d71cfad",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-6aa20e7c6865f961a17a168e",
+      "listing_document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+      "title": "2021 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/22/4-01-53/2021092800380.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2021",
+      "parameters": {
+        "year": 2021
+      }
+    }
+  ],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:16.698163+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

@@ -1,0 +1,9 @@
+{
+  "candidate_id": "candidate-b8c8fa260d5286b6fd25be95c0f8283c47c444fbf71a303e72094726811fba96",
+  "plan_seconds": 0.44050508200234617,
+  "plan_index_builds": 1,
+  "apply_idempotent_seconds": 0.30683538199809846,
+  "apply_index_builds": 1,
+  "apply_status": "unchanged",
+  "note": "Existing admitted daily-price candidate; apply uses idempotent path, no formal data mutation. Fresh-write path covered by unit tests, not timed on production workspace."
+}

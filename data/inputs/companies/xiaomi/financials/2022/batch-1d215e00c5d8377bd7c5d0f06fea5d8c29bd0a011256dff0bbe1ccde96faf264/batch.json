@@ -1,0 +1,55 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-1ae4fc51dbc7c7c0bd35f6b1cb161f56a625fadab24305ce1449b962f70535b4/candidate.json",
+  "batch_id": "batch-1d215e00c5d8377bd7c5d0f06fea5d8c29bd0a011256dff0bbe1ccde96faf264",
+  "candidate_hash": "1ae4fc51dbc7c7c0bd35f6b1cb161f56a625fadab24305ce1449b962f70535b4",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2022/batch-1d215e00c5d8377bd7c5d0f06fea5d8c29bd0a011256dff0bbe1ccde96faf264/financial-observations.json",
+      "sha256": "06fcde71fe9c9210e1eed18775727d890b446186df747f315c0ca8a3b4d0fbdb"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:38.607948+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:44:08.013930+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "all-ordinary"
+      },
+      "excerpt": "As of December 31, 2022  24,951,334",
+      "locator": "pdf:page:296",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2022-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "24951334",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2022-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

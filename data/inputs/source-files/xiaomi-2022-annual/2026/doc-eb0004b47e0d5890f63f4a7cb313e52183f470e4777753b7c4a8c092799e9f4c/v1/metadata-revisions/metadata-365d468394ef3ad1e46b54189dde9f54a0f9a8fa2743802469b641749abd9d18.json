@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+  "document_sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+  "evidence_document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "evidence_sha256": "2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "excerpt": "\"formatedDate\":\"Apr 26, 2023\",\"title\":\"2022 Annual Report\"",
+  "locator": "json:News:ID=4284737",
+  "notes": "Issuer IR embeds Euroland announcements. Displayed filing date associated with exact annual-report title; attachment prID joins announcement ID and downloaded attachment SHA256 equals archived target. Source date interpreted as Hong Kong market calendar date; no exact publication instant claimed. Raw epoch not used.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2023-04-26",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:53:48.569259+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+}

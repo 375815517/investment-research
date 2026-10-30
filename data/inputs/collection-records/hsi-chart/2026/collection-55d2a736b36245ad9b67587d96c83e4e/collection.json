@@ -1,0 +1,38 @@
+{
+  "collection_context": {
+    "delivery": {
+      "archive_permissions": "research-only",
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:52:32.163093+00:00",
+      "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI%2Cday%2C2020-01-01%2C2020-03-30%2C320%2C",
+      "path": "/workspace/investment-research/.research-local/collections/7e9646541e5c40cc8832fc04be4c903a/response-86b13e5da44d4677b6881667966359e0.json",
+      "request": {
+        "parameter_names": [
+          "param"
+        ],
+        "source_id": "hsi-chart"
+      },
+      "request_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI%2Cday%2C2020-01-01%2C2020-03-30%2C320%2C",
+      "rows": 61,
+      "sha256": "9efb5258d4293d608b5c52a72f1e60accd3329c4e66a5443cda5c9f1f01d7528",
+      "size_bytes": 6501,
+      "source_id": "hsi-chart",
+      "usage_basis": "User-authorized bounded investment research; no redistribution license established"
+    },
+    "parameters": {
+      "param": "hkHSI,day,2020-01-01,2020-03-30,320,"
+    }
+  },
+  "collection_id": "collection-55d2a736b36245ad9b67587d96c83e4e",
+  "document_id": "doc-9efb5258d4293d608b5c52a72f1e60accd3329c4e66a5443cda5c9f1f01d7528",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:52:32.164555+00:00",
+  "origin_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI%2Cday%2C2020-01-01%2C2020-03-30%2C320%2C",
+  "publication_assertion": null,
+  "sha256": "9efb5258d4293d608b5c52a72f1e60accd3329c4e66a5443cda5c9f1f01d7528",
+  "source_id": "hsi-chart",
+  "status": "received"
+}

@@ -1,0 +1,30 @@
+{
+  "collection_context": {
+    "method": "POST",
+    "parameters": {
+      "category": "0",
+      "documentType": "-1",
+      "from": "20180101",
+      "lang": "EN",
+      "market": "SEHK",
+      "searchType": "0",
+      "stockId": "190371",
+      "t1code": "-2",
+      "t2Gcode": "-2",
+      "t2code": "-2",
+      "title": "INTERIM REPORT",
+      "to": "20261030"
+    }
+  },
+  "collection_id": "collection-829e16f4fda9476dabddd899dd79fdc7",
+  "document_id": "doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:02:30.842186+00:00",
+  "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+  "publication_assertion": null,
+  "sha256": "47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+  "source_id": "xiaomi-publication-evidence",
+  "status": "received"
+}

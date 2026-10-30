@@ -1,0 +1,55 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-1cacf061f9075851ca83d275fb69b431ce337d6ae66f4a47e976e9b2dcbd671d/candidate.json",
+  "batch_id": "batch-990c09bb2e51e8841545daf217424b4f669c9d9d922ca2a817e16fe07e24ab8a",
+  "candidate_hash": "1cacf061f9075851ca83d275fb69b431ce337d6ae66f4a47e976e9b2dcbd671d",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2025/batch-990c09bb2e51e8841545daf217424b4f669c9d9d922ca2a817e16fe07e24ab8a/financial-observations.json",
+      "sha256": "a37d9dd4d31d3463869d8d1dedd6777a4918ad391d100f096fd305e00a62d349"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:53:08.770248+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:44:19.523487+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "all-ordinary"
+      },
+      "excerpt": "As of December 31, 2025 26,047,235",
+      "locator": "pdf:page:378",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "26047235",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

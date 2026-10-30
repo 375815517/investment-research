@@ -1,0 +1,32 @@
+{
+  "candidate_id": "candidate-c8fcfb4e8f4898699ddffe1301660dcd0f8cdd0d77caa4ba3d1f357c0d3c6f30",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-final-2019-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2021-04-08",
+      "basis": "Annual report dividend note confirms dividends paid during calendar 2020; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date and ex-date are not stated and remain unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "1.20",
+      "currency": "HKD",
+      "excerpt": "15 DIVIDENDS The final dividends amounting to HKD11,378 million (2019: HKD9,463 million) were paid during the year ended 31 December 2020. A final dividend in respect of the year ended 31 December 2020 of HKD1.60 per share (2019: HKD1.20 per share) was proposed pursuant to a resolution passed by the Board on 24 March 2021 and subject to the approval of the shareholders at the 2021 annual general meeting of the Company to be held on 20 May 2021 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 243",
+      "locator": "pdf:page:244",
+      "payment_date_precision": "year",
+      "payment_period_end": "2020-12-31",
+      "payment_period_start": "2020-01-01",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2019"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": [
+    "batch-01de38db19d97e1ceb88d941ca2add9535293377885f80740f1b125c7294a685"
+  ]
+}

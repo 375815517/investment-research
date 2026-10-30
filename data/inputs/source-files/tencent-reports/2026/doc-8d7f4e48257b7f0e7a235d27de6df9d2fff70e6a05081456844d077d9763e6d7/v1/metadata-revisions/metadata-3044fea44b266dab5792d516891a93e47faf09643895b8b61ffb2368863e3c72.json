@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+  "document_sha256": "8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+  "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "evidence_sha256": "a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "excerpt": "Release Time: 01/09/2022 17:56 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2022 ( 2MB )",
+  "locator": "html:table:INTERIM REPORT 2022",
+  "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2022-09-01",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:02:22.748171+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-3044fea44b266dab5792d516891a93e47faf09643895b8b61ffb2368863e3c72",
+  "supporting_documents": []
+}

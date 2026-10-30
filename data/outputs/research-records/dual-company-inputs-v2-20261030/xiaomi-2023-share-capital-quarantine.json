@@ -1,0 +1,69 @@
+{
+  "candidate": {
+    "status": "prepared",
+    "candidate_id": "candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33",
+    "candidate_hash": "53a616eadfe85044947f7895feb04fbc6991d93327b9e8c3305c4a4a11cfd386",
+    "record_count": 1,
+    "artifact_refs": [
+      ".research-local/candidates/candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33.json"
+    ],
+    "next_actions": [
+      "validate"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-6fd77704d01c48689da50a8c1ea598fc",
+    "summary": "prepare",
+    "issues": []
+  },
+  "validation": {
+    "status": "review_required",
+    "validation": {
+      "candidate_id": "candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33",
+      "candidate_hash": "53a616eadfe85044947f7895feb04fbc6991d93327b9e8c3305c4a4a11cfd386",
+      "status": "review_required",
+      "rule_version": "v1",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "record_count": 1
+    },
+    "artifact_refs": [
+      ".research-local/validations/candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33/5e354ebd2ef8ccc6ba39b000f5b3aae1f459a28c7ee0efce4080793ea33ea018.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "severity": "warning",
+        "retryable": false
+      }
+    ],
+    "next_actions": [
+      "review"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-c6b9d7433a524874ae629ea6bdeaab42",
+    "summary": "validate"
+  },
+  "review": {
+    "status": "rejected",
+    "review_ref": ".research-local/reviews/candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33/747af465ed0c42adbddad83479f2a802.json",
+    "artifact_refs": [
+      ".research-local/reviews/candidate-c88da9e5f369cebb01caa6307eb329604d014e62edb6ad0abe91d280256f6e33/747af465ed0c42adbddad83479f2a802.json"
+    ],
+    "next_actions": [
+      "ingest_plan"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-cd08d72af6e8447ba96560fb74420d6c",
+    "summary": "review",
+    "issues": []
+  },
+  "status": "rejected_not_admitted",
+  "reason": "SOURCE_SHARE_CAPITAL_CONFLICT"
+}

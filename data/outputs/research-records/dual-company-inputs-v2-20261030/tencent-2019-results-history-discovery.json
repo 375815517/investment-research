@@ -1,0 +1,71 @@
+{
+  "status": "discovered",
+  "issues": [],
+  "discovery_id": "discovery-084d9b453ec5087ea3cf5cbe",
+  "entries": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1113/2019111300972.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2019",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-6e683c5623c67f506ef22440",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0814/ltn20190814431.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2019",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-6ba7f1dd48cba0debeab8fc1",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515907.pdf",
+      "title": "POLL RESULTS FOR THE EXTRAORDINARY GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-5f0bd9346f91dfc549bb6485",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515905.pdf",
+      "title": "POLL RESULTS FOR THE 2019 ANNUAL GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-cc60714b8798e2af95ab9b5c",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515381.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2019",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-33cb2e51e759525816e8dc43",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515369.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2019",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-c1a3e8489ed008d8a1b954ec",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0321/ltn20190321255.pdf",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2018",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-400622888b14cc26e522cc48",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292"
+    }
+  ],
+  "next_parameters": null,
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292/v1/original.html",
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292/v1/document.json",
+    "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-c218ac6ce88b4e7b824c70e554e217a7/collection.json",
+    "data/outputs/research-records/acquisition/discoveries/discovery-084d9b453ec5087ea3cf5cbe.json"
+  ]
+}

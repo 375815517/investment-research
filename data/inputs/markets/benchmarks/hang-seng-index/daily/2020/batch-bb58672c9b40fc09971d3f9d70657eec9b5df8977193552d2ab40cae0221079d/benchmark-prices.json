@@ -1,0 +1,26 @@
+[
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "24301.279",
+    "currency": null,
+    "excerpt": "[\"2020-06-29\",\"24627.641\",\"24301.279\",\"24627.641\",\"24148.621\",\"133018985080.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-06-29",
+    "record_kind": "source_reported",
+    "trading_date": "2020-06-29",
+    "unit": "points"
+  },
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "24427.189",
+    "currency": null,
+    "excerpt": "[\"2020-06-30\",\"24468.240\",\"24427.189\",\"24598.609\",\"24271.770\",\"122490241820.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2020-06-30",
+    "record_kind": "source_reported",
+    "trading_date": "2020-06-30",
+    "unit": "points"
+  }
+]

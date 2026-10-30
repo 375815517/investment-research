@@ -1,0 +1,40 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-6893ea5a1d03eb85c095301b",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-28df415c87f50d34df84c457",
+      "listing_document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "title": "2022 Annual Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/04/26/6-55-12/2022%20Annual%20Report_ENG.pdf"
+    },
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-beb1a673ef39f397a1ab1717",
+      "listing_document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "title": "2022 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2022/09/26/4-52-30/2022%20Interim%20Report.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2022",
+      "parameters": {
+        "year": 2022
+      }
+    }
+  ],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:20.905084+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

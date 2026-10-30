@@ -1,0 +1,578 @@
+[
+  {
+    "document_id": "doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2026-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-05-26T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82/v1/metadata-revisions/metadata-9714aab166ef44fe5f17f80c68f24e9f04a27c72df52cb4e2f06a2e5f40a9fdd.json"
+  },
+  {
+    "document_id": "doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2026-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-05-26T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82/v1/metadata-revisions/metadata-9714aab166ef44fe5f17f80c68f24e9f04a27c72df52cb4e2f06a2e5f40a9fdd.json"
+  },
+  {
+    "document_id": "doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2026-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2026-05-26T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82/v1/document.json"
+  },
+  {
+    "document_id": "doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-03-24T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800/v1/metadata-revisions/metadata-b5e6816c3f4800988812b0a761bcfce8fccf4f560a110b4f7975bc1c9052cf12.json"
+  },
+  {
+    "document_id": "doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-03-24T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800/v1/metadata-revisions/metadata-b5e6816c3f4800988812b0a761bcfce8fccf4f560a110b4f7975bc1c9052cf12.json"
+  },
+  {
+    "document_id": "doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2026-03-24T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800/v1/document.json"
+  },
+  {
+    "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-11-18T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823/v1/metadata-revisions/metadata-2cf8783e2fdfdd9e4fe4458f560f69e7abd9435002e7f40962ca07dd56a8e39c.json"
+  },
+  {
+    "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-11-18T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823/v1/metadata-revisions/metadata-2cf8783e2fdfdd9e4fe4458f560f69e7abd9435002e7f40962ca07dd56a8e39c.json"
+  },
+  {
+    "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2025-11-18T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823/v1/document.json"
+  },
+  {
+    "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-05-27T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061/v1/metadata-revisions/metadata-ba9c15794bde1074708dd8fa22b14059da5c53c12b3382f2198e65803342505b.json"
+  },
+  {
+    "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-05-27T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061/v1/metadata-revisions/metadata-ba9c15794bde1074708dd8fa22b14059da5c53c12b3382f2198e65803342505b.json"
+  },
+  {
+    "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2025-05-27T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061/v1/document.json"
+  },
+  {
+    "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-03-18T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/metadata-revisions/metadata-77357424ef8ae1fee5b5c0c25ee49fa8d4341185485ea3de674eb30f1c22b053.json"
+  },
+  {
+    "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-03-18T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/metadata-revisions/metadata-77357424ef8ae1fee5b5c0c25ee49fa8d4341185485ea3de674eb30f1c22b053.json"
+  },
+  {
+    "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2025-03-18T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json"
+  },
+  {
+    "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-11-18T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1/v1/metadata-revisions/metadata-bc2459ec705f6926d823edbe91b277610f2f0351040fc3ccdb7c04311bd5074d.json"
+  },
+  {
+    "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-11-18T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1/v1/metadata-revisions/metadata-bc2459ec705f6926d823edbe91b277610f2f0351040fc3ccdb7c04311bd5074d.json"
+  },
+  {
+    "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2024-11-18T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1/v1/document.json"
+  },
+  {
+    "document_id": "doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-05-23T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5/v1/metadata-revisions/metadata-6543404a338b6f434cdb46f050737797723fa4d52d71680c0348daedd5f9e1f0.json"
+  },
+  {
+    "document_id": "doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-05-23T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5/v1/metadata-revisions/metadata-6543404a338b6f434cdb46f050737797723fa4d52d71680c0348daedd5f9e1f0.json"
+  },
+  {
+    "document_id": "doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2024-05-23T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5/v1/document.json"
+  },
+  {
+    "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-03-19T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299/v1/metadata-revisions/metadata-f8e502a17568cdf0b4a437ad03bf494f2dd7cb4f8f91ca366c72a65dcf0e427e.json"
+  },
+  {
+    "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-03-19T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299/v1/metadata-revisions/metadata-f8e502a17568cdf0b4a437ad03bf494f2dd7cb4f8f91ca366c72a65dcf0e427e.json"
+  },
+  {
+    "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2024-03-19T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299/v1/document.json"
+  },
+  {
+    "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-11-20T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2/v1/metadata-revisions/metadata-e6c1879f15f9e94d244a315ed733c56c44d50b47d20569fd0599887ddde62c4b.json"
+  },
+  {
+    "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-11-20T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2/v1/metadata-revisions/metadata-e6c1879f15f9e94d244a315ed733c56c44d50b47d20569fd0599887ddde62c4b.json"
+  },
+  {
+    "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2023-11-20T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2/v1/document.json"
+  },
+  {
+    "document_id": "doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-05-24T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c/v1/metadata-revisions/metadata-78db15c78455c227e41eeaa93db9c3a68c4d8087687921d61e591aff5e0908df.json"
+  },
+  {
+    "document_id": "doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-05-24T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c/v1/metadata-revisions/metadata-78db15c78455c227e41eeaa93db9c3a68c4d8087687921d61e591aff5e0908df.json"
+  },
+  {
+    "document_id": "doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2023-05-24T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c/v1/document.json"
+  },
+  {
+    "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-03-24T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b/v1/metadata-revisions/metadata-8d0cb2efcb33d1a4a422d7ad057971ccbab5a8df5f4bf2cbb98cabee9461ec66.json"
+  },
+  {
+    "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-03-24T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b/v1/metadata-revisions/metadata-8d0cb2efcb33d1a4a422d7ad057971ccbab5a8df5f4bf2cbb98cabee9461ec66.json"
+  },
+  {
+    "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2023-03-24T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b/v1/document.json"
+  },
+  {
+    "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-11-23T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda/v1/metadata-revisions/metadata-d6fd5587fb9eecfc245f13641821ea7270e557cb577e35b880c2e696a4c72c01.json"
+  },
+  {
+    "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-11-23T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda/v1/metadata-revisions/metadata-d6fd5587fb9eecfc245f13641821ea7270e557cb577e35b880c2e696a4c72c01.json"
+  },
+  {
+    "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2022-11-23T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda/v1/document.json"
+  },
+  {
+    "document_id": "doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-05-19T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e/v1/metadata-revisions/metadata-cf10dbb40fd7a603e333edd16e7660f435b1f0de0332b405a64f7c7c298c5396.json"
+  },
+  {
+    "document_id": "doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-05-19T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e/v1/metadata-revisions/metadata-cf10dbb40fd7a603e333edd16e7660f435b1f0de0332b405a64f7c7c298c5396.json"
+  },
+  {
+    "document_id": "doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2022-05-19T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e/v1/document.json"
+  },
+  {
+    "document_id": "doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-03-22T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79/v1/metadata-revisions/metadata-1db35992048aac0db17eb6bfa070ec2a8cacdf9f2f9d773ae4f547b98bedf360.json"
+  },
+  {
+    "document_id": "doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-03-22T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79/v1/metadata-revisions/metadata-1db35992048aac0db17eb6bfa070ec2a8cacdf9f2f9d773ae4f547b98bedf360.json"
+  },
+  {
+    "document_id": "doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2022-03-22T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79/v1/document.json"
+  },
+  {
+    "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-11-23T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5/v1/metadata-revisions/metadata-8f2cce07a984f7e669b91aa37a6d04ac454d0571e4908dd1d7efc6214d66d8fc.json"
+  },
+  {
+    "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-11-23T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5/v1/metadata-revisions/metadata-8f2cce07a984f7e669b91aa37a6d04ac454d0571e4908dd1d7efc6214d66d8fc.json"
+  },
+  {
+    "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2021-11-23T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5/v1/document.json"
+  },
+  {
+    "document_id": "doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-05-26T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b/v1/metadata-revisions/metadata-58bba963164bac98d0d67658f060ca28c138186ce74d8be55a4fc1ac99c1806f.json"
+  },
+  {
+    "document_id": "doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-05-26T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b/v1/metadata-revisions/metadata-58bba963164bac98d0d67658f060ca28c138186ce74d8be55a4fc1ac99c1806f.json"
+  },
+  {
+    "document_id": "doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2021-05-26T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b/v1/document.json"
+  },
+  {
+    "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-03-24T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029/v1/metadata-revisions/metadata-b1f93d87fa5fd313e47b86d194744dc9ad36d08a5c7e1468c0eaee59d54b4a2c.json"
+  },
+  {
+    "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-03-24T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029/v1/metadata-revisions/metadata-b1f93d87fa5fd313e47b86d194744dc9ad36d08a5c7e1468c0eaee59d54b4a2c.json"
+  },
+  {
+    "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2021-03-24T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029/v1/document.json"
+  },
+  {
+    "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-11-24T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259/v1/metadata-revisions/metadata-8cb81eaae7aff0be304db95eb34bef8d59b15b7f7d7be67c960f13b08e173246.json"
+  },
+  {
+    "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-11-24T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259/v1/metadata-revisions/metadata-8cb81eaae7aff0be304db95eb34bef8d59b15b7f7d7be67c960f13b08e173246.json"
+  },
+  {
+    "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2020-11-24T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259/v1/document.json"
+  },
+  {
+    "document_id": "doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-05-20T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176/v1/metadata-revisions/metadata-1f8ec9f30527e8958312f63197392c0968877c5dd23dd663114e3da6c0461ccd.json"
+  },
+  {
+    "document_id": "doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-05-20T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176/v1/metadata-revisions/metadata-1f8ec9f30527e8958312f63197392c0968877c5dd23dd663114e3da6c0461ccd.json"
+  },
+  {
+    "document_id": "doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2020-05-20T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176/v1/document.json"
+  },
+  {
+    "document_id": "doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-03-31T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33/v1/metadata-revisions/metadata-54e82bdd52d1b90dc01633742f5b4c9c3fda40f862a635c78c3d82de58a6f47a.json"
+  },
+  {
+    "document_id": "doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-03-31T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33/v1/metadata-revisions/metadata-54e82bdd52d1b90dc01633742f5b4c9c3fda40f862a635c78c3d82de58a6f47a.json"
+  },
+  {
+    "document_id": "doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2020-03-31T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33/v1/document.json"
+  },
+  {
+    "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-11-27T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156/v1/metadata-revisions/metadata-2a759ace0019ecba1865bea4e359f8984a0654b7618a728388fc35b5d6fbc906.json"
+  },
+  {
+    "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-11-27T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156/v1/metadata-revisions/metadata-2a759ace0019ecba1865bea4e359f8984a0654b7618a728388fc35b5d6fbc906.json"
+  },
+  {
+    "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2019-11-27T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156/v1/document.json"
+  },
+  {
+    "document_id": "doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-05-20T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334/v1/metadata-revisions/metadata-a57deadf94c24eb997567de690db79aa0544b5af04bcaccbf75082ff7a0d476d.json"
+  },
+  {
+    "document_id": "doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q1-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-05-20T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334/v1/metadata-revisions/metadata-a57deadf94c24eb997567de690db79aa0544b5af04bcaccbf75082ff7a0d476d.json"
+  },
+  {
+    "document_id": "doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q1-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2019-05-20T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334/v1/document.json"
+  },
+  {
+    "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-03-19T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472/v1/metadata-revisions/metadata-85cd36701897a8d81d02e1d34d5e6ad67fb7ea2a9c1f5a80b8c73444464a766a.json"
+  },
+  {
+    "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q4-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-03-19T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472/v1/metadata-revisions/metadata-85cd36701897a8d81d02e1d34d5e6ad67fb7ea2a9c1f5a80b8c73444464a766a.json"
+  },
+  {
+    "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q4-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2019-03-19T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472/v1/document.json"
+  },
+  {
+    "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-11-19T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca/v1/metadata-revisions/metadata-488c6b46daeaa043b0ac9abc474de8272488e441ab2f883ce61bccfa465848f3.json"
+  },
+  {
+    "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-announcement-financial-spec.json",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-11-19T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca/v1/metadata-revisions/metadata-488c6b46daeaa043b0ac9abc474de8272488e441ab2f883ce61bccfa465848f3.json"
+  },
+  {
+    "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-announcement-financial-spec.json",
+    "mode": "live_observed",
+    "cutoff": "2018-11-19T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/xiaomi-results/2026/doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca/v1/document.json"
+  }
+]

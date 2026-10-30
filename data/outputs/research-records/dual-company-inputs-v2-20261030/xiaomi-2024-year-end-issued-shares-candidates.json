@@ -1,0 +1,42 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "metadata_ref": "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "xiaomi",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "source_value": "25099152",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "shares",
+      "scale": "thousands",
+      "currency": null,
+      "measure_kind": "stock",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2024-12-31",
+      "scope": "consolidated",
+      "dimensions": {
+        "share_class": "all-ordinary"
+      },
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:341",
+      "excerpt": "As of December 31, 2024 25,099,152"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

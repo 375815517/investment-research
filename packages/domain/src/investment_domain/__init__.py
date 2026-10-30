@@ -168,3 +168,56 @@ SCHEMAS.update({"InputRequirement": InputRequirement, "AuditInputsRequest": Audi
 from .assessment import AssessInputsRequest  # noqa: E402
 
 SCHEMAS["AssessInputsRequest"] = AssessInputsRequest
+
+from .publication import (  # noqa: E402
+    PublicationAssertion,
+    DocumentMetadataRevisionRequest,
+    DocumentMetadataRevision,
+)
+
+SCHEMAS.update(
+    {
+        "PublicationAssertion": PublicationAssertion,
+        "DocumentMetadataRevisionRequest": DocumentMetadataRevisionRequest,
+        "DocumentMetadataRevision": DocumentMetadataRevision,
+    }
+)
+
+from .measurements import (  # noqa: E402
+    FinancialObservation,
+    OperatingObservation,
+    MetricDefinition,
+    SourceObservation,
+)
+from .profiles import (  # noqa: E402
+    ExpectedKey,
+    ComparisonGroup,
+    InputRequirementProfile,
+    ProfileAuditRequest,
+    NormalizeInputsRequest,
+    FreezeInputsRequest,
+    VerifyBundleRequest,
+)
+
+SCHEMAS.update(
+    {
+        cls.__name__: cls
+        for cls in (
+            FinancialObservation,
+            OperatingObservation,
+            MetricDefinition,
+            SourceObservation,
+            ExpectedKey,
+            ComparisonGroup,
+            InputRequirementProfile,
+            NormalizeInputsRequest,
+            FreezeInputsRequest,
+            VerifyBundleRequest,
+        )
+    }
+)
+SCHEMAS["ProfileAuditRequest"] = ProfileAuditRequest
+
+from .market_context import CorporateAction, BenchmarkPrice  # noqa: E402
+
+SCHEMAS.update({"CorporateAction": CorporateAction, "BenchmarkPrice": BenchmarkPrice})

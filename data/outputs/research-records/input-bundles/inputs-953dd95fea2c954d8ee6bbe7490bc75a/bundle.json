@@ -1,0 +1,774 @@
+{
+  "assessment": {
+    "artifact_refs": [
+      "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json",
+      "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+    ],
+    "audit": {
+      "artifact_refs": [
+        "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json",
+        "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+      ],
+      "keys": [
+        {
+          "artifact_refs": [],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "weixin-wechat-mau-2024",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "combined-monthly-active-accounts",
+                "product": "weixin-wechat"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "weixin-wechat-mau-2024",
+          "observed_count": 0,
+          "rows": [],
+          "status": "missing",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "qq-mobile-mau-2024",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "mobile-device-monthly-active-accounts",
+                "product": "qq-mobile"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "qq-mobile-mau-2024",
+          "observed_count": 0,
+          "rows": [],
+          "status": "missing",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "average-daily-paid-subscriptions-2024",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-10-01",
+              "period_type": "quarter",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "subscriptions"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "average-daily-paid-subscriptions-2024",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "issuer-operating-definition",
+              "adjustment_basis": "reported",
+              "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+              "batch_id": "batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a",
+              "batch_refs": [
+                "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+              ],
+              "document_refs": [
+                "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+              ],
+              "excerpt": "Fee-based VAS paying subscriptions# 262",
+              "locator": "pdf:page:5",
+              "measure_kind": "period_measure",
+              "metadata_revision_ids": {
+                "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+              },
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2024-12-31",
+              "period_start": "2024-10-01",
+              "period_type": "quarter",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "millions",
+              "schema_version": "2",
+              "scope": "product",
+              "source_id": "tencent-reports",
+              "source_value": "262",
+              "unit": "subscriptions",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "weixin-wechat-mau-2025",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "combined-monthly-active-accounts",
+                "product": "weixin-wechat"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "weixin-wechat-mau-2025",
+          "observed_count": 0,
+          "rows": [],
+          "status": "missing",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "qq-mobile-mau-2025",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "mobile-device-monthly-active-accounts",
+                "product": "qq-mobile"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "qq-mobile-mau-2025",
+          "observed_count": 0,
+          "rows": [],
+          "status": "missing",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "operating-observations",
+            "key_id": "average-daily-paid-subscriptions-2025",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-10-01",
+              "period_type": "quarter",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "subscriptions"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "average-daily-paid-subscriptions-2025",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "issuer-operating-definition",
+              "adjustment_basis": "reported",
+              "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+              "batch_id": "batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82",
+              "batch_refs": [
+                "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "population": "average-daily-paid-subscriptions",
+                "product": "fee-based-vas"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+              ],
+              "document_refs": [
+                "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+              ],
+              "excerpt": "Fee-based VAS subscriptions# 267",
+              "locator": "pdf:page:5",
+              "measure_kind": "period_measure",
+              "metadata_revision_ids": {
+                "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+              },
+              "metric_id": "average-daily-paid-subscriptions",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2025-12-31",
+              "period_start": "2025-10-01",
+              "period_type": "quarter",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "millions",
+              "schema_version": "2",
+              "scope": "product",
+              "source_id": "tencent-reports",
+              "source_value": "267",
+              "unit": "subscriptions",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        }
+      ],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ],
+      "missing_key_ids": [
+        "weixin-wechat-mau-2024",
+        "qq-mobile-mau-2024",
+        "weixin-wechat-mau-2025",
+        "qq-mobile-mau-2025"
+      ],
+      "profile_id": "tencent-operating-2024-2025",
+      "profile_version": "1",
+      "required_count": 6,
+      "satisfied_required_count": 2,
+      "scope": "declared_exact_keys",
+      "status": "partial"
+    },
+    "findings": [
+      {
+        "code": "EXACT_KEY_MISSING",
+        "group_id": null,
+        "key_ids": [
+          "weixin-wechat-mau-2024"
+        ],
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error"
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "group_id": null,
+        "key_ids": [
+          "qq-mobile-mau-2024"
+        ],
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error"
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "group_id": null,
+        "key_ids": [
+          "weixin-wechat-mau-2025"
+        ],
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error"
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "group_id": null,
+        "key_ids": [
+          "qq-mobile-mau-2025"
+        ],
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error"
+      }
+    ],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [
+      "EXACT_KEY_MISSING"
+    ],
+    "purpose": "source_description",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "status": "blocked"
+  },
+  "bundle_id": "inputs-953dd95fea2c954d8ee6bbe7490bc75a",
+  "bundle_version": "input-bundle-v1",
+  "documents": {
+    "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": {
+      "metadata_revision": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d",
+      "original_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+    },
+    "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": {
+      "metadata_revision": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0",
+      "original_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json",
+      "sha256": "fdca9d020bf1948522c75c1478294dca85e562b4d5593638727be30507c7499c"
+    },
+    {
+      "path": "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/operating-observations.json",
+      "sha256": "e59824588e7cf911779731b559f7863f90fc0e30e8fe5bef7366a5620a035bb7"
+    },
+    {
+      "path": "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json",
+      "sha256": "aee6f68e9d48ebc0965b5e6c2f15125922c08db1e35ae18e54bf29f5e5a6dfc2"
+    },
+    {
+      "path": "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/operating-observations.json",
+      "sha256": "105026001583889eb65f4392cc7d26d83fcaa24566cb190b38d9636d1a2e7bcc"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b/v1/document.json",
+      "sha256": "cfca1ac157a189d81497c9a48271ffc230bad7eaf4c60755a2942cc95d023231"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b/v1/original.html",
+      "sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/document.json",
+      "sha256": "8e2b80c86faed3896a1ff5e178a5d563657dc417ace441785befc01c67719303"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json",
+      "sha256": "c396776ee3ce1dc9ae4857f71923e63e7dcda231725b308f42b0858074378ba9"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/original.pdf",
+      "sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/document.json",
+      "sha256": "6893b6e4ac2d8965748bf13cddd2e957b29518f7592c946cd6f3180567830659"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json",
+      "sha256": "379acfb817a96aa5535f263d57056582e471a354d1d314f1f3529976727094d0"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/original.pdf",
+      "sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+    }
+  ],
+  "implementation": {
+    "files": [
+      {
+        "path": "ai/tooling/src/investment_ai/__init__.py",
+        "sha256": "c02b93a0175bf96257e1492442a7b086e581b2c54dc00b040b8c22f653b99f1b"
+      },
+      {
+        "path": "ai/tooling/src/investment_ai/manager.py",
+        "sha256": "abaf76df2fdbfaebf5588bd103796dddd8e113616f483b0128b363357e3a3f77"
+      },
+      {
+        "path": "ai/tooling/src/investment_ai/probe.py",
+        "sha256": "d72727dc3764a891865ac3bede402b5793d3ceb65bf35f124f6e021be63138fa"
+      },
+      {
+        "path": "ai/tooling/tests/test_probe.py",
+        "sha256": "277517a17e0f7cf8096ca84198d1094cda933fac97928c0b6658bc9e6306abdf"
+      },
+      {
+        "path": "apps/api/src/investment_api/__init__.py",
+        "sha256": "913fc936423d86db85671eab0ef4565b9a240889b9dfde0a1f14814025c80e19"
+      },
+      {
+        "path": "apps/api/src/investment_api/server.py",
+        "sha256": "87cc36f346c11370fc3b525bd1035cb5e46091cb2bf61f45aafb28bb8969bb8f"
+      },
+      {
+        "path": "apps/cli/src/investment_cli/__init__.py",
+        "sha256": "a40615760442ce8aa1b443c81434b7f3e8a48bfc0aff049e02122f698a0e82ac"
+      },
+      {
+        "path": "apps/cli/src/investment_cli/__main__.py",
+        "sha256": "0472e2ffee01c7582c667fb3eb1ef01023e7d584f175cef8cb475e45e6bd1736"
+      },
+      {
+        "path": "apps/cli/src/investment_cli/main.py",
+        "sha256": "2e730f87cef7a0ebf259b8db04bce0821ad820c882739cd2199eb823ff61d725"
+      },
+      {
+        "path": "packages/connectors/src/investment_connectors/__init__.py",
+        "sha256": "2ad5504672948a7c649f1a9a1e785417f081c56a1ebc67ff2882699900bb17c0"
+      },
+      {
+        "path": "packages/connectors/src/investment_connectors/hkex_daily.py",
+        "sha256": "3eb2a286fd1fbe01718301429c1b4343ec567735747d92c5e403bdb676db4515"
+      },
+      {
+        "path": "packages/connectors/src/investment_connectors/http.py",
+        "sha256": "da85f51db718204b61332825fa69c09efa106118793488420de8567fc399d15c"
+      },
+      {
+        "path": "packages/connectors/src/investment_connectors/observations.py",
+        "sha256": "3095f4c3c86b7d510a3e6dfecf8a010c2213d1e3ba8e6c878b548a821aa8a7ee"
+      },
+      {
+        "path": "packages/connectors/src/investment_connectors/providers.py",
+        "sha256": "ce8024a6ce946c3af5f5b47d90e522d5f44a1e66749f232c76295d00286603cc"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/__init__.py",
+        "sha256": "7c70866cd350a6e124f11a2b9fd0839435a1fd1fc3563c3c9df0a4359dfb16a2"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/assessment.py",
+        "sha256": "85f7a0bb9a27ffbb62a9b68aa57ddb9452d4067ae02a24704ef910a884ebba3f"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/coverage.py",
+        "sha256": "a641af978a96ed0dca579d6073754cbd045099f90b5b57c2d0a17abf75b97560"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/market_context.py",
+        "sha256": "2613ce53ff4211c13a0479fba7e561a6ffb37b862325bd55246cb4a3012acd91"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/measurements.py",
+        "sha256": "ee6577fdb750eff5c0184d1e0042bd0367ad14f487ff99bf8257df4f10c3b0e6"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/observations.py",
+        "sha256": "a55f79f8e85eda221e10999ace85eec069574bc65e4f67bf7fda7047810a0a59"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/profiles.py",
+        "sha256": "a085de0a1ffd14380eeef75e47c20d243750cb810ea5e07643a84cd5a1c43818"
+      },
+      {
+        "path": "packages/domain/src/investment_domain/publication.py",
+        "sha256": "5a959a86e41f5bbc59b87a7346ed812b74b2f5daaa22489ccadeec799ef736e6"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/__init__.py",
+        "sha256": "ed7108dfeb06fd23fa9cd980c58d4678972b402038f26ea423ec4e6ff05c0a29"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/acquisition.py",
+        "sha256": "b8ff34fbb10288f362e46519bd1e9e0236f9b7aae08c835bcf76ed010ee9ed00"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/assessment.py",
+        "sha256": "84220f675ed4f77ab2cdcca3bdfc2a8de97933ba261ff9cfdbecef8acbe3408b"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/bundles.py",
+        "sha256": "69930988edebecd9d386a5d1bd9be34218e0589b127b1a62f2c790205997dacb"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/datasets.py",
+        "sha256": "ec83d37b847716648e32e1982e9522e3ba623c55f91008fd4fe213951c022314"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/ensure.py",
+        "sha256": "4a01472b51b03b92ff36c3961701da9eb68cf646f1e039725a829ab785705e42"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/evidence_time.py",
+        "sha256": "d27320c2698f1540b04c3292ccd937117ef2d7a664d94d9e7fd32a09df9b98b2"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/market_status.py",
+        "sha256": "d594ee82d6e04c3369c2a83cf6e223a21213857c205d5d83da12a14dd5547a95"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/profiles.py",
+        "sha256": "9113faccc7b7ec03474a0bbcec593be6e61aa29a4cfc37524797abcebd49e9bc"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/temporal.py",
+        "sha256": "5fe41924c636b0319b3c1c5f0a025d249ddf8b844d9d9755215bd2a885eb615d"
+      },
+      {
+        "path": "packages/engine/src/investment_engine/transforms.py",
+        "sha256": "b10b40dd98f5863eb3b5bbd7be2080b1fea57bb5d8dca273a6bbb05d416f10f3"
+      },
+      {
+        "path": "packages/repository/src/investment_repository/__init__.py",
+        "sha256": "023a663a7cc5aa590d04c062ad67a0db6b713d0f9b4fcbd924ea686d53f8978a"
+      },
+      {
+        "path": "packages/repository/src/investment_repository/metadata.py",
+        "sha256": "006d642f5a7104ac9c78aa8343f7cf9306529c49b672c91db1516336b7ba3f95"
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "22301464e04cfd32a62089127a77f9a269e01e3ee755836bd27a31a47acda18e"
+      },
+      {
+        "path": "scripts/backfill_price_history.py",
+        "sha256": "d9e32efc7b24e3480de48e364473c5b6c5f8fc8a00bd4d7923b58fe6a5196917"
+      },
+      {
+        "path": "scripts/build_input_profiles.py",
+        "sha256": "90667078c55c90b9fc1b1a9d81741b135addf5cf83364cd1b21342c9a0baf320"
+      },
+      {
+        "path": "scripts/check_publication.py",
+        "sha256": "2aa12d13df97634ccd7bd7878a841ce2ffd1850945734ac44266d0a49465f097"
+      },
+      {
+        "path": "scripts/demo_input_pipeline.py",
+        "sha256": "3c3dc88516edbc0f6e55b7133fbc301f77e64649d04d6bf0d549e34432ffacd7"
+      },
+      {
+        "path": "scripts/extract_report_candidates.py",
+        "sha256": "4603e5e7ba83fb41fd91fe4e8ee22bbdc17c10ecf552edfe5c22f29366b87196"
+      },
+      {
+        "path": "scripts/retry_price_history.py",
+        "sha256": "c78da3d8b37e0638a85c9744fcd5ea404f58ba2cb8e4496a3dd499cca453bdac"
+      },
+      {
+        "path": "scripts/verify_short_sale_ratio.py",
+        "sha256": "93fe0142d15df8a02911ca118f5edaf89a0d165190dd1d5408af9ff4e747071b"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "ce7ae20bda69db1462040e5d6c8ede1397a3c660807b5b7704e3d5a621dc19a5"
+      }
+    ],
+    "git_head_at_freeze": "c58b321b4e0704b4583732f15fff55676d6b0cbe",
+    "note": "File hashes identify the actual code; HEAD alone does not certify a clean tree"
+  },
+  "label": "recovery-acceptance-tencent-operating-2024-2025",
+  "limitations": [
+    "Freezing a blocked or limited input set preserves its limitations; it does not certify readiness",
+    "Verification reads pinned files and rows, never substitutes newly available data",
+    "Source and implementation hashes establish reproducibility boundaries, not source authenticity"
+  ],
+  "profile": {
+    "comparison_groups": [],
+    "expected_keys": [
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "weixin-wechat-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "combined-monthly-active-accounts",
+            "product": "weixin-wechat"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "qq-mobile-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "mobile-device-monthly-active-accounts",
+            "product": "qq-mobile"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "average-daily-paid-subscriptions-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "average-daily-paid-subscriptions",
+            "product": "fee-based-vas"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "average-daily-paid-subscriptions",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-10-01",
+          "period_type": "quarter",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "subscriptions"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "weixin-wechat-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "combined-monthly-active-accounts",
+            "product": "weixin-wechat"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "qq-mobile-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "mobile-device-monthly-active-accounts",
+            "product": "qq-mobile"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "average-daily-paid-subscriptions-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "average-daily-paid-subscriptions",
+            "product": "fee-based-vas"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "average-daily-paid-subscriptions",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-10-01",
+          "period_type": "quarter",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "subscriptions"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      }
+    ],
+    "information_cutoff": null,
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "tencent-operating-2024-2025",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "transformations": []
+}

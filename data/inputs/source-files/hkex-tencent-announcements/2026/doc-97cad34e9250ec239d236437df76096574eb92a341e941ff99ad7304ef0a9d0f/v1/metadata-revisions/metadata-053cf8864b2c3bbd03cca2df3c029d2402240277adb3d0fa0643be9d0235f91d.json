@@ -1,0 +1,36 @@
+{
+  "document_id": "doc-97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f",
+  "document_sha256": "97cad34e9250ec239d236437df76096574eb92a341e941ff99ad7304ef0a9d0f",
+  "evidence_document_id": "doc-ab01528390ed8f1f280a6a20eee8377b36524e9bdf1ac512dbcc3b5496fe1119",
+  "evidence_sha256": "ab01528390ed8f1f280a6a20eee8377b36524e9bdf1ac512dbcc3b5496fe1119",
+  "excerpt": "Release Time: 12/08/2020 16:45 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Interim Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2020 ( 275KB )",
+  "locator": "html:table:ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2020",
+  "notes": "HKEX Release Time explicitly associated with 00700 and exact half-year results result title/link. Existing captured collection final_url and SHA256 bind link to archived original; current original hash reverified. No URL-date inference; minute display retained as evidence, only date precision adopted.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2020-08-12",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:25:48.839045+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-053cf8864b2c3bbd03cca2df3c029d2402240277adb3d0fa0643be9d0235f91d",
+  "supporting_documents": [
+    {
+      "document_id": "doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca",
+      "sha256": "1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "candidate_id": "candidate-e59e2e857a29065a1ac8b6a76ce55016ebd49133794d0138789ed87a43f71e75",
+  "contract_version": "1",
+  "dataset_id": "benchmark-prices",
+  "document_id": "doc-e04f6734a1fb879ccdd54b28c9a9feb21f3d99f9eab9d99b7c688b05b7b726e3",
+  "document_sha256": "e04f6734a1fb879ccdd54b28c9a9feb21f3d99f9eab9d99b7c688b05b7b726e3",
+  "parser_version": "tencent-benchmark-v1-missing-dates-selection-v1",
+  "records": [
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "17809.660",
+      "currency": null,
+      "excerpt": "[\"2023-09-29\",\"17484.950\",\"17809.660\",\"17935.150\",\"17482.390\",\"67650234422.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2023-09-29",
+      "record_kind": "source_reported",
+      "trading_date": "2023-09-29",
+      "unit": "points"
+    }
+  ],
+  "source_id": "hsi-chart",
+  "supersedes": []
+}

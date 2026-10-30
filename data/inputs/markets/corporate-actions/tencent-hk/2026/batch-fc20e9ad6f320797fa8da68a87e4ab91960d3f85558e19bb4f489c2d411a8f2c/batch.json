@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-76afc8a9dfd9dee96975515c6fe46e0ad037e498871515d4fc38e1b8d4670420/candidate.json",
+  "batch_id": "batch-fc20e9ad6f320797fa8da68a87e4ab91960d3f85558e19bb4f489c2d411a8f2c",
+  "candidate_hash": "76afc8a9dfd9dee96975515c6fe46e0ad037e498871515d4fc38e1b8d4670420",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2026/batch-fc20e9ad6f320797fa8da68a87e4ab91960d3f85558e19bb4f489c2d411a8f2c/corporate-actions.json",
+      "sha256": "7cfdc1e8cd30c4704d3fd169f4ff9af2b06b5cb4b8af7d56ce5b8382ba5cb4ca"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:04:19.680955+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:13:28.644568+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2025",
+      "action_status": "proposed",
+      "action_type": "cash_dividend",
+      "announcement_date": "2026-03-18",
+      "basis": "Official cash dividend announcement; scheduled terms subject to future shareholders approval. Payment date is scheduled, not confirmation of payment.",
+      "cash_per_share": "5.3",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": "2026-05-15",
+      "excerpt": "Title of announcement FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025 Announcement date 18 March 2026 Status New announcement Information relating to the dividend Dividend type Final Dividend nature Ordinary For the financial year end 31 December 2025 Reporting period end for the dividend 31 December 2025 declared Dividend declared HKD 5.3 per share Date of shareholders' approval 13 May 2026 Information relating to Hong Kong share register Default currency and amount in which HKD 5.3 per share the dividend will be paid Exchange rate HKD 1 : HKD 1 Ex-dividend date 15 May 2026 Latest time to lodge transfer documents for registration with share registrar for 18 May 2026 16:30 determining entitlement to the dividend Book close period From 19 May 2026 to 20 May 2026 Record date 20 May 2026 Payment date 01 June 2026",
+      "locator": "pdf:page:1",
+      "payment_date": "2026-06-01",
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

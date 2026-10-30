@@ -35,3 +35,7 @@ description: 围绕企业、行业、政策和事件检索资料、核查原文�
 遵循[数据适用性规则](../../rules/data-fitness.md)。先固定问题、用途、期间及所需维度，再查看 coverage、执行有限需求 audit-inputs，随后用同一需求调用 assess-inputs；实际命令与 schema 以 capabilities 为准。source_description、historical_point_in_time、quantitative_comparison 分别评价，不把 ready 泛化为所有研究均可用。报告限制及未覆盖的人工检查，保留原始需求与缺口。详细[设计与请求示例](../../../docs/plans/data-fitness-assessment.md)。
 
 新闻/政策样本数不是全网完整率，四个损益字段不是完整基本面，须申报淡仓不是全市场多空分布。口径未知、缺历史公开时间或匹配分母时，不让 AI 补造数值；补采后重新评估并保存新结果。
+
+## 精确规格与可复用执行
+
+按[可复用输入规则](../../rules/reusable-inputs.md)执行。优先使用已登记输入规格进行 profile-audit/profile-assess；原件、待提取、待复核、已准入和用途就绪分别报告。发现/任务/修订/冻结操作以当前 capabilities 和 schema 为准，所有写入经共享执行服务，不由AI直接改正式数据。

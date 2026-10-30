@@ -1,0 +1,80 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-d44879545c07c44c0a3f2325b2332817fe39f0774e562f78e65fad3907e7c5e0/candidate.json",
+  "batch_id": "batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549",
+  "candidate_hash": "d44879545c07c44c0a3f2325b2332817fe39f0774e562f78e65fad3907e7c5e0",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/financial-observations.json",
+      "sha256": "25e449fbd19d32595377d17b39d58368befd69bd11932fdf5493c4e4a90234a0"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:53:47.535702+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:55:59.852143+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "340 XIAOMI CORPORATION NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Issued (continued): Note: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, “Share Scheme Trusts”). (b) Treasury shares Number of shares Amounts ’000 RMB’000 As of January 1, 2024 32,828 438,291 Shares repurchased 260,375 3,531,531 Shares cancelled (272,648) (3,702,569) Release of ordinary shares from Share Scheme Trusts (16,342) (232,575) As of December 31, 2024 4,213 34,678 As of January 1, 2023 20,289 190,795 Shares repurchased 133,677 1,485,385 Shares cancelled (119,200) (1,216,644) Release of ordinary shares from Share Scheme Trusts (1,938) (21,245) As of December 31, 2023 32,828 438,291",
+      "locator": "pdf:page:342",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "260375",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "236 XIAOMI CORPORATION CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2024 (Expressed in RMB) Year ended December 31, Note 2024 2023 RMB’000 RMB’000 Cash flows from financing activities Proceeds from borrowings 25,998,066 8,866,088 Repayment of borrowings (19,265,488) (4,022,423) Finance expenses paid (717,223) (758,137) Contribution from fund investors 1,653,000 1,417,086 Distribution to fund investors (1,766,749) (2,884,215) Net proceeds from exercise of share options 83,880 69,919 Payments for shares repurchase (4,047,876) (1,356,825) Payments to holders of employee fund (686,587) (31,431) Proceeds from financial assets sold under repurchase agreements 481,000 959,650 Payments for buyback of financial assets sold under repurchase agreements (372,505) (173,804) Capital injection from other non-controlling interests 400,079 — Payment for acquisition of non-controlling interests (75,809) — Dividends paid to non-controlling interests (23,286) — Payments of lease liabilities (2,476,524) (1,197,692) Payments of deferred consideration for acquisition of intangible assets (3,182,954) (1,393,188) Net cash used in financing activities (3,998,976) (504,972) Net (decrease)/increase in cash and cash equivalents (89,868) 5,626,469 Cash and cash equivalents at the beginning of the year 24(a) 33,631,313 27,607,261 Effects of exchange rate changes on cash and cash equivalents 119,997 397,583 Cash and cash equivalents at the end of the year 24(a) 33,661,442 33,631,313 The notes on pages 237 to 369 are an integral part of these consolidated financial statements.",
+      "locator": "pdf:page:238",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-4047876",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-publication-evidence",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

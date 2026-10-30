@@ -1,0 +1,99 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+  "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+  "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/document.json",
+  "dataset_id": "operating-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "81030d008c237a3550e3a80ee37d980e91a0cc94ecf71a4a4ddb7688fabeda2e",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "monthly-active-users",
+      "metric_version": "1",
+      "source_value": "1385",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "users",
+      "scale": "millions",
+      "currency": null,
+      "measure_kind": "period_measure",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2024-12-31",
+      "scope": "product",
+      "dimensions": {
+        "product": "weixin-wechat",
+        "population": "combined-monthly-active-accounts"
+      },
+      "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:5",
+      "excerpt": "Combined MAU of Weixin and WeChat 1,385"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "monthly-active-users",
+      "metric_version": "1",
+      "source_value": "524",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "users",
+      "scale": "millions",
+      "currency": null,
+      "measure_kind": "period_measure",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2024-12-31",
+      "scope": "product",
+      "dimensions": {
+        "product": "qq-mobile",
+        "population": "mobile-device-monthly-active-accounts"
+      },
+      "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:5",
+      "excerpt": "Mobile device MAU of QQ 524"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "average-daily-paid-subscriptions",
+      "metric_version": "1",
+      "source_value": "262",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "subscriptions",
+      "scale": "millions",
+      "currency": null,
+      "measure_kind": "period_measure",
+      "period_type": "quarter",
+      "period_start": "2024-10-01",
+      "period_end": "2024-12-31",
+      "scope": "product",
+      "dimensions": {
+        "product": "fee-based-vas",
+        "population": "average-daily-paid-subscriptions"
+      },
+      "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:5",
+      "excerpt": "Fee-based VAS paying subscriptions# 262"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

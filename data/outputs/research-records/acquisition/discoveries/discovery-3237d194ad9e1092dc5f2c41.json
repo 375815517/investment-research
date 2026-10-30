@@ -1,0 +1,40 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-3237d194ad9e1092dc5f2c41",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-e334bee81a4fe8f395d858d0",
+      "listing_document_id": "doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+      "title": "2018 Annual Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-59-41/2018%20AR.pdf"
+    },
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-7537f4ad0a503f80402176bf",
+      "listing_document_id": "doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+      "title": "2018 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/5-00-51/2018%20IR.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2018",
+      "parameters": {
+        "year": 2018
+      }
+    }
+  ],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:03.177259+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

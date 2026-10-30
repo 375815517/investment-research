@@ -1,0 +1,80 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-36bd81743247d40666a09e277483d6af835ce13499370631c48997d6881b9038/candidate.json",
+  "batch_id": "batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5",
+  "candidate_hash": "36bd81743247d40666a09e277483d6af835ce13499370631c48997d6881b9038",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/financial-observations.json",
+      "sha256": "fa1016c116de22200f6c4ed295060544ead56262a0be7eff57138ad3daafdd42"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:33.020974+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:55:51.625803+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "301 26 Share capital and treasury shares (continued) (a) Share capital (continued) Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, “Share Scheme Trusts”). (b) Treasury shares Number of shares Amounts ’000 RMB’000 As of January 1, 2020 130,240 1,052,822 Shares repurchased 48,410 454,872 Shares cancelled (158,727) (1,345,663) Release of ordinary shares from Share Scheme Trusts (15,634) (125,807) As of December 31, 2020 4,289 36,224 As of January 1, 2021 4,289 36,224 Shares repurchased 343,519 7,006,824 Shares cancelled (323,305) (6,699,318) As of December 31, 2021 24,503 343,730",
+      "locator": "pdf:page:303",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "343519",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "193 Year ended December 31, Note 2021 2020 RMB’000 RMB’000 Cash flows from financing activities Proceeds from borrowings 22,528,578 30,582,175 Repayment of borrowings (13,301,236) (32,586,382) Finance expenses paid (659,987) (499,711) Placement of restricted cash — (531,369) Withdrawal of restricted cash 500,000 807,192 Contribution from fund investors 3,471,000 3,398,000 Net proceeds from exercise of share options 83,014 254,476 Payments for shares repurchase (7,006,824) (454,872) Payment of lease liabilities (1,115,859) (493,899) Capital contribution from non-controlling interests — 31,000 Issuance of convertible bonds, net of issuance costs — 5,801,022 Issuance of shares upon placement — 19,907,936 Net cash generated from financing activities 4,498,686 26,215,568 Net (decrease)/increase in cash and cash equivalents (30,723,971) 30,415,216 Cash and cash equivalents at the beginning of the year 25(a) 54,752,443 25,919,861 Effects of exchange rate changes on cash and cash equivalents (516,893) (1,582,634) Cash and cash equivalents at the end of the year 25(a) 23,511,579 54,752,443 The notes on pages 194 to 341 are an integral part of these consolidated financial statements.",
+      "locator": "pdf:page:195",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-7006824",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2021-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

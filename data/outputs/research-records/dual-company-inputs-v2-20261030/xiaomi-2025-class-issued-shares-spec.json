@@ -1,0 +1,50 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "shares",
+    "scale": "units",
+    "currency": null,
+    "measure_kind": "stock",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2025-12-31",
+    "scope": "consolidated",
+    "dimensions": {
+      "share_class": "all-ordinary"
+    },
+    "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "issued-shares",
+      "page": 378,
+      "pattern": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is [\\d,]*\\d",
+      "numeric_columns": 1,
+      "value_column": 0,
+      "overrides": {
+        "dimensions": {
+          "share_class": "class-a"
+        }
+      }
+    },
+    {
+      "metric_id": "issued-shares",
+      "page": 378,
+      "pattern": "and [\\d,]*\\d(?=, respectively)",
+      "numeric_columns": 1,
+      "value_column": 0,
+      "overrides": {
+        "dimensions": {
+          "share_class": "class-b"
+        }
+      }
+    }
+  ]
+}

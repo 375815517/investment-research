@@ -1,0 +1,45 @@
+{
+  "datasets": {
+    "benchmark-prices": {
+      "active_source_rows": 2048,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 0
+    },
+    "corporate-actions": {
+      "active_source_rows": 22,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 0
+    },
+    "daily-prices": {
+      "active_source_rows": 0,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 0
+    },
+    "document-facts": {
+      "active_source_rows": 14,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 0
+    },
+    "financial-facts": {
+      "active_source_rows": 52,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 52
+    },
+    "financial-observations": {
+      "active_source_rows": 3105,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 3103
+    },
+    "market-observations": {
+      "active_source_rows": 90,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 90
+    },
+    "operating-observations": {
+      "active_source_rows": 22,
+      "limitations": "Counts include source versions; not an independent coverage denominator",
+      "reported_numeric": 22
+    }
+  },
+  "recorded_at": "2026-10-30T11:57:32.322850+00:00"
+}

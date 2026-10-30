@@ -1,0 +1,241 @@
+{
+  "version": "2",
+  "companies": [
+    {
+      "company_id": "xiaomi",
+      "confirmed_security_id": "xiaomi-hk",
+      "source_id_template": "xiaomi-{year}-annual",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "annual-core",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "revenue"
+            },
+            {
+              "metric_id": "cost-of-sales"
+            },
+            {
+              "metric_id": "gross-profit"
+            },
+            {
+              "metric_id": "operating-profit"
+            },
+            {
+              "metric_id": "finance-costs"
+            },
+            {
+              "metric_id": "income-tax-expense"
+            },
+            {
+              "metric_id": "profit-for-year"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners"
+            },
+            {
+              "metric_id": "basic-eps"
+            },
+            {
+              "metric_id": "diluted-eps"
+            },
+            {
+              "metric_id": "total-assets"
+            },
+            {
+              "metric_id": "total-liabilities"
+            },
+            {
+              "metric_id": "total-equity"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents"
+            },
+            {
+              "metric_id": "current-assets"
+            },
+            {
+              "metric_id": "current-liabilities"
+            },
+            {
+              "metric_id": "inventories"
+            },
+            {
+              "metric_id": "trade-receivables"
+            },
+            {
+              "metric_id": "trade-payables"
+            },
+            {
+              "metric_id": "short-term-borrowings"
+            },
+            {
+              "metric_id": "long-term-borrowings"
+            },
+            {
+              "metric_id": "operating-cash-flow"
+            },
+            {
+              "metric_id": "investing-cash-flow"
+            },
+            {
+              "metric_id": "financing-cash-flow"
+            },
+            {
+              "metric_id": "cash-flow-net-change"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect"
+            },
+            {
+              "metric_id": "capital-expenditure-cash-payments",
+              "field_id": "capital-cash-source-scope",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ]
+            },
+            {
+              "metric_id": "property-land-intangible-cash-payments",
+              "field_id": "capital-cash-source-scope",
+              "years": [
+                2025
+              ]
+            }
+          ],
+          "purpose": "source_description"
+        }
+      ]
+    },
+    {
+      "company_id": "tencent",
+      "confirmed_security_id": "tencent-hk",
+      "source_id_template": "tencent-reports",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "annual-core",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "fields": [
+            {
+              "metric_id": "revenue"
+            },
+            {
+              "metric_id": "cost-of-sales"
+            },
+            {
+              "metric_id": "gross-profit"
+            },
+            {
+              "metric_id": "operating-profit"
+            },
+            {
+              "metric_id": "finance-costs"
+            },
+            {
+              "metric_id": "income-tax-expense"
+            },
+            {
+              "metric_id": "profit-for-year"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners"
+            },
+            {
+              "metric_id": "basic-eps"
+            },
+            {
+              "metric_id": "diluted-eps"
+            },
+            {
+              "metric_id": "total-assets"
+            },
+            {
+              "metric_id": "total-liabilities"
+            },
+            {
+              "metric_id": "total-equity"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents"
+            },
+            {
+              "metric_id": "current-assets"
+            },
+            {
+              "metric_id": "current-liabilities"
+            },
+            {
+              "metric_id": "inventories"
+            },
+            {
+              "metric_id": "trade-receivables"
+            },
+            {
+              "metric_id": "trade-payables"
+            },
+            {
+              "metric_id": "short-term-borrowings"
+            },
+            {
+              "metric_id": "long-term-borrowings"
+            },
+            {
+              "metric_id": "operating-cash-flow"
+            },
+            {
+              "metric_id": "investing-cash-flow"
+            },
+            {
+              "metric_id": "financing-cash-flow"
+            },
+            {
+              "metric_id": "cash-flow-net-change"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect"
+            },
+            {
+              "metric_id": "property-construction-investment-cash-payments",
+              "field_id": "capital-cash-source-scope"
+            }
+          ],
+          "purpose": "source_description"
+        }
+      ]
+    }
+  ]
+}

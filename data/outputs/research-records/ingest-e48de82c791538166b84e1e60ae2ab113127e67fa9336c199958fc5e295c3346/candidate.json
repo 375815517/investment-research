@@ -1,0 +1,37 @@
+{
+  "candidate_id": "candidate-4381b71e37a575c455d0ee3cceee736604bc24cf3db1c8db1795311f0dc1e83d",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+  "document_sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "来源以Capital expenditures披露的现金流，不预设等于纯固定资产支出。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Capital expenditures (6,268,900) (5,799,570)",
+      "locator": "pdf:page:208",
+      "measure_kind": "flow",
+      "metric_id": "capital-expenditure-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2023-12-31",
+      "period_start": "2023-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-6268900",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2023-annual",
+  "supersedes": []
+}

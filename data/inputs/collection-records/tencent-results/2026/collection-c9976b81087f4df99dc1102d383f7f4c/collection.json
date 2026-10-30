@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:58:07.937302+00:00",
+      "final_url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/d67aaf470ced472f8457d7305f3eee13/response-dbb8bba5c7614a35a7883c30b583f27a.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-results"
+      },
+      "request_url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf",
+      "rows": 0,
+      "sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "size_bytes": 657605,
+      "source_id": "tencent-results"
+    }
+  },
+  "collection_id": "collection-c9976b81087f4df99dc1102d383f7f4c",
+  "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:58:07.940992+00:00",
+  "origin_url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf",
+  "publication_assertion": null,
+  "sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+  "source_id": "tencent-results",
+  "status": "received"
+}

@@ -1,0 +1,1562 @@
+{
+  "recorded_at": "2026-10-30T10:50:26.889948+00:00",
+  "profile_path": "research/input-profiles/xiaomi-annual-valuation-dependencies/v1.json",
+  "request": {
+    "comparison_groups": [],
+    "expected_keys": [
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2018",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2018-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2018",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2018-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2018",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2017-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2018-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2019",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2019-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2019",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2019-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2019",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2018-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2019-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2020",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2020-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2020",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2020-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2020",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2019-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2020-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2021",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2021-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2021",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2021-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2021",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2020-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2021-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2022",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2022-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2022",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2022-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2022",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2021-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2022-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2023",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2023-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2023",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2023-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2023",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2022-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2023-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2023-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-basic-shares-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-basic-shares",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "weighted-average-diluted-shares-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {},
+          "measure_kind": "period_measure",
+          "metric_id": "weighted-average-diluted-shares",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "opening-cash-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "currency": "CNY",
+          "dimensions": {},
+          "measure_kind": "stock",
+          "metric_id": "cash-and-cash-equivalents",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "currency"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      }
+    ],
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "xiaomi-annual-valuation-dependencies",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "result": {
+    "status": "blocked",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "purpose": "source_description",
+    "audit": {
+      "status": "partial",
+      "scope": "declared_exact_keys",
+      "profile_id": "xiaomi-annual-valuation-dependencies",
+      "profile_version": "1",
+      "keys": [
+        {
+          "key_id": "weighted-average-basic-shares-2018",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2018",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2018-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2018-12-31",
+              "period_start": "2018-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2018",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2018",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2018-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2018-12-31",
+              "period_start": "2018-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2018",
+          "expected": {
+            "key_id": "opening-cash-2018",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2018-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2017-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2019",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2019",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2019-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2019-12-31",
+              "period_start": "2019-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2019",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2019",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2019-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2019-12-31",
+              "period_start": "2019-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2019",
+          "expected": {
+            "key_id": "opening-cash-2019",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2019-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2018-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2020",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2020",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2020-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2020-12-31",
+              "period_start": "2020-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2020",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2020",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2020-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2020-12-31",
+              "period_start": "2020-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2020",
+          "expected": {
+            "key_id": "opening-cash-2020",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2020-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2019-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2021",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2021",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2021-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2021-12-31",
+              "period_start": "2021-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2021",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2021",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2021-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2021-12-31",
+              "period_start": "2021-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2021",
+          "expected": {
+            "key_id": "opening-cash-2021",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2021-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2020-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2022",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2022",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2022-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2022-12-31",
+              "period_start": "2022-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2022",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2022",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2022-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2022-12-31",
+              "period_start": "2022-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2022",
+          "expected": {
+            "key_id": "opening-cash-2022",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2022-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2021-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2023",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2023",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2023-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2023-12-31",
+              "period_start": "2023-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2023",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2023",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2023-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2023-12-31",
+              "period_start": "2023-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2023",
+          "expected": {
+            "key_id": "opening-cash-2023",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2023-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2022-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2024",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2024",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2024",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2024",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2024",
+          "expected": {
+            "key_id": "opening-cash-2024",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2023-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-basic-shares-2025",
+          "expected": {
+            "key_id": "weighted-average-basic-shares-2025",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-basic-shares",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "weighted-average-diluted-shares-2025",
+          "expected": {
+            "key_id": "weighted-average-diluted-shares-2025",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {},
+              "measure_kind": "period_measure",
+              "metric_id": "weighted-average-diluted-shares",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "opening-cash-2025",
+          "expected": {
+            "key_id": "opening-cash-2025",
+            "dataset_id": "financial-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "currency": "CNY",
+              "dimensions": {},
+              "measure_kind": "stock",
+              "metric_id": "cash-and-cash-equivalents",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "currency"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        }
+      ],
+      "required_count": 24,
+      "satisfied_required_count": 0,
+      "missing_key_ids": [
+        "weighted-average-basic-shares-2018",
+        "weighted-average-diluted-shares-2018",
+        "opening-cash-2018",
+        "weighted-average-basic-shares-2019",
+        "weighted-average-diluted-shares-2019",
+        "opening-cash-2019",
+        "weighted-average-basic-shares-2020",
+        "weighted-average-diluted-shares-2020",
+        "opening-cash-2020",
+        "weighted-average-basic-shares-2021",
+        "weighted-average-diluted-shares-2021",
+        "opening-cash-2021",
+        "weighted-average-basic-shares-2022",
+        "weighted-average-diluted-shares-2022",
+        "opening-cash-2022",
+        "weighted-average-basic-shares-2023",
+        "weighted-average-diluted-shares-2023",
+        "opening-cash-2023",
+        "weighted-average-basic-shares-2024",
+        "weighted-average-diluted-shares-2024",
+        "opening-cash-2024",
+        "weighted-average-basic-shares-2025",
+        "weighted-average-diluted-shares-2025",
+        "opening-cash-2025"
+      ],
+      "artifact_refs": [],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ]
+    },
+    "findings": [
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2018"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2018"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2018"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2019"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2019"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2019"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2020"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2020"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2020"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2021"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2021"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2021"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2022"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2022"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2022"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2023"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2023"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2023"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-basic-shares-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "weighted-average-diluted-shares-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "opening-cash-2025"
+        ],
+        "group_id": null
+      }
+    ],
+    "artifact_refs": [],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [
+      "EXACT_KEY_MISSING"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-71131022a74049acb49bf3fb512bf42d",
+    "summary": "profile assess",
+    "issues": []
+  }
+}

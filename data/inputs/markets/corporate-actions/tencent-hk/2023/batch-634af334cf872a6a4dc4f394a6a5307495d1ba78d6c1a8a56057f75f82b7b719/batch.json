@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357/candidate.json",
+  "batch_id": "batch-634af334cf872a6a4dc4f394a6a5307495d1ba78d6c1a8a56057f75f82b7b719",
+  "candidate_hash": "f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2023/batch-634af334cf872a6a4dc4f394a6a5307495d1ba78d6c1a8a56057f75f82b7b719/corporate-actions.json",
+      "sha256": "74fb523a6a5ec77e802c5957243e3535ef748ba0446982b89c572c5d7d6a8ea2"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:05:26.065980+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:13:56.779397+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2022",
+      "action_status": "proposed",
+      "action_type": "cash_dividend",
+      "announcement_date": "2023-03-22",
+      "basis": "Scheduled dividend terms; shareholders approval lies after announcement date; not confirmation of payment.",
+      "cash_per_share": "2.4",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": "2023-05-19",
+      "excerpt": "EF001 Disclaimer Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arisen from or in reliance upon the whole or any part of the contents of this announcement. Cash Dividend Announcement for Equity Issuer Issuer name Tencent Holdings Limited Stock code 00700 Multi-counter stock code and currency Not applicable Other related stock code(s) and Not applicable name(s) Title of announcement FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2022 Announcement date 22 March 2023 Status New announcement Information relating to the dividend Dividend type Final Dividend nature Ordinary For the financial year end 31 December 2022 Reporting period end for the dividend 31 December 2022 declared Dividend declared HKD 2.4 per share Date of shareholders' approval 17 May 2023 Information relating to Hong Kong share register Default currency and amount in which HKD 2.4 per share the dividend will be paid Exchange rate HKD 1 : HKD 1 Ex-dividend date 19 May 2023 Latest time to lodge transfer documents for registration with share registrar for 22 May 2023 16:30 determining entitlement to the dividend Book close period From 23 May 2023 to 24 May 2023 Record date 24 May 2023 Payment date 05 June 2023 Computershare Hong Kong Investor Services Limited Shops 1712-1716, 17th Floor Share registrar and its address Hopewell Centre 183 Queen’s Road East Wan Chai Hong Kong Page 1 of 2 1.1.1v",
+      "locator": "pdf:page:1",
+      "payment_date": "2023-06-05",
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

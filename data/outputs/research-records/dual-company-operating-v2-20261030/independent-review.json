@@ -1,0 +1,159 @@
+{
+  "status": "reviewed",
+  "reviews": [
+    {
+      "candidate": "tencent-2024-operating-candidates.json",
+      "sha256": "3ad70bb7969e0441eba0f0af8789c5a958d6129949831fd58ab789726cc970ca",
+      "records": 3,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "tencent-2024-segments-candidates.json",
+      "sha256": "97eabcaba74705d96ca606c03fac203016fc08a36c0f23055afa93167b5db80c",
+      "records": 4,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "tencent-2025-operating-candidates.json",
+      "sha256": "b5f999d8d6572f02d5dbb8a4a11d50c0215310c033e706e715680f865da01fbb",
+      "records": 3,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "tencent-2025-segments-candidates.json",
+      "sha256": "0db978964a6da8435002637def36a6c0b48421de80a33c78e4dfc545d3b4a300",
+      "records": 4,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2024-operating-candidates.json",
+      "sha256": "ac950d34140b9ccb902ea7e072969bfe6a69d58a325f3966197d5f1bf6c56682",
+      "records": 8,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded",
+        "Updated layout extractor continuous excerpts for TV MAU and AI Assistant; values/periods/dimensions unchanged and checked against previously independently read PDF pages"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2024-segments-candidates.json",
+      "sha256": "d003a033b5038f44852d03d7ad0dd8f8e1455dec039183e693770bdb794e0da7",
+      "records": 12,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2025-operating-candidates.json",
+      "sha256": "cf3319206e00914885b7c6505d9cbcb338cfc85d196d9d82ba99934aa0e1ffc8",
+      "records": 8,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded",
+        "Updated layout extractor continuous excerpts for TV MAU and AI Assistant; values/periods/dimensions unchanged and checked against previously independently read PDF pages"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2025-segments-candidates.json",
+      "sha256": "da544d50dcf389899d2018a35cc39464c485da29d9abd1908f990d3cf6db3d82",
+      "records": 12,
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-review",
+      "checks": [
+        "Physical PDF pages read independently including period headings, RMB million table heading and narrative billion amounts",
+        "MAU December period, connected devices year-end stock, shipments/deliveries annual flow",
+        "Smart-TV footnote includes box/stick; connected-devices exclude phones/tablets/laptops",
+        "Gross margins are reported percentages, not inferred derived factors; separate EV versus total EV initiatives scope",
+        "2025 segment name includes AI and retains separate dimension; subsequent 2026 narrative events excluded"
+      ],
+      "limitations": [
+        "2024 AI Assistant includes smart EV per footnote 7; 2025 source paragraph does not repeat this definition, do not infer unchanged scope",
+        "Revenue table million-unit rounding differs from thousand-unit financial statements; compare using declared precision tolerance",
+        "Global MAU smartphone/tablet scope relies on report definition outside these selected excerpts; no deduplicated persons claim"
+      ]
+    }
+  ]
+}

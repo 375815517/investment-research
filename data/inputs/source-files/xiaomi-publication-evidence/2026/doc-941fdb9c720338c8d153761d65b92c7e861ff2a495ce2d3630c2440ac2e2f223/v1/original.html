@@ -1,0 +1,713 @@
+﻿
+
+
+
+
+
+<!DOCTYPE html>
+
+<html class="en-GB" lang="en-GB">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=11,10,9,8,7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+
+
+    <script src="/tools/Pressreleases/bundles/newCal.js?v=05_A3rLLqrqDnqmOWPWWKhBUbbdGqGHvTaG6-2ZAg041"></script>
+
+
+    <title>Announcements and Circulars</title>
+
+    <link href="/tools/Pressreleases/Content/newCal?v=uu1_j444ddeTVJQTlU8UjrPu_RNSZ4H2FH2cdDwns5Q1" rel="stylesheet"/>
+
+
+        
+
+<link type="text/css" rel="stylesheet" href="/tools/Pressreleases/./../Config/eustyles.css?v=202610177750" />
+
+
+    <style type="text/css" rel="stylesheet">
+        
+        a {
+            color: #7f7f7f;
+            text-decoration: none;
+        }
+        a:hover, a:active {
+            color: #7f7f7f;
+            text-decoration: underline;
+        }
+        .PressReleaseOdd {
+            background-color: transparent;
+        }
+        .PressReleaseEven {
+            background-color: transparent;
+        }
+        .Tabs-Tab-Container {
+            background-color: #fafafa;
+        }
+        .Tabs-Tab-Container.selected {
+            background-color: #fff;
+        }
+        body, input {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #333333;
+        }
+        #MainHeading {
+            font-size: 2em;
+                    }
+
+        .NewsColumn-Container .PressRelease-Attachment {
+float: right!important;            
+        } 
+
+        .Change-Positive {
+            color: #22b14c;
+        }
+        .Change-Negative {
+            color: #ed1c24;
+        }
+    </style>
+
+<link type="text/css" rel="stylesheet" href="/tools/Pressreleases/./../Config/Company/ky-1810/ky-1810.css?v=202610177750" />
+<link type="text/css" rel="stylesheet" href="/tools/Pressreleases/Config/Company/ky-1810/archetypa.css?v=202610177750" />
+
+
+    <script type="text/javascript" src="/tools/Pressreleases/./../common/EurolandIFrameAutoHeight/EurolandToolAutoSizeObject.js"></script>
+    <script type="text/javascript">
+
+    var True = true
+        , False = false
+    ;
+
+    Utility.Lang.ShortMonth = [
+        "Jan"
+        , "Feb"
+        , "Mar"
+        , "Apr"
+        , "May"
+        , "Jun"
+        , "Jul"
+        , "Aug"
+        , "Sep"
+        , "Oct"
+        , "Nov"
+        , "Dec"
+    ];
+    Utility.Lang.FullMonth = [
+        "January"
+        , "February"
+        , "March"
+        , "April"
+        , "May"
+        , "June"
+        , "July"
+        , "August"
+        , "September"
+        , "October"
+        , "November"
+        , "December"
+    ];
+
+    WAI_ARIA_CalendarObject.prototype.Settings = {
+        Phrases : {
+            dateSelectionLabel : "Date Selection"
+            , noDateSelected : "No date selected"
+            , previousYear : "Select Previous Year"
+            , nextYear : "Select Next Year"
+            , previousMonth : "Select Previous Month"
+            , nextMonth : "Select Next Month"
+            , getYearBreakDown : "Get {0} breakdown in months"
+            , closeCalendar : "Close date selection calendar"
+            , closeNavigationPanel : "Close the period navigation"
+
+            , getDecadeBreakdownInYears : "Get decade breakdown in years"
+            , getCenturyBreakdownInDecades : "Get century Breakdown in decades"
+
+            , getPreviousDecadeBreakdownInYears : "Get previous decade breakdown in years"
+            , getNextDecadeBreakdownInYears : "Get next decade's breakdown in years"
+
+            , getPreviousCenturyBreakdownInDecades : "Get previous century Breakdown in decades"
+            , getNextCenturyBreakdownInDecades : "Get next century Breakdown in decades"
+
+            , fromTo : "{0} to {1}"
+            , selectMonth : "Select Month"
+            , strCustomDateFormatForHeading : ""
+            , january : "January"
+            , february : "February"
+            , march : "March"
+            , april : "April"
+            , may : "May"
+            , june : "June"
+            , july : "July"
+            , august : "August"
+            , september : "September"
+            , october : "October"
+            , november : "November"
+            , december : "December"
+
+            , janShort : "Jan"
+            , febShort : "Feb"
+            , marShort : "Mar"
+            , aprShort : "Apr"
+            , mayShort : "May"
+            , junShort : "Jun"
+            , julShort : "Jul"
+            , augShort : "Aug"
+            , sepShort : "Sep"
+            , octShort : "Oct"
+            , novShort : "Nov"
+            , decShort : "Dec"
+
+            , close : "Close"
+
+            , useArrowKeys : "Use the arrow keys to change the date"
+            , startOfPeriod : "Start of selection period reached"
+            , endOfPeriod : "End of selection period reached"
+
+            , sunShort : "Sun"
+            , monShort : "Mon"
+            , tueShort : "Tue"
+            , wedShort : "Wed"
+            , thuShort : "Thu"
+            , friShort : "Fri"
+            , satShort : "Sat"
+
+            , sunday : "sunday"
+            , monday : "monday"
+            , tuesday : "tuesday"
+            , wednesday : "wednesday"
+            , thursday : "thursday"
+            , friday : "friday"
+            , saturday : "saturday"
+        }
+    };
+
+    ButtonObject.prototype.Settings = {
+        minScale : 0.80
+        ,time : 300
+        ,maxWidth : 30
+        ,maxHeight : 30
+    };
+    ButtonObject.prototype.Settings.Attachmentlink = False;
+    PressReleaseItemObejct.prototype.Attachmentlink = False;
+    PressReleaseItemObejct.prototype.EnableCalendarDate = False;
+    PressReleaseItemObejct.prototype.DefaultNumericalDate = False;
+    PressReleaseItemObejct.prototype.dateFormat = "MMM dd, yyyy";
+    PressReleaseItemObejct.prototype.quickMessageHeight = 150;
+    PressReleaseItemObejct.prototype.quickMessageDelay = 500;
+    PressReleaseItemObejct.prototype.hasQuickMessage = False;
+    PressReleaseItemObejct.prototype.useOthersGroupText = False;
+    PressReleaseItemObejct.prototype.quickMessageMinimumDisplayWidth = 0;
+    PressReleaseItemObejct.prototype.strQuickMessageReadMoreText = "Read more";
+    PressReleaseItemObejct.prototype.columnClassNamePrefex = "NoChange-";
+    PressReleaseItemObejct.prototype.useLocalAttachments = False;
+    PressReleaseItemObejct.prototype.areAttachmentsFirst = True;
+    PressReleaseItemObejct.prototype.hasAttachments = True;
+    PressReleaseItemObejct.prototype.doPressReleasesOpenInTargerBlank = !True;
+    PressReleaseItemObejct.prototype.strSingleLineLayout = "date,type,title,attachments";
+        PressReleaseItemObejct.prototype.hasPressReleasesLinks = True;
+        PressReleaseItemObejct.prototype.evoWebPageToPdfUrl = "https://asia.tools.euroland.com/downloadpdf3/files/pdf/?url=";
+        PressReleaseItemObejct.prototype.downloadattachmentsdirectly = False;
+
+            
+    CalendarObject.prototype.cssFileURL = '/tools/Common/EUCalendar/eucalendar.css';
+
+    TypesObject.prototype.OthersGroup = [];
+    TypesObject.prototype.CustomNames = [];
+    TypesObject.prototype.CustomGroups = [];
+    TypesObject.prototype.defaultSourceTypeFilter = '';
+    TypesObject.prototype.hasTabsWithTypeFilter = False;
+
+    TypesObject.prototype.typeButtonExclusionFilter = '';
+    TypesObject.prototype.useCustomTypeNames = False;
+    TypesObject.prototype.hasAutomaticTypeCombination = False;
+    TypesObject.prototype.areTypesAsToggles = False;
+
+
+    TypesObject.prototype.strOthersGroupText = "Others";
+    PagesObject.prototype.strPrevious = "Previous";
+    PagesObject.prototype.strNext = "Next";
+    PagesObject.prototype.numberOfVisibleSidePages = 4;
+
+    SearchObject.prototype.defaultSearchText = "Keyword";
+
+    ResizeObject.prototype.ieCssURL = '/tools/Pressreleases/Content/ie.css';
+
+    window.ChineseHanziConverter.convertMode = 0;
+
+    PR = new PressReleasesObject();
+
+    PR.yearLinkBeginningOfTheYear = '1|1';
+
+    Utility.baseURI = '/tools/Pressreleases/';
+    Utility.hasArabicNumbers = False;
+    Utility.isRTL = False;
+
+    PR.instrumentID = -1;
+    PR.SortArrowUrl.up = '/tools/Pressreleases/Content/Up.png';
+    PR.SortArrowUrl.down = '/tools/Pressreleases/Content/Down.png';
+
+    PR.Calendars.dMaxDate = new Date(2026, 10 - 1, 30);
+    PR.Calendars.dMinDate = new Date(2018, 5 - 1, 3)
+
+    PR.companyCode = 'ky-1810';
+    PR.queryVersion = '';
+
+    PR.languageID = 32;
+    PR.culture = "en-GB";
+    PR.sourceFilter = '5';
+
+    PR.intPressReleasesOnPage = 50;
+    PR.intTypeViewOffset = -3;
+
+    PressReleaseItemObejct.prototype.PopUp = {
+        width : 900
+        ,height : 1000
+    };
+
+    PR.hasTypes = 2 == 2;
+    PR.intPressReleasesOnPage = 50;
+    PR.hideControls = False;
+    PR.maxYearsSelection = 3 > 0 ? 3 : 3;
+    PR.hasTypes = (2 == 2) && (False == false);
+    PR.layout = 0;
+
+    PR.Calendars.dateFormat = "dd/MM/yyyy";
+    PR.Calendars.isEnabled = True;
+
+    PR.Calendars.strFrom = "From";
+    PR.Calendars.strTo = "To";
+
+    PR.dFirstPressReleaseDate = new Date(2018, 5 - 1, 3);
+        PR.lastActiveYear = False ? -1 : 2026;
+        PR.displaytypes =False;
+
+    PressReleaseItemObejct.prototype.ButtonURIs = {
+        pdf : '/tools/Pressreleases/config/company/KY-1810/Icons/fa-pdf-icon.png'
+        ,xls : '/tools/Pressreleases/Content/Icons/default/excel.gif'
+        ,doc : '/tools/Pressreleases/Content/Icons/default/word.gif'
+        ,jpg : '/tools/Pressreleases/Content/Icons/default/jpg.gif'
+        ,gif : '/tools/Pressreleases/Content/Icons/default/gif.gif'
+        ,png : '/tools/Pressreleases/Content/Icons/default/png.gif'
+        ,bmp : '/tools/Pressreleases/Content/Icons/default/bmp.gif'
+        ,txt : '/tools/Pressreleases/Content/Icons/default/txt.gif'
+        ,unknown : '/tools/Pressreleases/Content/Icons/default/unknown.gif'
+
+        ,html : '/tools/Pressreleases/config/company/KY-1810/Icons/fa-html-icon.png'
+        ,rtf : '/tools/Pressreleases/Content/Icons/default/rtf.gif'
+        ,xml : '/tools/Pressreleases/Content/Icons/default/xml.gif'
+    };
+
+    PR.strAttachmentLocationURL = "https://ea-cdn.eurolandir.com/press-releases-attachments";
+
+    var IS_SEC = False;
+
+        $(document).ready(function () {
+        // Get the computed style of the #Main element
+        var mainStyles = window.getComputedStyle(document.getElementById('Main'));
+        var maxWidth = mainStyles.getPropertyValue('max-width');
+        var margin = mainStyles.getPropertyValue('margin');
+
+        $('.clsFooter').css({
+            "max-width": maxWidth,
+            "margin": "0 auto"
+        });
+
+        // Get the computed style of the body element
+        var bodyStyles = window.getComputedStyle(document.body);
+        var bodyFontSize = bodyStyles.getPropertyValue('font-size');
+        $('#DateAvailableFrom').css("font-size", bodyFontSize);
+
+        // Initialize no data message as hidden
+        $('#NoDataMessage').hide();
+
+        PR.load();
+        PR.Search.intMinCharAtKeyword = 3;
+        PR.Search.isEnabled = True;
+
+        PR.Types.strInsidersInfoText = "Inside Information";
+        PR.Types.hasInsiderInfoButton = False && False;
+
+        PR.Search.AllTabText.normal = "All";
+        PR.Search.AllTabText.filtered = "Search Results";
+        PR.Search.errorDateRange = "Please be reminded that the start date should be smaller or equal to the end date";
+
+
+        $(".PressRelease-AttachmentCount").click(function () {
+            $('.PressReleaseAttachmentsPopup').hide();
+            $('.PressRelease-SingleLine-AttachmentsContainer').removeClass('PressReleaseAttachmentsPopup');
+            var PressReleaseid = $(this).closest('.PressRelease').attr('id');
+            $('#' + PressReleaseid).find('.PressRelease-SingleLine-AttachmentsContainer').addClass('PressReleaseAttachmentsPopup');
+            $('#' + PressReleaseid).find('.PressRelease-Attachment').show();
+            $('#' + PressReleaseid).find('.PressReleaseAttachmentsPopup').show();
+        });
+        $(document).click(function (e) {
+            var AttachmentCount = $(".PressRelease-AttachmentCount");
+            var Attachment = $(".PressRelease-Attachment");
+
+            if ((AttachmentCount.is(e.target)) || (Attachment.is(e.target))) {
+                return;
+            }
+            else {
+                $('.PressReleaseAttachmentsPopup').hide();
+                $('.PressRelease-SingleLine-AttachmentsContainer').removeClass('PressReleaseAttachmentsPopup');
+            }
+        });
+        if (False && !False)
+        {
+            $("#multiSelectYear").easySelect({
+                buttons: true,
+                search: true,
+                placeholder: 'Select Year',
+                itemTitle: 'Year selected',
+                showEachItem: true,
+            });
+
+            var preSelect = ["2026"];
+           PreselectYear(preSelect);
+           if (True || False)
+           {
+                $('.divSearcheasySelect').show();
+           }
+           else
+           {
+                $('.divSearcheasySelect').hide();
+           }
+            $(".divSearcheasySelect, #selectAlleasySelect").click(function () {
+                    PR.Search.ClearSearch();
+                    PR.loadAllPeriods();
+                    $(".styledSelect").html('All');
+                    $("#selectAlleasySelect").addClass("ActiveAllYears");
+                    $(".hiddenLieasySelect").hide();
+                    $('.options').hide();
+            });
+            $(".mulpitply_checkbox_style").click(function () {
+
+                PR.Search.ClearSearch();
+                $("#selectAlleasySelect").removeClass("ActiveAllYears")
+                GetYeardata("", $(this), PR.maxYearsSelection);
+            });
+
+        }
+        $("#selectAlleasySelect").html('All');
+        if(False) {
+            PR.loadAllYearsData(2018,2026);
+        }
+        else if(False) {
+            PR.loadAllPeriods();
+            $(".styledSelect").html('All');
+            $("#selectAlleasySelect").addClass("ActiveAllYears");
+            $('.Periods-YearPeriod').each(function (i, obj) {
+                if ('All' == $(obj).html()) {
+                    $(obj).addClass('Periods-YearPeriodSelected');
+                }
+
+            });
+        }
+        else {
+            PR.loadYearsData(2026);
+            }
+            EurolandToolAutoSizeObject.load(document.body);
+    });
+        function PreselectYear(preSelect) {
+            // define the elements to preselect
+            $("#clearAlleasySelect").trigger('click');
+            $('.mulpitply_checkbox_style').each(function () {
+                // check if the current item value is in the array
+                if ($.inArray($(this).val(), preSelect) != -1) {
+                    // trigger a click event in order to preselect the item
+                    $(this).trigger('click');
+                    $("input[value='" + preSelect + "']").prop('checked', true);
+                }
+            });
+        }
+        function GetYeardata(strPeriodType, chkBox, maxYearSelection) {
+            if (maxYearSelection <= 1) {
+                $(".mulpitply_checkbox_style").each(function () {
+                    $(this).prop("checked", false);
+                });
+
+                if ($(chkBox) != null) {
+                    $(chkBox).prop("checked", true);
+                }
+            }
+            val = [];
+            $(".mulpitply_checkbox_style:checked").each(function () {
+                val.push($(this).val());
+            });
+            var valunique = val.filter(function (itm, i, val) {
+                return i == val.indexOf(itm);
+            });
+            var selectedval = valunique.join(",");
+            if (selectedval.length > 0) {
+                PR.selectPeriod(selectedval, strPeriodType);
+            }
+            else {
+                var preSelect = ["2026"];
+                PreselectYear(preSelect);
+            }
+
+            if (PR.maxYearsSelection == 1) {
+                $('.options').hide();
+            }
+
+        }
+
+        var observer = new MutationObserver(function () {
+            var images = document.querySelectorAll('.PressRelease-Attachment img');
+            for (var i = 0; i < images.length; i++) {
+                var img = images[i];
+                if (!img.getAttribute('alt') || img.getAttribute('alt').trim() === '') {
+                    img.setAttribute('alt', 'Download File');
+                }
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+
+
+    </script>
+
+        <script type="text/javascript" src="/tools/common/google-analytics.js"></script>
+
+</head>
+<body latin="true" dir="ltr">
+    <main role="main">
+        <div id="Main">
+            <div id="ControlsContainer">
+
+                    <h1 id="MainHeading">Announcements and Circulars</h1>
+                                <h2 role="heading" id="DateAvailableFrom" tabindex="0" aria-label="Announcements and Circulars are available from 03 May 2018">
+Announcements and Circulars are available from 03 May 2018                </h2>
+
+
+                    <div id="SearchContainer">
+                        
+                        <label for="SearchBox"  style="display: none;">Search</label>
+                        <input id="SearchBox" aria-label="Search" class="InputBox" maxlength="250" placeholder="Keyword" value="Keyword" />
+                        <span id="FromCalendarContrainer"></span>
+                        <span id="ToCalendarContrainer"></span>
+                        <button id="SearchButton" class="euButton">Search</button>
+                    </div>
+                <div id="ErrorContainer" style="display: none;">
+                    <a id="ErrorMessageCloseButton" href="javascript:PR.Search.Error.hide();"><img alt="ErrorMessageCloseButton" src="/tools/Pressreleases/Content/cancel_round.png" /></a>Please insert at least 3 characters.
+                </div>
+                <table id="Periods">
+                    <tr>
+                        <td id="CurrentPeriodContainer"><span id="CurrentPeriod"></span>&nbsp;</td>
+                        <td id="YearPeriodsContainer">
+
+                                        <a class="Periods-YearPeriod" aria-label="show result for year 2026" href="javascript:PR.loadYearsData(2026);">2026</a>&nbsp;                                        <a class="Periods-YearPeriod" aria-label="show result for year 2025" href="javascript:PR.loadYearsData(2025);">2025</a>&nbsp;                                        <a class="Periods-YearPeriod" aria-label="show result for year 2024" href="javascript:PR.loadYearsData(2024);">2024</a>&nbsp;                                        <a class="Periods-YearPeriod" aria-label="show result for year 2023" href="javascript:PR.loadYearsData(2023);">2023</a>&nbsp;                                        <a class="Periods-YearPeriod" aria-label="show result for year 2022" href="javascript:PR.loadYearsData(2022);">2022</a>&nbsp;                                    <a class="Periods-YearPeriod" href="javascript:PR.loadAllPeriods();">All</a>&nbsp;                        </td>
+                    </tr>
+                </table>
+                <div id="TotalContainer" aria-live="polite" aria-atomic="true">
+                    Total: <span id="TotalNr"></span> releases
+                </div>
+                
+                <div id="ButtonsContainer">
+                    <div style="display: none;" id="SearchFilter">
+                        <button id="" class="euButton" onclick="PR.Search.remove();">Clear search</button>
+                    </div>
+                </div>
+                <div id="Tabs">
+                    <ul class="Tabs">
+                        <li class="Tabs-Tab All">
+                            <a id="AllSelector" class="Tabs-Tab-Container selected" aria-selected="true" href="javascript:PR.selectAll();">All</a>
+                        </li>
+                                                <li class="Tabs-Tab" id="liByType">
+                            <a id="ByTypeSelector" class="Tabs-Tab-Container" href="javascript:PR.selectByType();">By Type</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Types"></div>
+            </div>
+                <div id="SortingContainer">
+                                <div class="HeadingColomnContainer HeadingColomnContainer-Date">
+                                    <div class="HeadingColomn">
+                                        Filing date
+                                    </div>
+                                </div>
+                                <div class="HeadingColomnContainer HeadingColomnContainer-Type">
+                                    <div class="HeadingColomn">
+                                        Type
+                                    </div>
+                                </div>
+                                <div class="HeadingColomnContainer HeadingColomnContainer-Title">
+                                    <div class="HeadingColomn">
+                                        Description
+                                    </div>
+                                </div>
+                                <div class="HeadingColomnContainer HeadingColomnContainer-Attachments">
+                                    <div class="HeadingColomn">
+                                        View
+                                    </div>
+                                </div>
+                </div>
+                <div id="PageFlickContainer">
+                    <div id="PressReleases"></div>
+                    <div id="NoDataMessage" style="display: none; text-align: center; padding: 30px 20px; color: #7f7f7f; font-size: 1.16em; font-weight: normal; background-color: #f9f9f9; border: 1px solid #e3e3e3; border-radius: 5px; margin: 20px 0; font-family: Arial, Helvetica, sans-serif;">No Data Available</div>
+                    <div id="PagesContainer"></div>
+                </div>
+            </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div id="SuppliedBy" class="clsFooter">
+            
+            Supplied by © <a target="_blank" href="//www.euroland.com"><img alt="Euroland.Com" src="https://asia.tools.euroland.com/tools/data/logo-transparent.png" width="107px" height="10px"></a>
+
+            
+
+            <div class="Disclaimer">
+                <span class="TermsLinkContainer">
+                    <a target="EurolandTermsAndServices" class="TermsLink" href="/legal/terms/?lang=en-GB">Terms of Service</a>
+                </span>
+                <span class="CookieLinkContainer">
+                    <a target="EurolandTermsAndServices" class="CookieLink" href="/legal/cookie/?lang=en-GB">Cookie Policy</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <img id="Loader" alt="Euroland.com" style="display: none;" src="/tools/Pressreleases/Content/loader.gif" />
+
+<script type="text/javascript"> 
+    (function(){
+        function isRtl() {
+            return document.body.getAttribute('dir') && document.body.getAttribute('dir').toLowerCase() === 'rtl';
+        };
+        var arabic_latin_number = [
+            ['0', '٠'],
+            ['1', '١'], ['2', '٢'], ['3', '٣'],
+            ['4', '٤'], ['5', '٥'], ['6', '٦'],
+            ['7', '٧'], ['8', '٨'], ['9', '٩']
+        ];
+
+        function toArabicNumber(value) {
+            var str = '' + value;
+            var pair = arabic_latin_number;
+            for (var i = 0; i < pair.length; i++)
+                str = str.replace(new RegExp(pair[i][0], 'ig'), pair[i][1]);
+            return str;
+        };
+        function fromArabicNumber(value) {
+            var str = '' + value;
+            var pair = arabic_latin_number;
+            for (var i = 0; i < pair.length; i++)
+                str = str.replace(new RegExp(pair[i][1], 'ig'), pair[i][0]);
+            return str;
+        };
+
+        if (typeof(Calendar) != 'undefined') {
+            Calendar.LANG("en", "English (United Kingdom)", {
+                fdow: 1,
+                goToday: "Go Today",
+                today: "today",
+                wk: "wk",
+                weekend: "0,6",
+                AM: "AM",
+                PM: "PM",
+                mn: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+                smn: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                dn: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+                sdn: ["Su","Mo","Tu","We","Th","Fr","Sa"],
+                toLocalDigit: function (num) {
+                    if (isRtl()) return toArabicNumber(num);
+                    else return num;
+                },
+                fromLocalDigit: function (num) {
+                    if (isRtl()) return fromArabicNumber(num);
+                    else return num;
+                }
+            });
+        }
+    })();
+
+    (function($) {
+        $.reSetupCultures = function(){
+            if($.format && $.cultures) {
+                var monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"],
+                    monthShortNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+                monthNames.push('');
+                monthShortNames.push('');
+
+                var cultures = $.cultures,
+                    en = cultures.en,
+                    standard = en.calendars.standard,
+                    culture = cultures['en-GB'] = $.extend(true, {}, en, {
+                    name: 'en-GB',
+                    englishName: "English (United Kingdom)",
+                    nativeName: "English (United Kingdom)",
+                    language: 'en',
+                    numberFormat: {
+                        ',': ",",
+                        '.': ".",
+                        pattern: ['-n'],
+                        decimals: 2,
+                        groupSizes: [3],
+                        '+': "+",
+				        '-': "-",
+                        percent: {
+                            ',': ",",
+                            '.': ".",
+                            pattern: ["-n %","n %"], 
+					        decimals: 2,
+                            groupSizes: [3],
+                            symbol: "%"
+                        },
+                        currency: {
+                            pattern: ['-$n', '$n'],
+                            ',': ",",
+                            '.': ".",
+                            symbol: "£",
+                            decimals: 2,
+					        groupSizes: [3]
+                        }
+                    },
+                    calendars: {
+                        standard: $.extend(true, {}, standard, {
+                            firstDay: 1,
+                            days: {
+                                names: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+                                namesAbbr: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+                                namesShort: ["Su","Mo","Tu","We","Th","Fr","Sa"]
+                            },
+                            months: {
+                                names: monthNames,
+                                namesAbbr: monthShortNames
+                            },
+                            AM: ['AM','AM'.toLowerCase(),'AM'],
+                            PM: ['PM','PM'.toLowerCase(),'PM'],
+                            patterns: {
+                                d: "dd/MM/yyyy",
+                                D: "dd MMMM yyyy",
+                                F: "dd MMMM yyyy HH:mm:ss",
+                                M: "d MMMM",
+                                Y: "MMMM yyyy",
+                                t: "HH:mm",
+                                T: "HH:mm:ss",
+                                f: "dd/MM/yyyy" + ' ' + "HH:mm"
+                            },
+                            '/': "/",
+					        ':': ":"
+                        })
+                    }
+                }, cultures['en-GB']);
+                culture.calendar = culture.calendars.standard;
+                cultures.defaultCultureName = 'en-GB';
+            }
+        };
+        $.reSetupCultures();
+    })(jQuery);
+</script>
+
+
+
+</body>
+</html>

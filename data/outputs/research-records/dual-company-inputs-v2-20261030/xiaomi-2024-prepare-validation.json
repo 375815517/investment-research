@@ -1,0 +1,431 @@
+{
+  "prepare": {
+    "status": "prepared",
+    "candidate_id": "candidate-428c1946379709793dae1dbbe4117d64cb74962ab1cf53cd45e9dc4b190eaa0b",
+    "candidate_hash": "088553728fe798c1f4f1b0fc88914af670213645283592bf1acf3e6832f93aca",
+    "record_count": 27,
+    "artifact_refs": [
+      ".research-local/candidates/candidate-428c1946379709793dae1dbbe4117d64cb74962ab1cf53cd45e9dc4b190eaa0b.json"
+    ],
+    "next_actions": [
+      "validate"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-8422da42fde547bda184565d03843d81",
+    "summary": "prepare",
+    "issues": []
+  },
+  "validate": {
+    "status": "quarantined",
+    "validation": {
+      "candidate_id": "candidate-428c1946379709793dae1dbbe4117d64cb74962ab1cf53cd45e9dc4b190eaa0b",
+      "candidate_hash": "088553728fe798c1f4f1b0fc88914af670213645283592bf1acf3e6832f93aca",
+      "status": "quarantined",
+      "rule_version": "v1",
+      "issues": [
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 0,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 1,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 2,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 3,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 4,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 5,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 6,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 7,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "Observation unit or measure kind differs from registered metric",
+          "severity": "error",
+          "record_index": 8,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "Observation unit or measure kind differs from registered metric",
+          "severity": "error",
+          "record_index": 9,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 10,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 11,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 12,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 13,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 14,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 15,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 16,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 17,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 18,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 19,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 20,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 21,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 22,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 23,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 24,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 25,
+          "retryable": false
+        },
+        {
+          "code": "RECORD_INVALID",
+          "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+          "severity": "error",
+          "record_index": 26,
+          "retryable": false
+        },
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "record_count": 0
+    },
+    "artifact_refs": [
+      ".research-local/validations/candidate-428c1946379709793dae1dbbe4117d64cb74962ab1cf53cd45e9dc4b190eaa0b/349df62b9d62253f6f35114d456fce5325bab66646aa0d7b7cd1dc0fd9e6f810.json"
+    ],
+    "issues": [
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 0,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 1,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 2,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 3,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 4,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 5,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 6,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 7,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "Observation unit or measure kind differs from registered metric",
+        "severity": "error",
+        "record_index": 8,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "Observation unit or measure kind differs from registered metric",
+        "severity": "error",
+        "record_index": 9,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 10,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 11,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 12,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 13,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 14,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 15,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 16,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 17,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 18,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 19,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 20,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 21,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 22,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 23,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 24,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 25,
+        "retryable": false
+      },
+      {
+        "code": "RECORD_INVALID",
+        "message": "PDF requires pdf:page:<physical-page> and a configured extractor",
+        "severity": "error",
+        "record_index": 26,
+        "retryable": false
+      },
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "severity": "warning",
+        "retryable": false
+      }
+    ],
+    "next_actions": [
+      "correct_candidate"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-feaca2509a4042a78f790754e005d3f7",
+    "summary": "validate"
+  }
+}

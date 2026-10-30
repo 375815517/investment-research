@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-a763c322158394cbdc29205d3a19c4e185ff7d5d5e74b6bbdb6cfd7e9ca5d01e/candidate.json",
+  "batch_id": "batch-a67fdbf93385d78c9db0b181ea9189390cde54e21173c83e61771aeaff4ee02f",
+  "candidate_hash": "a763c322158394cbdc29205d3a19c4e185ff7d5d5e74b6bbdb6cfd7e9ca5d01e",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2018/batch-a67fdbf93385d78c9db0b181ea9189390cde54e21173c83e61771aeaff4ee02f/financial-observations.json",
+      "sha256": "d92e34f572870a403e12ce45c3d4b6765bf19248023bcd8f09dcb01be26231c2"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:23.810048+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:20:43.835922+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Finance costs subtotal in audited notes, positive expense magnitude after capitalisation; source sign retained, must invert explicitly before signed income-statement comparisons",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Finance costs:\n Interest expense from financial liability measured at \n  amortized cost (Note 29) 42,504 —\n Interest expenses 415,465 258,235\n Less: amount capitalized (73,277) (42,501)\n384,692 215,734",
+      "locator": "pdf:page:237",
+      "measure_kind": "flow",
+      "metric_id": "finance-costs",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "384692",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2018-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

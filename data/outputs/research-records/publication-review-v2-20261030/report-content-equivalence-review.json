@@ -1,0 +1,24 @@
+[
+  {
+    "company": "xiaomi",
+    "report_year": 2024,
+    "original_document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+    "counterpart_document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+    "total_pages_each": 379,
+    "different_text_pages": [],
+    "method": "pypdf extract_text per physical page; re.sub(r\"\\s\", \"\", text); exact equality on every paired page",
+    "reviewer": "temporal_v2-publication-review",
+    "limitation": "Text equality does not prove binary identity, image identity, or absence of visual-only changes"
+  },
+  {
+    "company": "tencent",
+    "report_year": 2023,
+    "original_document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+    "counterpart_document_id": "doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d",
+    "total_pages_each": 282,
+    "different_text_pages": [],
+    "method": "pypdf extract_text per physical page; re.sub(r\"\\s\", \"\", text); exact equality on every paired page",
+    "reviewer": "temporal_v2-publication-review",
+    "limitation": "Text equality does not prove binary identity, image identity, or absence of visual-only changes"
+  }
+]

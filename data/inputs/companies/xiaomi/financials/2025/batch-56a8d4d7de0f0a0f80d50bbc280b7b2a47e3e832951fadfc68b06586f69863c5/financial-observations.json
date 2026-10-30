@@ -1,0 +1,56 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+    "company_id": "xiaomi",
+    "currency": null,
+    "dimensions": {
+      "share_class": "class-a"
+    },
+    "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144",
+    "locator": "pdf:page:378",
+    "measure_kind": "stock",
+    "metric_id": "issued-shares",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2025-12-31",
+    "period_start": null,
+    "period_type": "instant",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "units",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "4511553144",
+    "unit": "shares",
+    "value_status": "reported"
+  },
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+    "company_id": "xiaomi",
+    "currency": null,
+    "dimensions": {
+      "share_class": "class-b"
+    },
+    "excerpt": "and 21,535,682,134",
+    "locator": "pdf:page:378",
+    "measure_kind": "stock",
+    "metric_id": "issued-shares",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2025-12-31",
+    "period_start": null,
+    "period_type": "instant",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "units",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "21535682134",
+    "unit": "shares",
+    "value_status": "reported"
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "reviewed_at": "2026-10-30T11:09:34.199032+00:00",
+  "reviewer": "contracts_v2-independent-financial-review",
+  "method": "Read original statement headers, contextual excerpts and cash reconciliation pages; independently transcribed current-year values checked against original PDF; no candidate source mutation",
+  "results": [
+    {
+      "year": 2018,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-financial-candidates.json",
+      "candidate_file_sha256": "72f5de6338089e55a21821617201656ae2e37c3d9121d1028fcbbfdeb430a29f",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "checked_records": 27,
+      "statement_pages": [
+        133,
+        135,
+        136,
+        137,
+        141,
+        142,
+        143
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2019,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-financial-candidates.json",
+      "candidate_file_sha256": "1589203bea25937eb41072054278eb6c253d0b78165a522f3c6bcaa2cbeaf4cf",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "checked_records": 27,
+      "statement_pages": [
+        137,
+        139,
+        140,
+        141,
+        146,
+        147
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2020,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-financial-candidates.json",
+      "candidate_file_sha256": "2e4304bf4b878974a093ea453bab7c7993d4b168286010893ada3dd505353650",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "checked_records": 27,
+      "statement_pages": [
+        165,
+        167,
+        168,
+        169,
+        174,
+        175
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2021,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-financial-candidates.json",
+      "candidate_file_sha256": "5ba993ff2feec57f5b52b5472cf2267b9717747a2d75aae8ce86370c5c23b925",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "checked_records": 27,
+      "statement_pages": [
+        170,
+        172,
+        173,
+        174,
+        179,
+        180
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2022,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-financial-candidates.json",
+      "candidate_file_sha256": "9d229284b4e6c1bc199c02ddcb90de819b1ec361687c3ad606abbb39f6fb47f6",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "checked_records": 27,
+      "statement_pages": [
+        132,
+        134,
+        135,
+        136,
+        141,
+        142
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2023,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-financial-candidates.json",
+      "candidate_file_sha256": "1b8db38db6aebf64d168c672c8f14eea8ada9f48508e415a757fd05fe32a60e6",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "checked_records": 27,
+      "statement_pages": [
+        129,
+        131,
+        132,
+        133,
+        138,
+        139
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    }
+  ],
+  "comparability_limits": [
+    "2018-2022 finance-costs-net are not gross finance-costs; gross requirements remain missing",
+    "2023 report physical pp141-142 Note2.2 moves investment gains/losses and interest income below operating profit: original 2022 operating profit235706 is restated110827. Original reporting-year series must not be naively compared across this presentation break",
+    "2019 cashflow comparative2018 reclassifies interest paid from operating to financing: OCF110936 vs original106443, FCF30887 vs original35380. Original2018 retained, later comparative not silently substituted",
+    "Borrowings are current/noncurrent classification excluding separately reported notes payable, not original debt maturity; accounts receivable not automatically Xiaomi trade-and-notes receivable",
+    "Reviewer confirms extraction not issuer economic truth or exact historical publication availability"
+  ]
+}

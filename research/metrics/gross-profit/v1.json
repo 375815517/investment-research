@@ -1,0 +1,33 @@
+{
+  "metric_id": "gross-profit",
+  "version": "1",
+  "name": "毛利",
+  "description": "来源披露的毛利，其期间、合并范围、分部/股类和调整口径由观测字段显式声明；不是平台估计值。",
+  "dataset_id": "financial-observations",
+  "unit": "currency",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "不同币种、IFRS/调整口径、归母/总利润、分部和期间不得直接拼接；金额大小级转换必须保留转换记录。"
+}

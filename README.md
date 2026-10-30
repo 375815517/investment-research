@@ -23,9 +23,20 @@
 
 - [小米多源验收与剩余缺口](docs/verification/xiaomi-data-fitness.md)：政策、财报、新闻、行业竞争、卖空/淡仓与供应商估值。
 
+- [指标与因子输入就绪评估](docs/plans/factor-input-readiness.md)：多角色分析当前可用范围、数据合同缺口和下一阶段可复用工程验收。
+
+- [可复用输入平台实施方案](docs/plans/reusable-input-platform-implementation.md)与[合同决策](docs/decisions/004-reusable-input-contracts.md)：维度化观测、精确预期键、来源任务、历史可知时间和可复现输入包。
+- [AI 可复用输入规则](ai/rules/reusable-inputs.md)：通用 Agent 如何发现来源、提交候选、核验和判断用途状态。
+- [输入规格定义](research/input-profile-definitions/README.md)：小米与腾讯的必需字段、期间、经营口径和版本演进；规格独立于已采集数据。
+
+- [可复用输入平台验收](docs/verification/reusable-input-platform.md)：双公司财务、历史时点、行情、精确覆盖与剩余缺口。
+- [可复用输入操作约定](docs/operations/reusable-input-platform.md)：需求、来源任务、审核、版本固定与扩展路径。
+
+- [最新界面与协议验收](docs/verification/reusable-input-interfaces.md)：双公司年度、季度、公告及经营规格的逐键缺口和 CLI/API/网页一致性。
+
 ## 当前状态
 
-已实现 Python workspace、CLI/API/网页、原件归档、候选校验/复核/入库、缺口检测和按需补采。小米上市以来来源行情、财报及政策/新闻/行业竞争样本已完成原件到整合记录的真实闭环；市场观测包含官方卖空/淡仓和供应商估值样本。样本准入不等于全历史完备或适用于所有分析。来源价格/成交量口径及历史证据限制见最新验收记录；定时worker、MCP和Hook未实现。
+已实现 Python workspace、CLI/API/网页、原件归档、候选校验/复核/入库、缺口检测和按需补采。小米与腾讯已使用同一工具处理行情、财报、经营量及公司行动；小米政策/新闻/行业竞争仍为有界样本。新增逐键需求、时间修订、来源任务恢复和可重放输入包，市场观测包含官方卖空/淡仓和供应商估值样本。样本准入不等于全历史完备或适用于所有分析。来源价格/成交量口径及历史证据限制见最新验收记录；定时worker、MCP和Hook未实现。
 
 | 目录 | 用途 |
 | --- | --- |

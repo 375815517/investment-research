@@ -1,0 +1,30 @@
+{
+  "candidate_id": "candidate-d14f1aa605b2576a8d0586f3d6f8e99e1d1d85105fbda3a11bf0da48c5fe93f8",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-final-2024-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2026-04-09",
+      "basis": "Annual report dividend note confirms final dividends paid during calendar 2025; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date is not stated and remains unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "4.50",
+      "currency": "HKD",
+      "excerpt": "Notes to the Consolidated Financial Statements For the year ended 31 December 2025 15 BENEFITS AND INTERESTS OF DIRECTORS (continued) (b) Directors’ termination benefits No director’s termination benefit subsisted at the end of the year or at any time during the year. (c) Consideration provided to third parties for making available directors’ services No consideration provided to or receivable by third parties for making available directors’ services subsisted at the end of the year or at any time during the year. (d) Information about loans, quasi-loans and other dealings in favour of directors, their controlled bodies and connected entities No loans, quasi-loans and other dealings in favour of directors, their controlled bodies corporate and connected entities subsisted at the end of the year or at any time during the year. (e) Directors’ material interests in transactions, arrangements or contracts No significant transactions, arrangements and contracts in relation to the Group’s business to which the Company was a party and in which a director of the Company had a material interest, whether directly or indirectly, subsisted at the end of the year or at any time during the year. 16 DIVIDENDS The final dividends amounting to HKD40,966 million (2024: HKD31,743 million) were paid during the year ended 31 December 2025. A final dividend in respect of the year ended 31 December 2025 of HKD5.30 per share (2024: HKD4.50 per share) was proposed pursuant to a resolution passed by the Board on 18 March 2026 and subject to the approval of the shareholders at the 2026 AGM. This proposed dividend has not been reflected as dividend payable in these consolidated financial statements. 213",
+      "locator": "pdf:page:214",
+      "payment_date_precision": "year",
+      "payment_period_end": "2025-12-31",
+      "payment_period_start": "2025-01-01",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2024"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

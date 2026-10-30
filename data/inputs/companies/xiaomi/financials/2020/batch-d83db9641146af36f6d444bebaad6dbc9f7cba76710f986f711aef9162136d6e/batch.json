@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-e24d37ed96abf63637e35dd47e9e1124caea55e36b375c7c63458f637d6371d9/candidate.json",
+  "batch_id": "batch-d83db9641146af36f6d444bebaad6dbc9f7cba76710f986f711aef9162136d6e",
+  "candidate_hash": "e24d37ed96abf63637e35dd47e9e1124caea55e36b375c7c63458f637d6371d9",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2020/batch-d83db9641146af36f6d444bebaad6dbc9f7cba76710f986f711aef9162136d6e/financial-observations.json",
+      "sha256": "ac3a324d4d7b0ffff581533a43088893f8d908fd2e83f9ffcbe47247147248c0"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:30.533249+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:32:04.295587+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "来源以Capital expenditures披露的现金流，不预设等于纯固定资产支出。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Capital expenditures (3,025,523) (3,405,163)",
+      "locator": "pdf:page:227",
+      "measure_kind": "flow",
+      "metric_id": "capital-expenditure-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2020-12-31",
+      "period_start": "2020-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-3025523",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2020-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

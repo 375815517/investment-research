@@ -1,0 +1,57 @@
+{
+  "candidate_id": "candidate-4fd1979461c5962575532aab7fd772f202c1fc5580784d94e7188999b1eb53d7",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES During the year ended 31 December 2019, the Company repurchased 3,486,700 shares on the Stock Exchange for an aggregate consideration of approximately HKD1.16 billion before expenses. The repurchased shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the shares repurchased are as follows: Purchase consideration per share Aggregate No. of shares Highest Lowest consideration Month of purchase in 2019 purchased price paid price paid paid HKD HKD HKD August 362,200 327.00 312.40 116,330,916 September 2,294,500 351.00 323.60 776,104,729 October 830,000 327.80 317.40 268,272,462 Total: 3,486,700 1,160,708,107 Save as disclosed above and in Note 32 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s shares during the year ended 31 December 2019. ISSUANCE OF DEBT SECURITIES On 11 April 2019, the Company issued five tranches of senior notes under the Global Medium Term Note Programme for the Company’s general corporate purposes. Details of the issuance of debt securities are set out in Note 36 to the consolidated financial statements. 30",
+      "locator": "pdf:page:31",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "period_end": "2019-12-31",
+      "period_start": "2019-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "scope": "consolidated",
+      "source_value": "3486700",
+      "unit": "shares"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Year ended 31 December 2019 2018 RMB’Million RMB’Million (Note 2.2) Cash flows from financing activities Proceeds from short-term borrowings 18,375 26,463 Repayments of short-term borrowings (22,058) (23,545) Proceeds from long-term borrowings 55,075 7,237 Repayments of long-term borrowings (55,168) (194) Net proceeds from issuance of notes payable 40,202 32,547 Repayments of notes payable (13,465) (4,666) Principal elements of lease payments (2,400) – Interest paid (7,047) (4,493) Proceeds from issuance of ordinary shares as a result of exercise of share options 272 525 Shares withheld for share award schemes (1,406) (1,967) Payments for repurchase of shares (1,046) (783) Proceeds from issuance of additional equity of non-wholly owned subsidiaries 440 7,238 Proceeds from disposals of non-controlling interests in non-wholly owned subsidiaries – 157 Payments for acquisition of non-controlling interests in non-wholly owned subsidiaries (649) (236) Dividends paid to the Company’s shareholders (8,315) (6,776) Dividends paid to non-controlling interests (1,138) (620) Net cash flows generated from financing activities 1,672 30,887 Net increase/(decrease) in cash and cash equivalents 34,092 (10,090) Cash and cash equivalents at beginning of the year 97,814 105,697 Exchange gains on cash and cash equivalents 1,085 2,207 Cash and cash equivalents at end of the year 132,991 97,814 The notes on pages 147 to 264 are an integral part of these consolidated financial statements. 146",
+      "locator": "pdf:page:147",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "period_end": "2019-12-31",
+      "period_start": "2019-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "scope": "consolidated",
+      "source_value": "-1046",
+      "unit": "currency"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

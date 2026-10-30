@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-30T11:24:54.183015+00:00",
+  "command": "bash scripts/check.sh",
+  "status": "passed",
+  "tests_passed": 338,
+  "mypy_source_files": 38,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "synthetic_demo": "passed",
+  "build": "7 packages wheel+sdist",
+  "subsequent_generator_checks": "4 tests; ruff; original v1 and source-specific quarterly v2 idempotent rebuild passed",
+  "limits": [
+    "This records engineering behavior, not full coverage or native Agent discovery.",
+    "Final source bundles must be recreated after final code changes."
+  ]
+}

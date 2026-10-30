@@ -1,0 +1,36 @@
+{
+  "document_id": "doc-3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+  "document_sha256": "3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+  "evidence_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+  "evidence_sha256": "689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+  "excerpt": "Release Time: 15/11/2023 16:30 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2023 ( 711KB )",
+  "locator": "html:table:ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2023",
+  "notes": "HKEX Release Time explicitly associated with 00700 and exact quarterly result title/link. Existing captured collection final_url and SHA256 bind link to archived original; current original hash reverified. No URL-date inference; minute display retained as evidence, only date precision adopted.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2023-11-15",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:17:44.478264+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-af6e33da85f5b17120f3d5d9a458bab32353d77086f6a8ecccb29e6f535868d5",
+  "supporting_documents": [
+    {
+      "document_id": "doc-3939f98d94518fa9f10bdb8cb32b326f409aa782663ddbe715c73eaa391d1673",
+      "sha256": "3939f98d94518fa9f10bdb8cb32b326f409aa782663ddbe715c73eaa391d1673"
+    }
+  ]
+}

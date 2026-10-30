@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T11:06:24.082184+00:00",
+      "final_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-39-22/2018Q4.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/1c19aa1efb0a44b5896b338ef5b9fae8/response-61d173cb0332414db1e6aa7b7959bd2c.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-results"
+      },
+      "request_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-39-22/2018Q4.pdf",
+      "rows": 0,
+      "sha256": "c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+      "size_bytes": 651854,
+      "source_id": "xiaomi-results"
+    }
+  },
+  "collection_id": "collection-1e420eb2936941309061b4cca6a8e2b6",
+  "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:06:24.083843+00:00",
+  "origin_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/27/4-39-22/2018Q4.pdf",
+  "publication_assertion": null,
+  "sha256": "c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+  "source_id": "xiaomi-results",
+  "status": "received"
+}

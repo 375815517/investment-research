@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/original.pdf",
+    "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/document.json",
+    "data/outputs/research-records/ingest-3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89/candidate.json",
+    "data/outputs/research-records/ingest-3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89/validation.json",
+    "data/outputs/research-records/ingest-3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89/review.json",
+    "data/inputs/companies/tencent/financials/2019/batch-18c0ab9114f06e74c5d7174dbdcb2e07882a76ed1ad1882e07ce6bfc2d0130b9/financial-observations.json",
+    "data/inputs/companies/tencent/financials/2019/batch-18c0ab9114f06e74c5d7174dbdcb2e07882a76ed1ad1882e07ce6bfc2d0130b9/batch.json",
+    "data/outputs/research-records/ingest-3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89/receipt.json"
+  ],
+  "candidate_hash": "3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89",
+  "plan_id": "plan-4badc5ee4633b34df94248791b7c372176c17f6a21a97ddbf92c8dd62daea6ae"
+}

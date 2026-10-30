@@ -1,0 +1,112 @@
+{
+  "event_hash": "ba6e45669e57655ffd9c29171967a2eb597a3d3ba8db30baec9112af35fef59d",
+  "items": [
+    {
+      "attempts": 1,
+      "candidate_id": "candidate-26a0fa62ec847b229eac07124ae0768b64dfc9c79cbcbbd0463e3900c66500ad",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-4d668ae96bc28a4b4b7de8a6/candidates/candidate-26a0fa62ec847b229eac07124ae0768b64dfc9c79cbcbbd0463e3900c66500ad.json",
+      "collection_refs": [
+        "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/original.csv",
+        "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json",
+        "data/inputs/collection-records/sfc-tencent/2026/collection-2b59a90d71d0409ca617b8ba6cc527a5/collection.json"
+      ],
+      "context": "› Link to latest CSV file",
+      "document_id": "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18",
+      "item_id": "item-3069ab6a2bd5545be17bdfe2",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {},
+      "review_refs": [],
+      "stage": "awaiting_review",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/31/Short_Position_Reporting_Aggregated_Data_20251031.csv?rev=a4e7de0f55cc4de1aef35c576c11d589"
+    },
+    {
+      "attempts": 1,
+      "candidate_id": "candidate-2dfe93a3358b77592b52904bf1a4d89930684f5b8c14d0cafb1c3b1c6ccdbbcd",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-4d668ae96bc28a4b4b7de8a6/candidates/candidate-2dfe93a3358b77592b52904bf1a4d89930684f5b8c14d0cafb1c3b1c6ccdbbcd.json",
+      "collection_refs": [
+        "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/original.csv",
+        "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json",
+        "data/inputs/collection-records/sfc-tencent/2026/collection-b1ac3f713e884bf6ba17888241f92c45/collection.json"
+      ],
+      "context": "› Link to latest CSV file",
+      "document_id": "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30",
+      "item_id": "item-794da69c7f14e75f533c4081",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "review_hashes": {},
+      "review_refs": [],
+      "stage": "awaiting_review",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/03/Short_Position_Reporting_Aggregated_Data_20251003.csv?rev=5cc6800b3a0e4ad4aa812b5769599a09"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-80f9b5d9a0dd7391f43d2658",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/10/Short_Position_Reporting_Aggregated_Data_20251010.csv?rev=f75db4acb90748169e05889d51d4e1af"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-b27f79642167eb66770cc9d2",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/10/16/Short_Position_Reporting_Aggregated_Data_20261016.csv?rev=92b8bf2ae16c4583b03c32d4ead1ed44"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-c518a2ff0d45a0e6f9cf75ea",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/17/Short_Position_Reporting_Aggregated_Data_20251017.csv?rev=b5b8bb3cb7914bd9b5c3e2d71d32519b"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-ced79adbcabadf0dcfa19cca",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/24/Short_Position_Reporting_Aggregated_Data_20251024.csv?rev=02231c90b1be4bc9ba61faa2ffc564ef"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-e1c820326dd60cc9be657379",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/10/02/Short_Position_Reporting_Aggregated_Data_20261002.csv?rev=fff20e1c4aa34ab4bbb1669e74598986"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-e3621f0a421bd3658ba52ecb",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/10/23/Short_Position_Reporting_Aggregated_Data_20261023.csv?rev=cc7253b899044988b3144f3567fe5689"
+    },
+    {
+      "attempts": 0,
+      "context": "› Link to latest CSV file",
+      "item_id": "item-fae701320e2feaded001adc7",
+      "listing_document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "stage": "pending_fetch",
+      "title": "CSV",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/10/09/Short_Position_Reporting_Aggregated_Data_20261009.csv?rev=b294a857a9954864a52b2ebce625e1d2"
+    }
+  ],
+  "previous_hash": "4914651645cc4be3f93a150cbcfad97a616e6e43b926a08f06de1dd92656e868",
+  "recorded_at": "2026-10-30T10:52:33.349428+00:00",
+  "sequence": 5,
+  "task_id": "acquisition-4d668ae96bc28a4b4b7de8a6"
+}

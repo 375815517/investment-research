@@ -1,0 +1,38 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "shares",
+    "scale": "millions",
+    "currency": null,
+    "measure_kind": "period_measure",
+    "period_type": "annual",
+    "period_start": "2019-01-01",
+    "period_end": "2019-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "weighted-average-basic-shares",
+      "page": 202,
+      "pattern": "Weighted\\ average\\ number\\ of\\ ordinary\\ shares\\ in\\ issue\\ \\(million\\ shares\\)\\ 9,468\\ 9,444",
+      "numeric_columns": 2,
+      "value_column": 0
+    },
+    {
+      "metric_id": "weighted-average-diluted-shares",
+      "page": 203,
+      "pattern": "We\\ ighted\\ average\\ number\\ of\\ ordinary\\ shares\\ for\\ the\\ \\ \\\ncalculation\\ of\\ diluted\\ EPS\\ \\(million\\ shares\\)\\ 9,603\\ 9,568",
+      "numeric_columns": 2,
+      "value_column": 0
+    }
+  ]
+}

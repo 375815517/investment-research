@@ -1,0 +1,316 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-1c8b3ff17553bf27f1c8c47f0686e5e74cf041030dccb716817f1d348b3656f7",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "thousands",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "half_year",
+    "period_start": "2023-01-01",
+    "period_end": "2023-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated financial statements in official results announcement; current-year column, signed source values retained",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Revenue\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "finance-costs",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs(?!,\\s+net)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+(?:expenses?|income/\\(expenses\\)|\\(expenses\\)/credit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Profit(?:/\\(loss\\))?|\\(Loss\\)/profit)\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity holders) of the Company[ \\t]+[^\\n]+",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 26,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 2,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "total-assets",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+assets[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "total-liabilities",
+      "page": 29,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+liabilities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "total-equity",
+      "page": 29,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Total\\s+equity\\b(?!\\s+and)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "cash-and-cash-equivalents",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cash\\s+and\\s+cash\\s+equivalents[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "inventories",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Inventories[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "trade-receivables",
+      "page": 28,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Trade\\s+and\\s+notes\\s+receivables|Trade\\s+receivables|Accounts\\s+receivable)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Accounts receivable as separately disclosed; notes inclusion not assumed"
+      }
+    },
+    {
+      "metric_id": "trade-payables",
+      "page": 29,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Trade\\s+payables|Accounts\\s+payable)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "current-assets",
+      "page": 28,
+      "pattern": "^Current\\s+assets\\s*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Total\\s+assets)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "current-liabilities",
+      "page": 29,
+      "pattern": "^Current\\s+liabilities\\s*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Total\\s+liabilities)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "equity-attributable-to-owners",
+      "page": 29,
+      "pattern": "^Equity attributable to [^\\n]*\\n[\\s\\S]*?(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?|[—–-])\\s*(?=\\n\\s*Non-controlling\\s+interests)",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null
+      }
+    },
+    {
+      "metric_id": "short-term-borrowings",
+      "page": 29,
+      "pattern": "^Current\\s+liabilities\\s*\\n[\\s\\S]*?^\\s*Borrowings\\s+[^\\n]+",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Borrowings classified as current liabilities, including any current portion of long-term borrowing"
+      }
+    },
+    {
+      "metric_id": "long-term-borrowings",
+      "page": 29,
+      "pattern": "^Non-current\\s+liabilities\\s*\\n[\\s\\S]*?^\\s*Borrowings\\s+[^\\n]+",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "basis": "Borrowings classified as non-current liabilities; excludes separately disclosed notes payable"
+      }
+    },
+    {
+      "metric_id": "operating-cash-flow",
+      "page": 30,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?(?:\\n\\s*)?operating\\s+activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "investing-cash-flow",
+      "page": 30,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?(?:\\n\\s*)?investing\\s+activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "financing-cash-flow",
+      "page": 30,
+      "pattern": "^Net\\s+cash(?: flows)?[^\\n]*?(?:\\n\\s*)?financing\\s+activities[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cash-flow-net-change",
+      "page": 30,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Net\\s+(?:increase|decrease|\\(decrease\\)|\\(increase\\))(?:/\\((?:decrease|increase)\\)|/(?:decrease|increase))?\\s+in\\s+cash\\s+and\\s+cash\\s+equivalents[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cash-flow-exchange-effect",
+      "page": 30,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Effects\\s+of\\s+exchange\\s+rate\\s+changes\\s+on\\s+cash\\s+and\\s+cash\\s+equivalents|Exchange[^\\n]*on\\s+cash\\s+and\\s+cash\\s+equivalents)[^\\n]*",
+      "numeric_columns": 2,
+      "value_column": 0,
+      "overrides": {}
+    }
+  ],
+  "selection_review": {
+    "report_year": 2023,
+    "statement_pages": {
+      "income": [
+        26
+      ],
+      "balance": [
+        28,
+        29
+      ],
+      "cash": [
+        30
+      ]
+    },
+    "missing": [],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

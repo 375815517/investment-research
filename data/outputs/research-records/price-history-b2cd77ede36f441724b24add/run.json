@@ -1,0 +1,77 @@
+{
+  "finished_at": "2026-10-30T10:51:28.339752+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "daily-prices",
+    "end": "2018-12-31",
+    "source_id": "tencent-chart",
+    "start": "2018-10-07",
+    "subject_id": "tencent-hk"
+  },
+  "started_at": "2026-10-30T10:51:20.209404+00:00",
+  "status": "collected",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/original.json",
+        "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/document.json",
+        "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/candidate.json",
+        "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/validation.json",
+        "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/review.json",
+        "data/inputs/markets/prices/tencent-hk/daily/2018/batch-9b5274d3b9740a515781c3124463e705c4fe76f415ab857b21bd53eca8527203/daily-prices.csv",
+        "data/inputs/markets/prices/tencent-hk/daily/2018/batch-9b5274d3b9740a515781c3124463e705c4fe76f415ab857b21bd53eca8527203/batch.json",
+        "data/outputs/research-records/ingest-f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/original.json",
+        "data/inputs/source-files/tencent-chart/2026/doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be/v1/document.json",
+        "data/inputs/collection-records/tencent-chart/2026/collection-0c5f56165a1c4239b5bfa6ef3d426df4/collection.json"
+      ],
+      "document_id": "doc-c69f1eb5e1a982ab267a83274cfa26f79b35b8bce763c7eeaa2a7d8d3c7df2be",
+      "end": "2018-12-31",
+      "first": "2018-10-08",
+      "last": "2018-12-31",
+      "observed_rows": 58,
+      "start": "2018-10-07",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-cc4b4b4402ba3bdd5093db31eb70bd0d8c8b55b0c5b1938b9c4c85ae15014cb3/d79aa0a0f0bf28700a44ba958fadbbd807dd505618f16fa53fa7d38b27d2ad21.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-4e7666af4f7b4920b6f80e2fa916e454",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "f771fc39ac8bc3bbecc5795cba07d802aceb2a7d40c9f7ac3f577de51482070b",
+          "candidate_id": "candidate-cc4b4b4402ba3bdd5093db31eb70bd0d8c8b55b0c5b1938b9c4c85ae15014cb3",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 58,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    }
+  ]
+}

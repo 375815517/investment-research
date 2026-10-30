@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-30T11:08:17.798183+00:00",
+  "command": "UV_CACHE_DIR=/workspace/.cache/uv bash scripts/check.sh",
+  "status": "passed",
+  "checks": {
+    "ruff_check": "passed",
+    "ruff_format": "63 files formatted",
+    "mypy": "35 source files passed",
+    "pytest": "300 passed",
+    "synthetic_demo": "passed, no production data written",
+    "distribution_build": "7 packages, wheel and sdist"
+  },
+  "host_projection": {
+    "codex": {
+      "files": 8,
+      "filesystem": "verified",
+      "source_current": true,
+      "discovery": "unknown",
+      "invocation": "not_tested",
+      "hooks": "disabled"
+    },
+    "codebuddy": {
+      "files": 8,
+      "filesystem": "verified",
+      "source_current": true,
+      "discovery": "unknown",
+      "invocation": "not_tested",
+      "hooks": "disabled",
+      "support": "experimental-filesystem-only"
+    }
+  },
+  "limits": [
+    "These checks validate engineering behavior, not research input completeness or issuer financial truth.",
+    "Network and live_model marked tests excluded by the standard check script.",
+    "Native host discovery and semantic execution remain unverified."
+  ]
+}

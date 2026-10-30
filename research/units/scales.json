@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "factors": {
+    "units": "1",
+    "thousands": "1000",
+    "millions": "1000000",
+    "billions": "1000000000"
+  },
+  "rules": [
+    "Scale conversion never changes unit, currency, economic definition or reporting scope",
+    "currency_per_share, percent, ratio and multiple use units scale",
+    "Conversion uses Decimal and is stored separately from source observations"
+  ]
+}

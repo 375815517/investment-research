@@ -1,0 +1,80 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-36826559b2d0501d9bef705e68828bca6fc295f816737079ba830af06391b8ef/candidate.json",
+  "batch_id": "batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538",
+  "candidate_hash": "36826559b2d0501d9bef705e68828bca6fc295f816737079ba830af06391b8ef",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/financial-observations.json",
+      "sha256": "4f5fefc935bffd2bd0e10aeca7d8d40d6640748fd6d451c0f27a330fe9a1abf4"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:20.272322+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:55:38.147332+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "Directors’ Report DONATION The donations made by the Group in the year were RMB2,003 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES During the year ended 31 December 2024, the Company repurchased a total of 307,238,500 Shares on the Stock Exchange for an aggregate consideration of approximately HKD112.0 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2024 purchased price paid price paid paid HKD HKD HKD January 34,110,000 304.40 271.20 9,824,604,509.00 March 16,930,000 308.60 282.80 5,010,078,160.00 April 25,860,000 317.40 303.00 8,010,247,840.00 May 27,550,000 399.80 359.80 10,445,334,088.00 June 50,280,000 392.00 367.40 19,059,646,307.00 July 23,700,000 397.00 365.20 9,013,854,402.00 August 29,320,000 385.40 365.40 11,017,639,867.00 September 41,877,400 414.20 365.20 15,881,930,806.12 October 5,051,100 482.20 424.00 2,294,908,497.32 November 19,200,000 413.40 392.20 7,726,199,532.00 December 33,360,000 430.60 395.00 13,718,939,918.00 Total: 307,238,500 112,003,383,926.44 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s listed securities during the year ended 31 December 2024. 28",
+      "locator": "pdf:page:29",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "307238500",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2024 Year ended 31 December 2024 2023 RMB’Million RMB’Million Cash flows from financing activities Proceeds from short-term borrowings 62,563 29,809 Repayments of short-term borrowings (40,049) (9,889) Proceeds from long-term borrowings 52,021 33,641 Repayments of long-term borrowings (74,642) (34,116) Repayments of notes payable (14,213) (10,141) Principal elements of lease payments (6,369) (6,652) Interest paid (12,417) (11,478) Payments for repurchase of shares (102,331) (43,767) Proceeds from issuance of ordinary shares as a result of exercise of share options 1,932 1,070 Payments for withholding individual income tax for share option schemes (105) (242) Payments for shares purchased/withheld for share award schemes (3,420) (4,378) Proceeds from issuance of additional equity interests of non wholly-owned subsidiaries 161 196 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (8,381) (4,818) Capital reductions of non-controlling interests in non wholly-owned subsidiaries – (20) Dividends paid to the Company’s shareholders (28,859) (20,983) Dividends paid to non-controlling interests (2,385) (805) Net cash flows used in financing activities (176,494) (82,573) Net (decrease)/increase in cash and cash equivalents (40,160) 14,228 Cash and cash equivalents at beginning of the year 172,320 156,739 Exchange gains on cash and cash equivalents 359 1,353 Cash and cash equivalents at end of the year 132,519 172,320 The notes on pages 134 to 264 are an integral part of these consolidated financial statements. 133",
+      "locator": "pdf:page:134",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-102331",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

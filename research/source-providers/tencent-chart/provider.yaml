@@ -1,0 +1,13 @@
+provider_id: tencent-chart
+url: https://web.ifzq.gtimg.cn/appstock/app/fqkline/get
+connector_id: tencent-kline-v1
+dataset_id: daily-prices
+allowed_hosts:
+- web.ifzq.gtimg.cn
+allowed_parameters:
+- param
+archive_permissions: research-only
+usage_basis: User-authorized bounded investment research; no redistribution license
+  established
+known_limitations:
+- Provider-native adjustment basis and volume units require independent evidence

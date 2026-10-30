@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-ce2da1d83f953a9b3a63eafd9ea3bd79b09232342a13e1bd255e1c9cf48ae3ac/candidate.json",
+  "batch_id": "batch-3fa0b533ed5d81d02cc432ba2ce3d8f634313b9e96181e93bac4cad8d6e7e590",
+  "candidate_hash": "ce2da1d83f953a9b3a63eafd9ea3bd79b09232342a13e1bd255e1c9cf48ae3ac",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2021/batch-3fa0b533ed5d81d02cc432ba2ce3d8f634313b9e96181e93bac4cad8d6e7e590/financial-observations.json",
+      "sha256": "5ccc5fc2244e491c507cac6290c01ef0acbca8d37e8e8b18c40218cec733213b"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:15.464532+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:30:07.840538+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "来源合并披露固定资产、在建工程及投资物业现金购买或预付款，不含另列无形资产或土地付款。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Purchase of property, plant and equipment, construction in progress \n and investment properties (29,302) (34,070)",
+      "locator": "pdf:page:179",
+      "measure_kind": "flow",
+      "metric_id": "property-construction-investment-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-29302",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

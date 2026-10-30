@@ -6,8 +6,11 @@ let busy = false;
 const labels = {status:"状态", complete:"完整", partial:"部分覆盖", blocked:"已阻断", review_required:"待人工审核", planned:"计划已生成", ok:"成功", date:"日期", trade_date:"交易日", security_id:"证券", company_id:"公司", source_id:"来源", document_id:"资料编号", open:"开盘价", high:"最高价", low:"最低价", close:"收盘价", volume:"成交量", currency:"币种", price_basis:"价格口径", published_at:"公开时间", observed_at:"采集时间", registered_at:"登记时间", metric_id:"财务项目", value:"数值", unit:"单位", period_start:"期间开始", period_end:"期间结束", scope:"报表范围", evidence_refs:"证据引用", provenance:"来源追溯", dataset_id:"数据类型", record_id:"记录编号", report_document_id:"报告原件", unadjusted:"已核实不复权", "provider-native":"供应商原生口径", reason:"原因"};
 Object.assign(labels, {event_date:"事件日期", subject_id:"研究对象", subject_type:"对象类别", document_kind:"资料类别", source_category:"来源类别", statement:"来源陈述", excerpt:"原文摘录", evidence_quote:"原文证据", locator:"原文位置", basis:"数据口径", quote:"引文", metric_id:"字段／项目", document_refs:"原件引用", batch_refs:"入库批次", policy:"政策", industry:"行业", news:"新闻", company:"公司", jurisdiction:"司法辖区", event:"事件", snapshot:"时间快照"});
 function supportedGaps() { return ["daily-prices", "financial-facts"].includes($("dataset").value); }
-function syncButtons() { for (const id of ["check-gaps", "plan"]) $(id).disabled = busy || !supportedGaps(); $("apply").disabled = busy || !planId; }
-Object.assign(labels, {ready:"在声明范围内适用", limited:"有限适用"});
+function syncButtons() { for (const id of ["check-gaps", "plan"]) $(id).disabled = busy || !supportedGaps(); $("apply").disabled = busy || !planId;
+  for (const id of ["profile-audit", "profile-assess"]) $(id).disabled = busy || !$("input-profile").value;
+  $("workflow-use-profile").disabled = busy || !["normalize-inputs", "freeze-inputs"].includes($("workflow-operation").value) || !$("input-profile").value;
+}
+Object.assign(labels, {completed_with_skips:"已结束（含明确跳过项，不表示覆盖完整）", skipped:"已跳过", skip_reason:"跳过理由", skipped_count:"跳过项数", pending:"尚未完成", registered:"已登记", frozen:"已冻结（用途另核验）", verified:"核验通过", ready:"在声明范围内适用", limited:"有限适用", key_id:"预期键", required:"必需", true:"是", false:"否", item_id:"任务项", stage:"阶段", observed_count:"匹配记录数", issue:"问题", retry_at:"下次尝试", satisfied:"已满足", missing:"缺失", ambiguous:"匹配不唯一", unavailable:"不可用", fetch:"获取", extract:"提取", review:"复核", ingest:"入库", verify:"验证"});
 const label = key => labels[key] || key;
 
 async function api(path, payload) {
@@ -103,6 +106,9 @@ function renderFiles() {
 async function loadCatalog() {
   catalog = await api("/api/catalog");
   options("audit-policy", catalog.audits || [], "选择已登记需求清单", "path");
+  options("input-profile", catalog.profiles || [], "选择精确输入规格", "path");
+  options("workflow-task", catalog.tasks || [], "手动填写任务编号");
+  options("workflow-binding", catalog.bindings || [], "手动填写来源映射");
   refreshSubjects();
   showSource(); renderFiles(); $("connection").textContent = "本地服务已连接";
   if (catalog.truncated) message("目录较大，仅展示前 2000 个文件；请通过 CLI 查询完整档案。");
@@ -114,7 +120,8 @@ function expectationDates() {
 function refreshSubjects() {
   const dataset = $("dataset").value;
   let entries = catalog.securities.filter(item => item.confirmed);
-  if (["financial-facts", "document-facts"].includes(dataset)) entries = entries.filter(item => item.company_id).map(item => ({id:item.company_id, name:item.company_id === "xiaomi" ? "小米集团（公司）" : item.company_id}));
+  if (dataset === "benchmark-prices") entries = (catalog.bindings || []).filter(item => item.benchmark_id).map(item => ({id:item.benchmark_id, name:item.benchmark_id}));
+  if (["financial-facts", "financial-observations", "operating-observations", "document-facts"].includes(dataset)) entries = entries.filter(item => item.company_id).map(item => ({id:item.company_id, name:item.company_id === "xiaomi" ? "小米集团（公司）" : item.company_id}));
   for (const source of catalog.sources.filter(item => item.dataset_id === dataset && item.subject_id)) entries.push({id:source.subject_id, name:`${source.subject_id}（${label(source.subject_type || "研究对象")}）`});
   entries = [...new Map(entries.map(item => [item.id, item])).values()];
   options("subject", entries, "选择研究对象");
@@ -130,7 +137,7 @@ function filterChoices() {
   expectationDates(); showSource();
   $("price-basis").disabled = dataset !== "daily-prices";
   $("expectation").disabled = !supportedGaps();
-  const notes = {"daily-prices":"日期按交易日筛选；价格口径需明确。", "financial-facts":"日期按财报期间结束日筛选；公开时间和采集时间另外保留。", "market-observations":"含时刻的观测按 UTC 日期筛选，只有日期的观测保留来源日期；不等同于香港交易日。这是供应商时间快照，不推断为历史时点指标。单位与口径分别保留，完整性未知。", "document-facts":"日期按事件日期筛选；保存来源陈述与原文证据，不等同于已证实事实。公开、采集和登记时间分别保留；完整性未知。"};
+  const notes = {"daily-prices":"日期按交易日筛选；价格口径需明确。", "financial-facts":"日期按财报期间结束日筛选；公开时间和采集时间另外保留。", "corporate-actions":"按公司行动的生效日期查询，公告、除权和支付日期分别保存；不以价格跳变猜测分红或拆股。", "benchmark-prices":"市场基准按指数交易日查询，保留价格指数/全收益指数与来源口径；不自动当作行业基准。", "financial-observations":"财务观测保留期间类型、存量/流量、单位、分部和会计口径；使用精确输入规格核查完整性。", "operating-observations":"经营数量、用户、设备等量纲独立保存；不可将活跃用户、出货和交付视为同一指标。", "market-observations":"含时刻的观测按 UTC 日期筛选，只有日期的观测保留来源日期；不等同于香港交易日。这是供应商时间快照，不推断为历史时点指标。单位与口径分别保留，完整性未知。", "document-facts":"日期按事件日期筛选；保存来源陈述与原文证据，不等同于已证实事实。公开、采集和登记时间分别保留；完整性未知。"};
   $("dataset-notes").textContent = notes[dataset] || "";
   syncButtons();
 }
@@ -169,6 +176,81 @@ $("assess").addEventListener("click", () => run(async () => {
   }
   message("已完成只读适用性评估，未采集或修改数据。");
 }));
+async function profileRequest() {
+  if (!$("input-profile").value) throw new Error("请选择已登记的精确输入规格。");
+  const request = {profile_path: $("input-profile").value};
+  request.knowledge_mode = $("mode").value;
+  delete request.information_cutoff;
+  if ($("cutoff").value) request.information_cutoff = new Date($("cutoff").value).toISOString();
+  if (request.knowledge_mode !== "retrospective_explanation" && !request.information_cutoff) throw new Error("历史模式需要填写信息截止时间。");
+  return request;
+}
+function compactTable(target, rows, columns) {
+  $(target).replaceChildren();
+  if (!rows.length) return;
+  const table = document.createElement("table"), head = document.createElement("thead"), tr = document.createElement("tr");
+  for (const key of columns) { const th = document.createElement("th"); th.textContent = label(key); th.scope = "col"; tr.append(th); }
+  head.append(tr); table.append(head);
+  const body = document.createElement("tbody");
+  for (const row of rows) { const line = document.createElement("tr"); for (const key of columns) { const td = document.createElement("td"); const value = row[key]; td.textContent = value && typeof value === "object" ? JSON.stringify(value) : label(String(value ?? "")); line.append(td); } body.append(line); }
+  table.append(body); $(target).append(table);
+}
+for (const operation of ["profile-audit", "profile-assess"]) $(operation).addEventListener("click", () => run(async () => {
+  const result = await api("/api/" + operation, await profileRequest());
+  const audit = result.audit || result;
+  const keys = audit.keys || audit.results || [];
+  const satisfied = audit.satisfied_required_count ?? keys.filter(item => item.status === "satisfied").length;
+  const required = audit.required_count ?? keys.length;
+  $("profile-summary").textContent = `状态：${label(result.status)}；满足 ${satisfied} / ${required} 个必需预期键（总计 ${keys.length} 键）。用途与完整性分别判断，不能推广为全部研究可用。`;
+  $("profile-output").textContent = JSON.stringify(result, null, 2);
+  compactTable("profile-keys", keys.map(item => ({...item, required:item.expected?.required})), ["key_id", "required", "status", "observed_count", "reason"]);
+  $("profile-findings").replaceChildren();
+  for (const finding of result.findings || []) { const li = document.createElement("li"); li.textContent = `${finding.code}: ${finding.message || finding.reason || ""}`; $("profile-findings").append(li); }
+  message("已读取精确输入规格并完成检查，未执行采集。");
+}));
+const workflowExamples = {
+  "acquisition-status": {task_id:""},
+  "source-discover": {binding_id:"", parameters:{year:2024}, max_pages:1},
+  "acquisition-plan": {discovery_id:"", dataset_id:"financial-observations"},
+  "acquisition-run": {task_id:"", max_items:1},
+  "normalize-inputs": {profile:{}, target_scale:"units"},
+  "revise-metadata": {document_id:"", expected_revision_id:null, publication:{precision:"date", date:"", timezone:"Asia/Hong_Kong"}, evidence_document_id:"", locator:"", excerpt:"", reviewer:"", notes:""},
+  "freeze-inputs": {profile:{}, label:"research-inputs"},
+  "verify-bundle": {bundle_id:""}
+};
+function workflowChanged() {
+  const operation = $("workflow-operation").value;
+  $("workflow-request").value = JSON.stringify(workflowExamples[operation], null, 2);
+  $("workflow-effect").textContent = ["acquisition-status", "verify-bundle"].includes(operation) ? "此操作只读核验已登记内容。" : "此操作会保存任务、发现记录、转换结果、修订或输入包。采集任务的执行可能访问已登记来源；请核对请求及证据后执行。";
+  $("workflow-use-profile").disabled = !["normalize-inputs", "freeze-inputs"].includes(operation);
+}
+$("workflow-operation").addEventListener("change", () => { workflowChanged(); syncButtons(); });
+$("input-profile").addEventListener("change", syncButtons);
+$("workflow-binding").addEventListener("change", () => {
+  if (!$("workflow-binding").value) return;
+  $("workflow-operation").value = "source-discover"; workflowChanged();
+  const request = JSON.parse($("workflow-request").value); request.binding_id = $("workflow-binding").value; $("workflow-request").value = JSON.stringify(request, null, 2);
+});
+$("workflow-task").addEventListener("change", () => {
+  if (!$("workflow-task").value) return;
+  if (!["acquisition-status", "acquisition-run"].includes($("workflow-operation").value)) { $("workflow-operation").value = "acquisition-status"; workflowChanged(); }
+  const request = JSON.parse($("workflow-request").value); request.task_id = $("workflow-task").value; $("workflow-request").value = JSON.stringify(request, null, 2);
+});
+$("workflow-use-profile").addEventListener("click", () => run(async () => {
+  const request = JSON.parse($("workflow-request").value); delete request.profile; Object.assign(request, await profileRequest()); $("workflow-request").value = JSON.stringify(request, null, 2); message("已加入所选规格，尚未执行操作。");
+}));
+$("workflow-execute").addEventListener("click", () => run(async () => {
+  const request = JSON.parse($("workflow-request").value);
+  if (!request || typeof request !== "object" || Array.isArray(request)) throw new Error("请求必须是JSON对象。");
+  const operation = $("workflow-operation").value;
+  const result = await api("/api/" + operation, request);
+  $("workflow-output").textContent = JSON.stringify(result, null, 2);
+  $("workflow-summary").textContent = `结果：${label(result.status)}${result.items?.some(item => item.stage === "skipped") ? `；明确跳过 ${(result.items || []).filter(item => item.stage === "skipped").length} 项` : ""}${result.assessment_status ? `；用途评估：${label(result.assessment_status)}` : ""}${result.stage ? `；阶段：${label(result.stage)}` : ""}${result.task_id ? `；任务：${result.task_id}` : ""}${result.bundle_id ? `；输入包：${result.bundle_id}` : ""}。请检查剩余缺口与证据。`;
+  compactTable("workflow-items", result.items || [], ["item_id", "stage", "document_id", "skip_reason", "issue", "retry_at"]);
+  await loadCatalog();
+  message(`操作完成，业务结果：${label(result.status)}。待审核、部分完成和阻断不代表数据已就绪。`);
+}));
+workflowChanged();
 $("scope-form").addEventListener("submit", event => { event.preventDefault(); run(query); });
 $("source").addEventListener("change", showSource);
 $("file-search").addEventListener("input", renderFiles);

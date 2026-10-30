@@ -1,0 +1,25 @@
+{
+  "candidate_id": "candidate-a96a2cda9fda97b26c6d69b9da02ea6c25f4cf01fe73dd67c74f18321975594e",
+  "contract_version": "1",
+  "dataset_id": "daily-prices",
+  "document_id": "doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+  "document_sha256": "ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+  "parser_version": "tencent-kline-v1",
+  "records": [
+    {
+      "close": "354.400",
+      "currency": "HKD",
+      "high": "363.600",
+      "low": "354.000",
+      "open": "360.000",
+      "price_basis": "provider-native",
+      "security_id": "tencent-hk",
+      "session": "regular-final",
+      "trading_date": "2022-06-30",
+      "volume": "33385197.000",
+      "volume_unit": "provider-native"
+    }
+  ],
+  "source_id": "tencent-chart",
+  "supersedes": []
+}

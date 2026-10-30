@@ -1,0 +1,36 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2018-01-01",
+    "period_end": "2018-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Audited IFRS consolidated annual statements; current reporting-year numeric column; signed expenses retained",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "interest-and-related-expenses",
+      "page": 199,
+      "pattern": "^Interest and related expenses\\s+[\\d,]+\\s+[\\d,]+\\s*$",
+      "numeric_columns": 2,
+      "overrides": {
+        "basis": "Interest and related expenses in Finance costs, net note, positive expense magnitude; excludes separately disclosed FX gains/losses and is not synonymous with total finance costs"
+      }
+    }
+  ],
+  "selection_review": {
+    "scope": "Disclosed gross interest-related expense, distinct from total or net finance costs"
+  }
+}

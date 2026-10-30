@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/original.csv",
+    "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json",
+    "data/outputs/research-records/ingest-774d02e0d2a71ed27a0535ae6eba8ea4a9a34d94794aee9fb896a146a383de4d/candidate.json",
+    "data/outputs/research-records/ingest-774d02e0d2a71ed27a0535ae6eba8ea4a9a34d94794aee9fb896a146a383de4d/validation.json",
+    "data/outputs/research-records/ingest-774d02e0d2a71ed27a0535ae6eba8ea4a9a34d94794aee9fb896a146a383de4d/review.json",
+    "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/market-observations.json",
+    "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json",
+    "data/outputs/research-records/ingest-774d02e0d2a71ed27a0535ae6eba8ea4a9a34d94794aee9fb896a146a383de4d/receipt.json"
+  ],
+  "candidate_hash": "774d02e0d2a71ed27a0535ae6eba8ea4a9a34d94794aee9fb896a146a383de4d",
+  "plan_id": "plan-2dc1018b6335f134fa4124f2bdf4dac5f431749c939589ac6ad957e9f4459c71"
+}

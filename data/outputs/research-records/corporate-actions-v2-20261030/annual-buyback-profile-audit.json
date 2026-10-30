@@ -1,0 +1,2490 @@
+{
+  "status": "partial",
+  "scope": "declared_exact_keys",
+  "profile_id": "annual-share-repurchase-disclosures",
+  "profile_version": "1",
+  "keys": [
+    {
+      "key_id": "tencent-shares-repurchased-2018",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2018",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2018-01-01",
+          "period_end": "2018-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2018, the Company repurchased 2,848,000 shares on the Stock Exchange for an aggregate consideration of approximately HKD886.8 million before expenses. The repurchased shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the shares repurchased are as follows: Purchase consideration per share Aggregate No. of shares Highest Lowest consideration Month of purchase in 2018 purchased price paid price paid paid HKD HKD HKD September 1,668,500 333.40 306.00 535,627,842 October 1,179,500 322.80 265.20 351,174,951 Total: 2,848,000 886,802,793 Save as disclosed above and in Note 31 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s shares during the year ended 31 December 2018. ISSUANCE OF DEBT SECURITIES On 19 January 2018, the Company issued four tranches of senior notes under the Global Medium Term Note Programme for the Company\u2019s general corporate purposes. Details of the issuance of debt securities are set out in Note 35 to the consolidated financial statements. 33",
+          "locator": "pdf:page:34",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "2848000",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2018/batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20/batch.json"
+          ],
+          "document_refs": [
+            "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/metadata-revisions/metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650": "metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2018/batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2018",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2018",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2018-01-01",
+          "period_end": "2018-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Year ended 31 December 2018 2017 RMB\u2019Million RMB\u2019Million Payments for loans to investees and others (2,523) (2,219) Loans repayments from investees and others 745 1,533 Payments for other financial assets \u2013 (995) Proceeds from settlement of other financial assets \u2013 995 Receipt from maturity of term deposits with initial terms of over three months 46,227 86,166 Placement of term deposits with initial terms of over three months (67,055) (72,520) Interest received 4,435 3,529 Dividends received 1,724 2,009 Net cash flows used in investing activities (151,913) (96,392) Cash flows from financing activities Proceeds from short-term borrowings 26,463 16,676 Repayments of short-term borrowings (23,545) (12,450) Proceeds from long-term borrowings 7,237 33,517 Repayments of long-term borrowings (194) (5,281) Net proceeds from issuance of notes payable 32,547 \u2013 Repayments of notes payable (4,666) (3,450) Proceeds from issuance of ordinary shares 525 171 Shares withheld for share award schemes (1,967) (2,232) Payments for repurchase of shares (783) \u2013 Proceeds from issuance of additional equity of non-wholly owned subsidiaries 7,238 6,466 Proceeds from disposals of non-controlling interests in non-wholly owned subsidiaries 157 106 Payments for acquisition of non-controlling interests in non-wholly owned subsidiaries (236) (927) Dividends paid to the Company\u2019s shareholders (6,776) (5,052) Dividends paid to non-controlling interests (620) (946) Net cash flows generated from financing activities 35,380 26,598 141",
+          "locator": "pdf:page:142",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-783",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2018/batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20/batch.json"
+          ],
+          "document_refs": [
+            "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/metadata-revisions/metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650": "metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2018/batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2019",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2019",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2019-01-01",
+          "period_end": "2019-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2019, the Company repurchased 3,486,700 shares on the Stock Exchange for an aggregate consideration of approximately HKD1.16 billion before expenses. The repurchased shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the shares repurchased are as follows: Purchase consideration per share Aggregate No. of shares Highest Lowest consideration Month of purchase in 2019 purchased price paid price paid paid HKD HKD HKD August 362,200 327.00 312.40 116,330,916 September 2,294,500 351.00 323.60 776,104,729 October 830,000 327.80 317.40 268,272,462 Total: 3,486,700 1,160,708,107 Save as disclosed above and in Note 32 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s shares during the year ended 31 December 2019. ISSUANCE OF DEBT SECURITIES On 11 April 2019, the Company issued five tranches of senior notes under the Global Medium Term Note Programme for the Company\u2019s general corporate purposes. Details of the issuance of debt securities are set out in Note 36 to the consolidated financial statements. 30",
+          "locator": "pdf:page:31",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "3486700",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2019/batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0/batch.json"
+          ],
+          "document_refs": [
+            "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/metadata-revisions/metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6": "metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2019/batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2019",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2019",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2019-01-01",
+          "period_end": "2019-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Year ended 31 December 2019 2018 RMB\u2019Million RMB\u2019Million (Note 2.2) Cash flows from financing activities Proceeds from short-term borrowings 18,375 26,463 Repayments of short-term borrowings (22,058) (23,545) Proceeds from long-term borrowings 55,075 7,237 Repayments of long-term borrowings (55,168) (194) Net proceeds from issuance of notes payable 40,202 32,547 Repayments of notes payable (13,465) (4,666) Principal elements of lease payments (2,400) \u2013 Interest paid (7,047) (4,493) Proceeds from issuance of ordinary shares as a result of exercise of share options 272 525 Shares withheld for share award schemes (1,406) (1,967) Payments for repurchase of shares (1,046) (783) Proceeds from issuance of additional equity of non-wholly owned subsidiaries 440 7,238 Proceeds from disposals of non-controlling interests in non-wholly owned subsidiaries \u2013 157 Payments for acquisition of non-controlling interests in non-wholly owned subsidiaries (649) (236) Dividends paid to the Company\u2019s shareholders (8,315) (6,776) Dividends paid to non-controlling interests (1,138) (620) Net cash flows generated from financing activities 1,672 30,887 Net increase/(decrease) in cash and cash equivalents 34,092 (10,090) Cash and cash equivalents at beginning of the year 97,814 105,697 Exchange gains on cash and cash equivalents 1,085 2,207 Cash and cash equivalents at end of the year 132,991 97,814 The notes on pages 147 to 264 are an integral part of these consolidated financial statements. 146",
+          "locator": "pdf:page:147",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-1046",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2019/batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0/batch.json"
+          ],
+          "document_refs": [
+            "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/metadata-revisions/metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6": "metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2019/batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2020",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2020",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2020-01-01",
+          "period_end": "2020-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES Neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s shares during the year ended 31 December 2020. ISSUANCE OF DEBT SECURITIES In June 2020, the Company issued four tranches of senior notes under the Global Medium Term Note Programme for the Company\u2019s general corporate purposes. In September 2020, TME issued two tranches of senior notes for its general corporate purposes. Details of the issuance of debt securities are set out in Note 36 to the consolidated financial statements. USE OF PROCEEDS FROM IPO AND FPO OF NON WHOLLY-OWNED SUBSIDIARIES The use of proceeds from the IPO and FPO of TME, China Literature and HUYA, our non wholly-owned subsidiaries, are set out below: TME The American depository shares of TME were listed on the New York Stock Exchange on 12 December 2018 and the net proceeds raised by TME during its IPO were approximately USD509 million. As at 31 December 2020, TME had used all net proceeds from its IPO in the manner set out in its IPO prospectus for content acquisition, strategic investments, and other operating and investment purposes. China Literature The shares of China Literature were listed on the Stock Exchange on 8 November 2017 and the net proceeds raised by China Literature during its IPO were approximately HKD7,235 million (equivalent to approximately RMB6,145 million). 30",
+          "locator": "pdf:page:31",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "0",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2020/batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e/batch.json"
+          ],
+          "document_refs": [
+            "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/metadata-revisions/metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd": "metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2020/batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2020",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2020",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2020-01-01",
+          "period_end": "2020-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "unavailable",
+      "observed_count": 0,
+      "unavailable_count": 1,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Source cash-flow dash retained as explicitly unresolved numerical disclosure; no zero imputed. 2020current-year cash-flow column; separate no-purchase statement only supports share-count scope, not cash-zero.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Year ended 31 December 2020 2019 RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 5,090 18,375 Repayments of short-term borrowings (8,512) (22,058) Proceeds from long-term borrowings 26,323 55,075 Repayments of long-term borrowings (15,899) (55,168) Net proceeds from issuance of notes payable 47,948 40,202 Repayments of notes payable (10,460) (13,465) Principal elements of lease payments (3,537) (2,400) Interest paid (7,076) (7,047) Payments for repurchase of shares \u2013 (1,046) Proceeds from issuance of ordinary shares as a result of exercise of share options 1,716 272 Shares withheld for share award schemes (1,865) (1,406) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 600 440 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (9,263) (649) Dividends paid to the Company\u2019s shareholders (10,339) (8,315) Dividends paid to non-controlling interests (1,079) (1,138) Net cash flows generated from financing activities 13,647 1,672 Net increase in cash and cash equivalents 25,811 34,092 Cash and cash equivalents at beginning of the year 132,991 97,814 Exchange (losses)/gains on cash and cash equivalents (6,004) 1,085 Cash and cash equivalents at end of the year 152,798 132,991 The notes on pages 175 to 304 are an integral part of these consolidated financial statements. 174",
+          "locator": "pdf:page:175",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": "Cash-flow cell is a dash; no independently verified notation defining it as exact numeric zero. Absence of current-year repurchase transactions does not prove no cash settlement of earlier transactions.",
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": null,
+          "unit": "currency",
+          "value_status": "not_disclosed",
+          "batch_id": "batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2020/batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e/batch.json"
+          ],
+          "document_refs": [
+            "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/metadata-revisions/metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd": "metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2020/batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2021",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2021",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "Directors\u2019 Report DONATION The donation made by the Group in the year was RMB2,050 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2021, the Company repurchased 5,581,800 Shares on the Stock Exchange for an aggregate consideration of approximately HKD2,598.8 million before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2021 purchased price paid price paid paid HKD HKD HKD August 1,332,600 478.20 412.60 596,186,676 September 4,249,200 516.00 443.40 2,002,589,555 Total: 5,581,800 2,598,776,231 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s listed securities during the year ended 31 December 2021. ISSUANCE OF DEBT SECURITIES In April 2021, the Company issued four tranches of senior notes with an aggregate principal amount of USD4.15 billion under the Global Medium Term Note Programme for the Company\u2019s general corporate purposes. Details of the issuance of debt securities are set out in Note 37 to the consolidated financial statements. 32 33",
+          "locator": "pdf:page:33",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "5581800",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2021/batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b/batch.json"
+          ],
+          "document_refs": [
+            "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/metadata-revisions/metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142": "metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2021/batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2021",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2021",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2021 Year ended 31 December 2021 2020 RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 23,103 5,090 Repayments of short-term borrowings (22,944) (8,512) Proceeds from long-term borrowings 33,348 26,323 Repayments of long-term borrowings (777) (15,899) Net proceeds from issuance of notes payable 27,060 47,948 Repayments of notes payable \u2013 (10,460) Principal elements of lease payments (4,423) (3,537) Interest paid (7,525) (7,076) Payments for repurchase of shares (2,170) \u2013 Proceeds from issuance of ordinary shares as a result of exercise of share options 1,043 1,716 Shares withheld for share award schemes (2,827) (1,865) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 727 600 Proceeds from partial disposals of equity interests in non wholly-owned subsidiaries 110 \u2013 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (9,199) (9,263) Dividends paid to the Company\u2019s shareholders (12,503) (10,339) Dividends paid to non-controlling interests (1,403) (1,079) Net cash flows generated from financing activities 21,620 13,647 Net increase in cash and cash equivalents 18,257 25,811 Cash and cash equivalents at beginning of the year 152,798 132,991 Exchange losses on cash and cash equivalents (3,089) (6,004) Cash and cash equivalents at end of the year 167,966 152,798 The notes on pages 180 to 310 are an integral part of these consolidated financial statements. 178 179",
+          "locator": "pdf:page:180",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-2170",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2021/batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b/batch.json"
+          ],
+          "document_refs": [
+            "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/metadata-revisions/metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142": "metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2021/batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2022",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2022",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "Directors\u2019 Report DONATION The donations made by the Group in the year were RMB5,124 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2022, the Company repurchased a total of 107,083,000 Shares on the Stock Exchange for an aggregate consideration of approximately HKD33.8 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2022 purchased price paid price paid paid HKD HKD HKD January 4,831,400 477.40 421.00 2,196,128,575 March 4,033,000 388.20 352.80 1,500,840,680 April 7,240,000 390.00 353.20 2,701,808,700 June 2,500,000 370.00 354.00 905,252,360 July 7,870,000 356.00 332.40 2,708,481,780 August 9,950,000 334.00 307.80 3,163,872,380 September 25,020,000 332.20 263.80 7,391,913,354 October 15,050,000 282.40 246.20 3,920,319,332 November 11,032,800 292.60 259.00 3,086,868,603 December 19,555,800 339.40 291.80 6,218,582,866 Total: 107,083,000 33,794,068,630 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s listed securities during the year ended 31 December 2022. 32",
+          "locator": "pdf:page:33",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "107083000",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2022/batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf/batch.json"
+          ],
+          "document_refs": [
+            "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/metadata-revisions/metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b": "metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2022/batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2022",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2022",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2022 Year ended 31 December 2022 2021 RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 7,701 23,103 Repayments of short-term borrowings (15,378) (22,944) Proceeds from long-term borrowings 22,535 33,348 Repayments of long-term borrowings (8,451) (777) Net proceeds from issuance of notes payable \u2013 27,060 Principal elements of lease payments (5,969) (4,423) Interest paid (9,342) (7,525) Payments for repurchase of shares (29,307) (2,170) Proceeds from issuance of ordinary shares as a result of exercise of share options 995 1,043 Shares withheld for share award schemes (2,882) (2,827) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 8 727 Proceeds from partial disposals of equity interests in non wholly-owned subsidiaries \u2013 110 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (4,746) (9,199) Dividends paid to the Company\u2019s shareholders (12,952) (12,503) Dividends paid to non-controlling interests (2,165) (1,403) Net cash flows (used in)/generated from financing activities (59,953) 21,620 Net (decrease)/increase in cash and cash equivalents (18,733) 18,257 Cash and cash equivalents at beginning of the year 167,966 152,798 Exchange gains/(losses) on cash and cash equivalents 7,506 (3,089) Cash and cash equivalents at end of the year 156,739 167,966 The notes on pages 142 to 275 are an integral part of these consolidated financial statements. 140 141",
+          "locator": "pdf:page:142",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-29307",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2022/batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf/batch.json"
+          ],
+          "document_refs": [
+            "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/metadata-revisions/metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b": "metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2022/batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2023",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2023",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "Directors\u2019 Report DONATION The donations made by the Group in the year were RMB2,952 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2023, the Company repurchased a total of 152,205,700 Shares on the Stock Exchange for an aggregate consideration of approximately HKD49.4 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2023 purchased price paid price paid paid HKD HKD HKD January 7,853,100 384.80 329.00 2,873,963,974.54 March 4,620,000 393.80 362.80 1,755,093,825.00 April 4,640,000 390.80 354.40 1,759,793,152.00 May 7,740,000 345.40 306.00 2,514,634,060.00 June 23,493,400 361.00 311.40 7,971,702,166.14 July 10,859,200 352.40 320.20 3,643,776,854.48 August 12,380,000 333.80 314.80 4,017,450,018.00 September 24,280,000 334.80 296.60 7,628,303,223.00 October 11,800,000 317.00 295.40 3,612,873,698.00 November 11,170,000 332.40 313.80 3,611,667,996.00 December 33,370,000 325.60 263.80 10,043,448,981.00 Total: 152,205,700 49,432,707,948.16 Save as disclosed above and in Note 35 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s listed securities during the year ended 31 December 2023. 28",
+          "locator": "pdf:page:29",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "152205700",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2023/batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991/batch.json"
+          ],
+          "document_refs": [
+            "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2023/batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2023",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2023",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2023 Year ended 31 December 2023 2022 RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 29,809 7,701 Repayments of short-term borrowings (9,889) (15,378) Proceeds from long-term borrowings 33,641 22,535 Repayments of long-term borrowings (34,116) (8,451) Repayments of notes payable (10,141) \u2013 Principal elements of lease payments (6,652) (5,969) Interest paid (11,478) (9,342) Payments for repurchase of shares (43,767) (29,307) Proceeds from issuance of ordinary shares as a result of exercise of share options 1,070 995 Payments for withholding individual income tax for share option schemes (242) \u2013 Payments for purchased/withheld of shares for share award schemes (4,378) (2,882) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 196 8 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (4,818) (4,746) Capital reductions of non-controlling interests in non wholly-owned subsidiaries (20) \u2013 Dividends paid to the Company\u2019s shareholders (20,983) (12,952) Dividends paid to non-controlling interests (805) (2,165) Net cash flows used in financing activities (82,573) (59,953) Net increase/(decrease) in cash and cash equivalents 14,228 (18,733) Cash and cash equivalents at beginning of the year 156,739 167,966 Exchange gains on cash and cash equivalents 1,353 7,506 Cash and cash equivalents at end of the year 172,320 156,739 The notes on pages 139 to 272 are an integral part of these consolidated financial statements. 138",
+          "locator": "pdf:page:139",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-43767",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2023/batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991/batch.json"
+          ],
+          "document_refs": [
+            "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2023/batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2024",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2024",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "Directors\u2019 Report DONATION The donations made by the Group in the year were RMB2,003 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2024, the Company repurchased a total of 307,238,500 Shares on the Stock Exchange for an aggregate consideration of approximately HKD112.0 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2024 purchased price paid price paid paid HKD HKD HKD January 34,110,000 304.40 271.20 9,824,604,509.00 March 16,930,000 308.60 282.80 5,010,078,160.00 April 25,860,000 317.40 303.00 8,010,247,840.00 May 27,550,000 399.80 359.80 10,445,334,088.00 June 50,280,000 392.00 367.40 19,059,646,307.00 July 23,700,000 397.00 365.20 9,013,854,402.00 August 29,320,000 385.40 365.40 11,017,639,867.00 September 41,877,400 414.20 365.20 15,881,930,806.12 October 5,051,100 482.20 424.00 2,294,908,497.32 November 19,200,000 413.40 392.20 7,726,199,532.00 December 33,360,000 430.60 395.00 13,718,939,918.00 Total: 307,238,500 112,003,383,926.44 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s listed securities during the year ended 31 December 2024. 28",
+          "locator": "pdf:page:29",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "307238500",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/batch.json"
+          ],
+          "document_refs": [
+            "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2024",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2024",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2024 Year ended 31 December 2024 2023 RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 62,563 29,809 Repayments of short-term borrowings (40,049) (9,889) Proceeds from long-term borrowings 52,021 33,641 Repayments of long-term borrowings (74,642) (34,116) Repayments of notes payable (14,213) (10,141) Principal elements of lease payments (6,369) (6,652) Interest paid (12,417) (11,478) Payments for repurchase of shares (102,331) (43,767) Proceeds from issuance of ordinary shares as a result of exercise of share options 1,932 1,070 Payments for withholding individual income tax for share option schemes (105) (242) Payments for shares purchased/withheld for share award schemes (3,420) (4,378) Proceeds from issuance of additional equity interests of non wholly-owned subsidiaries 161 196 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (8,381) (4,818) Capital reductions of non-controlling interests in non wholly-owned subsidiaries \u2013 (20) Dividends paid to the Company\u2019s shareholders (28,859) (20,983) Dividends paid to non-controlling interests (2,385) (805) Net cash flows used in financing activities (176,494) (82,573) Net (decrease)/increase in cash and cash equivalents (40,160) 14,228 Cash and cash equivalents at beginning of the year 172,320 156,739 Exchange gains on cash and cash equivalents 359 1,353 Cash and cash equivalents at end of the year 132,519 172,320 The notes on pages 134 to 264 are an integral part of these consolidated financial statements. 133",
+          "locator": "pdf:page:134",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-102331",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/batch.json"
+          ],
+          "document_refs": [
+            "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2025",
+      "expected": {
+        "key_id": "tencent-shares-repurchased-2025",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "tencent",
+          "currency": null,
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "excerpt": "Directors\u2019 Report DONATION The donations made by the Group in the year were RMB2,260 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY\u2019S LISTED SECURITIES During the year ended 31 December 2025, the Company repurchased a total of 153,415,000 Shares on the Stock Exchange for an aggregate consideration of approximately HKD80.0 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2025 purchased price paid price paid paid HKD HKD HKD January 37,060,000 424.60 364.80 14,117,031,503.00 March 5,924,000 517.50 495.00 3,003,627,164.10 April 8,430,000 510.50 419.60 3,905,420,932.80 May 9,784,000 524.00 496.20 5,004,217,423.60 June 20,669,000 520.50 490.00 10,509,720,949.40 July 7,017,000 508.00 493.00 3,502,921,791.30 August 9,191,000 620.00 583.00 5,506,079,135.80 September 19,152,000 666.50 591.00 12,112,814,316.40 October 4,916,000 683.00 648.00 3,302,995,965.60 November 9,232,000 640.50 606.50 5,721,148,388.80 December 22,040,000 625.50 592.50 13,350,322,007.40 Total: 153,415,000 80,036,299,578.20 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company\u2019s listed securities during the year ended 31 December 2025. 28",
+          "locator": "pdf:page:29",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "153415000",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2025/batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d/batch.json"
+          ],
+          "document_refs": [
+            "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2025/batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2025",
+      "expected": {
+        "key_id": "tencent-ordinary-share-repurchase-cash-payments-2025",
+        "dataset_id": "financial-observations",
+        "subject_id": "tencent",
+        "source_id": "tencent-reports",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "millions",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "tencent",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2025 Year ended 31 December 2025 2024 Note RMB\u2019Million RMB\u2019Million Cash flows from financing activities Proceeds from short-term borrowings 113,557 62,563 Repayments of short-term borrowings (121,385) (40,049) Proceeds from long-term borrowings 108,683 52,021 Repayments of long-term borrowings (48,530) (74,642) Net proceeds from issuance of notes payable 8,968 \u2013 Repayments of notes payable (8,587) (14,213) Principal elements of lease payments 19(b) (6,783) (6,369) Interest paid (13,180) (12,417) Payments for repurchase of shares (73,312) (102,331) Proceeds from issuance of ordinary shares as a result of exercise of share options 2,721 1,932 Payments for withholding individual income tax for share option schemes (954) (105) Payments for shares purchased/withheld for share award schemes (4,869) (3,420) Proceeds from issuance of additional equity interests of non wholly-owned subsidiaries 582 161 Proceeds from transfer of interests in subsidiaries to non-controlling interests 83 \u2013 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (4,242) (8,381) Dividends paid to the Company\u2019s shareholders (37,535) (28,859) Dividends paid to non-controlling interests (2,372) (2,385) Net cash flows used in financing activities (87,155) (176,494) Net increase/(decrease) in cash and cash equivalents 10,165 (40,160) Cash and cash equivalents at beginning of the year 132,519 172,320 Exchange (losses)/gains on cash and cash equivalents (1,643) 359 Cash and cash equivalents at end of the year 32(a) 141,041 132,519 The notes on pages 140 to 272 are an integral part of these consolidated financial statements. 139",
+          "locator": "pdf:page:140",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "millions",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-73312",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d",
+          "source_id": "tencent-reports",
+          "batch_refs": [
+            "data/inputs/companies/tencent/financials/2025/batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d/batch.json"
+          ],
+          "document_refs": [
+            "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2025/batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2018",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2018",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2018-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "units",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2018-01-01",
+          "period_end": "2018-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "2018 report page50 explicitly states no listed securities purchased/sold/redeemed during2018, subject to disclosed exceptions; precedingpage49 describes January2019 and is not included. Zero applies to listed ClassB share buybacks in2018, not all pre-IPO capital events.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "48 voting rights of the Company shall not be increased, pursuant to the requirements under Rules 8A.13 and 8A.15 of the Listing Rules. A total of 5,591,700 Class A Shares were converted in Class B Shares on a one-to-one ratio on February 1, 2019, of which Lei Jun, through Smart Mobile Holdings Limited, converted 3,587,263 Class A Shares and Lin Bin, through Bin Lin Trust, converted 2,004,437 Class A Shares. Save as disclosed above, neither the Company nor any of its subsidiaries purchased, sold or redeemed any of the Company\u2019s securities listed on the Stock Exchange during the year ended December 31, 2018. Share Option Schemes The Company has adopted two share options schemes, namely the Pre-IPO ESOP and the Post-IPO Share Option Scheme. Each of two subsidiaries of the Company, Xiaomi Finance and Pinecone International, has adopted two share options schemes, respectively, which are XMF Share Option Scheme I, XMF Share Option Scheme II, Pinecone Share Option Scheme I and Pinecone Share Option Scheme II. 1. Pre-IPO ESOP The following is a summary of principal terms of the Pre-IPO ESOP adopted by the Company on May 5, 2011, superseded on August 24, 2012. (a)Purpose The purpose of the Pre-IPO ESOP is to promote the success and enhance the value of the Company, by linking the personal interests of the members of the Board, employees, consultants and other individuals to those of the Shareholders and, by providing such individuals with an incentive for outstanding performance, to generate superior returns to the Shareholders. The Pre-IPO ESOP is further intended to provide flexibility to the Company in its ability to motivate, attract and retain the services of recipients upon whose judgment, interest and special effort the successful conduct of the Company\u2019s operation is largely dependent. (b) Eligible participants The eligible participants include employees, consultants, all members of the Board, and other individuals, as determined, authorized and approved by the Board or a committee authorized by the Board. Awards in the form of share options, restricted share awards and restricted stock units (\u201cRSU\u201d) may be granted to selected participants. (c) Maximum number of shares available for issue The overall limit on the number of Shares which may be issued pursuant to the Pre-IPO ESOP is 251,307,455 Class B Shares, which was subsequently adjusted by the Board to 2,512,694,900 Class B Shares (adjusted after taking into account the share subdivision which took place on June 17, 2018).",
+          "locator": "pdf:page:50",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "units",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "0",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-4ff9bb7a7501325ece8193783cdf026ed03100c8711e60f2f9845f769455f5d1",
+          "source_id": "xiaomi-2018-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2018/batch-4ff9bb7a7501325ece8193783cdf026ed03100c8711e60f2f9845f769455f5d1/batch.json"
+          ],
+          "document_refs": [
+            "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/metadata-revisions/metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744": "metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2018/batch-4ff9bb7a7501325ece8193783cdf026ed03100c8711e60f2f9845f769455f5d1/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2019",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2019",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2019-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2019-01-01",
+          "period_end": "2019-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "291 25 Share capital and treasury shares (continued) (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2018 and 2019 \u2014 \u2014 Shares repurchased 358,196 2,932,111 Shares cancelled (227,956) (1,879,289) As of December 31, 2019 130,240 1,052,822 During the year ended December 31, 2019, the Company repurchased its own ordinary shares on the Stock Exchange of Hong Kong Limited as follows: Number of Highest Lowest price shares price paid paid per Aggregate Month/Year per share share price paid \u2019000 HK$ HK$ HK$ January 2019 19,972 10.20 9.74 199,931,233 June 2019 97,928 10.04 8.96 925,210,318 July 2019 7,610 10.00 9.70 74,840,553 September 2019 91,254 9.38 8.73 824,790,890 October 2019 31,115 9.12 8.82 280,023,901 November 2019 44,828 9.00 8.79 399,982,282 December 2019 65,489 9.09 8.85 589,464,196 Total 358,196 3,294,243,373",
+          "locator": "pdf:page:293",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "358196",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658",
+          "source_id": "xiaomi-2019-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/batch.json"
+          ],
+          "document_refs": [
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2019",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2019",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2019-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2019-01-01",
+          "period_end": "2019-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "190 Year ended December 31, Note 2019 2018 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 17,036,724 10,269,415 Repayment of borrowings (10,417,425) (10,505,637) Finance expenses paid (218,994) (243,966) Placement of restricted cash \u2014 (4,152,345) Withdrawal of restricted cash 75,773 5,059,245 Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary (187,000) (165,000) Proceeds from fund investors \u2014 2,781,000 Net proceeds from issuance of ordinary shares relating to the initial public offering \u2014 23,248,620 Net proceeds from exercise of share options 186,838 \u2014 Payments for shares repurchase (2,932,111) \u2014 Payment of lease liabilities (578,063) \u2014 Capital contribution from non-controlling interests 155,496 \u2014 Proceeds from release of ordinary shares from Share Scheme Trust \u2014 91,967 Others \u2014 190,873 Net cash generated from financing activities 3,121,238 26,574,172 Net (decrease)/increase in cash and cash equivalents (4,638,544) 17,651,561 Cash and cash equivalents at the beginning of the year 24(a) 30,230,147 11,563,282 Effects of exchange rate changes on cash and cash equivalents 328,258 1,015,304 Cash and cash equivalents at the end of the year 24(a) 25,919,861 30,230,147 The notes on pages 191 to 325 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:192",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2019-12-31",
+          "period_start": "2019-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-2932111",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658",
+          "source_id": "xiaomi-2019-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/batch.json"
+          ],
+          "document_refs": [
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2018",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2018",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2019-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2018-01-01",
+          "period_end": "2018-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "unknown",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "unavailable",
+      "observed_count": 0,
+      "unavailable_count": 1,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Source cash-flow dash retained as explicitly unresolved numerical disclosure; no zero imputed. 2018 comparative column of2019report; vintage remains report publication and restatementunknown.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "190 Year ended December 31, Note 2019 2018 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 17,036,724 10,269,415 Repayment of borrowings (10,417,425) (10,505,637) Finance expenses paid (218,994) (243,966) Placement of restricted cash \u2014 (4,152,345) Withdrawal of restricted cash 75,773 5,059,245 Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary (187,000) (165,000) Proceeds from fund investors \u2014 2,781,000 Net proceeds from issuance of ordinary shares relating to the initial public offering \u2014 23,248,620 Net proceeds from exercise of share options 186,838 \u2014 Payments for shares repurchase (2,932,111) \u2014 Payment of lease liabilities (578,063) \u2014 Capital contribution from non-controlling interests 155,496 \u2014 Proceeds from release of ordinary shares from Share Scheme Trust \u2014 91,967 Others \u2014 190,873 Net cash generated from financing activities 3,121,238 26,574,172 Net (decrease)/increase in cash and cash equivalents (4,638,544) 17,651,561 Cash and cash equivalents at the beginning of the year 24(a) 30,230,147 11,563,282 Effects of exchange rate changes on cash and cash equivalents 328,258 1,015,304 Cash and cash equivalents at the end of the year 24(a) 25,919,861 30,230,147 The notes on pages 191 to 325 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:192",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": "Cash-flow cell is a dash; no independently verified notation defining it as exact numeric zero. Absence of current-year repurchase transactions does not prove no cash settlement of earlier transactions.",
+          "period_end": "2018-12-31",
+          "period_start": "2018-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "unknown",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": null,
+          "unit": "currency",
+          "value_status": "not_disclosed",
+          "batch_id": "batch-cb2254d77f3427a76f1d937d9992d401ea9cd0b9be76e7ac4ef7c0de955cd0ba",
+          "source_id": "xiaomi-2019-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2018/batch-cb2254d77f3427a76f1d937d9992d401ea9cd0b9be76e7ac4ef7c0de955cd0ba/batch.json"
+          ],
+          "document_refs": [
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2018/batch-cb2254d77f3427a76f1d937d9992d401ea9cd0b9be76e7ac4ef7c0de955cd0ba/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2020",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2020",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2020-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2020-01-01",
+          "period_end": "2020-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "328 XIAOMI CORPORATION NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, \u201cShare Scheme Trusts\u201d). (b) On December 9, 2020, the Company allotted and issued 1,000,000,000 Class B ordinary shares to independent third parties, at the price of HK$23.70 for each placing share, and raised gross proceeds of approximately HK$23,700,000,000 (equivalent to RMB19,946,103,000). The respective share capital amount was approximately RMB16,000 and share premium arising from the issuance was approximately RMB19,907,920,000, net of the share issuance costs. The share issuance costs paid and payable mainly include share underwriting commissions and other related costs, which are incremental costs directly attributable to the issuance of the new shares. These costs amounting to RMB38,167,000 were treated as a deduction against the share premium arising from the issuance. (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2019 \u2014\u2014 Shares repurchased 358,196 2,932,111 Shares cancelled (227,956) (1,879,289) As of December 31, 2019 130,240 1,052,822 As of January 1, 2020 130,240 1,052,822 Shares repurchased 48,410 454,872 Shares cancelled (158,727) (1,345,663) Release of ordinary shares from Share Scheme Trusts (15,634) (125,807) As of December 31, 2020 4,289 36,224 During the year ended December 31, 2020, the Company repurchased its own ordinary shares on the Stock Exchange of Hong Kong Limited as follows: Number of Highest price paid Lowest price paid Aggregate Month/Year shares per share per share price paid \u2019000HK$HK$HK$ April 2020 48,410 10.52 10.12 499,541,868",
+          "locator": "pdf:page:330",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "48410",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c",
+          "source_id": "xiaomi-2020-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/batch.json"
+          ],
+          "document_refs": [
+            "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/metadata-revisions/metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2": "metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2020",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2020",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2020-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2020-01-01",
+          "period_end": "2020-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "226 XIAOMI CORPORATION CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2020 (Expressed in RMB) Year ended December 31, Note 2020 2019 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 30,582,175 17,036,724 Repayment of borrowings (32,586,382) (10,417,425) Finance expenses paid (499,711) (218,994) Placement of restricted cash (531,369) \u2014 Withdrawal of restricted cash 807,192 75,773 Contribution from fund investors 3,398,000 \u2014 Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary \u2014 (187,000) Net proceeds from exercise of share options 254,476 186,838 Payments for shares repurchase (454,872) (2,932,111) Payment of lease liabilities (493,899) (578,063) Capital contribution from non-controlling interests 31,000 155,496 Issuance of convertible bonds, net of issuance costs 5,801,022 \u2014 Issuance of shares upon placement 19,907,936 \u2014 Net cash generated from financing activities 26,215,568 3,121,238 Net increase/(decrease) in cash and cash equivalents 30,415,216 (4,638,544) Cash and cash equivalents at the beginning of the year 24(a) 25,919,861 30,230,147 Effects of exchange rate changes on cash and cash equivalents (1,582,634) 328,258 Cash and cash equivalents at the end of the year 24(a) 54,752,443 25,919,861 The notes on pages 227 to 361 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:228",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2020-12-31",
+          "period_start": "2020-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-454872",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c",
+          "source_id": "xiaomi-2020-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/batch.json"
+          ],
+          "document_refs": [
+            "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/metadata-revisions/metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2": "metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2021",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2021",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2021-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "301 26 Share capital and treasury shares (continued) (a) Share capital (continued) Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, \u201cShare Scheme Trusts\u201d). (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2020 130,240 1,052,822 Shares repurchased 48,410 454,872 Shares cancelled (158,727) (1,345,663) Release of ordinary shares from Share Scheme Trusts (15,634) (125,807) As of December 31, 2020 4,289 36,224 As of January 1, 2021 4,289 36,224 Shares repurchased 343,519 7,006,824 Shares cancelled (323,305) (6,699,318) As of December 31, 2021 24,503 343,730",
+          "locator": "pdf:page:303",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "343519",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5",
+          "source_id": "xiaomi-2021-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/batch.json"
+          ],
+          "document_refs": [
+            "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/metadata-revisions/metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e": "metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2021",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2021",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2021-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "193 Year ended December 31, Note 2021 2020 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 22,528,578 30,582,175 Repayment of borrowings (13,301,236) (32,586,382) Finance expenses paid (659,987) (499,711) Placement of restricted cash \u2014 (531,369) Withdrawal of restricted cash 500,000 807,192 Contribution from fund investors 3,471,000 3,398,000 Net proceeds from exercise of share options 83,014 254,476 Payments for shares repurchase (7,006,824) (454,872) Payment of lease liabilities (1,115,859) (493,899) Capital contribution from non-controlling interests \u2014 31,000 Issuance of convertible bonds, net of issuance costs \u2014 5,801,022 Issuance of shares upon placement \u2014 19,907,936 Net cash generated from financing activities 4,498,686 26,215,568 Net (decrease)/increase in cash and cash equivalents (30,723,971) 30,415,216 Cash and cash equivalents at the beginning of the year 25(a) 54,752,443 25,919,861 Effects of exchange rate changes on cash and cash equivalents (516,893) (1,582,634) Cash and cash equivalents at the end of the year 25(a) 23,511,579 54,752,443 The notes on pages 194 to 341 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:195",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2021-12-31",
+          "period_start": "2021-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-7006824",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5",
+          "source_id": "xiaomi-2021-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/batch.json"
+          ],
+          "document_refs": [
+            "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/metadata-revisions/metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e": "metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2022",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2022",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2022-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "295 26 Share capital and treasury shares (continued) (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2021 4,289 36,224 Shares repurchased 343,519 7,006,824 Shares cancelled (323,305) (6,699,318) As of December 31, 2021 24,503 343,730 As of January 1, 2022 24,503 343,730 Shares repurchased 235,248 2,386,143 Shares cancelled (239,462) (2,539,078) As of December 31, 2022 20,289 190,795 During the year ended December 31, 2022, the Company repurchased its own ordinary shares on the Stock Exchange of Hong Kong Limited as follows: Number of Highest price Lowest price paid Aggregate Month/Year shares paid per share per share price paid \u2019000 HK$ HK$ HK$ January 2022 14,295 18.64 17.70 261,322,614 March 2022 35,209 14.60 13.46 498,281,463 April 2022 37,744 13.82 12.26 498,768,037 August 2022 26,500 11.50 10.90 297,458,009 September 2022 77,900 11.38 8.74 783,888,205 October 2022 27,600 9.46 8.32 243,760,413 December 2022 16,000 11.16 10.46 173,039,910 235,248 2,756,518,651",
+          "locator": "pdf:page:297",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "235248",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207",
+          "source_id": "xiaomi-2022-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2022/batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207/batch.json"
+          ],
+          "document_refs": [
+            "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/metadata-revisions/metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2022/batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2022",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2022",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2022-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "194 Year ended December 31, Note 2022 2021 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 19,857,851 22,528,578 Repayment of borrowings (22,649,189) (13,301,236) Finance expenses paid (1,020,229) (659,987) Withdrawal of restricted cash \u2014 500,000 Contribution from fund investors 806,000 3,471,000 Distribution to fund investors (255,576) \u2014 Net proceeds from exercise of share options 83,925 83,014 Payments for shares repurchase (2,386,143) (7,006,824) Payments for employee fund buyback (3,256) \u2014 Repayment of payables under letter of credit (1,006,397) \u2014 Payment of lease liabilities (1,281,785) (1,115,859) Net cash (used in)/generated from financing activities (7,854,799) 4,498,686 Net increase/(decrease) in cash and cash equivalents 3,304,244 (30,723,971) Cash and cash equivalents at the beginning of the year 25(a) 23,511,579 54,752,443 Effects of exchange rate changes on cash and cash equivalents 791,438 (516,893) Cash and cash equivalents at the end of the year 25(a) 27,607,261 23,511,579 The notes on pages 195 to 325 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:196",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2022-12-31",
+          "period_start": "2022-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-2386143",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207",
+          "source_id": "xiaomi-2022-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2022/batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207/batch.json"
+          ],
+          "document_refs": [
+            "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/metadata-revisions/metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2022/batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2023",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2023",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2023-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "308 XIAOMI CORPORATION NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 26 Share capital and treasury shares (continued) (a) Share capital (continued) Issued (continued): Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, \u201cShare Scheme Trusts\u201d). (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2023 20,289 190,795 Shares repurchased 133,677 1,485,385 Shares cancelled (119,200) (1,216,644) Release of ordinary shares from Share Scheme Trusts (1,938) (21,245) As of December 31, 2023 32,828 438,291 As of January 1, 2022 24,503 343,730 Shares repurchased 235,248 2,386,143 Shares cancelled (239,462) (2,539,078) As of December 31, 2022 20,289 190,795",
+          "locator": "pdf:page:310",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "133677",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec",
+          "source_id": "xiaomi-2023-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2023/batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec/batch.json"
+          ],
+          "document_refs": [
+            "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/metadata-revisions/metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3": "metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2023/batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2023",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2023",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2023-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "2023 ANNUAL REPORT 207 CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2023 (Expressed in RMB) Year ended December 31, Note 2023 2022 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 8,866,088 19,857,851 Repayment of borrowings (4,022,423) (22,649,189) Finance expenses paid (758,137) (1,020,229) Contribution from fund investors 1,417,086 806,000 Distribution to fund investors (2,884,215) (255,576) Net proceeds from exercise of share options 69,919 83,925 Payments for shares repurchase (1,356,825) (2,386,143) Payments for buyback of employee fund (31,431) (3,256) Repayment of payables under letter of credit \u2014 (1,006,397) Proceeds from financial assets sold under repurchase agreements 959,650 \u2014 Payments for buyback of financial assets sold under repurchase agreements (173,804) \u2014 Payment of lease liabilities (1,197,692) (1,281,785) Payment of deferred consideration for acquisition of intangible assets (1,393,188) \u2014 Net cash used in financing activities (504,972) (7,854,799) Net increase in cash and cash equivalents 5,626,469 3,304,244 Cash and cash equivalents at the beginning of the year 25(a) 27,607,261 23,511,579 Effects of exchange rate changes on cash and cash equivalents 397,583 791,438 Cash and cash equivalents at the end of the year 25(a) 33,631,313 27,607,261 The notes on pages 208 to 337 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:209",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2023-12-31",
+          "period_start": "2023-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-1356825",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec",
+          "source_id": "xiaomi-2023-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2023/batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec/batch.json"
+          ],
+          "document_refs": [
+            "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/metadata-revisions/metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3": "metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2023/batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2024",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2024",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-publication-evidence",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "340 XIAOMI CORPORATION NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Issued (continued): Note: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, \u201cShare Scheme Trusts\u201d). (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2024 32,828 438,291 Shares repurchased 260,375 3,531,531 Shares cancelled (272,648) (3,702,569) Release of ordinary shares from Share Scheme Trusts (16,342) (232,575) As of December 31, 2024 4,213 34,678 As of January 1, 2023 20,289 190,795 Shares repurchased 133,677 1,485,385 Shares cancelled (119,200) (1,216,644) Release of ordinary shares from Share Scheme Trusts (1,938) (21,245) As of December 31, 2023 32,828 438,291",
+          "locator": "pdf:page:342",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "260375",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549",
+          "source_id": "xiaomi-publication-evidence",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/batch.json"
+          ],
+          "document_refs": [
+            "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11/v1/document.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11": "original"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2024",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2024",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-publication-evidence",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "236 XIAOMI CORPORATION CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2024 (Expressed in RMB) Year ended December 31, Note 2024 2023 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 25,998,066 8,866,088 Repayment of borrowings (19,265,488) (4,022,423) Finance expenses paid (717,223) (758,137) Contribution from fund investors 1,653,000 1,417,086 Distribution to fund investors (1,766,749) (2,884,215) Net proceeds from exercise of share options 83,880 69,919 Payments for shares repurchase (4,047,876) (1,356,825) Payments to holders of employee fund (686,587) (31,431) Proceeds from financial assets sold under repurchase agreements 481,000 959,650 Payments for buyback of financial assets sold under repurchase agreements (372,505) (173,804) Capital injection from other non-controlling interests 400,079 \u2014 Payment for acquisition of non-controlling interests (75,809) \u2014 Dividends paid to non-controlling interests (23,286) \u2014 Payments of lease liabilities (2,476,524) (1,197,692) Payments of deferred consideration for acquisition of intangible assets (3,182,954) (1,393,188) Net cash used in financing activities (3,998,976) (504,972) Net (decrease)/increase in cash and cash equivalents (89,868) 5,626,469 Cash and cash equivalents at the beginning of the year 24(a) 33,631,313 27,607,261 Effects of exchange rate changes on cash and cash equivalents 119,997 397,583 Cash and cash equivalents at the end of the year 24(a) 33,661,442 33,631,313 The notes on pages 237 to 369 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:238",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-4047876",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549",
+          "source_id": "xiaomi-publication-evidence",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/batch.json"
+          ],
+          "document_refs": [
+            "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11/v1/document.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11": "original"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2025",
+      "expected": {
+        "key_id": "xiaomi-shares-repurchased-2025",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2025-annual",
+        "selectors": {
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "unit": "shares",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "scope": "consolidated",
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+          "company_id": "xiaomi",
+          "currency": null,
+          "dimensions": {
+            "share_class": "class-b"
+          },
+          "excerpt": "2025 ANNUAL REPORT 377 NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Issued (continued): Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, \u201cShare Scheme Trusts\u201d). (b) On March 31, 2025, the Company allotted and issued 800,000,000 Class B ordinary shares to independent third parties, at the price of HK$53.25 for each placing share, and raised gross proceeds of HK$42,600,000,000. (b) Treasury shares Number of shares Amounts \u2019000 RMB\u2019000 As of January 1, 2025 4,213 34,678 Shares repurchased 177,976 6,585,318 Shares cancelled (34,125) (1,404,300) Release of ordinary shares from Share Scheme Trusts (14,457) (487,604) As of December 31, 2025 133,607 4,728,092 As of January 1, 2024 32,828 438,291 Shares repurchased 260,375 3,531,531 Shares cancelled (272,648) (3,702,569) Release of ordinary shares from Share Scheme Trusts (16,342) (232,575) As of December 31, 2024 4,213 34,678 During the year ended December 31, 2025, the shares were repurchased at prices ranging from HK$32.60 to HK$53.25 per share, with an average price of HK$40.75 per share. During the year ended December 31, 2024, the shares were repurchased at prices ranging from HK$12.08 to HK$18.50 per share, with an average price of HK$14.91 per share.",
+          "locator": "pdf:page:379",
+          "measure_kind": "flow",
+          "metric_id": "shares-repurchased",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "177976",
+          "unit": "shares",
+          "value_status": "reported",
+          "batch_id": "batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205",
+          "source_id": "xiaomi-2025-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2025/batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205/batch.json"
+          ],
+          "document_refs": [
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2025/batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205/batch.json"
+      ],
+      "excluded": []
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2025",
+      "expected": {
+        "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2025",
+        "dataset_id": "financial-observations",
+        "subject_id": "xiaomi",
+        "source_id": "xiaomi-2025-annual",
+        "selectors": {
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "unit": "currency",
+          "scale": "thousands",
+          "measure_kind": "flow",
+          "period_type": "annual",
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "scope": "consolidated",
+          "dimensions": {},
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "restatement": "original",
+          "currency": "CNY"
+        },
+        "required": true,
+        "max_matches": 1
+      },
+      "status": "satisfied",
+      "observed_count": 1,
+      "unavailable_count": 0,
+      "rows": [
+        {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+          "company_id": "xiaomi",
+          "currency": "CNY",
+          "dimensions": {},
+          "excerpt": "2025 ANNUAL REPORT 277 CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2025 (Expressed in RMB) Year ended December 31, Note 2025 2024 RMB\u2019000 RMB\u2019000 Cash flows from financing activities Proceeds from borrowings 30,378,289 25,998,066 Repayment of borrowings (25,080,950) (19,265,488) Finance expenses paid (774,760) (717,223) Contribution from fund investors 2,393,914 1,653,000 Distribution to fund investors (3,836,543) (1,766,749) Net proceeds from exercise of share options 170,934 83,880 Payments for shares repurchase (6,172,545) (4,047,876) Issuance of shares upon placement 39,225,991 \u2014 Payments to holders of employee fund \u2014 (686,587) Proceeds from financial assets sold under repurchase agreements 367,840 481,000 Payments for buyback of financial assets sold under (501,925) (372,505) repurchase agreements Capital injection from non-controlling interests \u2014 400,079 Payment for acquisition of non-controlling interests \u2014 (75,809) Dividends paid to non-controlling interests (1,964) (23,286) Payments of lease liabilities (2,902,504) (2,476,524) Payments of deferred consideration for acquisition of intangible assets (2,499,913) (3,182,954) Net cash generated from/(used in) financing activities 30,765,864 (3,998,976) Net decrease in cash and cash equivalents (6,770,486) (89,868) Cash and cash equivalents at the beginning of the year 24(a) 33,661,442 33,631,313 Effects of exchange rate changes on cash and cash equivalents 23,421 119,997 Cash and cash equivalents at the end of the year 24(a) 26,914,377 33,661,442 The notes on pages 278 to 404 are an integral part of these consolidated financial statements.",
+          "locator": "pdf:page:279",
+          "measure_kind": "flow",
+          "metric_id": "ordinary-share-repurchase-cash-payments",
+          "metric_version": "1",
+          "missing_reason": null,
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "record_kind": "source_reported",
+          "restatement": "original",
+          "scale": "thousands",
+          "schema_version": "2",
+          "scope": "consolidated",
+          "source_value": "-6172545",
+          "unit": "currency",
+          "value_status": "reported",
+          "batch_id": "batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205",
+          "source_id": "xiaomi-2025-annual",
+          "batch_refs": [
+            "data/inputs/companies/xiaomi/financials/2025/batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205/batch.json"
+          ],
+          "document_refs": [
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+          ],
+          "document_metadata_refs": [
+            "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+          ],
+          "metadata_revision_ids": {
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+          }
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2025/batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205/batch.json"
+      ],
+      "excluded": []
+    }
+  ],
+  "required_count": 32,
+  "satisfied_required_count": 30,
+  "missing_key_ids": [
+    "tencent-ordinary-share-repurchase-cash-payments-2020",
+    "xiaomi-ordinary-share-repurchase-cash-payments-2018"
+  ],
+  "artifact_refs": [
+    "data/inputs/companies/tencent/financials/2018/batch-f670fa98722cb24f0984550391eff4e2bfdd34ae280b2c4cdf311669ddefba20/batch.json",
+    "data/inputs/companies/tencent/financials/2019/batch-6ed0e5199bf1757ba8578af8791ae85c8fe7a38fe25a8b9bd277b2b2d1555af0/batch.json",
+    "data/inputs/companies/tencent/financials/2020/batch-049da2e53a01a23a63cb162aeafd4fb80196e10b91f53aa42d3fdb775917f40e/batch.json",
+    "data/inputs/companies/tencent/financials/2021/batch-bdd8ef5c127255f9b106186aaa3110ad048e0ac074ad7a4c0c4fe6219feb4b2b/batch.json",
+    "data/inputs/companies/tencent/financials/2022/batch-010c516eecd56661bf85fa90029076c0061dfb1f15f7b19bc222766ebd01adbf/batch.json",
+    "data/inputs/companies/tencent/financials/2023/batch-bf24d71fd772c8bdbcf44c814291845bf99a1e5e91b265630e1e6d6beee2d991/batch.json",
+    "data/inputs/companies/tencent/financials/2024/batch-79408da5f6c4980e38a1f76ec7421bb62a6da3ca27804b980030b3802b7a8538/batch.json",
+    "data/inputs/companies/tencent/financials/2025/batch-ad6b2b2634881132e35c242933320783703b29e22f8e0c71eded2a2faacfd96d/batch.json",
+    "data/inputs/companies/xiaomi/financials/2018/batch-4ff9bb7a7501325ece8193783cdf026ed03100c8711e60f2f9845f769455f5d1/batch.json",
+    "data/inputs/companies/xiaomi/financials/2018/batch-cb2254d77f3427a76f1d937d9992d401ea9cd0b9be76e7ac4ef7c0de955cd0ba/batch.json",
+    "data/inputs/companies/xiaomi/financials/2019/batch-6b98c321160742de2eaaa18827bce17ca0f9267276932ffa486e4aedf5e68658/batch.json",
+    "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/batch.json",
+    "data/inputs/companies/xiaomi/financials/2021/batch-61e82df117595007d3fbb9fd0d32ae4a090eadf0cf39223a00f6fb0807db65f5/batch.json",
+    "data/inputs/companies/xiaomi/financials/2022/batch-f469f5608b922cdc96046d4aa3e945332636505ad43d9e59e0b8516bc4455207/batch.json",
+    "data/inputs/companies/xiaomi/financials/2023/batch-59577f3e451ac9de601ce3aa6629f66078250c445acdb2106513b2e0e6bbdbec/batch.json",
+    "data/inputs/companies/xiaomi/financials/2024/batch-b5e25cdfca77f124a6063352dd311dac2b8a33ee69c3b9fc108dcc11b5a08549/batch.json",
+    "data/inputs/companies/xiaomi/financials/2025/batch-f2e71c75f91416d9a56d9146b4511278e2f09bd21ddc7719d1356efa499e6205/batch.json"
+  ],
+  "limitations": [
+    "Completeness is limited to declared exact keys, not all published reports or internet sources",
+    "Unavailable or non-disclosed values never satisfy required numeric inputs"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-788879151c0b4d1eb30a8edd89d38d2e",
+  "summary": "profile audit",
+  "issues": [],
+  "next_actions": []
+}

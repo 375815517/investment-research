@@ -1,0 +1,36 @@
+{
+  "collection_context": {
+    "delivery": {
+      "archive_permissions": "research-only",
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:44:18.792948+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/088f878a0f594c2491eb81aafaed49a0/response-c6138d420fc640f0a7b8d3c0b7ad9994.json",
+      "request": {
+        "parameter_names": [
+          "param"
+        ],
+        "source_id": "tencent-chart"
+      },
+      "rows": 84,
+      "sha256": "6b2c08d1f7ab529c4b0debc7f0e4a63abed300b69b92b2d1e339bdcfa43ffb4c",
+      "size_bytes": 15114,
+      "source_id": "tencent-chart",
+      "usage_basis": "User-authorized bounded investment research; no redistribution license established"
+    },
+    "parameters": {
+      "param": "hk00700,day,2026-07-01,2026-10-29,320,"
+    }
+  },
+  "collection_id": "collection-afdf37ba21db4768aa9287ae6cba748d",
+  "document_id": "doc-6b2c08d1f7ab529c4b0debc7f0e4a63abed300b69b92b2d1e339bdcfa43ffb4c",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:44:18.794706+00:00",
+  "origin_url": null,
+  "publication_assertion": null,
+  "sha256": "6b2c08d1f7ab529c4b0debc7f0e4a63abed300b69b92b2d1e339bdcfa43ffb4c",
+  "source_id": "tencent-chart",
+  "status": "received"
+}

@@ -1,0 +1,51 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-e4f2b6a6cc47b803dbafbbb1590c900925ddd21c09b474492cb922cac1c8eec1/candidate.json",
+  "batch_id": "batch-607f464a0849cf5c948e4b51145888a985dce9ff05ccefb4ea52da5758d90fe1",
+  "candidate_hash": "e4f2b6a6cc47b803dbafbbb1590c900925ddd21c09b474492cb922cac1c8eec1",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [
+    "data/inputs/markets/corporate-actions/tencent-hk/2019/batch-0213c02ec545a3286f7b06f8c6bdfea688a3fbc87872d8559da054da77a551ca/batch.json"
+  ],
+  "documents": [
+    "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+    "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2020/batch-607f464a0849cf5c948e4b51145888a985dce9ff05ccefb4ea52da5758d90fe1/corporate-actions.json",
+      "sha256": "550b10eebb767fd2bfc5239c175a992b213b751d7bd54aa22ad5ec79043132b5"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:12.759583+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:16:18.327835+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2018-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2020-04-02",
+      "basis": "Annual report dividend note confirms dividends paid during calendar 2019; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date and ex-date are not stated and remain unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "1.00",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "15 DIVIDENDS The dividends amounting to RMB8,305 million (final dividend for 2018: RMB6,776 million) were paid during the year ended 31 December 2019. A special dividend of approximately HKD250 million (equivalent to approximately RMB219 million) was declared in December 2018 to the shareholders of the Company by way of a distribution in respect of the separate listing of Tencent Music Entertainment Group (“TME”), a non-wholly owned subsidiary of the Group on the New York Stock Exchange. Such dividend was settled by the Group with cash and shares of TME in February 2019. A final dividend in respect of the year ended 31 December 2019 of HKD1.20 per share (2018: HKD1.00 per share) was proposed pursuant to a resolution passed by the Board on 18 March 2020 and subject to the approval of the shareholders at the 2020 annual general meeting of the Company to be held on 13 May 2020 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 208",
+      "locator": "pdf:page:209",
+      "payment_date": null,
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2018"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

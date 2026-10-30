@@ -1,0 +1,57 @@
+{
+  "candidate_id": "candidate-8fd39e69464e69b1bc074b512e7cde526acdc825f4246706e6760c15f0516a9e",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+  "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "Directors’ Report DONATION The donation made by the Group in the year was RMB2,050 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES During the year ended 31 December 2021, the Company repurchased 5,581,800 Shares on the Stock Exchange for an aggregate consideration of approximately HKD2,598.8 million before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2021 purchased price paid price paid paid HKD HKD HKD August 1,332,600 478.20 412.60 596,186,676 September 4,249,200 516.00 443.40 2,002,589,555 Total: 5,581,800 2,598,776,231 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s listed securities during the year ended 31 December 2021. ISSUANCE OF DEBT SECURITIES In April 2021, the Company issued four tranches of senior notes with an aggregate principal amount of USD4.15 billion under the Global Medium Term Note Programme for the Company’s general corporate purposes. Details of the issuance of debt securities are set out in Note 37 to the consolidated financial statements. 32 33",
+      "locator": "pdf:page:33",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "scope": "consolidated",
+      "source_value": "5581800",
+      "unit": "shares"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2021 Year ended 31 December 2021 2020 RMB’Million RMB’Million Cash flows from financing activities Proceeds from short-term borrowings 23,103 5,090 Repayments of short-term borrowings (22,944) (8,512) Proceeds from long-term borrowings 33,348 26,323 Repayments of long-term borrowings (777) (15,899) Net proceeds from issuance of notes payable 27,060 47,948 Repayments of notes payable – (10,460) Principal elements of lease payments (4,423) (3,537) Interest paid (7,525) (7,076) Payments for repurchase of shares (2,170) – Proceeds from issuance of ordinary shares as a result of exercise of share options 1,043 1,716 Shares withheld for share award schemes (2,827) (1,865) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 727 600 Proceeds from partial disposals of equity interests in non wholly-owned subsidiaries 110 – Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (9,199) (9,263) Dividends paid to the Company’s shareholders (12,503) (10,339) Dividends paid to non-controlling interests (1,403) (1,079) Net cash flows generated from financing activities 21,620 13,647 Net increase in cash and cash equivalents 18,257 25,811 Cash and cash equivalents at beginning of the year 152,798 132,991 Exchange losses on cash and cash equivalents (3,089) (6,004) Cash and cash equivalents at end of the year 167,966 152,798 The notes on pages 180 to 310 are an integral part of these consolidated financial statements. 178 179",
+      "locator": "pdf:page:180",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "scope": "consolidated",
+      "source_value": "-2170",
+      "unit": "currency"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

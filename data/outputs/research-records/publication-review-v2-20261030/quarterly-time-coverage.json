@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "company": "tencent",
+      "total_documents": 25,
+      "q1_q3": 17,
+      "q4": 8,
+      "pit_queries": 75,
+      "pit_patterns_passed": 25,
+      "status": "verified"
+    },
+    {
+      "company": "xiaomi",
+      "total_documents": 24,
+      "q1_q3": 16,
+      "q4": 8,
+      "pit_queries": 72,
+      "pit_patterns_passed": 24,
+      "status": "verified"
+    }
+  ],
+  "prior_annual_interim_pit_queries_preserved": 102,
+  "total_pit_queries": 249
+}

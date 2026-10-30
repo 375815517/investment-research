@@ -1,0 +1,44 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T11:09:35.732329+00:00",
+      "final_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+      "path": "/workspace/investment-research/.research-local/collections/f4440d1d3577476999b473155d71a918/response-30b64d2f47b047b9a4bf059a9a31dfb2.html",
+      "request": {
+        "parameter_names": [
+          "category",
+          "documentType",
+          "from",
+          "lang",
+          "market",
+          "searchType",
+          "stockId",
+          "t1code",
+          "t2Gcode",
+          "t2code",
+          "title",
+          "to"
+        ],
+        "source_id": "hkex-tencent-announcements"
+      },
+      "request_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+      "rows": 0,
+      "sha256": "b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "size_bytes": 17196,
+      "source_id": "hkex-tencent-announcements"
+    }
+  },
+  "collection_id": "collection-f1efc1114b6a4bed8c9956d35416bd86",
+  "document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:09:35.735584+00:00",
+  "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+  "publication_assertion": null,
+  "sha256": "b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+  "source_id": "hkex-tencent-announcements",
+  "status": "received"
+}

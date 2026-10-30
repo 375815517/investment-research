@@ -1,0 +1,326 @@
+[
+  {
+    "year": "2026",
+    "request": {
+      "document_id": "doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "publication": {
+        "precision": "date",
+        "date": "2026-08-25",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2026",
+      "excerpt": "Release Time: 25/08/2026 16:53 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2026 ( 5MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-3fc408fa11ff685b97448464000b99615db0acc9abf3d6ce6011aa7eb4d0170f",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/metadata-revisions/metadata-3fc408fa11ff685b97448464000b99615db0acc9abf3d6ce6011aa7eb4d0170f.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-4454f41b296649faa4aae4df05b1e77d",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0825/2026082500556.pdf",
+      "date": "25/08/2026",
+      "sha256": "4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "bytes": 5135808
+    }
+  },
+  {
+    "year": "2025",
+    "request": {
+      "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+      "publication": {
+        "precision": "date",
+        "date": "2025-08-26",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2025",
+      "excerpt": "Release Time: 26/08/2025 17:00 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2025 ( 7MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-ec875a51d62432d4c46f7d8bffd865db52416cda2a9eb58ef56a7763278fa5f4",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/metadata-revisions/metadata-ec875a51d62432d4c46f7d8bffd865db52416cda2a9eb58ef56a7763278fa5f4.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-e1a34db566f44d7395b7cc975c2d8431",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0826/2025082600676.pdf",
+      "date": "26/08/2025",
+      "sha256": "c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+      "bytes": 7267254
+    }
+  },
+  {
+    "year": "2024",
+    "request": {
+      "document_id": "doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357",
+      "publication": {
+        "precision": "date",
+        "date": "2024-08-27",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2024",
+      "excerpt": "Release Time: 27/08/2024 19:25 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2024 ( 3MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-802604f0b278b6499ed8e76e5653c204b5685b697b24c2eac32e2e96d7fa94d1",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/metadata-revisions/metadata-802604f0b278b6499ed8e76e5653c204b5685b697b24c2eac32e2e96d7fa94d1.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-71b7a5e0a14049d7a1cb437d2b56ab9a",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0827/2024082701154.pdf",
+      "date": "27/08/2024",
+      "sha256": "e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357",
+      "bytes": 2870586
+    }
+  },
+  {
+    "year": "2023",
+    "request": {
+      "document_id": "doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "publication": {
+        "precision": "date",
+        "date": "2023-08-29",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2023",
+      "excerpt": "Release Time: 29/08/2023 17:07 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2023 ( 2MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-ec0faf469f155409767e48e56660ac717478200e3aa9aeb54e437486dfbd5467",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/metadata-revisions/metadata-ec0faf469f155409767e48e56660ac717478200e3aa9aeb54e437486dfbd5467.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-59445217f04f49d886d7d589e5e2b4c3",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0829/2023082900464.pdf",
+      "date": "29/08/2023",
+      "sha256": "9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "bytes": 1965865
+    }
+  },
+  {
+    "year": "2022",
+    "request": {
+      "document_id": "doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "publication": {
+        "precision": "date",
+        "date": "2022-09-01",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2022",
+      "excerpt": "Release Time: 01/09/2022 17:56 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2022 ( 2MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-3044fea44b266dab5792d516891a93e47faf09643895b8b61ffb2368863e3c72",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/metadata-revisions/metadata-3044fea44b266dab5792d516891a93e47faf09643895b8b61ffb2368863e3c72.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-c67b52757e084a629be1e631e55eaf2d",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2022",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0901/2022090102816.pdf",
+      "date": "01/09/2022",
+      "sha256": "8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "bytes": 1722437
+    }
+  },
+  {
+    "year": "2021",
+    "request": {
+      "document_id": "doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "publication": {
+        "precision": "date",
+        "date": "2021-08-31",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2021",
+      "excerpt": "Release Time: 31/08/2021 18:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2021 ( 5MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-5d40eff4109d2cfe4b7679381cc1fd02ed4a37135132fdea850f4c727215b3dd",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/metadata-revisions/metadata-5d40eff4109d2cfe4b7679381cc1fd02ed4a37135132fdea850f4c727215b3dd.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-bef93ff709c5458bad40063dd9feb429",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2021",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0831/2021083101284.pdf",
+      "date": "31/08/2021",
+      "sha256": "a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "bytes": 4718690
+    }
+  },
+  {
+    "year": "2020",
+    "request": {
+      "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "publication": {
+        "precision": "date",
+        "date": "2020-08-26",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2020",
+      "excerpt": "Release Time: 26/08/2020 20:38 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2020 ( 4MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-b05353552c114acf9f2b703c6e11921d8a3667f7aed032683c7c25f3ee2052e4",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/metadata-revisions/metadata-b05353552c114acf9f2b703c6e11921d8a3667f7aed032683c7c25f3ee2052e4.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-beb95f24c4a44cf7a4d84322f69eb91c",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2020",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0826/2020082601141.pdf",
+      "date": "26/08/2020",
+      "sha256": "8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "bytes": 4221019
+    }
+  },
+  {
+    "year": "2019",
+    "request": {
+      "document_id": "doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "publication": {
+        "precision": "date",
+        "date": "2019-08-26",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2019",
+      "excerpt": "Release Time: 26/08/2019 18:21 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2019 ( 2085KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-a1fdb6f59e9033bb28ae9d66df94333df111c11109579a24590a0d1162115854",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/metadata-revisions/metadata-a1fdb6f59e9033bb28ae9d66df94333df111c11109579a24590a0d1162115854.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-8b88d5e0340246798b3ca39dba191311",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2019",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0826/ltn20190826349.pdf",
+      "date": "26/08/2019",
+      "sha256": "5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "bytes": 2135848
+    }
+  },
+  {
+    "year": "2018",
+    "request": {
+      "document_id": "doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "publication": {
+        "precision": "date",
+        "date": "2018-09-20",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+      "locator": "html:table:INTERIM REPORT 2018",
+      "excerpt": "Release Time: 20/09/2018 18:16 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2018 ( 4103KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-591fbbcb837b233ad073f6516f52b0673e86cb5dd7adb31dc196dea3b53e509b",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/metadata-revisions/metadata-591fbbcb837b233ad073f6516f52b0673e86cb5dd7adb31dc196dea3b53e509b.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-47b63912e6b24fc79974080b26cdd123",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2018",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0920/ltn20180920791.pdf",
+      "date": "20/09/2018",
+      "sha256": "4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "bytes": 4202148
+    }
+  }
+]

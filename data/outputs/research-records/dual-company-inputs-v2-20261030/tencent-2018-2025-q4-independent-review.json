@@ -1,0 +1,126 @@
+{
+  "reviewed_at": "2026-10-30T11:35:46.832781+00:00",
+  "reviewer": "contracts_v2-independent-q4-review",
+  "method": "Read original fourth-quarter management table headers and first-page IFRS EPS block; verify source current-quarter values, exact dates, CNY millions/per-share units, source evidence and gross reconciliation; no annual-minus-YTD derivation",
+  "results": [
+    {
+      "year": 2018,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-q4-financial-candidates.json",
+      "candidate_file_sha256": "90d59064f9c424a82ea6c150e6edb777c4ad30e327637728d0d67f8cd58ee08b",
+      "document_id": "doc-90b3e56dfcbf352e0f2a6a9e4c1410b13c97ad636002332046798aa861f7fac3",
+      "document_sha256": "90b3e56dfcbf352e0f2a6a9e4c1410b13c97ad636002332046798aa861f7fac3",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2019,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-q4-financial-candidates.json",
+      "candidate_file_sha256": "30ac08a918ce8e429d2e13d1b5ee7b7a7b64db173468fee5cef2ebe559126c99",
+      "document_id": "doc-81dd3943dab5e3c0067aa1afa1b934308b86dbf2d6c85ebca6d0d1dca73722ee",
+      "document_sha256": "81dd3943dab5e3c0067aa1afa1b934308b86dbf2d6c85ebca6d0d1dca73722ee",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2020,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-q4-financial-candidates.json",
+      "candidate_file_sha256": "fcad3e409d1c9189eead7738af117c662814c29a7984f26067a721287a26de9e",
+      "document_id": "doc-7ce7e76def2a79409797d939f7ebcbc5757d487df97f4161dcce99415d07ecc2",
+      "document_sha256": "7ce7e76def2a79409797d939f7ebcbc5757d487df97f4161dcce99415d07ecc2",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2021,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-q4-financial-candidates.json",
+      "candidate_file_sha256": "636d00bae120ab57df4289d679c4d6707f9ee599799333c505f79690ce1177fc",
+      "document_id": "doc-9a82efad92dea6b78c325201858d07146d9ebaa2bc9b1843a5d2d56497046df3",
+      "document_sha256": "9a82efad92dea6b78c325201858d07146d9ebaa2bc9b1843a5d2d56497046df3",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2022,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-q4-financial-candidates.json",
+      "candidate_file_sha256": "a6ecfd5d9280b8c51b7a7dd0d4cf485d21ce749ff482e6247fc2040fd00c3ea1",
+      "document_id": "doc-63a8000fc7006dc1e99332c523eb005d29eab53bf4b12ced7d65b4e91674d16f",
+      "document_sha256": "63a8000fc7006dc1e99332c523eb005d29eab53bf4b12ced7d65b4e91674d16f",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2023,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-q4-financial-candidates.json",
+      "candidate_file_sha256": "e7835d5432d10ba9f4efc51391dcf7d22a464de039f4b8fef5b39cdf95a0cf4e",
+      "document_id": "doc-34aeefcbb09a5f939e604ce876bd42ffa0895d32f359a85ff4808da55e99e637",
+      "document_sha256": "34aeefcbb09a5f939e604ce876bd42ffa0895d32f359a85ff4808da55e99e637",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2024,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-q4-financial-candidates.json",
+      "candidate_file_sha256": "ede042b6bcf388489bb38b4c273cff35c8a87bbddf6108285799d3b0cb916587",
+      "document_id": "doc-f5d17a222c339cab559464b4d963e986dfd4ce9ca1338ce646c044567c7a1878",
+      "document_sha256": "f5d17a222c339cab559464b4d963e986dfd4ce9ca1338ce646c044567c7a1878",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2025,
+      "period": "q4",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q4-financial-candidates.json",
+      "candidate_file_sha256": "36d4003df0f068c72eaed6a61fe42a232a41d1bba7738cc48cba7d5bf313e704",
+      "document_id": "doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d",
+      "document_sha256": "b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Quarterly disclosures explicitly unaudited even though full annual statements audited",
+    "2023Q4 operating-profit presentation changes; restated comparative figures not substituted for original periods",
+    "2018-2022 net finance costs not gross finance costs",
+    "IFRS EPS distinguished from later Non-IFRS EPS block; EPS never derived by annual subtraction",
+    "Source extraction review not assurance of issuer truth or historical publication availability"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-8f8b87c5d7ceb015f645d8237afd805dee8f1c9a05eaf53e6835f0c7de3cb470/candidate.json",
+  "batch_id": "batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c",
+  "candidate_hash": "8f8b87c5d7ceb015f645d8237afd805dee8f1c9a05eaf53e6835f0c7de3cb470",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2020/batch-49aeb756c3ab881651dca1b4fbd6a4bd85a382e2bc7a57d137fd08b06d870b0c/financial-observations.json",
+      "sha256": "d81fc0a89596ecaebda779ed56f3514fd4d24748d01567c98262e5122c2fd98f"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:30.533249+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:55:48.140189+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "328 XIAOMI CORPORATION NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in RMB unless otherwise indicated) 25 Share capital and treasury shares (continued) (a) Share capital (continued) Notes: (a) The Company issued ordinary shares with respect to the share options and RSUs under the employees share-based compensation scheme to be exercised by certain grantees of the Company to trusts, which were established to hold the shares for and on behalf of the grantees (collectively, “Share Scheme Trusts”). (b) On December 9, 2020, the Company allotted and issued 1,000,000,000 Class B ordinary shares to independent third parties, at the price of HK$23.70 for each placing share, and raised gross proceeds of approximately HK$23,700,000,000 (equivalent to RMB19,946,103,000). The respective share capital amount was approximately RMB16,000 and share premium arising from the issuance was approximately RMB19,907,920,000, net of the share issuance costs. The share issuance costs paid and payable mainly include share underwriting commissions and other related costs, which are incremental costs directly attributable to the issuance of the new shares. These costs amounting to RMB38,167,000 were treated as a deduction against the share premium arising from the issuance. (b) Treasury shares Number of shares Amounts ’000 RMB’000 As of January 1, 2019 —— Shares repurchased 358,196 2,932,111 Shares cancelled (227,956) (1,879,289) As of December 31, 2019 130,240 1,052,822 As of January 1, 2020 130,240 1,052,822 Shares repurchased 48,410 454,872 Shares cancelled (158,727) (1,345,663) Release of ordinary shares from Share Scheme Trusts (15,634) (125,807) As of December 31, 2020 4,289 36,224 During the year ended December 31, 2020, the Company repurchased its own ordinary shares on the Stock Exchange of Hong Kong Limited as follows: Number of Highest price paid Lowest price paid Aggregate Month/Year shares per share per share price paid ’000HK$HK$HK$ April 2020 48,410 10.52 10.12 499,541,868",
+      "locator": "pdf:page:330",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2020-12-31",
+      "period_start": "2020-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "48410",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "226 XIAOMI CORPORATION CONSOLIDATED STATEMENT OF CASH FLOWS For the year ended December 31, 2020 (Expressed in RMB) Year ended December 31, Note 2020 2019 RMB’000 RMB’000 Cash flows from financing activities Proceeds from borrowings 30,582,175 17,036,724 Repayment of borrowings (32,586,382) (10,417,425) Finance expenses paid (499,711) (218,994) Placement of restricted cash (531,369) — Withdrawal of restricted cash 807,192 75,773 Contribution from fund investors 3,398,000 — Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary — (187,000) Net proceeds from exercise of share options 254,476 186,838 Payments for shares repurchase (454,872) (2,932,111) Payment of lease liabilities (493,899) (578,063) Capital contribution from non-controlling interests 31,000 155,496 Issuance of convertible bonds, net of issuance costs 5,801,022 — Issuance of shares upon placement 19,907,936 — Net cash generated from financing activities 26,215,568 3,121,238 Net increase/(decrease) in cash and cash equivalents 30,415,216 (4,638,544) Cash and cash equivalents at the beginning of the year 24(a) 25,919,861 30,230,147 Effects of exchange rate changes on cash and cash equivalents (1,582,634) 328,258 Cash and cash equivalents at the end of the year 24(a) 54,752,443 25,919,861 The notes on pages 227 to 361 are an integral part of these consolidated financial statements.",
+      "locator": "pdf:page:228",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2020-12-31",
+      "period_start": "2020-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-454872",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2020-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

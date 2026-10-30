@@ -1,0 +1,37 @@
+{
+  "candidate_id": "candidate-7b0e1362bd8fd3cee2b21427964db6e253681f9a527adf676e1366299d7d664d",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+  "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Finance costs subtotal in audited notes, positive expense magnitude after capitalisation; source sign retained, must invert explicitly before signed income-statement comparisons",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Finance costs:\n Interest expense from financial liability measured at \n  amortized cost (Note 29) 42,504 —\n Interest expenses 415,465 258,235\n Less: amount capitalized (73,277) (42,501)\n384,692 215,734",
+      "locator": "pdf:page:237",
+      "measure_kind": "flow",
+      "metric_id": "finance-costs",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "384692",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2018-annual",
+  "supersedes": []
+}

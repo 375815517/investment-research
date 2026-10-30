@@ -1,0 +1,77 @@
+{
+  "finished_at": "2026-10-30T10:52:00.976191+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "daily-prices",
+    "end": "2024-03-30",
+    "source_id": "tencent-chart",
+    "start": "2024-01-01",
+    "subject_id": "tencent-hk"
+  },
+  "started_at": "2026-10-30T10:51:53.253724+00:00",
+  "status": "collected",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/original.json",
+        "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/document.json",
+        "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/candidate.json",
+        "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/validation.json",
+        "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/review.json",
+        "data/inputs/markets/prices/tencent-hk/daily/2024/batch-2444f3a38f09755bb9af9ccbd0a856eacfd560380b1a799eabfe3babcb489723/daily-prices.csv",
+        "data/inputs/markets/prices/tencent-hk/daily/2024/batch-2444f3a38f09755bb9af9ccbd0a856eacfd560380b1a799eabfe3babcb489723/batch.json",
+        "data/outputs/research-records/ingest-daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/original.json",
+        "data/inputs/source-files/tencent-chart/2026/doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904/v1/document.json",
+        "data/inputs/collection-records/tencent-chart/2026/collection-3bf74dec547f4a53aa73f483d980c855/collection.json"
+      ],
+      "document_id": "doc-3d53b1cfd3b08ed3ad019d6c38c8894dd131343cc1dec1696185ea9043315904",
+      "end": "2024-03-30",
+      "first": "2024-01-02",
+      "last": "2024-03-28",
+      "observed_rows": 61,
+      "start": "2024-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-93b46e97be1ca8d052b7c25adee76615fd02b78d61c24363706d452ef8c51f87/98bcbb83964e25382b1656639fef86e76ecaf44920e97ed12894456830d50aba.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-7093090eee6444a8a2fa7e81c914ba2e",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "daa0b0afc561a5c86b0985e809e477d6d31ccb4779a2f4966d704b238c94e6df",
+          "candidate_id": "candidate-93b46e97be1ca8d052b7c25adee76615fd02b78d61c24363706d452ef8c51f87",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 61,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    }
+  ]
+}

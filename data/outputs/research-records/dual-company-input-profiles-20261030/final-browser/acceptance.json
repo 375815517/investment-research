@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-10-30T11:38:48.425Z",
+  "service_restart_pid": 49654,
+  "scope": "Read-only actual repository browser to HTTP Service plus independent CLI invocations on identical registered profiles; final source snapshot",
+  "results": [
+    {
+      "profile": "research/input-profiles/xiaomi-annual-core/v2.json",
+      "profile_sha256": "1b63458b663ee61ea7587178a9194f665533c5f8b33f8647e80097752dead0f9",
+      "http_status": 200,
+      "cli_exit_code": 0,
+      "status": "ready",
+      "required": 224,
+      "satisfied": 224,
+      "missing": 0,
+      "ui_rows": 224,
+      "summary": "状态：在声明范围内适用；满足 224 / 224 个必需预期键（总计 224 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/tencent-annual-core/v2.json",
+      "profile_sha256": "659ac2cfda0bda21b35a81175a28224e0acf9058d55529f3d9a2ee6f67a8bbe7",
+      "http_status": 200,
+      "cli_exit_code": 3,
+      "status": "blocked",
+      "required": 224,
+      "satisfied": 219,
+      "missing": 5,
+      "ui_rows": 224,
+      "summary": "状态：已阻断；满足 219 / 224 个必需预期键（总计 224 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/xiaomi-interim-quarterly-core/v2.json",
+      "profile_sha256": "3d76f1978b63c06beecd78612ea77d6d085bf5278a6c43680b415184e8bad302",
+      "http_status": 200,
+      "cli_exit_code": 3,
+      "status": "blocked",
+      "required": 925,
+      "satisfied": 879,
+      "missing": 46,
+      "ui_rows": 925,
+      "summary": "状态：已阻断；满足 879 / 925 个必需预期键（总计 925 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/tencent-interim-quarterly-core/v2.json",
+      "profile_sha256": "3badba7c6109d8127fa505cd1fca152bfd2c9370edfaa71e37fe6991fdb161ad",
+      "http_status": 200,
+      "cli_exit_code": 3,
+      "status": "blocked",
+      "required": 952,
+      "satisfied": 919,
+      "missing": 33,
+      "ui_rows": 952,
+      "summary": "状态：已阻断；满足 919 / 952 个必需预期键（总计 952 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/xiaomi-interim-announcement-core/v1.json",
+      "profile_sha256": "9566fb9ebf6ba668f313a14089261ef6fec3148c0d58374ba2272e13b03b8365",
+      "http_status": 200,
+      "cli_exit_code": 3,
+      "status": "blocked",
+      "required": 333,
+      "satisfied": 327,
+      "missing": 6,
+      "ui_rows": 333,
+      "summary": "状态：已阻断；满足 327 / 333 个必需预期键（总计 333 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/tencent-interim-announcement-core/v1.json",
+      "profile_sha256": "e5adaa7f7079158903fc610fbb7f8b68a0c74b14a87863c8f82bb45389fb120e",
+      "http_status": 200,
+      "cli_exit_code": 3,
+      "status": "blocked",
+      "required": 333,
+      "satisfied": 321,
+      "missing": 12,
+      "ui_rows": 333,
+      "summary": "状态：已阻断；满足 321 / 333 个必需预期键（总计 333 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/xiaomi-operating-2024-2025/v1.json",
+      "profile_sha256": "e89f42e62092cbedfc0b12b70ec6435c0d71067f1935b08f744adf7ee0b32d46",
+      "http_status": 200,
+      "cli_exit_code": 0,
+      "status": "ready",
+      "required": 16,
+      "satisfied": 16,
+      "missing": 0,
+      "ui_rows": 16,
+      "summary": "状态：在声明范围内适用；满足 16 / 16 个必需预期键（总计 16 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    },
+    {
+      "profile": "research/input-profiles/tencent-operating-2024-2025/v2.json",
+      "profile_sha256": "ee5e4e611cef61f7fbb4792bfeea0f4c13b134d254ee3cae88d4cf1b88f554b2",
+      "http_status": 200,
+      "cli_exit_code": 0,
+      "status": "ready",
+      "required": 6,
+      "satisfied": 6,
+      "missing": 0,
+      "ui_rows": 6,
+      "summary": "状态：在声明范围内适用；满足 6 / 6 个必需预期键（总计 6 键）。用途与完整性分别判断，不能推广为全部研究可用。",
+      "cli_api_equivalent": true
+    }
+  ],
+  "legacy_auto_acquisition_disabled": true,
+  "page_errors": []
+}

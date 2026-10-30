@@ -1,0 +1,5038 @@
+{
+  "version": "2",
+  "companies": [
+    {
+      "company_id": "xiaomi",
+      "confirmed_security_id": "xiaomi-hk",
+      "source_id_template": "xiaomi-{year}-annual",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "interim-quarterly-core",
+          "purpose": "source_description",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "accounting_standard": "IAS34",
+          "source_id_template": null,
+          "fields": [
+            {
+              "metric_id": "revenue",
+              "field_id": "q1-revenue",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q1-cost-of-sales",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q1-gross-profit",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q1-operating-profit",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q1-finance-costs",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q1-income-tax-expense",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q1-profit-for-year",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q1-profit-attributable-to-owners",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q1-basic-eps",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q1-diluted-eps",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "q1-total-assets",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "q1-total-liabilities",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "q1-total-equity",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "q1-equity-attributable-to-owners",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "q1-cash-and-cash-equivalents",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "q1-current-assets",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "q1-current-liabilities",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "q1-inventories",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "q1-trade-receivables",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "q1-trade-payables",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "q1-short-term-borrowings",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "q1-long-term-borrowings",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "q1-operating-cash-flow",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "q1-investing-cash-flow",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "q1-financing-cash-flow",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "q1-cash-flow-net-change",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "q1-cash-flow-exchange-effect",
+              "years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "h1-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "h1-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "h1-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "h1-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "h1-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "h1-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "h1-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "h1-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "h1-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "h1-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "h1-total-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "h1-total-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "h1-total-equity",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "h1-equity-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "h1-cash-and-cash-equivalents",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "h1-current-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "h1-current-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "h1-inventories",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "h1-trade-receivables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "h1-trade-payables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "h1-short-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "h1-long-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "h1-operating-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "h1-investing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "h1-financing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "h1-cash-flow-net-change",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "h1-cash-flow-exchange-effect",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q2-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q2-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q2-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q2-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q2-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q2-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q2-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q2-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q2-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q2-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "xiaomi-reports"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q3-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q3-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q3-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q3-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q3-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q3-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q3-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q3-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q3-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q3-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "ytd-q3-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "ytd-q3-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "ytd-q3-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "ytd-q3-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "ytd-q3-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "ytd-q3-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "ytd-q3-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "ytd-q3-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "ytd-q3-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "ytd-q3-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "ytd-q3-total-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "ytd-q3-total-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "ytd-q3-total-equity",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "ytd-q3-equity-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "ytd-q3-cash-and-cash-equivalents",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "ytd-q3-current-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "ytd-q3-current-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "ytd-q3-inventories",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "ytd-q3-trade-receivables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "ytd-q3-trade-payables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "ytd-q3-short-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "ytd-q3-long-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "ytd-q3-operating-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "ytd-q3-investing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "ytd-q3-financing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "ytd-q3-cash-flow-net-change",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "ytd-q3-cash-flow-exchange-effect",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q4-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q4-revenue",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q4-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q4-cost-of-sales",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q4-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q4-gross-profit",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q4-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q4-operating-profit",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q4-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q4-finance-costs",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q4-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q4-income-tax-expense",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q4-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q4-profit-for-year",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q4-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q4-profit-attributable-to-owners",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q4-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q4-basic-eps",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q4-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q4-diluted-eps",
+              "years": [
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "xiaomi-2024-results"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "tencent",
+      "confirmed_security_id": "tencent-hk",
+      "source_id_template": "tencent-reports",
+      "financial_currency": "CNY",
+      "accounting_standard": "IFRS",
+      "profiles": [
+        {
+          "name": "interim-quarterly-core",
+          "purpose": "source_description",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "accounting_standard": "IAS34",
+          "source_id_template": null,
+          "fields": [
+            {
+              "metric_id": "revenue",
+              "field_id": "q1-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q1-revenue",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q1-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q1-cost-of-sales",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q1-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q1-gross-profit",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q1-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q1-operating-profit",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q1-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q1-finance-costs",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q1-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q1-income-tax-expense",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q1-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q1-profit-for-year",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q1-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q1-profit-attributable-to-owners",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q1-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q1-basic-eps",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q1-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q1-diluted-eps",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "q1-total-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "q1-total-assets",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "q1-total-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "q1-total-liabilities",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "q1-total-equity",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "q1-total-equity",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "q1-equity-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "q1-equity-attributable-to-owners",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "q1-cash-and-cash-equivalents",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "q1-cash-and-cash-equivalents",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "q1-current-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "q1-current-assets",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "q1-current-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "q1-current-liabilities",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "q1-inventories",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "q1-inventories",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "q1-trade-receivables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "q1-trade-receivables",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "q1-trade-payables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "q1-trade-payables",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "q1-short-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "q1-short-term-borrowings",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "q1-long-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "q1-long-term-borrowings",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "q1-operating-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "q1-operating-cash-flow",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "q1-investing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "q1-investing-cash-flow",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "q1-financing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "q1-financing-cash-flow",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "q1-cash-flow-net-change",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "q1-cash-flow-net-change",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "q1-cash-flow-exchange-effect",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "q1-cash-flow-exchange-effect",
+              "years": [
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "03-31",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "h1-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "h1-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "h1-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "h1-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "h1-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "h1-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "h1-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "h1-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "h1-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "h1-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "h1-total-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "h1-total-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "h1-total-equity",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "h1-equity-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "h1-cash-and-cash-equivalents",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "h1-current-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "h1-current-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "h1-inventories",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "h1-trade-receivables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "h1-trade-payables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "h1-short-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "h1-long-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "h1-operating-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "h1-investing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "h1-financing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "h1-cash-flow-net-change",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "h1-cash-flow-exchange-effect",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "half_year",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q2-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q2-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q2-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q2-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q2-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q2-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q2-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q2-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q2-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q2-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "04-01",
+              "period_end_month_day": "06-30",
+              "source_id_template": "tencent-reports"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q3-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q3-revenue",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q3-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q3-cost-of-sales",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q3-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q3-gross-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q3-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q3-operating-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q3-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q3-finance-costs",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q3-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q3-income-tax-expense",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q3-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q3-profit-for-year",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q3-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q3-profit-attributable-to-owners",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q3-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q3-basic-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q3-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q3-diluted-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "07-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "ytd-q3-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "ytd-q3-revenue",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "ytd-q3-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "ytd-q3-cost-of-sales",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "ytd-q3-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "ytd-q3-gross-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "ytd-q3-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "ytd-q3-operating-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "ytd-q3-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "ytd-q3-finance-costs",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "ytd-q3-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "ytd-q3-income-tax-expense",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "ytd-q3-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "ytd-q3-profit-for-year",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "ytd-q3-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "ytd-q3-profit-attributable-to-owners",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "ytd-q3-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "ytd-q3-basic-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "ytd-q3-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "ytd-q3-diluted-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "ytd-q3-total-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-assets",
+              "field_id": "ytd-q3-total-assets",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "ytd-q3-total-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-liabilities",
+              "field_id": "ytd-q3-total-liabilities",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "ytd-q3-total-equity",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "total-equity",
+              "field_id": "ytd-q3-total-equity",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "ytd-q3-equity-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "equity-attributable-to-owners",
+              "field_id": "ytd-q3-equity-attributable-to-owners",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "ytd-q3-cash-and-cash-equivalents",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-and-cash-equivalents",
+              "field_id": "ytd-q3-cash-and-cash-equivalents",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "ytd-q3-current-assets",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "current-assets",
+              "field_id": "ytd-q3-current-assets",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "ytd-q3-current-liabilities",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "current-liabilities",
+              "field_id": "ytd-q3-current-liabilities",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "ytd-q3-inventories",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "inventories",
+              "field_id": "ytd-q3-inventories",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "ytd-q3-trade-receivables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "trade-receivables",
+              "field_id": "ytd-q3-trade-receivables",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "ytd-q3-trade-payables",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "trade-payables",
+              "field_id": "ytd-q3-trade-payables",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "ytd-q3-short-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "short-term-borrowings",
+              "field_id": "ytd-q3-short-term-borrowings",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "ytd-q3-long-term-borrowings",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "long-term-borrowings",
+              "field_id": "ytd-q3-long-term-borrowings",
+              "years": [
+                2025
+              ],
+              "period_type": "instant",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "ytd-q3-operating-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-cash-flow",
+              "field_id": "ytd-q3-operating-cash-flow",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "ytd-q3-investing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "investing-cash-flow",
+              "field_id": "ytd-q3-investing-cash-flow",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "ytd-q3-financing-cash-flow",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "financing-cash-flow",
+              "field_id": "ytd-q3-financing-cash-flow",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "ytd-q3-cash-flow-net-change",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-flow-net-change",
+              "field_id": "ytd-q3-cash-flow-net-change",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "ytd-q3-cash-flow-exchange-effect",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cash-flow-exchange-effect",
+              "field_id": "ytd-q3-cash-flow-exchange-effect",
+              "years": [
+                2025
+              ],
+              "period_type": "year_to_date",
+              "period_start_month_day": "01-01",
+              "period_end_month_day": "09-30",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q4-revenue",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "revenue",
+              "field_id": "q4-revenue",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q4-cost-of-sales",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "cost-of-sales",
+              "field_id": "q4-cost-of-sales",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q4-gross-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "gross-profit",
+              "field_id": "q4-gross-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q4-operating-profit",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "operating-profit",
+              "field_id": "q4-operating-profit",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q4-finance-costs",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "finance-costs",
+              "field_id": "q4-finance-costs",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q4-income-tax-expense",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "income-tax-expense",
+              "field_id": "q4-income-tax-expense",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q4-profit-for-year",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-for-year",
+              "field_id": "q4-profit-for-year",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q4-profit-attributable-to-owners",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "profit-attributable-to-owners",
+              "field_id": "q4-profit-attributable-to-owners",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q4-basic-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "basic-eps",
+              "field_id": "q4-basic-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q4-diluted-eps",
+              "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "hkex-tencent-announcements"
+            },
+            {
+              "metric_id": "diluted-eps",
+              "field_id": "q4-diluted-eps",
+              "years": [
+                2025
+              ],
+              "period_type": "quarter",
+              "period_start_month_day": "10-01",
+              "period_end_month_day": "12-31",
+              "accounting_standard": "IFRS",
+              "source_id_template": "tencent-results"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

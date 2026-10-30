@@ -1,0 +1,66 @@
+{
+  "candidate_id": "candidate-cee1f450303bfb0f7c73de84fc62243c982beb4ebcb417071db09efbba3bc3dc",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-a"
+      },
+      "excerpt": "As of December 31, 2024, the number of issued share capital of Class A and Class B Share is 4,517,510,134",
+      "locator": "pdf:page:341",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "4517510134",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "excerpt": "and 20,581,641,676",
+      "locator": "pdf:page:341",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "20581641676",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2024-annual",
+  "supersedes": []
+}

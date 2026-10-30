@@ -1,0 +1,26 @@
+[
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "28319.389",
+    "currency": null,
+    "excerpt": "[\"2019-12-30\",\"28250.480\",\"28319.389\",\"28418.650\",\"28165.129\",\"76763046160.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2019-12-30",
+    "record_kind": "source_reported",
+    "trading_date": "2019-12-30",
+    "unit": "points"
+  },
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "28189.750",
+    "currency": null,
+    "excerpt": "[\"2019-12-31\",\"28241.430\",\"28189.750\",\"28298.461\",\"28123.859\",\"48433510400.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2019-12-31",
+    "record_kind": "source_reported",
+    "trading_date": "2019-12-31",
+    "unit": "points"
+  }
+]

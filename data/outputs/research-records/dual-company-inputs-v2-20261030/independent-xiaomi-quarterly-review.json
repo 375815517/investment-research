@@ -1,0 +1,1014 @@
+{
+  "total_records": 568,
+  "candidate_files": 32,
+  "results": [
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "15d4d2dfdb7449ade7299ce693a3c917d87edf548632b54bb8b7225a475be447",
+      "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        25,
+        27,
+        28,
+        29
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-financial-candidates.json",
+      "candidate_file_sha256": "f9fab759f83bc2ff947ec83f7d0b0e29e3177c4b48004eaae00b2a18edaa7b70",
+      "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        25
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q4-financial-candidates.json",
+      "candidate_file_sha256": "0591d9cdbb17c8eadfa7db9563a51d3f740239b83b0612f924d0cfe4658a452a",
+      "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        14
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "777eab8bb97fae05a7dbbb7a6e0224ab64175d684eb753601d141d98cc44b589",
+      "document_id": "doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "84ac88332b204b5948c7fe2d4c6874092086857d807dac5618efa85319e3a4c8",
+      "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        26,
+        28,
+        29,
+        30
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-financial-candidates.json",
+      "candidate_file_sha256": "e84a77c82b55e9ec97aacb18ba993d7b88f50e5875fa3e5ac4f652a70b9995e3",
+      "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        26
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q4-financial-candidates.json",
+      "candidate_file_sha256": "9f86749617b15eaa9bac5093afac620c5724bab3d1bf01738f067aa0ecda3ade",
+      "document_id": "doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        16
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "1c3aad7693c39ea1de1524fd4eb6a294c65c312262b9327d8769b463ef8713f3",
+      "document_id": "doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "5e02612b5784700c947c90c3e50816b32404040f9db92560d098c901ed446e10",
+      "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        27,
+        29,
+        30,
+        31
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-financial-candidates.json",
+      "candidate_file_sha256": "08f79d60742567710143c4656dcfe0d86eaed54aa71d5bafef6cf75032aa36a9",
+      "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        27
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q4-financial-candidates.json",
+      "candidate_file_sha256": "cc98a717ee70a2f354246b9d817277474e815b7cab9d2598f63e7821ae9530e2",
+      "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        16
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "3edf8ad4b235972b9de5039a41619ba6b6a5cdb2b10a04302fd637cc1250b21b",
+      "document_id": "doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "6d3e81ee2d06d70ec457adac065ec98a50f080a423e1600c13942e3c88421746",
+      "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        28,
+        30,
+        31,
+        32
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-financial-candidates.json",
+      "candidate_file_sha256": "08c6c147b0a9463af5cd9aa50bf2737ccafd6fe79cf01fc0bf9cd1ed383d1614",
+      "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        28
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q4-financial-candidates.json",
+      "candidate_file_sha256": "4c5c37043f6ec21e2088257be744aefebaf827059cc709dec8859c43c3f7514d",
+      "document_id": "doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        15
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "359a5e8d0c0f8789762250852a058f2037f2ea4c042b980225769083d9d6c234",
+      "document_id": "doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        26,
+        28,
+        29,
+        30
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "51cf15534a4acf05f3252e2e0810149edf18eadc50bf1ff86ed04f2bfb93dddc",
+      "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        27,
+        29,
+        30,
+        31
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-financial-candidates.json",
+      "candidate_file_sha256": "3049256162625848c8ab3c53944079fc59c130d8fac4e8d547f2e4f80a0ab7c1",
+      "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        27
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q4-financial-candidates.json",
+      "candidate_file_sha256": "29a6bc79fd1d470036d3add58f1f409cccdd9f1cb362c3803549d3951798e0a9",
+      "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        14
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "f74347ec0053309cca60b2bd853b0f16254d81b0d0162bedacc01ac097f1c6a2",
+      "document_id": "doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        25,
+        27,
+        28,
+        29
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "8ef38913d670d2e5b9126b5f877c379ca09b985b7026ede23dfb56f181fa2af3",
+      "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        29,
+        31,
+        32,
+        33
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-financial-candidates.json",
+      "candidate_file_sha256": "080052fbbf98ff7f203c468f72c14c4bb87ccb7b92204124387ee8f186481977",
+      "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        29
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q4-financial-candidates.json",
+      "candidate_file_sha256": "293c88c323432de2ee618bf83b0d9eb37fe362508bfdf9678b178b03892afc0d",
+      "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        13
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "ebaa817dbd86d33c1bfa42013126389ec60a6e97215190d3df4e9a8b28b6ac92",
+      "document_id": "doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "95ba27e0789e721510587efa6fbafd4a2fc06f19be96c40c6c31f1be0fdc25bc",
+      "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        33,
+        35,
+        36,
+        37
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-financial-candidates.json",
+      "candidate_file_sha256": "6a943da7c5921cd27c38ae4eb8194b092f15a8ff3f8b4c925525794021c12041",
+      "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        33
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q4-financial-candidates.json",
+      "candidate_file_sha256": "c4f9cec712b300832a6ffd0f4366ee4110f2f3267072c77d6dd01e21dd3e12c2",
+      "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        17
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "3eb9651b09fa74cb4121f5ac3567b4600e523daaab4032fe364d87993e223b5a",
+      "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        32,
+        34,
+        35,
+        36
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "9f3b45d39021aec28ea9b3353ed8a4d128ef1e07172588df28446bbff958df80",
+      "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        33,
+        35,
+        36,
+        37
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-financial-candidates.json",
+      "candidate_file_sha256": "a0eb4c4ce7250dfc12d809a40e76d655edde0e03bab706aa4d9ab6d6949ccbde",
+      "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+      "records": 10,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0"
+      },
+      "pages": [
+        33
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q4-financial-candidates.json",
+      "candidate_file_sha256": "9f56904c0a9bab13be3fa71aa01f59f14649f7b42671a6f30a6209cd15b67dab",
+      "document_id": "doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+      "records": 7,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0.0"
+      },
+      "pages": [
+        19
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    },
+    {
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2026-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "2f5d1ad4308b8215d436a36502c29555b08700e4d08145aec29c6db482f8da30",
+      "document_id": "doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+      "records": 27,
+      "errors": [],
+      "checks": {
+        "gross_profit": "0",
+        "balance_sheet": "0",
+        "cash_flows": "0"
+      },
+      "pages": [
+        30,
+        32,
+        33,
+        34
+      ],
+      "status": "approved_source_extraction",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "semantic_checks": [
+        "Every candidate excerpt found continuously in independently extracted physical PDF page; selected current-period numeric column rechecked",
+        "Read source period/scale headers: Q1 current first column; Q3 current first of four; nine-month YTD current third; Q4 management table current first",
+        "Q1/YTD/Q3 currency amounts RMB thousands; Q4 directly disclosed figures RMB millions; EPS RMB/share unscaled",
+        "Stocks use exact March31/September30 with no start; quarter and YTD flows retain distinct start/end; all 568 period/unit fields checked",
+        "Revenue plus signed cost equals gross profit; all 16 balance sheets and three cashflow sums reconcile exactly; reported signed gains/losses retained",
+        "Basis-of-preparation pages checked for IAS34; Q4 unaudited comparison table distinguished from annual financial statements"
+      ],
+      "limitations": [
+        "Q4 has seven directly reported observations, not full quarterly statements; net-finance-income does not fill gross finance-cost requirement",
+        "No annual-minus-YTD derivation or later comparative-column substitution",
+        "Quarterly source values do not imply availability at period end; official publication revisions separately verified",
+        "Connector shared evidence matching and admission validation remain required"
+      ]
+    }
+  ]
+}

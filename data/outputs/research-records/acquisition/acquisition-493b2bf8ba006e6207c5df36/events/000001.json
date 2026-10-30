@@ -1,0 +1,76 @@
+{
+  "event_hash": "5d4fa2daf5b2268b024250a5b4c87f7c13b6d75df05fbfc33af13dc9e46d9f4e",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-4210d509e36e4fbea1ba32aba8faaacd/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c",
+      "item_id": "item-32f9d080209ee5550d1c6761",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2021",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0323/2022032300442.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-454a268914065e856a7c6e94",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "PAYMENT OF SPECIAL INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF SHARES IN JD.COM, INC.",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0325/2022032502414.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-5d493b928b159c6568cbac59",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2022",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0322/2023032200287.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-778794f1b25a26308a6f5086",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS B ORDINARY SHARES OF MEITUAN; RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600357.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-d66bf98a7f70926eeccc0ed2",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "PAYMENT OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF SHARES IN MEITUAN",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0324/2023032400883.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-fbb03f692d54666d9e7f1469",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS A ORDINARY SHARES OF JD.COM, INC.; RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1223/2021122300040.pdf"
+    }
+  ],
+  "previous_hash": null,
+  "recorded_at": "2026-10-30T11:05:21.972326+00:00",
+  "sequence": 1,
+  "task_id": "acquisition-493b2bf8ba006e6207c5df36"
+}

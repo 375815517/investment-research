@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:52:32.803066+00:00",
+      "final_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+      "path": "/workspace/investment-research/.research-local/collections/261cde9d95054bcdb9483f6e41a57ed2/response-f1662b81be35414181f2c34205438f3f.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "sfc-tencent"
+      },
+      "request_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+      "rows": 0,
+      "sha256": "f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "size_bytes": 548089,
+      "source_id": "sfc-tencent"
+    }
+  },
+  "collection_id": "collection-f29a3a15cf1447a3837a550e9111a8f2",
+  "document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:52:32.896489+00:00",
+  "origin_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+  "publication_assertion": null,
+  "sha256": "f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+  "source_id": "sfc-tencent",
+  "status": "unchanged"
+}

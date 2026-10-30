@@ -1,0 +1,30 @@
+{
+  "collection_context": {
+    "method": "POST",
+    "parameters": {
+      "category": "0",
+      "documentType": "-1",
+      "from": "20190101",
+      "lang": "EN",
+      "market": "SEHK",
+      "searchType": "0",
+      "stockId": "7609",
+      "t1code": "-2",
+      "t2Gcode": "-2",
+      "t2code": "-2",
+      "title": "ANNUAL REPORT",
+      "to": "20261030"
+    }
+  },
+  "collection_id": "collection-14bfdc0186aa437597c5d3439687ea6c",
+  "document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:57:55.242964+00:00",
+  "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+  "publication_assertion": null,
+  "sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+  "source_id": "tencent-publication-evidence",
+  "status": "unchanged"
+}

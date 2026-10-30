@@ -1,0 +1,31 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "annual",
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "来源合并披露固定资产、在建工程及投资物业现金购买或预付款，不含另列无形资产或土地付款。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "property-construction-investment-cash-payments",
+      "page": 133,
+      "pattern": "Purchase\\ of/prepayments\\ for\\ property,\\ plant\\ and\\ equipment,\\ \\\n\\ construction\\ in\\ progress\\ and\\ investment\\ properties\\ \\(62,927\\)\\ \\(21,008\\)",
+      "numeric_columns": 2,
+      "value_column": 0
+    }
+  ]
+}

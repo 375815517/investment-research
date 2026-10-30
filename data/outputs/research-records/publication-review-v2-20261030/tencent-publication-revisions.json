@@ -1,0 +1,227 @@
+[
+  {
+    "year": "2025",
+    "request": {
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "publication": {
+        "precision": "date",
+        "date": "2026-04-09",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2025",
+      "excerpt": "Release Time: 09/04/2026 17:21 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2025 ( 4MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+    },
+    "attachment": {
+      "year": "2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+      "date": "09/04/2026",
+      "sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "bytes": 3999857
+    }
+  },
+  {
+    "year": "2024",
+    "request": {
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "publication": {
+        "precision": "date",
+        "date": "2025-04-08",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2024",
+      "excerpt": "Release Time: 08/04/2025 17:02 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2024 ( 5MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+    },
+    "attachment": {
+      "year": "2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+      "date": "08/04/2025",
+      "sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "bytes": 4754924
+    }
+  },
+  {
+    "year": "2023",
+    "request": {
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "publication": {
+        "precision": "date",
+        "date": "2024-04-08",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2023",
+      "excerpt": "Release Time: 08/04/2024 19:35 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2023 ( 6MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official list release date and annual report title explicitly linked. PDF binary differs from current issuer archive but all 282 physical pages have identical whitespace-normalized extracted text; counterpart archived doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d. Reviewed report-content equivalence, not proof of original binary publication. Only Hong Kong calendar date component used."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-827dabfc00807edb3ad51cd12336b0edbe7c89cc6e00c4eb00b8b3a89bd59380",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-827dabfc00807edb3ad51cd12336b0edbe7c89cc6e00c4eb00b8b3a89bd59380.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-ce2faa097ddd4618a472c03e6c027fac",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "attachment": {
+      "year": "2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0408/2024040801822.pdf",
+      "date": "08/04/2024",
+      "sha256": "d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d",
+      "bytes": 5847383
+    }
+  },
+  {
+    "year": "2022",
+    "request": {
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "publication": {
+        "precision": "date",
+        "date": "2023-04-06",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2022",
+      "excerpt": "Release Time: 06/04/2023 22:08 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2022 ( 5MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/metadata-revisions/metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499.json"
+    },
+    "attachment": {
+      "year": "2022",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0406/2023040601848.pdf",
+      "date": "06/04/2023",
+      "sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "bytes": 5068759
+    }
+  },
+  {
+    "year": "2021",
+    "request": {
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "publication": {
+        "precision": "date",
+        "date": "2022-04-07",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2021",
+      "excerpt": "Release Time: 07/04/2022 21:15 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report] ANNUAL REPORT 2021 ( 5MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/metadata-revisions/metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187.json"
+    },
+    "attachment": {
+      "year": "2021",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0407/2022040701694.pdf",
+      "date": "07/04/2022",
+      "sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "bytes": 5231807
+    }
+  },
+  {
+    "year": "2020",
+    "request": {
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "publication": {
+        "precision": "date",
+        "date": "2021-04-08",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2020",
+      "excerpt": "Release Time: 08/04/2021 21:36 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report] ANNUAL REPORT 2020 ( 2MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/metadata-revisions/metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d.json"
+    },
+    "attachment": {
+      "year": "2020",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0408/2021040802045.pdf",
+      "date": "08/04/2021",
+      "sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "bytes": 2367466
+    }
+  },
+  {
+    "year": "2019",
+    "request": {
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "publication": {
+        "precision": "date",
+        "date": "2020-04-02",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2019",
+      "excerpt": "Release Time: 02/04/2020 17:51 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report] ANNUAL REPORT 2019 ( 2MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/metadata-revisions/metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa.json"
+    },
+    "attachment": {
+      "year": "2019",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0402/2020040201883.pdf",
+      "date": "02/04/2020",
+      "sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "bytes": 2617412
+    }
+  },
+  {
+    "year": "2018",
+    "request": {
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "publication": {
+        "precision": "date",
+        "date": "2019-04-01",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2018",
+      "excerpt": "Release Time: 01/04/2019 17:46 Stock Code: 00700 Stock Short Name: TENCENT Document: Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report] ANNUAL REPORT 2018 ( 2510KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official result row explicitly binds Release Time, 00700 TENCENT, annual report year and linked PDF; downloaded linked PDF SHA256 equals archived target. Only date component adopted conservatively; minute display not promoted to a claimed exact second. Hong Kong market calendar timezone."
+    },
+    "response": {
+      "status": "already_registered",
+      "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/metadata-revisions/metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478.json"
+    },
+    "attachment": {
+      "year": "2018",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0401/ltn201904012133.pdf",
+      "date": "01/04/2019",
+      "sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "bytes": 2570492
+    }
+  }
+]

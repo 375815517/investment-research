@@ -1,0 +1,14 @@
+[
+  {
+    "basis": "Provider Hang Seng price index close in index points; not total return",
+    "benchmark_id": "hang-seng-index",
+    "close": "17809.660",
+    "currency": null,
+    "excerpt": "[\"2023-09-29\",\"17484.950\",\"17809.660\",\"17935.150\",\"17482.390\",\"67650234422.000\"]",
+    "index_type": "price_index",
+    "locator": "json:hkHSI:day:2023-09-29",
+    "record_kind": "source_reported",
+    "trading_date": "2023-09-29",
+    "unit": "points"
+  }
+]

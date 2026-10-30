@@ -1,0 +1,32 @@
+{
+  "collection_context": {
+    "displayed_results": 43,
+    "method": "POST",
+    "parameters": {
+      "category": "0",
+      "documentType": "-1",
+      "from": "20180101",
+      "lang": "EN",
+      "market": "SEHK",
+      "searchType": "0",
+      "stockId": "190371",
+      "t1code": "-2",
+      "t2Gcode": "-2",
+      "t2code": "-2",
+      "title": "RESULTS",
+      "to": "20261030"
+    },
+    "total_results": 43
+  },
+  "collection_id": "collection-8fb272eff0574c75b4097d9e5704e1d6",
+  "document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:19:04.350942+00:00",
+  "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+  "publication_assertion": null,
+  "sha256": "aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "source_id": "xiaomi-publication-evidence",
+  "status": "received"
+}

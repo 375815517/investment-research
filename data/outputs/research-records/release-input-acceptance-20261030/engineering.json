@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "format": "passed",
+    "mypy": "passed",
+    "offline_demo": "passed",
+    "pytest_passed": 363,
+    "pytest_warnings": 1,
+    "ruff": "passed",
+    "workspace_package_builds": 7
+  },
+  "command": "UV_CACHE_DIR=/workspace/.cache/uv bash scripts/check.sh",
+  "exit_code": 0,
+  "limits": [
+    "Coverage and research-purpose readiness are separate from passing engineering tests"
+  ],
+  "recorded_at": "2026-10-30T12:00:17.319816+00:00",
+  "scope": "Current implementation; legacy excluded",
+  "warning": "Starlette TestClient httpx deprecation warning"
+}

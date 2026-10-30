@@ -1,0 +1,1319 @@
+{
+  "artifact_refs": [
+    "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json",
+    "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+  ],
+  "assessment_status": "ready",
+  "findings": [],
+  "protocol_version": "1",
+  "records": [
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Issuer reported global smartphone shipments; million units; channel shipments not retail sales",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones",
+          "region": "global"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "Our global smartphone shipments reached 168.5",
+        "locator": "pdf:page:13",
+        "measure_kind": "flow",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "shipments",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "168.5",
+        "unit": "units",
+        "value_status": "reported"
+      },
+      "input_sha256": "13e1387252d6663adafd1afa99f00c11c2c757ff81e61dfedcd36087e0fb59f1",
+      "key_id": "smartphone-shipments-2024",
+      "metric_id": "shipments",
+      "normalized_value": "168500000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "units"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December global MAU including smartphones and tablets; million users; source footnote not deduplicated persons",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "global"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "In December 2024, our global MAU reached 702.3",
+        "locator": "pdf:page:15",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "702.3",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "e541de924ad0d768daaf40fe606cf334d71731b8fe0e6580a16977519fa22d07",
+      "key_id": "global-smartphone-tablet-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "702300000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December mainland China MAU including smartphones and tablets; million users, not annual average",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "mainland-china"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "our MAU in mainland \nChina reached 172.9",
+        "locator": "pdf:page:15",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "172.9",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "1c76f0f4e777d1335b7d5b3b3fdad16796bd158aa48db54b6c79825b5e69a68b",
+      "key_id": "china-smartphone-tablet-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "172900000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December Mi/Xiaomi Home App MAU; source million users; geographic universe not expressly specified here",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "mi-home-app"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "In December 2024, the MAU of our Mi Home App grew to 100.8",
+        "locator": "pdf:page:14",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "100.8",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "eab245f6418c4cd5be9201ea70654e5bc02f74b069706af806e64c15184f1a5f",
+      "key_id": "mi-home-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "100800000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "AI Assistant MAU in December discussion; source million users; 2024 source footnote includes smart EV",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "ai-assistant"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "The MAU of our AI Assistant (“⯑ポ⏎⬺”)7 grew to 137.1",
+        "locator": "pdf:page:14",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "137.1",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "c7322460e72e02b8ba10cde30adc454d1aa798f9c02808b59dd838be4a484d0b",
+      "key_id": "ai-assistant-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "137100000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December global smart TV MAU includes Xiaomi Box and Xiaomi TV Stick per source footnote; million users",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smart-tv-box-stick"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "In December 2024, the global MAU of our smart TV10 \nreached 70.7",
+        "locator": "pdf:page:15",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "70.7",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "77d905cbf4145acdf1478c8c83d1385a0fc97b6a087b42cacc003d259a5ba057",
+      "key_id": "smart-tv-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "70700000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Period-end AIoT connected devices excluding smartphones, tablets and laptops; million devices, not users or sales",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "population": "excluding-smartphones-tablets-laptops",
+          "product": "aiot-platform"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "As of December 31, 2024, the number of connected IoT devices (excluding smartphones, tablets and laptops) on \nour AIoT platform reached 904.6",
+        "locator": "pdf:page:14",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "connected-devices",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "904.6",
+        "unit": "devices",
+        "value_status": "reported"
+      },
+      "input_sha256": "44a39b66660c8bcc650c21573d646ffcdef4b56818fe267b8a9009132e0d5213",
+      "key_id": "aiot-devices-2024",
+      "metric_id": "connected-devices",
+      "normalized_value": "904600000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "devices"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Issuer actual annual smart EV vehicle deliveries; not orders or future delivery targets",
+        "batch_id": "batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2024/batch-775049846036941b9f12b8299fe66b656f8f22fd797a91f04ffc83117bbc0ca1/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smart-ev"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "In 2024, the deliveries of the Xiaomi SU7 Series \nreached 136,854",
+        "locator": "pdf:page:16",
+        "measure_kind": "flow",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "deliveries",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "units",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "136854",
+        "unit": "vehicles",
+        "value_status": "reported"
+      },
+      "input_sha256": "9b2ac173d84cfacd8ab3554cf65938326efbabbb38935800e4cd4d45d051b3fd",
+      "key_id": "smart-ev-deliveries-2024",
+      "metric_id": "deliveries",
+      "normalized_value": "136854",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "units",
+        "method": "decimal-scale-v1",
+        "multiplier": "1",
+        "to_scale": "units"
+      },
+      "unit": "vehicles"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Issuer reported global smartphone shipments; million units; channel shipments not retail sales",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones",
+          "region": "global"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "Our global \nsmartphone shipments reached 165.2",
+        "locator": "pdf:page:14",
+        "measure_kind": "flow",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "shipments",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "165.2",
+        "unit": "units",
+        "value_status": "reported"
+      },
+      "input_sha256": "898a0c387d95991991faa1e1b309c2187f4d15d4c2856035a6a88341c352d5a2",
+      "key_id": "smartphone-shipments-2025",
+      "metric_id": "shipments",
+      "normalized_value": "165200000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "units"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December global MAU including smartphones and tablets; million users; source footnote not deduplicated persons",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "global"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "In December 2025, our global MAU reached 754.1",
+        "locator": "pdf:page:16",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "754.1",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "3d56caa2680ca55f41d1e2ac9f3f331608fb631640a8e7bc297682b4cb2ad7a9",
+      "key_id": "global-smartphone-tablet-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "754100000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December mainland China MAU including smartphones and tablets; million users, not annual average",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "mainland-china"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "our MAU in the Chinese \nMainland reached 190.4",
+        "locator": "pdf:page:16",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "190.4",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "811a0a99936dfda8e9433c3a84aaf71e03a8d011e5ec3a3dfaa808570592c1e0",
+      "key_id": "china-smartphone-tablet-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "190400000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December Mi/Xiaomi Home App MAU; source million users; geographic universe not expressly specified here",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "mi-home-app"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "In December 2025, the MAU of our Xiaomi Home App grew to 112.7",
+        "locator": "pdf:page:15",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "112.7",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "f0d8bdac0ec01105e5850839998fbadcd36406cec392e850c169b51c41e4c09b",
+      "key_id": "mi-home-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "112700000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "AI Assistant MAU in December discussion; source million users; 2024 source footnote includes smart EV",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "ai-assistant"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "The MAU of our AI Assistant (“⯑ポ⏎⬺“) grew to 159.9",
+        "locator": "pdf:page:15",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "159.9",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "ab102e3728f6dcf38a754fd52f69ef72e53b069e9eb3ed84028c65fabb25add9",
+      "key_id": "ai-assistant-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "159900000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "December global smart TV MAU includes Xiaomi Box and Xiaomi TV Stick per source footnote; million users",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smart-tv-box-stick"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "In December 2025, the global MAU of our smart TVs8 \nreached 74.8",
+        "locator": "pdf:page:16",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-12-01",
+        "period_type": "month",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "74.8",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "8e8cacabb1a880e543241461f5077e2b18c169379a8001cae8b14bf3eb9300c1",
+      "key_id": "smart-tv-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "74800000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Period-end AIoT connected devices excluding smartphones, tablets and laptops; million devices, not users or sales",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "population": "excluding-smartphones-tablets-laptops",
+          "product": "aiot-platform"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "As of December 31, 2025, the number of connected IoT devices (excluding smartphones, tablets and laptops) \non our AIoT platform increased to 1,079.2",
+        "locator": "pdf:page:15",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "connected-devices",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "1079.2",
+        "unit": "devices",
+        "value_status": "reported"
+      },
+      "input_sha256": "5dc2295833b764287b6dd330bdfcd5b1cb01556d15f27c842f9bc17886f75118",
+      "key_id": "aiot-devices-2025",
+      "metric_id": "connected-devices",
+      "normalized_value": "1079200000.0",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "devices"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Issuer actual annual smart EV vehicle deliveries; not orders or future delivery targets",
+        "batch_id": "batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/operations/2025/batch-19c881940842089eac4b1fb5ceccdd504e94630218cb777c925d4ad167994fe6/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {
+          "product": "smart-ev"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "In 2025, we achieved total deliveries of 411,082",
+        "locator": "pdf:page:16",
+        "measure_kind": "flow",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "deliveries",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "units",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "411082",
+        "unit": "vehicles",
+        "value_status": "reported"
+      },
+      "input_sha256": "2ccc33262afd807795e452676436d499c4f9877491811f508512d7a301eda616",
+      "key_id": "smart-ev-deliveries-2025",
+      "metric_id": "deliveries",
+      "normalized_value": "411082",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "units",
+        "method": "decimal-scale-v1",
+        "multiplier": "1",
+        "to_scale": "units"
+      },
+      "unit": "vehicles"
+    }
+  ],
+  "request": {
+    "profile": {
+      "comparison_groups": [],
+      "expected_keys": [
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smartphone-shipments-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones",
+              "region": "global"
+            },
+            "measure_kind": "flow",
+            "metric_id": "shipments",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "units"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "global-smartphone-tablet-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones-and-tablets",
+              "region": "global"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "china-smartphone-tablet-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones-and-tablets",
+              "region": "mainland-china"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "mi-home-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "mi-home-app"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "ai-assistant-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "ai-assistant"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smart-tv-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smart-tv-box-stick"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "aiot-devices-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "excluding-smartphones-tablets-laptops",
+              "product": "aiot-platform"
+            },
+            "measure_kind": "stock",
+            "metric_id": "connected-devices",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "devices"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smart-ev-deliveries-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smart-ev"
+            },
+            "measure_kind": "flow",
+            "metric_id": "deliveries",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "vehicles"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smartphone-shipments-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones",
+              "region": "global"
+            },
+            "measure_kind": "flow",
+            "metric_id": "shipments",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "units"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "global-smartphone-tablet-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones-and-tablets",
+              "region": "global"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "china-smartphone-tablet-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smartphones-and-tablets",
+              "region": "mainland-china"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "mi-home-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "mi-home-app"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "ai-assistant-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "ai-assistant"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smart-tv-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smart-tv-box-stick"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-12-01",
+            "period_type": "month",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "aiot-devices-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "excluding-smartphones-tablets-laptops",
+              "product": "aiot-platform"
+            },
+            "measure_kind": "stock",
+            "metric_id": "connected-devices",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "devices"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "smart-ev-deliveries-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "product": "smart-ev"
+            },
+            "measure_kind": "flow",
+            "metric_id": "deliveries",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "vehicles"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        }
+      ],
+      "information_cutoff": null,
+      "knowledge_mode": "retrospective_explanation",
+      "profile_id": "xiaomi-operating-2024-2025",
+      "purpose": "source_description",
+      "version": "1"
+    },
+    "target_scale": "units"
+  },
+  "transform_version": "decimal-scale-v1"
+}

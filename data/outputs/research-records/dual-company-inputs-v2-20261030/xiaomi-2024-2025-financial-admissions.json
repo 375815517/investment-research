@@ -1,0 +1,202 @@
+[
+  {
+    "year": 2024,
+    "prepare": {
+      "status": "prepared",
+      "candidate_id": "candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483",
+      "candidate_hash": "50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1",
+      "record_count": 27,
+      "artifact_refs": [
+        ".research-local/candidates/candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483.json"
+      ],
+      "next_actions": [
+        "validate"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-d862651fc96b4eb9b2ae720dca3878c9",
+      "summary": "prepare",
+      "issues": []
+    },
+    "validation": {
+      "status": "review_required",
+      "validation": {
+        "candidate_id": "candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483",
+        "candidate_hash": "50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1",
+        "status": "review_required",
+        "rule_version": "v1",
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "severity": "warning",
+            "retryable": false
+          }
+        ],
+        "record_count": 27
+      },
+      "artifact_refs": [
+        ".research-local/validations/candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483/e750f718b2b00cf62a72218744f81680b5bbecf5ea49e15dd2c9421fc4ef84d7.json"
+      ],
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "next_actions": [
+        "review"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-e3dd8348be6a464589e902a3a6131b62",
+      "summary": "validate"
+    },
+    "review": {
+      "status": "approved",
+      "review_ref": ".research-local/reviews/candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483/78d79fc0c2504efe9d87935bdca8a272.json",
+      "artifact_refs": [
+        ".research-local/reviews/candidate-163f6c881755de57095e0b1efe33bbff9ea871586c857541746f4cea6b6e5483/78d79fc0c2504efe9d87935bdca8a272.json"
+      ],
+      "next_actions": [
+        "ingest_plan"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-a492e7e2423c4b45a5ab244c3313d948",
+      "summary": "review",
+      "issues": []
+    },
+    "ingest": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/candidate.json",
+        "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/validation.json",
+        "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/review.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-7f48561f2cb2f1c6613d547ea6759988869610e084f4ab3513f2bbd95f5e0d0d/financial-observations.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-7f48561f2cb2f1c6613d547ea6759988869610e084f4ab3513f2bbd95f5e0d0d/batch.json",
+        "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1",
+        "plan_id": "plan-5727dc02b6b612b5987bfde89198c0c0f7eb5f2db519f8189b05202e4852a7a3",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+          "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/candidate.json",
+          "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/validation.json",
+          "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/review.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-7f48561f2cb2f1c6613d547ea6759988869610e084f4ab3513f2bbd95f5e0d0d/financial-observations.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-7f48561f2cb2f1c6613d547ea6759988869610e084f4ab3513f2bbd95f5e0d0d/batch.json",
+          "data/outputs/research-records/ingest-50e1a67433fd97c8a55e011c8c3112d62ad1048111c26be5950a14e06d848eb1/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-746c626a24c54931bf1fd90f98186fa5",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2025,
+    "prepare": {
+      "status": "prepared",
+      "candidate_id": "candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550",
+      "candidate_hash": "7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae",
+      "record_count": 27,
+      "artifact_refs": [
+        ".research-local/candidates/candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550.json"
+      ],
+      "next_actions": [
+        "validate"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-ee6bfcbcb54545f7a02d52e643c7f405",
+      "summary": "prepare",
+      "issues": []
+    },
+    "validation": {
+      "status": "review_required",
+      "validation": {
+        "candidate_id": "candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550",
+        "candidate_hash": "7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae",
+        "status": "review_required",
+        "rule_version": "v1",
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "severity": "warning",
+            "retryable": false
+          }
+        ],
+        "record_count": 27
+      },
+      "artifact_refs": [
+        ".research-local/validations/candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550/968c79d5e9e9a4d728b37dd443909e9f36dda96c3baa8607bbe639ba8a194af1.json"
+      ],
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "next_actions": [
+        "review"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-7c298d522e3a4bb8ac4bc531722144be",
+      "summary": "validate"
+    },
+    "review": {
+      "status": "approved",
+      "review_ref": ".research-local/reviews/candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550/7936516e4d5a431ea2fd0911d164d919.json",
+      "artifact_refs": [
+        ".research-local/reviews/candidate-10178a1e8d3c7cfdc7351e6b9d8c12ee2d76474c1c4a4b6dcf24b596e24c9550/7936516e4d5a431ea2fd0911d164d919.json"
+      ],
+      "next_actions": [
+        "ingest_plan"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-4d73220e39294fafba089daa27a36b07",
+      "summary": "review",
+      "issues": []
+    },
+    "ingest": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/document.json",
+        "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/candidate.json",
+        "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/validation.json",
+        "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/review.json",
+        "data/inputs/companies/xiaomi/financials/2025/batch-0bc4919ffe58dbe0550def156b2c7a0cfe2af04cd97a08bb7797e63574b3b37b/financial-observations.json",
+        "data/inputs/companies/xiaomi/financials/2025/batch-0bc4919ffe58dbe0550def156b2c7a0cfe2af04cd97a08bb7797e63574b3b37b/batch.json",
+        "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae",
+        "plan_id": "plan-f3d7463c79b4e949b1bfff0b44c54c95f22021157272310015fbb917e1b18b3d",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/document.json",
+          "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/candidate.json",
+          "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/validation.json",
+          "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/review.json",
+          "data/inputs/companies/xiaomi/financials/2025/batch-0bc4919ffe58dbe0550def156b2c7a0cfe2af04cd97a08bb7797e63574b3b37b/financial-observations.json",
+          "data/inputs/companies/xiaomi/financials/2025/batch-0bc4919ffe58dbe0550def156b2c7a0cfe2af04cd97a08bb7797e63574b3b37b/batch.json",
+          "data/outputs/research-records/ingest-7ea0d727fb07a38f42b510291e081c0228eadd11229d86c0e7ddf04bc3954cae/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-af6f3c56b0b94c77b76b179022b2135d",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  }
+]

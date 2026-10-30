@@ -1,0 +1,213 @@
+{
+  "event_hash": "522cd22353107166016ad91f75403c46d2ddc89695dd7a35069e9cd0bacc81dd",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-5e70eeea7aca8fc7443ada8f6a55591ac5e630853779eeccf8d64dfac15c8796",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-5e70eeea7aca8fc7443ada8f6a55591ac5e630853779eeccf8d64dfac15c8796.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-a55b9c687945412db47ddd1f50e53274/collection.json"
+      ],
+      "context": "Tencent Announces 2025 Second Quarter Results",
+      "document_id": "doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-9fdb0373b405d2beaecfe897e4b98ae0575b679803c61080c4d61a937f2f325a/v1/document.json",
+        "data/outputs/research-records/ingest-04dbfd8cef46d286dcae64e1aa0fd0191f2425e0074f86fe581c35db87bed646/candidate.json",
+        "data/outputs/research-records/ingest-04dbfd8cef46d286dcae64e1aa0fd0191f2425e0074f86fe581c35db87bed646/validation.json",
+        "data/outputs/research-records/ingest-04dbfd8cef46d286dcae64e1aa0fd0191f2425e0074f86fe581c35db87bed646/review.json",
+        "data/inputs/companies/tencent/financials/2025/batch-48678b4efab16788347db5d32cb5c3a57fedeb58feecbfb0e8a260495722c8d0/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2025/batch-48678b4efab16788347db5d32cb5c3a57fedeb58feecbfb0e8a260495722c8d0/batch.json",
+        "data/outputs/research-records/ingest-04dbfd8cef46d286dcae64e1aa0fd0191f2425e0074f86fe581c35db87bed646/receipt.json"
+      ],
+      "item_id": "item-04e29e260be1cb55b1fd7b78",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/11347ac69e02473bb32a73921e575204.json": "bebf4987e555f39f4091eec326c7e029f74c8ea7e65fb0b9f3df1d87ef535068"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/11347ac69e02473bb32a73921e575204.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://static.www.tencent.com/uploads/2025/08/13/04bb9aff753a14a149d7c278f9fd29fa.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-d0afa5b76b2061f2b0d2222871acc36f769624a6e81709a52621b8cc10133977",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-d0afa5b76b2061f2b0d2222871acc36f769624a6e81709a52621b8cc10133977.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-6161a616fea14333947122f83e330119/collection.json"
+      ],
+      "context": "Tencent Announces 2025 First Quarter Results",
+      "document_id": "doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd/v1/document.json",
+        "data/outputs/research-records/ingest-6943240ebccbe1662634ae3d52d82a4ea8b5805b809d5e8bc5abbbd37abe90de/candidate.json",
+        "data/outputs/research-records/ingest-6943240ebccbe1662634ae3d52d82a4ea8b5805b809d5e8bc5abbbd37abe90de/validation.json",
+        "data/outputs/research-records/ingest-6943240ebccbe1662634ae3d52d82a4ea8b5805b809d5e8bc5abbbd37abe90de/review.json",
+        "data/inputs/companies/tencent/financials/2025/batch-f65b7f5f795ba702a7ef520095e508314b138b9fc42c5ca3e5e6e4d3738016cd/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2025/batch-f65b7f5f795ba702a7ef520095e508314b138b9fc42c5ca3e5e6e4d3738016cd/batch.json",
+        "data/outputs/research-records/ingest-6943240ebccbe1662634ae3d52d82a4ea8b5805b809d5e8bc5abbbd37abe90de/receipt.json"
+      ],
+      "item_id": "item-10b4b3881adc1cc195bc6bf1",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/2cee3745d7c0447cb9e133ac7d57f3d6.json": "28b3f98f386e7a7186ea04465d9ae778751118fc03ae6cd1a22927d5353e28a3"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/2cee3745d7c0447cb9e133ac7d57f3d6.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://static.www.tencent.com/uploads/2025/05/14/974f3a6fa84a248511004ddf4a498767.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-79b37fe2935168a851b282c270b780b2f25cb8c3ece085f2dbcfe6bb70e75fe4",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-79b37fe2935168a851b282c270b780b2f25cb8c3ece085f2dbcfe6bb70e75fe4.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-5c25eed366144cf9a8de37fc36787de2/collection.json"
+      ],
+      "context": "Tencent Announces 2025 Annual and Fourth Quarter Results",
+      "document_id": "doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/document.json",
+        "data/outputs/research-records/ingest-42fd7c63c9ce983917da67d10c69255ab965ba386518362671542fbef58937c9/candidate.json",
+        "data/outputs/research-records/ingest-42fd7c63c9ce983917da67d10c69255ab965ba386518362671542fbef58937c9/validation.json",
+        "data/outputs/research-records/ingest-42fd7c63c9ce983917da67d10c69255ab965ba386518362671542fbef58937c9/review.json",
+        "data/inputs/companies/tencent/financials/2025/batch-60d1346cc13110e696756ea10d3f161f04d4a6adee43ad77daa2c700c759fad0/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2025/batch-60d1346cc13110e696756ea10d3f161f04d4a6adee43ad77daa2c700c759fad0/batch.json",
+        "data/outputs/research-records/ingest-42fd7c63c9ce983917da67d10c69255ab965ba386518362671542fbef58937c9/receipt.json"
+      ],
+      "item_id": "item-5497a2c4e2ec0d4a8192fc58",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/b5fb33ddc84347d59ff2201966b90beb.json": "fcd0a05618643a429ea326bbf9cc70e5e13b5eccdf548bbc911c166416090b2b"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/b5fb33ddc84347d59ff2201966b90beb.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/f78591955e05a6db4e31e128bdaefefa.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-6920828bba46261946574c25577e646c0840660b391da52b9e2c3a0f2eb0377a",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-6920828bba46261946574c25577e646c0840660b391da52b9e2c3a0f2eb0377a.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-6bd15debdf3541d390258248afda2a38/collection.json"
+      ],
+      "context": "Tencent Announces 2025 Third Quarter Results",
+      "document_id": "doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf/v1/document.json",
+        "data/outputs/research-records/ingest-d502704ed56a099414d17d0db6ae3f5f90b2c41c0cc8fe947f1a4b786ea94a0b/candidate.json",
+        "data/outputs/research-records/ingest-d502704ed56a099414d17d0db6ae3f5f90b2c41c0cc8fe947f1a4b786ea94a0b/validation.json",
+        "data/outputs/research-records/ingest-d502704ed56a099414d17d0db6ae3f5f90b2c41c0cc8fe947f1a4b786ea94a0b/review.json",
+        "data/inputs/companies/tencent/financials/2025/batch-5c357427c0dfda68dbcd61958b6752b2884897f97f177887213398da1fb8b942/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2025/batch-5c357427c0dfda68dbcd61958b6752b2884897f97f177887213398da1fb8b942/batch.json",
+        "data/outputs/research-records/ingest-d502704ed56a099414d17d0db6ae3f5f90b2c41c0cc8fe947f1a4b786ea94a0b/receipt.json"
+      ],
+      "item_id": "item-8e3256bbe0e860c7960aca5d",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/b1dfb61980c74b51b44f45ee7ee3daa6.json": "2b2315a62e06b782add557f3e11b1aa047eeb763a3f88abc3b69cfeb78893dcc"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/b1dfb61980c74b51b44f45ee7ee3daa6.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://static.www.tencent.com/uploads/2025/11/13/e63656944030f90a5e4c8f1718d8bdd6.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-2bbc4704545e45370283e81e48b3621da664e4ebbb710f1d10d5e40f713462d4",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-2bbc4704545e45370283e81e48b3621da664e4ebbb710f1d10d5e40f713462d4.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-c9976b81087f4df99dc1102d383f7f4c/collection.json"
+      ],
+      "context": "Tencent Announces 2026 First Quarter Results",
+      "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/document.json",
+        "data/outputs/research-records/ingest-71a4acf7fb8fe9c8733176d953edb630ae561e222b301e218eb853d507df9f3b/candidate.json",
+        "data/outputs/research-records/ingest-71a4acf7fb8fe9c8733176d953edb630ae561e222b301e218eb853d507df9f3b/validation.json",
+        "data/outputs/research-records/ingest-71a4acf7fb8fe9c8733176d953edb630ae561e222b301e218eb853d507df9f3b/review.json",
+        "data/inputs/companies/tencent/financials/2026/batch-7e832b57955c434e2cae550171eb9a5f6f6b499e5440b183b8b04ff1795bd3e0/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2026/batch-7e832b57955c434e2cae550171eb9a5f6f6b499e5440b183b8b04ff1795bd3e0/batch.json",
+        "data/outputs/research-records/ingest-71a4acf7fb8fe9c8733176d953edb630ae561e222b301e218eb853d507df9f3b/receipt.json"
+      ],
+      "item_id": "item-980f071b6d385030e55e6a3f",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/8ead2ebd04964c09b8fbe677a49edbf9.json": "0be4dd96dca3b30d2ec27ad73a9bef47b748cea5f7f400b14652103dcafd6dd4"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/8ead2ebd04964c09b8fbe677a49edbf9.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-d56eb215b6c30f9e99f0a6874388e9f154606215065eae86b0f3a99477c5a0bb",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/candidates/candidate-d56eb215b6c30f9e99f0a6874388e9f154606215065eae86b0f3a99477c5a0bb.json",
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/document.json",
+        "data/inputs/collection-records/tencent-results/2026/collection-7afe03584b3247e6935376bb6ca39b14/collection.json"
+      ],
+      "context": "Tencent Announces 2026 Second Quarter Results",
+      "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+      "ingest_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/document.json",
+        "data/outputs/research-records/ingest-868ebaf56740becae2bacd0d2f0d578b307b7c8cc4bf75e02e2b1ef7d58e7f8b/candidate.json",
+        "data/outputs/research-records/ingest-868ebaf56740becae2bacd0d2f0d578b307b7c8cc4bf75e02e2b1ef7d58e7f8b/validation.json",
+        "data/outputs/research-records/ingest-868ebaf56740becae2bacd0d2f0d578b307b7c8cc4bf75e02e2b1ef7d58e7f8b/review.json",
+        "data/inputs/companies/tencent/financials/2026/batch-89c760a80f9be3c32f8496c0eb945190c262357d6756e1a80e8e7b3093a51450/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2026/batch-89c760a80f9be3c32f8496c0eb945190c262357d6756e1a80e8e7b3093a51450/batch.json",
+        "data/outputs/research-records/ingest-868ebaf56740becae2bacd0d2f0d578b307b7c8cc4bf75e02e2b1ef7d58e7f8b/receipt.json"
+      ],
+      "item_id": "item-aae81b47c46e5b98708b3a97",
+      "listing_document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/5cce40e8b27f477ca76a184cc8ad501d.json": "3f358e09ac139bbf178d3687c57e5e33c5abfcd0e834a22c69af631cdcf846a2"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-e8186ad31dbe18fcebeba8c4/reviews/5cce40e8b27f477ca76a184cc8ad501d.json"
+      ],
+      "stage": "verified",
+      "title": "HKEX Announcement",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf"
+    }
+  ],
+  "previous_hash": "0eca1454e9db0d3f1edf75e6358d16afd5bd455fc9e734cb24f0f4673f1fc502",
+  "recorded_at": "2026-10-30T11:44:30.959448+00:00",
+  "sequence": 30,
+  "task_id": "acquisition-e8186ad31dbe18fcebeba8c4"
+}

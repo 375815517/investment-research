@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+    "dataset_id": "corporate-actions",
+    "records": [
+      {
+        "security_id": "tencent-hk",
+        "action_id": "tencent-tme-distribution-paid",
+        "updates_action_id": "tencent-tme-distribution-declared",
+        "action_type": "spinoff",
+        "action_status": "effected",
+        "announcement_date": "2020-04-02",
+        "payment_date_precision": "period",
+        "payment_period_start": "2019-02-01",
+        "payment_period_end": "2019-02-28",
+        "share_class": "ordinary",
+        "basis": "2019 annual report explicitly confirms cash and TME-share settlement during February2019. Exact payment date and ratio are not stated here and remain null. Declaration terms are linked, not copied as source-reported terms of this confirmation.",
+        "locator": "pdf:page:209",
+        "excerpt": "15 DIVIDENDS The dividends amounting to RMB8,305 million (final dividend for 2018: RMB6,776 million) were paid during the year ended 31 December 2019. A special dividend of approximately HKD250 million (equivalent to approximately RMB219 million) was declared in December 2018 to the shareholders of the Company by way of a distribution in respect of the separate listing of Tencent Music Entertainment Group (\u201cTME\u201d), a non-wholly owned subsidiary of the Group on the New York Stock Exchange. Such dividend was settled by the Group with cash and shares of TME in February 2019. A final dividend in respect of the year ended 31 December 2019 of HKD1.20 per share (2018: HKD1.00 per share) was proposed pursuant to a resolution passed by the Board on 18 March 2020 and subject to the approval of the shareholders at the 2020 annual general meeting of the Company to be held on 13 May 2020 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 208",
+        "record_kind": "source_reported"
+      }
+    ],
+    "parser_version": "reviewed-extraction-v1"
+  },
+  "prepared": {
+    "status": "prepared",
+    "candidate_id": "candidate-8978ee71793e7bf156bbd0a8b2458f2294fbe51b7d4dd7d741e89a38d38c51fc",
+    "candidate_hash": "d47819abe9167530c5da78a0d10fe0e44f37a0e3e1fef583f442d88a3cf3faa6",
+    "record_count": 1,
+    "artifact_refs": [
+      ".research-local/candidates/candidate-8978ee71793e7bf156bbd0a8b2458f2294fbe51b7d4dd7d741e89a38d38c51fc.json"
+    ],
+    "next_actions": [
+      "validate"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-80e86b348de34382aaea8b20142213fd",
+    "summary": "prepare",
+    "issues": []
+  },
+  "status": "awaiting_independent_review_and_registered_declaration_dependency"
+}

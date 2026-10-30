@@ -1,0 +1,29 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "2018 report page50 explicitly states no listed securities purchased/sold/redeemed during2018, subject to disclosed exceptions; precedingpage49 describes January2019 and is not included. Zero applies to listed ClassB share buybacks in2018, not all pre-IPO capital events.",
+    "company_id": "xiaomi",
+    "currency": null,
+    "dimensions": {
+      "share_class": "class-b"
+    },
+    "excerpt": "48 voting rights of the Company shall not be increased, pursuant to the requirements under Rules 8A.13 and 8A.15 of the Listing Rules. A total of 5,591,700 Class A Shares were converted in Class B Shares on a one-to-one ratio on February 1, 2019, of which Lei Jun, through Smart Mobile Holdings Limited, converted 3,587,263 Class A Shares and Lin Bin, through Bin Lin Trust, converted 2,004,437 Class A Shares. Save as disclosed above, neither the Company nor any of its subsidiaries purchased, sold or redeemed any of the Company’s securities listed on the Stock Exchange during the year ended December 31, 2018. Share Option Schemes The Company has adopted two share options schemes, namely the Pre-IPO ESOP and the Post-IPO Share Option Scheme. Each of two subsidiaries of the Company, Xiaomi Finance and Pinecone International, has adopted two share options schemes, respectively, which are XMF Share Option Scheme I, XMF Share Option Scheme II, Pinecone Share Option Scheme I and Pinecone Share Option Scheme II. 1. Pre-IPO ESOP The following is a summary of principal terms of the Pre-IPO ESOP adopted by the Company on May 5, 2011, superseded on August 24, 2012. (a)Purpose The purpose of the Pre-IPO ESOP is to promote the success and enhance the value of the Company, by linking the personal interests of the members of the Board, employees, consultants and other individuals to those of the Shareholders and, by providing such individuals with an incentive for outstanding performance, to generate superior returns to the Shareholders. The Pre-IPO ESOP is further intended to provide flexibility to the Company in its ability to motivate, attract and retain the services of recipients upon whose judgment, interest and special effort the successful conduct of the Company’s operation is largely dependent. (b) Eligible participants The eligible participants include employees, consultants, all members of the Board, and other individuals, as determined, authorized and approved by the Board or a committee authorized by the Board. Awards in the form of share options, restricted share awards and restricted stock units (“RSU”) may be granted to selected participants. (c) Maximum number of shares available for issue The overall limit on the number of Shares which may be issued pursuant to the Pre-IPO ESOP is 251,307,455 Class B Shares, which was subsequently adjusted by the Board to 2,512,694,900 Class B Shares (adjusted after taking into account the share subdivision which took place on June 17, 2018).",
+    "locator": "pdf:page:50",
+    "measure_kind": "flow",
+    "metric_id": "shares-repurchased",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2018-12-31",
+    "period_start": "2018-01-01",
+    "period_type": "annual",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "units",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "0",
+    "unit": "shares",
+    "value_status": "reported"
+  }
+]

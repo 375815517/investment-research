@@ -1,0 +1,123 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "81030d008c237a3550e3a80ee37d980e91a0cc94ecf71a4a4ddb7688fabeda2e",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "source_value": "369281",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "millions",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "segment",
+      "dimensions": {
+        "segment": "value-added-services"
+      },
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:130",
+      "excerpt": "Value-added Services 369,281 319,168"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "source_value": "144973",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "millions",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "segment",
+      "dimensions": {
+        "segment": "marketing-services"
+      },
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:130",
+      "excerpt": "Marketing Services 144,973 121,374"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "source_value": "229435",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "millions",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "segment",
+      "dimensions": {
+        "segment": "fintech-business-services"
+      },
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:130",
+      "excerpt": "FinTech and Business Services 229,435 211,956"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "source_value": "8077",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "currency",
+      "scale": "millions",
+      "currency": "CNY",
+      "measure_kind": "flow",
+      "period_type": "annual",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "segment",
+      "dimensions": {
+        "segment": "others"
+      },
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:130",
+      "excerpt": "Others 8,077 7,759"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+  "document_sha256": "5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+  "evidence_document_id": "doc-47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+  "evidence_sha256": "47d2749dde0edd45a88bdb3ca7b09a440c4c3938b46e92e45f3fb98e36c8c9ab",
+  "excerpt": "Release Time: 28/09/2021 16:36 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Financial Statements/ESG Information - [Interim/Half-Year Report] 2021 Interim Report ( 1MB )",
+  "locator": "html:table:2021 Interim Report",
+  "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2021-09-28",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:02:36.166240+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-a1dc93dc97127e06faa66bd9bbb77f3b67b6c5d89c48270f49d1b6a675f44035",
+  "supporting_documents": []
+}

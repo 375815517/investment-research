@@ -1,0 +1,15 @@
+provider_id: xiaomi-results
+url: https://ir.mi.com/financial-information/quarterly-results
+connector_id: http-document-v1
+dataset_id: financial-facts
+allowed_hosts:
+- ir.mi.com
+allowed_parameters: []
+max_pages: 1
+max_bytes: 32000000
+archive_permissions: research-only
+usage_basis: User-authorized archive of public issuer reports; no open redistribution
+  license
+known_limitations:
+- Annual listing year is not a publication timestamp
+link_pattern: \.pdf(?:\?|$)|/static-files/[a-f0-9-]+(?:\?|$)

@@ -1,0 +1,26 @@
+{
+  "status": "received",
+  "document_id": "doc-c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5",
+  "document": {
+    "document_id": "doc-c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5",
+    "content_revision": "v1",
+    "source_id": "hkex-holiday-evidence",
+    "title": "Hong Kong Government general holidays 2025",
+    "sha256": "c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5",
+    "path": "data/inputs/source-files/hkex-holiday-evidence/2026/doc-c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5/v1/original.html",
+    "published_at": null,
+    "first_observed_at": "2026-10-30T11:05:02.416277+00:00"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-holiday-evidence/2026/doc-c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5/v1/original.html",
+    "data/inputs/source-files/hkex-holiday-evidence/2026/doc-c37e1d5d7582a9505f2e810dd01bcdce5e1c15ec75157dc8059f556db1d68aa5/v1/document.json",
+    "data/inputs/collection-records/hkex-holiday-evidence/2026/collection-c7d35d8522d14ba7ad154e653ff230d8/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-bbde3483dcce48eab82bb34baab46e32",
+  "summary": "import",
+  "issues": []
+}

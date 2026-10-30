@@ -1,0 +1,173 @@
+{
+  "event_hash": "47d39df3529e70835352738ede87757125ab0fd7575fdf825a265db67f3dab6d",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-5ee3972caf4582ff35445e295e93823b51dd61696e67f10baceb413b298c0a7b",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/candidates/candidate-5ee3972caf4582ff35445e295e93823b51dd61696e67f10baceb413b298c0a7b.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-4210d509e36e4fbea1ba32aba8faaacd/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-c8de6122eb228134371e0a5a24cdf8ff4bf46b6adf73e440e92ec693e095f05c/v1/document.json",
+        "data/outputs/research-records/ingest-20c0be677be31a75b1ef4b284443c25f04cbf2c39462bb05a660533f352c2507/candidate.json",
+        "data/outputs/research-records/ingest-20c0be677be31a75b1ef4b284443c25f04cbf2c39462bb05a660533f352c2507/validation.json",
+        "data/outputs/research-records/ingest-20c0be677be31a75b1ef4b284443c25f04cbf2c39462bb05a660533f352c2507/review.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-da81070f868122d06a698e687f61fc0d61fd3b6cddecba6479f99b7359a40ff1/corporate-actions.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-da81070f868122d06a698e687f61fc0d61fd3b6cddecba6479f99b7359a40ff1/batch.json",
+        "data/outputs/research-records/ingest-20c0be677be31a75b1ef4b284443c25f04cbf2c39462bb05a660533f352c2507/receipt.json"
+      ],
+      "item_id": "item-32f9d080209ee5550d1c6761",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/f33c357f361e4864b0e6128f8d1690ba.json": "fdd21e0d43c4825d1a5e00a9449f0c0fad06e79b3278f7496e3ae3b0b93ef31d"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/f33c357f361e4864b0e6128f8d1690ba.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2021",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0323/2022032300442.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-07d7de7118dca4e6d333025044045cdba9d208bd5076e62af3989b7a4e9e607d/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-07d7de7118dca4e6d333025044045cdba9d208bd5076e62af3989b7a4e9e607d/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-3f9d515561ec4998880acc2b77800915/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-07d7de7118dca4e6d333025044045cdba9d208bd5076e62af3989b7a4e9e607d",
+      "item_id": "item-454a268914065e856a7c6e94",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "PAYMENT OF SPECIAL INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF SHARES IN JD.COM, INC.",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0325/2022032502414.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-394badff9672e0cbad7868680a212a5e633672719b1f3e91eafe55c09da12cb4",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/candidates/candidate-394badff9672e0cbad7868680a212a5e633672719b1f3e91eafe55c09da12cb4.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-7b7c5d7fdfd245ecb9cd6c31b62a29aa/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-3cac8918fad0c7fced006a7c6c261953593a123c72bad25cad47bc1e0d121b0c/v1/document.json",
+        "data/outputs/research-records/ingest-f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357/candidate.json",
+        "data/outputs/research-records/ingest-f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357/validation.json",
+        "data/outputs/research-records/ingest-f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357/review.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2023/batch-634af334cf872a6a4dc4f394a6a5307495d1ba78d6c1a8a56057f75f82b7b719/corporate-actions.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2023/batch-634af334cf872a6a4dc4f394a6a5307495d1ba78d6c1a8a56057f75f82b7b719/batch.json",
+        "data/outputs/research-records/ingest-f1dba35d154c637a471bf13a23c20dbf3e0112380532c54a7d90623e8a179357/receipt.json"
+      ],
+      "item_id": "item-5d493b928b159c6568cbac59",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/436d7e405ea64047b16b02d63c14028f.json": "13e735b4eac0eeefeeff88063354992be4261cc2aa1017f566fac3f0c8bd09ce"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/436d7e405ea64047b16b02d63c14028f.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2022",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0322/2023032200287.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-1558cb32b5f6d989edda1bac7b87ce443f1bb887d29134b2b4d5ba7debffe8ee",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/candidates/candidate-1558cb32b5f6d989edda1bac7b87ce443f1bb887d29134b2b4d5ba7debffe8ee.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-b86dd18cceb44878a92b497334cd55ce/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717/v1/document.json",
+        "data/outputs/research-records/ingest-e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80/candidate.json",
+        "data/outputs/research-records/ingest-e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80/validation.json",
+        "data/outputs/research-records/ingest-e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80/review.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-78649155233f1c62421745c34832185871efe9eafc2faee6db7dc5b53747bfde/corporate-actions.json",
+        "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-78649155233f1c62421745c34832185871efe9eafc2faee6db7dc5b53747bfde/batch.json",
+        "data/outputs/research-records/ingest-e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80/receipt.json"
+      ],
+      "item_id": "item-778794f1b25a26308a6f5086",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/415814f9ed3c468e8afbd744b69d1708.json": "50027e67c712c0c1c47f7013c016d70afe9c855542abd5031a43e615e62909ee"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/415814f9ed3c468e8afbd744b69d1708.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS B ORDINARY SHARES OF MEITUAN; RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600357.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-304dad68fe59dc3e9c8b3091c5cb2a38bde6c766fbb1a167e2ae4ea4b57dece8/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-304dad68fe59dc3e9c8b3091c5cb2a38bde6c766fbb1a167e2ae4ea4b57dece8/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-ebac900b2c024402b86181e283e4dd7a/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-304dad68fe59dc3e9c8b3091c5cb2a38bde6c766fbb1a167e2ae4ea4b57dece8",
+      "item_id": "item-d66bf98a7f70926eeccc0ed2",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "PAYMENT OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF SHARES IN MEITUAN",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0324/2023032400883.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-b24247afcda7edf81aa6662d9d7df02a381ef3425bd1b490cb9a9c35f3d3fb2d",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/candidates/candidate-b24247afcda7edf81aa6662d9d7df02a381ef3425bd1b490cb9a9c35f3d3fb2d.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-d4ad2ff775a347f2a3a30a5c07983b07/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e",
+      "item_id": "item-fbb03f692d54666d9e7f1469",
+      "listing_document_id": "doc-b3b13eff66132b01fbf66e33703e42494fb7cc644067e86f35293f3adf0f6d64",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/a01212ca6176448f897d0dfb3e97a493.json": "d368003e400637fa8f8573f7e4345ded13efa9397c62c81735be7919a494b5a8"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-493b2bf8ba006e6207c5df36/reviews/a01212ca6176448f897d0dfb3e97a493.json"
+      ],
+      "source_title": "",
+      "stage": "approved",
+      "title": "DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS A ORDINARY SHARES OF JD.COM, INC.; RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1223/2021122300040.pdf"
+    }
+  ],
+  "previous_hash": "6691034787f13e4081d184ee23c9eb38f756543554cf0f84563d6fe62e53f802",
+  "recorded_at": "2026-10-30T11:14:11.166628+00:00",
+  "sequence": 23,
+  "task_id": "acquisition-493b2bf8ba006e6207c5df36"
+}

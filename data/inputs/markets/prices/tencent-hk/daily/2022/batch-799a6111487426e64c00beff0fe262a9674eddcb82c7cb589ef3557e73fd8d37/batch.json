@@ -1,0 +1,40 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123/candidate.json",
+  "batch_id": "batch-799a6111487426e64c00beff0fe262a9674eddcb82c7cb589ef3557e73fd8d37",
+  "candidate_hash": "f4bf599a383a2e70e918dbb94ae4c48550c14dd45601dbbe59af4b2cb3d61123",
+  "contract_version": "1",
+  "dataset_id": "daily-prices",
+  "documents": [
+    "doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/prices/tencent-hk/daily/2022/batch-799a6111487426e64c00beff0fe262a9674eddcb82c7cb589ef3557e73fd8d37/daily-prices.csv",
+      "sha256": "1d0ab81b59271aa61a8768e14937ce4a1fd531d4a6745b559e9e9caa9651e572"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:51:47.293698+00:00",
+  "parser_version": "tencent-kline-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T10:51:53.243624+00:00",
+  "rows": [
+    {
+      "close": "354.400",
+      "currency": "HKD",
+      "high": "363.600",
+      "low": "354.000",
+      "open": "360.000",
+      "price_basis": "provider-native",
+      "security_id": "tencent-hk",
+      "session": "regular-final",
+      "trading_date": "2022-06-30",
+      "volume": "33385197.000",
+      "volume_unit": "provider-native"
+    }
+  ],
+  "source_id": "tencent-chart",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

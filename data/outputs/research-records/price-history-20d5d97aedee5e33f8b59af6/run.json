@@ -1,0 +1,77 @@
+{
+  "finished_at": "2026-10-30T10:53:05.347730+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "benchmark-prices",
+    "end": "2020-12-27",
+    "source_id": "hsi-chart",
+    "start": "2020-09-29",
+    "subject_id": "hang-seng-index"
+  },
+  "started_at": "2026-10-30T10:52:56.964068+00:00",
+  "status": "collected",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/hsi-chart/2026/doc-d6b63a171c52c5aa029b063ff452c6c3a407d9efcae0c8ca35036b6c3a42f174/v1/original.json",
+        "data/inputs/source-files/hsi-chart/2026/doc-d6b63a171c52c5aa029b063ff452c6c3a407d9efcae0c8ca35036b6c3a42f174/v1/document.json",
+        "data/outputs/research-records/ingest-fd3b2c1b02a0e0552feac59f4db3714a823a429b23ec22e7fbafd44c39835353/candidate.json",
+        "data/outputs/research-records/ingest-fd3b2c1b02a0e0552feac59f4db3714a823a429b23ec22e7fbafd44c39835353/validation.json",
+        "data/outputs/research-records/ingest-fd3b2c1b02a0e0552feac59f4db3714a823a429b23ec22e7fbafd44c39835353/review.json",
+        "data/inputs/markets/benchmarks/hang-seng-index/daily/2020/batch-91467bef334a11faee5065626bd9fe8409822867d0c3c786a2ead020f956906e/benchmark-prices.json",
+        "data/inputs/markets/benchmarks/hang-seng-index/daily/2020/batch-91467bef334a11faee5065626bd9fe8409822867d0c3c786a2ead020f956906e/batch.json",
+        "data/outputs/research-records/ingest-fd3b2c1b02a0e0552feac59f4db3714a823a429b23ec22e7fbafd44c39835353/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/hsi-chart/2026/doc-d6b63a171c52c5aa029b063ff452c6c3a407d9efcae0c8ca35036b6c3a42f174/v1/original.json",
+        "data/inputs/source-files/hsi-chart/2026/doc-d6b63a171c52c5aa029b063ff452c6c3a407d9efcae0c8ca35036b6c3a42f174/v1/document.json",
+        "data/inputs/collection-records/hsi-chart/2026/collection-693e0308550c477a91bb2df199bda1ac/collection.json"
+      ],
+      "document_id": "doc-d6b63a171c52c5aa029b063ff452c6c3a407d9efcae0c8ca35036b6c3a42f174",
+      "end": "2020-12-27",
+      "first": "2020-09-29",
+      "last": "2020-12-24",
+      "observed_rows": 60,
+      "start": "2020-09-29",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-e43249f51bf4cd94c0e8ffeda261c843a4a124a6c180cabdcb236391d3cd5db8/8fe63eaf4aaac3a2fabe993ad1e3f7dfc82b354c9941c08020f022bf88cca47a.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "review"
+        ],
+        "operation_id": "op-962d6702d15b4923a496b032e8bf53a7",
+        "protocol_version": "1",
+        "status": "review_required",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "fd3b2c1b02a0e0552feac59f4db3714a823a429b23ec22e7fbafd44c39835353",
+          "candidate_id": "candidate-e43249f51bf4cd94c0e8ffeda261c843a4a124a6c180cabdcb236391d3cd5db8",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 60,
+          "rule_version": "v1",
+          "status": "review_required"
+        }
+      }
+    }
+  ]
+}

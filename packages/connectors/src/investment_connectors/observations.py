@@ -9,6 +9,8 @@ from decimal import Decimal, InvalidOperation
 from html.parser import HTMLParser
 from typing import Any
 
+from .hkex_daily import parse_hkex_daily_turnover
+
 
 class VisibleText(HTMLParser):
     def __init__(self):
@@ -265,3 +267,6 @@ OBSERVATION_PARSERS.update(
         "stockanalysis-ratios-v1": parse_stockanalysis_ratios,
     }
 )
+
+# Daily quotation reports contain both current and previous-day adjusted sections.
+OBSERVATION_PARSERS["hkex-daily-turnover-v1"] = parse_hkex_daily_turnover

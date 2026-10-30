@@ -1,0 +1,115 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-7ce7e76def2a79409797d939f7ebcbc5757d487df97f4161dcce99415d07ecc2",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2020-10-01",
+    "period_end": "2020-12-31",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited fourth-quarter comparative management table directly disclosed in annual results announcement; current-quarter column, source precision in CNY millions; not annual minus YTD",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Revenues?[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Gross\\s+profit[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {
+        "basis": "Fourth-quarter management presentation includes investment gains and interest income, pre-2023 annual reclassification"
+      }
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Income\\s+tax[^\\n]*?[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?(?:Profit(?:/\\(loss\\))?|\\(Loss\\)/profit)\\s+for\\s+the\\s+period[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?(?:Owners|Equity\\s+holders)\\s+of\\s+the\\s+Company[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "finance-costs-net",
+      "page": 14,
+      "pattern": "^\\s*(?:[–—-]\\s*)?Finance\\s+costs,\\s+net[ \\t]+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 2,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 1,
+      "pattern": "^EPS[^\\n]*[\\s\\S]*?^\\s*[–—-]\\s*basic\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 1,
+      "pattern": "^EPS[^\\n]*[\\s\\S]*?^\\s*[–—-]\\s*diluted\\s+(?:\\(?-?\\d[\\d,]*(?:\\.\\d+)?\\)?)",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    }
+  ],
+  "selection_review": {
+    "quarter": 4,
+    "report_year": 2020,
+    "statement_pages": [
+      14
+    ],
+    "missing": [
+      "finance-costs"
+    ],
+    "scope": "Directly reported Q4 values; unavailable columns remain explicit gaps"
+  }
+}

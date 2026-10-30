@@ -1,0 +1,88 @@
+{
+  "event_hash": "04b13f0f33e4247b2388b922916342068617bb10e160451b823db51b067c4abe",
+  "items": [
+    {
+      "attempts": 4,
+      "candidate_id": "candidate-aec3ed7ab716e8d9249c22184c66fb7abcf684fb601e9355773d4e255fde5280",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/candidates/candidate-aec3ed7ab716e8d9249c22184c66fb7abcf684fb601e9355773d4e255fde5280.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-87d3094331474e7d82ff50daa898d296/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193",
+      "issue": {
+        "code": "STALE_PLAN",
+        "retryable": false
+      },
+      "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/reviews/dd77d2d7863549e1af796f72b12eb5bb.json": "af7c12a48b6faaf0a8e5bd586d02b37f9d1da8059e4b40ed4158b496b88c1e43"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/reviews/dd77d2d7863549e1af796f72b12eb5bb.json"
+      ],
+      "source_title": "",
+      "stage": "failed",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0320/2024032000531.pdf"
+    },
+    {
+      "attempts": 3,
+      "candidate_id": "candidate-db00af50e3e1d437683553c511939c2901f78877df6a0ed2a5f49ce7d6e45586",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/candidates/candidate-db00af50e3e1d437683553c511939c2901f78877df6a0ed2a5f49ce7d6e45586.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-a7a831f47ab1413a8bff8750bfb960e2/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a",
+      "issue": {
+        "code": "SEMANTIC_REVIEW_REQUIRED",
+        "retryable": false
+      },
+      "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "review_hashes": {},
+      "review_refs": [],
+      "source_title": "",
+      "stage": "failed",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800476.pdf"
+    },
+    {
+      "attempts": 3,
+      "candidate_id": "candidate-62adfc715142faa7069d620ad4fb06f03b7b31b5edcc143d9bb7fa4e2c0ee2ec",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-70190d3bf1f472134c5045ed/candidates/candidate-62adfc715142faa7069d620ad4fb06f03b7b31b5edcc143d9bb7fa4e2c0ee2ec.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-49dbe6241b174ab9a2a595eb477128e8/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b",
+      "issue": {
+        "code": "SEMANTIC_REVIEW_REQUIRED",
+        "retryable": false
+      },
+      "item_id": "item-cfdcfcedc435733853396edd",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "review_hashes": {},
+      "review_refs": [],
+      "source_title": "",
+      "stage": "failed",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900412.pdf"
+    }
+  ],
+  "previous_hash": "e0200b44b8f7b3fdb6f4a042f1472b61a19f6b8deb5d13b4ee04576230754ff2",
+  "recorded_at": "2026-10-30T11:06:23.142719+00:00",
+  "sequence": 20,
+  "task_id": "acquisition-70190d3bf1f472134c5045ed"
+}

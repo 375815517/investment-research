@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-8378f248f64a79aae16173df0b7e0445ffada4f3f0532b5188b5a8724adda941/candidate.json",
+  "batch_id": "batch-0213c02ec545a3286f7b06f8c6bdfea688a3fbc87872d8559da054da77a551ca",
+  "candidate_hash": "8378f248f64a79aae16173df0b7e0445ffada4f3f0532b5188b5a8724adda941",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2019/batch-0213c02ec545a3286f7b06f8c6bdfea688a3fbc87872d8559da054da77a551ca/corporate-actions.json",
+      "sha256": "feb3e002e11bb661b00ee3f304587aa691593e5fd418de1daf58454babd71316"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:03.638307+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:15:52.854903+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2018",
+      "action_status": "proposed",
+      "action_type": "cash_dividend",
+      "announcement_date": "2019-03-21",
+      "basis": "Annual report dividend note explicitly records board resolution and shareholders approval still required. Exact ex-date/payment date not provided on this evidence page.",
+      "cash_per_share": "1.00",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "15 DIVIDENDS The dividends amounting to RMB6,776 million (2017: RMB5,052 million) were paid during the year ended 31 December 2018. A special dividend of approximately HKD250 million (equivalent to approximately RMB219 million) was declared in December 2018 to the shareholders of the Company by way of a distribution in respect of the separate listing of a non- wholly owned subsidiary on the New York Stock Exchange. Such dividend was subsequently paid by the Group in February 2019. A final dividend in respect of the year ended 31 December 2018 of HKD1.00 per share (2017: HKD0.88 per share) was proposed pursuant to a resolution passed by the Board on 21 March 2019 and subject to the approval of the shareholders at the annual general meeting of the Company to be held on 15 May 2019 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 208 Tencent Holdings Limited",
+      "locator": "pdf:page:209",
+      "payment_date": null,
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

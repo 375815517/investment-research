@@ -1,0 +1,203 @@
+{
+  "reviewed_at": "2026-10-30T11:15:35.112543+00:00",
+  "reviewer": "contracts_v2-independent-review",
+  "method": "Check original cash statement source membership, current-year opening column, stock/date/unit semantics and cash reconciliation against independently reviewed annual records",
+  "results": [
+    {
+      "company_id": "xiaomi",
+      "year": 2018,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-opening-cash-candidates.json",
+      "candidate_file_sha256": "fed08cd63e8fd7fa71c4742fb6fc192c8f0d400c78600801e9b93bec1d6f6d71",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document_sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2019,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-opening-cash-candidates.json",
+      "candidate_file_sha256": "d1692fac527c359bdce7c57cba22e0a5a9d7cc07604866531f547b266ce2643e",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2020,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-opening-cash-candidates.json",
+      "candidate_file_sha256": "ee13e72095cd395055b369d2bdd9698437cb089da9aa0b4cb1dfc8772fd2f454",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "document_sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2021,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-opening-cash-candidates.json",
+      "candidate_file_sha256": "6e1212cf5b8e659f487be13358438977b47bec5198874e2340783709b04d11cd",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "document_sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2022,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-opening-cash-candidates.json",
+      "candidate_file_sha256": "0589f6964c65c534433b0210973f1d619d57fc24850e3cb0ecce514b6f580a6a",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "document_sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2023,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-opening-cash-candidates.json",
+      "candidate_file_sha256": "edfc718266613dc63ed9d1bf8066a5d3ccbfa3b3ab89eeee0e3e84676e91293d",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "document_sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2024,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-opening-cash-candidates.json",
+      "candidate_file_sha256": "25b37a471aeff74cc99f16ffc60f7b5c03c4a29728cb90e8fc0fbde444ece96b",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "xiaomi",
+      "year": 2025,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-opening-cash-candidates.json",
+      "candidate_file_sha256": "4c7fa5960d37bdb765a3ce065a414cf0637c5fe38db9831ec046083590725109",
+      "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2018,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-opening-cash-candidates.json",
+      "candidate_file_sha256": "dda2799e35995ad817433f3b7443cd28284573e2eb1942c75473d095a00a8b2c",
+      "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2019,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-opening-cash-candidates.json",
+      "candidate_file_sha256": "2b6c098fcde02932d3ffa0b6b374e45337c9743f9cf556a9434d32a955df25f7",
+      "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "document_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2020,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-opening-cash-candidates.json",
+      "candidate_file_sha256": "f969fdb6ca694f3647f7ffc374b71c674d0e109f432bccc38cde43a3172e494a",
+      "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2021,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-opening-cash-candidates.json",
+      "candidate_file_sha256": "61e8f21d4c1a8c81ec372e2c6d716360b1100c985469502b80f4d4d47b86de80",
+      "document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "document_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2022,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-opening-cash-candidates.json",
+      "candidate_file_sha256": "e0e49303a2049b84e9f16a2d6df5c90539b9aeb37d81cea2337ccc79f9927035",
+      "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2023,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-opening-cash-candidates.json",
+      "candidate_file_sha256": "15f92004b7ff92ef83929da5117212eb928b57c40c111322a526bf0f9ae8fdb4",
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2024,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-opening-cash-candidates.json",
+      "candidate_file_sha256": "5fe2de09ad71fb333e4a004db1dcc676470341e33100ee08f4bf0333562ea3cf",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    },
+    {
+      "company_id": "tencent",
+      "year": 2025,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-opening-cash-candidates.json",
+      "candidate_file_sha256": "8bc201477736d500e3b4a4e51fb88c85c7c550bdf2c74b4e7699151c27a157ff",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "checked_records": 1,
+      "opening_plus_change_plus_fx_minus_closing": "0",
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "January1 opening is not automatically substituted for previous December31 observation",
+    "Exact publication date separately assessed"
+  ]
+}

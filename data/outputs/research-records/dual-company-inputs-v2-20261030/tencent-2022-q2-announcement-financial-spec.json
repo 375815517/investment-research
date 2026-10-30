@@ -1,0 +1,137 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-85bdcca38c86d012ecf441693e82e86a34a874e7387029fb32c57790e6c7f6b8",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2022-04-01",
+    "period_end": "2022-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated financial statements in official results announcement; current-year column, signed source values retained",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 20,
+      "pattern": "^Revenues\\s*\\n[\\s\\S]*?^\\s*(?:[0-9]+\\s+)?[\\d,]+(?:\\s+[\\d,]+){1,3}\\s*$",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "basis": "Interim original presentation includes investment gains and interest income, before 2023 annual report reclassification; not directly comparable with post-reclassification presentation"
+      }
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+(?:expenses?|income/\\(expenses\\)|\\(expenses\\)/credit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Profit(?:/\\(loss\\))?|\\(Loss\\)/profit)\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity holders) of the Company[ \\t]+[^\\n]+",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "finance-costs-net",
+      "page": 20,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs,\\s+net[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    }
+  ],
+  "selection_review": {
+    "report_year": 2022,
+    "statement_pages": {
+      "income": [
+        20
+      ],
+      "balance": [
+        22,
+        23
+      ],
+      "cash": [
+        26
+      ]
+    },
+    "missing": [
+      {
+        "metric": "finance-costs",
+        "reason": "ambiguous_or_absent_row",
+        "matches": 0
+      }
+    ],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

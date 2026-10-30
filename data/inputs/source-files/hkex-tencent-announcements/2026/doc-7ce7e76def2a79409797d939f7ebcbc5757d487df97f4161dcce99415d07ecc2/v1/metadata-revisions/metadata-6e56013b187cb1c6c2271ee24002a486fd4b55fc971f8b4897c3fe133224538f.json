@@ -1,0 +1,36 @@
+{
+  "document_id": "doc-7ce7e76def2a79409797d939f7ebcbc5757d487df97f4161dcce99415d07ecc2",
+  "document_sha256": "7ce7e76def2a79409797d939f7ebcbc5757d487df97f4161dcce99415d07ecc2",
+  "evidence_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4",
+  "evidence_sha256": "323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4",
+  "excerpt": "Release Time: 24/03/2021 16:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Final Results / Dividend or Distribution / Closure of Books or Change of Book Closure Period] ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2020 ( 298KB )",
+  "locator": "html:table:ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2020",
+  "notes": "HKEX Release Time explicitly associated with 00700 and exact quarterly result title/link. Existing captured collection final_url and SHA256 bind link to archived original; current original hash reverified. No URL-date inference; minute display retained as evidence, only date precision adopted.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2021-03-24",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:18:31.313604+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-6e56013b187cb1c6c2271ee24002a486fd4b55fc971f8b4897c3fe133224538f",
+  "supporting_documents": [
+    {
+      "document_id": "doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02",
+      "sha256": "804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02"
+    }
+  ]
+}

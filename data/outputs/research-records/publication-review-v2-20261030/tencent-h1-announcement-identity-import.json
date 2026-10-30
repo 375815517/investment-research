@@ -1,0 +1,26 @@
+{
+  "status": "received",
+  "document_id": "doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca",
+  "document": {
+    "document_id": "doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca",
+    "content_revision": "v1",
+    "source_id": "publication-acquisition-review",
+    "title": "Tencent half-year results announcement identity verification",
+    "sha256": "1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca",
+    "path": "data/inputs/source-files/publication-acquisition-review/2026/doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca/v1/original.json",
+    "published_at": null,
+    "first_observed_at": "2026-10-30T11:25:39.685225+00:00"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/publication-acquisition-review/2026/doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca/v1/original.json",
+    "data/inputs/source-files/publication-acquisition-review/2026/doc-1eb63ba6020f04d9799ba0ce8ffb7626b1b8006a0fbe06bcb4a338eaa6aa39ca/v1/document.json",
+    "data/inputs/collection-records/publication-acquisition-review/2026/collection-1c6b7e2bc168426ca35a640a12ef2928/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-fd45708f45a6453d942ce7540aaaeb04",
+  "summary": "import",
+  "issues": []
+}

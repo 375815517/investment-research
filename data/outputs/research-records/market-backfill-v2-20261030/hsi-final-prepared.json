@@ -1,0 +1,41 @@
+[
+  {
+    "bytes": 3131,
+    "candidate_id": "candidate-bf68f8756ec0353e954aa6d93d4560f6fad80d91d9b33de35825936aec855c16",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-bf68f8756ec0353e954aa6d93d4560f6fad80d91d9b33de35825936aec855c16.json",
+    "document_id": "doc-6bca8c03ce98a55e35ee57bc7782929473539045acdd411576cb03d9351692cf",
+    "end": "2023-10-31",
+    "path": "/tmp/market-probes-v2/hsi-final-2023-10.json",
+    "review_ref": ".research-local/reviews/candidate-bf68f8756ec0353e954aa6d93d4560f6fad80d91d9b33de35825936aec855c16/0472632729244b73b346c4dee44390a7.json",
+    "selected_rows": 20,
+    "start": "2023-10-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2023-10-01,2023-10-31,640,"
+  },
+  {
+    "bytes": 3302,
+    "candidate_id": "candidate-2396c6c32130e2594f63207ebb248639e9481ae30bca11a8fdc12ee40313e5ce",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-2396c6c32130e2594f63207ebb248639e9481ae30bca11a8fdc12ee40313e5ce.json",
+    "document_id": "doc-41fc3d487e42b52b57e76231057e764a1cd8335096cfdefc215e200b41dd5c83",
+    "end": "2024-07-31",
+    "path": "/tmp/market-probes-v2/hsi-final-2024-07.json",
+    "review_ref": ".research-local/reviews/candidate-2396c6c32130e2594f63207ebb248639e9481ae30bca11a8fdc12ee40313e5ce/b07c2717687c4c25950f5d7b94c54a68.json",
+    "selected_rows": 22,
+    "start": "2024-07-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2024-07-01,2024-07-31,640,"
+  },
+  {
+    "bytes": 3298,
+    "candidate_id": "candidate-bba961978ff71fbe3980aafe4e2885ad7b9cbdb88cdc331c861812bf51c9c0da",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-bba961978ff71fbe3980aafe4e2885ad7b9cbdb88cdc331c861812bf51c9c0da.json",
+    "document_id": "doc-6f5dedb9c1a34bd70ffda11b670fa3ece022c7109decff929fc056d4eb2c55b2",
+    "end": "2024-08-31",
+    "path": "/tmp/market-probes-v2/hsi-final-2024-08.json",
+    "review_ref": ".research-local/reviews/candidate-bba961978ff71fbe3980aafe4e2885ad7b9cbdb88cdc331c861812bf51c9c0da/242dec9cb23d45529ce989a29c51dd39.json",
+    "selected_rows": 22,
+    "start": "2024-08-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2024-08-01,2024-08-31,640,"
+  }
+]

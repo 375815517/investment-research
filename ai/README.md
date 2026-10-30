@@ -17,3 +17,5 @@
 核心流程：[规划](skills/data-planning/SKILL.md) → [获取整理](skills/data-acquisition/SKILL.md) → [核验入库](skills/data-review/SKILL.md)。专门问题参考行情与证据检索指南；影响研究仅保留为后续领域指南，本轮不调用。
 
 初始化按 [工作空间设置](skills/workspace-setup/SKILL.md)，后续维护按 [维护指南](skills/workspace-maintenance/SKILL.md)。生成的宿主 Skill 副本不提交，安装回执保存在 .research-local。实际宿主是否自动发现并调用 Skill 需要在对应宿主验证，文件校验通过不代表已经完成该验证。显式读取与CLI调用可用 [probe](tooling/README.md) 记录；它不证明原生发现或模型理解。
+
+精确研究输入遵循[可复用输入规则](rules/reusable-inputs.md)，按 profile-audit/profile-assess 区分必需键覆盖与用途适用性。已登记规格见[输入规格定义](../research/input-profile-definitions/README.md)；来源发现、采集任务、发布时间修订和输入包核验由 CLI/API 调用同一执行服务。

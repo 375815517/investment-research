@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:52:17.319764+00:00",
+      "final_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+      "path": "/workspace/investment-research/.research-local/collections/dc14b36bed23431083ba3311b13fc286/response-1aa4d462293e432b9a761b47eea782c9.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "sfc-xiaomi"
+      },
+      "request_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+      "rows": 0,
+      "sha256": "f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+      "size_bytes": 548089,
+      "source_id": "sfc-xiaomi"
+    }
+  },
+  "collection_id": "collection-2f59863fddf04a3c87fd7dacca43fa00",
+  "document_id": "doc-f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:52:17.420367+00:00",
+  "origin_url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+  "publication_assertion": null,
+  "sha256": "f20a9510450937a91602ef6631f8ae3953d7c0e1e6305cedd944ef9457f1e21a",
+  "source_id": "sfc-xiaomi",
+  "status": "received"
+}

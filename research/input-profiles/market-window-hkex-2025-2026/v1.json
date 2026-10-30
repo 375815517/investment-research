@@ -1,0 +1,5002 @@
+{
+  "profile_id": "market-window-hkex-2025-2026",
+  "version": "1",
+  "purpose": "source_description",
+  "expected_keys": [
+    {
+      "key_id": "xiaomi-2025-10-02-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-02-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-02-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-02-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-03-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-03-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-03-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-03-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-06-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-06-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-06-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-06-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-08-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-08-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-08-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-08-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-09-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-09-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-09-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-09-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-10-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-10-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-10-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-10-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-13-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-13-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-13-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-13-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-14-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-14-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-14-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-14-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-15-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-15-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-15-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-15-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-16-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-16-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-16-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-16-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-17-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-17-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-17-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-17-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-20-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-20-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-20-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-20-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-21-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-21-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-21-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-21-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-22-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-22-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-22-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-22-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-23-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-23-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-23-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-23-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-24-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-24-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-24-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-24-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-27-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-27-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-27-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-27-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-28-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-28-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-28-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-28-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-30-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-30-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-30-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-30-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-31-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-31-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-31-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2025-10-31-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-02-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-02-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-02-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-02-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-05-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-05-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-05-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-05-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-06-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-06-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-06-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-06-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-07-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-07-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-07-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-07-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-08-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-08-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-08-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-08-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-09-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-09-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-09-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-09-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-12-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-12-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-12-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-12-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-13-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-13-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-13-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-13-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-14-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-14-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-14-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-14-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-15-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-15-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-15-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-15-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-16-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-16-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-16-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-16-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-20-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-20-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-20-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-20-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-21-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-21-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-21-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-21-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-22-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-22-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-22-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-22-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-23-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-23-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-23-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-23-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-26-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-26-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-26-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-26-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-27-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-27-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-27-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-27-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-28-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-28-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-28-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-28-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-29-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-29-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-29-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-2026-10-29-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "source_id": "hkex-xiaomi",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-02-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-02-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-02-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-02-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-02",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-03-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-03-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-03-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-03-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-03",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-06-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-06-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-06-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-06-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-06",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-08-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-08-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-08-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-08-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-08",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-09-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-09-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-09-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-09-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-09",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-10-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-10-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-10-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-10-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-10",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-13-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-13-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-13-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-13-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-13",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-14-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-14-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-14-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-14-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-14",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-15-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-15-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-15-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-15-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-15",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-16-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-16-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-16-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-16-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-16",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-17-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-17-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-17-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-17-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-17",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-20-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-20-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-20-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-20-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-20",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-21-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-21-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-21-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-21-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-21",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-22-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-22-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-22-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-22-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-22",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-23-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-23-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-23-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-23-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-23",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-24-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-24-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-24-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-24-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-24",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-27-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-27-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-27-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-27-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-27",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-28-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-28-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-28-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-28-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-28",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-30-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-30-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-30-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-30-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-30",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-31-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-31-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-31-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2025-10-31-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2025-10-31",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-02-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-02-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-02-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-02-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-02",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-05-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-05-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-05-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-05-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-05",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-06-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-06-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-06-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-06-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-06",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-07-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-07-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-07-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-07-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-07",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-08-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-08-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-08-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-08-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-08",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-09-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-09-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-09-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-09-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-09",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-12-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-12-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-12-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-12-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-12",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-13-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-13-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-13-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-13-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-13",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-14-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-14-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-14-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-14-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-14",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-15-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-15-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-15-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-15-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-15",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-16-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-16-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-16-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-16-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-16",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-20-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-20-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-20-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-20-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-20",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-21-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-21-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-21-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-21-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-21",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-22-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-22-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-22-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-22-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-22",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-23-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-23-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-23-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-23-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-23",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-26-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-26-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-26-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-26-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-26",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-27-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-27-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-27-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-27-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-27",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-28-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-28-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-28-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-28-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-28",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-29-short_sale_volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "short_sale_volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-29-short_sale_turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "short_sale_turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-29-volume",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "volume",
+        "unit": "shares",
+        "currency": null,
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-2026-10-29-turnover",
+      "dataset_id": "market-observations",
+      "subject_id": "tencent-hk",
+      "source_id": "hkex-tencent",
+      "selectors": {
+        "observed_date": "2026-10-29",
+        "metric_id": "turnover",
+        "unit": "currency",
+        "currency": "HKD",
+        "session": "full_day",
+        "share_class": "Specified source stock-code counter; no cross-class aggregation inferred"
+      },
+      "required": true,
+      "max_matches": 1
+    }
+  ],
+  "comparison_groups": [],
+  "knowledge_mode": "retrospective_explanation",
+  "information_cutoff": null
+}

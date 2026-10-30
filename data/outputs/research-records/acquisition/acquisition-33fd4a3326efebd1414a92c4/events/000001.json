@@ -1,0 +1,24 @@
+{
+  "event_hash": "9aec0be14287db4ef76e70d27a1130f51a2eece59773d5eadc1a47359e7f3e4b",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-5f84e252a7904febbb694940284cfddb/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64",
+      "item_id": "item-e1723877b53f765e396abf58",
+      "listing_document_id": "doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f",
+      "stage": "awaiting_extraction",
+      "title": "2020 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/07/20/11-36-10/20200929_IR_e.pdf"
+    }
+  ],
+  "previous_hash": null,
+  "recorded_at": "2026-10-30T10:47:14.679292+00:00",
+  "sequence": 1,
+  "task_id": "acquisition-33fd4a3326efebd1414a92c4"
+}

@@ -1,0 +1,37 @@
+{
+  "candidate_id": "candidate-90cdd757b7d560a7f47bd441f93e4d409c11d762af8d495281fa66416fde5f11",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "document_sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Finance costs subtotal in audited notes, positive expense magnitude after capitalisation; source sign retained, must invert explicitly before signed income-statement comparisons",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Finance costs:\n Interest expense from liabilities to fund investors (Note 29) 250,706 42,504\n Interest expense from borrowings (Note 33) and \n  lease liabilities (Note 16) 407,141 415,465\n Less: amount capitalized (129,387) (73,277)\n528,460 384,692",
+      "locator": "pdf:page:253",
+      "measure_kind": "flow",
+      "metric_id": "finance-costs",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2019-12-31",
+      "period_start": "2019-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "528460",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2019-annual",
+  "supersedes": []
+}

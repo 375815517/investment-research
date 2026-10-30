@@ -1,0 +1,52 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-0d87d51849f87045fe55001bb4d5796e296b60877a6b87009e6d2ca159116e40/candidate.json",
+  "batch_id": "batch-bb58672c9b40fc09971d3f9d70657eec9b5df8977193552d2ab40cae0221079d",
+  "candidate_hash": "0d87d51849f87045fe55001bb4d5796e296b60877a6b87009e6d2ca159116e40",
+  "contract_version": "1",
+  "dataset_id": "benchmark-prices",
+  "dependency_batches": [],
+  "documents": [
+    "doc-59bdd361886965f3aed1beadf0fbe03854ed63cfe40543f38b892efa63913a2a"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/benchmarks/hang-seng-index/daily/2020/batch-bb58672c9b40fc09971d3f9d70657eec9b5df8977193552d2ab40cae0221079d/benchmark-prices.json",
+      "sha256": "62c8d5695cea6fff31f5557e2ddbc91515c25c033bdd7f23d5353788ba3cd6a2"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:15:10.563556+00:00",
+  "parser_version": "tencent-benchmark-v1-missing-dates-selection-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:22:27.135971+00:00",
+  "rows": [
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "24301.279",
+      "currency": null,
+      "excerpt": "[\"2020-06-29\",\"24627.641\",\"24301.279\",\"24627.641\",\"24148.621\",\"133018985080.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2020-06-29",
+      "record_kind": "source_reported",
+      "trading_date": "2020-06-29",
+      "unit": "points"
+    },
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "24427.189",
+      "currency": null,
+      "excerpt": "[\"2020-06-30\",\"24468.240\",\"24427.189\",\"24598.609\",\"24271.770\",\"122490241820.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2020-06-30",
+      "record_kind": "source_reported",
+      "trading_date": "2020-06-30",
+      "unit": "points"
+    }
+  ],
+  "source_id": "hsi-chart",
+  "status": "complete",
+  "subject_id": "hang-seng-index",
+  "supersedes": []
+}

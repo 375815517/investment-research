@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-2f5415e024b8dff199dff84ebbba6b1dcbc51eccafb729bc16e16a0e3dc6fe6e/candidate.json",
+  "batch_id": "batch-68bcabac7065da0804c5b58ce4a6326124e798420f4a77e8de1a5b735de839a2",
+  "candidate_hash": "2f5415e024b8dff199dff84ebbba6b1dcbc51eccafb729bc16e16a0e3dc6fe6e",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2025/batch-68bcabac7065da0804c5b58ce4a6326124e798420f4a77e8de1a5b735de839a2/financial-observations.json",
+      "sha256": "1096e58ac38f6cb8c27ccf2dbc375fe247b79d546ac8f16d9c1419ab8daf4408"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:53:08.770248+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:33:26.675413+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "来源合并披露购买固定资产、土地使用权及无形资产的现金付款，不是纯PPE。 Source statement cash outflow sign retained; annual audited IFRS consolidated statement; no pure-PPE inference",
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Purchase of property, plant and equipment, land use rights \n and intangible assets (12,769,155) (7,297,307)",
+      "locator": "pdf:page:278",
+      "measure_kind": "flow",
+      "metric_id": "property-land-intangible-cash-payments",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "-12769155",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

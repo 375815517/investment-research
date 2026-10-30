@@ -1,0 +1,27 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Source cash-flow dash retained as explicitly unresolved numerical disclosure; no zero imputed. 2018 comparative column of2019report; vintage remains report publication and restatementunknown.",
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "dimensions": {},
+    "excerpt": "190 Year ended December 31, Note 2019 2018 RMB’000 RMB’000 Cash flows from financing activities Proceeds from borrowings 17,036,724 10,269,415 Repayment of borrowings (10,417,425) (10,505,637) Finance expenses paid (218,994) (243,966) Placement of restricted cash — (4,152,345) Withdrawal of restricted cash 75,773 5,059,245 Payment for acquisition of non-controlling interests in a non-wholly owned subsidiary (187,000) (165,000) Proceeds from fund investors — 2,781,000 Net proceeds from issuance of ordinary shares relating to the initial public offering — 23,248,620 Net proceeds from exercise of share options 186,838 — Payments for shares repurchase (2,932,111) — Payment of lease liabilities (578,063) — Capital contribution from non-controlling interests 155,496 — Proceeds from release of ordinary shares from Share Scheme Trust — 91,967 Others — 190,873 Net cash generated from financing activities 3,121,238 26,574,172 Net (decrease)/increase in cash and cash equivalents (4,638,544) 17,651,561 Cash and cash equivalents at the beginning of the year 24(a) 30,230,147 11,563,282 Effects of exchange rate changes on cash and cash equivalents 328,258 1,015,304 Cash and cash equivalents at the end of the year 24(a) 25,919,861 30,230,147 The notes on pages 191 to 325 are an integral part of these consolidated financial statements.",
+    "locator": "pdf:page:192",
+    "measure_kind": "flow",
+    "metric_id": "ordinary-share-repurchase-cash-payments",
+    "metric_version": "1",
+    "missing_reason": "Cash-flow cell is a dash; no independently verified notation defining it as exact numeric zero. Absence of current-year repurchase transactions does not prove no cash settlement of earlier transactions.",
+    "period_end": "2018-12-31",
+    "period_start": "2018-01-01",
+    "period_type": "annual",
+    "record_kind": "source_reported",
+    "restatement": "unknown",
+    "scale": "thousands",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": null,
+    "unit": "currency",
+    "value_status": "not_disclosed"
+  }
+]

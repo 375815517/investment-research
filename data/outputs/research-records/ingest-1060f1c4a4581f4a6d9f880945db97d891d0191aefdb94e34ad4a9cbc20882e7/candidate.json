@@ -1,0 +1,57 @@
+{
+  "candidate_id": "candidate-8940156cc07d3962eaac80e34663a9796086d13afd01647ff08d1dd416d6c2a5",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "Directors’ Report DONATION The donations made by the Group in the year were RMB2,260 million. FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES During the year ended 31 December 2025, the Company repurchased a total of 153,415,000 Shares on the Stock Exchange for an aggregate consideration of approximately HKD80.0 billion before expenses. The repurchased Shares were subsequently cancelled. The repurchase was effected for the enhancement of shareholder value in the long term. Details of the Shares repurchased are as follows: Purchase consideration per Share Aggregate No. of Shares Highest Lowest consideration Month of purchase in 2025 purchased price paid price paid paid HKD HKD HKD January 37,060,000 424.60 364.80 14,117,031,503.00 March 5,924,000 517.50 495.00 3,003,627,164.10 April 8,430,000 510.50 419.60 3,905,420,932.80 May 9,784,000 524.00 496.20 5,004,217,423.60 June 20,669,000 520.50 490.00 10,509,720,949.40 July 7,017,000 508.00 493.00 3,502,921,791.30 August 9,191,000 620.00 583.00 5,506,079,135.80 September 19,152,000 666.50 591.00 12,112,814,316.40 October 4,916,000 683.00 648.00 3,302,995,965.60 November 9,232,000 640.50 606.50 5,721,148,388.80 December 22,040,000 625.50 592.50 13,350,322,007.40 Total: 153,415,000 80,036,299,578.20 Save as disclosed above and in Note 33 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s listed securities during the year ended 31 December 2025. 28",
+      "locator": "pdf:page:29",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "scope": "consolidated",
+      "source_value": "153415000",
+      "unit": "shares"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Consolidated Statement of Cash Flows For the year ended 31 December 2025 Year ended 31 December 2025 2024 Note RMB’Million RMB’Million Cash flows from financing activities Proceeds from short-term borrowings 113,557 62,563 Repayments of short-term borrowings (121,385) (40,049) Proceeds from long-term borrowings 108,683 52,021 Repayments of long-term borrowings (48,530) (74,642) Net proceeds from issuance of notes payable 8,968 – Repayments of notes payable (8,587) (14,213) Principal elements of lease payments 19(b) (6,783) (6,369) Interest paid (13,180) (12,417) Payments for repurchase of shares (73,312) (102,331) Proceeds from issuance of ordinary shares as a result of exercise of share options 2,721 1,932 Payments for withholding individual income tax for share option schemes (954) (105) Payments for shares purchased/withheld for share award schemes (4,869) (3,420) Proceeds from issuance of additional equity interests of non wholly-owned subsidiaries 582 161 Proceeds from transfer of interests in subsidiaries to non-controlling interests 83 – Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (4,242) (8,381) Dividends paid to the Company’s shareholders (37,535) (28,859) Dividends paid to non-controlling interests (2,372) (2,385) Net cash flows used in financing activities (87,155) (176,494) Net increase/(decrease) in cash and cash equivalents 10,165 (40,160) Cash and cash equivalents at beginning of the year 132,519 172,320 Exchange (losses)/gains on cash and cash equivalents (1,643) 359 Cash and cash equivalents at end of the year 32(a) 141,041 132,519 The notes on pages 140 to 272 are an integral part of these consolidated financial statements. 139",
+      "locator": "pdf:page:140",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "scope": "consolidated",
+      "source_value": "-73312",
+      "unit": "currency"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

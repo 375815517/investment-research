@@ -1,0 +1,78 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-5348a681f98da7be7d4c7f5a02fc015e87b055fe37cfa5d3e61c228365d246d8/candidate.json",
+  "batch_id": "batch-369cea9e2fd08674d0a6e5095bdde202d48ccc5516791ae57890fdf1058b757b",
+  "candidate_hash": "5348a681f98da7be7d4c7f5a02fc015e87b055fe37cfa5d3e61c228365d246d8",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2023/batch-369cea9e2fd08674d0a6e5095bdde202d48ccc5516791ae57890fdf1058b757b/financial-observations.json",
+      "sha256": "cddddc375c4909ac734dab5ad57408cd3c3dd55e49a281e2bbc7d6048e64426c"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:21.581686+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:30:26.276209+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {},
+      "excerpt": "Weighted average number of ordinary shares in issue excluding shares held \n for share award schemes and treasury shares (million shares) 9,455 9,528",
+      "locator": "pdf:page:206",
+      "measure_kind": "period_measure",
+      "metric_id": "weighted-average-basic-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2023-12-31",
+      "period_start": "2023-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "9455",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {},
+      "excerpt": "Weighted average number of ordinary shares for the calculation of \n diluted EPS (million shares) 9,610 9,695",
+      "locator": "pdf:page:206",
+      "measure_kind": "period_measure",
+      "metric_id": "weighted-average-diluted-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2023-12-31",
+      "period_start": "2023-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "9610",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

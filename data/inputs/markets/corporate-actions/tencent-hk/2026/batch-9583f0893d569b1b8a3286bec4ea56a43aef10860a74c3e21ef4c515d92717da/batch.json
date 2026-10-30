@@ -1,0 +1,54 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-6168f1f0a709dbd0618f603c5e50d4a68fcb5d7ef80d8a3e7e2a541c4a1f3a36/candidate.json",
+  "batch_id": "batch-9583f0893d569b1b8a3286bec4ea56a43aef10860a74c3e21ef4c515d92717da",
+  "candidate_hash": "6168f1f0a709dbd0618f603c5e50d4a68fcb5d7ef80d8a3e7e2a541c4a1f3a36",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [
+    "data/inputs/markets/corporate-actions/tencent-hk/2025/batch-12890eee31f1e25fa2a72c1277a39c6c152887030ff2fc5d1901e1d614a98349/batch.json"
+  ],
+  "documents": [
+    "doc-0fa0ebdb71e56c8635fbcaa9ed8e27c0f84ba8fdf5036754f04ed814a6c5210b",
+    "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2026/batch-9583f0893d569b1b8a3286bec4ea56a43aef10860a74c3e21ef4c515d92717da/corporate-actions.json",
+      "sha256": "e2b2d5e339a812ba0b55635ded56970c607668db816d52009522c92fb7331541"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:10.453181+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:28:25.763906+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2024-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2026-04-09",
+      "basis": "Annual report dividend note confirms final dividends paid during calendar 2025; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date is not stated and remains unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "4.50",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "Notes to the Consolidated Financial Statements For the year ended 31 December 2025 15 BENEFITS AND INTERESTS OF DIRECTORS (continued) (b) Directors’ termination benefits No director’s termination benefit subsisted at the end of the year or at any time during the year. (c) Consideration provided to third parties for making available directors’ services No consideration provided to or receivable by third parties for making available directors’ services subsisted at the end of the year or at any time during the year. (d) Information about loans, quasi-loans and other dealings in favour of directors, their controlled bodies and connected entities No loans, quasi-loans and other dealings in favour of directors, their controlled bodies corporate and connected entities subsisted at the end of the year or at any time during the year. (e) Directors’ material interests in transactions, arrangements or contracts No significant transactions, arrangements and contracts in relation to the Group’s business to which the Company was a party and in which a director of the Company had a material interest, whether directly or indirectly, subsisted at the end of the year or at any time during the year. 16 DIVIDENDS The final dividends amounting to HKD40,966 million (2024: HKD31,743 million) were paid during the year ended 31 December 2025. A final dividend in respect of the year ended 31 December 2025 of HKD5.30 per share (2024: HKD4.50 per share) was proposed pursuant to a resolution passed by the Board on 18 March 2026 and subject to the approval of the shareholders at the 2026 AGM. This proposed dividend has not been reflected as dividend payable in these consolidated financial statements. 213",
+      "locator": "pdf:page:214",
+      "payment_date": null,
+      "payment_date_precision": "year",
+      "payment_period_end": "2025-12-31",
+      "payment_period_start": "2025-01-01",
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2024"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

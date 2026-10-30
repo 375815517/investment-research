@@ -1,0 +1,28 @@
+{
+  "candidate_id": "candidate-f8fc49d381cc95472e6ddbdbe77aeb77f4b8d98a1f59c673cec2dbd463ea1f6d",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193",
+  "document_sha256": "865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-final-2023",
+      "action_status": "proposed",
+      "action_type": "cash_dividend",
+      "announcement_date": "2024-03-20",
+      "basis": "Official cash dividend announcement; scheduled terms subject to future shareholders approval. Payment date is scheduled, not confirmation of payment.",
+      "cash_per_share": "3.4",
+      "currency": "HKD",
+      "ex_date": "2024-05-17",
+      "excerpt": "Title of announcement FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023 Announcement date 20 March 2024 Status New announcement Information relating to the dividend Dividend type Final Dividend nature Ordinary For the financial year end 31 December 2023 Reporting period end for the dividend declared 31 December 2023 Dividend declared HKD 3.4 per share Date of shareholders' approval 14 May 2024 Information relating to Hong Kong share register Default currency and amount in which the dividend will be paid HKD 3.4 per share Exchange rate HKD 1 : HKD 1 Ex-dividend date 17 May 2024 Latest time to lodge transfer documents for registration with share registrar for determining entitlement to the dividend 20 May 2024 16:30 Book close period From 21 May 2024 to 22 May 2024 Record date 22 May 2024 Payment date 31 May 2024",
+      "locator": "pdf:page:1",
+      "payment_date": "2024-05-31",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary"
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "supersedes": []
+}

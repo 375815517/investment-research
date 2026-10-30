@@ -1,0 +1,30 @@
+{
+  "collection_context": {
+    "method": "POST",
+    "parameters": {
+      "category": "0",
+      "documentType": "-1",
+      "from": "20180101",
+      "lang": "EN",
+      "market": "SEHK",
+      "searchType": "0",
+      "stockId": "7609",
+      "t1code": "-2",
+      "t2Gcode": "-2",
+      "t2code": "-2",
+      "title": "INTERIM REPORT",
+      "to": "20261030"
+    }
+  },
+  "collection_id": "collection-ddd902bbcde848b1834f9a65b2e754aa",
+  "document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:02:20.538093+00:00",
+  "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+  "publication_assertion": null,
+  "sha256": "a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "source_id": "tencent-publication-evidence",
+  "status": "received"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "metadata_ref": "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "xiaomi",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "source_value": "4517510134",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "shares",
+      "scale": "units",
+      "currency": null,
+      "measure_kind": "stock",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2024-12-31",
+      "scope": "consolidated",
+      "dimensions": {
+        "share_class": "class-a"
+      },
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:341",
+      "excerpt": "As of December 31, 2024, the number of issued share capital of Class A and Class B Share is 4,517,510,134"
+    },
+    {
+      "schema_version": "2",
+      "company_id": "xiaomi",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "source_value": "20581641676",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "shares",
+      "scale": "units",
+      "currency": null,
+      "measure_kind": "stock",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2024-12-31",
+      "scope": "consolidated",
+      "dimensions": {
+        "share_class": "class-b"
+      },
+      "basis": "Year-end class-specific issued shares explicitly stated in share-capital note narrative, not free float or treasury-adjusted outstanding; ClassA has ten votes and ClassB one vote with reserved-matter exceptions.",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:341",
+      "excerpt": "and 20,581,641,676"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

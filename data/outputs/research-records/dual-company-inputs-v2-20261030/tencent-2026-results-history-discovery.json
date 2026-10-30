@@ -1,0 +1,47 @@
+{
+  "status": "discovered",
+  "issues": [],
+  "discovery_id": "discovery-ee70d89ebb65973a353391ba",
+  "entries": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2026",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-70f9a338bd9bcb0ecb1c10cf",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051301257.pdf",
+      "title": "POLL RESULTS FOR THE 2026 ANNUAL GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-04175c576ed459acede820e6",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2026",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-f26becaac27794e8e91ffb86",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800388.pdf",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-b9dd16a949e02ff05acb849a",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210"
+    }
+  ],
+  "next_parameters": null,
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210/v1/original.html",
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210/v1/document.json",
+    "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-f1efc1114b6a4bed8c9956d35416bd86/collection.json",
+    "data/outputs/research-records/acquisition/discoveries/discovery-ee70d89ebb65973a353391ba.json"
+  ]
+}

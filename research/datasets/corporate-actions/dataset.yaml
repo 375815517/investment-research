@@ -1,0 +1,6 @@
+dataset_id: corporate-actions
+schema_version: '1'
+record_schema: CorporateAction
+schema_authority: investment_domain.CorporateAction
+review_policy: evidence-and-semantic-review
+status: implemented-finite-contract

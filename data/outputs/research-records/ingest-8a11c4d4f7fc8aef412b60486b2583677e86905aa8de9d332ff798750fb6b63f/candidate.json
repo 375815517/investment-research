@@ -1,0 +1,59 @@
+{
+  "candidate_id": "candidate-995534b0e8d29f1829de47cd6034b80ba27bfb45d0abbbb50413865ceb060da5",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "document_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES Neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s shares during the year ended 31 December 2020. ISSUANCE OF DEBT SECURITIES In June 2020, the Company issued four tranches of senior notes under the Global Medium Term Note Programme for the Company’s general corporate purposes. In September 2020, TME issued two tranches of senior notes for its general corporate purposes. Details of the issuance of debt securities are set out in Note 36 to the consolidated financial statements. USE OF PROCEEDS FROM IPO AND FPO OF NON WHOLLY-OWNED SUBSIDIARIES The use of proceeds from the IPO and FPO of TME, China Literature and HUYA, our non wholly-owned subsidiaries, are set out below: TME The American depository shares of TME were listed on the New York Stock Exchange on 12 December 2018 and the net proceeds raised by TME during its IPO were approximately USD509 million. As at 31 December 2020, TME had used all net proceeds from its IPO in the manner set out in its IPO prospectus for content acquisition, strategic investments, and other operating and investment purposes. China Literature The shares of China Literature were listed on the Stock Exchange on 8 November 2017 and the net proceeds raised by China Literature during its IPO were approximately HKD7,235 million (equivalent to approximately RMB6,145 million). 30",
+      "locator": "pdf:page:31",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "period_end": "2020-12-31",
+      "period_start": "2020-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "scope": "consolidated",
+      "source_value": "0",
+      "unit": "shares"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Source cash-flow dash retained as explicitly unresolved numerical disclosure; no zero imputed. 2020current-year cash-flow column; separate no-purchase statement only supports share-count scope, not cash-zero.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Year ended 31 December 2020 2019 RMB’Million RMB’Million Cash flows from financing activities Proceeds from short-term borrowings 5,090 18,375 Repayments of short-term borrowings (8,512) (22,058) Proceeds from long-term borrowings 26,323 55,075 Repayments of long-term borrowings (15,899) (55,168) Net proceeds from issuance of notes payable 47,948 40,202 Repayments of notes payable (10,460) (13,465) Principal elements of lease payments (3,537) (2,400) Interest paid (7,076) (7,047) Payments for repurchase of shares – (1,046) Proceeds from issuance of ordinary shares as a result of exercise of share options 1,716 272 Shares withheld for share award schemes (1,865) (1,406) Proceeds from issuance of additional equity of non wholly-owned subsidiaries 600 440 Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries (9,263) (649) Dividends paid to the Company’s shareholders (10,339) (8,315) Dividends paid to non-controlling interests (1,079) (1,138) Net cash flows generated from financing activities 13,647 1,672 Net increase in cash and cash equivalents 25,811 34,092 Cash and cash equivalents at beginning of the year 132,991 97,814 Exchange (losses)/gains on cash and cash equivalents (6,004) 1,085 Cash and cash equivalents at end of the year 152,798 132,991 The notes on pages 175 to 304 are an integral part of these consolidated financial statements. 174",
+      "locator": "pdf:page:175",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "missing_reason": "Cash-flow cell is a dash; no independently verified notation defining it as exact numeric zero. Absence of current-year repurchase transactions does not prove no cash settlement of earlier transactions.",
+      "period_end": "2020-12-31",
+      "period_start": "2020-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "scope": "consolidated",
+      "source_value": null,
+      "unit": "currency",
+      "value_status": "not_disclosed"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

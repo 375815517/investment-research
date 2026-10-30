@@ -1,0 +1,33 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-df9f91ca33bec8db7179b25c",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-3dadc22a3721a433096fd6fc",
+      "listing_document_id": "doc-193f22999b163c8c7cbef22a4d5d169e0573fe04c1cac98d77bce88eddd92867",
+      "title": "2025 Annual Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-193f22999b163c8c7cbef22a4d5d169e0573fe04c1cac98d77bce88eddd92867",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2025",
+      "parameters": {
+        "year": 2025
+      }
+    }
+  ],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:28.001371+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

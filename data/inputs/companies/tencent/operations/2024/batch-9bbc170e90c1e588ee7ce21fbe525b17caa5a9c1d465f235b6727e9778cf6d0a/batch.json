@@ -1,0 +1,111 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-522e2b03f898476f5c2dddd1533b83363b5561693e2ca3a4f64a5056f188f315/candidate.json",
+  "batch_id": "batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a",
+  "candidate_hash": "522e2b03f898476f5c2dddd1533b83363b5561693e2ca3a4f64a5056f188f315",
+  "contract_version": "2",
+  "dataset_id": "operating-observations",
+  "documents": [
+    "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/operating-observations.json",
+      "sha256": "e59824588e7cf911779731b559f7863f90fc0e30e8fe5bef7366a5620a035bb7"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:20.272322+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 3,
+  "registered_at": "2026-10-30T10:54:49.124453+00:00",
+  "rows": [
+    {
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "population": "combined-monthly-active-accounts",
+        "product": "weixin-wechat"
+      },
+      "excerpt": "Combined MAU of Weixin and WeChat 1,385",
+      "locator": "pdf:page:5",
+      "measure_kind": "period_measure",
+      "metric_id": "monthly-active-users",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "product",
+      "source_value": "1385",
+      "unit": "users",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "population": "mobile-device-monthly-active-accounts",
+        "product": "qq-mobile"
+      },
+      "excerpt": "Mobile device MAU of QQ 524",
+      "locator": "pdf:page:5",
+      "measure_kind": "period_measure",
+      "metric_id": "monthly-active-users",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "product",
+      "source_value": "524",
+      "unit": "users",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "issuer-operating-definition",
+      "adjustment_basis": "reported",
+      "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+      "company_id": "tencent",
+      "currency": null,
+      "dimensions": {
+        "population": "average-daily-paid-subscriptions",
+        "product": "fee-based-vas"
+      },
+      "excerpt": "Fee-based VAS paying subscriptions# 262",
+      "locator": "pdf:page:5",
+      "measure_kind": "period_measure",
+      "metric_id": "average-daily-paid-subscriptions",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-10-01",
+      "period_type": "quarter",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "product",
+      "source_value": "262",
+      "unit": "subscriptions",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

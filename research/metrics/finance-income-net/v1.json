@@ -1,0 +1,33 @@
+{
+  "metric_id": "finance-income-net",
+  "version": "1",
+  "name": "净财务收益",
+  "description": "来源披露的净财务收益，不是未抵销的gross finance costs；来源正负号及抵销范围须保留。",
+  "dataset_id": "financial-observations",
+  "unit": "currency",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "Net finance costs/income are not interchangeable with gross finance costs or interest paid; preserve source netting definition and signs."
+}

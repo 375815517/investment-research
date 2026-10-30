@@ -1,0 +1,1102 @@
+{
+  "recorded_at": "2026-10-30T10:50:27.069352+00:00",
+  "profile_path": "research/input-profiles/xiaomi-operating-2024-2025/v1.json",
+  "request": {
+    "comparison_groups": [],
+    "expected_keys": [
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smartphone-shipments-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones",
+            "region": "global"
+          },
+          "measure_kind": "flow",
+          "metric_id": "shipments",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "units"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "global-smartphone-tablet-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones-and-tablets",
+            "region": "global"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "china-smartphone-tablet-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones-and-tablets",
+            "region": "mainland-china"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "mi-home-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "mi-home-app"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "ai-assistant-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "ai-assistant"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smart-tv-mau-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smart-tv-box-stick"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "aiot-devices-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "excluding-smartphones-tablets-laptops",
+            "product": "aiot-platform"
+          },
+          "measure_kind": "stock",
+          "metric_id": "connected-devices",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "devices"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smart-ev-deliveries-2024",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smart-ev"
+          },
+          "measure_kind": "flow",
+          "metric_id": "deliveries",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_start": "2024-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "vehicles"
+        },
+        "source_id": "xiaomi-2024-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smartphone-shipments-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones",
+            "region": "global"
+          },
+          "measure_kind": "flow",
+          "metric_id": "shipments",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "units"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "global-smartphone-tablet-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones-and-tablets",
+            "region": "global"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "china-smartphone-tablet-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smartphones-and-tablets",
+            "region": "mainland-china"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "mi-home-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "mi-home-app"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "ai-assistant-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "ai-assistant"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smart-tv-mau-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smart-tv-box-stick"
+          },
+          "measure_kind": "period_measure",
+          "metric_id": "monthly-active-users",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-12-01",
+          "period_type": "month",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "users"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "aiot-devices-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "population": "excluding-smartphones-tablets-laptops",
+            "product": "aiot-platform"
+          },
+          "measure_kind": "stock",
+          "metric_id": "connected-devices",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "devices"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      },
+      {
+        "dataset_id": "operating-observations",
+        "key_id": "smart-ev-deliveries-2025",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "product": "smart-ev"
+          },
+          "measure_kind": "flow",
+          "metric_id": "deliveries",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_start": "2025-01-01",
+          "period_type": "annual",
+          "restatement": "original",
+          "scope": "product",
+          "unit": "vehicles"
+        },
+        "source_id": "xiaomi-2025-annual",
+        "subject_id": "xiaomi"
+      }
+    ],
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "xiaomi-operating-2024-2025",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "result": {
+    "status": "blocked",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "purpose": "source_description",
+    "audit": {
+      "status": "partial",
+      "scope": "declared_exact_keys",
+      "profile_id": "xiaomi-operating-2024-2025",
+      "profile_version": "1",
+      "keys": [
+        {
+          "key_id": "smartphone-shipments-2024",
+          "expected": {
+            "key_id": "smartphone-shipments-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones",
+                "region": "global"
+              },
+              "measure_kind": "flow",
+              "metric_id": "shipments",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "units"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "global-smartphone-tablet-mau-2024",
+          "expected": {
+            "key_id": "global-smartphone-tablet-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "global"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "china-smartphone-tablet-mau-2024",
+          "expected": {
+            "key_id": "china-smartphone-tablet-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "mainland-china"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "mi-home-mau-2024",
+          "expected": {
+            "key_id": "mi-home-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "mi-home-app"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "ai-assistant-mau-2024",
+          "expected": {
+            "key_id": "ai-assistant-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "ai-assistant"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "smart-tv-mau-2024",
+          "expected": {
+            "key_id": "smart-tv-mau-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smart-tv-box-stick"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "aiot-devices-2024",
+          "expected": {
+            "key_id": "aiot-devices-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "excluding-smartphones-tablets-laptops",
+                "product": "aiot-platform"
+              },
+              "measure_kind": "stock",
+              "metric_id": "connected-devices",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "devices"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "smart-ev-deliveries-2024",
+          "expected": {
+            "key_id": "smart-ev-deliveries-2024",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2024-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smart-ev"
+              },
+              "measure_kind": "flow",
+              "metric_id": "deliveries",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_start": "2024-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "vehicles"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "smartphone-shipments-2025",
+          "expected": {
+            "key_id": "smartphone-shipments-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones",
+                "region": "global"
+              },
+              "measure_kind": "flow",
+              "metric_id": "shipments",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "units"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "global-smartphone-tablet-mau-2025",
+          "expected": {
+            "key_id": "global-smartphone-tablet-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "global"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "china-smartphone-tablet-mau-2025",
+          "expected": {
+            "key_id": "china-smartphone-tablet-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smartphones-and-tablets",
+                "region": "mainland-china"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "mi-home-mau-2025",
+          "expected": {
+            "key_id": "mi-home-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "mi-home-app"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "ai-assistant-mau-2025",
+          "expected": {
+            "key_id": "ai-assistant-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "ai-assistant"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "smart-tv-mau-2025",
+          "expected": {
+            "key_id": "smart-tv-mau-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smart-tv-box-stick"
+              },
+              "measure_kind": "period_measure",
+              "metric_id": "monthly-active-users",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-12-01",
+              "period_type": "month",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "users"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "aiot-devices-2025",
+          "expected": {
+            "key_id": "aiot-devices-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "population": "excluding-smartphones-tablets-laptops",
+                "product": "aiot-platform"
+              },
+              "measure_kind": "stock",
+              "metric_id": "connected-devices",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "devices"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        },
+        {
+          "key_id": "smart-ev-deliveries-2025",
+          "expected": {
+            "key_id": "smart-ev-deliveries-2025",
+            "dataset_id": "operating-observations",
+            "subject_id": "xiaomi",
+            "source_id": "xiaomi-2025-annual",
+            "selectors": {
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "product": "smart-ev"
+              },
+              "measure_kind": "flow",
+              "metric_id": "deliveries",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_start": "2025-01-01",
+              "period_type": "annual",
+              "restatement": "original",
+              "scope": "product",
+              "unit": "vehicles"
+            },
+            "required": true,
+            "max_matches": 1
+          },
+          "status": "missing",
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "rows": [],
+          "artifact_refs": [],
+          "excluded": []
+        }
+      ],
+      "required_count": 16,
+      "satisfied_required_count": 0,
+      "missing_key_ids": [
+        "smartphone-shipments-2024",
+        "global-smartphone-tablet-mau-2024",
+        "china-smartphone-tablet-mau-2024",
+        "mi-home-mau-2024",
+        "ai-assistant-mau-2024",
+        "smart-tv-mau-2024",
+        "aiot-devices-2024",
+        "smart-ev-deliveries-2024",
+        "smartphone-shipments-2025",
+        "global-smartphone-tablet-mau-2025",
+        "china-smartphone-tablet-mau-2025",
+        "mi-home-mau-2025",
+        "ai-assistant-mau-2025",
+        "smart-tv-mau-2025",
+        "aiot-devices-2025",
+        "smart-ev-deliveries-2025"
+      ],
+      "artifact_refs": [],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ]
+    },
+    "findings": [
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smartphone-shipments-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "global-smartphone-tablet-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "china-smartphone-tablet-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "mi-home-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "ai-assistant-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smart-tv-mau-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "aiot-devices-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smart-ev-deliveries-2024"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smartphone-shipments-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "global-smartphone-tablet-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "china-smartphone-tablet-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "mi-home-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "ai-assistant-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smart-tv-mau-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "aiot-devices-2025"
+        ],
+        "group_id": null
+      },
+      {
+        "code": "EXACT_KEY_MISSING",
+        "message": "The exact input key is not satisfied by an unambiguous reported observation",
+        "severity": "error",
+        "key_ids": [
+          "smart-ev-deliveries-2025"
+        ],
+        "group_id": null
+      }
+    ],
+    "artifact_refs": [],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [
+      "EXACT_KEY_MISSING"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-cab94b016af74125a6c48f6e3a9f4923",
+    "summary": "profile assess",
+    "issues": []
+  }
+}

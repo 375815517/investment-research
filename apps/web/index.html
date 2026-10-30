@@ -15,7 +15,7 @@
     <form id="scope-form">
       <div class="fields">
         <label>研究对象<select id="subject" required><option value="">载入中…</option></select></label>
-        <label>数据类型<select id="dataset"><option value="daily-prices">日行情</option><option value="financial-facts">财务披露事实</option><option value="market-observations">市场观测（快照）</option><option value="document-facts">来源陈述（政策／行业／新闻）</option></select></label>
+        <label>数据类型<select id="dataset"><option value="daily-prices">日行情</option><option value="financial-facts">财务披露事实（旧合同）</option><option value="financial-observations">维度化财务观测</option><option value="operating-observations">经营观测</option><option value="corporate-actions">公司行动</option><option value="benchmark-prices">市场基准</option><option value="market-observations">市场观测（快照）</option><option value="document-facts">来源陈述（政策／行业／新闻）</option></select></label>
         <label>行情价格口径<select id="price-basis"><option value="unadjusted">已核实不复权</option><option value="provider-native">供应商原生口径（未核实复权）</option></select></label>
         <label>起始日期<input id="start" type="date" required></label>
         <label>结束日期<input id="end" type="date" required></label>
@@ -57,6 +57,42 @@
     <ul id="assessment-findings" aria-label="数据适用性限制"></ul>
     <details><summary>适用性评估详情</summary><pre id="assessment-output">尚未评估</pre></details>
     <details><summary>需求与逐项核查结果</summary><pre id="audit-output">尚未核查</pre></details>
+  </section>
+
+  <section aria-labelledby="profile-title">
+    <h2 id="profile-title">精确输入规格与研究用途</h2>
+    <p class="hint">按公司、准确期间、字段和维度检查每个预期键。缺少一个期间不能用其他期间的重复记录补足；比较组另行检查单位、口径与连接条件。</p>
+    <label>输入规格<select id="input-profile"><option value="">尚无输入规格</option></select></label>
+    <div class="actions"><button id="profile-audit" type="button" class="secondary">检查预期键</button><button id="profile-assess" type="button" class="secondary">评估规格用途</button></div>
+    <p id="profile-summary" role="status"></p>
+    <div id="profile-keys" class="table-wrap"></div>
+    <ul id="profile-findings" aria-label="规格用途限制"></ul>
+    <details><summary>输入规格与评估详情</summary><pre id="profile-output">尚未评估</pre></details>
+  </section>
+
+  <section aria-labelledby="workflow-title">
+    <h2 id="workflow-title">采集任务、证据修订与研究输入包</h2>
+    <p class="hint">任务可分阶段恢复；原件已取得不等于提取和复核完成。发布时间修订追加保存，冻结输入包固定本次研究所用版本。</p>
+    <div class="fields">
+      <label>操作<select id="workflow-operation">
+        <option value="acquisition-status">查看采集任务</option>
+        <option value="source-discover">发现来源资料并归档发现结果</option>
+        <option value="acquisition-plan">建立采集任务</option>
+        <option value="acquisition-run">执行或恢复采集任务</option>
+        <option value="normalize-inputs">登记单位转换结果</option>
+        <option value="revise-metadata">提交已核实的公开时间修订</option>
+        <option value="freeze-inputs">冻结研究输入包</option>
+        <option value="verify-bundle">核验已冻结输入包</option>
+      </select></label>
+      <label>已登记来源映射<select id="workflow-binding"><option value="">手动填写来源映射</option></select></label>
+      <label>已登记的采集任务<select id="workflow-task"><option value="">手动填写任务编号</option></select></label>
+    </div>
+    <p id="workflow-effect" class="hint"></p>
+    <label>操作请求（JSON）<textarea id="workflow-request" rows="8" spellcheck="false" aria-describedby="workflow-effect">{}</textarea></label>
+    <div class="actions"><button id="workflow-use-profile" type="button" class="secondary">使用所选输入规格</button><button id="workflow-execute" type="button">执行所选操作</button></div>
+    <p id="workflow-summary" role="status"></p>
+    <div id="workflow-items" class="table-wrap"></div>
+    <details><summary>操作结果与证据引用</summary><pre id="workflow-output">尚未执行</pre></details>
   </section>
 
   <section aria-labelledby="records-title">

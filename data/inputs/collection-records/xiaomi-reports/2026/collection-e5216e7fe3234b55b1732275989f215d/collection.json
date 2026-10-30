@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:47:27.972159+00:00",
+      "final_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2025",
+      "path": "/workspace/investment-research/.research-local/collections/cf705925cc6d497fb3af04b8b4271920/response-f7f5b30e44bc4ae3b01fa35959d52135.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-reports"
+      },
+      "request_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2025",
+      "rows": 0,
+      "sha256": "193f22999b163c8c7cbef22a4d5d169e0573fe04c1cac98d77bce88eddd92867",
+      "size_bytes": 36379,
+      "source_id": "xiaomi-reports"
+    }
+  },
+  "collection_id": "collection-e5216e7fe3234b55b1732275989f215d",
+  "document_id": "doc-193f22999b163c8c7cbef22a4d5d169e0573fe04c1cac98d77bce88eddd92867",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:47:27.977699+00:00",
+  "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2025",
+  "publication_assertion": null,
+  "sha256": "193f22999b163c8c7cbef22a4d5d169e0573fe04c1cac98d77bce88eddd92867",
+  "source_id": "xiaomi-reports",
+  "status": "received"
+}

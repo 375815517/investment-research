@@ -1,0 +1,27 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+    "company_id": "tencent",
+    "currency": "CNY",
+    "dimensions": {},
+    "excerpt": "Cash and cash equivalents at beginning of the year 167,966 152,798",
+    "locator": "pdf:page:142",
+    "measure_kind": "stock",
+    "metric_id": "cash-and-cash-equivalents",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2022-01-01",
+    "period_start": null,
+    "period_type": "instant",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "millions",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "167966",
+    "unit": "currency",
+    "value_status": "reported"
+  }
+]

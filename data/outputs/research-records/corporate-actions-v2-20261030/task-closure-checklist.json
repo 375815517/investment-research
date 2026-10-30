@@ -1,0 +1,133 @@
+{
+  "scope": "corporate-actions subtask only; other acquisition tasks owned by corresponding data/source reviews",
+  "tasks": [
+    {
+      "task_id": "acquisition-70190d3bf1f472134c5045ed",
+      "status": "complete",
+      "dataset_id": "corporate-actions",
+      "items": [
+        {
+          "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+          "stage": "verified",
+          "candidate_id": "candidate-aec3ed7ab716e8d9249c22184c66fb7abcf684fb601e9355773d4e255fde5280",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+          "stage": "verified",
+          "candidate_id": "candidate-db00af50e3e1d437683553c511939c2901f78877df6a0ed2a5f49ce7d6e45586",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-cfdcfcedc435733853396edd",
+          "stage": "verified",
+          "candidate_id": "candidate-62adfc715142faa7069d620ad4fb06f03b7b31b5edcc143d9bb7fa4e2c0ee2ec",
+          "skip_reason": null
+        }
+      ]
+    },
+    {
+      "task_id": "acquisition-493b2bf8ba006e6207c5df36",
+      "status": "complete",
+      "dataset_id": "corporate-actions",
+      "items": [
+        {
+          "item_id": "item-32f9d080209ee5550d1c6761",
+          "stage": "verified",
+          "candidate_id": "candidate-5ee3972caf4582ff35445e295e93823b51dd61696e67f10baceb413b298c0a7b",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-454a268914065e856a7c6e94",
+          "stage": "verified",
+          "candidate_id": "candidate-1262013905f8642d4249e13698d9002e3cd351f2163402b8032540c2dfadf0a5",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-5d493b928b159c6568cbac59",
+          "stage": "verified",
+          "candidate_id": "candidate-394badff9672e0cbad7868680a212a5e633672719b1f3e91eafe55c09da12cb4",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-778794f1b25a26308a6f5086",
+          "stage": "verified",
+          "candidate_id": "candidate-1558cb32b5f6d989edda1bac7b87ce443f1bb887d29134b2b4d5ba7debffe8ee",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-d66bf98a7f70926eeccc0ed2",
+          "stage": "verified",
+          "candidate_id": "candidate-7207991fab2e9acbe01b953843340f1408d281017b38ee84e174b0a54ebdc643",
+          "skip_reason": null
+        },
+        {
+          "item_id": "item-fbb03f692d54666d9e7f1469",
+          "stage": "verified",
+          "candidate_id": "candidate-b24247afcda7edf81aa6662d9d7df02a381ef3425bd1b490cb9a9c35f3d3fb2d",
+          "skip_reason": null
+        }
+      ]
+    },
+    {
+      "task_id": "acquisition-a00ba07825c57bc223822be5",
+      "status": "completed_with_skips",
+      "dataset_id": "corporate-actions",
+      "items": [
+        {
+          "item_id": "item-7c88dee51e2855fe0ce94930",
+          "stage": "skipped",
+          "candidate_id": null,
+          "skip_reason": "Supporting January2019 detailed-terms circular archived. No separate corporate-action event is extracted from this duplicate explanatory document; authoritative declaration and annual payment confirmation have independent reviewed receipts. Skip does not claim complete research coverage."
+        },
+        {
+          "item_id": "item-a5e15d757a34b04412b2eb28",
+          "stage": "verified",
+          "candidate_id": "candidate-fa6de5633c7a37aa354521e9d72d25be9f13059ae044a35677520e560747f1bc",
+          "skip_reason": null
+        }
+      ]
+    }
+  ],
+  "direct_admissions": [
+    {
+      "receipt_file": "early-cash-ingest-receipts.json",
+      "note": "Already registered through prepare/review/ingest; this is a separately declared output from an existing annual report or supporting document and not an unprocessed item of the PDF acquisition task"
+    },
+    {
+      "receipt_file": "payment-year-ingest-receipts.json",
+      "note": "Already registered through prepare/review/ingest; this is a separately declared output from an existing annual report or supporting document and not an unprocessed item of the PDF acquisition task"
+    },
+    {
+      "receipt_file": "payment-period-ingest-receipt.json",
+      "note": "Already registered through prepare/review/ingest; this is a separately declared output from an existing annual report or supporting document and not an unprocessed item of the PDF acquisition task"
+    },
+    {
+      "receipt_file": "tme-ingest-receipts.json",
+      "note": "Already registered through prepare/review/ingest; this is a separately declared output from an existing annual report or supporting document and not an unprocessed item of the PDF acquisition task"
+    },
+    {
+      "receipt_file": "annual-buyback-placement-ingest-receipts.json",
+      "note": "18 independently reviewed candidates from already archived annual reports, 34 records all registered; additional declared annual financial observations and placement facts, not orphaned acquisition items"
+    }
+  ],
+  "pending": [
+    {
+      "item": "TME exact realized cash/ADS receipt dates and investor-specific election",
+      "status": "source_terms_known_individual_outcome_not_determined",
+      "evidence": "tme-ingest-receipts.json"
+    },
+    {
+      "item": "Daily buyback universe and complete rights/split reconciliation",
+      "status": "outside_final_annual_normalization_boundary",
+      "evidence": "annual-buyback-placement-acceptance.json",
+      "detail": "Annual32 observations registered:30numeric+2explicitcashmissing; twoplacements registered asdocumentfacts. Daily fragments in annual notes do not certify a complete daily universe."
+    }
+  ],
+  "resolved_probes": [
+    {
+      "probe": "tme-special-dividend-discovery.json",
+      "resolution": "Keyword returned no matching links; alternative registered DISTRIBUTION search retrieved both authoritative documents. Not an unresolved network blocker."
+    }
+  ]
+}

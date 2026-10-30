@@ -1,0 +1,65 @@
+[
+  {
+    "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+    "dataset_id": "corporate-actions",
+    "records": [
+      {
+        "security_id": "tencent-hk",
+        "action_id": "tencent-final-2018",
+        "action_type": "cash_dividend",
+        "action_status": "proposed",
+        "announcement_date": "2019-03-21",
+        "cash_per_share": "1.00",
+        "currency": "HKD",
+        "share_class": "ordinary",
+        "basis": "Annual report dividend note explicitly records board resolution and shareholders approval still required. Exact ex-date/payment date not provided on this evidence page.",
+        "locator": "pdf:page:209",
+        "excerpt": "15 DIVIDENDS The dividends amounting to RMB6,776 million (2017: RMB5,052 million) were paid during the year ended 31 December 2018. A special dividend of approximately HKD250 million (equivalent to approximately RMB219 million) was declared in December 2018 to the shareholders of the Company by way of a distribution in respect of the separate listing of a non- wholly owned subsidiary on the New York Stock Exchange. Such dividend was subsequently paid by the Group in February 2019. A final dividend in respect of the year ended 31 December 2018 of HKD1.00 per share (2017: HKD0.88 per share) was proposed pursuant to a resolution passed by the Board on 21 March 2019 and subject to the approval of the shareholders at the annual general meeting of the Company to be held on 15 May 2019 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 208 Tencent Holdings Limited",
+        "record_kind": "source_reported"
+      }
+    ],
+    "parser_version": "reviewed-extraction-v1"
+  },
+  {
+    "document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+    "dataset_id": "corporate-actions",
+    "records": [
+      {
+        "security_id": "tencent-hk",
+        "action_id": "tencent-final-2019",
+        "action_type": "cash_dividend",
+        "action_status": "proposed",
+        "announcement_date": "2020-03-18",
+        "cash_per_share": "1.20",
+        "currency": "HKD",
+        "share_class": "ordinary",
+        "basis": "Annual report dividend note explicitly records board resolution and shareholders approval still required. Exact ex-date/payment date not provided on this evidence page.",
+        "locator": "pdf:page:209",
+        "excerpt": "15 DIVIDENDS The dividends amounting to RMB8,305 million (final dividend for 2018: RMB6,776 million) were paid during the year ended 31 December 2019. A special dividend of approximately HKD250 million (equivalent to approximately RMB219 million) was declared in December 2018 to the shareholders of the Company by way of a distribution in respect of the separate listing of Tencent Music Entertainment Group (\u201cTME\u201d), a non-wholly owned subsidiary of the Group on the New York Stock Exchange. Such dividend was settled by the Group with cash and shares of TME in February 2019. A final dividend in respect of the year ended 31 December 2019 of HKD1.20 per share (2018: HKD1.00 per share) was proposed pursuant to a resolution passed by the Board on 18 March 2020 and subject to the approval of the shareholders at the 2020 annual general meeting of the Company to be held on 13 May 2020 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 208",
+        "record_kind": "source_reported"
+      }
+    ],
+    "parser_version": "reviewed-extraction-v1"
+  },
+  {
+    "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+    "dataset_id": "corporate-actions",
+    "records": [
+      {
+        "security_id": "tencent-hk",
+        "action_id": "tencent-final-2020",
+        "action_type": "cash_dividend",
+        "action_status": "proposed",
+        "announcement_date": "2021-03-24",
+        "cash_per_share": "1.60",
+        "currency": "HKD",
+        "share_class": "ordinary",
+        "basis": "Annual report dividend note explicitly records board resolution and shareholders approval still required. Exact ex-date/payment date not provided on this evidence page.",
+        "locator": "pdf:page:244",
+        "excerpt": "15 DIVIDENDS The final dividends amounting to HKD11,378 million (2019: HKD9,463 million) were paid during the year ended 31 December 2020. A final dividend in respect of the year ended 31 December 2020 of HKD1.60 per share (2019: HKD1.20 per share) was proposed pursuant to a resolution passed by the Board on 24 March 2021 and subject to the approval of the shareholders at the 2021 annual general meeting of the Company to be held on 20 May 2021 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 243",
+        "record_kind": "source_reported"
+      }
+    ],
+    "parser_version": "reviewed-extraction-v1"
+  }
+]

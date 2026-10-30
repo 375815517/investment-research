@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+  "document_sha256": "c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+  "evidence_document_id": "doc-a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "evidence_sha256": "a26c7fe250903ab332241f9920c09f236522008c9fcd0c9243996fade91cdc54",
+  "excerpt": "Release Time: 26/08/2025 17:00 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Interim/Half-Year Report] INTERIM REPORT 2025 ( 7MB )",
+  "locator": "html:table:INTERIM REPORT 2025",
+  "notes": "HKEX Release Time row binds issuer stock code, interim report year and linked PDF. Linked PDF SHA256 equals archived document. Date component conservatively used; do not conflate interim report publication with earlier results announcement.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2025-08-26",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:02:21.239108+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-ec875a51d62432d4c46f7d8bffd865db52416cda2a9eb58ef56a7763278fa5f4",
+  "supporting_documents": []
+}

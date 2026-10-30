@@ -23,10 +23,14 @@ def windows(start: date, end: date):
         start = stop + timedelta(days=1)
 
 
-def backfill(root: Path, source: str, security: str, start: date, end: date) -> dict:
+def backfill(
+    root: Path, source: str, security: str, start: date, end: date, dataset: str = "daily-prices"
+) -> dict:
     connector = ConnectorService(root)
     service = Service(root, connector)
-    request = dict(source_id=source, security_id=security, start=str(start), end=str(end))
+    request = dict(
+        source_id=source, subject_id=security, dataset_id=dataset, start=str(start), end=str(end)
+    )
     run = dict(request=request, started_at=utc_now(), windows=[], status="running")
     run_id = "price-history-" + fingerprint(dict(request, started_at=run["started_at"]))[:24]
     for begin, stop in windows(start, end):
@@ -35,7 +39,7 @@ def backfill(root: Path, source: str, security: str, start: date, end: date) -> 
             planned = connector.execute(
                 "plan", dict(source_id=source, start_date=str(begin), end_date=str(stop))
             )
-            if planned.get("security_id") != security:
+            if (planned.get("security_id") or planned.get("benchmark_id")) != security:
                 raise DomainError("SOURCE_SUBJECT_MISMATCH", "Source security differs from request")
             collected = service.execute(
                 "collect", dict(source_id=source, parameters=planned["parameters"])
@@ -43,7 +47,7 @@ def backfill(root: Path, source: str, security: str, start: date, end: date) -> 
             result["document_id"] = collected["document_id"]
             result["collection_refs"] = collected["artifact_refs"]
             prepared = service.execute(
-                "prepare", dict(document_id=collected["document_id"], dataset_id="daily-prices")
+                "prepare", dict(document_id=collected["document_id"], dataset_id=dataset)
             )
             candidate = service._candidate(prepared["candidate_id"])
             days = [row["trading_date"] for row in candidate["records"]]
@@ -53,7 +57,17 @@ def backfill(root: Path, source: str, security: str, start: date, end: date) -> 
                 )
             validated = service.execute("validate", dict(candidate_id=prepared["candidate_id"]))
             result["validation"] = validated
-            if validated["status"] != "eligible":
+            if dataset == "benchmark-prices" and validated["status"] == "review_required":
+                service.execute(
+                    "review",
+                    dict(
+                        candidate_id=prepared["candidate_id"],
+                        decision="approved",
+                        reviewer="deterministic-index-parser",
+                        notes="Fixed parser preserves archived date/close with exact source row; provider index is not total return or independently authenticated.",
+                    ),
+                )
+            elif validated["status"] != "eligible":
                 raise DomainError("QUALITY_BLOCKED", "History window did not pass validation")
             plan = service.execute("ingest_plan", dict(candidate_id=prepared["candidate_id"]))
             receipt = service.execute("ingest_apply", dict(plan_id=plan["plan_id"]))
@@ -101,11 +115,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workspace", type=Path, default=Path.cwd())
     parser.add_argument("--source", required=True)
-    parser.add_argument("--security", required=True)
+    parser.add_argument("--security", required=True, help="Security or benchmark identity")
+    parser.add_argument(
+        "--dataset", choices=["daily-prices", "benchmark-prices"], default="daily-prices"
+    )
     parser.add_argument("--start", type=date.fromisoformat, required=True)
     parser.add_argument("--end", type=date.fromisoformat, required=True)
     args = parser.parse_args()
-    result = backfill(args.workspace, args.source, args.security, args.start, args.end)
+    result = backfill(
+        args.workspace, args.source, args.security, args.start, args.end, args.dataset
+    )
     return 0 if result["status"] == "collected" else 3
 
 

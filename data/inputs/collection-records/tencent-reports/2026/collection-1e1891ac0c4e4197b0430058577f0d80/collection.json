@@ -1,0 +1,29 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:44:27.437947+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/fbb0321ef5b44338a2c9b0f0a70b5f7f/response-eca1cbb8a1af42b0a07c4539b3675f97.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-reports"
+      },
+      "rows": 0,
+      "sha256": "8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "size_bytes": 4221019,
+      "source_id": "tencent-reports"
+    }
+  },
+  "collection_id": "collection-1e1891ac0c4e4197b0430058577f0d80",
+  "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:44:27.445209+00:00",
+  "origin_url": "https://static.www.tencent.com/website-2026-upload/2020-interim-report-1651c7.pdf",
+  "publication_assertion": null,
+  "sha256": "8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+  "source_id": "tencent-reports",
+  "status": "received"
+}

@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-9a0449f5b3df3be5796840c3996275688e2fd0dc927359252e17014b3a78a57d/candidate.json",
+  "batch_id": "batch-6bf5c9780ff74d1588f0cad1964e4eb213083b6ba441475ddc83109b34e85a61",
+  "candidate_hash": "9a0449f5b3df3be5796840c3996275688e2fd0dc927359252e17014b3a78a57d",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2018/batch-6bf5c9780ff74d1588f0cad1964e4eb213083b6ba441475ddc83109b34e85a61/financial-observations.json",
+      "sha256": "d4151e6fc34e677e204b93fc9bd4548408b35b617dd129368db8aa47a91c5e9b"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:03.638307+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:19:18.279013+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Interest and related expenses in Finance costs, net note, positive expense magnitude; excludes separately disclosed FX gains/losses and is not synonymous with total finance costs",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Interest and related expenses 4,898 3,060",
+      "locator": "pdf:page:199",
+      "measure_kind": "flow",
+      "metric_id": "interest-and-related-expenses",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "4898",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

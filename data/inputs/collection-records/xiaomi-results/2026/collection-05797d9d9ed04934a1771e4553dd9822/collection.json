@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T11:06:05.985692+00:00",
+      "final_url": "https://ir.mi.com/static-files/ad8fe815-6b9f-4ee5-bd3c-5a83c1c76f9a",
+      "path": "/workspace/investment-research/.research-local/collections/1535d2f98e9244319837aeafef3168f5/response-0e7490ba92984efb8eed68b718f1fe36.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-results"
+      },
+      "request_url": "https://ir.mi.com/static-files/ad8fe815-6b9f-4ee5-bd3c-5a83c1c76f9a",
+      "rows": 0,
+      "sha256": "945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+      "size_bytes": 733307,
+      "source_id": "xiaomi-results"
+    }
+  },
+  "collection_id": "collection-05797d9d9ed04934a1771e4553dd9822",
+  "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:06:05.988495+00:00",
+  "origin_url": "https://ir.mi.com/static-files/ad8fe815-6b9f-4ee5-bd3c-5a83c1c76f9a",
+  "publication_assertion": null,
+  "sha256": "945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+  "source_id": "xiaomi-results",
+  "status": "received"
+}

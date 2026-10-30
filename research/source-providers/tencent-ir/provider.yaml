@@ -1,0 +1,18 @@
+provider_id: tencent-ir
+url: https://www.tencent.com/investors/financial-reports/page/{page}/
+connector_id: http-document-v1
+dataset_id: financial-facts
+allowed_hosts:
+- www.tencent.com
+- static.www.tencent.com
+allowed_parameters:
+- page
+pagination: true
+max_pages: 10
+max_bytes: 32000000
+archive_permissions: research-only
+usage_basis: User-authorized archive of public issuer reports; no open redistribution
+  license
+known_limitations:
+- Listing links do not establish exact report publication time
+- Source period and statement semantics require review

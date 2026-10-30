@@ -1,0 +1,37 @@
+{
+  "candidate_id": "candidate-5bc3a3011946c1be09330fab62564efdbdcc9e422f4429cfc0641952dd750444",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+  "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Interest and related expenses in Finance costs, net note, positive expense magnitude; excludes separately disclosed FX gains/losses and is not synonymous with total finance costs",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Interest and related expenses 4,898 3,060",
+      "locator": "pdf:page:199",
+      "measure_kind": "flow",
+      "metric_id": "interest-and-related-expenses",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "4898",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

@@ -1,0 +1,56 @@
+{
+  "event_hash": "20eb0dc652903a0b273ed5d236471c4f71f69c0f0ea81f187c5142b503e6fa82",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/original.html",
+        "data/inputs/source-files/hkex-xiaomi/2026/doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f/v1/document.json",
+        "data/inputs/collection-records/hkex-xiaomi/2026/collection-39298dda17a94db185aff55354de61a8/collection.json"
+      ],
+      "context": "2026-10-15",
+      "document_id": "doc-5d8139bf5a66dad38183dfcaaad1efd4b674f5613c0f6ab8e04a163aa0cbf20f",
+      "item_id": "item-3e63141da27b2a15c88216a4",
+      "listing_document_id": null,
+      "observed_date": "2026-10-15",
+      "retrieval_mode": "explicit_archived_version_reuse",
+      "stage": "awaiting_extraction",
+      "title": "hkex-daily 2026-10-15",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-28",
+      "item_id": "item-51fcb6bffdb4044769778ec2",
+      "listing_document_id": null,
+      "observed_date": "2026-10-28",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-28",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-02",
+      "item_id": "item-a7d91a16a8129b63705e1510",
+      "listing_document_id": null,
+      "observed_date": "2026-10-02",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-02",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm"
+    },
+    {
+      "attempts": 0,
+      "context": "2026-10-29",
+      "item_id": "item-afbfd43a3ecb869771b99d50",
+      "listing_document_id": null,
+      "observed_date": "2026-10-29",
+      "stage": "pending_fetch",
+      "title": "hkex-daily 2026-10-29",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm"
+    }
+  ],
+  "previous_hash": null,
+  "recorded_at": "2026-10-30T11:00:43.686135+00:00",
+  "sequence": 1,
+  "task_id": "acquisition-c0eaeb0c00e6ce0e33f25c2e"
+}

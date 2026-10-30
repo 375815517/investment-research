@@ -1,0 +1,40 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-65805b94602fdb0b340dc419",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-bd255d9ec7b5a7bbe29c130e",
+      "listing_document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "title": "2024 Annual Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2025/04/24/5-27-15/%E8%8B%B1%E6%96%87.pdf"
+    },
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-b6b138f9b32443b770205dca",
+      "listing_document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "title": "2024 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/09/26/5-16-23/XIAOMI%202024%20INTERIM%20REPORT-ENG.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2024",
+      "parameters": {
+        "year": 2024
+      }
+    }
+  ],
+  "provider_fingerprint": "e0c3c59dcc4afe0948936f7c8b1a0f80e297f859220f0ae298ab093334c2caab",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:47:25.933755+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

@@ -52,6 +52,16 @@ class Service:
         "ensure_apply",
         "audit_inputs",
         "assess_inputs",
+        "profile_audit",
+        "profile_assess",
+        "normalize_inputs",
+        "revise_metadata",
+        "source_discover",
+        "acquisition_plan",
+        "acquisition_run",
+        "acquisition_status",
+        "freeze_inputs",
+        "verify_bundle",
     )
 
     def __init__(self, workspace: Path, connector_service=None):
@@ -70,7 +80,7 @@ class Service:
         try:
             snapshot = (
                 self.repo.read_snapshot()
-                if operation in ("audit_inputs", "assess_inputs")
+                if operation in ("audit_inputs", "assess_inputs", "profile_audit", "profile_assess")
                 else nullcontext()
             )
             with snapshot:
@@ -93,6 +103,56 @@ class Service:
             saved.update(status="failed", error=dict(code=exc.code, message=exc.message))
             self.repo.json(checkpoint, saved, immutable=False)
             raise
+
+    def _profile_audit(self, payload):
+        from .profiles import audit
+
+        return audit(self, payload)
+
+    def _profile_assess(self, payload):
+        from .profiles import assess
+
+        return assess(self, payload)
+
+    def _normalize_inputs(self, payload):
+        from .transforms import normalize
+
+        return normalize(self, payload)
+
+    def _revise_metadata(self, payload):
+        from .temporal import revise_metadata
+
+        return revise_metadata(self, payload)
+
+    def _source_discover(self, payload):
+        from .acquisition import discover
+
+        return discover(self, payload)
+
+    def _acquisition_plan(self, payload):
+        from .acquisition import plan
+
+        return plan(self, payload)
+
+    def _acquisition_run(self, payload):
+        from .acquisition import run
+
+        return run(self, payload)
+
+    def _acquisition_status(self, payload):
+        from .acquisition import status
+
+        return status(self, payload)
+
+    def _freeze_inputs(self, payload):
+        from .bundles import freeze
+
+        return freeze(self, payload)
+
+    def _verify_bundle(self, payload):
+        from .bundles import verify
+
+        return verify(self, payload)
 
     def _detect_gaps(self, payload):
         from .ensure import detect
@@ -231,8 +291,11 @@ class Service:
             path = self.repo.path(request.path)
         if not path.is_file():
             raise DomainError("IMPORT_NOT_FOUND", str(path))
-        if path.stat().st_size > 32 * 1024 * 1024:
-            raise DomainError("IMPORT_TOO_LARGE", "MVP import limit is 32 MiB")
+        if path.stat().st_size > 50_000_000:
+            raise DomainError(
+                "IMPORT_TOO_LARGE",
+                "Import limit is 50,000,000 bytes, matching the connector maximum",
+            )
         doc, refs, duplicate = self.repo.import_bytes(
             path.read_bytes(),
             request.source_id,
@@ -305,6 +368,32 @@ class Service:
         dataset = payload["dataset_id"]
         if dataset not in MODELS:
             raise DomainError("UNKNOWN_DATASET", dataset)
+        parser_source_id = payload.get("parser_source_id", doc["source_id"])
+        if parser_source_id != doc["source_id"]:
+            if self.connector_service is None:
+                raise DomainError(
+                    "CONNECTOR_UNAVAILABLE", "Explicit parsing binding requires a connector"
+                )
+            from investment_connectors import SourceDefinition
+
+            binding = SourceDefinition.load(self.repo.root, parser_source_id)
+            generic_extraction = (
+                binding.connector_id in {"http-document-v1", "http-html-v1"}
+                and dataset
+                in {
+                    "financial-facts",
+                    "document-facts",
+                    "market-observations",
+                    "financial-observations",
+                    "operating-observations",
+                    "corporate-actions",
+                }
+                and payload.get("records") is not None
+            )
+            if binding.dataset_id != dataset and not generic_extraction:
+                raise DomainError(
+                    "SOURCE_DATASET_MISMATCH", "Parsing binding targets another dataset"
+                )
         records = payload.get("records")
         if dataset == "daily-prices" and records is not None:
             raise DomainError(
@@ -312,7 +401,7 @@ class Service:
                 "Price candidates must be parsed from the archived source; records overrides are not supported",
             )
         if records is None:
-            if dataset not in ("daily-prices", "market-observations"):
+            if dataset not in ("daily-prices", "market-observations", "benchmark-prices"):
                 raise DomainError(
                     "CANDIDATES_REQUIRED",
                     "Document and financial extraction require records with evidence locators",
@@ -333,7 +422,7 @@ class Service:
                         "parse",
                         {
                             "document_path": str(self.repo.path(doc["path"])),
-                            "source_id": doc["source_id"],
+                            "source_id": parser_source_id,
                             "first_observed_at": doc["first_observed_at"],
                             "dataset_id": dataset,
                         },
@@ -348,16 +437,21 @@ class Service:
             raise DomainError("EMPTY_BATCH", "A candidate batch must contain records")
         candidate = dict(
             dataset_id=dataset,
-            contract_version="1",
+            contract_version="2"
+            if dataset in {"financial-observations", "operating-observations"}
+            else "1",
             document_id=doc["document_id"],
             document_sha256=doc["sha256"],
-            source_id=doc["source_id"],
+            source_id=parser_source_id,
             parser_version=payload.get(
                 "parser_version", "csv-v1" if dataset == "daily-prices" else "manual-v1"
             ),
             records=records,
             supersedes=payload.get("supersedes", []),
         )
+        if parser_source_id != doc["source_id"]:
+            candidate["document_source_id"] = doc["source_id"]
+            candidate["parser_source_id"] = parser_source_id
         candidate_id = "candidate-" + fingerprint(candidate)
         candidate["candidate_id"] = candidate_id
         rel = f".research-local/candidates/{candidate_id}.json"
@@ -377,9 +471,25 @@ class Service:
             raise DomainError("EVIDENCE_CHANGED", candidate["document_id"], 4)
         model = MODELS[candidate["dataset_id"]]
         normalized, issues, keys = [], [], set()
+        evidence_pages, evidence_text = {}, None
         for index, raw in enumerate(candidate["records"]):
             try:
-                record = model.model_validate(raw).model_dump(mode="json")
+                record_model = model.model_validate(raw)
+                if candidate["dataset_id"] in {"financial-observations", "operating-observations"}:
+                    from investment_domain import MetricDefinition
+
+                    from investment_domain.measurements import SourceObservation
+
+                    observation = SourceObservation.model_validate(raw)
+                    metric = identifier(observation.metric_id)
+                    version = identifier(observation.metric_version)
+                    definition = MetricDefinition.model_validate(
+                        self.repo.read_json(f"research/metrics/{metric}/v{version}.json")
+                    )
+                    if definition.dataset_id != candidate["dataset_id"]:
+                        raise ValueError("Metric definition belongs to a different dataset")
+                    definition.check_observation(observation)
+                record = record_model.model_dump(mode="json")
                 key = record_key(candidate["dataset_id"], record)
                 if candidate["dataset_id"] in ("daily-prices", "market-observations") and not (
                     record["security_id"].startswith("demo-")
@@ -409,11 +519,15 @@ class Service:
                     # Evidence text matching can verify an excerpt, not its financial interpretation.
                     suffix = Path(doc["path"]).suffix.lower()
                     if suffix in (".html", ".htm"):
-                        original_text = html_text(self.repo.path(doc["path"]).read_text())
+                        if evidence_text is None:
+                            evidence_text = html_text(self.repo.path(doc["path"]).read_text())
+                        original_text = evidence_text
                         if " ".join(record["excerpt"].split()) not in original_text:
                             raise ValueError("Evidence excerpt not present in rendered source text")
                     elif suffix in (".txt", ".md", ".csv", ".json"):
-                        if record["excerpt"] not in self.repo.path(doc["path"]).read_text():
+                        if evidence_text is None:
+                            evidence_text = self.repo.path(doc["path"]).read_text()
+                        if record["excerpt"] not in evidence_text:
                             raise ValueError("Evidence excerpt not present in original")
                     elif Path(doc["path"]).suffix.lower() == ".pdf":
                         page_match = re.fullmatch(r"pdf:page:([1-9][0-9]*)", record["locator"])
@@ -422,13 +536,13 @@ class Service:
                                 "PDF requires pdf:page:<physical-page> and a configured extractor"
                             )
                         try:
-                            page = self.connector_service.execute(
-                                "extract_pdf_page",
-                                {
-                                    "path": str(self.repo.path(doc["path"])),
-                                    "page": int(page_match[1]),
-                                },
-                            )
+                            page_number = int(page_match[1])
+                            if page_number not in evidence_pages:
+                                evidence_pages[page_number] = self.connector_service.execute(
+                                    "extract_pdf_page",
+                                    {"path": str(self.repo.path(doc["path"])), "page": page_number},
+                                )
+                            page = evidence_pages[page_number]
                         except Exception as exc:
                             raise ValueError("PDF evidence extraction failed") from exc
                         if " ".join(record["excerpt"].split()) not in " ".join(
@@ -443,6 +557,10 @@ class Service:
                         )
                 if record.get("denominator_ref"):
                     self.repo.document(record["denominator_ref"]["document_id"])
+                if record.get("updates_action_id"):
+                    from .action_dependencies import resolve
+
+                    resolve(self.repo, record)
                 normalized.append(record)
             except (ValidationError, ValueError) as exc:
                 issues.append(
@@ -506,7 +624,13 @@ class Service:
         ):
             raise DomainError("INVALID_REVIEW", "Review requires decision, reviewer and notes")
         if (
-            candidate["dataset_id"] == "document-facts"
+            candidate["dataset_id"]
+            in {
+                "document-facts",
+                "financial-observations",
+                "operating-observations",
+                "corporate-actions",
+            }
             and payload["decision"] == "approved"
             and payload.get("statement_consistency_checked") is not True
         ):
@@ -602,15 +726,16 @@ class Service:
         return records, issues, review
 
     def _ingest_plan(self, payload):
-        candidate = self._candidate(payload["candidate_id"])
-        records, issues, review = self._admission(candidate)
-        plan = dict(
-            candidate_id=candidate["candidate_id"],
-            candidate_hash=fingerprint(candidate),
-            base_revision=self.repo.revision(),
-            review_hash=fingerprint(review),
-            record_count=len(records),
-        )
+        with self.repo.read_snapshot():
+            candidate = self._candidate(payload["candidate_id"])
+            records, issues, review = self._admission(candidate)
+            plan = dict(
+                candidate_id=candidate["candidate_id"],
+                candidate_hash=fingerprint(candidate),
+                base_revision=self.repo.revision(),
+                review_hash=fingerprint(review),
+                record_count=len(records),
+            )
         plan_id = "plan-" + fingerprint(plan)
         plan["plan_id"] = plan_id
         rel = f".research-local/plans/{plan_id}.json"
@@ -631,27 +756,30 @@ class Service:
             raise DomainError("STALE_PLAN", "Candidate changed after planning", 4)
         receipt_path = f"data/outputs/research-records/ingest-{plan['candidate_hash']}/receipt.json"
         with self.repo.lock():
-            if self.repo.path(receipt_path).exists():
-                # Validate all referenced content before returning idempotent success.
-                self.repo.batches()
-                receipt = self.repo.read_json(receipt_path)
-                return dict(
-                    status="unchanged", artifact_refs=receipt["artifact_refs"], receipt=receipt
+            with self.repo.verified_read_view():
+                if self.repo.path(receipt_path).exists():
+                    # Validate all referenced content before returning idempotent success.
+                    self.repo.batches()
+                    receipt = self.repo.read_json(receipt_path)
+                    return dict(
+                        status="unchanged", artifact_refs=receipt["artifact_refs"], receipt=receipt
+                    )
+                records, issues, review = self._admission(candidate)
+                base_without_self = fingerprint(
+                    sorted(
+                        (rel, fingerprint(batch))
+                        for rel, batch in self.repo.batches()
+                        if batch.get("candidate_hash") != plan["candidate_hash"]
+                    )
                 )
-            records, issues, review = self._admission(candidate)
-            base_without_self = fingerprint(
-                sorted(
-                    (rel, fingerprint(batch))
-                    for rel, batch in self.repo.batches()
-                    if batch.get("candidate_hash") != plan["candidate_hash"]
-                )
-            )
-            if (
-                fingerprint(review) != plan["review_hash"]
-                or base_without_self != plan["base_revision"]
-            ):
-                raise DomainError("STALE_PLAN", "Repository or review changed after planning", 4)
-            doc, doc_meta = self.repo.document(candidate["document_id"])
+                if (
+                    fingerprint(review) != plan["review_hash"]
+                    or base_without_self != plan["base_revision"]
+                ):
+                    raise DomainError(
+                        "STALE_PLAN", "Repository or review changed after planning", 4
+                    )
+                doc, doc_meta = self.repo.document(candidate["document_id"])
             groups: dict[tuple[str, str, str], list[dict]] = {}
             for record in records:
                 subject = record_subject(record)
@@ -697,16 +825,25 @@ class Service:
                         raise DomainError("VERSION_CONFLICT", manifest_path, 4)
                     refs.extend([data_path, manifest_path])
                     continue
+                from .action_dependencies import resolve
+
+                action_batches, action_documents = set(), set()
+                for action_record in group:
+                    dependencies, documents = resolve(self.repo, action_record)
+                    action_batches.update(dependencies)
+                    action_documents.update(documents)
                 manifest = dict(
                     batch_id=batch_id,
                     dataset_id=candidate["dataset_id"],
                     subject_id=subject,
                     status="complete",
-                    contract_version="1",
+                    contract_version=candidate.get("contract_version", "1"),
                     candidate_hash=plan["candidate_hash"],
                     supersedes=candidate.get("supersedes", []),
+                    dependency_batches=sorted(action_batches),
                     documents=sorted(
                         {candidate["document_id"]}
+                        | action_documents
                         | {
                             r["denominator_ref"]["document_id"]
                             for r in group
@@ -753,48 +890,44 @@ class Service:
                 continue
             if payload.get("subject_id") and batch["subject_id"] != payload["subject_id"]:
                 continue
-            if mode != "retrospective_explanation":
-                if (
-                    not batch.get("published_at")
-                    or self._timestamp(batch["published_at"]) > cutoff_time
-                ):
-                    excluded.append(dict(batch_id=batch["batch_id"], reason="not_public_at_cutoff"))
-                    continue
-                if (
-                    mode == "live_observed"
-                    and max(
-                        self._timestamp(batch["first_observed_at"]),
-                        self._timestamp(batch["registered_at"]),
-                    )
-                    > cutoff_time
-                ):
+            if (
+                mode == "live_observed"
+                and max(
+                    self._timestamp(batch["first_observed_at"]),
+                    self._timestamp(batch["registered_at"]),
+                )
+                > cutoff_time
+            ):
+                excluded.append(dict(batch_id=batch["batch_id"], reason="not_observed_at_cutoff"))
+                continue
+            from .evidence_time import document_available
+
+            dependency_unavailable = False
+            metadata_refs, revision_ids = [], {}
+            for document_id in batch.get("documents", []):
+                dependency, metadata_ref = self.repo.effective_document(
+                    document_id, mode, cutoff_time
+                )
+                if not document_available(dependency, mode, cutoff_time):
                     excluded.append(
-                        dict(batch_id=batch["batch_id"], reason="not_observed_at_cutoff")
+                        dict(
+                            batch_id=batch["batch_id"],
+                            document_id=document_id,
+                            reason="not_public_at_cutoff"
+                            if not batch.get("published_at")
+                            or self._timestamp(batch["published_at"]) > cutoff_time
+                            else "dependency_unavailable_at_cutoff",
+                        )
                     )
-                    continue
-            if mode != "retrospective_explanation":
-                dependency_unavailable = False
-                for document_id in batch.get("documents", []):
-                    dependency, _ = self.repo.document(document_id)
-                    if (
-                        not dependency.get("published_at")
-                        or self._timestamp(dependency["published_at"]) > cutoff_time
-                        or (
-                            mode == "live_observed"
-                            and self._timestamp(dependency["first_observed_at"]) > cutoff_time
-                        )
-                    ):
-                        excluded.append(
-                            dict(
-                                batch_id=batch["batch_id"],
-                                document_id=document_id,
-                                reason="dependency_unavailable_at_cutoff",
-                            )
-                        )
-                        dependency_unavailable = True
-                        break
-                if dependency_unavailable:
-                    continue
+                    dependency_unavailable = True
+                    break
+                metadata_refs.append(metadata_ref)
+                revision_ids[document_id] = dependency.get("metadata_revision_id", "original")
+            if dependency_unavailable:
+                continue
+            batch = dict(
+                batch, document_metadata_refs=metadata_refs, metadata_revision_ids=revision_ids
+            )
             eligible.append((rel, batch))
         superseded = {prior for _, batch in eligible for prior in batch.get("supersedes", [])}
         unique: dict[tuple, dict] = {}
@@ -857,9 +990,12 @@ class Service:
                         source_id=batch["source_id"],
                         batch_refs=[rel],
                         document_refs=sorted(batch["documents"]),
+                        document_metadata_refs=batch["document_metadata_refs"],
+                        metadata_revision_ids=batch["metadata_revision_ids"],
                     )
             if matched:
                 refs.append(rel)
+                refs.extend(batch["document_metadata_refs"])
         rows = list(unique.values())
         return dict(
             status="available" if rows else "missing",

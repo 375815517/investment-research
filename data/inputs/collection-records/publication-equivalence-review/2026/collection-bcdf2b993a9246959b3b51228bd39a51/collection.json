@@ -1,0 +1,21 @@
+{
+  "collection_context": {
+    "input_document_ids": [
+      "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11"
+    ],
+    "method": "derived_review",
+    "reviewer": "temporal_v2-publication-review"
+  },
+  "collection_id": "collection-bcdf2b993a9246959b3b51228bd39a51",
+  "document_id": "doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T11:00:37.074293+00:00",
+  "origin_url": null,
+  "publication_assertion": null,
+  "sha256": "4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f",
+  "source_id": "publication-equivalence-review",
+  "status": "received"
+}

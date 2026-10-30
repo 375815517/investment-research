@@ -1,0 +1,29 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:44:19.015437+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/7b76833581324162a196c7eae92e0bbb/response-c7b60219d8e54940b54662693c4f77e6.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-reports"
+      },
+      "rows": 0,
+      "sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "size_bytes": 2367466,
+      "source_id": "tencent-reports"
+    }
+  },
+  "collection_id": "collection-588848979ded4470bd7f20d47f209b48",
+  "document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:44:19.019988+00:00",
+  "origin_url": "https://static.www.tencent.com/uploads/2021/04/08/960eae1f18dd716fd3a7d704e123d7a5.pdf",
+  "publication_assertion": null,
+  "sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+  "source_id": "tencent-reports",
+  "status": "received"
+}

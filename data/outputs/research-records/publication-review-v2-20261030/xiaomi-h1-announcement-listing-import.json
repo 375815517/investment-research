@@ -1,0 +1,26 @@
+{
+  "status": "unchanged",
+  "document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "document": {
+    "content_revision": "v1",
+    "document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+    "first_observed_at": "2026-10-30T11:19:04.350942+00:00",
+    "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e/v1/original.html",
+    "published_at": null,
+    "sha256": "aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+    "source_id": "xiaomi-publication-evidence",
+    "title": "HKEX Xiaomi results announcements 2018–2026"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e/v1/original.html",
+    "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e/v1/document.json",
+    "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-d27cdcf5a18f4588bb4d28557f12d3b3/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-2fc4bc1bc48a48bda5f2b31e04d1cd23",
+  "summary": "import",
+  "issues": []
+}

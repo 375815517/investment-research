@@ -1,0 +1,229 @@
+"""Exact input keys and explicitly grouped comparison requirements."""
+
+from datetime import date, datetime
+from typing import Any, Literal
+
+from pydantic import Field, field_validator, model_validator
+
+from . import Contract
+from .measurements import Scale
+
+Dataset = Literal[
+    "daily-prices",
+    "financial-facts",
+    "document-facts",
+    "market-observations",
+    "financial-observations",
+    "operating-observations",
+    "corporate-actions",
+    "benchmark-prices",
+]
+SELECTORS = {
+    "action_id",
+    "action_type",
+    "action_status",
+    "index_type",
+    "metric_id",
+    "metric_version",
+    "period_start",
+    "period_end",
+    "period_type",
+    "measure_kind",
+    "scope",
+    "currency",
+    "unit",
+    "scale",
+    "source_unit",
+    "dimensions",
+    "basis",
+    "accounting_standard",
+    "adjustment_basis",
+    "restatement",
+    "trading_date",
+    "observed_date",
+    "observed_at",
+    "session",
+    "share_class",
+    "price_basis",
+    "volume_unit",
+    "fact_id",
+    "event_date",
+    "document_kind",
+    "record_kind",
+    "subject_type",
+    "value_status",
+}
+
+
+class ExpectedKey(Contract):
+    key_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")
+    dataset_id: Dataset
+    subject_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,79}$")
+    source_id: str | None = Field(default=None, pattern=r"^[a-z0-9][a-z0-9_-]{0,79}$")
+    selectors: dict[str, Any] = Field(min_length=1)
+    required: bool = True
+    max_matches: int = Field(default=1, ge=1, le=100)
+
+    @model_validator(mode="after")
+    def exact_key(self):
+        if set(self.selectors) - SELECTORS:
+            raise ValueError("Unknown exact-key selector")
+        for key, value in self.selectors.items():
+            if key == "dimensions":
+                if not isinstance(value, dict) or any(
+                    not isinstance(k, str) or not isinstance(v, str) or not v.strip()
+                    for k, v in value.items()
+                ):
+                    raise ValueError("Dimension selectors require explicit nonblank string values")
+            elif value is not None and not isinstance(value, (str, bool, int)):
+                raise ValueError("Selectors must be scalar exact values, not query operators")
+        for field in ("period_start", "period_end", "trading_date", "observed_date", "event_date"):
+            value = self.selectors.get(field)
+            if value is not None:
+                if not isinstance(value, str) or date.fromisoformat(value).isoformat() != value:
+                    raise ValueError("Date selectors require ISO YYYY-MM-DD dates")
+        instant = self.selectors.get("observed_at")
+        if instant is not None:
+            if not isinstance(instant, str) or datetime.fromisoformat(instant).tzinfo is None:
+                raise ValueError(
+                    "Observed instant selectors require a timezone-aware ISO timestamp"
+                )
+        if self.selectors.get("period_start") and self.selectors.get("period_end"):
+            if self.selectors["period_start"] > self.selectors["period_end"]:
+                raise ValueError("Exact-key period is reversed")
+        required = {
+            "corporate-actions": {"action_id", "action_type", "action_status"},
+            "benchmark-prices": {"trading_date", "index_type", "unit"},
+            "daily-prices": {"trading_date", "price_basis", "session", "currency"},
+            "financial-facts": {"metric_id", "period_start", "period_end", "scope", "currency"},
+            "financial-observations": {
+                "metric_id",
+                "period_end",
+                "period_type",
+                "measure_kind",
+                "scope",
+                "unit",
+                "dimensions",
+            },
+            "operating-observations": {
+                "metric_id",
+                "period_end",
+                "period_type",
+                "measure_kind",
+                "scope",
+                "unit",
+                "dimensions",
+            },
+            "market-observations": {"metric_id", "session", "share_class", "unit"},
+            "document-facts": {"fact_id", "event_date", "document_kind"},
+        }[self.dataset_id]
+        if not required <= set(self.selectors):
+            raise ValueError(
+                "Exact key is missing required dataset dimensions: "
+                + ",".join(sorted(required - set(self.selectors)))
+            )
+        if self.dataset_id == "market-observations" and not (
+            {"observed_date", "observed_at"} & set(self.selectors)
+        ):
+            raise ValueError("Market exact keys require an observation date or instant")
+        if self.dataset_id in {"financial-observations", "operating-observations"}:
+            if self.selectors["period_type"] != "instant" and not self.selectors.get(
+                "period_start"
+            ):
+                raise ValueError("Period exact keys require period_start")
+            if self.selectors["unit"] in {
+                "currency",
+                "currency_per_share",
+            } and not self.selectors.get("currency"):
+                raise ValueError("Monetary exact keys require currency")
+        return self
+
+
+class ComparisonGroup(Contract):
+    group_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")
+    key_ids: list[str] = Field(min_length=2)
+    kind: Literal["comparison", "ratio", "reconciliation"] = "comparison"
+    normalize_scales: bool = False
+    join_on: list[str] = Field(
+        default_factory=lambda: ["period_type", "measure_kind", "scope", "dimensions", "currency"]
+    )
+    expected_cardinality: Literal["one_to_one"] = "one_to_one"
+
+    @model_validator(mode="after")
+    def unique_keys(self):
+        if len(self.key_ids) != len(set(self.key_ids)):
+            raise ValueError("Comparison key references must be unique")
+        if not self.join_on or set(self.join_on) - SELECTORS:
+            raise ValueError("Comparison requires explicit valid compatibility fields")
+        return self
+
+
+class InputRequirementProfile(Contract):
+    profile_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")
+    version: str = Field(default="1", min_length=1)
+    purpose: Literal[
+        "source_description", "quantitative_comparison", "historical_point_in_time"
+    ] = "source_description"
+    expected_keys: list[ExpectedKey] = Field(min_length=1, max_length=20000)
+    comparison_groups: list[ComparisonGroup] = Field(default_factory=list)
+    knowledge_mode: Literal[
+        "retrospective_explanation", "historical_reconstruction", "live_observed"
+    ] = "retrospective_explanation"
+    information_cutoff: datetime | None = None
+
+    @field_validator("information_cutoff")
+    @classmethod
+    def aware(cls, value):
+        if value is not None and value.tzinfo is None:
+            raise ValueError("Information cutoff requires timezone")
+        return value
+
+    @model_validator(mode="after")
+    def references(self):
+        key_ids = [key.key_id for key in self.expected_keys]
+        if len(key_ids) != len(set(key_ids)):
+            raise ValueError("Expected key IDs must be unique")
+        group_ids = [group.group_id for group in self.comparison_groups]
+        if len(group_ids) != len(set(group_ids)):
+            raise ValueError("Comparison group IDs must be unique")
+        for group in self.comparison_groups:
+            if not set(group.key_ids) <= set(key_ids):
+                raise ValueError("Comparison references undefined expected keys")
+        if self.knowledge_mode != "retrospective_explanation" and self.information_cutoff is None:
+            raise ValueError("Historical profiles require information_cutoff")
+        if (
+            self.purpose == "historical_point_in_time"
+            and self.knowledge_mode == "retrospective_explanation"
+        ):
+            raise ValueError("Historical purpose requires a historical knowledge mode")
+        return self
+
+
+ProfileAuditRequest = InputRequirementProfile
+
+
+class NormalizeInputsRequest(Contract):
+    profile: InputRequirementProfile
+    target_scale: Scale = "units"
+
+
+class FreezeInputsRequest(Contract):
+    profile: InputRequirementProfile
+    transformation_ids: list[str] = Field(default_factory=list)
+
+    @field_validator("transformation_ids")
+    @classmethod
+    def transformations(cls, value):
+        import re
+
+        if len(value) != len(set(value)) or any(
+            not re.fullmatch(r"normalization-[a-z0-9][a-z0-9_-]{0,127}", item) for item in value
+        ):
+            raise ValueError("Transformation IDs must be unique safe normalization IDs")
+        return value
+
+    label: str | None = Field(default=None, pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")
+
+
+class VerifyBundleRequest(Contract):
+    bundle_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,127}$")

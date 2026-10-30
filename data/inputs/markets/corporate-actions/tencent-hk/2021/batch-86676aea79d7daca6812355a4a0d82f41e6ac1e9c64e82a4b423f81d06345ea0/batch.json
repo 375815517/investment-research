@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-8a1a0d8cb28a4f57b744a50b5bb313b1b32beb0099b3ce858f97ffd7513c0ca1/candidate.json",
+  "batch_id": "batch-86676aea79d7daca6812355a4a0d82f41e6ac1e9c64e82a4b423f81d06345ea0",
+  "candidate_hash": "8a1a0d8cb28a4f57b744a50b5bb313b1b32beb0099b3ce858f97ffd7513c0ca1",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2021/batch-86676aea79d7daca6812355a4a0d82f41e6ac1e9c64e82a4b423f81d06345ea0/corporate-actions.json",
+      "sha256": "008f78a87a14d16c437ac6136bd890b8fb673ee9636c134748d7061c7526200e"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:05:31.607858+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:14:12.058983+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-jd-distribution-declared",
+      "action_status": "approved",
+      "action_type": "spinoff",
+      "announcement_date": "2021-12-23",
+      "basis": "Board resolved distribution in specie; fractional entitlements cash in lieu. Ex-date is not explicitly stated and remains unknown; ratio orientation must not be inverted silently.",
+      "cash_per_share": null,
+      "currency": null,
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS A ORDINARY SHARES OF JD.COM, INC. RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF JD.COM SHARES The Board is pleased to announce that, on 23 December 2021, it has resolved to declare a special interim dividend in the form of a distribution in specie of 457,326,671 Class A ordinary shares of JD.com (assuming there is no change in the total number of issued Shares from the date of this announcement to the Record Date) indirectly held by the Company through Huang River to the Shareholders whose names appear on the register of members of the Company on the Record Date in proportion to their then respective shareholdings in the Company on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held by the Qualifying Shareholders, being rounded down to the nearest whole number of JD.com Shares. The exact total number of the JD.com Shares to be distributed by the Company is subject to such adjustments where appropriate and necessary in order to give effect to the Distribution in Specie on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held on the Record Date and such other arrangements in relation to the Distribution in Specie as set out in this announcement. Non-Qualifying Shareholders will not be entitled to receive the JD.com Shares and will instead receive cash in lieu of the JD.com Shares in respect of the Shares held by them on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held on the Record Date. No fraction of a JD.com Share will be distributed. Nevertheless, fractional entitlements to the JD.com Shares of both Qualifying Shareholders and Non-Qualifying Shareholders (i.e., whose shareholding in the Company is not an integral multiple of 21 Shares) will be distributed in the form of cash-in-lieu payment. 1",
+      "locator": "pdf:page:1",
+      "payment_date": null,
+      "ratio": "21",
+      "ratio_definition": "Tencent ordinary shares held (numerator) per one distributed JD.com Class A ordinary share (denominator)",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

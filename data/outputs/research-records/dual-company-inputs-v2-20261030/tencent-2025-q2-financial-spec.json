@@ -1,0 +1,133 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "millions",
+    "currency": "CNY",
+    "measure_kind": "flow",
+    "period_type": "quarter",
+    "period_start": "2025-04-01",
+    "period_end": "2025-06-30",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Unaudited IAS34 consolidated interim statements; directly disclosed three-month April-June current-year column; not a difference of cumulative values",
+    "accounting_standard": "IAS34",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "revenue",
+      "page": 24,
+      "pattern": "^Revenues\\s*\\n[\\s\\S]*?^\\s*(?:[567]\\s+)?[\\d,]+(?:\\s+[\\d,]+){1,3}\\s*$",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "cost-of-sales",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Cost\\s+of\\s+(?:sales|revenues)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "gross-profit",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Gross\\s+profit[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "operating-profit",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Operating\\s+(?:profit(?:/\\(loss\\))?|\\(loss\\)/profit)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "basis": "Post-2023 annual reclassification operating profit excludes investment gains and interest income; not directly comparable with earlier original presentation"
+      }
+    },
+    {
+      "metric_id": "finance-costs",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Finance\\s+costs(?!,\\s+net)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "income-tax-expense",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Income\\s+tax\\s+expenses?[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-for-year",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?Profit(?:/\\(loss\\))?\\s+for\\s+the\\s+(?:year|period)[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "profit-attributable-to-owners",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?(?:Owners|Equity\\s+holders)\\s+of\\s+the\\s+Company[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {}
+    },
+    {
+      "metric_id": "basic-eps",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?basic\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    },
+    {
+      "metric_id": "diluted-eps",
+      "page": 24,
+      "pattern": "^\\s*(?:[—–-]\\s*)?diluted\\b[^\\n]*",
+      "numeric_columns": 4,
+      "value_column": 0,
+      "overrides": {
+        "unit": "currency_per_share",
+        "scale": "units",
+        "measure_kind": "ratio"
+      }
+    }
+  ],
+  "selection_review": {
+    "report_year": 2025,
+    "statement_pages": {
+      "income": [
+        24
+      ],
+      "balance": [
+        26,
+        27,
+        28
+      ],
+      "cash": [
+        33,
+        34
+      ]
+    },
+    "missing": [],
+    "review_scope": "Audited statement headings, currency scales, current-year column, semantic label and footnotes; not independent audit of issuer truth"
+  }
+}

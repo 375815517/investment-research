@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "company": "xiaomi",
+      "announcement_documents": 9,
+      "periods": "2018–2026 H1/Q2 results announcement, distinct from interim report PDF",
+      "pit_queries": 27,
+      "checks_passed": 9
+    },
+    {
+      "company": "tencent",
+      "announcement_documents": 9,
+      "periods": "2018–2026 H1/Q2 results announcement, distinct from interim report PDF",
+      "pit_queries": 27,
+      "checks_passed": 9
+    }
+  ],
+  "total_research_source_documents_with_verified_dates": 101,
+  "total_pit_queries": 303,
+  "prior_annual_interim_quarter_queries_preserved": 249
+}

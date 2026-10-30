@@ -1,0 +1,25 @@
+{
+  "finished_at": "2026-10-30T10:52:04.613312+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "dataset_id": "daily-prices",
+    "end": "2024-06-28",
+    "source_id": "tencent-chart",
+    "start": "2024-03-31",
+    "subject_id": "tencent-hk"
+  },
+  "started_at": "2026-10-30T10:52:00.982232+00:00",
+  "status": "partial",
+  "windows": [
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2024-06-28",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2024-03-31",
+      "status": "blocked"
+    }
+  ]
+}

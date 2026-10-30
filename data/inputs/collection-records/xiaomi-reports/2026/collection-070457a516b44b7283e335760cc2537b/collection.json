@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:47:24.922074+00:00",
+      "final_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/09/26/5-22-07/XIAOMI%202023%20INTERIM%20REPORT-ENG.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/08115ee584d0420392d6e272984eb8e4/response-c891ae4fc0474cf0985027e380ca22b6.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-reports"
+      },
+      "request_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/09/26/5-22-07/XIAOMI%202023%20INTERIM%20REPORT-ENG.pdf",
+      "rows": 0,
+      "sha256": "37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "size_bytes": 838993,
+      "source_id": "xiaomi-reports"
+    }
+  },
+  "collection_id": "collection-070457a516b44b7283e335760cc2537b",
+  "document_id": "doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:47:24.923844+00:00",
+  "origin_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/09/26/5-22-07/XIAOMI%202023%20INTERIM%20REPORT-ENG.pdf",
+  "publication_assertion": null,
+  "sha256": "37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+  "source_id": "xiaomi-reports",
+  "status": "received"
+}

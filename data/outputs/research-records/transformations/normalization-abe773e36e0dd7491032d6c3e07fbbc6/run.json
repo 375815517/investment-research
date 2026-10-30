@@ -1,0 +1,1890 @@
+{
+  "artifact_refs": [
+    "data/inputs/companies/xiaomi/financials/2018/batch-05e328c2083f01898ad239aaf258f186a6563049626930e9c8d579352a5db3ca/batch.json",
+    "data/inputs/companies/xiaomi/financials/2018/batch-81985ce11aec872c75716af11d352b0fd97daa0d91ec3b35605cb285017f7f60/batch.json",
+    "data/inputs/companies/xiaomi/financials/2019/batch-1ad07da10a39b1ecace676e9d7e03aceaa7e2c98356b877927dd158d145a0413/batch.json",
+    "data/inputs/companies/xiaomi/financials/2019/batch-e0e7763e233989c02fa4090fba7e17fd3dd4b1bbc81d75516a9dbc2f1a9bf951/batch.json",
+    "data/inputs/companies/xiaomi/financials/2020/batch-ae74bda93bdb094e92fc581c933b34c835a305dc5ed3d1a49241f2a76eb4a69f/batch.json",
+    "data/inputs/companies/xiaomi/financials/2020/batch-c67639f11c4dcf615d403ba200833cdda8e3c43216e933456ef5501e6bcc3885/batch.json",
+    "data/inputs/companies/xiaomi/financials/2021/batch-a3174eefca4daabbc0773e5b2e8c19bc8af51d1a1d4984f7062650d94e8e0180/batch.json",
+    "data/inputs/companies/xiaomi/financials/2021/batch-a8983777f4caf4b9fc7b4738df15597eb2f8eb4cfd88242fe1597fdaf80d83a4/batch.json",
+    "data/inputs/companies/xiaomi/financials/2022/batch-697eac6c3e5d4da5053abbef8c9e499dc85024b9bc51d310241efd9e61d3341e/batch.json",
+    "data/inputs/companies/xiaomi/financials/2022/batch-e24c5f72bfdcb1e22bd500878bec279e44ea2a41bcdbfade77a8b08d49fafa6d/batch.json",
+    "data/inputs/companies/xiaomi/financials/2023/batch-1ec39ffa26bae23ef5c00813936a19e6771287558d8b5d65cd8eb7f36d606da3/batch.json",
+    "data/inputs/companies/xiaomi/financials/2023/batch-c1db66afc73fac4245159cb4c39fe8b90d009364fc75e0283e04df36c671b1be/batch.json",
+    "data/inputs/companies/xiaomi/financials/2024/batch-3a91a01e113dce078f9ade0352e0df4da3d2c18637c398ea8aa2ac23f23eb619/batch.json",
+    "data/inputs/companies/xiaomi/financials/2024/batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854/batch.json",
+    "data/inputs/companies/xiaomi/financials/2025/batch-5da34ae69df0459a8e222ed806ff4cb1fd66c574792610e40accc9eee19071ba/batch.json",
+    "data/inputs/companies/xiaomi/financials/2025/batch-80a6060922d3755c73babd93e1955e6bffccd0720f52431aa2f009e6b2acb1a0/batch.json"
+  ],
+  "assessment_status": "ready",
+  "findings": [],
+  "protocol_version": "1",
+  "records": [
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit; source retrospectively adjusts share subdivision",
+        "batch_id": "batch-05e328c2083f01898ad239aaf258f186a6563049626930e9c8d579352a5db3ca",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2018/batch-05e328c2083f01898ad239aaf258f186a6563049626930e9c8d579352a5db3ca/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/metadata-revisions/metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77.json"
+        ],
+        "document_refs": [
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (Note (a)) (thousand shares) 16,069,770 9,758,173",
+        "locator": "pdf:page:251",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744": "metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2018-12-31",
+        "period_start": "2018-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2018-annual",
+        "source_value": "16069770",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "3a5fa82838360b075da4bb3ebb460425fd42ccb4adf1cfbfab274cfad754a6fa",
+      "key_id": "weighted-average-basic-shares-2018",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "16069770000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit; source retrospectively adjusts share subdivision",
+        "batch_id": "batch-05e328c2083f01898ad239aaf258f186a6563049626930e9c8d579352a5db3ca",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2018/batch-05e328c2083f01898ad239aaf258f186a6563049626930e9c8d579352a5db3ca/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/metadata-revisions/metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77.json"
+        ],
+        "document_refs": [
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings/(loss) per share (Note (a)) (thousand shares) 23,562,930 9,758,173",
+        "locator": "pdf:page:253",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744": "metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2018-12-31",
+        "period_start": "2018-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2018-annual",
+        "source_value": "23562930",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "3b7135bfcebb6e4d98a5c54ef52b37dd67d09893033a4a0da087f05f60f0b774",
+      "key_id": "weighted-average-diluted-shares-2018",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "23562930000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-81985ce11aec872c75716af11d352b0fd97daa0d91ec3b35605cb285017f7f60",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2018/batch-81985ce11aec872c75716af11d352b0fd97daa0d91ec3b35605cb285017f7f60/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/metadata-revisions/metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77.json"
+        ],
+        "document_refs": [
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 24(a) 11,563,282 9,230,320",
+        "locator": "pdf:page:178",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744": "metadata-d1a85d4422fad95dacd85a706ba5d592e8ff9bbae508a6306a3ca72b76812c77"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2018-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2018-annual",
+        "source_value": "11563282",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "f70c3e274638869e92e1927e85ad12d739b32a15d9be747a708d53df4e77e9f0",
+      "key_id": "opening-cash-2018",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "11563282000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-1ad07da10a39b1ecace676e9d7e03aceaa7e2c98356b877927dd158d145a0413",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2019/batch-1ad07da10a39b1ecace676e9d7e03aceaa7e2c98356b877927dd158d145a0413/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+        ],
+        "document_refs": [
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 23,746,463 \n 16,069,770",
+        "locator": "pdf:page:267",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2019-12-31",
+        "period_start": "2019-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2019-annual",
+        "source_value": "23746463",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "7bd30b5abdb32ebc0310a21771ec8b44197625df9b66b021944f42557eb93563",
+      "key_id": "weighted-average-basic-shares-2019",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "23746463000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-1ad07da10a39b1ecace676e9d7e03aceaa7e2c98356b877927dd158d145a0413",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2019/batch-1ad07da10a39b1ecace676e9d7e03aceaa7e2c98356b877927dd158d145a0413/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+        ],
+        "document_refs": [
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 24,508,764 23,562,930",
+        "locator": "pdf:page:268",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2019-12-31",
+        "period_start": "2019-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2019-annual",
+        "source_value": "24508764",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "fa364d49a3ce14a23e4d83982317936a87e685381ce4d25d8da8a8564eae048e",
+      "key_id": "weighted-average-diluted-shares-2019",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "24508764000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-e0e7763e233989c02fa4090fba7e17fd3dd4b1bbc81d75516a9dbc2f1a9bf951",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2019/batch-e0e7763e233989c02fa4090fba7e17fd3dd4b1bbc81d75516a9dbc2f1a9bf951/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/metadata-revisions/metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7.json"
+        ],
+        "document_refs": [
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 24(a) 30,230,147 11,563,282",
+        "locator": "pdf:page:192",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa": "metadata-5a7f02a320b4113acb73bb3dcbe1959a748f658f715087a89af2906da8443cf7"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2019-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2019-annual",
+        "source_value": "30230147",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "9332439da331caecda51ed95ba6ccd610403f579b376c58bc2ea6610411cebe1",
+      "key_id": "opening-cash-2019",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "30230147000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-c67639f11c4dcf615d403ba200833cdda8e3c43216e933456ef5501e6bcc3885",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2020/batch-c67639f11c4dcf615d403ba200833cdda8e3c43216e933456ef5501e6bcc3885/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/metadata-revisions/metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69.json"
+        ],
+        "document_refs": [
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 23,986,829 23,746,463",
+        "locator": "pdf:page:304",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2": "metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2020-12-31",
+        "period_start": "2020-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2020-annual",
+        "source_value": "23986829",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "61fa20841565a451096e59ee7aa09da0ca9628bc3c5cb0dc11714deb453d2b5c",
+      "key_id": "weighted-average-basic-shares-2020",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "23986829000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-c67639f11c4dcf615d403ba200833cdda8e3c43216e933456ef5501e6bcc3885",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2020/batch-c67639f11c4dcf615d403ba200833cdda8e3c43216e933456ef5501e6bcc3885/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/metadata-revisions/metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69.json"
+        ],
+        "document_refs": [
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 24,668,280 24,508,764",
+        "locator": "pdf:page:305",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2": "metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2020-12-31",
+        "period_start": "2020-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2020-annual",
+        "source_value": "24668280",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "2a5814bbaa7c8e2bc2ae7920d93b69ac2f969414c7e2ea4e9e33c2fca8cd6e89",
+      "key_id": "weighted-average-diluted-shares-2020",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "24668280000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-ae74bda93bdb094e92fc581c933b34c835a305dc5ed3d1a49241f2a76eb4a69f",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2020/batch-ae74bda93bdb094e92fc581c933b34c835a305dc5ed3d1a49241f2a76eb4a69f/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/metadata-revisions/metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69.json"
+        ],
+        "document_refs": [
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 24(a) 25,919,861 30,230,147",
+        "locator": "pdf:page:228",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2": "metadata-9344396cc9558bc894bc3dc02e0d6490d855d699f93f183999f7669a2b11eb69"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2020-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2020-annual",
+        "source_value": "25919861",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "06dbd1ca8591b2e5661ad351251eb2def47241bbcdfe018470c0bf08ef71cd9d",
+      "key_id": "opening-cash-2020",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "25919861000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-a8983777f4caf4b9fc7b4738df15597eb2f8eb4cfd88242fe1597fdaf80d83a4",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2021/batch-a8983777f4caf4b9fc7b4738df15597eb2f8eb4cfd88242fe1597fdaf80d83a4/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/metadata-revisions/metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc.json"
+        ],
+        "document_refs": [
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 24,927,461 23,986,829",
+        "locator": "pdf:page:274",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e": "metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2021-12-31",
+        "period_start": "2021-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2021-annual",
+        "source_value": "24927461",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "4e0be9ac71545de498e14747ccd0c15e9be0f70a22eaed8ab0cc4ed432e37f4d",
+      "key_id": "weighted-average-basic-shares-2021",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "24927461000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-a8983777f4caf4b9fc7b4738df15597eb2f8eb4cfd88242fe1597fdaf80d83a4",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2021/batch-a8983777f4caf4b9fc7b4738df15597eb2f8eb4cfd88242fe1597fdaf80d83a4/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/metadata-revisions/metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc.json"
+        ],
+        "document_refs": [
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 25,509,431 24,668,280",
+        "locator": "pdf:page:275",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e": "metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2021-12-31",
+        "period_start": "2021-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2021-annual",
+        "source_value": "25509431",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "6c98866628b00794a7a580607afcd7b4df4cf160a520c95e5397047dd8301daf",
+      "key_id": "weighted-average-diluted-shares-2021",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "25509431000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-a3174eefca4daabbc0773e5b2e8c19bc8af51d1a1d4984f7062650d94e8e0180",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2021/batch-a3174eefca4daabbc0773e5b2e8c19bc8af51d1a1d4984f7062650d94e8e0180/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/metadata-revisions/metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc.json"
+        ],
+        "document_refs": [
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 25(a) 54,752,443 25,919,861",
+        "locator": "pdf:page:195",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e": "metadata-98ba125ec2b02c1d2d149477ff633f4a22318368e523b013e9a0393dc258e3fc"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2021-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2021-annual",
+        "source_value": "54752443",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "b72bd9317d842f13c9ab018f41ad53b8812120a665afae222c899f8a233a4f2d",
+      "key_id": "opening-cash-2021",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "54752443000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-697eac6c3e5d4da5053abbef8c9e499dc85024b9bc51d310241efd9e61d3341e",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2022/batch-697eac6c3e5d4da5053abbef8c9e499dc85024b9bc51d310241efd9e61d3341e/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/metadata-revisions/metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18.json"
+        ],
+        "document_refs": [
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 24,828,316 24,927,461",
+        "locator": "pdf:page:271",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2022-12-31",
+        "period_start": "2022-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2022-annual",
+        "source_value": "24828316",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "df452eb818eecfcd8132034717645f7ddbd76017edff066c4825ab6904bffb47",
+      "key_id": "weighted-average-basic-shares-2022",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "24828316000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-697eac6c3e5d4da5053abbef8c9e499dc85024b9bc51d310241efd9e61d3341e",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2022/batch-697eac6c3e5d4da5053abbef8c9e499dc85024b9bc51d310241efd9e61d3341e/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/metadata-revisions/metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18.json"
+        ],
+        "document_refs": [
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 25,297,383 25,509,431",
+        "locator": "pdf:page:272",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2022-12-31",
+        "period_start": "2022-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2022-annual",
+        "source_value": "25297383",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "bb1a8040e64b91b010dd1061c9d6947e55d5e0fe70dfd013840e8be185ac0313",
+      "key_id": "weighted-average-diluted-shares-2022",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "25297383000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-e24c5f72bfdcb1e22bd500878bec279e44ea2a41bcdbfade77a8b08d49fafa6d",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2022/batch-e24c5f72bfdcb1e22bd500878bec279e44ea2a41bcdbfade77a8b08d49fafa6d/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/metadata-revisions/metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18.json"
+        ],
+        "document_refs": [
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 25(a) 23,511,579 54,752,443",
+        "locator": "pdf:page:196",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c": "metadata-365d468394ef3ad1e46b54189dde9f54a0f9a8fa2743802469b641749abd9d18"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2022-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2022-annual",
+        "source_value": "23511579",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "6674c05bcfd83f19fdeae54d73a545ee3d39ef91ecbd50c55be5db7f6f68111e",
+      "key_id": "opening-cash-2022",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "23511579000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-c1db66afc73fac4245159cb4c39fe8b90d009364fc75e0283e04df36c671b1be",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2023/batch-c1db66afc73fac4245159cb4c39fe8b90d009364fc75e0283e04df36c671b1be/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/metadata-revisions/metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243.json"
+        ],
+        "document_refs": [
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 24,884,874 24,828,316",
+        "locator": "pdf:page:283",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3": "metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2023-12-31",
+        "period_start": "2023-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2023-annual",
+        "source_value": "24884874",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "c3d4caf739f415e6b6fd9213688711fe152d470cf38fb6616119f983f948448f",
+      "key_id": "weighted-average-basic-shares-2023",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "24884874000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-c1db66afc73fac4245159cb4c39fe8b90d009364fc75e0283e04df36c671b1be",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2023/batch-c1db66afc73fac4245159cb4c39fe8b90d009364fc75e0283e04df36c671b1be/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/metadata-revisions/metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243.json"
+        ],
+        "document_refs": [
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 25,324,991 25,296,728",
+        "locator": "pdf:page:284",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3": "metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2023-12-31",
+        "period_start": "2023-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2023-annual",
+        "source_value": "25324991",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "ceb3a93e388a0112a0e8f5749b055a7668529c229f2c58627459f763fc77bdf8",
+      "key_id": "weighted-average-diluted-shares-2023",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "25324991000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-1ec39ffa26bae23ef5c00813936a19e6771287558d8b5d65cd8eb7f36d606da3",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2023/batch-1ec39ffa26bae23ef5c00813936a19e6771287558d8b5d65cd8eb7f36d606da3/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/metadata-revisions/metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243.json"
+        ],
+        "document_refs": [
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 25(a) 27,607,261 23,511,579",
+        "locator": "pdf:page:209",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3": "metadata-4b92227dc61966d60eea4edc8350ffc78a2e0b10dfb4ad9c94a00896f92e8243"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2023-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2023-annual",
+        "source_value": "27607261",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "efb23a94bcff422b6e36c6156ea92b337bde3a5e4e46f5e977c9235095ad1a3d",
+      "key_id": "opening-cash-2023",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "27607261000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2024/batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 24,825,170 24,884,874",
+        "locator": "pdf:page:316",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "24825170",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "8f48d4b63d33b56190d01318dbf3ffe78ac73ccc1224e9c63429ecf08c3e56c4",
+      "key_id": "weighted-average-basic-shares-2024",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "24825170000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2024/batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of\n diluted earnings per share (thousand shares) 25,500,733 25,324,991",
+        "locator": "pdf:page:316",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "25500733",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "59d960e6bdf98ee175241df90ec7682d6e1b50926c0e35554f59f5ebd8dd6862",
+      "key_id": "weighted-average-diluted-shares-2024",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "25500733000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-3a91a01e113dce078f9ade0352e0df4da3d2c18637c398ea8aa2ac23f23eb619",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2024/batch-3a91a01e113dce078f9ade0352e0df4da3d2c18637c398ea8aa2ac23f23eb619/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+        ],
+        "document_refs": [
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 24(a) 33,631,313 27,607,261",
+        "locator": "pdf:page:238",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2024-annual",
+        "source_value": "33631313",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "a2a92593d05169248f4b0daaeea842fbc29d9ce6e3d9861bb0a24b2da35b8051",
+      "key_id": "opening-cash-2024",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "33631313000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-80a6060922d3755c73babd93e1955e6bffccd0720f52431aa2f009e6b2acb1a0",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2025/batch-80a6060922d3755c73babd93e1955e6bffccd0720f52431aa2f009e6b2acb1a0/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "Weighted average number of outstanding ordinary shares \n (thousand shares) 25,656,635 24,825,170",
+        "locator": "pdf:page:353",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "weighted-average-basic-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "25656635",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "578cf52c9fb386284e4f5ae1e117d39ca3e39139d2c529694092de85fc3b7550",
+      "key_id": "weighted-average-basic-shares-2025",
+      "metric_id": "weighted-average-basic-shares",
+      "normalized_value": "25656635000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+        "batch_id": "batch-80a6060922d3755c73babd93e1955e6bffccd0720f52431aa2f009e6b2acb1a0",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2025/batch-80a6060922d3755c73babd93e1955e6bffccd0720f52431aa2f009e6b2acb1a0/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": null,
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "Weighted average number of ordinary shares for calculation of \n diluted earnings per share (thousand shares) 26,695,326 25,500,733",
+        "locator": "pdf:page:354",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "weighted-average-diluted-shares",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-01-01",
+        "period_type": "annual",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "26695326",
+        "unit": "shares",
+        "value_status": "reported"
+      },
+      "input_sha256": "3b1c68d8e6ad9dd2ecbea5c6766d8dc2d8cec2aaefc7df88851dc96f4569a95a",
+      "key_id": "weighted-average-diluted-shares-2025",
+      "metric_id": "weighted-average-diluted-shares",
+      "normalized_value": "26695326000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "shares"
+    },
+    {
+      "currency": "CNY",
+      "input": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+        "batch_id": "batch-5da34ae69df0459a8e222ed806ff4cb1fd66c574792610e40accc9eee19071ba",
+        "batch_refs": [
+          "data/inputs/companies/xiaomi/financials/2025/batch-5da34ae69df0459a8e222ed806ff4cb1fd66c574792610e40accc9eee19071ba/batch.json"
+        ],
+        "company_id": "xiaomi",
+        "currency": "CNY",
+        "dimensions": {},
+        "document_metadata_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/metadata-revisions/metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc.json"
+        ],
+        "document_refs": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excerpt": "Cash and cash equivalents at the beginning of the year 24(a) 33,661,442 33,631,313",
+        "locator": "pdf:page:279",
+        "measure_kind": "stock",
+        "metadata_revision_ids": {
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2": "metadata-b873c1f9931c0e18b3bc519c518bcd8da08e1e960978a4329b3aecfa7fb077dc"
+        },
+        "metric_id": "cash-and-cash-equivalents",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-01-01",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "thousands",
+        "schema_version": "2",
+        "scope": "consolidated",
+        "source_id": "xiaomi-2025-annual",
+        "source_value": "33661442",
+        "unit": "currency",
+        "value_status": "reported"
+      },
+      "input_sha256": "3d8acbf16cdf78a5203afe57908fee49e3f22b1a874638229c61d6b0d953401b",
+      "key_id": "opening-cash-2025",
+      "metric_id": "cash-and-cash-equivalents",
+      "normalized_value": "33661442000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "thousands",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000",
+        "to_scale": "units"
+      },
+      "unit": "currency"
+    }
+  ],
+  "request": {
+    "profile": {
+      "comparison_groups": [],
+      "definition_refs": [
+        "research/input-profile-definitions/dual-company-opening-balance-v2.json"
+      ],
+      "expected_keys": [
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2018",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2018-12-31",
+            "period_start": "2018-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2018-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2018",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2018-12-31",
+            "period_start": "2018-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2018-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2018",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2018-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2018-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2019",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2019-12-31",
+            "period_start": "2019-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2019-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2019",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2019-12-31",
+            "period_start": "2019-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2019-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2019",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2019-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2019-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2020",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2020-12-31",
+            "period_start": "2020-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2020-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2020",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2020-12-31",
+            "period_start": "2020-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2020-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2020",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2020-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2020-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2021",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2021-12-31",
+            "period_start": "2021-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2021-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2021",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2021-12-31",
+            "period_start": "2021-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2021-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2021",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2021-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2021-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2022",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2022-12-31",
+            "period_start": "2022-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2022-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2022",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2022-12-31",
+            "period_start": "2022-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2022-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2022",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2022-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2022-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2023",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2023-12-31",
+            "period_start": "2023-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2023-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2023",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2023-12-31",
+            "period_start": "2023-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2023-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2023",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2023-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2023-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2024-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2024-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-basic-shares-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-basic-shares",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "weighted-average-diluted-shares-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "dimensions": {},
+            "measure_kind": "period_measure",
+            "metric_id": "weighted-average-diluted-shares",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-01-01",
+            "period_type": "annual",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "shares"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        },
+        {
+          "dataset_id": "financial-observations",
+          "key_id": "opening-cash-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "accounting_standard": "IFRS",
+            "adjustment_basis": "reported",
+            "currency": "CNY",
+            "dimensions": {},
+            "measure_kind": "stock",
+            "metric_id": "cash-and-cash-equivalents",
+            "metric_version": "1",
+            "period_end": "2025-01-01",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "consolidated",
+            "unit": "currency"
+          },
+          "source_id": "xiaomi-2025-annual",
+          "subject_id": "xiaomi"
+        }
+      ],
+      "information_cutoff": null,
+      "knowledge_mode": "retrospective_explanation",
+      "profile_id": "xiaomi-annual-valuation-dependencies",
+      "purpose": "source_description",
+      "version": "2"
+    },
+    "target_scale": "units"
+  },
+  "transform_version": "decimal-scale-v1"
+}

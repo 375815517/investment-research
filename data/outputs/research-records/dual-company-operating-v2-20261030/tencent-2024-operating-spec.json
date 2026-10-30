@@ -1,0 +1,72 @@
+{
+  "company_id": "tencent",
+  "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+  "dataset_id": "operating-observations",
+  "defaults": {
+    "unit": "users",
+    "scale": "millions",
+    "currency": null,
+    "measure_kind": "period_measure",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2024-12-31",
+    "scope": "product",
+    "dimensions": {},
+    "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+    "accounting_standard": "issuer-operating-definition",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "monthly-active-users",
+      "page": 5,
+      "pattern": "^Combined MAU of Weixin and WeChat\\s+[\\d,]+",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "weixin-wechat",
+          "population": "combined-monthly-active-accounts"
+        }
+      }
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 5,
+      "pattern": "^Mobile device MAU of QQ\\s+[\\d,]+",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "qq-mobile",
+          "population": "mobile-device-monthly-active-accounts"
+        }
+      }
+    },
+    {
+      "metric_id": "average-daily-paid-subscriptions",
+      "page": 5,
+      "pattern": "^Fee-based VAS (?:paying )?subscriptions#\\s+[\\d,]+",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "subscriptions",
+        "period_type": "quarter",
+        "period_start": "2024-10-01",
+        "dimensions": {
+          "product": "fee-based-vas",
+          "population": "average-daily-paid-subscriptions"
+        },
+        "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers"
+      }
+    }
+  ],
+  "selection_review": {
+    "status": "awaiting_independent_review",
+    "report_year": 2024,
+    "limitations": [
+      "MAU reported as-at date; exact activity-window start not given, do not fabricate December1",
+      "Fee-based subscriptions explicitly quarter average by footnote, not stockinstant",
+      "Users may be accounts; combinedMAU not a unique-human population"
+    ]
+  }
+}

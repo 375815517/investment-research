@@ -1,0 +1,793 @@
+{
+  "profile_id": "annual-share-repurchase-disclosures",
+  "version": "1",
+  "purpose": "source_description",
+  "knowledge_mode": "retrospective_explanation",
+  "expected_keys": [
+    {
+      "key_id": "tencent-shares-repurchased-2018",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2018",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2019",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2019",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2020",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2020",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2021",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2021",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2022",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2022",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2023",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2023",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2024",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2024",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-shares-repurchased-2025",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "tencent-ordinary-share-repurchase-cash-payments-2025",
+      "dataset_id": "financial-observations",
+      "subject_id": "tencent",
+      "source_id": "tencent-reports",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "millions",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2018",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2018-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2019",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2019-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2019",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2019-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2018",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2019-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "unknown",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2020",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2020-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2020",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2020-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2021",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2021-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2021",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2021-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2022",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2022-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2022",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2022-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2023",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2023-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2023",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2023-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2024",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-publication-evidence",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2024",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-publication-evidence",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-shares-repurchased-2025",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2025-annual",
+      "selectors": {
+        "metric_id": "shares-repurchased",
+        "metric_version": "1",
+        "unit": "shares",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "scope": "consolidated",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original"
+      },
+      "required": true,
+      "max_matches": 1
+    },
+    {
+      "key_id": "xiaomi-ordinary-share-repurchase-cash-payments-2025",
+      "dataset_id": "financial-observations",
+      "subject_id": "xiaomi",
+      "source_id": "xiaomi-2025-annual",
+      "selectors": {
+        "metric_id": "ordinary-share-repurchase-cash-payments",
+        "metric_version": "1",
+        "unit": "currency",
+        "scale": "thousands",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "scope": "consolidated",
+        "dimensions": {},
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "restatement": "original",
+        "currency": "CNY"
+      },
+      "required": true,
+      "max_matches": 1
+    }
+  ],
+  "comparison_groups": []
+}

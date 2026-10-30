@@ -1,0 +1,63 @@
+{
+  "status": "discovered",
+  "issues": [],
+  "discovery_id": "discovery-a82da8cece52f66163c2263c",
+  "entries": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1110/2021111000481.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2021",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-f5ae8e1a7726a743010f632a",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0818/2021081800391.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2021",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-767f63bb32f93ef76bb3aa8e",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000927.pdf",
+      "title": "POLL RESULTS FOR THE EXTRAORDINARY GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-eb2dc64137aab99861e8b29a",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000917.pdf",
+      "title": "POLL RESULTS FOR THE 2021 ANNUAL GENERAL MEETING",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-98c7195859b2223f2880a870",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000308.pdf",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2021",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-cfe4d556017b449ae9ea5238",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0324/2021032400488.pdf",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2020",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-c019227cec49c03aa6f9511f",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4"
+    }
+  ],
+  "next_parameters": null,
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4/v1/original.html",
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4/v1/document.json",
+    "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-400f04a7ea0f4a27b7ed7e7698bd5743/collection.json",
+    "data/outputs/research-records/acquisition/discoveries/discovery-a82da8cece52f66163c2263c.json"
+  ]
+}

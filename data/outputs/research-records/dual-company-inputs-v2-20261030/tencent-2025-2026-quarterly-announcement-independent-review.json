@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-10-30T11:09:52.446441+00:00",
+  "reviewer": "contracts_v2-independent-quarterly-announcement-review",
+  "method": "Read original full income tables and statement headers; independently check evidence numeric columns, exact period, units and original source membership, financial reconciliations",
+  "results": [
+    {
+      "year": 2025,
+      "period": "q1",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "257a89c509d6dbd0dba360284fb70610661e1991224f9d97acf8e42f9b2a72f2",
+      "document_id": "doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+      "document_sha256": "d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2026,
+      "period": "q1",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2026-q1-announcement-financial-candidates.json",
+      "candidate_file_sha256": "b8ee4a1546d5a3854c6c892e4069c934546213bfd5a59c32318fb54c5733a62b",
+      "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "document_sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2025,
+      "period": "ytd",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q3-announcement-financial-candidates.json",
+      "candidate_file_sha256": "0949a83f1f55e93fd2042738d1ea5a2e0361d8f389743c997a27bb8fac77fe6f",
+      "document_id": "doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "document_sha256": "2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2025,
+      "period": "q3",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q3-financial-candidates.json",
+      "candidate_file_sha256": "050a75e90e8d5082eac074eb858dc489c0ad326eb6e3da14e78daf6f4ce74621",
+      "document_id": "doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "document_sha256": "2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Unaudited condensed statements; summary cashflows are directly disclosed, not inferred",
+    "Q3 income values use first of four; YTD uses third; balance and cash use first of two",
+    "Financial extraction review does not establish exact historical availability"
+  ]
+}

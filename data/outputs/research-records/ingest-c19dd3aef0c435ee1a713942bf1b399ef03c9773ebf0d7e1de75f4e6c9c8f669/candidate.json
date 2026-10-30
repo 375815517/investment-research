@@ -1,0 +1,36 @@
+{
+  "candidate_id": "candidate-83069e782210d0015e531066564a7d417cb91197e4d94dbcf576a9e78e8c6def",
+  "contract_version": "1",
+  "dataset_id": "benchmark-prices",
+  "document_id": "doc-09c7de8c526cc61d3fa574c9eef17aa0c0360b7c7d55e85f2e2d118ee2723721",
+  "document_sha256": "09c7de8c526cc61d3fa574c9eef17aa0c0360b7c7d55e85f2e2d118ee2723721",
+  "parser_version": "tencent-benchmark-v1",
+  "records": [
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "28319.389",
+      "currency": null,
+      "excerpt": "[\"2019-12-30\",\"28250.480\",\"28319.389\",\"28418.650\",\"28165.129\",\"76763046160.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2019-12-30",
+      "record_kind": "source_reported",
+      "trading_date": "2019-12-30",
+      "unit": "points"
+    },
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "28189.750",
+      "currency": null,
+      "excerpt": "[\"2019-12-31\",\"28241.430\",\"28189.750\",\"28298.461\",\"28123.859\",\"48433510400.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2019-12-31",
+      "record_kind": "source_reported",
+      "trading_date": "2019-12-31",
+      "unit": "points"
+    }
+  ],
+  "source_id": "hsi-chart",
+  "supersedes": []
+}

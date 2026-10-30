@@ -1,0 +1,135 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-ee156603c675d89014f285908f24d0adc98537541a758dd0100a64d384e47ac2/candidate.json",
+  "batch_id": "batch-c5cdbe357107a75feffc14016480b265b9bff3ba85dc09df4c502a7ff22a3435",
+  "candidate_hash": "ee156603c675d89014f285908f24d0adc98537541a758dd0100a64d384e47ac2",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "documents": [
+    "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2025/batch-c5cdbe357107a75feffc14016480b265b9bff3ba85dc09df4c502a7ff22a3435/financial-observations.json",
+      "sha256": "1fe9647f68509ad09c74a4c474de7e6a23e861e8f7381a21d36ea4ad94accca0"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:10.453181+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T10:55:29.223664+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {
+        "segment": "value-added-services"
+      },
+      "excerpt": "Value-added Services 369,281 319,168",
+      "locator": "pdf:page:130",
+      "measure_kind": "flow",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "segment",
+      "source_value": "369281",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {
+        "segment": "marketing-services"
+      },
+      "excerpt": "Marketing Services 144,973 121,374",
+      "locator": "pdf:page:130",
+      "measure_kind": "flow",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "segment",
+      "source_value": "144973",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {
+        "segment": "fintech-business-services"
+      },
+      "excerpt": "FinTech and Business Services 229,435 211,956",
+      "locator": "pdf:page:130",
+      "measure_kind": "flow",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "segment",
+      "source_value": "229435",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Audited income statement revenue segment; CNY million; Marketing Services renamed from Online Advertising during2024 per note",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {
+        "segment": "others"
+      },
+      "excerpt": "Others 8,077 7,759",
+      "locator": "pdf:page:130",
+      "measure_kind": "flow",
+      "metric_id": "revenue",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2025-12-31",
+      "period_start": "2025-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "segment",
+      "source_value": "8077",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "dimensions": {},
+    "excerpt": "Cash and cash equivalents at the beginning of the year 25(a) 54,752,443 25,919,861",
+    "locator": "pdf:page:195",
+    "measure_kind": "stock",
+    "metric_id": "cash-and-cash-equivalents",
+    "metric_version": "1",
+    "missing_reason": null,
+    "period_end": "2021-01-01",
+    "period_start": null,
+    "period_type": "instant",
+    "record_kind": "source_reported",
+    "restatement": "original",
+    "scale": "thousands",
+    "schema_version": "2",
+    "scope": "consolidated",
+    "source_value": "54752443",
+    "unit": "currency",
+    "value_status": "reported"
+  }
+]

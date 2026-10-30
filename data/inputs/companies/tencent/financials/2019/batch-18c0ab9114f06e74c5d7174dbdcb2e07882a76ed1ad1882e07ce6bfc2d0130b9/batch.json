@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89/candidate.json",
+  "batch_id": "batch-18c0ab9114f06e74c5d7174dbdcb2e07882a76ed1ad1882e07ce6bfc2d0130b9",
+  "candidate_hash": "3985433c51af79a152f1f7f55da256e92e6edbdd0086cb96873e11bb43363b89",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2019/batch-18c0ab9114f06e74c5d7174dbdcb2e07882a76ed1ad1882e07ce6bfc2d0130b9/financial-observations.json",
+      "sha256": "4fc8bc802e2bd48957af54abb72386e3f115f0e2da31bf8b1e2d82f543ff3a15"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:12.759583+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:19:26.910233+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Cash and cash equivalents at beginning of the year 97,814 105,697",
+      "locator": "pdf:page:147",
+      "measure_kind": "stock",
+      "metric_id": "cash-and-cash-equivalents",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2019-01-01",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "97814",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent",
+  "supersedes": []
+}

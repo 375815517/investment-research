@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-9db48e8abe2206b23934928a9bcde6fc8f620ac31c145f786b23e39293c34f63",
+  "document_sha256": "9db48e8abe2206b23934928a9bcde6fc8f620ac31c145f786b23e39293c34f63",
+  "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "evidence_sha256": "aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+  "excerpt": "Release Time: 22/08/2018 16:59 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Interim Results] RESULTS ANNOUNCEMENT FOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2018 ( 126KB )",
+  "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2018",
+  "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2018-08-22",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T11:25:54.530785+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-ad2c1a3780bb846b26e440f2981200fbd9becbfab4d689ad12fc1e4afb32fdea",
+  "supporting_documents": []
+}

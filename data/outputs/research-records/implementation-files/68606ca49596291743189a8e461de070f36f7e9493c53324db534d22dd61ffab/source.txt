@@ -1,0 +1,379 @@
+"""Provider capability and object bindings, independent of individual downloaded files."""
+
+from __future__ import annotations
+
+from dataclasses import asdict, dataclass, field, replace
+from datetime import date, timedelta
+from html.parser import HTMLParser
+from pathlib import Path
+import re
+import string
+from urllib.parse import quote, urljoin, urlsplit
+from uuid import uuid4
+
+import yaml
+
+from .http import ConnectorError, HttpFetcher, SourceDefinition, _url_check
+
+ID = re.compile(r"^[a-z0-9][a-z0-9_-]{0,79}$")
+
+
+def read_config(root: Path, folder: str, key: str, filename: str) -> dict:
+    if not ID.fullmatch(key):
+        raise ConnectorError("CONFIG_INVALID", "Invalid provider or binding identifier")
+    path = root / "research" / folder / key / filename
+    if not path.resolve().is_relative_to(root.resolve()):
+        raise ConnectorError("CONFIG_INVALID", "Configuration escaped workspace")
+    try:
+        value = yaml.safe_load(path.read_text())
+        if not isinstance(value, dict):
+            raise ValueError()
+        return value
+    except (OSError, ValueError, yaml.YAMLError):
+        raise ConnectorError(
+            "SOURCE_DEFINITION_MISSING", "Provider configuration unavailable"
+        ) from None
+
+
+@dataclass(frozen=True)
+class SourceCapability:
+    provider_id: str
+    url: str
+    connector_id: str
+    dataset_id: str
+    allowed_hosts: list[str]
+    archive_permissions: str
+    usage_basis: str = ""
+    allowed_parameters: list[str] = field(default_factory=list)
+    link_pattern: str = r"\.pdf(?:\?|$)"
+    pagination: bool = False
+    discovery_mode: str = "html_links"
+    window_days: int = 31
+    max_pages: int = 10
+    max_bytes: int = 32 * 1024 * 1024
+    max_attempts: int = 2
+    timeout_seconds: float = 15
+    auth_env: str | None = None
+    request_method: str = "GET"
+    fixed_parameters: dict[str, str] = field(default_factory=dict)
+    known_limitations: list[str] = field(default_factory=list)
+
+    def __post_init__(self):
+        if not ID.fullmatch(self.provider_id) or not 1 <= self.max_pages <= 50:
+            raise ConnectorError("CONFIG_INVALID", "Provider identity or page bound invalid")
+        if not self.allowed_hosts or any(
+            not re.fullmatch(r"[a-zA-Z0-9.-]+", host) for host in self.allowed_hosts
+        ):
+            raise ConnectorError("CONFIG_INVALID", "Provider must declare hostname scope")
+        try:
+            re.compile(self.link_pattern)
+        except re.error:
+            raise ConnectorError("CONFIG_INVALID", "Invalid document link pattern") from None
+        if (
+            self.discovery_mode not in {"html_links", "date_window"}
+            or not 1 <= self.window_days <= 366
+        ):
+            raise ConnectorError("CONFIG_INVALID", "Unsupported discovery mode or window size")
+        _url_check(self.url)
+        if urlsplit(self.url).hostname not in self.allowed_hosts:
+            raise ConnectorError("CONFIG_INVALID", "Provider origin is outside allowed hosts")
+
+
+@dataclass(frozen=True)
+class SourceBinding:
+    binding_id: str
+    provider_id: str
+    subject_id: str
+    subject_type: str = "company"
+    security_id: str = ""
+    source_symbol: str = ""
+    currency: str = ""
+    benchmark_id: str = ""
+    variables: dict[str, str] = field(default_factory=dict)
+    parameters: dict[str, str] = field(default_factory=dict)
+
+    def __post_init__(self):
+        if any(
+            not ID.fullmatch(value)
+            for value in (self.binding_id, self.provider_id, self.subject_id)
+        ):
+            raise ConnectorError("CONFIG_INVALID", "Invalid binding identity")
+        if any(not re.fullmatch(r"[a-z_]+", key) for key in self.variables):
+            raise ConnectorError("CONFIG_INVALID", "Invalid template variable")
+        if any(not isinstance(value, str) or len(value) > 200 for value in self.variables.values()):
+            raise ConnectorError("CONFIG_INVALID", "Binding variables must be bounded strings")
+
+
+def load_binding(root: Path, binding_id: str) -> tuple[SourceCapability, SourceBinding]:
+    try:
+        binding = SourceBinding(**read_config(root, "source-bindings", binding_id, "binding.yaml"))
+        provider = SourceCapability(
+            **read_config(root, "source-providers", binding.provider_id, "provider.yaml")
+        )
+    except TypeError:
+        raise ConnectorError("CONFIG_INVALID", "Unknown provider or binding fields") from None
+    if binding.binding_id != binding_id:
+        raise ConnectorError("CONFIG_INVALID", "Binding identifier mismatch")
+    return provider, binding
+
+
+def render_url(template: str, parameters: dict, variables: dict) -> tuple[str, dict]:
+    query = dict(parameters)
+    values = dict(variables)
+    if "date" in parameters:
+        observed_date = date.fromisoformat(parameters["date"])
+        values.update(
+            date=str(observed_date),
+            year=observed_date.strftime("%Y"),
+            month=observed_date.strftime("%m"),
+            day=observed_date.strftime("%d"),
+            yyyymmdd=observed_date.strftime("%Y%m%d"),
+            yymmdd=observed_date.strftime("%y%m%d"),
+        )
+        query.pop("date", None)
+    for _, name, fmt, conversion in string.Formatter().parse(template):
+        if name is None:
+            continue
+        if (
+            fmt
+            or conversion
+            or name
+            not in {
+                "year",
+                "month",
+                "day",
+                "page",
+                "date",
+                "yymmdd",
+                "yyyymmdd",
+                "symbol",
+                *variables,
+            }
+        ):
+            raise ConnectorError("CONFIG_INVALID", "Unsupported URL template expression")
+        if name in query:
+            values[name] = str(query.pop(name))
+        if name not in values:
+            if name == "yymmdd" and "date" in parameters:
+                values[name] = date.fromisoformat(parameters["date"]).strftime("%y%m%d")
+                query.pop("date", None)
+            else:
+                raise ConnectorError("CONFIG_INVALID", f"Missing template parameter: {name}")
+        value = values[name]
+        if name == "year" and not re.fullmatch(r"[12][0-9]{3}", value):
+            raise ConnectorError("CONFIG_INVALID", "Invalid year")
+        if name == "page" and not re.fullmatch(r"[0-9]{1,5}", value):
+            raise ConnectorError("CONFIG_INVALID", "Invalid page")
+        if name == "date":
+            date.fromisoformat(value)
+        values[name] = quote(value, safe="")
+    try:
+        rendered = template.format_map(values)
+    except (KeyError, ValueError):
+        raise ConnectorError("CONFIG_INVALID", "Invalid URL template") from None
+    _url_check(rendered)
+    return rendered, query
+
+
+def bound_source(root: Path, binding_id: str) -> SourceDefinition:
+    provider, binding = load_binding(root, binding_id)
+    return SourceDefinition(
+        source_id=binding_id,
+        url=provider.url,
+        name=provider.provider_id,
+        connector_id=provider.connector_id,
+        dataset_id=provider.dataset_id,
+        allowed_parameters=tuple(provider.allowed_parameters),
+        max_bytes=provider.max_bytes,
+        max_attempts=provider.max_attempts,
+        timeout_seconds=provider.timeout_seconds,
+        auth_env=provider.auth_env,
+        request_method=provider.request_method,
+        fixed_parameters=dict(provider.fixed_parameters, **binding.parameters),
+        archive_permissions=provider.archive_permissions,
+        usage_basis=provider.usage_basis,
+        security_id=binding.security_id,
+        source_symbol=binding.source_symbol,
+        currency=binding.currency,
+        benchmark_id=binding.benchmark_id,
+        subject_id=binding.subject_id,
+        subject_type=binding.subject_type,
+        known_limitations=tuple(provider.known_limitations),
+        template_variables=binding.variables,
+        allowed_redirect_hosts=tuple(provider.allowed_hosts),
+    )
+
+
+class Links(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links: list[dict] = []
+        self.active: dict | None = None
+        self.heading = ""
+        self.heading_path: dict[int, str] = {}
+        self.heading_parts: list[str] | None = None
+        self.skip = 0
+        self.has_next = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag in {"script", "style", "noscript"}:
+            self.skip += 1
+        if self.skip:
+            return
+        if tag in {"h1", "h2", "h3", "h4"}:
+            self.heading_parts = []
+        if tag == "a" and attrs.get("href"):
+            self.active = dict(
+                url=attrs["href"],
+                title="",
+                context=self.heading,
+                source_title=(attrs.get("title") or "")[:500],
+            )
+            if "next" in attrs.get("rel", "").split() or "next" in attrs.get("class", "").split():
+                self.has_next = True
+
+    def handle_data(self, data):
+        if self.skip:
+            return
+        if self.heading_parts is not None:
+            self.heading_parts.append(data)
+        if self.active is not None:
+            self.active["title"] += data
+
+    def handle_endtag(self, tag):
+        if tag in {"script", "style", "noscript"}:
+            self.skip = max(0, self.skip - 1)
+        if tag in {"h1", "h2", "h3", "h4"} and self.heading_parts is not None:
+            level = int(tag[1])
+            self.heading_path = {
+                key: value for key, value in self.heading_path.items() if key < level
+            }
+            self.heading_path[level] = " ".join(" ".join(self.heading_parts).split())[:300]
+            self.heading = " | ".join(self.heading_path[key] for key in sorted(self.heading_path))[
+                -900:
+            ]
+            self.heading_parts = None
+        if tag == "a" and self.active is not None:
+            self.active["title"] = " ".join(self.active["title"].split())[:500]
+            if self.active["title"].lower() in {"next", "next page", "下一页"}:
+                self.has_next = True
+            self.links.append(self.active)
+            self.active = None
+
+
+def discover_page(root: Path, fetcher: HttpFetcher, payload: dict) -> dict:
+    provider, binding = load_binding(root, payload["binding_id"])
+    parameters = payload.get("parameters", {})
+    if provider.discovery_mode == "date_window":
+        if set(parameters) != {"start", "end"}:
+            raise ConnectorError("CONFIG_INVALID", "Date-window discovery requires start and end")
+        start, end = date.fromisoformat(parameters["start"]), date.fromisoformat(parameters["end"])
+        if start > end or (end - start).days > 3660:
+            raise ConnectorError("CONFIG_INVALID", "Date window must be ordered and bounded")
+        stop = min(end, start + timedelta(days=provider.window_days - 1))
+        scheduled = []
+        current = start
+        while current <= stop:
+            url, query = render_url(provider.url, {"date": str(current)}, binding.variables)
+            if query:
+                raise ConnectorError(
+                    "CONFIG_INVALID", "Date-window URLs must consume their parameters"
+                )
+            scheduled.append(
+                dict(
+                    url=url,
+                    title=f"{provider.provider_id} {current}",
+                    context=str(current),
+                    observed_date=str(current),
+                )
+            )
+            current += timedelta(days=1)
+        return dict(
+            binding_id=binding.binding_id,
+            provider_id=provider.provider_id,
+            subject_id=binding.subject_id,
+            entries=scheduled,
+            next_parameters=dict(start=str(current), end=str(end)) if current <= end else None,
+            delivery=None,
+            origin_url=provider.url,
+            limitations=[
+                "Configured calendar-date requests, not proof of trading sessions or source availability"
+            ],
+        )
+    if set(parameters) - set(provider.allowed_parameters):
+        raise ConnectorError("CONFIG_INVALID", "Undeclared discovery parameter")
+    url, query = render_url(provider.url, parameters, binding.variables)
+    source = replace(
+        bound_source(root, binding.binding_id),
+        url=url,
+        connector_id="http-html-v1",
+        dataset_id="document-facts",
+    )
+    target = root / ".research-local" / "collections" / uuid4().hex
+    delivery = fetcher.fetch(source, query, target)
+    parser = Links()
+    parser.feed(Path(delivery.path).read_text(encoding="utf-8-sig"))
+    entries: dict[str, dict] = {}
+    for link in parser.links:
+        url = urljoin(source.url, link["url"])
+        if urlsplit(url).hostname not in provider.allowed_hosts or not re.search(
+            provider.link_pattern, url, re.I
+        ):
+            continue
+        _url_check(url)
+        if url not in entries or len(link["title"]) > len(entries[url]["title"]):
+            entries[url] = dict(
+                url=url,
+                title=link["title"],
+                context=link["context"],
+                source_title=link.get("source_title", ""),
+            )
+    if not entries:
+        raise ConnectorError(
+            "SOURCE_DISCOVERY_EMPTY", "Listing has no matching documents; not proof of no reports"
+        )
+    if len(entries) > 1000:
+        raise ConnectorError("SOURCE_DISCOVERY_LIMIT", "Listing exceeded the document bound")
+    return dict(
+        binding_id=binding.binding_id,
+        provider_id=provider.provider_id,
+        subject_id=binding.subject_id,
+        entries=list(entries.values()),
+        next_parameters=dict(parameters, page=int(parameters.get("page", 0)) + 1)
+        if provider.pagination and parser.has_next
+        else None,
+        pagination_supported=provider.pagination,
+        delivery=asdict(delivery),
+        origin_url=source.url,
+        limitations=[
+            "Discovery is limited to matching links in fetched pages; no claim of complete reporting history"
+        ],
+    )
+
+
+def collect_item(root: Path, fetcher: HttpFetcher, payload: dict) -> dict:
+    provider, binding = load_binding(root, payload["binding_id"])
+    url = payload["url"]
+    _url_check(url)
+    if urlsplit(url).hostname not in provider.allowed_hosts or not re.search(
+        provider.link_pattern, url, re.I
+    ):
+        raise ConnectorError("SOURCE_SCOPE_DENIED", "Document is outside registered provider scope")
+    source = replace(
+        bound_source(root, binding.binding_id),
+        url=url,
+        connector_id=provider.connector_id,
+        dataset_id=provider.dataset_id,
+        allowed_parameters=(),
+        request_method="GET",
+        fixed_parameters={},
+    )
+    # A listing credential must never be forwarded to a different download origin.
+    if source.auth_env and urlsplit(url).hostname != urlsplit(provider.url).hostname:
+        raise ConnectorError(
+            "SOURCE_SCOPE_DENIED", "Cross-origin authenticated document request denied"
+        )
+    target = root / ".research-local" / "collections" / uuid4().hex
+    delivery = fetcher.fetch(source, {}, target)
+    return dict(delivery=asdict(delivery), origin_url=url, source_id=binding.binding_id)

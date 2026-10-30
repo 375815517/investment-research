@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-7f81102120040fd009966dd1031de1e2f10597eaa2566929a4c813a1ad9c8984/candidate.json",
+  "batch_id": "batch-2dd5a0d4eb9fe77c50528c7cd7cc7bf8798a966ec54bc2bc563ad1ad300c80ba",
+  "candidate_hash": "7f81102120040fd009966dd1031de1e2f10597eaa2566929a4c813a1ad9c8984",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2021/batch-2dd5a0d4eb9fe77c50528c7cd7cc7bf8798a966ec54bc2bc563ad1ad300c80ba/corporate-actions.json",
+      "sha256": "8727a3ab16fe0d985501c7e7f22bfba2aa4c02e56c025fd8690f9249e3bd6a27"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:19.019988+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:15:55.312433+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2020",
+      "action_status": "proposed",
+      "action_type": "cash_dividend",
+      "announcement_date": "2021-03-24",
+      "basis": "Annual report dividend note explicitly records board resolution and shareholders approval still required. Exact ex-date/payment date not provided on this evidence page.",
+      "cash_per_share": "1.60",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "15 DIVIDENDS The final dividends amounting to HKD11,378 million (2019: HKD9,463 million) were paid during the year ended 31 December 2020. A final dividend in respect of the year ended 31 December 2020 of HKD1.60 per share (2019: HKD1.20 per share) was proposed pursuant to a resolution passed by the Board on 24 March 2021 and subject to the approval of the shareholders at the 2021 annual general meeting of the Company to be held on 20 May 2021 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 243",
+      "locator": "pdf:page:244",
+      "payment_date": null,
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

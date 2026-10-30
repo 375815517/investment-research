@@ -1,0 +1,48 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80/candidate.json",
+  "batch_id": "batch-78649155233f1c62421745c34832185871efe9eafc2faee6db7dc5b53747bfde",
+  "candidate_hash": "e0e9b3bc58a793d62c617bf8fc55fb160bfa98a569631f9c358ff47ddf8fdf80",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [],
+  "documents": [
+    "doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-78649155233f1c62421745c34832185871efe9eafc2faee6db7dc5b53747bfde/corporate-actions.json",
+      "sha256": "bb6488dc5ea56086114ded4fa42cacc36fbebcfeb27b3cd5b531616221571224"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:05:28.139697+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:14:04.490199+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-meituan-distribution-declared",
+      "action_status": "approved",
+      "action_type": "spinoff",
+      "announcement_date": "2022-11-16",
+      "basis": "Board resolved distribution in specie; fractional entitlements cash in lieu. Ex-date is not explicitly stated and remains unknown; ratio orientation must not be inverted silently.",
+      "cash_per_share": null,
+      "currency": null,
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS B ORDINARY SHARES OF MEITUAN RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF MEITUAN SHARES The Board is pleased to announce that, on 16 November 2022, it has resolved to declare a special interim dividend in the form of a distribution in specie of approximately 958,121,562 Class B ordinary shares of Meituan (assuming there is no change in the total number of issued Shares from the date of this announcement to the Record Date) indirectly held by the Company through Huai River and/or TML to the Shareholders whose names appear on the register of members of the Company on the Record Date in proportion to their then respective shareholdings in the Company on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held by the Qualifying Shareholders, being rounded down to the nearest whole number of Meituan Shares. The exact number of Meituan Shares to be distributed by the Company is subject to such possible adjustments where appropriate and necessary in order to give effect to the Distribution in Specie on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held on the Record Date and such other arrangements in relation to the Distribution in Specie as set out in this announcement. Non-Qualifying Shareholders will not be entitled to receive the Meituan Shares and will instead receive cash-in-lieu payments in respect of the Shares held by them on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held on the Record Date. No fraction of a Meituan Share will be distributed. Nevertheless, fractional entitlements to the Meituan Shares of both Qualifying Shareholders and Non-Qualifying Shareholders (i.e., whose shareholding in the Company is not an integral multiple of 10 Shares) will be distributed in the form of cash-in-lieu payments. – 1 –",
+      "locator": "pdf:page:1",
+      "payment_date": null,
+      "ratio": "10",
+      "ratio_definition": "Tencent ordinary shares held (numerator) per one distributed Meituan Class B ordinary share (denominator)",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": null
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

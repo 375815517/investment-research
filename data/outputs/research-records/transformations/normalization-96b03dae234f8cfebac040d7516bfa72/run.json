@@ -1,0 +1,513 @@
+{
+  "artifact_refs": [
+    "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json",
+    "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+  ],
+  "assessment_status": "ready",
+  "findings": [],
+  "protocol_version": "1",
+  "records": [
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+        "batch_id": "batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "combined-monthly-active-accounts",
+          "product": "weixin-wechat"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+        ],
+        "document_refs": [
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+        ],
+        "excerpt": "Combined MAU of Weixin and WeChat 1,385",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "1385",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "3016cfba3382a1636981f684f930bb2980c770247dc2c940e3544d5f70f3456c",
+      "key_id": "weixin-wechat-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "1385000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+        "batch_id": "batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "mobile-device-monthly-active-accounts",
+          "product": "qq-mobile"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+        ],
+        "document_refs": [
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+        ],
+        "excerpt": "Mobile device MAU of QQ 524",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "524",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "b33cfafa60da5ea6a976550d8738689e2f14cbc0ebf11aa276a03b7a0e0167cc",
+      "key_id": "qq-mobile-mau-2024",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "524000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+        "batch_id": "batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2024/batch-9bbc170e90c1e588ee7ce21fbe525b17caa5a9c1d465f235b6727e9778cf6d0a/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "average-daily-paid-subscriptions",
+          "product": "fee-based-vas"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+        ],
+        "document_refs": [
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+        ],
+        "excerpt": "Fee-based VAS paying subscriptions# 262",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+        },
+        "metric_id": "average-daily-paid-subscriptions",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2024-12-31",
+        "period_start": "2024-10-01",
+        "period_type": "quarter",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "262",
+        "unit": "subscriptions",
+        "value_status": "reported"
+      },
+      "input_sha256": "677987faa7baf8afa72fe7ecada50441d1056ebcb2fa9f11e2b26717f2176e0f",
+      "key_id": "average-daily-paid-subscriptions-2024",
+      "metric_id": "average-daily-paid-subscriptions",
+      "normalized_value": "262000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "subscriptions"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+        "batch_id": "batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "combined-monthly-active-accounts",
+          "product": "weixin-wechat"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+        ],
+        "document_refs": [
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+        ],
+        "excerpt": "Combined MAU of Weixin and WeChat 1,418",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "1418",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "c8a64f7edf8e1f8e170efa9fee9792f059a7625ad9c63e57626f0e6f165842e2",
+      "key_id": "weixin-wechat-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "1418000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Reported as-at December 31 MAU, millions; monthly activity window start not stated in this table; not a count of unique persons",
+        "batch_id": "batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "mobile-device-monthly-active-accounts",
+          "product": "qq-mobile"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+        ],
+        "document_refs": [
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+        ],
+        "excerpt": "Mobile device MAU of QQ 508",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+        },
+        "metric_id": "monthly-active-users",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": null,
+        "period_type": "instant",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "508",
+        "unit": "users",
+        "value_status": "reported"
+      },
+      "input_sha256": "3ab702f820881f58bce786bad9d78f0279e491442aaa38a0946fbb33303af3d8",
+      "key_id": "qq-mobile-mau-2025",
+      "metric_id": "monthly-active-users",
+      "normalized_value": "508000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "users"
+    },
+    {
+      "currency": null,
+      "input": {
+        "accounting_standard": "issuer-operating-definition",
+        "adjustment_basis": "reported",
+        "basis": "Average DAILY number of fee-based VAS subscriptions DURING quarter October-December; millions; definition adjusted since Q1 2024, not end-of-quarter subscribers",
+        "batch_id": "batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82",
+        "batch_refs": [
+          "data/inputs/companies/tencent/operations/2025/batch-3328bc194fd778ecb49b633b28b9ffb6db92b6f079215734fb3ae4ae941b5a82/batch.json"
+        ],
+        "company_id": "tencent",
+        "currency": null,
+        "dimensions": {
+          "population": "average-daily-paid-subscriptions",
+          "product": "fee-based-vas"
+        },
+        "document_metadata_refs": [
+          "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+        ],
+        "document_refs": [
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+        ],
+        "excerpt": "Fee-based VAS subscriptions# 267",
+        "locator": "pdf:page:5",
+        "measure_kind": "period_measure",
+        "metadata_revision_ids": {
+          "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+        },
+        "metric_id": "average-daily-paid-subscriptions",
+        "metric_version": "1",
+        "missing_reason": null,
+        "period_end": "2025-12-31",
+        "period_start": "2025-10-01",
+        "period_type": "quarter",
+        "record_kind": "source_reported",
+        "restatement": "original",
+        "scale": "millions",
+        "schema_version": "2",
+        "scope": "product",
+        "source_id": "tencent-reports",
+        "source_value": "267",
+        "unit": "subscriptions",
+        "value_status": "reported"
+      },
+      "input_sha256": "d1216d97f83a62a139e8d1026a414a29d00b3f756d3a41c23e32cda7df39638a",
+      "key_id": "average-daily-paid-subscriptions-2025",
+      "metric_id": "average-daily-paid-subscriptions",
+      "normalized_value": "267000000",
+      "record_kind": "derived_normalization",
+      "target_scale": "units",
+      "transform": {
+        "from_scale": "millions",
+        "method": "decimal-scale-v1",
+        "multiplier": "1000000",
+        "to_scale": "units"
+      },
+      "unit": "subscriptions"
+    }
+  ],
+  "request": {
+    "profile": {
+      "comparison_groups": [],
+      "expected_keys": [
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "weixin-wechat-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "combined-monthly-active-accounts",
+              "product": "weixin-wechat"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "qq-mobile-mau-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "mobile-device-monthly-active-accounts",
+              "product": "qq-mobile"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "average-daily-paid-subscriptions-2024",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "average-daily-paid-subscriptions",
+              "product": "fee-based-vas"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "average-daily-paid-subscriptions",
+            "metric_version": "1",
+            "period_end": "2024-12-31",
+            "period_start": "2024-10-01",
+            "period_type": "quarter",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "subscriptions"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "weixin-wechat-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "combined-monthly-active-accounts",
+              "product": "weixin-wechat"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "qq-mobile-mau-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "mobile-device-monthly-active-accounts",
+              "product": "qq-mobile"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "monthly-active-users",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_type": "instant",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "users"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        },
+        {
+          "dataset_id": "operating-observations",
+          "key_id": "average-daily-paid-subscriptions-2025",
+          "max_matches": 1,
+          "required": true,
+          "selectors": {
+            "adjustment_basis": "reported",
+            "dimensions": {
+              "population": "average-daily-paid-subscriptions",
+              "product": "fee-based-vas"
+            },
+            "measure_kind": "period_measure",
+            "metric_id": "average-daily-paid-subscriptions",
+            "metric_version": "1",
+            "period_end": "2025-12-31",
+            "period_start": "2025-10-01",
+            "period_type": "quarter",
+            "restatement": "original",
+            "scope": "product",
+            "unit": "subscriptions"
+          },
+          "source_id": "tencent-reports",
+          "subject_id": "tencent"
+        }
+      ],
+      "information_cutoff": null,
+      "knowledge_mode": "retrospective_explanation",
+      "profile_id": "tencent-operating-2024-2025",
+      "purpose": "source_description",
+      "version": "2"
+    },
+    "target_scale": "units"
+  },
+  "transform_version": "decimal-scale-v1"
+}

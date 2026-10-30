@@ -1,0 +1,30 @@
+{
+  "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "document_sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+  "evidence_document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "evidence_sha256": "2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "excerpt": "\"formatedDate\":\"Apr 24, 2025\",\"title\":\"2024 ANNUAL REPORT\"",
+  "locator": "json:News:ID=7384862",
+  "notes": "Issuer official embedded list associates filing date with 2024 annual report. Exchange attachment differs in binary hash from IR archived report; all 379 physical pages compared using pypdf, whitespace-normalized extracted text identical. Counterpart archived as doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11. Date assertion is reviewed report-content equivalence, not proof of original binary publication. Hong Kong calendar date only.",
+  "previous_publication": {
+    "date": null,
+    "earliest": null,
+    "latest": null,
+    "precision": "unknown",
+    "published_at": null,
+    "timezone": null
+  },
+  "previous_revision_id": "original",
+  "publication": {
+    "date": "2025-04-24",
+    "earliest": null,
+    "latest": null,
+    "precision": "date",
+    "published_at": null,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "recorded_at": "2026-10-30T10:53:47.715109+00:00",
+  "review_scope": "Reviewer attests publication evidence; identity is not authenticated",
+  "reviewer": "temporal_v2-publication-review",
+  "revision_id": "metadata-72721fc3bfc942f25c6c9d95946b1997831803e3e4603a3bd7e33bd604e21006"
+}

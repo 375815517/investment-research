@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-interest-expense-note-candidates.json",
+      "candidate_file_sha256": "ac4d4085dd82242177b88ae3d0ef585f45b1b9cb9e900ba7df3d773e998c2fef",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-financial-review",
+      "checks": [
+        "Independent source PDF physical page read, current-year column and RMB million unit confirmed",
+        "Positive interest and related expense magnitude excludes separately reported FX; not total net finance costs"
+      ],
+      "limitation": "2019 onwards note includes lease liabilities, 2018 only mentions borrowings and notes payable; comparison must account for IFRS16/basis change"
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-interest-expense-note-candidates.json",
+      "candidate_file_sha256": "68253fc10f7e1a6cd7c66dcc8a897cc9a2b99f7e0ad2aafe92affed92304430d",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-financial-review",
+      "checks": [
+        "Independent source PDF physical page read, current-year column and RMB million unit confirmed",
+        "Positive interest and related expense magnitude excludes separately reported FX; not total net finance costs"
+      ],
+      "limitation": "2019 onwards note includes lease liabilities, 2018 only mentions borrowings and notes payable; comparison must account for IFRS16/basis change"
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-interest-expense-note-candidates.json",
+      "candidate_file_sha256": "7e7bab07caa546b84b4feec6bda03b8bbdbcb3d4d0772e15734ede919e1591bd",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-financial-review",
+      "checks": [
+        "Independent source PDF physical page read, current-year column and RMB million unit confirmed",
+        "Positive interest and related expense magnitude excludes separately reported FX; not total net finance costs"
+      ],
+      "limitation": "2019 onwards note includes lease liabilities, 2018 only mentions borrowings and notes payable; comparison must account for IFRS16/basis change"
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-interest-expense-note-candidates.json",
+      "candidate_file_sha256": "e990a1020def48fcef30d7a29c5eb4200d006677dbec8b50bd1f7fc9bd29b7dc",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-financial-review",
+      "checks": [
+        "Independent source PDF physical page read, current-year column and RMB million unit confirmed",
+        "Positive interest and related expense magnitude excludes separately reported FX; not total net finance costs"
+      ],
+      "limitation": "2019 onwards note includes lease liabilities, 2018 only mentions borrowings and notes payable; comparison must account for IFRS16/basis change"
+    },
+    {
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-interest-expense-note-candidates.json",
+      "candidate_file_sha256": "37771c690e4233525a89821e5399c63a645b72b1d593d90209f3e421c334b009",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-financial-review",
+      "checks": [
+        "Independent source PDF physical page read, current-year column and RMB million unit confirmed",
+        "Positive interest and related expense magnitude excludes separately reported FX; not total net finance costs"
+      ],
+      "limitation": "2019 onwards note includes lease liabilities, 2018 only mentions borrowings and notes payable; comparison must account for IFRS16/basis change"
+    }
+  ]
+}

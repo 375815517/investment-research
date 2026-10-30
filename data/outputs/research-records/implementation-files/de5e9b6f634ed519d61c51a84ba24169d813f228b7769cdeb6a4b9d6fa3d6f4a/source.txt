@@ -1,0 +1,280 @@
+"""Append-only file repository; only complete manifests make batches visible."""
+
+import csv
+import io
+import hashlib
+import json
+import os
+import re
+import tempfile
+from contextlib import contextmanager
+from contextvars import ContextVar
+from copy import deepcopy
+from datetime import datetime, timezone
+from pathlib import Path
+from uuid import uuid4
+
+from investment_domain import DomainError
+
+
+def utc_now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def digest_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def encoded(value) -> bytes:
+    return (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
+
+
+def fingerprint(value) -> str:
+    return digest_bytes(encoded(value))
+
+
+def identifier(value: str) -> str:
+    if not isinstance(value, str) or not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,127}", value):
+        raise DomainError("INVALID_ID", "Identifiers must be path-safe alphanumeric slugs")
+    return value
+
+
+class Repository:
+    def __init__(self, workspace: Path):
+        self._snapshot: ContextVar[dict | None] = ContextVar(
+            "repository_read_snapshot", default=None
+        )
+        self._lock_owned: ContextVar[bool] = ContextVar("repository_lock_owned", default=False)
+        self.root = Path(workspace).resolve()
+        if not self.root.is_dir():
+            raise DomainError("WORKSPACE_NOT_FOUND", str(self.root))
+
+    def path(self, relative: str) -> Path:
+        part = Path(relative)
+        if part.is_absolute() or ".." in part.parts:
+            raise DomainError("UNSAFE_PATH", relative)
+        current = self.root
+        for component in part.parts:
+            current = current / component
+            if current.is_symlink():
+                raise DomainError("UNSAFE_PATH", f"Symlink in target: {relative}")
+        if not current.resolve().is_relative_to(self.root):
+            raise DomainError("UNSAFE_PATH", relative)
+        return current
+
+    def read_json(self, relative):
+        try:
+            return json.loads(self.path(relative).read_text())
+        except FileNotFoundError as exc:
+            raise DomainError("NOT_FOUND", relative) from exc
+        except (ValueError, UnicodeError) as exc:
+            raise DomainError("CORRUPT_RECORD", relative) from exc
+
+    def write(self, relative: str, content: bytes, *, immutable=True):
+        if self._snapshot.get() is not None:
+            raise DomainError("READ_ONLY_SNAPSHOT", "Writes are forbidden during a read snapshot")
+        target = self.path(relative)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if immutable and target.exists():
+            if target.read_bytes() != content:
+                raise DomainError("VERSION_CONFLICT", relative, 4)
+            return
+        fd, temp = tempfile.mkstemp(prefix=".pending-", dir=target.parent)
+        try:
+            with os.fdopen(fd, "wb") as stream:
+                stream.write(content)
+                stream.flush()
+                os.fsync(stream.fileno())
+            if immutable:
+                try:
+                    os.link(temp, target)
+                except FileExistsError:
+                    if target.read_bytes() != content:
+                        raise DomainError("VERSION_CONFLICT", relative, 4) from None
+            else:
+                os.replace(temp, target)
+        finally:
+            Path(temp).unlink(missing_ok=True)
+
+    def json(self, relative, value, *, immutable=True):
+        self.write(relative, encoded(value), immutable=immutable)
+
+    @contextmanager
+    def lock(self):
+        # Advisory lock is local to one machine; remote branch integration is separate.
+        import fcntl
+
+        path = self.path(".research-local/write.lock")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a") as stream:
+            fcntl.flock(stream.fileno(), fcntl.LOCK_EX)
+            token = self._lock_owned.set(True)
+            try:
+                yield
+            finally:
+                self._lock_owned.reset(token)
+                fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
+
+    @contextmanager
+    def read_snapshot(self):
+        """Request-local verified views; never retained across top-level requests.
+
+        ContextVar isolates concurrent API requests. The advisory writer lock
+        prevents cooperating imports during verification. External filesystem
+        edits do not honor that lock; this is a logical read view, not an OS
+        snapshot or an authenticity guarantee.
+        """
+        if self._snapshot.get() is not None:
+            yield
+            return
+        with self.lock():
+            with self.verified_read_view():
+                yield
+
+    @contextmanager
+    def verified_read_view(self):
+        """Cache verified reads within an already-held lock; exit before any write.
+
+        This synchronous scope never acquires a second flock. It cannot be retained
+        across plan/apply or transferred to another operation. First document and
+        batch reads still verify original bytes; cached results are deep copies.
+        """
+        if not self._lock_owned.get():
+            raise DomainError("LOCK_REQUIRED", "Verified reads require repository lock ownership")
+        if self._snapshot.get() is not None:
+            yield
+            return
+        token = self._snapshot.set(dict(document_index=None, documents={}, batches=None))
+        try:
+            yield
+        finally:
+            self._snapshot.reset(token)
+
+    def _document_index(self):
+        index: dict[str, list[tuple]] = {}
+        for path in self.path("data/inputs/source-files").glob("*/*/*/*/document.json"):
+            relative = path.relative_to(self.root).as_posix()
+            doc = self.read_json(relative)
+            index.setdefault(doc.get("document_id"), []).append((doc, relative))
+        return index
+
+    def document(self, document_id):
+        identifier(document_id)
+        snapshot = self._snapshot.get()
+        if snapshot is not None:
+            if document_id in snapshot["documents"]:
+                return deepcopy(snapshot["documents"][document_id])
+            if snapshot["document_index"] is None:
+                snapshot["document_index"] = self._document_index()
+            index = snapshot["document_index"]
+        else:
+            index = self._document_index()
+        matches = index.get(document_id, [])
+        if len(matches) != 1:
+            raise DomainError("DOCUMENT_NOT_FOUND" if not matches else "DUPLICATE_ID", document_id)
+        doc, relative = matches[0]
+        if digest_bytes(self.path(doc["path"]).read_bytes()) != doc["sha256"]:
+            raise DomainError("EVIDENCE_CHANGED", document_id, 4)
+        if snapshot is not None:
+            snapshot["documents"][document_id] = (doc, relative)
+            return deepcopy((doc, relative))
+        return doc, relative
+
+    def effective_document(
+        self, document_id, mode="retrospective_explanation", cutoff=None, revision_id=None
+    ):
+        from .metadata import effective_document
+
+        return effective_document(self, document_id, mode, cutoff, revision_id)
+
+    def import_bytes(
+        self,
+        content,
+        source_id,
+        extension,
+        published_at,
+        title,
+        origin_url=None,
+        collection_context=None,
+    ):
+        source_id = identifier(source_id)
+        sha = digest_bytes(content)
+        document_id = "doc-" + sha
+        observed = utc_now()
+        with self.lock():
+            try:
+                doc, meta_path = self.document(document_id)
+                duplicate = True
+            except DomainError as exc:
+                if exc.code != "DOCUMENT_NOT_FOUND":
+                    raise
+                extension = (
+                    extension.lower() if re.fullmatch(r"\.[a-zA-Z0-9]{1,8}", extension) else ".bin"
+                )
+                folder = f"data/inputs/source-files/{source_id}/{observed[:4]}/{document_id}/v1"
+                original = f"{folder}/original{extension}"
+                meta_path = f"{folder}/document.json"
+                doc = dict(
+                    document_id=document_id,
+                    content_revision="v1",
+                    source_id=source_id,
+                    title=title,
+                    sha256=sha,
+                    path=original,
+                    published_at=published_at,
+                    first_observed_at=observed,
+                )
+                self.write(original, content)
+                self.json(meta_path, doc)
+                duplicate = False
+            collection_id = "collection-" + uuid4().hex
+            receipt = dict(
+                collection_id=collection_id,
+                source_id=source_id,
+                observed_at=observed,
+                status="unchanged" if duplicate else "received",
+                document_id=document_id,
+                sha256=sha,
+                publication_assertion=published_at,
+                origin_url=origin_url,
+                collection_context=collection_context or {},
+                limitations=["Source attribution and publication time supplied by importer"],
+            )
+            receipt_path = f"data/inputs/collection-records/{source_id}/{observed[:4]}/{collection_id}/collection.json"
+            self.json(receipt_path, receipt)
+        return doc, [doc["path"], meta_path, receipt_path], duplicate
+
+    def batches(self):
+        snapshot = self._snapshot.get()
+        if snapshot is not None and snapshot["batches"] is not None:
+            return deepcopy(snapshot["batches"])
+        result = []
+        for p in self.path("data/inputs").rglob("batch.json"):
+            rel = p.relative_to(self.root).as_posix()
+            manifest = self.read_json(rel)
+            if manifest.get("status") != "complete":
+                continue
+            for file in manifest["files"]:
+                target = self.path(file["path"])
+                if not target.is_file() or digest_bytes(target.read_bytes()) != file["sha256"]:
+                    raise DomainError("BATCH_INTEGRITY", rel, 4)
+            data_file = self.path(manifest["files"][0]["path"])
+            actual_rows = (
+                list(csv.DictReader(io.StringIO(data_file.read_text())))
+                if data_file.suffix == ".csv"
+                else json.loads(data_file.read_text())
+            )
+            if actual_rows != manifest.get("rows"):
+                raise DomainError(
+                    "BATCH_INTEGRITY", "Manifest records differ from data file: " + rel, 4
+                )
+            for doc_id in manifest.get("documents", []):
+                self.document(doc_id)
+            result.append((rel, manifest))
+        if snapshot is not None:
+            snapshot["batches"] = result
+            return deepcopy(result)
+        return result
+
+    def revision(self):
+        return fingerprint(sorted((rel, fingerprint(batch)) for rel, batch in self.batches()))

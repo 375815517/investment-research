@@ -28,13 +28,13 @@ def detect(service, payload):
             "EXPECTATION_SCOPE_MISMATCH", "Expectation has a different dataset or subject"
         )
     refs = [request.expectation_path]
-    dependencies = []
-    for doc_id in expectation.evidence_document_ids:
-        document, doc_refs = repo.document(doc_id)
-        dependencies.append(document)
-        refs.append(doc_refs)
     cutoff = request.information_cutoff
     mode = request.knowledge_mode
+    dependencies = []
+    for doc_id in expectation.evidence_document_ids:
+        document, doc_refs = repo.effective_document(doc_id, mode, cutoff)
+        dependencies.append(document)
+        refs.append(doc_refs)
     as_of = request.as_of or datetime.fromisoformat(utc_now())
     # Historical expectations themselves must be knowable by the same cutoff.
     if cutoff and mode != "retrospective_explanation":
@@ -102,7 +102,7 @@ def detect(service, payload):
             matched = not missing_metrics
             reason = "disclosure_not_found"
             if item.report_document_id:
-                report, report_refs = repo.document(item.report_document_id)
+                report, report_refs = repo.effective_document(item.report_document_id, mode, cutoff)
                 report_visible = True
                 if cutoff and mode != "retrospective_explanation":
                     report_visible = document_available(report, mode, cutoff)

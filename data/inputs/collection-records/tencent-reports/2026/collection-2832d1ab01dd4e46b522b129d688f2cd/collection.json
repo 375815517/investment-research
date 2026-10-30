@@ -1,0 +1,29 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:42:29.432340+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/ed45a987c79642d5a6ec6a76120db778/response-55d70ad5d52b4ded92fa64145437532c.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-reports"
+      },
+      "rows": 0,
+      "sha256": "093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "size_bytes": 190576,
+      "source_id": "tencent-reports"
+    }
+  },
+  "collection_id": "collection-2832d1ab01dd4e46b522b129d688f2cd",
+  "document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:42:29.449298+00:00",
+  "origin_url": "https://www.tencent.com/investors/financial-reports/page/1/",
+  "publication_assertion": null,
+  "sha256": "093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+  "source_id": "tencent-reports",
+  "status": "received"
+}

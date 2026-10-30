@@ -44,6 +44,7 @@ class Repository:
         self._snapshot: ContextVar[dict | None] = ContextVar(
             "repository_read_snapshot", default=None
         )
+        self._lock_owned: ContextVar[bool] = ContextVar("repository_lock_owned", default=False)
         self.root = Path(workspace).resolve()
         if not self.root.is_dir():
             raise DomainError("WORKSPACE_NOT_FOUND", str(self.root))
@@ -107,9 +108,11 @@ class Repository:
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("a") as stream:
             fcntl.flock(stream.fileno(), fcntl.LOCK_EX)
+            token = self._lock_owned.set(True)
             try:
                 yield
             finally:
+                self._lock_owned.reset(token)
                 fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
 
     @contextmanager
@@ -125,11 +128,27 @@ class Repository:
             yield
             return
         with self.lock():
-            token = self._snapshot.set(dict(document_index=None, documents={}, batches=None))
-            try:
+            with self.verified_read_view():
                 yield
-            finally:
-                self._snapshot.reset(token)
+
+    @contextmanager
+    def verified_read_view(self):
+        """Cache verified reads within an already-held lock; exit before any write.
+
+        This synchronous scope never acquires a second flock. It cannot be retained
+        across plan/apply or transferred to another operation. First document and
+        batch reads still verify original bytes; cached results are deep copies.
+        """
+        if not self._lock_owned.get():
+            raise DomainError("LOCK_REQUIRED", "Verified reads require repository lock ownership")
+        if self._snapshot.get() is not None:
+            yield
+            return
+        token = self._snapshot.set(dict(document_index=None, documents={}, batches=None))
+        try:
+            yield
+        finally:
+            self._snapshot.reset(token)
 
     def _document_index(self):
         index: dict[str, list[tuple]] = {}
@@ -160,6 +179,13 @@ class Repository:
             snapshot["documents"][document_id] = (doc, relative)
             return deepcopy((doc, relative))
         return doc, relative
+
+    def effective_document(
+        self, document_id, mode="retrospective_explanation", cutoff=None, revision_id=None
+    ):
+        from .metadata import effective_document
+
+        return effective_document(self, document_id, mode, cutoff, revision_id)
 
     def import_bytes(
         self,

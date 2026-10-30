@@ -1,0 +1,65 @@
+{
+  "reviewed_at": "2026-10-30T10:57:31.146704+00:00",
+  "reviewer": "contracts_v2-independent-financial-review",
+  "method": "Read physical PDF pages and headers independently; compare manually transcribed current-year values, units, periods and deterministic reconciliations",
+  "results": [
+    {
+      "year": 2024,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-financial-candidates.json",
+      "candidate_file_sha256": "118a006f1d9d44b856ab5ea85af126c0e4627a0d73eef344dd72dc88ba67d268",
+      "document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "document_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "checked_records": 27,
+      "statement_pages": [
+        124,
+        126,
+        127,
+        128,
+        133,
+        134
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": [],
+      "limitations": [
+        "Source disclosure accuracy and table extraction reviewed; no audit of issuer economic truth",
+        "Accounts receivable are not automatically equivalent to Xiaomi trade-and-notes receivables; borrowings exclude separately disclosed notes payable and current/noncurrent classification is retained",
+        "Exact historical publication time remains separately assessed; board approval date is not automatically publication date"
+      ]
+    },
+    {
+      "year": 2025,
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-financial-candidates.json",
+      "candidate_file_sha256": "ba7930fdc9f6080407a43b70899722dca04223af8ef97ecea1de0377c7a2a09c",
+      "document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "document_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "checked_records": 27,
+      "statement_pages": [
+        130,
+        132,
+        133,
+        134,
+        139,
+        140
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": [],
+      "limitations": [
+        "Source disclosure accuracy and table extraction reviewed; no audit of issuer economic truth",
+        "Accounts receivable are not automatically equivalent to Xiaomi trade-and-notes receivables; borrowings exclude separately disclosed notes payable and current/noncurrent classification is retained",
+        "Exact historical publication time remains separately assessed; board approval date is not automatically publication date"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "event_hash": "4169b14a944c08a5034c7bffccbcc5f4011caa765047feb17f361d6aafc7bb64",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-87d3094331474e7d82ff50daa898d296/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-865702d4e415b5cf978a1d1fe78b24c2a797a3cb1005f2b85fb2b0393fed0193",
+      "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0320/2024032000531.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-a7a831f47ab1413a8bff8750bfb960e2/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-7a44eb6a5129dc994198bfc6cb6a403ce8c7eb984322cfda060e33121199414a",
+      "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800476.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-cfdcfcedc435733853396edd",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900412.pdf"
+    }
+  ],
+  "previous_hash": "0a514d8860ed65527babfeda9ea06f4b19dcfe147e1210bd66e88846114890d0",
+  "recorded_at": "2026-10-30T11:04:19.711667+00:00",
+  "sequence": 3,
+  "task_id": "acquisition-70190d3bf1f472134c5045ed"
+}

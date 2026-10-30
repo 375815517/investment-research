@@ -1,0 +1,99 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757/candidate.json",
+  "batch_id": "batch-16b75a92f61fda4b7e9b43f038ce0c803e886f1de4e6838ec0abefd90f9a3eef",
+  "candidate_hash": "3f7c32e2bf3546a43959ff16ae4c57d2522e1776e16ede3f1602ac9006f6e757",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-beb0bed8bdd043267617339f57ccd1b7e4f53a2b955002b9284df95fc071e4a3"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-16b75a92f61fda4b7e9b43f038ce0c803e886f1de4e6838ec0abefd90f9a3eef/market-observations.json",
+      "sha256": "7ec51297f8dd8601f65d4465496cda9ecc0ae2df2c698cb8daac6fc537f65171"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:54:15.483656+00:00",
+  "parser_version": "hkex-daily-turnover-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T11:04:00.082691+00:00",
+  "rows": [
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "700 TENCENT 1,840,200 712,581,220 13,703,506 5,304,563,678",
+      "locator": "text:section:short_selling:stock:700",
+      "metric_id": "short_sale_volume",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-28",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "1840200",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "700 TENCENT 1,840,200 712,581,220 13,703,506 5,304,563,678",
+      "locator": "text:section:short_selling:stock:700",
+      "metric_id": "short_sale_turnover",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-28",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "712581220",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "700 TENCENT 1,840,200 712,581,220 13,703,506 5,304,563,678",
+      "locator": "text:section:short_selling:stock:700",
+      "metric_id": "volume",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-28",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "13703506",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations current-day short-selling report; same HKD counter short/total transaction flow, not positions or investor long/short distribution",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "700 TENCENT 1,840,200 712,581,220 13,703,506 5,304,563,678",
+      "locator": "text:section:short_selling:stock:700",
+      "metric_id": "turnover",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-28",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "5304563678",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "hkex-tencent",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

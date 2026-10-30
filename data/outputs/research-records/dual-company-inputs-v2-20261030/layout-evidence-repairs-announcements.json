@@ -1,0 +1,20 @@
+[
+  {
+    "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-h1-announcement-financial-candidates.json",
+    "old_sha256": "fde56d7211f98b4160dbb9bc05bb76004e024e595043937164b406aca471fc5b",
+    "new_sha256": "82cf2c24a492adc5d1d45ecf2f813bcf56cadcb5cf07ac63844e5a6780c29209",
+    "record_indices": [
+      0
+    ],
+    "change": "Only whitespace differences in evidence text; all non-whitespace characters and all semantic fields identical"
+  },
+  {
+    "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-q2-announcement-financial-candidates.json",
+    "old_sha256": "461e5ba9e7f917f4ea3b404fe855d82afecb1c13e505dd6f34a0864477a4c870",
+    "new_sha256": "91359d3edc0f29b5fa1e1d45910329945335f565ac7ad390b60bf82af84d3f80",
+    "record_indices": [
+      0
+    ],
+    "change": "Only whitespace differences in evidence text; all non-whitespace characters and all semantic fields identical"
+  }
+]

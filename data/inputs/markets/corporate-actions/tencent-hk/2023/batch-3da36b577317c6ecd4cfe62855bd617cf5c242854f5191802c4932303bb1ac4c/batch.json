@@ -1,0 +1,51 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-f1b410c2812ca89340c6e7fdeedd9279e447c71c71a70d7442608350fa480af5/candidate.json",
+  "batch_id": "batch-3da36b577317c6ecd4cfe62855bd617cf5c242854f5191802c4932303bb1ac4c",
+  "candidate_hash": "f1b410c2812ca89340c6e7fdeedd9279e447c71c71a70d7442608350fa480af5",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [
+    "data/inputs/markets/corporate-actions/tencent-hk/2022/batch-78649155233f1c62421745c34832185871efe9eafc2faee6db7dc5b53747bfde/batch.json"
+  ],
+  "documents": [
+    "doc-304dad68fe59dc3e9c8b3091c5cb2a38bde6c766fbb1a167e2ae4ea4b57dece8",
+    "doc-eeefd33ce5b8fd1a0579d955e8b98b59bffc245f922ee8a9db230a177a56e717"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2023/batch-3da36b577317c6ecd4cfe62855bd617cf5c242854f5191802c4932303bb1ac4c/corporate-actions.json",
+      "sha256": "aed16c81c90f847d6e0d9e1c3bf4df4730374437ad065a29238f5fe93ad94486"
+    }
+  ],
+  "first_observed_at": "2026-10-30T11:05:29.241820+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:15:14.113348+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-meituan-distribution-paid",
+      "action_status": "effected",
+      "action_type": "spinoff",
+      "announcement_date": "2023-03-24",
+      "basis": "Physical share certificates dispatched on stated date; does not assert date of investor receipt or cash-in-lieu cheque receipt. Announcement signature date checked on final page. Ex-date and ratio remain in declaration evidence, not copied into confirmation.",
+      "cash_per_share": null,
+      "currency": null,
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. PAYMENT OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF SHARES IN MEITUAN Reference is made to the announcement of Tencent Holdings Limited (the “Company”) dated 16 November 2022 (the “Distribution Announcement”) in relation to the declaration of an interim dividend in the form of a distribution in specie of a majority of the Class B ordinary shares of Meituan indirectly held by the Company. Unless otherwise defined herein, capitalised terms used in this announcement shall have the same meanings as those defined in the Distribution Announcement. DISPATCH OF SHARE CERTIFICATES AND CCASS AND CHINA CLEAR SETTLEMENT The Board is pleased to announce that share certificates of the relevant Meituan Shares in respect of the distributions to the Qualifying Shareholders were dispatched to the Qualifying Shareholders at their respective addresses shown on the register of members of the Company by post at their risk on 24 March 2023, Friday (the “Share Certificate Dispatch Date”). While the share certificates have been dispatched on the Share Certificate Dispatch Date, there may potentially be a delay in the actual receipt of the share certificates due to any possible disruption of postal service. – 1 –",
+      "locator": "pdf:page:1",
+      "payment_date": "2023-03-24",
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-meituan-distribution-declared"
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

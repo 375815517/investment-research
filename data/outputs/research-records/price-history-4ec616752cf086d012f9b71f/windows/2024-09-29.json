@@ -1,0 +1,48 @@
+{
+  "code": "STALE_PLAN",
+  "collection_refs": [
+    "data/inputs/source-files/hsi-chart/2026/doc-8d5a59dd69e2a1b93ef499c1390de973483ffc729129210e52a6d2941b70607b/v1/original.json",
+    "data/inputs/source-files/hsi-chart/2026/doc-8d5a59dd69e2a1b93ef499c1390de973483ffc729129210e52a6d2941b70607b/v1/document.json",
+    "data/inputs/collection-records/hsi-chart/2026/collection-950033dae5e14235841e4c72d4d6cede/collection.json"
+  ],
+  "document_id": "doc-8d5a59dd69e2a1b93ef499c1390de973483ffc729129210e52a6d2941b70607b",
+  "end": "2024-12-27",
+  "reason": "Repository or review changed after planning",
+  "start": "2024-09-29",
+  "status": "blocked",
+  "validation": {
+    "artifact_refs": [
+      ".research-local/validations/candidate-c95b34c8139e129f92ef355be616d84638eb00b482db3f35bf96968508eeca29/a46778a1e2971fefcc49d9ec6668c9488c16800133c1b362c8a2464f9e220958.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "retryable": false,
+        "severity": "warning"
+      }
+    ],
+    "next_actions": [
+      "review"
+    ],
+    "operation_id": "op-a860c7770d1d4c628c53e38ceeacc53f",
+    "protocol_version": "1",
+    "status": "review_required",
+    "summary": "validate",
+    "validation": {
+      "candidate_hash": "c9221b95054c8b2cf99a0b2c1b09de006aff9bf8fc3e3eab0c5c118a08e9c807",
+      "candidate_id": "candidate-c95b34c8139e129f92ef355be616d84638eb00b482db3f35bf96968508eeca29",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "retryable": false,
+          "severity": "warning"
+        }
+      ],
+      "record_count": 61,
+      "rule_version": "v1",
+      "status": "review_required"
+    }
+  }
+}

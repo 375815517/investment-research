@@ -5,7 +5,16 @@ from html import unescape
 from html.parser import HTMLParser
 from pydantic import BaseModel
 
-from investment_domain import DailyPrice, DocumentFact, FinancialFact, MarketObservation
+from investment_domain import (
+    DailyPrice,
+    DocumentFact,
+    FinancialFact,
+    MarketObservation,
+    FinancialObservation,
+    OperatingObservation,
+    CorporateAction,
+    BenchmarkPrice,
+)
 from investment_repository import identifier, fingerprint
 
 MODELS: dict[str, type[BaseModel]] = {
@@ -13,11 +22,17 @@ MODELS: dict[str, type[BaseModel]] = {
     "financial-facts": FinancialFact,
     "document-facts": DocumentFact,
     "market-observations": MarketObservation,
+    "financial-observations": FinancialObservation,
+    "operating-observations": OperatingObservation,
+    "corporate-actions": CorporateAction,
+    "benchmark-prices": BenchmarkPrice,
 }
 
 
 def subject(row):
-    return row.get("security_id", row.get("company_id", row.get("subject_id")))
+    return row.get(
+        "security_id", row.get("company_id", row.get("benchmark_id", row.get("subject_id")))
+    )
 
 
 def canonical_row(dataset, row):
@@ -38,13 +53,31 @@ def day(row):
         "trading_date",
         row.get(
             "period_end",
-            row.get("event_date", row.get("observed_date") or (row.get("observed_at") or "")[:10]),
+            row.get(
+                "event_date",
+                row.get("observed_date")
+                or row.get("effective_date")
+                or row.get("ex_date")
+                or row.get("announcement_date")
+                or (row.get("observed_at") or "")[:10],
+            ),
         ),
     )
 
 
 def business_key(dataset, row):
     row = canonical_row(dataset, row)
+    if dataset == "corporate-actions":
+        return row["security_id"], row["action_id"], row["action_type"], row["share_class"]
+    if dataset == "benchmark-prices":
+        return (
+            row["benchmark_id"],
+            row["trading_date"],
+            row["index_type"],
+            row["unit"],
+            row["currency"],
+            row["basis"],
+        )
     if dataset == "daily-prices":
         return row["security_id"], row["trading_date"], row["session"], row["price_basis"]
     if dataset == "financial-facts":
@@ -52,6 +85,26 @@ def business_key(dataset, row):
             row[k]
             for k in ("company_id", "metric_id", "period_start", "period_end", "scope", "currency")
         )
+    if dataset in {"financial-observations", "operating-observations"}:
+        return tuple(
+            row.get(k)
+            for k in (
+                "company_id",
+                "metric_id",
+                "metric_version",
+                "period_start",
+                "period_end",
+                "period_type",
+                "measure_kind",
+                "scope",
+                "unit",
+                "scale",
+                "currency",
+                "accounting_standard",
+                "adjustment_basis",
+                "restatement",
+            )
+        ) + (fingerprint(row["dimensions"]),)
     if dataset == "document-facts":
         return row["subject_type"], row["subject_id"], row["fact_id"]
     return (
@@ -70,10 +123,16 @@ def business_key(dataset, row):
 
 def partition(dataset, row):
     obj = identifier(subject(row))
+    if dataset == "corporate-actions":
+        return f"markets/corporate-actions/{obj}"
+    if dataset == "benchmark-prices":
+        return f"markets/benchmarks/{obj}/daily"
     if dataset == "daily-prices":
         return f"markets/prices/{obj}/daily"
-    if dataset == "financial-facts":
+    if dataset in {"financial-facts", "financial-observations"}:
         return f"companies/{obj}/financials"
+    if dataset == "operating-observations":
+        return f"companies/{obj}/operations"
     if dataset == "market-observations":
         return f"markets/observations/{obj}"
     kind = row["document_kind"]

@@ -1,0 +1,28 @@
+{
+  "event_hash": "5a6a60e431c1f354240f3874fd60df89d3d9c093015ed2e5ea02c14f6bd77c32",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-d5e435a51b79ffefd99a9339a175725e97754b5a7a8edf40747f021ac91a6a7a",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-902a5cbf8a85f2f95ba91588/candidates/candidate-d5e435a51b79ffefd99a9339a175725e97754b5a7a8edf40747f021ac91a6a7a.json",
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-9515fa1b430a4c5ea80c5a7cc1310fa4/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306",
+      "item_id": "item-b6b138f9b32443b770205dca",
+      "listing_document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "review_hashes": {},
+      "review_refs": [],
+      "stage": "awaiting_review",
+      "title": "2024 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/09/26/5-16-23/XIAOMI%202024%20INTERIM%20REPORT-ENG.pdf"
+    }
+  ],
+  "previous_hash": "840f47456ba9e80357e28abcf6fd3957f1adf2c9e51bbdd3547ab6b01809efe2",
+  "recorded_at": "2026-10-30T11:41:17.770319+00:00",
+  "sequence": 3,
+  "task_id": "acquisition-902a5cbf8a85f2f95ba91588"
+}

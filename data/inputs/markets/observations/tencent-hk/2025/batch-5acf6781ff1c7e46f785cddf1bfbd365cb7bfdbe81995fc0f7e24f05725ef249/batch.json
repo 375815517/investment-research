@@ -1,0 +1,63 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-2a06024d6954e2ed5d22d2ac8775363d7c0b47ee3de961a0a27562d23b7a6889/candidate.json",
+  "batch_id": "batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249",
+  "candidate_hash": "2a06024d6954e2ed5d22d2ac8775363d7c0b47ee3de961a0a27562d23b7a6889",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/market-observations.json",
+      "sha256": "650a6af116193e89988c40a4c8dbe895f593d454d2d1fb40200e3dd6d564917c"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:52:26.525791+00:00",
+  "parser_version": "sfc-short-positions-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:02:49.699409+00:00",
+  "rows": [
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "24/10/2025,700,TENCENT,38287195,24408086813",
+      "locator": "text:line:149",
+      "metric_id": "reported_short_position",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2025-10-24",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "38287195",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "24/10/2025,700,TENCENT,38287195,24408086813",
+      "locator": "text:line:149",
+      "metric_id": "reported_short_position_value",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2025-10-24",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "session": "reporting_period",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "24408086813",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "sfc-tencent",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

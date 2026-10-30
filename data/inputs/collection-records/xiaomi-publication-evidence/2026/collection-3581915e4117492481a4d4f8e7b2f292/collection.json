@@ -1,0 +1,25 @@
+{
+  "collection_context": {
+    "method": "POST",
+    "parameters": {
+      "companyCode": "ky-1810",
+      "lang": "en-GB",
+      "pageIndex": 0,
+      "pageJummp": 50,
+      "searchPhrase": "annual report",
+      "strDateFrom": "01/01/2018",
+      "strDateTo": "30/10/2026"
+    }
+  },
+  "collection_id": "collection-3581915e4117492481a4d4f8e7b2f292",
+  "document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:53:47.138714+00:00",
+  "origin_url": "https://asia.tools.euroland.com/tools/Pressreleases/Main/GetNews/",
+  "publication_assertion": null,
+  "sha256": "2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+  "source_id": "xiaomi-publication-evidence",
+  "status": "unchanged"
+}

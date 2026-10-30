@@ -1,0 +1,34 @@
+{
+  "metric_id": "monthly-active-users",
+  "version": "1",
+  "name": "月活跃用户",
+  "description": "来源披露的月活跃用户；人数、账号、订阅和设备的统计对象不得互换，具体总体和统计窗口须由basis及维度描述。",
+  "dataset_id": "operating-observations",
+  "unit": "users",
+  "measure_kind": "period_measure",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month",
+    "instant"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": false,
+  "comparability_notes": "出货不等于零售或交付，月活不等于累计用户或年平均用户；跨产品/地域/总体比较必须有相同定义和时期。 Instant means source reports an as-of date without an established activity-window start; do not compare it directly with explicitly bounded month observations."
+}

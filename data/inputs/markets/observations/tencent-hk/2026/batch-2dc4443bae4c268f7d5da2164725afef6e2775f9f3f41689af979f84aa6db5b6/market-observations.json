@@ -1,0 +1,38 @@
+[
+  {
+    "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "02/10/2026,700,TENCENT,75217572,31681641326",
+    "locator": "text:line:160",
+    "metric_id": "reported_short_position",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2026-10-02",
+    "record_kind": "source_reported",
+    "security_id": "tencent-hk",
+    "session": "reporting_period",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "75217572",
+    "unit": "shares",
+    "value_status": "reported"
+  },
+  {
+    "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+    "currency": "HKD",
+    "denominator_ref": null,
+    "excerpt": "02/10/2026,700,TENCENT,75217572,31681641326",
+    "locator": "text:line:160",
+    "metric_id": "reported_short_position_value",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2026-10-02",
+    "record_kind": "source_reported",
+    "security_id": "tencent-hk",
+    "session": "reporting_period",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "31681641326",
+    "unit": "currency",
+    "value_status": "reported"
+  }
+]

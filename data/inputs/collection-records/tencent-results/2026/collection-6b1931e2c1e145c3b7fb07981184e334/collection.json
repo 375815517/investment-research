@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:53:01.875679+00:00",
+      "final_url": "https://www.tencent.com/investors/results/",
+      "path": "/workspace/investment-research/.research-local/collections/5236858cabca4cea96837b1df72d2d88/response-ed9c9d1cf3954d7eb41098ac0cbc85c7.html",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-results"
+      },
+      "request_url": "https://www.tencent.com/investors/results/page/1/",
+      "rows": 0,
+      "sha256": "16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+      "size_bytes": 188637,
+      "source_id": "tencent-results"
+    }
+  },
+  "collection_id": "collection-6b1931e2c1e145c3b7fb07981184e334",
+  "document_id": "doc-16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:53:01.892313+00:00",
+  "origin_url": "https://www.tencent.com/investors/results/page/1/",
+  "publication_assertion": null,
+  "sha256": "16cffcd76875c79c75cf40240ca2c45fd2ea5e5b0281e1f3ea55f60a98550665",
+  "source_id": "tencent-results",
+  "status": "received"
+}

@@ -250,3 +250,43 @@ def test_assessment_transport_preserves_limits_and_machine_exit(
     assert result["findings"][0]["code"] == "UNVERIFIED_PRICE_BASIS"
     assert cli.result_exit_code({"status": "ready"}) == 0
     assert cli.result_exit_code({"status": "blocked"}) == 3
+
+
+@pytest.mark.parametrize(
+    "operation",
+    [
+        "profile-audit",
+        "profile-assess",
+        "normalize-inputs",
+        "revise-metadata",
+        "source-discover",
+        "acquisition-plan",
+        "acquisition-run",
+        "acquisition-status",
+        "freeze-inputs",
+        "verify-bundle",
+    ],
+)
+def test_reusable_input_operation_transport(workspace, tmp_path, monkeypatch, capsys, operation):
+    request = tmp_path / "request.json"
+    payload = {"profile_id": "test", "version": "1"}
+    request.write_text(json.dumps(payload))
+    calls = []
+
+    def invoke(root, action, value, host=False):
+        calls.append((action, value))
+        return {"status": "blocked", "issues": [{"code": "INPUTS_MISSING"}]}
+
+    monkeypatch.setattr(cli, "invoke", invoke)
+    assert (
+        cli.main(
+            ["--workspace", str(workspace), "data", operation, "--request", str(request), "--json"]
+        )
+        == 3
+    )
+    assert calls == [(operation.replace("-", "_"), payload)]
+    assert json.loads(capsys.readouterr().out)["issues"][0]["code"] == "INPUTS_MISSING"
+
+
+def test_explicit_task_skips_preserve_noncomplete_machine_exit():
+    assert cli.result_exit_code({"status": "completed_with_skips", "skipped": 1}) == 3

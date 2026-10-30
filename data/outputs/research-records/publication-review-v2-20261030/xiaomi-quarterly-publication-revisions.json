@@ -1,0 +1,866 @@
+[
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2026-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0526/2026052600770.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2026",
+      "date": "26/05/2026",
+      "sha256": "20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+      "bytes": 726577
+    },
+    "request": {
+      "document_id": "doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82",
+      "publication": {
+        "precision": "date",
+        "date": "2026-05-26",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2026",
+      "excerpt": "Release Time: 26/05/2026 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2026 ( 710KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-9714aab166ef44fe5f17f80c68f24e9f04a27c72df52cb4e2f06a2e5f40a9fdd",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-20e31ba0c4a416b54ffae12ac32562208a63ff1a4fa5f7c4b443c6b1c38c2f82/v1/metadata-revisions/metadata-9714aab166ef44fe5f17f80c68f24e9f04a27c72df52cb4e2f06a2e5f40a9fdd.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-53c476c592074f048075ae24d7e63e9c",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0324/2026032400608.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2025",
+      "date": "24/03/2026",
+      "sha256": "a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+      "bytes": 758576
+    },
+    "request": {
+      "document_id": "doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800",
+      "publication": {
+        "precision": "date",
+        "date": "2026-03-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2025",
+      "excerpt": "Release Time: 24/03/2026 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2025 ( 741KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-b5e6816c3f4800988812b0a761bcfce8fccf4f560a110b4f7975bc1c9052cf12",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-a75db672b1f1fe7689cf73fded51a36d6a79de3626ed3b1e8b6e2c5a65b74800/v1/metadata-revisions/metadata-b5e6816c3f4800988812b0a761bcfce8fccf4f560a110b4f7975bc1c9052cf12.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-ab106fd96d4f4db9a9fe55c3e59d04b5",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1118/2025111800682.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2025",
+      "date": "18/11/2025",
+      "sha256": "12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+      "bytes": 736401
+    },
+    "request": {
+      "document_id": "doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823",
+      "publication": {
+        "precision": "date",
+        "date": "2025-11-18",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2025",
+      "excerpt": "Release Time: 18/11/2025 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2025 ( 719KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-2cf8783e2fdfdd9e4fe4458f560f69e7abd9435002e7f40962ca07dd56a8e39c",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-12b4bcde248de09b7940b9ea5d2d71db90673d7e9dd51477f7dfeca889e21823/v1/metadata-revisions/metadata-2cf8783e2fdfdd9e4fe4458f560f69e7abd9435002e7f40962ca07dd56a8e39c.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-c27a8d612f92416a8919f0db69907aa9",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2025-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0527/2025052700616.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2025",
+      "date": "27/05/2025",
+      "sha256": "945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+      "bytes": 733307
+    },
+    "request": {
+      "document_id": "doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061",
+      "publication": {
+        "precision": "date",
+        "date": "2025-05-27",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2025",
+      "excerpt": "Release Time: 27/05/2025 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2025 ( 716KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-ba9c15794bde1074708dd8fa22b14059da5c53c12b3382f2198e65803342505b",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-945179302f1c499cc82d25fd398dd208394a5b7bf8849ab0b5fbd0bfcfcd2061/v1/metadata-revisions/metadata-ba9c15794bde1074708dd8fa22b14059da5c53c12b3382f2198e65803342505b.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-9aa66b7ef75d46a99783ffe07530bc6b",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801045.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2024",
+      "date": "18/03/2025",
+      "sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+      "bytes": 771339
+    },
+    "request": {
+      "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+      "publication": {
+        "precision": "date",
+        "date": "2025-03-18",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2024",
+      "excerpt": "Release Time: 18/03/2025 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2024 ( 753KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-77357424ef8ae1fee5b5c0c25ee49fa8d4341185485ea3de674eb30f1c22b053",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/metadata-revisions/metadata-77357424ef8ae1fee5b5c0c25ee49fa8d4341185485ea3de674eb30f1c22b053.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-6e19c65a990640fe9710fa1c0058dc28",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1118/2024111800749.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024",
+      "date": "18/11/2024",
+      "sha256": "205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+      "bytes": 742277
+    },
+    "request": {
+      "document_id": "doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1",
+      "publication": {
+        "precision": "date",
+        "date": "2024-11-18",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024",
+      "excerpt": "Release Time: 18/11/2024 18:19 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024 ( 725KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-bc2459ec705f6926d823edbe91b277610f2f0351040fc3ccdb7c04311bd5074d",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-205943fb1a6ed68a0d91625eaa3cb45a32a522fbd0b3a1ad7a5e74a91efcfed1/v1/metadata-revisions/metadata-bc2459ec705f6926d823edbe91b277610f2f0351040fc3ccdb7c04311bd5074d.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-1c076509dd4945c1a3eb931894e15930",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2024-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0523/2024052300767.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2024",
+      "date": "23/05/2024",
+      "sha256": "c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+      "bytes": 694598
+    },
+    "request": {
+      "document_id": "doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5",
+      "publication": {
+        "precision": "date",
+        "date": "2024-05-23",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2024",
+      "excerpt": "Release Time: 23/05/2024 17:25 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2024 ( 678KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-6543404a338b6f434cdb46f050737797723fa4d52d71680c0348daedd5f9e1f0",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-c68b67c7698c59c3639a53aa35280e4ebada8f813b29a0161b00b3b0a7c855a5/v1/metadata-revisions/metadata-6543404a338b6f434cdb46f050737797723fa4d52d71680c0348daedd5f9e1f0.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-7d8185984f184be3b6c76ad1edc358f4",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0319/2024031900546.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2023",
+      "date": "19/03/2024",
+      "sha256": "d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+      "bytes": 734047
+    },
+    "request": {
+      "document_id": "doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299",
+      "publication": {
+        "precision": "date",
+        "date": "2024-03-19",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2023",
+      "excerpt": "Release Time: 19/03/2024 17:20 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2023 ( 717KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-f8e502a17568cdf0b4a437ad03bf494f2dd7cb4f8f91ca366c72a65dcf0e427e",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-d8e41d88f11acec533104d45776b44f3b91177ed55929fdf836699bef4eba299/v1/metadata-revisions/metadata-f8e502a17568cdf0b4a437ad03bf494f2dd7cb4f8f91ca366c72a65dcf0e427e.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-bbd6243c41474d7485a1e0707c833d76",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1120/2023112000563.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2023",
+      "date": "20/11/2023",
+      "sha256": "ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+      "bytes": 724553
+    },
+    "request": {
+      "document_id": "doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2",
+      "publication": {
+        "precision": "date",
+        "date": "2023-11-20",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2023",
+      "excerpt": "Release Time: 20/11/2023 17:48 Stock Code: 01810 81810 Stock Short Name: XIAOMI-W XIAOMI-WR Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2023 ( 708KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-e6c1879f15f9e94d244a315ed733c56c44d50b47d20569fd0599887ddde62c4b",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-ae53198d800c686bc04aea787958c42aeb028e5154046058cbb19168a86ff6a2/v1/metadata-revisions/metadata-e6c1879f15f9e94d244a315ed733c56c44d50b47d20569fd0599887ddde62c4b.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-f20e48847cf0422491b69d2ebac7416f",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0524/2023052400737.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2023",
+      "date": "24/05/2023",
+      "sha256": "6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+      "bytes": 686270
+    },
+    "request": {
+      "document_id": "doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c",
+      "publication": {
+        "precision": "date",
+        "date": "2023-05-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2023",
+      "excerpt": "Release Time: 24/05/2023 17:30 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2023 ( 670KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-78db15c78455c227e41eeaa93db9c3a68c4d8087687921d61e591aff5e0908df",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-6c6867d06ed4b7b860944d046d6917153008a43bc26e98cf7203477aac479d1c/v1/metadata-revisions/metadata-78db15c78455c227e41eeaa93db9c3a68c4d8087687921d61e591aff5e0908df.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-767538ce1347493699dcfae685018e45",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0324/2023032400811.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2022",
+      "date": "24/03/2023",
+      "sha256": "7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+      "bytes": 738255
+    },
+    "request": {
+      "document_id": "doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b",
+      "publication": {
+        "precision": "date",
+        "date": "2023-03-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2022",
+      "excerpt": "Release Time: 24/03/2023 18:25 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2022 ( 721KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-8d0cb2efcb33d1a4a422d7ad057971ccbab5a8df5f4bf2cbb98cabee9461ec66",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-7e5209a065aafa8da20cbe90dc00a440f2216a9e4c3c9d18a30eb681b18bfe3b/v1/metadata-revisions/metadata-8d0cb2efcb33d1a4a422d7ad057971ccbab5a8df5f4bf2cbb98cabee9461ec66.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-be5b76a14b37405a9c8afd8d04789178",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1123/2022112300453.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2022",
+      "date": "23/11/2022",
+      "sha256": "6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+      "bytes": 696491
+    },
+    "request": {
+      "document_id": "doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda",
+      "publication": {
+        "precision": "date",
+        "date": "2022-11-23",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2022",
+      "excerpt": "Release Time: 23/11/2022 17:31 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2022 ( 680KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-d6fd5587fb9eecfc245f13641821ea7270e557cb577e35b880c2e696a4c72c01",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-6dbca812d42a69c484b006081553e7bfefbaea3934ba9ccfdb95b4b0da8dadda/v1/metadata-revisions/metadata-d6fd5587fb9eecfc245f13641821ea7270e557cb577e35b880c2e696a4c72c01.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-3f82cf33a822429697ef368170821f1e",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0519/2022051900521.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2022",
+      "date": "19/05/2022",
+      "sha256": "618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+      "bytes": 694456
+    },
+    "request": {
+      "document_id": "doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e",
+      "publication": {
+        "precision": "date",
+        "date": "2022-05-19",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2022",
+      "excerpt": "Release Time: 19/05/2022 17:32 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2022 ( 678KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-cf10dbb40fd7a603e333edd16e7660f435b1f0de0332b405a64f7c7c298c5396",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-618244fce2f7c0aca2b740f7ac019af45ce6a5e259fc912342d52d94cccf188e/v1/metadata-revisions/metadata-cf10dbb40fd7a603e333edd16e7660f435b1f0de0332b405a64f7c7c298c5396.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-fe78a62677334e78aff6e2f9338ec97d",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0322/2022032200831.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2021",
+      "date": "22/03/2022",
+      "sha256": "f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+      "bytes": 739547
+    },
+    "request": {
+      "document_id": "doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79",
+      "publication": {
+        "precision": "date",
+        "date": "2022-03-22",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2021",
+      "excerpt": "Release Time: 22/03/2022 18:06 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2021 ( 722KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-1db35992048aac0db17eb6bfa070ec2a8cacdf9f2f9d773ae4f547b98bedf360",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-f7d29440e34e7560084b7509d2d35f999014d2cce97cac366ad22442d0d9bd79/v1/metadata-revisions/metadata-1db35992048aac0db17eb6bfa070ec2a8cacdf9f2f9d773ae4f547b98bedf360.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-64de33feb6224d9e80c318ec3fe156d4",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1123/2021112300629.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2021",
+      "date": "23/11/2021",
+      "sha256": "39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+      "bytes": 695004
+    },
+    "request": {
+      "document_id": "doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5",
+      "publication": {
+        "precision": "date",
+        "date": "2021-11-23",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2021",
+      "excerpt": "Release Time: 23/11/2021 17:52 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2021 ( 679KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-8f2cce07a984f7e669b91aa37a6d04ac454d0571e4908dd1d7efc6214d66d8fc",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-39c210575c119d3cf1444721e09d5c668a7f23a19b5b74dfa4daaafd8f741bd5/v1/metadata-revisions/metadata-8f2cce07a984f7e669b91aa37a6d04ac454d0571e4908dd1d7efc6214d66d8fc.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-0d64628fe18746f0960133cc3b554bb1",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0526/2021052600803.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2021",
+      "date": "26/05/2021",
+      "sha256": "35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+      "bytes": 672858
+    },
+    "request": {
+      "document_id": "doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b",
+      "publication": {
+        "precision": "date",
+        "date": "2021-05-26",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2021",
+      "excerpt": "Release Time: 26/05/2021 18:04 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2021 ( 657KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-58bba963164bac98d0d67658f060ca28c138186ce74d8be55a4fc1ac99c1806f",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-35b6ebcba9c0c73a0dde9b1eae0ac34a37484cc8dfa82a0149c78d17d4a04e7b/v1/metadata-revisions/metadata-58bba963164bac98d0d67658f060ca28c138186ce74d8be55a4fc1ac99c1806f.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-87672ce201a644f9bc9ffc58f48cf1fc",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0324/2021032400780.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2020",
+      "date": "24/03/2021",
+      "sha256": "80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+      "bytes": 681506
+    },
+    "request": {
+      "document_id": "doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029",
+      "publication": {
+        "precision": "date",
+        "date": "2021-03-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2020",
+      "excerpt": "Release Time: 24/03/2021 17:49 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2020 ( 666KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-b1f93d87fa5fd313e47b86d194744dc9ad36d08a5c7e1468c0eaee59d54b4a2c",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-80516b32d97e0f9b0d9947f2c6fafc4ebe1db1f7fcd554145de1fefad8c57029/v1/metadata-revisions/metadata-b1f93d87fa5fd313e47b86d194744dc9ad36d08a5c7e1468c0eaee59d54b4a2c.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-0840a55b38fe4b08935645a276282e75",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1124/2020112400513.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2020",
+      "date": "24/11/2020",
+      "sha256": "9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+      "bytes": 644264
+    },
+    "request": {
+      "document_id": "doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259",
+      "publication": {
+        "precision": "date",
+        "date": "2020-11-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2020",
+      "excerpt": "Release Time: 24/11/2020 18:00 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2020 ( 629KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-8cb81eaae7aff0be304db95eb34bef8d59b15b7f7d7be67c960f13b08e173246",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-9822b464d4e5d4708d01d389c63ef1230c29cb15df25c7fbb62a273913c8f259/v1/metadata-revisions/metadata-8cb81eaae7aff0be304db95eb34bef8d59b15b7f7d7be67c960f13b08e173246.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-9ac1ac80a19e4217a68ab702e99dd68b",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0520/2020052000534.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2020",
+      "date": "20/05/2020",
+      "sha256": "00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+      "bytes": 656020
+    },
+    "request": {
+      "document_id": "doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176",
+      "publication": {
+        "precision": "date",
+        "date": "2020-05-20",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2020",
+      "excerpt": "Release Time: 20/05/2020 17:35 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2020 ( 641KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-1f8ec9f30527e8958312f63197392c0968877c5dd23dd663114e3da6c0461ccd",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-00cddf02350b117b7e24c3275244a0303afe796d375c1b0f3e2d5ddc0b61e176/v1/metadata-revisions/metadata-1f8ec9f30527e8958312f63197392c0968877c5dd23dd663114e3da6c0461ccd.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-b7d754d13d774f95993055c34cefff65",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0331/2020033101447.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2019",
+      "date": "31/03/2020",
+      "sha256": "64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+      "bytes": 679064
+    },
+    "request": {
+      "document_id": "doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33",
+      "publication": {
+        "precision": "date",
+        "date": "2020-03-31",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2019",
+      "excerpt": "Release Time: 31/03/2020 18:16 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2019 ( 663KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-54e82bdd52d1b90dc01633742f5b4c9c3fda40f862a635c78c3d82de58a6f47a",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-64707546faa111e3d09adbca77fbedcc8d6ef558744cc2f719e5885322233c33/v1/metadata-revisions/metadata-54e82bdd52d1b90dc01633742f5b4c9c3fda40f862a635c78c3d82de58a6f47a.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-c0581608cd6f45d0ba4625cd0da9e9f0",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1127/2019112700724.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2019",
+      "date": "27/11/2019",
+      "sha256": "3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+      "bytes": 671325
+    },
+    "request": {
+      "document_id": "doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156",
+      "publication": {
+        "precision": "date",
+        "date": "2019-11-27",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2019",
+      "excerpt": "Release Time: 27/11/2019 18:06 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2019 ( 656KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-2a759ace0019ecba1865bea4e359f8984a0654b7618a728388fc35b5d6fbc906",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-3db34c6872c83c7b2cc08d737b54f1d5c7b455f2497a618bb077949f534b0156/v1/metadata-revisions/metadata-2a759ace0019ecba1865bea4e359f8984a0654b7618a728388fc35b5d6fbc906.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-cdc109cb22f94733a1128c0edcd0c149",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q1-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0520/ltn20190520748.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2019",
+      "date": "20/05/2019",
+      "sha256": "51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+      "bytes": 175394
+    },
+    "request": {
+      "document_id": "doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334",
+      "publication": {
+        "precision": "date",
+        "date": "2019-05-20",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2019",
+      "excerpt": "Release Time: 20/05/2019 18:30 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE MONTHS ENDED MARCH 31, 2019 ( 171KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-a57deadf94c24eb997567de690db79aa0544b5af04bcaccbf75082ff7a0d476d",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-51f342c548c671da80ced48453b5177913354d235ee7168f6a7b6cd1d803b334/v1/metadata-revisions/metadata-a57deadf94c24eb997567de690db79aa0544b5af04bcaccbf75082ff7a0d476d.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-36f1adf8db584477822eeb740850172a",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q4-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0319/ltn20190319788.pdf",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2018",
+      "date": "19/03/2019",
+      "sha256": "c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+      "bytes": 651854
+    },
+    "request": {
+      "document_id": "doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472",
+      "publication": {
+        "precision": "date",
+        "date": "2019-03-19",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2018",
+      "excerpt": "Release Time: 19/03/2019 18:20 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Final Results] ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2018 ( 636KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-85cd36701897a8d81d02e1d34d5e6ad67fb7ea2a9c1f5a80b8c73444464a766a",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-c522d92cf300f1bf44ecfecc88408ec39751eb0404a583ff16528131ddbd3472/v1/metadata-revisions/metadata-85cd36701897a8d81d02e1d34d5e6ad67fb7ea2a9c1f5a80b8c73444464a766a.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-894af22c419a47d7904a957f84f2c810",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q3-announcement-financial-spec.json",
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1119/ltn20181119590.pdf",
+      "title": "RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2018",
+      "date": "19/11/2018",
+      "sha256": "48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+      "bytes": 160497
+    },
+    "request": {
+      "document_id": "doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca",
+      "publication": {
+        "precision": "date",
+        "date": "2018-11-19",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-aa043e9d3eedbffca0be998467c68865e040682b5bf8a8dae2ff59238abfca6e",
+      "locator": "html:table:RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2018",
+      "excerpt": "Release Time: 19/11/2018 18:04 Stock Code: 01810 Stock Short Name: XIAOMI-W Document: Announcements and Notices - [Quarterly Results] RESULTS ANNOUNCEMENT FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2018 ( 156KB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX release row associates 01810, exact reporting-period title and linked PDF. Downloaded HKEX linked PDF SHA256 exactly equals already archived issuer IR original. Only displayed date used, no URL inference; annual results announcement is distinct from later annual report publication."
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-488c6b46daeaa043b0ac9abc474de8272488e441ab2f883ce61bccfa465848f3",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-results/2026/doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca/v1/document.json",
+        "data/inputs/source-files/xiaomi-results/2026/doc-48fa8ce0b00425e7ba646f4f969aac6db8f727e0e45da34e747ce3f55dc4a6ca/v1/metadata-revisions/metadata-488c6b46daeaa043b0ac9abc474de8272488e441ab2f883ce61bccfa465848f3.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-53a522217fa24435bdc2d344aeda3169",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "24/10/2025,1810,XIAOMI-W,464598988,21334385529",
+    "locator": "text:line:337",
+    "metric_id": "reported_short_position",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2025-10-24",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "reporting_period",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "464598988",
+    "unit": "shares",
+    "value_status": "reported"
+  },
+  {
+    "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+    "currency": "HKD",
+    "denominator_ref": null,
+    "excerpt": "24/10/2025,1810,XIAOMI-W,464598988,21334385529",
+    "locator": "text:line:337",
+    "metric_id": "reported_short_position_value",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2025-10-24",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "reporting_period",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "21334385529",
+    "unit": "currency",
+    "value_status": "reported"
+  }
+]

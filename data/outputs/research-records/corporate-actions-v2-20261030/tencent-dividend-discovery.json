@@ -1,0 +1,43 @@
+{
+  "status": "discovered",
+  "issues": [],
+  "discovery_id": "discovery-6fb57d9b6f810c8eb1905e72",
+  "entries": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800476.pdf",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900412.pdf",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-cfdcfcedc435733853396edd",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0320/2024032000531.pdf",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023",
+      "context": "",
+      "source_title": "",
+      "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d"
+    }
+  ],
+  "next_parameters": null,
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d/v1/original.html",
+    "data/inputs/source-files/hkex-tencent-announcements/2026/doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d/v1/document.json",
+    "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-611485aab80846b88e974f0b3c967dd8/collection.json",
+    "data/outputs/research-records/acquisition/discoveries/discovery-6fb57d9b6f810c8eb1905e72.json"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-85d62333163b42a4bdbbfefbdef32e64",
+  "summary": "source discover",
+  "next_actions": []
+}

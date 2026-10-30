@@ -1,0 +1,21 @@
+[
+  {
+    "source_id": "tencent-chart",
+    "status": "registered",
+    "artifacts": [
+      "data/inputs/source-files/tencent-chart/2026/doc-40c0729b51422d54cffa12c06db37c64c506bd941ee3736e089f0eaa514ac4e4/v1/original.json",
+      "data/inputs/source-files/tencent-chart/2026/doc-40c0729b51422d54cffa12c06db37c64c506bd941ee3736e089f0eaa514ac4e4/v1/document.json",
+      "data/outputs/research-records/ingest-39d7eba7824f1cb4675706845691bf6dad698582d3b6c1931e61b0f12fa80cb9/candidate.json",
+      "data/outputs/research-records/ingest-39d7eba7824f1cb4675706845691bf6dad698582d3b6c1931e61b0f12fa80cb9/validation.json",
+      "data/outputs/research-records/ingest-39d7eba7824f1cb4675706845691bf6dad698582d3b6c1931e61b0f12fa80cb9/review.json",
+      "data/inputs/markets/prices/tencent-hk/daily/2024/batch-dc2c364e34b459d3fc728dd1240d417a5033eaf06a361de55fa9a49a02a3ca21/daily-prices.csv",
+      "data/inputs/markets/prices/tencent-hk/daily/2024/batch-dc2c364e34b459d3fc728dd1240d417a5033eaf06a361de55fa9a49a02a3ca21/batch.json",
+      "data/outputs/research-records/ingest-39d7eba7824f1cb4675706845691bf6dad698582d3b6c1931e61b0f12fa80cb9/receipt.json"
+    ],
+    "document": "doc-40c0729b51422d54cffa12c06db37c64c506bd941ee3736e089f0eaa514ac4e4"
+  },
+  {
+    "source_id": "hsi-chart",
+    "error": "Repository or review changed after planning"
+  }
+]

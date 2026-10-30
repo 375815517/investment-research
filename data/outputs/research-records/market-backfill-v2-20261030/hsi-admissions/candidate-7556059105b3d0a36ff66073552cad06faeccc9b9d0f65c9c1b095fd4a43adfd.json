@@ -1,0 +1,35 @@
+{
+  "candidate_id": "candidate-7556059105b3d0a36ff66073552cad06faeccc9b9d0f65c9c1b095fd4a43adfd",
+  "receipt": {
+    "artifact_refs": [
+      "data/inputs/source-files/hsi-chart/2026/doc-357f970356b4cf2a79fa2540b59ce78311b5c04790caaa33a46fb3bb9b242766/v1/original.json",
+      "data/inputs/source-files/hsi-chart/2026/doc-357f970356b4cf2a79fa2540b59ce78311b5c04790caaa33a46fb3bb9b242766/v1/document.json",
+      "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/candidate.json",
+      "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/validation.json",
+      "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/review.json",
+      "data/inputs/markets/benchmarks/hang-seng-index/daily/2022/batch-74ef8813eb3128ea54c0c9da52cf007d6cfd13d2e0ee30e9a8cc0ee93cd1337b/benchmark-prices.json",
+      "data/inputs/markets/benchmarks/hang-seng-index/daily/2022/batch-74ef8813eb3128ea54c0c9da52cf007d6cfd13d2e0ee30e9a8cc0ee93cd1337b/batch.json",
+      "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/receipt.json"
+    ],
+    "issues": [],
+    "next_actions": [],
+    "operation_id": "op-6e77fb15ff2a4bacb40291dd6931d26b",
+    "protocol_version": "1",
+    "receipt": {
+      "artifact_refs": [
+        "data/inputs/source-files/hsi-chart/2026/doc-357f970356b4cf2a79fa2540b59ce78311b5c04790caaa33a46fb3bb9b242766/v1/original.json",
+        "data/inputs/source-files/hsi-chart/2026/doc-357f970356b4cf2a79fa2540b59ce78311b5c04790caaa33a46fb3bb9b242766/v1/document.json",
+        "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/candidate.json",
+        "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/validation.json",
+        "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/review.json",
+        "data/inputs/markets/benchmarks/hang-seng-index/daily/2022/batch-74ef8813eb3128ea54c0c9da52cf007d6cfd13d2e0ee30e9a8cc0ee93cd1337b/benchmark-prices.json",
+        "data/inputs/markets/benchmarks/hang-seng-index/daily/2022/batch-74ef8813eb3128ea54c0c9da52cf007d6cfd13d2e0ee30e9a8cc0ee93cd1337b/batch.json",
+        "data/outputs/research-records/ingest-ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948/receipt.json"
+      ],
+      "candidate_hash": "ca1ab61ba15ed7070e1b7ad071802f69535fc2c2987f2a88e472b4fae20f3948",
+      "plan_id": "plan-d01e5de24027149d9675a890287fd8cebee1be3da9abe9ddaedf66f908d3e169"
+    },
+    "status": "registered",
+    "summary": "ingest apply"
+  }
+}

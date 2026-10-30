@@ -1,0 +1,29 @@
+{
+  "status": "blocked",
+  "issues": [
+    {
+      "code": "SOURCE_DISCOVERY_EMPTY",
+      "parameters": {
+        "title": "SPECIAL DIVIDEND",
+        "from": "20180101",
+        "to": "20191231"
+      },
+      "retryable": false
+    }
+  ],
+  "discovery_id": "discovery-6a9736fc5b007a7b1a7aad5e",
+  "entries": [],
+  "next_parameters": {
+    "title": "SPECIAL DIVIDEND",
+    "from": "20180101",
+    "to": "20191231"
+  },
+  "scope": "fetched_listing_pages_only",
+  "artifact_refs": [
+    "data/outputs/research-records/acquisition/discoveries/discovery-6a9736fc5b007a7b1a7aad5e.json"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-3be17b4e891a4397aa3a0698adc17030",
+  "summary": "source discover",
+  "next_actions": []
+}

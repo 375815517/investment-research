@@ -1,0 +1,16 @@
+provider_id: sfc-weekly
+url: https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares
+connector_id: sfc-short-positions-v1
+dataset_id: market-observations
+allowed_hosts:
+- www.sfc.hk
+link_pattern: Short_Position_Reporting_Aggregated_Data_\d{8}\.csv(?:\?|$)
+max_pages: 1
+max_attempts: 1
+archive_permissions: research-only
+usage_basis: User-authorized bounded investment research archive of public regulatory/exchange
+  reports; no redistribution license asserted
+known_limitations:
+- Retrieval does not prove historical publication time
+- Reportable short positions and short-selling turnover have different populations
+  and time semantics

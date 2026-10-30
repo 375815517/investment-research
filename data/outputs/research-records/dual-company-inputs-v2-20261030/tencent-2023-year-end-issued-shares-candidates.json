@@ -1,0 +1,42 @@
+{
+  "status": "candidate_only",
+  "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+  "document_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+  "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/document.json",
+  "dataset_id": "financial-observations",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "script_sha256": "1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02",
+  "records": [
+    {
+      "schema_version": "2",
+      "company_id": "tencent",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "source_value": "9482992820",
+      "value_status": "reported",
+      "missing_reason": null,
+      "unit": "shares",
+      "scale": "units",
+      "currency": null,
+      "measure_kind": "stock",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2023-12-31",
+      "scope": "consolidated",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "restatement": "original",
+      "record_kind": "source_reported",
+      "locator": "pdf:page:243",
+      "excerpt": "At 31 December 2023 9,482,992,820"
+    }
+  ],
+  "limitations": [
+    "Row/column replay is deterministic; meaning, scale, period and scope require explicit review",
+    "Generated candidates are not admitted observations until shared validation and review succeed"
+  ]
+}

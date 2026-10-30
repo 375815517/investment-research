@@ -1,0 +1,78 @@
+{
+  "event_hash": "7cc1bd44346ffe57b1915a3a3500133987a42debd57b73c24cbfd4b869bfa14f",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-e0afaf36daeabd6c1b8f86d9c009d98d3c57aec2f0dc3a75bdffcf411c177f8a/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-e0afaf36daeabd6c1b8f86d9c009d98d3c57aec2f0dc3a75bdffcf411c177f8a/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-dab1c70f6fd647f388ea2bb9bc1b21c9/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-e0afaf36daeabd6c1b8f86d9c009d98d3c57aec2f0dc3a75bdffcf411c177f8a",
+      "item_id": "item-04175c576ed459acede820e6",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "retrieval_mode": "fetched",
+      "skip_reason": "Human scope review: shareholder meeting poll result, not a financial results statement; original retained as issuer event evidence",
+      "source_title": "",
+      "stage": "skipped",
+      "title": "POLL RESULTS FOR THE 2026 ANNUAL GENERAL MEETING",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051301257.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-b65a42f448894959b744d3df26fe2d01/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+      "item_id": "item-70f9a338bd9bcb0ecb1c10cf",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-5b8b48a56fc94606acaae378fd241042/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-b44ff0a1bf467361b70cc0046a5bd2245d927ce69e536d32ac883ea992640f3d",
+      "item_id": "item-b9dd16a949e02ff05acb849a",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800388.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/original.pdf",
+        "data/inputs/source-files/tencent-results/2026/doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-7c30726c3975456b881503d897f64f66/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "item_id": "item-f26becaac27794e8e91ffb86",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf"
+    }
+  ],
+  "previous_hash": "f429e36509aa3a1cc7de026612088c5bc1568494cacfca01b80980721a9f58ac",
+  "recorded_at": "2026-10-30T11:21:27.529050+00:00",
+  "sequence": 9,
+  "task_id": "acquisition-fa13b3160035c9938b978add"
+}

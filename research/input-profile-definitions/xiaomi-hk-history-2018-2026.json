@@ -1,0 +1,13 @@
+{
+  "calendar_ref": "data/inputs/markets/calendars/hkex/2026/2026-10-30-session-model/sessions.json",
+  "currency": "HKD",
+  "dataset_id": "daily-prices",
+  "expected_dates": 2048,
+  "limitations": [
+    "Model exchange calendar is not proof of security-specific trading or suspension",
+    "Provider-native history coverage does not certify volume units or adjustment basis",
+    "Index demand is price index, not total return"
+  ],
+  "source_id": "tencent-kline",
+  "subject_id": "xiaomi-hk"
+}

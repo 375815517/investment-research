@@ -1,0 +1,106 @@
+[
+  {
+    "status": "unchanged",
+    "document_id": "doc-23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5",
+    "document": {
+      "content_revision": "v1",
+      "document_id": "doc-23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5",
+      "first_observed_at": "2026-10-30T10:53:17.118758+00:00",
+      "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5/v1/original.html",
+      "published_at": null,
+      "sha256": "23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5",
+      "source_id": "xiaomi-publication-evidence",
+      "title": "Xiaomi official IR embedded announcement publication evidence"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5/v1/original.html",
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-23947327303284f8ef97ecae3040851d4f60f9b6baf2d6f3464c522ff3e556c5/v1/document.json",
+      "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-47511fc8806d46ee844cf84959c1a49d/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-961b258c60ac4afebc156f4c857a7a04",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "unchanged",
+    "document_id": "doc-941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223",
+    "document": {
+      "content_revision": "v1",
+      "document_id": "doc-941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223",
+      "first_observed_at": "2026-10-30T10:53:22.170096+00:00",
+      "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223/v1/original.html",
+      "published_at": null,
+      "sha256": "941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223",
+      "source_id": "xiaomi-publication-evidence",
+      "title": "Xiaomi official IR embedded announcement publication evidence"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223/v1/original.html",
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-941fdb9c720338c8d153761d65b92c7e861ff2a495ce2d3630c2440ac2e2f223/v1/document.json",
+      "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-7055e33d08544a4285e3ab93212891d9/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-09bd4636af9346ba9ccbcaa0c9824acf",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "unchanged",
+    "document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+    "document": {
+      "content_revision": "v1",
+      "document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+      "first_observed_at": "2026-10-30T10:53:22.221099+00:00",
+      "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019/v1/original.json",
+      "published_at": null,
+      "sha256": "2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+      "source_id": "xiaomi-publication-evidence",
+      "title": "Xiaomi official IR embedded announcement publication evidence"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019/v1/original.json",
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019/v1/document.json",
+      "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-3581915e4117492481a4d4f8e7b2f292/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-d4db3d112f12412ebf55637b00758da4",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+    "document": {
+      "document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "content_revision": "v1",
+      "source_id": "xiaomi-publication-evidence",
+      "title": "2024 annual report exchange attachment counterpart",
+      "sha256": "9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "path": "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11/v1/original.pdf",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T10:53:47.535702+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11/v1/original.pdf",
+      "data/inputs/source-files/xiaomi-publication-evidence/2026/doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11/v1/document.json",
+      "data/inputs/collection-records/xiaomi-publication-evidence/2026/collection-1ad43f3b3c414b42bdf5a69476e3f53c/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-302f26584f894d0e9912503ebf65d3ab",
+    "summary": "import",
+    "issues": []
+  }
+]

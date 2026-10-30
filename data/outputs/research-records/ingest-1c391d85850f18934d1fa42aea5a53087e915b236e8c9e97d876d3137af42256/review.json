@@ -1,0 +1,9 @@
+{
+  "candidate_hash": "1c391d85850f18934d1fa42aea5a53087e915b236e8c9e97d876d3137af42256",
+  "candidate_id": "candidate-efcb4493c44438adb60c2f87a948110940941db84373bea25aba6a2dc0c18861",
+  "decision": "approved",
+  "notes": "Fixed benchmark parser output; missing-date set subtraction only, exact archived row unchanged. Provider price index, not total-return; no publication precision inferred.",
+  "reviewed_at": "2026-10-30T11:15:16.390188+00:00",
+  "reviewer": "deterministic-source-row-selection",
+  "statement_consistency_checked": false
+}

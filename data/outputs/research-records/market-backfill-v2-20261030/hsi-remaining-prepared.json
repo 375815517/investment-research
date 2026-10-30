@@ -1,0 +1,122 @@
+[
+  {
+    "bytes": 11335,
+    "candidate_id": "candidate-577e0b9624d72ae098803b2caaf3379614dc739e63c6f0dd10050832eead0224",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-577e0b9624d72ae098803b2caaf3379614dc739e63c6f0dd10050832eead0224.json",
+    "document_id": "doc-277b43afde96898794c95236471054efa3297665f230e2ea5caf6e725e166dad",
+    "end": "2018-12-31",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2018-2.json",
+    "review_ref": ".research-local/reviews/candidate-577e0b9624d72ae098803b2caaf3379614dc739e63c6f0dd10050832eead0224/32325c75f2a743038dbf7097db245244.json",
+    "selected_rows": 58,
+    "start": "2018-07-09",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2018-07-09,2018-12-31,640,"
+  },
+  {
+    "bytes": 11805,
+    "candidate_id": "candidate-9720c7681180b2f630a2b6bea55f3edc68115d61cab6ef68b131e4ee9831207e",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-9720c7681180b2f630a2b6bea55f3edc68115d61cab6ef68b131e4ee9831207e.json",
+    "document_id": "doc-eead811241890b3011dd512d81e93309316c48a350241f01011e4f7753d7a4bc",
+    "end": "2019-12-31",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2019-2.json",
+    "review_ref": ".research-local/reviews/candidate-9720c7681180b2f630a2b6bea55f3edc68115d61cab6ef68b131e4ee9831207e/768f066725464033b46cfe0875c102c9.json",
+    "selected_rows": 61,
+    "start": "2019-07-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2019-07-01,2019-12-31,640,"
+  },
+  {
+    "end": "2020-06-30",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2020-01-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2020-01-01,2020-06-30,640,"
+  },
+  {
+    "end": "2020-12-31",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2020-07-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2020-07-01,2020-12-31,640,"
+  },
+  {
+    "bytes": 11834,
+    "candidate_id": "candidate-008452d46e129cba6017996599ad4392d3e10c1b008903e9a8ab7ceca5b91506",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-008452d46e129cba6017996599ad4392d3e10c1b008903e9a8ab7ceca5b91506.json",
+    "document_id": "doc-b462c9520fad9afbdcaaf3c516ffb22d997b212fdc0845e807084ae6407a93aa",
+    "end": "2021-12-31",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2021-2.json",
+    "review_ref": ".research-local/reviews/candidate-008452d46e129cba6017996599ad4392d3e10c1b008903e9a8ab7ceca5b91506/568a2fe600c34662802ad09859bced58.json",
+    "selected_rows": 126,
+    "start": "2021-07-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2021-07-01,2021-12-31,640,"
+  },
+  {
+    "end": "2022-06-30",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2022-01-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2022-01-01,2022-06-30,640,"
+  },
+  {
+    "end": "2023-12-31",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2023-07-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2023-07-01,2023-12-31,640,"
+  },
+  {
+    "bytes": 11386,
+    "candidate_id": "candidate-2bdc5a865254a84aecaabd4a16b6788f2b98a25781e7a7f216436f085afcaf50",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-2bdc5a865254a84aecaabd4a16b6788f2b98a25781e7a7f216436f085afcaf50.json",
+    "document_id": "doc-054cab1749c2d3fb30cd06b380954905d986e2e242e933ab6efe1a8ae8d8ddaa",
+    "end": "2024-06-30",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2024-1.json",
+    "review_ref": ".research-local/reviews/candidate-2bdc5a865254a84aecaabd4a16b6788f2b98a25781e7a7f216436f085afcaf50/b6cfdff404dd48499f02df0c3b2d5d35.json",
+    "selected_rows": 121,
+    "start": "2024-01-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2024-01-01,2024-06-30,640,"
+  },
+  {
+    "end": "2024-12-31",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2024-07-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2024-07-01,2024-12-31,640,"
+  },
+  {
+    "end": "2025-12-31",
+    "error": "HTTP Error 501: Not Implemented",
+    "start": "2025-07-01",
+    "status": "failed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2025-07-01,2025-12-31,640,"
+  },
+  {
+    "bytes": 11267,
+    "candidate_id": "candidate-51da8cabc675158ce18eb045783c99f425c6746dfcdf98f4b16406f53b6c25ec",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-51da8cabc675158ce18eb045783c99f425c6746dfcdf98f4b16406f53b6c25ec.json",
+    "document_id": "doc-3a09d9704109c188302fd3b7d42a3a0b57cbe22580f9ddd4263897d3aabd31a9",
+    "end": "2026-06-30",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2026-1.json",
+    "review_ref": ".research-local/reviews/candidate-51da8cabc675158ce18eb045783c99f425c6746dfcdf98f4b16406f53b6c25ec/8dbda84910504553908e1cf5d70b3062.json",
+    "selected_rows": 119,
+    "start": "2026-01-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2026-01-01,2026-06-30,640,"
+  },
+  {
+    "bytes": 8395,
+    "candidate_id": "candidate-36d4fb9df42e62ed8a2ac25d6fc83a2396f0dbec177edcf70e24c7650215b03c",
+    "candidate_ref": "data/outputs/research-records/market-backfill-v2-20261030/pending/candidate-36d4fb9df42e62ed8a2ac25d6fc83a2396f0dbec177edcf70e24c7650215b03c.json",
+    "document_id": "doc-648a99e17299e124b4dee37859359e8f70a430d75508969854f57973610cce56",
+    "end": "2026-10-29",
+    "path": "/tmp/market-probes-v2/hsi-remaining-2026-2.json",
+    "review_ref": ".research-local/reviews/candidate-36d4fb9df42e62ed8a2ac25d6fc83a2396f0dbec177edcf70e24c7650215b03c/2968c1194b934dfe956aaef93d8b7c50.json",
+    "selected_rows": 84,
+    "start": "2026-07-01",
+    "status": "reviewed",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hkHSI,day,2026-07-01,2026-10-29,640,"
+  }
+]

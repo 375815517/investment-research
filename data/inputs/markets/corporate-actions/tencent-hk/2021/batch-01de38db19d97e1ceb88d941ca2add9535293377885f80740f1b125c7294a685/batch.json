@@ -1,0 +1,51 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-07b8402e6e69674eeb51e55071fa3c5ddc3a632d426de3cb9a3f17cceafdf0a2/candidate.json",
+  "batch_id": "batch-01de38db19d97e1ceb88d941ca2add9535293377885f80740f1b125c7294a685",
+  "candidate_hash": "07b8402e6e69674eeb51e55071fa3c5ddc3a632d426de3cb9a3f17cceafdf0a2",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "dependency_batches": [
+    "data/inputs/markets/corporate-actions/tencent-hk/2020/batch-2d74221ea5505a8f948d1c49c77a7e4b21d1fe4f687e99ff9dedcf1a8c84b976/batch.json"
+  ],
+  "documents": [
+    "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+    "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/corporate-actions/tencent-hk/2021/batch-01de38db19d97e1ceb88d941ca2add9535293377885f80740f1b125c7294a685/corporate-actions.json",
+      "sha256": "26901acb905ea44b4c9bf7d41b14b27bed1be5ff14361894c4c74231170621b7"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:44:19.019988+00:00",
+  "parser_version": "reviewed-extraction-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:16:41.784020+00:00",
+  "rows": [
+    {
+      "action_id": "tencent-final-2019-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2021-04-08",
+      "basis": "Annual report dividend note confirms dividends paid during calendar 2020; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date and ex-date are not stated and remain unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "1.20",
+      "currency": "HKD",
+      "effective_date": null,
+      "ex_date": null,
+      "excerpt": "15 DIVIDENDS The final dividends amounting to HKD11,378 million (2019: HKD9,463 million) were paid during the year ended 31 December 2020. A final dividend in respect of the year ended 31 December 2020 of HKD1.60 per share (2019: HKD1.20 per share) was proposed pursuant to a resolution passed by the Board on 24 March 2021 and subject to the approval of the shareholders at the 2021 annual general meeting of the Company to be held on 20 May 2021 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. 243",
+      "locator": "pdf:page:244",
+      "payment_date": null,
+      "ratio": null,
+      "ratio_definition": null,
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2019"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "status": "complete",
+  "subject_id": "tencent-hk",
+  "supersedes": []
+}

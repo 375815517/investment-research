@@ -1,0 +1,33 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+  "dataset_id": "financial-observations",
+  "defaults": {
+    "source_value": null,
+    "unit": "currency",
+    "scale": "thousands",
+    "currency": "CNY",
+    "measure_kind": "stock",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "scope": "consolidated",
+    "dimensions": {},
+    "basis": "Opening cash balance at beginning of reporting year directly disclosed in cash flow statement; January 1 instant, not silently substituted for prior December 31 balance",
+    "accounting_standard": "IFRS",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "cash-and-cash-equivalents",
+      "page": 209,
+      "pattern": "^Cash and cash equivalents at (?:the )?beginning of (?:the )?year[^\\n]*",
+      "numeric_columns": 2
+    }
+  ],
+  "selection_review": {
+    "scope": "Opening balance on cash flow statement, current-year column, original source units"
+  }
+}

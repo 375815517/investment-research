@@ -1,0 +1,65 @@
+{
+  "event_hash": "c775118d3304467472f5b7f73ff31225db208d4d86fd83f98684bba0a8ba4c7b",
+  "items": [
+    {
+      "attempts": 1,
+      "context": "2026-10-15",
+      "issue": {
+        "code": "SOURCE_CONFIG_CHANGED",
+        "retryable": false
+      },
+      "item_id": "item-3e63141da27b2a15c88216a4",
+      "listing_document_id": null,
+      "observed_date": "2026-10-15",
+      "stage": "failed",
+      "title": "hkex-daily 2026-10-15",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261015e.htm"
+    },
+    {
+      "attempts": 1,
+      "context": "2026-10-28",
+      "issue": {
+        "code": "SOURCE_CONFIG_CHANGED",
+        "retryable": false
+      },
+      "item_id": "item-51fcb6bffdb4044769778ec2",
+      "listing_document_id": null,
+      "observed_date": "2026-10-28",
+      "stage": "failed",
+      "title": "hkex-daily 2026-10-28",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261028e.htm"
+    },
+    {
+      "attempts": 1,
+      "context": "2026-10-02",
+      "issue": {
+        "code": "SOURCE_CONFIG_CHANGED",
+        "retryable": false
+      },
+      "item_id": "item-a7d91a16a8129b63705e1510",
+      "listing_document_id": null,
+      "observed_date": "2026-10-02",
+      "stage": "failed",
+      "title": "hkex-daily 2026-10-02",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261002e.htm"
+    },
+    {
+      "attempts": 1,
+      "context": "2026-10-29",
+      "issue": {
+        "code": "SOURCE_CONFIG_CHANGED",
+        "retryable": false
+      },
+      "item_id": "item-afbfd43a3ecb869771b99d50",
+      "listing_document_id": null,
+      "observed_date": "2026-10-29",
+      "stage": "failed",
+      "title": "hkex-daily 2026-10-29",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm"
+    }
+  ],
+  "previous_hash": "8697cafd1be1687130487321aadffb554f3b4ccc3e37f1a25b8eef51bbb72d10",
+  "recorded_at": "2026-10-30T10:59:15.647908+00:00",
+  "sequence": 4,
+  "task_id": "acquisition-61ab6428d7ec482bcba0b388"
+}

@@ -1,0 +1,289 @@
+{
+  "comparison_groups": [],
+  "definition_refs": [
+    "research/input-profile-definitions/year-end-issued-shares-v1.json"
+  ],
+  "expected_keys": [
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2018-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2018-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2018-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2019-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2019-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2019-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2020-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2020-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2020-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2021-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2021-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2021-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2022-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2022-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2022-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2023-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2023-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2023-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2024-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2024-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2024-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2024-class-a",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "class-a"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2024-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2024-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2024-class-b",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2024-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2024-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2025-all-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "all-ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2025-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2025-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2025-class-a",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "class-a"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2025-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2025-annual",
+      "subject_id": "xiaomi"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2025-class-b",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "class-b"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2025-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "xiaomi-2025-annual",
+      "subject_id": "xiaomi"
+    }
+  ],
+  "information_cutoff": null,
+  "knowledge_mode": "retrospective_explanation",
+  "profile_id": "xiaomi-year-end-issued-shares",
+  "purpose": "source_description",
+  "version": "1"
+}

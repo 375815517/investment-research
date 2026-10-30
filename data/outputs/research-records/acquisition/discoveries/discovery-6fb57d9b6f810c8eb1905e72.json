@@ -1,0 +1,52 @@
+{
+  "binding_fingerprint": "0a7ea2f994073ced30d91a445857fc89c865b95ddab061a3803f5b91e081e54a",
+  "binding_id": "hkex-tencent-announcements",
+  "discovery_id": "discovery-6fb57d9b6f810c8eb1905e72",
+  "entries": [
+    {
+      "context": "",
+      "item_id": "item-a70cc3a8fccf7f9dbfc84e76",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "source_title": "",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800476.pdf"
+    },
+    {
+      "context": "",
+      "item_id": "item-cfdcfcedc435733853396edd",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "source_title": "",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0319/2025031900412.pdf"
+    },
+    {
+      "context": "",
+      "item_id": "item-7bab86e6c0ba35e2c7ababb0",
+      "listing_document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "source_title": "",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0320/2024032000531.pdf"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-eb182ae79efac4c82515e092c3e345db3ef956cc4f56e0f88e1ec54fe4e95c9d",
+      "origin_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+      "parameters": {
+        "from": "20240101",
+        "title": "DIVIDEND",
+        "to": "20261030"
+      }
+    }
+  ],
+  "provider_fingerprint": "855ee9b86b0c3d6ddf53e2cb88492751f7f042570ee53a5b296d7085720e4f7a",
+  "provider_id": "hkex-titles",
+  "recorded_at": "2026-10-30T11:01:05.442802+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

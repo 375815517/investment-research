@@ -1,0 +1,78 @@
+{
+  "binding_id": "tencent-reports",
+  "discovery_id": "discovery-20ff3b78872112cacf4bb080",
+  "entries": [
+    {
+      "context": "Financial reports",
+      "item_id": "item-b74e0d375f6db3a548036aff",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2026 Interim Report",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf"
+    },
+    {
+      "context": "2025",
+      "item_id": "item-60c1f4794c890ca471b9ffc3",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2025 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf"
+    },
+    {
+      "context": "2025 Annual Report",
+      "item_id": "item-4c36e4d117f5136bbde26afc",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2025 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2025/08/26/d1d2fb988f5e910e254b3abb41dadb0f.pdf"
+    },
+    {
+      "context": "2024",
+      "item_id": "item-9bd2957e102745f110e036dd",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2024 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2025/04/08/1132b72b565389d1b913aea60a648d73.pdf"
+    },
+    {
+      "context": "2024 Annual Report",
+      "item_id": "item-69a2ccb194e08faac6be5c57",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2024 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2024/08/27/b4be8f6abc923f2bce5fe6ee766648c8.pdf"
+    },
+    {
+      "context": "2023",
+      "item_id": "item-acb9c03328651218192311ab",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2023 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2024/04/08/e95c902973fc282be3b3e285c6245281.pdf"
+    },
+    {
+      "context": "2023 Annual Report",
+      "item_id": "item-8d4bbd9e57130293a84ce876",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2023 Interim Report",
+      "url": "https://static.www.tencent.com/uploads/2023/08/29/e52fe16910b6e500fabf46bf4011bfad.PDF"
+    },
+    {
+      "context": "2022",
+      "item_id": "item-c6a7d685b4ae6ed9b0432036",
+      "listing_document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "title": "2022 Annual Report",
+      "url": "https://static.www.tencent.com/uploads/2023/04/06/214dce4c5312264800b20cfab64861ba.pdf"
+    }
+  ],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-093f6933ac49a8f801f2e36646eaabd7f81e747cf7566dc376e49a4105d58425",
+      "origin_url": "https://www.tencent.com/investors/financial-reports/page/1/",
+      "parameters": {
+        "page": 1
+      }
+    }
+  ],
+  "provider_id": "tencent-ir",
+  "recorded_at": "2026-10-30T10:42:29.463816+00:00",
+  "scope": "fetched_listing_pages_only"
+}

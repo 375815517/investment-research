@@ -1,0 +1,197 @@
+{
+  "comparison_groups": [],
+  "definition_refs": [
+    "research/input-profile-definitions/year-end-issued-shares-v1.json"
+  ],
+  "expected_keys": [
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2018-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2018-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2019-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2019-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2020-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2020-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2021-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2021-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2022-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2022-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2023-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2023-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2024-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2024-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    },
+    {
+      "dataset_id": "financial-observations",
+      "key_id": "issued-2025-ordinary",
+      "max_matches": 1,
+      "required": true,
+      "selectors": {
+        "accounting_standard": "IFRS",
+        "adjustment_basis": "reported",
+        "dimensions": {
+          "share_class": "ordinary"
+        },
+        "measure_kind": "stock",
+        "metric_id": "issued-shares",
+        "metric_version": "1",
+        "period_end": "2025-12-31",
+        "period_type": "instant",
+        "restatement": "original",
+        "scope": "consolidated",
+        "unit": "shares"
+      },
+      "source_id": "tencent-reports",
+      "subject_id": "tencent"
+    }
+  ],
+  "information_cutoff": null,
+  "knowledge_mode": "retrospective_explanation",
+  "profile_id": "tencent-year-end-issued-shares",
+  "purpose": "source_description",
+  "version": "1"
+}

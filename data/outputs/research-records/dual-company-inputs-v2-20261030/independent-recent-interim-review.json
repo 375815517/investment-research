@@ -1,0 +1,369 @@
+{
+  "status": "reviewed",
+  "total_records": 222,
+  "reviews": [
+    {
+      "candidate": "xiaomi-2024-interim-financial-candidates.json",
+      "sha256": "52fd0df8f233682d49aeed3658cc74a32b65a316d1d75f052d11a61c09aae046",
+      "document_id": "doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        56,
+        58,
+        59,
+        62,
+        63
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2024-q2-financial-candidates.json",
+      "sha256": "42f794ed997a46dd63829a1210ff98ff2ebee838bf38ae6d4762bb640ed7e1f5",
+      "document_id": "doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        56
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2025-interim-financial-candidates.json",
+      "sha256": "ca7c9b544e19730c028d5202a3ced1f0d8dcba99b8e9753cbd069842ff1951de",
+      "document_id": "doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        57,
+        59,
+        60,
+        63,
+        64
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2025-q2-financial-candidates.json",
+      "sha256": "9a5d2c3014bb90e4cb4102b698327d014cbc09665dbcfdb932500ce524f4d99f",
+      "document_id": "doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        57
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2026-interim-financial-candidates.json",
+      "sha256": "1494cbee21bb33c63f20d836f9c258e84f57706af1fb44ebac71b1ccbf617905",
+      "document_id": "doc-e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        59,
+        61,
+        62,
+        65,
+        66
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "xiaomi-2026-q2-financial-candidates.json",
+      "sha256": "afaa86e8995ad7dba21b385ce76309f5151e5a2158c482b6f0899038a2b62375",
+      "document_id": "doc-e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        59
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2024-interim-financial-candidates.json",
+      "sha256": "ba1009c3d000c83d0d92f5b4822ab6c22bfe33279dd262be8a6d5a97f6829af5",
+      "document_id": "doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        24,
+        26,
+        27,
+        28,
+        33,
+        34
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2024-q2-financial-candidates.json",
+      "sha256": "a193ce7f4ca81bdb05cfb1d3fdd25ea35f0eef1ab1f9f8b8c06c64fd495a3288",
+      "document_id": "doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        24
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2025-interim-financial-candidates.json",
+      "sha256": "63c4eefa575fea8c069fa2a225310df4c7f6fc120034a38fef263695530e2df4",
+      "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        24,
+        26,
+        27,
+        28,
+        33,
+        34
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2025-q2-financial-candidates.json",
+      "sha256": "c02e9dcc9e4b773fb3dbf85d664c9fa1b08cb1426d13ba762ea2407ab0e368c2",
+      "document_id": "doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        24
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2026-interim-financial-candidates.json",
+      "sha256": "6316c2174f4e6bad58dcaf9578d2f1a6e4ec83c27acbf459d8d6b615dd47f717",
+      "document_id": "doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 27,
+      "physical_pages": [
+        25,
+        27,
+        28,
+        29,
+        34,
+        35
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "three_cash_flows_minus_net_change": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    },
+    {
+      "candidate": "tencent-2026-q2-financial-candidates.json",
+      "sha256": "59e0d8a43a2ebd6273b9b556f35db04ebee6e58c9149d7dad8f199c6584f24db",
+      "document_id": "doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639",
+      "decision": "approved",
+      "reviewer": "temporal_v2-independent-financial-review",
+      "records": 10,
+      "physical_pages": [
+        25
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_equals_gross_profit": "0"
+      },
+      "semantic_review": [
+        "Read source PDF physical pages and header years: four income columns Q2 current/prior, H1 current/prior; selected first for Q2 and third for H1",
+        "Xiaomi RMB thousands and Tencent RMB millions; EPS RMB per share unscaled",
+        "Balance-sheet values June 30 current column; stock has no fabricated start; H1 cashflow six-month current column",
+        "Owners profit separate from total profit; taxes/expenses retain signed presentation; borrowings preserve current/noncurrent classification",
+        "Receivables basis retains Xiaomi notes inclusion and Tencent accounts scope; no cross-company scope equivalence assumption"
+      ],
+      "limitations": [
+        "Q2 is directly disclosed income statement only, no inferred quarterly cash flow or balance sheet",
+        "Unaudited IAS34 statements are not audited annual IFRS statements",
+        "Xiaomi 2024 H1 finance costs positive 433694 is present in source; do not force expense negative",
+        "Source excerpt matching still must pass shared connector evidence validation at admission"
+      ]
+    }
+  ]
+}

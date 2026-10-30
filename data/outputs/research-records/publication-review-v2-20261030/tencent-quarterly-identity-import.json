@@ -1,0 +1,26 @@
+{
+  "status": "received",
+  "document_id": "doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02",
+  "document": {
+    "document_id": "doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02",
+    "content_revision": "v1",
+    "source_id": "publication-acquisition-review",
+    "title": "Tencent quarterly announcement identity verification",
+    "sha256": "804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02",
+    "path": "data/inputs/source-files/publication-acquisition-review/2026/doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02/v1/original.json",
+    "published_at": null,
+    "first_observed_at": "2026-10-30T11:18:24.588578+00:00"
+  },
+  "artifact_refs": [
+    "data/inputs/source-files/publication-acquisition-review/2026/doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02/v1/original.json",
+    "data/inputs/source-files/publication-acquisition-review/2026/doc-804c39e48a1b7364466438f44b4e96b80ad07481c19624b31b4fcaa7f173ca02/v1/document.json",
+    "data/inputs/collection-records/publication-acquisition-review/2026/collection-457a7c28fed343b8bb494ba200900b3e/collection.json"
+  ],
+  "next_actions": [
+    "prepare"
+  ],
+  "protocol_version": "1",
+  "operation_id": "op-5f9d054caaab419882f5b23e4bddbff1",
+  "summary": "import",
+  "issues": []
+}

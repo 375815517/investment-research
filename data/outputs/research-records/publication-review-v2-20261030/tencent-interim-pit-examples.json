@@ -1,0 +1,191 @@
+[
+  {
+    "year": "2026",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-08-25T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/metadata-revisions/metadata-3fc408fa11ff685b97448464000b99615db0acc9abf3d6ce6011aa7eb4d0170f.json"
+  },
+  {
+    "year": "2026",
+    "mode": "historical_reconstruction",
+    "cutoff": "2026-08-25T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/metadata-revisions/metadata-3fc408fa11ff685b97448464000b99615db0acc9abf3d6ce6011aa7eb4d0170f.json"
+  },
+  {
+    "year": "2026",
+    "mode": "live_observed",
+    "cutoff": "2026-08-25T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4170f80ec8548ea2fb92ec04691a4b252a52de20941e48fb516baf3f98082639/v1/document.json"
+  },
+  {
+    "year": "2025",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-08-26T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/metadata-revisions/metadata-ec875a51d62432d4c46f7d8bffd865db52416cda2a9eb58ef56a7763278fa5f4.json"
+  },
+  {
+    "year": "2025",
+    "mode": "historical_reconstruction",
+    "cutoff": "2025-08-26T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/metadata-revisions/metadata-ec875a51d62432d4c46f7d8bffd865db52416cda2a9eb58ef56a7763278fa5f4.json"
+  },
+  {
+    "year": "2025",
+    "mode": "live_observed",
+    "cutoff": "2025-08-26T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-c9e013790537e998e78d6c4850b74f3f8eb9831c9a9bc5c552333bbda19cc3ee/v1/document.json"
+  },
+  {
+    "year": "2024",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-08-27T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/metadata-revisions/metadata-802604f0b278b6499ed8e76e5653c204b5685b697b24c2eac32e2e96d7fa94d1.json"
+  },
+  {
+    "year": "2024",
+    "mode": "historical_reconstruction",
+    "cutoff": "2024-08-27T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/metadata-revisions/metadata-802604f0b278b6499ed8e76e5653c204b5685b697b24c2eac32e2e96d7fa94d1.json"
+  },
+  {
+    "year": "2024",
+    "mode": "live_observed",
+    "cutoff": "2024-08-27T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-e0367001f3754e1b62e34cfe24218c358cfae07948fd3afc8ddc3c41955b9357/v1/document.json"
+  },
+  {
+    "year": "2023",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-08-29T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/metadata-revisions/metadata-ec0faf469f155409767e48e56660ac717478200e3aa9aeb54e437486dfbd5467.json"
+  },
+  {
+    "year": "2023",
+    "mode": "historical_reconstruction",
+    "cutoff": "2023-08-29T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/metadata-revisions/metadata-ec0faf469f155409767e48e56660ac717478200e3aa9aeb54e437486dfbd5467.json"
+  },
+  {
+    "year": "2023",
+    "mode": "live_observed",
+    "cutoff": "2023-08-29T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d/v1/document.json"
+  },
+  {
+    "year": "2022",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-09-01T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/metadata-revisions/metadata-3044fea44b266dab5792d516891a93e47faf09643895b8b61ffb2368863e3c72.json"
+  },
+  {
+    "year": "2022",
+    "mode": "historical_reconstruction",
+    "cutoff": "2022-09-01T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/metadata-revisions/metadata-3044fea44b266dab5792d516891a93e47faf09643895b8b61ffb2368863e3c72.json"
+  },
+  {
+    "year": "2022",
+    "mode": "live_observed",
+    "cutoff": "2022-09-01T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7/v1/document.json"
+  },
+  {
+    "year": "2021",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-08-31T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/metadata-revisions/metadata-5d40eff4109d2cfe4b7679381cc1fd02ed4a37135132fdea850f4c727215b3dd.json"
+  },
+  {
+    "year": "2021",
+    "mode": "historical_reconstruction",
+    "cutoff": "2021-08-31T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/metadata-revisions/metadata-5d40eff4109d2cfe4b7679381cc1fd02ed4a37135132fdea850f4c727215b3dd.json"
+  },
+  {
+    "year": "2021",
+    "mode": "live_observed",
+    "cutoff": "2021-08-31T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb/v1/document.json"
+  },
+  {
+    "year": "2020",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-08-26T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/metadata-revisions/metadata-b05353552c114acf9f2b703c6e11921d8a3667f7aed032683c7c25f3ee2052e4.json"
+  },
+  {
+    "year": "2020",
+    "mode": "historical_reconstruction",
+    "cutoff": "2020-08-26T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/metadata-revisions/metadata-b05353552c114acf9f2b703c6e11921d8a3667f7aed032683c7c25f3ee2052e4.json"
+  },
+  {
+    "year": "2020",
+    "mode": "live_observed",
+    "cutoff": "2020-08-26T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c/v1/document.json"
+  },
+  {
+    "year": "2019",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-08-26T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/metadata-revisions/metadata-a1fdb6f59e9033bb28ae9d66df94333df111c11109579a24590a0d1162115854.json"
+  },
+  {
+    "year": "2019",
+    "mode": "historical_reconstruction",
+    "cutoff": "2019-08-26T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/metadata-revisions/metadata-a1fdb6f59e9033bb28ae9d66df94333df111c11109579a24590a0d1162115854.json"
+  },
+  {
+    "year": "2019",
+    "mode": "live_observed",
+    "cutoff": "2019-08-26T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a/v1/document.json"
+  },
+  {
+    "year": "2018",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-09-20T15:59:59+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/metadata-revisions/metadata-591fbbcb837b233ad073f6516f52b0673e86cb5dd7adb31dc196dea3b53e509b.json"
+  },
+  {
+    "year": "2018",
+    "mode": "historical_reconstruction",
+    "cutoff": "2018-09-20T16:00:00+00:00",
+    "available": true,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/metadata-revisions/metadata-591fbbcb837b233ad073f6516f52b0673e86cb5dd7adb31dc196dea3b53e509b.json"
+  },
+  {
+    "year": "2018",
+    "mode": "live_observed",
+    "cutoff": "2018-09-20T16:00:00+00:00",
+    "available": false,
+    "metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54/v1/document.json"
+  }
+]

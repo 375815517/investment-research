@@ -1,0 +1,344 @@
+[
+  {
+    "case": "combined",
+    "request": {
+      "purpose": "quantitative_comparison",
+      "requirements": [
+        {
+          "dataset_id": "financial-facts",
+          "subject_id": "xiaomi",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "metric_id": "revenue",
+          "minimum_records": 1
+        }
+      ]
+    },
+    "result": {
+      "status": "blocked",
+      "purpose": "quantitative_comparison",
+      "scope": "declared_sample_requirements",
+      "ready_means": "Usable only for the declared bounded purpose and samples; not certified investment truth or complete history",
+      "audit": {
+        "status": "complete",
+        "scope": "declared_sample_requirements",
+        "results": [
+          {
+            "requirement": {
+              "dataset_id": "financial-facts",
+              "subject_id": "xiaomi",
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "source_id": null,
+              "metric_id": "revenue",
+              "document_kind": null,
+              "minimum_records": 1,
+              "price_basis": "unadjusted"
+            },
+            "observed_count": 1,
+            "unavailable_count": 0,
+            "status": "satisfied",
+            "artifact_refs": [
+              "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+              "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+              "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+            ],
+            "excluded": []
+          }
+        ],
+        "artifact_refs": [
+          "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+        ],
+        "limitations": [
+          "Satisfies only the explicit sample counts, not internet-wide news completeness or exchange-calendar coverage"
+        ]
+      },
+      "observations": [
+        {
+          "requirement_index": 0,
+          "observed_count": 1,
+          "source_ids": [
+            "xiaomi-2024-annual",
+            "xiaomi-2024-results",
+            "xiaomi-2025-annual"
+          ],
+          "document_ids": [
+            "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+            "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+          ],
+          "unknown_publication_document_ids": [
+            "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+            "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+            "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+          ],
+          "excluded": []
+        }
+      ],
+      "findings": [
+        {
+          "code": "PUBLICATION_TIME_UNKNOWN",
+          "dimension": "temporal",
+          "severity": "warning",
+          "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+          "requirement_index": 0,
+          "evidence_refs": [
+            "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+            "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf",
+            "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+          ]
+        },
+        {
+          "code": "SOURCE_INDEPENDENCE_UNVERIFIED",
+          "dimension": "reliability",
+          "severity": "warning",
+          "message": "Multiple source IDs do not establish independent origins or agreement",
+          "requirement_index": 0,
+          "evidence_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+            "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+            "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+          ]
+        },
+        {
+          "code": "MIXED_MEASUREMENT_BASIS",
+          "dimension": "comparability",
+          "severity": "error",
+          "message": "A metric has mixed units, scope, sessions, share classes or source bases; partition or explicitly normalize before comparison",
+          "requirement_index": 0,
+          "evidence_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+            "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+            "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+          ]
+        }
+      ],
+      "dimensions": {
+        "integrity": "verified_original_and_batch_hashes",
+        "coverage": {
+          "declared_samples": "complete",
+          "full_history": "not_assessed",
+          "source_population": "not_assessed"
+        },
+        "reliability": "traceable_source_claims_not_independently_authenticated",
+        "temporal": "retrospective_only",
+        "comparability": "limitations_found"
+      },
+      "limitations": [
+        "Sample counts cannot prove trading-calendar, report-series, policy or news completeness",
+        "Checks do not certify causality, forecast suitability, sentiment representativeness or cross-source independence",
+        "Hashes establish byte integrity, not authenticity or semantic truth; admission review is an assertion, not reviewer identity verification"
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/document.json",
+        "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+      ],
+      "next_actions": [
+        "MIXED_MEASUREMENT_BASIS",
+        "PUBLICATION_TIME_UNKNOWN",
+        "SOURCE_INDEPENDENCE_UNVERIFIED"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-334e84012b9d403a930ddfad961712ca",
+      "summary": "assess inputs",
+      "issues": []
+    }
+  },
+  {
+    "case": "split",
+    "request": {
+      "purpose": "quantitative_comparison",
+      "requirements": [
+        {
+          "dataset_id": "financial-facts",
+          "subject_id": "xiaomi",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "metric_id": "revenue",
+          "minimum_records": 1,
+          "source_id": "xiaomi-2024-results"
+        },
+        {
+          "dataset_id": "financial-facts",
+          "subject_id": "xiaomi",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "metric_id": "revenue",
+          "minimum_records": 1,
+          "source_id": "xiaomi-2024-annual"
+        }
+      ]
+    },
+    "result": {
+      "status": "limited",
+      "purpose": "quantitative_comparison",
+      "scope": "declared_sample_requirements",
+      "ready_means": "Usable only for the declared bounded purpose and samples; not certified investment truth or complete history",
+      "audit": {
+        "status": "complete",
+        "scope": "declared_sample_requirements",
+        "results": [
+          {
+            "requirement": {
+              "dataset_id": "financial-facts",
+              "subject_id": "xiaomi",
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "source_id": "xiaomi-2024-results",
+              "metric_id": "revenue",
+              "document_kind": null,
+              "minimum_records": 1,
+              "price_basis": "unadjusted"
+            },
+            "observed_count": 1,
+            "unavailable_count": 0,
+            "status": "satisfied",
+            "artifact_refs": [
+              "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+            ],
+            "excluded": []
+          },
+          {
+            "requirement": {
+              "dataset_id": "financial-facts",
+              "subject_id": "xiaomi",
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "source_id": "xiaomi-2024-annual",
+              "metric_id": "revenue",
+              "document_kind": null,
+              "minimum_records": 1,
+              "price_basis": "unadjusted"
+            },
+            "observed_count": 1,
+            "unavailable_count": 0,
+            "status": "satisfied",
+            "artifact_refs": [
+              "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json"
+            ],
+            "excluded": []
+          }
+        ],
+        "artifact_refs": [
+          "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+        ],
+        "limitations": [
+          "Satisfies only the explicit sample counts, not internet-wide news completeness or exchange-calendar coverage"
+        ]
+      },
+      "observations": [
+        {
+          "requirement_index": 0,
+          "observed_count": 1,
+          "source_ids": [
+            "xiaomi-2024-results"
+          ],
+          "document_ids": [
+            "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145"
+          ],
+          "unknown_publication_document_ids": [
+            "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement_index": 1,
+          "observed_count": 1,
+          "source_ids": [
+            "xiaomi-2024-annual"
+          ],
+          "document_ids": [
+            "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+          ],
+          "unknown_publication_document_ids": [
+            "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+          ],
+          "excluded": []
+        }
+      ],
+      "findings": [
+        {
+          "code": "PUBLICATION_TIME_UNKNOWN",
+          "dimension": "temporal",
+          "severity": "warning",
+          "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+          "requirement_index": 0,
+          "evidence_refs": [
+            "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf"
+          ]
+        },
+        {
+          "code": "SINGLE_SOURCE_SCOPE",
+          "dimension": "reliability",
+          "severity": "info",
+          "message": "Only one source is represented; this is not independent corroboration",
+          "requirement_index": 0,
+          "evidence_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json"
+          ]
+        },
+        {
+          "code": "PUBLICATION_TIME_UNKNOWN",
+          "dimension": "temporal",
+          "severity": "warning",
+          "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+          "requirement_index": 1,
+          "evidence_refs": [
+            "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf"
+          ]
+        },
+        {
+          "code": "SINGLE_SOURCE_SCOPE",
+          "dimension": "reliability",
+          "severity": "info",
+          "message": "Only one source is represented; this is not independent corroboration",
+          "requirement_index": 1,
+          "evidence_refs": [
+            "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json"
+          ]
+        }
+      ],
+      "dimensions": {
+        "integrity": "verified_original_and_batch_hashes",
+        "coverage": {
+          "declared_samples": "complete",
+          "full_history": "not_assessed",
+          "source_population": "not_assessed"
+        },
+        "reliability": "traceable_source_claims_not_independently_authenticated",
+        "temporal": "retrospective_only",
+        "comparability": "no_structural_conflict_detected_semantic_equivalence_not_certified"
+      },
+      "limitations": [
+        "Sample counts cannot prove trading-calendar, report-series, policy or news completeness",
+        "Checks do not certify causality, forecast suitability, sentiment representativeness or cross-source independence",
+        "Hashes establish byte integrity, not authenticity or semantic truth; admission review is an assertion, not reviewer identity verification"
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf"
+      ],
+      "next_actions": [
+        "PUBLICATION_TIME_UNKNOWN"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-752ab8d51d0243ab8367d196c9450058",
+      "summary": "assess inputs",
+      "issues": []
+    }
+  }
+]

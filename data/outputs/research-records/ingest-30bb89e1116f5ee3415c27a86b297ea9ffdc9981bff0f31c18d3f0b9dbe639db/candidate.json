@@ -1,0 +1,57 @@
+{
+  "candidate_id": "candidate-182fc1743ae88b6c984835ba4798d8d83229e09eb4e85949a789fd35a6c5af83",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+  "document_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Pure reporting-year ordinary-share repurchase flow. Tencent directors report annual statement; Xiaomi audited treasury movement current-year Shares repurchased row. Do not use cancellation row or reporting-period-plus-latest-practicable-date totals.",
+      "company_id": "tencent",
+      "dimensions": {
+        "share_class": "ordinary"
+      },
+      "excerpt": "FINANCIAL SUMMARY A summary of the condensed consolidated results and financial positions of the Group is set out on page 3 of this annual report. PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES During the year ended 31 December 2018, the Company repurchased 2,848,000 shares on the Stock Exchange for an aggregate consideration of approximately HKD886.8 million before expenses. The repurchased shares were subsequently cancelled. The repurchase was effected by the Board for the enhancement of shareholder value in the long term. Details of the shares repurchased are as follows: Purchase consideration per share Aggregate No. of shares Highest Lowest consideration Month of purchase in 2018 purchased price paid price paid paid HKD HKD HKD September 1,668,500 333.40 306.00 535,627,842 October 1,179,500 322.80 265.20 351,174,951 Total: 2,848,000 886,802,793 Save as disclosed above and in Note 31 to the consolidated financial statements, neither the Company nor any of its subsidiaries has purchased, sold or redeemed any of the Company’s shares during the year ended 31 December 2018. ISSUANCE OF DEBT SECURITIES On 19 January 2018, the Company issued four tranches of senior notes under the Global Medium Term Note Programme for the Company’s general corporate purposes. Details of the issuance of debt securities are set out in Note 35 to the consolidated financial statements. 33",
+      "locator": "pdf:page:34",
+      "measure_kind": "flow",
+      "metric_id": "shares-repurchased",
+      "metric_version": "1",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "units",
+      "scope": "consolidated",
+      "source_value": "2848000",
+      "unit": "shares"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Current reporting-year cash-flow column: payments for repurchase of own shares, source cash outflow sign retained. Not purchase-trade consideration or treasury carrying additions; no inferred average price.",
+      "company_id": "tencent",
+      "currency": "CNY",
+      "dimensions": {},
+      "excerpt": "Year ended 31 December 2018 2017 RMB’Million RMB’Million Payments for loans to investees and others (2,523) (2,219) Loans repayments from investees and others 745 1,533 Payments for other financial assets – (995) Proceeds from settlement of other financial assets – 995 Receipt from maturity of term deposits with initial terms of over three months 46,227 86,166 Placement of term deposits with initial terms of over three months (67,055) (72,520) Interest received 4,435 3,529 Dividends received 1,724 2,009 Net cash flows used in investing activities (151,913) (96,392) Cash flows from financing activities Proceeds from short-term borrowings 26,463 16,676 Repayments of short-term borrowings (23,545) (12,450) Proceeds from long-term borrowings 7,237 33,517 Repayments of long-term borrowings (194) (5,281) Net proceeds from issuance of notes payable 32,547 – Repayments of notes payable (4,666) (3,450) Proceeds from issuance of ordinary shares 525 171 Shares withheld for share award schemes (1,967) (2,232) Payments for repurchase of shares (783) – Proceeds from issuance of additional equity of non-wholly owned subsidiaries 7,238 6,466 Proceeds from disposals of non-controlling interests in non-wholly owned subsidiaries 157 106 Payments for acquisition of non-controlling interests in non-wholly owned subsidiaries (236) (927) Dividends paid to the Company’s shareholders (6,776) (5,052) Dividends paid to non-controlling interests (620) (946) Net cash flows generated from financing activities 35,380 26,598 141",
+      "locator": "pdf:page:142",
+      "measure_kind": "flow",
+      "metric_id": "ordinary-share-repurchase-cash-payments",
+      "metric_version": "1",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "millions",
+      "scope": "consolidated",
+      "source_value": "-783",
+      "unit": "currency"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

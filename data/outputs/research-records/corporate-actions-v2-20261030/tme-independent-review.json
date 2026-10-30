@@ -1,0 +1,66 @@
+{
+  "status": "reviewed",
+  "results": [
+    {
+      "candidate_file": "data/outputs/research-records/corporate-actions-v2-20261030/tme-terms-fact-candidate.json",
+      "candidate_file_sha256": "0370bbeed0799359cdfb5001ce5ddaf14dbfba20faaefb1cc1eb5da608e62d07",
+      "candidate_id": "candidate-e670d91a6f1162aec38f1881cd93a89cf0e9ee659e7f2c44b29331cd3056de99",
+      "candidate_hash": "1ba32ed59485ae4cea18ebc3bb5ceaba137138eaa98b7380e0d1942e8a66cd5c",
+      "status": "approved_source_extraction",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-tme-review",
+      "records": 4,
+      "source_document_id": "doc-66bb1836f6533c41a950eb9add33f5cbe79deeb7147d672a39259f3525640dd6"
+    },
+    {
+      "candidate_file": "data/outputs/research-records/corporate-actions-v2-20261030/tme-action-declaration-candidate.json",
+      "candidate_file_sha256": "7bd6cc26e27dadc80dd2cc4ba73f7a97f7f750137e48aa1707c2a55028be4d1e",
+      "candidate_id": "candidate-fa6de5633c7a37aa354521e9d72d25be9f13059ae044a35677520e560747f1bc",
+      "candidate_hash": "1daae8e4e0821602971832a1cf0c4a5f842018c10f4df2b7b4ea107f3618f940",
+      "status": "approved_source_extraction",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-tme-review",
+      "records": 1,
+      "source_document_id": "doc-66bb1836f6533c41a950eb9add33f5cbe79deeb7147d672a39259f3525640dd6"
+    },
+    {
+      "candidate_file": "data/outputs/research-records/corporate-actions-v2-20261030/tme-action-payment-candidate.json",
+      "candidate_file_sha256": "a475ec8b02b9fc6e252aeae4ad393582e74a4a64a151219116e1656bbc106d22",
+      "candidate_id": "candidate-8978ee71793e7bf156bbd0a8b2458f2294fbe51b7d4dd7d741e89a38d38c51fc",
+      "candidate_hash": "d47819abe9167530c5da78a0d10fe0e44f37a0e3e1fef583f442d88a3cf3faa6",
+      "status": "approved_source_extraction",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-tme-review",
+      "records": 1,
+      "source_document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+    },
+    {
+      "candidate_file": "data/outputs/research-records/corporate-actions-v2-20261030/tme-actual-payment-fact-candidate.json",
+      "candidate_file_sha256": "7524ed05c11a4bc533dc031ae8c09b69a999d88d60b249741bf352ca6a037156",
+      "candidate_id": "candidate-684045506aad15d84c0b8c7ace2076ff2d58a8186fae64d4fe7e35b4a85c8296",
+      "candidate_hash": "f0aaca1f42816b3cc2d7cd6c7e06e7adc341607f13fb183fdd979fb4f4244c60",
+      "status": "approved_source_extraction",
+      "errors": [],
+      "reviewer": "temporal_v2-independent-tme-review",
+      "records": 1,
+      "source_document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+    }
+  ],
+  "independent_source_review": {
+    "declaration": "Read archived declaration PDF physical pages1,2,3,8; Dec13 committee resolution and expected timetable independently verified",
+    "payment": "Read Tencent2019annualreport physicalpage209; expressly settled withcashandTMEsharesinFebruary2019"
+  },
+  "findings": [
+    "3900 is Tencent shares per elective TME ADS for qualifying whole lots, not universally applicable proportional split adjustment; inverse direction explicitly defined",
+    "Election applies to all but not part of entitled ADSs; cash election rounded down to HKD; fractional ADS not distributed; residual whole500-share cash rule and below1500 no-payment threshold preserved in original-page facts",
+    "Eligibility excludes specified persons/jurisdictions and TencentMusicAffiliates; do not apply qualifying-shareholder formula to every account",
+    "2018-12-28 ex-date and2019-02-20 distribution in declaration are expected timetable; declaration status approved does not claim actual settlement",
+    "Actual settled record links earlier declaration but leaves ratio and exact payment_date null; inclusive2019-02-01..28 is valid month interval, not invented paymentday",
+    "2020-04-02 announcement_date/event_date on confirmation are year-report public release, not historical paymentdate; historical availability bounded by actual source publication"
+  ],
+  "limitations": [
+    "This review does not implement tax/account-level entitlement computation or total-return adjustment",
+    "The archived Jan2019 circular is corroborating context, not a claim all its eligibility clauses are normalized",
+    "Declaration metadata publication must be known for historical/live queries; do not treat approval of source extraction as time completeness"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-c19dd3aef0c435ee1a713942bf1b399ef03c9773ebf0d7e1de75f4e6c9c8f669/candidate.json",
+  "batch_id": "batch-b9bf38877e46934702ef0d592f35cfb9ef66d570bff23de6e71326b7fa8c0b4b",
+  "candidate_hash": "c19dd3aef0c435ee1a713942bf1b399ef03c9773ebf0d7e1de75f4e6c9c8f669",
+  "contract_version": "1",
+  "dataset_id": "benchmark-prices",
+  "documents": [
+    "doc-09c7de8c526cc61d3fa574c9eef17aa0c0360b7c7d55e85f2e2d118ee2723721"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/benchmarks/hang-seng-index/daily/2019/batch-b9bf38877e46934702ef0d592f35cfb9ef66d570bff23de6e71326b7fa8c0b4b/benchmark-prices.json",
+      "sha256": "4f370a88f2bfddf5807568f8143fb7d4cedb6d9ca391171db2cd79b2068733b8"
+    }
+  ],
+  "first_observed_at": "2026-10-30T10:52:23.903939+00:00",
+  "parser_version": "tencent-benchmark-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T10:52:30.785052+00:00",
+  "rows": [
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "28319.389",
+      "currency": null,
+      "excerpt": "[\"2019-12-30\",\"28250.480\",\"28319.389\",\"28418.650\",\"28165.129\",\"76763046160.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2019-12-30",
+      "record_kind": "source_reported",
+      "trading_date": "2019-12-30",
+      "unit": "points"
+    },
+    {
+      "basis": "Provider Hang Seng price index close in index points; not total return",
+      "benchmark_id": "hang-seng-index",
+      "close": "28189.750",
+      "currency": null,
+      "excerpt": "[\"2019-12-31\",\"28241.430\",\"28189.750\",\"28298.461\",\"28123.859\",\"48433510400.000\"]",
+      "index_type": "price_index",
+      "locator": "json:hkHSI:day:2019-12-31",
+      "record_kind": "source_reported",
+      "trading_date": "2019-12-31",
+      "unit": "points"
+    }
+  ],
+  "source_id": "hsi-chart",
+  "status": "complete",
+  "subject_id": "hang-seng-index",
+  "supersedes": []
+}

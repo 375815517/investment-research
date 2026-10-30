@@ -1,0 +1,33 @@
+{
+  "binding_fingerprint": "1c5444b0970a35ee916311dd29c8dc4c5a162126c5a0fdaa0b2cdfd6327955e0",
+  "binding_id": "xiaomi-reports",
+  "discovery_id": "discovery-19affca956a6633fc6d2205c",
+  "entries": [
+    {
+      "context": "Annual & Interim Reports",
+      "item_id": "item-8242a79798ff96597a95b53c",
+      "listing_document_id": "doc-7de1f87dabdea337d58732392cfdb880e50f4445c469217ea27dbf6cb617cb38",
+      "title": "2026 Interim Report",
+      "url": "https://ir.mi.com/static-files/b903a881-8143-44a3-b759-703653bbb043"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Matched links do not certify all report periods, release times or extracted fields"
+  ],
+  "next_parameters": null,
+  "pages": [
+    {
+      "document_id": "doc-7de1f87dabdea337d58732392cfdb880e50f4445c469217ea27dbf6cb617cb38",
+      "origin_url": "https://ir.mi.com/financial-information/annual-interim-reports?6d8b6f01f934de3ac2627d2ae128ca39dd25897392c09bb164a5e31f3b1edbb8_year%5Bvalue%5D=2026",
+      "parameters": {
+        "year": 2026
+      }
+    }
+  ],
+  "provider_fingerprint": "44073c554819cd068c0453123891fd6d4b44bf643688c3616e6b04f2e924ca28",
+  "provider_id": "xiaomi-ir",
+  "recorded_at": "2026-10-30T10:52:34.941980+00:00",
+  "resumed_from": null,
+  "scope": "fetched_listing_pages_only"
+}

@@ -1,0 +1,3535 @@
+{
+  "reviewed_at": "2026-10-30T10:59:44.645498+00:00",
+  "reviewer": "interfaces-v2-independent-source-review",
+  "method": "Re-opened hash-verified archived PDFs via PdfReader independently of producer page cache; inspected physical statement pages, current/prior year headings, RMB thousands and explicit per-share exception, individual row labels and current column values, unlabeled block subtotals, stock/flow periods and signed expenses. Decimal cross-statement reconciliation. Candidate files were read only; admission remains a separate operation.",
+  "results": [
+    {
+      "year": 2018,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-interim-financial-candidates.json",
+      "candidate_file_sha256": "eeb262da798807619e11bad4807e483a6ef81a873f8f5b08b3e1fbd69e0bda1c",
+      "document_id": "doc-24d28bb5a5f1ebab89ee3f8a5e1c784caaa4e4c33d84708e2d409a6f1bfdb2be",
+      "document_sha256": "24d28bb5a5f1ebab89ee3f8a5e1c784caaa4e4c33d84708e2d409a6f1bfdb2be",
+      "checked_records": 27,
+      "statement_pages": [
+        49,
+        51,
+        52,
+        55,
+        56
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "79647835",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-69694596",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "9953239",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "-4227472",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-614141",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "7605236",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "7646195",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.759",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "-0.234",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "113072894",
+          "locator": "pdf:page:51",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "223410445",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "-110337551",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "14894150",
+          "locator": "pdf:page:51",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "21740309",
+          "locator": "pdf:page:51",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "7112042",
+          "locator": "pdf:page:51",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "44966287",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "80321101",
+          "locator": "pdf:page:51",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "64296236",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "-110431491",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "7950151",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "4601862",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "6121543",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "-3825729",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "1193182",
+          "locator": "pdf:page:56",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "3488996",
+          "locator": "pdf:page:56",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "-158128",
+          "locator": "pdf:page:56",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "-14496",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period  11,563,282  9,230,320 ",
+        "closing_row": "Cash and cash equivalents at end of the period 14,894,150 12,080,573"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2018,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2018-q2-financial-candidates.json",
+      "candidate_file_sha256": "02f1edd4b31c432fa898b13ac99c980e477d814cedee2781096e926981c22051",
+      "document_id": "doc-24d28bb5a5f1ebab89ee3f8a5e1c784caaa4e4c33d84708e2d409a6f1bfdb2be",
+      "document_sha256": "24d28bb5a5f1ebab89ee3f8a5e1c784caaa4e4c33d84708e2d409a6f1bfdb2be",
+      "checked_records": 10,
+      "statement_pages": [
+        49
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "45235473",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-39583661",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "5651812",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "-7591962",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-275782",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "14632647",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "14651318",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "1.409",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "-0.377",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "-32330",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2019,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-interim-financial-candidates.json",
+      "candidate_file_sha256": "b35d92656ce965ddeaf3b20e1e5745c9db91392dbffa549e7ed22d6731af65d9",
+      "document_id": "doc-8619c2989f07b287ccea75e1a7b45f72b5ec10bc7e7354cbfb4843cf9675bdbe",
+      "document_sha256": "8619c2989f07b287ccea75e1a7b45f72b5ec10bc7e7354cbfb4843cf9675bdbe",
+      "checked_records": 27,
+      "statement_pages": [
+        52,
+        54,
+        55,
+        58,
+        59
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "95707952",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-83233656",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "12474296",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "5950283",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-1004156",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "5147302",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "5077915",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.214",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.206",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "158254673",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "81408223",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "76846450",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "34921028",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "26675009",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "7337191",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "48799255",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "115650106",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "69206956",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "76691894",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "6679136",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "7099923",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "10915424",
+          "locator": "pdf:page:58",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "-8030554",
+          "locator": "pdf:page:58",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "1891999",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "4776869",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "-85988",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "201175",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period 30,230,147  11,563,282 ",
+        "closing_row": "Cash and cash equivalents at end of the period 34,921,028 14,894,150"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2019,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2019-q2-financial-candidates.json",
+      "candidate_file_sha256": "926699521379a13d069ce84cd9cdd7518872229d9ccebae25407cf4c0c8c67ca",
+      "document_id": "doc-8619c2989f07b287ccea75e1a7b45f72b5ec10bc7e7354cbfb4843cf9675bdbe",
+      "document_sha256": "8619c2989f07b287ccea75e1a7b45f72b5ec10bc7e7354cbfb4843cf9675bdbe",
+      "checked_records": 10,
+      "statement_pages": [
+        52
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "51951129",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-44692410",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "7258719",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "2336107",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-478760",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "1955558",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "1951956",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.082",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.079",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "98211",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2020,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-interim-financial-candidates.json",
+      "candidate_file_sha256": "bb2754c4b51c015d53b8bfa9246b58f4b03c73d639cdfbe961234e590eda02df",
+      "document_id": "doc-f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64",
+      "document_sha256": "f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64",
+      "checked_records": 27,
+      "statement_pages": [
+        52,
+        54,
+        55,
+        58,
+        59
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "103239972",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-87980069",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "15259903",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "7736215",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-668518",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "6653367",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "6661643",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.279",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.271",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "198513377",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "108351005",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "90162372",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "22843316",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "38856939",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "8472074",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "60433835",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "142142037",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "92687287",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "89806586",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "13408668",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "9995908",
+          "locator": "pdf:page:55",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "-3926247",
+          "locator": "pdf:page:58",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "-4211760",
+          "locator": "pdf:page:58",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "4793374",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "-3344633",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "268088",
+          "locator": "pdf:page:59",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "-414330",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period 25,919,861 30,230,147",
+        "closing_row": "Cash and cash equivalents at end of the period 22,843,316 34,921,028"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2020,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2020-q2-financial-candidates.json",
+      "candidate_file_sha256": "d949a53c52a1c614fd81eba411f8b32a53a3946a1c2350b052dc3a9b1e66f28b",
+      "document_id": "doc-f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64",
+      "document_sha256": "f0b74a9c42c665ff93de424439d8cf928c2f59faee6572e5d9ca9ed0febcef64",
+      "checked_records": 10,
+      "statement_pages": [
+        52
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "53537805",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-45836359",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "7701446",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "5413027",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-374323",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "4493473",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "4498128",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.189",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.183",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-income-net",
+          "source_value": "-545231",
+          "locator": "pdf:page:52",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2021,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-interim-financial-candidates.json",
+      "candidate_file_sha256": "c39f7792b5e22a31fe4741dcdec1e41a4593e70548e9e765fb19a08e293cab2e",
+      "document_id": "doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+      "document_sha256": "5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+      "checked_records": 27,
+      "statement_pages": [
+        64,
+        66,
+        67,
+        70,
+        71
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "164671123",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-135361850",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "29309273",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "18883419",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "-735856",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-2693207",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "16052215",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "16061366",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.642",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.625",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "296423579",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "160386810",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "136036769",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "31881040",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "56801934",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "14621462",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "91373987",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "200329762",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "130970401",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "135767390",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "6051582",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "13262146",
+          "locator": "pdf:page:67",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "8284324",
+          "locator": "pdf:page:70",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "-31987329",
+          "locator": "pdf:page:70",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "1070090",
+          "locator": "pdf:page:71",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "-22632915",
+          "locator": "pdf:page:71",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "-238488",
+          "locator": "pdf:page:71",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period 54,752,443 25,919,861",
+        "closing_row": "Cash and cash equivalents at end of the period 31,881,040 22,843,316"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2021,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2021-q2-financial-candidates.json",
+      "candidate_file_sha256": "dc2b8d19480eef82179a3af901bb05641d239c29640a3ba47af21a9db75c431f",
+      "document_id": "doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+      "document_sha256": "5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+      "checked_records": 10,
+      "statement_pages": [
+        64
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "87788960",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-72640918",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "15148042",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "10725756",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "-1369865",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-1415234",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "8263308",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "8268477",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.332",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.323",
+          "locator": "pdf:page:64",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2022,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-interim-financial-candidates.json",
+      "candidate_file_sha256": "95ca23980a489024d6bc5af99643fd61d099036b42d0055bbb152fb8bd4021b7",
+      "document_id": "doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7",
+      "document_sha256": "e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7",
+      "checked_records": 27,
+      "statement_pages": [
+        66,
+        68,
+        69,
+        72,
+        73
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "143522379",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-119044598",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "24477781",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "821765",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "-146549",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-486086",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "834823",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "798800",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.03",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.03",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "293082489",
+          "locator": "pdf:page:68",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "152266144",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "140816345",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "28183101",
+          "locator": "pdf:page:68",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "57798719",
+          "locator": "pdf:page:68",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "15196628",
+          "locator": "pdf:page:68",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "69680442",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "179659568",
+          "locator": "pdf:page:68",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "107332230",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "140553255",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "7094778",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "25474316",
+          "locator": "pdf:page:69",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "-7031424",
+          "locator": "pdf:page:72",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "7627358",
+          "locator": "pdf:page:72",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "3633776",
+          "locator": "pdf:page:73",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "4229710",
+          "locator": "pdf:page:73",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "441812",
+          "locator": "pdf:page:73",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period 21(a) 23,511,579 54,752,443",
+        "closing_row": "Cash and cash equivalents at end of the period 21(a) 28,183,101 31,881,040"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2022,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2022-q2-financial-candidates.json",
+      "candidate_file_sha256": "0218e3e3f9a678a697aca4e616ea4caff9d6920d4c2eeefbbe17de3f1dd43542",
+      "document_id": "doc-e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7",
+      "document_sha256": "e002c8bd8bf3e59c968bf3f348eba03845037b4a04e2f0adf28e974d0575a5c7",
+      "checked_records": 10,
+      "statement_pages": [
+        66
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "70170877",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-58402842",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "11768035",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "1733028",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "-376180",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-371462",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "1365377",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "1386400",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.06",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.06",
+          "locator": "pdf:page:66",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2023,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-interim-financial-candidates.json",
+      "candidate_file_sha256": "0f89b359a42a4b5840dbc938839ac3d16529242eafddae22b6f473610b127cc4",
+      "document_id": "doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "document_sha256": "37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "checked_records": 27,
+      "statement_pages": [
+        47,
+        49,
+        50,
+        53,
+        54
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "126832042",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-101079459",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "25752583",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "9940735",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "-1043764",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-2544732",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "7881662",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "7873814",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.32",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.31",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-assets",
+          "source_value": "291556313",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-liabilities",
+          "source_value": "136503021",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "total-equity",
+          "source_value": "155053292",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-and-cash-equivalents",
+          "source_value": "31458952",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "inventories",
+          "source_value": "38454691",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-receivables",
+          "source_value": "12541275",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "trade-payables",
+          "source_value": "55106248",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-assets",
+          "source_value": "173495550",
+          "locator": "pdf:page:49",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "current-liabilities",
+          "source_value": "94585240",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "equity-attributable-to-owners",
+          "source_value": "154774951",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "short-term-borrowings",
+          "source_value": "1122048",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "long-term-borrowings",
+          "source_value": "21763554",
+          "locator": "pdf:page:50",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-cash-flow",
+          "source_value": "20162011",
+          "locator": "pdf:page:53",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "investing-cash-flow",
+          "source_value": "-14492197",
+          "locator": "pdf:page:53",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "financing-cash-flow",
+          "source_value": "-2286696",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-net-change",
+          "source_value": "3383118",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cash-flow-exchange-effect",
+          "source_value": "468573",
+          "locator": "pdf:page:54",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "assets_minus_liabilities_minus_equity": "0",
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0",
+        "cashflow_closing_minus_balance_sheet_cash": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "Cash and cash equivalents at the beginning of the period 21(a) 27,607,261 23,511,579",
+        "closing_row": "Cash and cash equivalents at end of the period 21(a) 31,458,952 28,183,101"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    },
+    {
+      "year": 2023,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/xiaomi-2023-q2-financial-candidates.json",
+      "candidate_file_sha256": "d1a0f3f9f43c6e5c0a3456d0178ba3fa379406edfc50874591d1867d4fbf9455",
+      "document_id": "doc-37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "document_sha256": "37d6f44f964a038fa9ea6f3e27f1c237caf152a1894894b129dc398cb783ee1b",
+      "checked_records": 10,
+      "statement_pages": [
+        47
+      ],
+      "field_checks": [
+        {
+          "metric_id": "revenue",
+          "source_value": "67354908",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "cost-of-sales",
+          "source_value": "-53193892",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "gross-profit",
+          "source_value": "14161016",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "operating-profit",
+          "source_value": "4040526",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "finance-costs",
+          "source_value": "63882",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "income-tax-expense",
+          "source_value": "-1290157",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-for-year",
+          "source_value": "3665524",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "profit-attributable-to-owners",
+          "source_value": "3669975",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "basic-eps",
+          "source_value": "0.15",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        },
+        {
+          "metric_id": "diluted-eps",
+          "source_value": "0.15",
+          "locator": "pdf:page:47",
+          "checks": {
+            "excerpt_matches_original_page": true,
+            "current_year_first_numeric_column": true,
+            "currency_and_scale": true,
+            "unit": true,
+            "period": true,
+            "measure_kind": true,
+            "scope": true
+          }
+        }
+      ],
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "cash_reconciliation_evidence": {
+        "opening_row": "not applicable: Q2 income statements only",
+        "closing_row": "not applicable: Q2 income statements only"
+      },
+      "errors": [],
+      "limitations": [
+        "Unaudited IAS34 interim source extraction, not an audit of issuer truth or full input coverage.",
+        "H1 income current year is third numeric column; Q2 is first. Balance and cashflow statements current year are first of two.",
+        "Q2 contains only explicitly reported income statement values, not inferred cash flow or balance sheet.",
+        "2018–2020 finance-income-net is signed net finance income/expense, not gross finance-costs.",
+        "2023 Q2 finance-costs is positive 63882 as printed, sign not forcibly inverted.",
+        "Receivables are trade receivables in these interim reports; no assumption about notes inclusion."
+      ]
+    }
+  ]
+}

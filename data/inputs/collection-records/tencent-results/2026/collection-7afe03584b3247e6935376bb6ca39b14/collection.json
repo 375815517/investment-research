@@ -1,0 +1,31 @@
+{
+  "collection_context": {
+    "delivery": {
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T10:58:09.617837+00:00",
+      "final_url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf",
+      "path": "/workspace/investment-research/.research-local/collections/ab89d7731e37428490e47463596187e5/response-cd873c6eb15a4725bf79c95dab00971c.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "tencent-results"
+      },
+      "request_url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf",
+      "rows": 0,
+      "sha256": "6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+      "size_bytes": 746938,
+      "source_id": "tencent-results"
+    }
+  },
+  "collection_id": "collection-7afe03584b3247e6935376bb6ca39b14",
+  "document_id": "doc-6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:58:09.621970+00:00",
+  "origin_url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf",
+  "publication_assertion": null,
+  "sha256": "6ae9083e568a17ea49c796c5f6d15741a5ab720b0d98e8e97291292a29385119",
+  "source_id": "tencent-results",
+  "status": "received"
+}

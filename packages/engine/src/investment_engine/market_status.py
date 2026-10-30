@@ -13,14 +13,16 @@ def visible_closures(repo, mode, cutoff):
         if path.parts[-4] != record.security_id:
             raise DomainError("STATUS_SCOPE_MISMATCH", relative)
         if mode != "retrospective_explanation":
-            if not record.published_at or record.published_at > cutoff:
+            # An unknown exact assertion timestamp may use reviewed date-precision
+            # evidence below. A supplied later timestamp still restricts visibility.
+            if record.published_at and record.published_at > cutoff:
                 continue
             if mode == "live_observed" and max(record.observed_at, record.registered_at) > cutoff:
                 continue
         refs = [relative]
         evidence_available = True
         for document_id in record.evidence_document_ids:
-            document, ref = repo.document(document_id)
+            document, ref = repo.effective_document(document_id, mode, cutoff)
             if not document_available(document, mode, cutoff):
                 evidence_available = False
                 break

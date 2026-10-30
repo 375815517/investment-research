@@ -1,0 +1,43 @@
+{
+  "event_hash": "f52879fd4512862646e2d292496f08188639c37c80107c264390fb60fd619eca",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-2550aced061a2cd4f91c84be4b616d02642c9f29d05c02dc2fe1986e5c1e1450",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-3febfde50735982754ffcf49/candidates/candidate-2550aced061a2cd4f91c84be4b616d02642c9f29d05c02dc2fe1986e5c1e1450.json",
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-f348d24dbb244235b3dcd3f1c938055d/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c",
+      "ingest_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-33c31699c4ffcca8f4b3060fba517627453c8c24b33ee9f5a69085be2542b05c/v1/document.json",
+        "data/outputs/research-records/ingest-146d9a729498cdd2c74cbb632a049bf0330ba740a7bd66bc1a96c19168faa928/candidate.json",
+        "data/outputs/research-records/ingest-146d9a729498cdd2c74cbb632a049bf0330ba740a7bd66bc1a96c19168faa928/validation.json",
+        "data/outputs/research-records/ingest-146d9a729498cdd2c74cbb632a049bf0330ba740a7bd66bc1a96c19168faa928/review.json",
+        "data/inputs/companies/xiaomi/financials/2025/batch-9ded3035761d8256fdc2fe2792a711bfc08db7f6445395401f81bea812d92e46/financial-observations.json",
+        "data/inputs/companies/xiaomi/financials/2025/batch-9ded3035761d8256fdc2fe2792a711bfc08db7f6445395401f81bea812d92e46/batch.json",
+        "data/outputs/research-records/ingest-146d9a729498cdd2c74cbb632a049bf0330ba740a7bd66bc1a96c19168faa928/receipt.json"
+      ],
+      "item_id": "item-2eeb7a8d2349999dbdcca343",
+      "listing_document_id": "doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-3febfde50735982754ffcf49/reviews/c7ab7f8fee0948cda8b2990f22b08411.json": "f2f20eb4f9585358575bd0463be78010469c580b584fdd21dd154dd7ee4b1c36"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-3febfde50735982754ffcf49/reviews/c7ab7f8fee0948cda8b2990f22b08411.json"
+      ],
+      "stage": "verified",
+      "title": "2025 Interim Report",
+      "url": "https://ir.mi.com/static-files/29a59068-f19f-4199-9114-4450211c9461"
+    }
+  ],
+  "previous_hash": "48d606f956f98172c7221f83ec11d2ccd90875357cd8ea52457e1d4ccf4f5d74",
+  "recorded_at": "2026-10-30T11:39:28.829494+00:00",
+  "sequence": 5,
+  "task_id": "acquisition-3febfde50735982754ffcf49"
+}

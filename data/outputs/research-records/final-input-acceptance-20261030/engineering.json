@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "format": "passed",
+    "mypy": "passed",
+    "offline_demo": "passed",
+    "pytest_passed": 361,
+    "pytest_warnings": 1,
+    "ruff": "passed",
+    "workspace_package_builds": 7
+  },
+  "command": "UV_CACHE_DIR=/workspace/.cache/uv bash scripts/check.sh",
+  "exit_code": 0,
+  "limitations": [
+    "Filesystem host projections are verified separately from host-native skill discovery and invocation",
+    "Engineering checks do not certify source completeness or factor validity"
+  ],
+  "recorded_at": "2026-10-30T11:31:53.306058+00:00",
+  "scope": "packages/apps/ai tooling/tests; excludes legacy",
+  "warning": "Starlette TestClient httpx deprecation warning; tests passed"
+}

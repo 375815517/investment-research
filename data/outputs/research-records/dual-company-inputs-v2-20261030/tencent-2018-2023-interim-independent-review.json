@@ -1,0 +1,200 @@
+{
+  "reviewed_at": "2026-10-30T11:09:34.932772+00:00",
+  "reviewer": "contracts_v2-independent-interim-review",
+  "method": "Read original full income tables and statement headers independently; verify source excerpt membership and trailing numeric columns independently from extraction script: H1 income third of four, Q2 first of four, balance/cash first of two; check dimensions, units, exact intervals and reconciliations",
+  "results": [
+    {
+      "year": 2018,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-interim-financial-candidates.json",
+      "candidate_file_sha256": "5ba01ede17915950ee4edcf7a6b28773f064be744c77880657e653e3fd5bb795",
+      "document_id": "doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "document_sha256": "4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2018,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-q2-financial-candidates.json",
+      "candidate_file_sha256": "ffb44cac40eef07a1ef4f5077fc087d17651ea6ca3dd5bda098680fd9dd0e539",
+      "document_id": "doc-4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "document_sha256": "4a09855c0e2f13cca628e2bba4cbaf9f5fcb7bfba91b38b85bccd34598424e54",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2019,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-interim-financial-candidates.json",
+      "candidate_file_sha256": "5ef131478737aafe8a1f28d763700ead4b259cdf5455ba22148a3abc1b96cec2",
+      "document_id": "doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "document_sha256": "5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2019,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-q2-financial-candidates.json",
+      "candidate_file_sha256": "b97a25faa09b0be4fff39bdeedce5ad7931026b892f5206215c176c5f928173d",
+      "document_id": "doc-5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "document_sha256": "5fc7aaa29c55fcae776fbff3f9f332fe67f22bcbef0892238b9cab1d18be754a",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2020,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-interim-financial-candidates.json",
+      "candidate_file_sha256": "311488e7c1c488b280ec8a9dd3e27b009c647a34aafc730b32f5db6a35d3db7f",
+      "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "document_sha256": "8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2020,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-q2-financial-candidates.json",
+      "candidate_file_sha256": "27ecc6816bf214a136d6f005cb70e3216999473b83ca66549b02a4edc7957296",
+      "document_id": "doc-8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "document_sha256": "8baad01ab5c1e79efd3bfe6cc8fe6d992c7611ef60d42c21c1a6bf98c3733b9c",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2021,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-interim-financial-candidates.json",
+      "candidate_file_sha256": "5e07fb274e9c9b74ad1b7d16ea407944779707827eebea6659265c022f994e5c",
+      "document_id": "doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "document_sha256": "a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2021,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-q2-financial-candidates.json",
+      "candidate_file_sha256": "0a6599fe6ed100b230fabd32905155d1767fefdd99e187f34193d7571ea62475",
+      "document_id": "doc-a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "document_sha256": "a13e99d220296331e1f28561de4776a871e9f34fbcfb31dab1735f2d744f20bb",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2022,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-interim-financial-candidates.json",
+      "candidate_file_sha256": "5e2793fc41a552d87e05acad400c75f5ea7014882990f969486f35dda210a55d",
+      "document_id": "doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "document_sha256": "8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2022,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-q2-financial-candidates.json",
+      "candidate_file_sha256": "8ef5aeaf5ca8e4111c2039e820bf86a69f30a79b0ebddae37ddc20e0f9cdb57b",
+      "document_id": "doc-8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "document_sha256": "8d7f4e48257b7f0e7a235d27de6df9d2fff70e6a05081456844d077d9763e6d7",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2023,
+      "period": "interim",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-interim-financial-candidates.json",
+      "candidate_file_sha256": "09f4aea547ac7c97d22e81e18da9af622966db0dc925dcc7a6483812bc82ccaa",
+      "document_id": "doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "document_sha256": "9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "checked_records": 27,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0",
+        "assets_minus_liabilities_minus_equity": "0",
+        "cashflow_sum_minus_net_change": "0",
+        "opening_plus_change_plus_fx_minus_closing": "0"
+      },
+      "errors": []
+    },
+    {
+      "year": 2023,
+      "period": "q2",
+      "status": "approved_source_extraction",
+      "candidate_file": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-q2-financial-candidates.json",
+      "candidate_file_sha256": "a8fdf54c9ab086c7ecaec72879b1abc4b94801479c382d78864d1042da49efc7",
+      "document_id": "doc-9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "document_sha256": "9df3ea3e63a031cafc6d7839bbe4b0a07c51e6d212f464df6eb41587e8afc09d",
+      "checked_records": 10,
+      "checks": {
+        "revenue_plus_signed_cost_minus_gross": "0"
+      },
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Unaudited IAS34 interim disclosures; source extraction review is not an issuer audit",
+    "All2018-2023 interim operating profit includes interest income and other gains above subtotal, including2023H1; cannot assume2023annual changed presentation already applied",
+    "Finance costs net preserved separately from gross cost requirements",
+    "2019 cashflow prior-year comparative restated; original2018current column retained",
+    "Exact historical publication remains separately assessed"
+  ]
+}

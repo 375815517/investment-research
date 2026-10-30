@@ -1,0 +1,83 @@
+{
+  "event_hash": "ef9e706aeace5acc04601096357ff32736a77175162ccfc87ee06b7f641ca768",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-91d2436d7b19c132d6ee10cfa83a503d35e3ac7bc57cba78a0d2537ac5bf23ed/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-91d2436d7b19c132d6ee10cfa83a503d35e3ac7bc57cba78a0d2537ac5bf23ed/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-1ab37989a9f24a528e4034c8be4effd3/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-91d2436d7b19c132d6ee10cfa83a503d35e3ac7bc57cba78a0d2537ac5bf23ed",
+      "item_id": "item-19e2ebe97b70fa023a44e73a",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "POLL RESULTS FOR THE EXTRAORDINARY GENERAL MEETING",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700903.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-63a8000fc7006dc1e99332c523eb005d29eab53bf4b12ced7d65b4e91674d16f/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-63a8000fc7006dc1e99332c523eb005d29eab53bf4b12ced7d65b4e91674d16f/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-5bd58794952d40ebad58d611654d52dc/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-63a8000fc7006dc1e99332c523eb005d29eab53bf4b12ced7d65b4e91674d16f",
+      "item_id": "item-3245c86e9872f8e7513dc5f4",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "retrieval_mode": "fetched",
+      "source_title": "",
+      "stage": "awaiting_extraction",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2022",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0322/2023032200281.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-43fead5584e0b4e17f81664f",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700239.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-497a9fd604b66fcdb0e27935",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "POLL RESULTS FOR THE 2023 ANNUAL GENERAL MEETING",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700895.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-7f26581724554dfd34d431b4",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0816/2023081600440.pdf"
+    },
+    {
+      "attempts": 0,
+      "context": "",
+      "item_id": "item-d8dfe8b0814a70d5c0d941d2",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "source_title": "",
+      "stage": "pending_fetch",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2023",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1115/2023111500283.pdf"
+    }
+  ],
+  "previous_hash": "f2e90c32bcad38f25ae3963b6fb11261d2f0d5dba38e250796c212c9a854ba38",
+  "recorded_at": "2026-10-30T11:09:04.556996+00:00",
+  "sequence": 4,
+  "task_id": "acquisition-959af9923a113f3da9e6a1f9"
+}

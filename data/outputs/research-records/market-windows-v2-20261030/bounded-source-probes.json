@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-10-30T10:48:46.332325+00:00",
+  "attempts": [
+    {
+      "name": "sfc-20251003",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/03/Short_Position_Reporting_Aggregated_Data_20251003.csv",
+      "status": 200,
+      "bytes": 44619,
+      "path": "/tmp/market-windows-v2/sfc-20251003.csv"
+    },
+    {
+      "name": "sfc-20261002",
+      "url": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/10/02/Short_Position_Reporting_Aggregated_Data_20261002.csv",
+      "status": 200,
+      "bytes": 51166,
+      "path": "/tmp/market-windows-v2/sfc-20261002.csv"
+    },
+    {
+      "name": "sfc-index",
+      "url": "https://www.sfc.hk/en/Regulatory-functions/Market/Short-position-reporting/Aggregated-reportable-short-positions-of-specified-shares",
+      "status": 200,
+      "bytes": 548089,
+      "path": "/tmp/market-windows-v2/sfc-index.html"
+    },
+    {
+      "name": "hkex-20251015",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d251015e.htm",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

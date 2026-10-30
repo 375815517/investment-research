@@ -1,0 +1,78 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-6923d1859607061817de173af4f81425df3ddc0a74148c9412eca7e5955daa4f/candidate.json",
+  "batch_id": "batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854",
+  "candidate_hash": "6923d1859607061817de173af4f81425df3ddc0a74148c9412eca7e5955daa4f",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2024/batch-ae0b59f94f04043e0a2db9ff9348a0b83eb60f7f889cbcd166a4ac1a8d528854/financial-observations.json",
+      "sha256": "c910224f52a23a5dcfab02ab73c5c9d0c392e7aeb627f7f0e601a7cddcf944af"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:47.747584+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T11:33:12.398373+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {},
+      "excerpt": "Weighted average number of ordinary shares in issue \n (thousand shares) 24,825,170 24,884,874",
+      "locator": "pdf:page:316",
+      "measure_kind": "period_measure",
+      "metric_id": "weighted-average-basic-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "24825170",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Annual audited IFRS source EPS denominator; original reported basic/diluted weighted-average shares, not period-end issued shares; source precision retained; diluted EPS numerator may differ from reported owners profit",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {},
+      "excerpt": "Weighted average number of ordinary shares for calculation of\n diluted earnings per share (thousand shares) 25,500,733 25,324,991",
+      "locator": "pdf:page:316",
+      "measure_kind": "period_measure",
+      "metric_id": "weighted-average-diluted-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "period_type": "annual",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "25500733",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2024-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

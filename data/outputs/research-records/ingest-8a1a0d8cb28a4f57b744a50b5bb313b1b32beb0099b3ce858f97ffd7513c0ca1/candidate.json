@@ -1,0 +1,26 @@
+{
+  "candidate_id": "candidate-b24247afcda7edf81aa6662d9d7df02a381ef3425bd1b490cb9a9c35f3d3fb2d",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e",
+  "document_sha256": "9b28f5b4d7b9f8f42496992734401fad5f84ad394ba60c337ed5e771f1bc069e",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-jd-distribution-declared",
+      "action_status": "approved",
+      "action_type": "spinoff",
+      "announcement_date": "2021-12-23",
+      "basis": "Board resolved distribution in specie; fractional entitlements cash in lieu. Ex-date is not explicitly stated and remains unknown; ratio orientation must not be inverted silently.",
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF CLASS A ORDINARY SHARES OF JD.COM, INC. RECORD DATE AND CLOSURE OF REGISTER OF MEMBERS DECLARATION OF INTERIM DIVIDEND BY WAY OF DISTRIBUTION IN SPECIE OF JD.COM SHARES The Board is pleased to announce that, on 23 December 2021, it has resolved to declare a special interim dividend in the form of a distribution in specie of 457,326,671 Class A ordinary shares of JD.com (assuming there is no change in the total number of issued Shares from the date of this announcement to the Record Date) indirectly held by the Company through Huang River to the Shareholders whose names appear on the register of members of the Company on the Record Date in proportion to their then respective shareholdings in the Company on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held by the Qualifying Shareholders, being rounded down to the nearest whole number of JD.com Shares. The exact total number of the JD.com Shares to be distributed by the Company is subject to such adjustments where appropriate and necessary in order to give effect to the Distribution in Specie on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held on the Record Date and such other arrangements in relation to the Distribution in Specie as set out in this announcement. Non-Qualifying Shareholders will not be entitled to receive the JD.com Shares and will instead receive cash in lieu of the JD.com Shares in respect of the Shares held by them on the basis of 1 Class A ordinary share of JD.com for every 21 Shares held on the Record Date. No fraction of a JD.com Share will be distributed. Nevertheless, fractional entitlements to the JD.com Shares of both Qualifying Shareholders and Non-Qualifying Shareholders (i.e., whose shareholding in the Company is not an integral multiple of 21 Shares) will be distributed in the form of cash-in-lieu payment. 1",
+      "locator": "pdf:page:1",
+      "ratio": "21",
+      "ratio_definition": "Tencent ordinary shares held (numerator) per one distributed JD.com Class A ordinary share (denominator)",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary"
+    }
+  ],
+  "source_id": "hkex-tencent-announcements",
+  "supersedes": []
+}

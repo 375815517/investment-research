@@ -1,0 +1,30 @@
+{
+  "candidate_id": "candidate-12d4db33836dcd37ee7d156a5ab46e17791bb9ed24f94eb11e42bbcc784f1cf0",
+  "contract_version": "1",
+  "dataset_id": "corporate-actions",
+  "document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+  "document_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+  "parser_version": "reviewed-extraction-v1",
+  "records": [
+    {
+      "action_id": "tencent-final-2021-payment-confirmed",
+      "action_status": "effected",
+      "action_type": "cash_dividend",
+      "announcement_date": "2023-04-06",
+      "basis": "Annual report dividend note confirms final dividends paid during calendar 2022; comparative prior fiscal-year per-share amount matches referenced declaration. Exact payment date is not stated and remains unknown. Announcement date is the exchange release date of this report, verified by attachment SHA256; not payment date.",
+      "cash_per_share": "1.60",
+      "currency": "HKD",
+      "excerpt": "Notes to the Consolidated Financial Statements For the year ended 31 December 2022 14 BENEFITS AND INTERESTS OF DIRECTORS (continued) (d) Information about loans, quasi-loans and other dealings in favour of directors, their controlled bodies and connected entities No loans, quasi-loans and other dealings in favour of directors, their controlled bodies corporate and connected entities subsisted at the end of the year or at any time during the year. (e) Directors’ material interests in transactions, arrangements or contracts No significant transactions, arrangements and contracts in relation to the Group’s business to which the Company was a party and in which a director of the Company had a material interest, whether directly or indirectly, subsisted at the end of the year or at any time during the year. 15 DIVIDENDS (a) Final dividends The final dividends amounting to HKD15,260 million (2021: HKD15,238 million) were paid during the year ended 31 December 2022. A final dividend in respect of the year ended 31 December 2022 of HKD2.40 per share (2021: HKD1.60 per share) was proposed pursuant to a resolution passed by the Board on 22 March 2023 and subject to the approval of the shareholders at the 2023 annual general meeting of the Company to be held on 17 May 2023 or any adjournment thereof. This proposed dividend is not reflected as dividend payable in the consolidated financial statements. (b) Interim dividend by way of distribution in specie On 16 November 2022 (the “Declaration Date”), the Board resolved to declare a special interim dividend in the form of a distribution in specie of Class B ordinary shares of Meituan (“Meituan Shares”) indirectly held by the Company to the shareholders whose names appeared on the register of members of the Company on 10 January 2023, in proportion to their then respective shareholdings in the Company on the basis of 1 Class B ordinary share of Meituan for every 10 Shares held by the shareholders, being rounded down to the nearest whole number of Class B ordinary shares of Meituan and fractional entitlements to the Meituan Shares will be distributed in the form of cash-in-lieu payment, except that the net proceeds of less than HKD100 will not be distributed. Accordingly, approximately 948 million Class B ordinary shares of Meituan are expected to be distributed after deducting the Meituan Shares to be received as dividends in respect of the Shares held by the Share Scheme Trust and the Shares which have been repurchased but not yet cancelled by the Company as of 10 January 2023 (“Meituan Shares to be distributed”). The Group’s equity interests in Meituan would be reduced to approximately 1.7%, following the completion of the Distribution in Specie. 212 213",
+      "locator": "pdf:page:214",
+      "payment_date_precision": "year",
+      "payment_period_end": "2022-12-31",
+      "payment_period_start": "2022-01-01",
+      "record_kind": "source_reported",
+      "security_id": "tencent-hk",
+      "share_class": "ordinary",
+      "updates_action_id": "tencent-final-2021"
+    }
+  ],
+  "source_id": "tencent-reports",
+  "supersedes": []
+}

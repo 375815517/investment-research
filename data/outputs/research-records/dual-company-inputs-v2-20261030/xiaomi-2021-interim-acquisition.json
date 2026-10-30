@@ -1,0 +1,66 @@
+{
+  "year": 2021,
+  "discovery": {
+    "status": "discovered",
+    "issues": [],
+    "discovery_id": "discovery-f1fb16f23f282f790d71cfad",
+    "entries": [
+      {
+        "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/22/4-01-53/2021092800380.pdf",
+        "title": "2021 Interim Report",
+        "context": "Annual & Interim Reports",
+        "item_id": "item-6aa20e7c6865f961a17a168e",
+        "listing_document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7"
+      }
+    ],
+    "next_parameters": null,
+    "scope": "fetched_listing_pages_only",
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7/v1/document.json",
+      "data/inputs/collection-records/xiaomi-reports/2026/collection-19b0294f93b0429895aea6b53d0bd47a/collection.json",
+      "data/outputs/research-records/acquisition/discoveries/discovery-f1fb16f23f282f790d71cfad.json"
+    ]
+  },
+  "plan": {
+    "status": "planned",
+    "task_id": "acquisition-c32c227bbd1fee26be93d9fe",
+    "items": [
+      {
+        "context": "Annual & Interim Reports",
+        "item_id": "item-6aa20e7c6865f961a17a168e",
+        "listing_document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+        "title": "2021 Interim Report",
+        "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/22/4-01-53/2021092800380.pdf"
+      }
+    ],
+    "artifact_refs": [
+      "data/outputs/research-records/acquisition/acquisition-c32c227bbd1fee26be93d9fe/plan.json"
+    ]
+  },
+  "result": {
+    "status": "pending",
+    "task_id": "acquisition-c32c227bbd1fee26be93d9fe",
+    "items": [
+      {
+        "attempts": 1,
+        "collection_refs": [
+          "data/inputs/source-files/xiaomi-reports/2026/doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-reports/2026/doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d/v1/document.json",
+          "data/inputs/collection-records/xiaomi-reports/2026/collection-91672b5aa52f4d9b85fc5a67f9bece75/collection.json"
+        ],
+        "context": "Annual & Interim Reports",
+        "document_id": "doc-5e3eee4281439fe37cc453d0a57acab1499c01c248b2d4219d17149718c2707d",
+        "item_id": "item-6aa20e7c6865f961a17a168e",
+        "listing_document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+        "stage": "awaiting_extraction",
+        "title": "2021 Interim Report",
+        "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2021/12/22/4-01-53/2021092800380.pdf"
+      }
+    ],
+    "artifact_refs": [
+      "data/outputs/research-records/acquisition/acquisition-c32c227bbd1fee26be93d9fe/plan.json"
+    ],
+    "scope": "selected_documents_and_candidates_not_full_research_coverage"
+  }
+}

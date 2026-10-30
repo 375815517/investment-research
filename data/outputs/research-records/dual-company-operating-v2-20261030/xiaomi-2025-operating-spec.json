@@ -1,0 +1,147 @@
+{
+  "company_id": "xiaomi",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "dataset_id": "operating-observations",
+  "defaults": {
+    "unit": "users",
+    "scale": "millions",
+    "currency": null,
+    "measure_kind": "period_measure",
+    "period_type": "month",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "scope": "product",
+    "dimensions": {},
+    "basis": "Issuer reported December monthly active users; source rounded to one decimal million; not annual average or individual persons",
+    "accounting_standard": "issuer-operating-definition",
+    "adjustment_basis": "reported",
+    "restatement": "original",
+    "record_kind": "source_reported"
+  },
+  "selections": [
+    {
+      "metric_id": "shipments",
+      "page": 14,
+      "pattern": "Our global\\s+smartphone shipments reached [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "dimensions": {
+          "product": "smartphones",
+          "region": "global"
+        },
+        "basis": "Issuer reported global smartphone shipments; million units; channel shipments not retail sales"
+      }
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 16,
+      "pattern": "In December 2025, our global MAU reached [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "global"
+        },
+        "basis": "December global MAU including smartphones and tablets; million users; source footnote not deduplicated persons"
+      }
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 16,
+      "pattern": "our MAU in (?:mainland\\s+China|the Chinese\\s+Mainland) reached [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "smartphones-and-tablets",
+          "region": "mainland-china"
+        },
+        "basis": "December mainland China MAU including smartphones and tablets; million users, not annual average"
+      }
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 16,
+      "pattern": "In December 2025, the global MAU of our smart (?:TV\\s*10|TVs\\s*8)\\s+reached [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "smart-tv-box-stick"
+        },
+        "basis": "December global smart TV MAU includes Xiaomi Box and Xiaomi TV Stick per source footnote; million users"
+      },
+      "evidence_excerpt": "In December 2025, the global MAU of our smart TVs8 \nreached 74.8"
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 15,
+      "pattern": "In December 2025, the MAU of our (?:Mi|Xiaomi) Home App grew to [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "mi-home-app"
+        },
+        "basis": "December Mi/Xiaomi Home App MAU; source million users; geographic universe not expressly specified here"
+      }
+    },
+    {
+      "metric_id": "monthly-active-users",
+      "page": 15,
+      "pattern": "The MAU of our AI Assistant[\\s\\S]*?grew to [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "dimensions": {
+          "product": "ai-assistant"
+        },
+        "basis": "AI Assistant MAU in December discussion; source million users; 2024 source footnote includes smart EV"
+      },
+      "evidence_excerpt": "The MAU of our AI Assistant (“⯑ポ⏎⬺“) grew to 159.9"
+    },
+    {
+      "metric_id": "connected-devices",
+      "page": 15,
+      "pattern": "As of December 31, 2025, the number of connected IoT devices[\\s\\S]*?(?:reached|increased to) [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "devices",
+        "measure_kind": "stock",
+        "period_type": "instant",
+        "period_start": null,
+        "dimensions": {
+          "product": "aiot-platform",
+          "population": "excluding-smartphones-tablets-laptops"
+        },
+        "basis": "Period-end AIoT connected devices excluding smartphones, tablets and laptops; million devices, not users or sales"
+      }
+    },
+    {
+      "metric_id": "deliveries",
+      "page": 16,
+      "pattern": "In 2025, (?:the deliveries of the Xiaomi SU7 Series\\s+reached|we achieved total deliveries of) [\\d,]+(?:\\.\\d+)?",
+      "numeric_columns": 1,
+      "overrides": {
+        "unit": "vehicles",
+        "scale": "units",
+        "measure_kind": "flow",
+        "period_type": "annual",
+        "period_start": "2025-01-01",
+        "dimensions": {
+          "product": "smart-ev"
+        },
+        "basis": "Issuer actual annual smart EV vehicle deliveries; not orders or future delivery targets"
+      }
+    }
+  ],
+  "selection_review": {
+    "report_year": 2025,
+    "status": "awaiting_independent_review",
+    "limitations": [
+      "Source footprint/footnotes retained; counts are reported not independent audit",
+      "Monthly December, annual flow and period-end stock are distinct",
+      "2026 events and future targets in report explicitly excluded"
+    ]
+  }
+}

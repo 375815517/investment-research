@@ -1,0 +1,31 @@
+{
+  "metric_id": "shares-repurchased",
+  "name": "实际回购股数",
+  "description": "原件年度或明确期间披露的回购股份流量；不是期末库存股存量或股份注销数。",
+  "unit": "shares",
+  "allow_negative": false,
+  "required_dimensions": [
+    "share_class"
+  ],
+  "comparability_notes": "保持来源股类、期间、数量精度和回购范围。不得把董事会披露含期后的总数填作年度；数量不自动与现金支出结算口径对应。",
+  "version": "1",
+  "dataset_id": "financial-observations",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "share_class",
+    "channel"
+  ],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-b304e97a287871317bbd2d428aa4bea7b9bedf0967c19d4ae445c4f7e96826bd/candidate.json",
+  "batch_id": "batch-a511ebb24a0672b355845dc16e2d65b58bb96ca13232078fe7ef03f8d2e65dcd",
+  "candidate_hash": "b304e97a287871317bbd2d428aa4bea7b9bedf0967c19d4ae445c4f7e96826bd",
+  "contract_version": "2",
+  "dataset_id": "financial-observations",
+  "dependency_batches": [],
+  "documents": [
+    "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2020/batch-a511ebb24a0672b355845dc16e2d65b58bb96ca13232078fe7ef03f8d2e65dcd/financial-observations.json",
+      "sha256": "77b74232a4ea86b5274d92633e95fc35d8e52e377db7afee83931cd7cfdd3a84"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:30.533249+00:00",
+  "parser_version": "reviewed-page-row-selections-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T11:43:59.986159+00:00",
+  "rows": [
+    {
+      "accounting_standard": "IFRS",
+      "adjustment_basis": "reported",
+      "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+      "company_id": "xiaomi",
+      "currency": null,
+      "dimensions": {
+        "share_class": "all-ordinary"
+      },
+      "excerpt": "As of December 31, 2020  25,187,308",
+      "locator": "pdf:page:329",
+      "measure_kind": "stock",
+      "metric_id": "issued-shares",
+      "metric_version": "1",
+      "missing_reason": null,
+      "period_end": "2020-12-31",
+      "period_start": null,
+      "period_type": "instant",
+      "record_kind": "source_reported",
+      "restatement": "original",
+      "scale": "thousands",
+      "schema_version": "2",
+      "scope": "consolidated",
+      "source_value": "25187308",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2020-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

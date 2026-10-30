@@ -259,3 +259,208 @@ def test_catalog_preview_limit_does_not_hide_configuration(setup):
     assert result["audits"][0]["path"] == "research/coverage-policies/test.json"
     assert result["datasets"][0]["id"] == "daily-prices"
     assert result["expectations"][0]["path"] == "research/datasets/calendar.json"
+
+
+def profile_payload():
+    return {
+        "profile_id": "sample",
+        "purpose": "quantitative_comparison",
+        "expected_keys": [
+            {
+                "key_id": "revenue-2024",
+                "dataset_id": "financial-facts",
+                "subject_id": "company",
+                "selectors": {
+                    "metric_id": "revenue",
+                    "period_start": "2024-01-01",
+                    "period_end": "2024-12-31",
+                    "scope": "consolidated",
+                    "currency": "CNY",
+                },
+            }
+        ],
+    }
+
+
+def test_profile_path_uses_domain_contract_and_preserves_business_result(setup):
+    client, engine, root = setup
+    path = root / "research/input-profiles/sample/v1.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps(profile_payload()))
+    catalog = client.get("/api/catalog").json()
+    assert catalog["profiles"] == [
+        {
+            "path": "research/input-profiles/sample/v1.json",
+            "id": "sample",
+            "name": "sample · v1",
+            "count": 1,
+        }
+    ]
+    payload = {"profile_path": "research/input-profiles/sample/v1.json"}
+    for route, operation in [
+        ("profile-audit", "profile_audit"),
+        ("profile-assess", "profile_assess"),
+    ]:
+        assert client.post("/api/" + route, json=payload, headers=HEADERS).status_code == 200
+        assert engine.calls[-1][0] == operation
+        assert engine.calls[-1][1]["expected_keys"][0]["selectors"]["currency"] == "CNY"
+        assert "profile_path" not in engine.calls[-1][1]
+    for route, extra in [
+        ("normalize-inputs", {"target_scale": "units"}),
+        ("freeze-inputs", {"label": "run"}),
+    ]:
+        assert (
+            client.post("/api/" + route, json=payload | extra, headers=HEADERS).status_code == 200
+        )
+        assert engine.calls[-1][1]["profile"]["profile_id"] == "sample"
+
+
+def test_profile_path_boundary_and_historical_cutoff(setup):
+    client, engine, root = setup
+    path = root / "research/input-profiles/sample/v1.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps(profile_payload()))
+    for rel in [
+        "data/secret.json",
+        "research/datasets/calendar.json",
+        "research/input-profiles/../../secret.json",
+    ]:
+        assert (
+            client.post(
+                "/api/profile-audit", json={"profile_path": rel}, headers=HEADERS
+            ).status_code
+            == 400
+        )
+    assert not engine.calls
+    request = {
+        "profile_path": "research/input-profiles/sample/v1.json",
+        "knowledge_mode": "historical_reconstruction",
+    }
+    assert client.post("/api/profile-assess", json=request, headers=HEADERS).status_code == 422
+    assert not engine.calls
+    request["information_cutoff"] = "2025-04-01T00:00:00+08:00"
+    assert client.post("/api/profile-assess", json=request, headers=HEADERS).status_code == 200
+    assert engine.calls[-1][1]["information_cutoff"] == request["information_cutoff"]
+
+
+def test_profile_path_supports_large_registered_profile_without_large_http_body(setup):
+    client, engine, root = setup
+    path = root / "research/input-profiles/sample/v1.json"
+    path.parent.mkdir(parents=True)
+    payload = profile_payload()
+    template = payload["expected_keys"][0]
+    payload["expected_keys"] = [dict(template, key_id=f"key-{index}") for index in range(2600)]
+    path.write_text(json.dumps(payload))
+    assert path.stat().st_size > 512 * 1024
+    assert client.get("/api/catalog").json()["profiles"][0]["count"] == 2600
+    assert (
+        client.post(
+            "/api/profile-audit",
+            json={"profile_path": "research/input-profiles/sample/v1.json"},
+            headers=HEADERS,
+        ).status_code
+        == 200
+    )
+    assert len(engine.calls[-1][1]["expected_keys"]) == 2600
+
+
+def test_new_workflow_routes_are_bounded_and_do_not_expose_generic_execute(setup):
+    client, engine, _ = setup
+    for route, payload, operation in [
+        (
+            "source-discover",
+            {"binding_id": "issuer", "parameters": {"year": 2024}},
+            "source_discover",
+        ),
+        (
+            "acquisition-plan",
+            {"discovery_id": "discovery-one", "dataset_id": "financial-observations"},
+            "acquisition_plan",
+        ),
+        ("acquisition-run", {"task_id": "task-one", "max_items": 1}, "acquisition_run"),
+        ("acquisition-status", {"task_id": "task-one"}, "acquisition_status"),
+        ("verify-bundle", {"bundle_id": "bundle-one"}, "verify_bundle"),
+    ]:
+        assert client.post("/api/" + route, json=payload, headers=HEADERS).status_code == 200
+        assert engine.calls[-1][0] == operation
+    count = len(engine.calls)
+    for payload in [
+        {"binding_id": "issuer", "parameters": {"url": "https://other.example"}},
+        {"binding_id": "issuer", "parameters": {"auth_token": "sensitive"}},
+    ]:
+        assert client.post("/api/source-discover", json=payload, headers=HEADERS).status_code == 400
+    assert (
+        client.post(
+            "/api/source-discover", json={"binding_id": "issuer", "max_pages": 21}, headers=HEADERS
+        ).status_code
+        == 422
+    )
+    assert (
+        client.post(
+            "/api/acquisition-run", json={"task_id": "../../secret"}, headers=HEADERS
+        ).status_code
+        == 422
+    )
+    assert (
+        client.post("/api/execute", json={"operation": "import"}, headers=HEADERS).status_code
+        == 404
+    )
+    assert len(engine.calls) == count
+
+
+def test_metadata_revision_transports_precision_without_guessing_time(setup):
+    client, engine, _ = setup
+    payload = {
+        "document_id": "doc-one",
+        "publication": {"precision": "date", "date": "2025-03-20", "timezone": "Asia/Hong_Kong"},
+        "evidence_document_id": "doc-proof",
+        "locator": "text:date",
+        "excerpt": "2025-03-20",
+        "reviewer": "reviewer",
+        "notes": "Matched the announcement date",
+    }
+    assert client.post("/api/revise-metadata", json=payload, headers=HEADERS).status_code == 200
+    assert engine.calls[-1][0] == "revise_metadata"
+    assert engine.calls[-1][1]["publication"] == payload["publication"]
+    count = len(engine.calls)
+    payload["publication"]["published_at"] = "2025-03-20T00:00:00+08:00"
+    assert client.post("/api/revise-metadata", json=payload, headers=HEADERS).status_code == 422
+    assert len(engine.calls) == count
+
+
+def test_profile_api_matches_shared_service_for_missing_required_input(tmp_path):
+    from investment_engine import Service
+
+    profile = profile_payload()
+    client = TestClient(create_app(tmp_path))
+    response = client.post("/api/profile-assess", json=profile, headers=HEADERS)
+    assert response.status_code == 200
+    result = response.json()
+    direct = Service(tmp_path).execute("profile_assess", profile)
+    assert result["status"] == direct["status"] == "blocked"
+    assert result["audit"]["missing_key_ids"] == ["revenue-2024"]
+    assert result["audit"]["keys"] == direct["audit"]["keys"]
+
+
+def test_task_submission_exposes_supported_revisions_and_explicit_skips(setup):
+    client, engine, _ = setup
+    payload = {
+        "task_id": "task-one",
+        "max_items": 20,
+        "submissions": {
+            "skip-one": {"skip_reason": "Duplicate source item; retained in earlier archive"},
+            "revision-one": {
+                "records": [],
+                "supersedes": ["record-old"],
+                "parser_version": "reviewed-v2",
+            },
+        },
+    }
+    assert client.post("/api/acquisition-run", json=payload, headers=HEADERS).status_code == 200
+    assert engine.calls[-1][1]["submissions"] == payload["submissions"]
+    assert (
+        client.post(
+            "/api/acquisition-run", json={**payload, "max_items": 21}, headers=HEADERS
+        ).status_code
+        == 422
+    )

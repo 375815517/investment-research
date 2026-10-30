@@ -1,0 +1,7 @@
+# Deterministic checkout bytes for executable text across host platforms.
+* text=auto eol=lf
+
+# Evidence, definitions, implementation snapshots and legacy archives are byte-authoritative.
+data/** -text
+research/** -text
+legacy/** -text

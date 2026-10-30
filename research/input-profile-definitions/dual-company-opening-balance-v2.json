@@ -1,0 +1,86 @@
+{
+  "change_rationale": "v1 requested prior December31 despite opening-cash label; v2 explicitly requests directly disclosed opening January1 balance. Previous closing and current opening not silently equated. Weighted shares+opening cash are limited source prerequisites, not complete valuation dependencies.",
+  "companies": [
+    {
+      "accounting_standard": "IFRS",
+      "company_id": "xiaomi",
+      "confirmed_security_id": "xiaomi-hk",
+      "financial_currency": "CNY",
+      "profiles": [
+        {
+          "definition_refs": [
+            "research/input-profile-definitions/dual-company-opening-balance-v2.json"
+          ],
+          "fields": [
+            {
+              "metric_id": "weighted-average-basic-shares"
+            },
+            {
+              "metric_id": "weighted-average-diluted-shares"
+            },
+            {
+              "field_id": "opening-cash",
+              "metric_id": "cash-and-cash-equivalents",
+              "period_end_month_day": "01-01",
+              "period_type": "instant",
+              "year_offset": 0
+            }
+          ],
+          "name": "annual-valuation-dependencies",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ],
+      "source_id_template": "xiaomi-{year}-annual"
+    },
+    {
+      "accounting_standard": "IFRS",
+      "company_id": "tencent",
+      "confirmed_security_id": "tencent-hk",
+      "financial_currency": "CNY",
+      "profiles": [
+        {
+          "definition_refs": [
+            "research/input-profile-definitions/dual-company-opening-balance-v2.json"
+          ],
+          "fields": [
+            {
+              "metric_id": "weighted-average-basic-shares"
+            },
+            {
+              "metric_id": "weighted-average-diluted-shares"
+            },
+            {
+              "field_id": "opening-cash",
+              "metric_id": "cash-and-cash-equivalents",
+              "period_end_month_day": "01-01",
+              "period_type": "instant",
+              "year_offset": 0
+            }
+          ],
+          "name": "annual-valuation-dependencies",
+          "years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ],
+      "source_id_template": "tencent-reports"
+    }
+  ],
+  "version": "2"
+}

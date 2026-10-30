@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/tencent-chart/2026/doc-3d7fe99eac07bcf2b03a423582ba0c8b04f943c5b0d71b494220ca752d8e593c/v1/original.json",
+    "data/inputs/source-files/tencent-chart/2026/doc-3d7fe99eac07bcf2b03a423582ba0c8b04f943c5b0d71b494220ca752d8e593c/v1/document.json",
+    "data/outputs/research-records/ingest-03d2fc0d206538146e10650528f6c50bc0868b110f1044222702512622383af2/candidate.json",
+    "data/outputs/research-records/ingest-03d2fc0d206538146e10650528f6c50bc0868b110f1044222702512622383af2/validation.json",
+    "data/outputs/research-records/ingest-03d2fc0d206538146e10650528f6c50bc0868b110f1044222702512622383af2/review.json",
+    "data/inputs/markets/prices/tencent-hk/daily/2025/batch-557729274c33e677319000634f3f8cfd4a5bfed818b88346879b9bfc763a9e9c/daily-prices.csv",
+    "data/inputs/markets/prices/tencent-hk/daily/2025/batch-557729274c33e677319000634f3f8cfd4a5bfed818b88346879b9bfc763a9e9c/batch.json",
+    "data/outputs/research-records/ingest-03d2fc0d206538146e10650528f6c50bc0868b110f1044222702512622383af2/receipt.json"
+  ],
+  "candidate_hash": "03d2fc0d206538146e10650528f6c50bc0868b110f1044222702512622383af2",
+  "plan_id": "plan-6411112a93836b4600ec11db34f01add231fe88eafbbae6595f34e57d3db847a"
+}

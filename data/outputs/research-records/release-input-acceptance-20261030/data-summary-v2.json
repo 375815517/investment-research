@@ -1,0 +1,72 @@
+{
+  "correction": "Earlier daily-price query used default unadjusted basis and therefore returned zero; this version explicitly queries provider-native. Counts are source versions, not independent coverage denominators. Numeric source_value count does not apply to OHLC/action/document schemas.",
+  "datasets": {
+    "benchmark-prices": {
+      "active_source_rows": 2048,
+      "non_null_source_value_records": null,
+      "query": {
+        "dataset_id": "benchmark-prices",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "corporate-actions": {
+      "active_source_rows": 22,
+      "non_null_source_value_records": null,
+      "query": {
+        "dataset_id": "corporate-actions",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "daily-prices": {
+      "active_source_rows": 4092,
+      "non_null_source_value_records": null,
+      "query": {
+        "dataset_id": "daily-prices",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "provider-native"
+      }
+    },
+    "document-facts": {
+      "active_source_rows": 14,
+      "non_null_source_value_records": null,
+      "query": {
+        "dataset_id": "document-facts",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "financial-facts": {
+      "active_source_rows": 52,
+      "non_null_source_value_records": 52,
+      "query": {
+        "dataset_id": "financial-facts",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "financial-observations": {
+      "active_source_rows": 3105,
+      "non_null_source_value_records": 3103,
+      "query": {
+        "dataset_id": "financial-observations",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "market-observations": {
+      "active_source_rows": 90,
+      "non_null_source_value_records": 90,
+      "query": {
+        "dataset_id": "market-observations",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    },
+    "operating-observations": {
+      "active_source_rows": 22,
+      "non_null_source_value_records": 22,
+      "query": {
+        "dataset_id": "operating-observations",
+        "knowledge_mode": "retrospective_explanation"
+      }
+    }
+  },
+  "recorded_at": "2026-10-30T11:58:58.456759+00:00",
+  "supersedes_summary": "data/outputs/research-records/release-input-acceptance-20261030/data-summary.json"
+}

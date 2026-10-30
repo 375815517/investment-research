@@ -1,0 +1,33 @@
+{
+  "metric_id": "property-construction-investment-cash-payments",
+  "version": "1",
+  "name": "固定资产、在建工程与投资物业现金付款",
+  "description": "来源合并披露固定资产、在建工程及投资物业现金购买或预付款，不含另列无形资产或土地付款。",
+  "dataset_id": "financial-observations",
+  "unit": "currency",
+  "measure_kind": "flow",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units",
+    "thousands",
+    "millions",
+    "billions"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "保留原始现金流负号及来源资产组成；不同资产范围不得直接合并，购买和预付组成依basis及证据。"
+}

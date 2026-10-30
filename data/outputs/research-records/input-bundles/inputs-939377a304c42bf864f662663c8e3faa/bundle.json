@@ -1,0 +1,1345 @@
+{
+  "assessment": {
+    "artifact_refs": [
+      "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/batch.json",
+      "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/batch.json",
+      "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/batch.json",
+      "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/batch.json",
+      "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/batch.json",
+      "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/batch.json",
+      "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/batch.json",
+      "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/batch.json"
+    ],
+    "audit": {
+      "artifact_refs": [
+        "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/batch.json",
+        "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/batch.json",
+        "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/batch.json",
+        "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/batch.json",
+        "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/batch.json",
+        "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/batch.json",
+        "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/batch.json",
+        "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/batch.json"
+      ],
+      "keys": [
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2018-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2018-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2018-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/metadata-revisions/metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478.json"
+              ],
+              "document_refs": [
+                "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+              ],
+              "excerpt": "At 31 December 2018 9,520,307,091",
+              "locator": "pdf:page:236",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650": "metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2018-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9520307091",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2019-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2019-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2019-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/metadata-revisions/metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa.json"
+              ],
+              "document_refs": [
+                "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+              ],
+              "excerpt": "At 31 December 2019 9,552,615,286",
+              "locator": "pdf:page:235",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6": "metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2019-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9552615286",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2020-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2020-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2020-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/metadata-revisions/metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d.json"
+              ],
+              "document_refs": [
+                "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+              ],
+              "excerpt": "At 31 December 2020 9,593,912,711",
+              "locator": "pdf:page:271",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd": "metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2020-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9593912711",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2021-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2021-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2021-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/metadata-revisions/metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187.json"
+              ],
+              "document_refs": [
+                "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+              ],
+              "excerpt": "At 31 December 2021 9,608,378,469",
+              "locator": "pdf:page:281",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142": "metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2021-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9608378469",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2022-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2022-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2022-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/metadata-revisions/metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499.json"
+              ],
+              "document_refs": [
+                "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+              ],
+              "excerpt": "At 31 December 2022 9,568,738,935",
+              "locator": "pdf:page:245",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b": "metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2022-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9568738935",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2023-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2023-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2023-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json"
+              ],
+              "document_refs": [
+                "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+              ],
+              "excerpt": "At 31 December 2023 9,482,992,820",
+              "locator": "pdf:page:243",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2023-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9482992820",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2024-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2024-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2024-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json"
+              ],
+              "document_refs": [
+                "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+              ],
+              "excerpt": "At 31 December 2024 9,224,914,953",
+              "locator": "pdf:page:236",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2024-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9224914953",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "financial-observations",
+            "key_id": "issued-2025-ordinary",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "measure_kind": "stock",
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "period_end": "2025-12-31",
+              "period_type": "instant",
+              "restatement": "original",
+              "scope": "consolidated",
+              "unit": "shares"
+            },
+            "source_id": "tencent-reports",
+            "subject_id": "tencent"
+          },
+          "key_id": "issued-2025-ordinary",
+          "observed_count": 1,
+          "rows": [
+            {
+              "accounting_standard": "IFRS",
+              "adjustment_basis": "reported",
+              "basis": "Year-end issued ordinary share capital, source share-capital note current-year closing row. Includes share-scheme trust holdings where disclosed; not free float, not EPS weighted-average, not automatically treasury-adjusted outstanding. Source table precision retained.",
+              "batch_id": "batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea",
+              "batch_refs": [
+                "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/batch.json"
+              ],
+              "company_id": "tencent",
+              "currency": null,
+              "dimensions": {
+                "share_class": "ordinary"
+              },
+              "document_metadata_refs": [
+                "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json"
+              ],
+              "document_refs": [
+                "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+              ],
+              "excerpt": "At 31 December 2025 9,120,235,999",
+              "locator": "pdf:page:244",
+              "measure_kind": "stock",
+              "metadata_revision_ids": {
+                "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d"
+              },
+              "metric_id": "issued-shares",
+              "metric_version": "1",
+              "missing_reason": null,
+              "period_end": "2025-12-31",
+              "period_start": null,
+              "period_type": "instant",
+              "record_kind": "source_reported",
+              "restatement": "original",
+              "scale": "units",
+              "schema_version": "2",
+              "scope": "consolidated",
+              "source_id": "tencent-reports",
+              "source_value": "9120235999",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        }
+      ],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ],
+      "missing_key_ids": [],
+      "profile_id": "tencent-year-end-issued-shares",
+      "profile_version": "1",
+      "required_count": 8,
+      "satisfied_required_count": 8,
+      "scope": "declared_exact_keys",
+      "status": "complete"
+    },
+    "findings": [],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [],
+    "purpose": "source_description",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "status": "ready"
+  },
+  "bundle_id": "inputs-939377a304c42bf864f662663c8e3faa",
+  "bundle_version": "input-bundle-v1",
+  "documents": {
+    "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6": {
+      "metadata_revision": "metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa",
+      "original_sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+    },
+    "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98": {
+      "metadata_revision": "metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d",
+      "original_sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+    },
+    "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142": {
+      "metadata_revision": "metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187",
+      "original_sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+    },
+    "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650": {
+      "metadata_revision": "metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478",
+      "original_sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+    },
+    "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134": {
+      "metadata_revision": "metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0",
+      "original_sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+    },
+    "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd": {
+      "metadata_revision": "metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d",
+      "original_sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+    },
+    "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688": {
+      "metadata_revision": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f",
+      "original_sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+    },
+    "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b": {
+      "metadata_revision": "metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499",
+      "original_sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/batch.json",
+      "sha256": "dc1dfaa485d26e10e594f38efca1c70c6727ca78ea7dd2c1a4141f682d49b9e8"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2018/batch-35501fbeb87e276b52c3bc3840466ae332c40934a999c7336beabe05fdd07b2f/financial-observations.json",
+      "sha256": "6977eaf48a5a8d81756f69ac12d920ecbac4c2ac7955e777a571634d7ff00442"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/batch.json",
+      "sha256": "9abe93f261503d1c8c31c057773945d940c5a7f4b0970a9509a0458b6cdd8dfa"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2019/batch-95f9d26e4cc4abaa375dab72c2dc371a41075a6e7800f028c4c1baaa06a7d3c6/financial-observations.json",
+      "sha256": "d1679ad591e3d99baf2ad174c7f0fe6f9b7a0e27074f93a71c9dfea808cc85b9"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/batch.json",
+      "sha256": "abfa89bfad4adfa9cb231b75f5d7fcd659d738f01d29a7392912754181b491af"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2020/batch-0db36016d0b9a7b34e8f332a66577fc56695d3c0480cd723dbad17d150550cd0/financial-observations.json",
+      "sha256": "d1aa3da6803bfcc5c92143a5e255f3feb8bdeeed5010d07c5e27338fa4f27240"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/batch.json",
+      "sha256": "07d98c4c2c78674d10b3dbb5f7da9534f766babeb19df01f7d8f7d2c81d455b6"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2021/batch-8d96813287e143aa583c57767a25687aa11a0cf776e3b07f5d3f9c7647e82787/financial-observations.json",
+      "sha256": "38b6d5adc5f5ed618883e8d6375141d9dee845e7bdd308a1223727338e282d53"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/batch.json",
+      "sha256": "47030692e6cc9848aa8794714d4d76fcc5f3aa8c8f9b0e0125e8c0154e24507c"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2022/batch-c71fc2d40d34a5e570ac12b5a209f996e33e4f2750250e7ab62228eae033a9d9/financial-observations.json",
+      "sha256": "56959af10d2ba5dd62ad4fbec535fb69c91e2da2225bc7fc9f62ffc59e7d81fe"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/batch.json",
+      "sha256": "9cd19f13f8d7ad717d53464cb592b20bcc336e5645b0e240341bc0e2f75d5fa2"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2023/batch-b55a4477f0644afe8816f35078e226988461ae691f92506f4331c345f9f3b5c0/financial-observations.json",
+      "sha256": "c1b8aab5d938ceae9e10bc99eb47cf66c722ae91ccd323b3cc640c576591ddfc"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/batch.json",
+      "sha256": "b36d5effedbfa0867d07e862d6a7b12b8f729f88e5b2f73a1ed83d0bfa0348d1"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2024/batch-cddc67db53c64a17212a8af31101e44df1750cba47269daee555e5e3f25a0adf/financial-observations.json",
+      "sha256": "a3d91ad6dccf0b5924db577c4a42079641f5e9b2f0a6a93a05b459961f90cab5"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/batch.json",
+      "sha256": "20c42c3031e589fdec24b2e79cc23509d05f467d8e4e69f20461b2a65ac5babc"
+    },
+    {
+      "path": "data/inputs/companies/tencent/financials/2025/batch-446cbb04c3bdec437d224f7ed4bc41b835b7929769b66badab5420fb055ce3ea/financial-observations.json",
+      "sha256": "4aa07273feb6bc3578acd82fe45cf6c93e947703241b34f287df6c5611b033f1"
+    },
+    {
+      "path": "data/inputs/source-files/publication-equivalence-review/2026/doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e/v1/document.json",
+      "sha256": "3b17f1eb55bac37bc5e86d3f851a3e5fbd79292e9ce5458c88cd4a432b99b442"
+    },
+    {
+      "path": "data/inputs/source-files/publication-equivalence-review/2026/doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e/v1/original.json",
+      "sha256": "56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b/v1/document.json",
+      "sha256": "cfca1ac157a189d81497c9a48271ffc230bad7eaf4c60755a2942cc95d023231"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b/v1/original.html",
+      "sha256": "19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d/v1/document.json",
+      "sha256": "73bcfccc3105343b2ff40594b265d2ea08f6b1b7f50a7b914f8c0c52b6b830f6"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-publication-evidence/2026/doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d/v1/original.pdf",
+      "sha256": "d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/document.json",
+      "sha256": "b1f601816d5d109a1a60948e6fa63f7b6e6a318af1672197486eb5e3cc93f616"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/metadata-revisions/metadata-36a24d7d252847248fb1040eebf1f20417e1a31107c22d60500ded9b71b5d7aa.json",
+      "sha256": "2f2178ef90ee832136c1791526a3373b9cc2f43137a53a8ab6740cdbfbe263a2"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6/v1/original.pdf",
+      "sha256": "147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/document.json",
+      "sha256": "8e2b80c86faed3896a1ff5e178a5d563657dc417ace441785befc01c67719303"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/metadata-revisions/metadata-162101c949aaf8f5105f13a69f73927ed9315d31230dd7234a4e7459e13d457d.json",
+      "sha256": "c396776ee3ce1dc9ae4857f71923e63e7dcda231725b308f42b0858074378ba9"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98/v1/original.pdf",
+      "sha256": "2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/document.json",
+      "sha256": "59a5549e22a4f1568e2860bbeaea27d083ee74f7d4dacb364d212962ae966474"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/metadata-revisions/metadata-4fe18506f6fe7e707a155f461f23a532c98510cfa59040fc870ba96dbf46f187.json",
+      "sha256": "98fe67b283adb69dfae08c1e0853b059a91a30d549691f102e7c711e8863e7ab"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142/v1/original.pdf",
+      "sha256": "6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/document.json",
+      "sha256": "f8fd22193aeff9146b13e5b4abbc059c36f6c70b13bf8ffedcd52506d0b909fd"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/metadata-revisions/metadata-efbdeb36938c7ad534193884a6563b6b7114b080bde3c848e59aa3f91ac2c478.json",
+      "sha256": "cbdb72dbb6fa4ba7a1df96e42ada736b6f77bf129101cadd6652f1f3fd2a013c"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650/v1/original.pdf",
+      "sha256": "8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/document.json",
+      "sha256": "6893b6e4ac2d8965748bf13cddd2e957b29518f7592c946cd6f3180567830659"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/metadata-revisions/metadata-90be3057141570454b6cd1c9a0d8d1c66ffeae1fb70649910d18d6354beee8d0.json",
+      "sha256": "379acfb817a96aa5535f263d57056582e471a354d1d314f1f3529976727094d0"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134/v1/original.pdf",
+      "sha256": "95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/document.json",
+      "sha256": "e9e55f8fb5102105b37a06834aa03d44ff613e61ad952704f49eb99f7f8b331c"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/metadata-revisions/metadata-912e9e34af36c6452df0f7a9ac0d59db90eefedede208a5f51a8b6444203db2d.json",
+      "sha256": "2d4d4e3e753a0aef697a79830bcf8e16013cac26a2f0debdffd8329c2a9de999"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd/v1/original.pdf",
+      "sha256": "bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/document.json",
+      "sha256": "d8678cfc0ab02e1757d2d211bb8498db0299185a80f3179dda18c2000e88bc60"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json",
+      "sha256": "c8ba50a07d55b15aace8e0ee156e0342a626742c30b8919529ebbcd831e840f6"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-827dabfc00807edb3ad51cd12336b0edbe7c89cc6e00c4eb00b8b3a89bd59380.json",
+      "sha256": "cfe31019b0dda89b62da679b8e893f197ebe0226e36860bb056faf267dc37051"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/original.pdf",
+      "sha256": "df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/document.json",
+      "sha256": "c865fa79f4dbc404a233f83050566608373ff3d53fd8af42eecfb922adcbac38"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/metadata-revisions/metadata-9159d0a0266dd32630bc24c1f75139e181b0c175eeee801e35b76391ea221499.json",
+      "sha256": "e5276224a5c461bb4c1ea023eb75c1c795ff28f713155df3b81b688ec42f2149"
+    },
+    {
+      "path": "data/inputs/source-files/tencent-reports/2026/doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b/v1/original.pdf",
+      "sha256": "ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b"
+    },
+    {
+      "path": "research/input-profile-definitions/year-end-issued-shares-v1.json",
+      "sha256": "0989e7d23e79b88d5a7e23217273f5b214e97e39f6777ec733e95c027c286579"
+    },
+    {
+      "path": "research/metrics/issued-shares/v1.json",
+      "sha256": "8618043bc474f1637a63fd7f03c1b4fbbab31a6518cbed2f5adc91919a29282b"
+    },
+    {
+      "path": "research/units/scales.json",
+      "sha256": "cfcae62aff1d83eaa4750ad2571c2cedfd36d30b6d4c1c68b21e35a59ee75272"
+    }
+  ],
+  "implementation": {
+    "files": [
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/c02b93a0175bf96257e1492442a7b086e581b2c54dc00b040b8c22f653b99f1b/source.txt",
+        "path": "ai/tooling/src/investment_ai/__init__.py",
+        "sha256": "c02b93a0175bf96257e1492442a7b086e581b2c54dc00b040b8c22f653b99f1b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/abaf76df2fdbfaebf5588bd103796dddd8e113616f483b0128b363357e3a3f77/source.txt",
+        "path": "ai/tooling/src/investment_ai/manager.py",
+        "sha256": "abaf76df2fdbfaebf5588bd103796dddd8e113616f483b0128b363357e3a3f77"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d72727dc3764a891865ac3bede402b5793d3ceb65bf35f124f6e021be63138fa/source.txt",
+        "path": "ai/tooling/src/investment_ai/probe.py",
+        "sha256": "d72727dc3764a891865ac3bede402b5793d3ceb65bf35f124f6e021be63138fa"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/277517a17e0f7cf8096ca84198d1094cda933fac97928c0b6658bc9e6306abdf/source.txt",
+        "path": "ai/tooling/tests/test_probe.py",
+        "sha256": "277517a17e0f7cf8096ca84198d1094cda933fac97928c0b6658bc9e6306abdf"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/913fc936423d86db85671eab0ef4565b9a240889b9dfde0a1f14814025c80e19/source.txt",
+        "path": "apps/api/src/investment_api/__init__.py",
+        "sha256": "913fc936423d86db85671eab0ef4565b9a240889b9dfde0a1f14814025c80e19"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/24a01c2d0cfdf28471bc208a09f8356e8efbfe74ff9e4692029d6e904a4d3156/source.txt",
+        "path": "apps/api/src/investment_api/server.py",
+        "sha256": "24a01c2d0cfdf28471bc208a09f8356e8efbfe74ff9e4692029d6e904a4d3156"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a40615760442ce8aa1b443c81434b7f3e8a48bfc0aff049e02122f698a0e82ac/source.txt",
+        "path": "apps/cli/src/investment_cli/__init__.py",
+        "sha256": "a40615760442ce8aa1b443c81434b7f3e8a48bfc0aff049e02122f698a0e82ac"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/0472e2ffee01c7582c667fb3eb1ef01023e7d584f175cef8cb475e45e6bd1736/source.txt",
+        "path": "apps/cli/src/investment_cli/__main__.py",
+        "sha256": "0472e2ffee01c7582c667fb3eb1ef01023e7d584f175cef8cb475e45e6bd1736"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/fd1f0201d5aa0852c0f776f75f83b4b4eadfef091b83903aa6ecffd9ecd2dfe1/source.txt",
+        "path": "apps/cli/src/investment_cli/main.py",
+        "sha256": "fd1f0201d5aa0852c0f776f75f83b4b4eadfef091b83903aa6ecffd9ecd2dfe1"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2ad5504672948a7c649f1a9a1e785417f081c56a1ebc67ff2882699900bb17c0/source.txt",
+        "path": "packages/connectors/src/investment_connectors/__init__.py",
+        "sha256": "2ad5504672948a7c649f1a9a1e785417f081c56a1ebc67ff2882699900bb17c0"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3eb2a286fd1fbe01718301429c1b4343ec567735747d92c5e403bdb676db4515/source.txt",
+        "path": "packages/connectors/src/investment_connectors/hkex_daily.py",
+        "sha256": "3eb2a286fd1fbe01718301429c1b4343ec567735747d92c5e403bdb676db4515"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/da85f51db718204b61332825fa69c09efa106118793488420de8567fc399d15c/source.txt",
+        "path": "packages/connectors/src/investment_connectors/http.py",
+        "sha256": "da85f51db718204b61332825fa69c09efa106118793488420de8567fc399d15c"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3095f4c3c86b7d510a3e6dfecf8a010c2213d1e3ba8e6c878b548a821aa8a7ee/source.txt",
+        "path": "packages/connectors/src/investment_connectors/observations.py",
+        "sha256": "3095f4c3c86b7d510a3e6dfecf8a010c2213d1e3ba8e6c878b548a821aa8a7ee"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/68606ca49596291743189a8e461de070f36f7e9493c53324db534d22dd61ffab/source.txt",
+        "path": "packages/connectors/src/investment_connectors/providers.py",
+        "sha256": "68606ca49596291743189a8e461de070f36f7e9493c53324db534d22dd61ffab"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/7c70866cd350a6e124f11a2b9fd0839435a1fd1fc3563c3c9df0a4359dfb16a2/source.txt",
+        "path": "packages/domain/src/investment_domain/__init__.py",
+        "sha256": "7c70866cd350a6e124f11a2b9fd0839435a1fd1fc3563c3c9df0a4359dfb16a2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/85f7a0bb9a27ffbb62a9b68aa57ddb9452d4067ae02a24704ef910a884ebba3f/source.txt",
+        "path": "packages/domain/src/investment_domain/assessment.py",
+        "sha256": "85f7a0bb9a27ffbb62a9b68aa57ddb9452d4067ae02a24704ef910a884ebba3f"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a641af978a96ed0dca579d6073754cbd045099f90b5b57c2d0a17abf75b97560/source.txt",
+        "path": "packages/domain/src/investment_domain/coverage.py",
+        "sha256": "a641af978a96ed0dca579d6073754cbd045099f90b5b57c2d0a17abf75b97560"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/fd79d91e97f7ffc26e91bba95c1ddb678ac07278ee1aaedce38a0f9175b092cb/source.txt",
+        "path": "packages/domain/src/investment_domain/market_context.py",
+        "sha256": "fd79d91e97f7ffc26e91bba95c1ddb678ac07278ee1aaedce38a0f9175b092cb"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ee6577fdb750eff5c0184d1e0042bd0367ad14f487ff99bf8257df4f10c3b0e6/source.txt",
+        "path": "packages/domain/src/investment_domain/measurements.py",
+        "sha256": "ee6577fdb750eff5c0184d1e0042bd0367ad14f487ff99bf8257df4f10c3b0e6"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a55f79f8e85eda221e10999ace85eec069574bc65e4f67bf7fda7047810a0a59/source.txt",
+        "path": "packages/domain/src/investment_domain/observations.py",
+        "sha256": "a55f79f8e85eda221e10999ace85eec069574bc65e4f67bf7fda7047810a0a59"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3e5050284648bc09539509d750c98c969ae1621f9356e93258eddd69feaeeef8/source.txt",
+        "path": "packages/domain/src/investment_domain/period_transforms.py",
+        "sha256": "3e5050284648bc09539509d750c98c969ae1621f9356e93258eddd69feaeeef8"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2d5b0e4df8f55fc909ac8e9cca10df44a7dee7894e80cda258f2c4ebff8d360c/source.txt",
+        "path": "packages/domain/src/investment_domain/profiles.py",
+        "sha256": "2d5b0e4df8f55fc909ac8e9cca10df44a7dee7894e80cda258f2c4ebff8d360c"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/5a959a86e41f5bbc59b87a7346ed812b74b2f5daaa22489ccadeec799ef736e6/source.txt",
+        "path": "packages/domain/src/investment_domain/publication.py",
+        "sha256": "5a959a86e41f5bbc59b87a7346ed812b74b2f5daaa22489ccadeec799ef736e6"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/487d55203688a8bfa231772bb90a391a668517440e7e039a57a1b23e86dd10f1/source.txt",
+        "path": "packages/engine/src/investment_engine/__init__.py",
+        "sha256": "487d55203688a8bfa231772bb90a391a668517440e7e039a57a1b23e86dd10f1"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/bf54aeaeac4ff0a2e18e4829f5088b22e50f26110001681f79ae35bda24b8f83/source.txt",
+        "path": "packages/engine/src/investment_engine/acquisition.py",
+        "sha256": "bf54aeaeac4ff0a2e18e4829f5088b22e50f26110001681f79ae35bda24b8f83"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/abb3206be11ef826c38a25c2ad28ab49c64fb5d3cc7cc9b8bc14adbff14608fa/source.txt",
+        "path": "packages/engine/src/investment_engine/action_dependencies.py",
+        "sha256": "abb3206be11ef826c38a25c2ad28ab49c64fb5d3cc7cc9b8bc14adbff14608fa"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/84220f675ed4f77ab2cdcca3bdfc2a8de97933ba261ff9cfdbecef8acbe3408b/source.txt",
+        "path": "packages/engine/src/investment_engine/assessment.py",
+        "sha256": "84220f675ed4f77ab2cdcca3bdfc2a8de97933ba261ff9cfdbecef8acbe3408b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/e49602ffcea24fd0886cf88af2312a4c82c8c5915f4a3cc2ea0710ff7ed73d6a/source.txt",
+        "path": "packages/engine/src/investment_engine/bundles.py",
+        "sha256": "e49602ffcea24fd0886cf88af2312a4c82c8c5915f4a3cc2ea0710ff7ed73d6a"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ec83d37b847716648e32e1982e9522e3ba623c55f91008fd4fe213951c022314/source.txt",
+        "path": "packages/engine/src/investment_engine/datasets.py",
+        "sha256": "ec83d37b847716648e32e1982e9522e3ba623c55f91008fd4fe213951c022314"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/4a01472b51b03b92ff36c3961701da9eb68cf646f1e039725a829ab785705e42/source.txt",
+        "path": "packages/engine/src/investment_engine/ensure.py",
+        "sha256": "4a01472b51b03b92ff36c3961701da9eb68cf646f1e039725a829ab785705e42"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d27320c2698f1540b04c3292ccd937117ef2d7a664d94d9e7fd32a09df9b98b2/source.txt",
+        "path": "packages/engine/src/investment_engine/evidence_time.py",
+        "sha256": "d27320c2698f1540b04c3292ccd937117ef2d7a664d94d9e7fd32a09df9b98b2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ce732429b4c7ca7b95deaf0e056eba51088eb91f8a9771bc32c595bd6580fd9e/source.txt",
+        "path": "packages/engine/src/investment_engine/market_status.py",
+        "sha256": "ce732429b4c7ca7b95deaf0e056eba51088eb91f8a9771bc32c595bd6580fd9e"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3043431de37da0aa4fc0a3019b1865231f8d79730da2cbdd7599a71546723072/source.txt",
+        "path": "packages/engine/src/investment_engine/period_transforms.py",
+        "sha256": "3043431de37da0aa4fc0a3019b1865231f8d79730da2cbdd7599a71546723072"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/9113faccc7b7ec03474a0bbcec593be6e61aa29a4cfc37524797abcebd49e9bc/source.txt",
+        "path": "packages/engine/src/investment_engine/profiles.py",
+        "sha256": "9113faccc7b7ec03474a0bbcec593be6e61aa29a4cfc37524797abcebd49e9bc"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/5fe41924c636b0319b3c1c5f0a025d249ddf8b844d9d9755215bd2a885eb615d/source.txt",
+        "path": "packages/engine/src/investment_engine/temporal.py",
+        "sha256": "5fe41924c636b0319b3c1c5f0a025d249ddf8b844d9d9755215bd2a885eb615d"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/b10b40dd98f5863eb3b5bbd7be2080b1fea57bb5d8dca273a6bbb05d416f10f3/source.txt",
+        "path": "packages/engine/src/investment_engine/transforms.py",
+        "sha256": "b10b40dd98f5863eb3b5bbd7be2080b1fea57bb5d8dca273a6bbb05d416f10f3"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/de5e9b6f634ed519d61c51a84ba24169d813f228b7769cdeb6a4b9d6fa3d6f4a/source.txt",
+        "path": "packages/repository/src/investment_repository/__init__.py",
+        "sha256": "de5e9b6f634ed519d61c51a84ba24169d813f228b7769cdeb6a4b9d6fa3d6f4a"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/006d642f5a7104ac9c78aa8343f7cf9306529c49b672c91db1516336b7ba3f95/source.txt",
+        "path": "packages/repository/src/investment_repository/metadata.py",
+        "sha256": "006d642f5a7104ac9c78aa8343f7cf9306529c49b672c91db1516336b7ba3f95"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/22301464e04cfd32a62089127a77f9a269e01e3ee755836bd27a31a47acda18e/source.txt",
+        "path": "pyproject.toml",
+        "sha256": "22301464e04cfd32a62089127a77f9a269e01e3ee755836bd27a31a47acda18e"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d9e32efc7b24e3480de48e364473c5b6c5f8fc8a00bd4d7923b58fe6a5196917/source.txt",
+        "path": "scripts/backfill_price_history.py",
+        "sha256": "d9e32efc7b24e3480de48e364473c5b6c5f8fc8a00bd4d7923b58fe6a5196917"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2480e772d9b94733e5658fa71b59dcaf8c962f5f493a2619728cd422cb5511a2/source.txt",
+        "path": "scripts/build_input_profiles.py",
+        "sha256": "2480e772d9b94733e5658fa71b59dcaf8c962f5f493a2619728cd422cb5511a2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d1749f6844007e6ae835fdf5dd90763ca1a4638189b5dc8eda121fdd5d542d5d/source.txt",
+        "path": "scripts/build_market_history_profiles.py",
+        "sha256": "d1749f6844007e6ae835fdf5dd90763ca1a4638189b5dc8eda121fdd5d542d5d"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2aa12d13df97634ccd7bd7878a841ce2ffd1850945734ac44266d0a49465f097/source.txt",
+        "path": "scripts/check_publication.py",
+        "sha256": "2aa12d13df97634ccd7bd7878a841ce2ffd1850945734ac44266d0a49465f097"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3c3dc88516edbc0f6e55b7133fbc301f77e64649d04d6bf0d549e34432ffacd7/source.txt",
+        "path": "scripts/demo_input_pipeline.py",
+        "sha256": "3c3dc88516edbc0f6e55b7133fbc301f77e64649d04d6bf0d549e34432ffacd7"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02/source.txt",
+        "path": "scripts/extract_report_candidates.py",
+        "sha256": "1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/c78da3d8b37e0638a85c9744fcd5ea404f58ba2cb8e4496a3dd499cca453bdac/source.txt",
+        "path": "scripts/retry_price_history.py",
+        "sha256": "c78da3d8b37e0638a85c9744fcd5ea404f58ba2cb8e4496a3dd499cca453bdac"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/93fe0142d15df8a02911ca118f5edaf89a0d165190dd1d5408af9ff4e747071b/source.txt",
+        "path": "scripts/verify_short_sale_ratio.py",
+        "sha256": "93fe0142d15df8a02911ca118f5edaf89a0d165190dd1d5408af9ff4e747071b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ce7ae20bda69db1462040e5d6c8ede1397a3c660807b5b7704e3d5a621dc19a5/source.txt",
+        "path": "uv.lock",
+        "sha256": "ce7ae20bda69db1462040e5d6c8ede1397a3c660807b5b7704e3d5a621dc19a5"
+      }
+    ],
+    "git_head_at_freeze": "c58b321b4e0704b4583732f15fff55676d6b0cbe",
+    "note": "Exact source and lock bytes are content-addressed archives; HEAD alone does not certify a clean tree. Archives are never automatically executed."
+  },
+  "label": "release-20261030",
+  "limitations": [
+    "Freezing a blocked or limited input set preserves its limitations; it does not certify readiness",
+    "Verification reads pinned files and rows, never substitutes newly available data",
+    "Source and implementation hashes establish reproducibility boundaries, not source authenticity"
+  ],
+  "profile": {
+    "comparison_groups": [],
+    "definition_refs": [
+      "research/input-profile-definitions/year-end-issued-shares-v1.json"
+    ],
+    "expected_keys": [
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2018-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2018-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2019-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2019-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2020-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2020-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2021-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2021-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2022-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2022-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2023-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2023-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2024-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2024-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      },
+      {
+        "dataset_id": "financial-observations",
+        "key_id": "issued-2025-ordinary",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "accounting_standard": "IFRS",
+          "adjustment_basis": "reported",
+          "dimensions": {
+            "share_class": "ordinary"
+          },
+          "measure_kind": "stock",
+          "metric_id": "issued-shares",
+          "metric_version": "1",
+          "period_end": "2025-12-31",
+          "period_type": "instant",
+          "restatement": "original",
+          "scope": "consolidated",
+          "unit": "shares"
+        },
+        "source_id": "tencent-reports",
+        "subject_id": "tencent"
+      }
+    ],
+    "information_cutoff": null,
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "tencent-year-end-issued-shares",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "transformations": []
+}

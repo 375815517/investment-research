@@ -1,0 +1,779 @@
+{
+  "scope": "2018-07-09..2026-10-29",
+  "status": "incomplete",
+  "gaps": [
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2018,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "annual_source_status": "2018_no_purchase_sale_redemption_subject_to_disclosed_exceptions_2019_january_repurchase_reported",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2018,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2018,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2019,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2019,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2019,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2020,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2020,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2020,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2021,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2021,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2021,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2022,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2022,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2022,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2023,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2023,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2023,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2024,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2024,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2024,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2025,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2025,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2025,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2026,
+      "action_type": "buyback",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2026,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "calendar_year": 2026,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2018,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2018,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2018,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-8f87c9f6b95f21dd08922f0f29541d365839de3daacc7a3c71c787d9c747f650",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2019,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2019,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2019,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-147f4258ab73ad06866e9d892d387301027a0d61c781bc0614ce34e8bf6423f6",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2020,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "annual_source_status": "source_reports_no_purchase_sale_redemption_for_year",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2020,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2020,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-bddc6be8e5a819bfc66e02be90691d022c10b0c8e197311558c9b61f736926fd",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2021,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2021,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2021,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-6c9172a17b378c5127a344d6955864c6fd6ff0de67eb5bf77acce0abb98fa142",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2022,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2022,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2022,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-ea8beff1ed60f54eb4cd9981e37ed299ef9aeac1a0b4c476d736a15a02d3932b",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2023,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2023,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2023,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2024,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2024,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2024,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-95b0652da8294527d150a56a9de293627b53e73b4a4c21202c153ea6eb4e9134",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2025,
+      "action_type": "buyback",
+      "status": "annual_quantity_and_cash_disclosure_normalized_daily_universe_not_established",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "annual_source_status": "source_reports_repurchases",
+      "exact_pending_work": [
+        "Whole daily-event universe not established by annual reports; some dated/monthly fragments exist and are not a complete daily feed",
+        "Do not equate annual cash payments with trade consideration or infer a daily execution price"
+      ],
+      "annual_profile_ref": "research/input-profiles/annual-share-repurchase-disclosures/v1.json",
+      "annual_acceptance_ref": "annual-buyback-placement-acceptance.json"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2025,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2025,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence",
+      "annual_evidence_ref": "annual-share-actions-evidence.json",
+      "annual_report_document_id": "doc-2a7547168077c3d9994af673125e77612e8656bc0f17ad189371d7e4088f4e98",
+      "annual_source_status": "share_capital_source_available_requires_movement_reconciliation",
+      "exact_pending_work": [
+        "Reconcile current-year rows separately from comparatives, pre-IPO subdivisions, equity awards/conversions and private placements; those are not automatically rights issues or exchange-traded splits"
+      ]
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2026,
+      "action_type": "buyback",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2026,
+      "action_type": "rights",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "tencent-hk",
+      "calendar_year": 2026,
+      "action_type": "split",
+      "status": "enumeration_not_proven",
+      "required_evidence": "Complete official announcements/category listing for bounded year, with pagination/returned-count verification; each event then needs terms and status evidence"
+    },
+    {
+      "security_id": "tencent-hk",
+      "action_id": "tme-special-distribution-2018",
+      "action_type": "special_distribution",
+      "status": "official_terms_and_month_precision_payment_registered",
+      "known_terms": {
+        "declared_month": "2018-12",
+        "paid_month": "2019-02",
+        "aggregate_hkd": "250000000",
+        "settlement": "cash and TME shares",
+        "declaration_date": "2018-12-13",
+        "ex_date": "2018-12-28",
+        "record_date": "2019-01-04",
+        "expected_payment_date": "2019-02-20",
+        "actual_payment_period_start": "2019-02-01",
+        "actual_payment_period_end": "2019-02-28",
+        "conditional_ratio": "3900Tencent shares per1TMEADS, qualifying whole lots with election and thresholds"
+      },
+      "missing": [
+        "exact actual payment day",
+        "investor-specific election and eligibility needed for realized entitlement"
+      ],
+      "evidence_ref": "tme-terms-fact-candidate.json",
+      "note": "Official terms and annual payment confirmation obtained; per-share cash is non-linear and must not be fabricated as a constant.",
+      "ingest_receipts_ref": "tme-ingest-receipts.json"
+    }
+  ],
+  "known_specific_share_events": [
+    {
+      "company_id": "xiaomi",
+      "event_date": "2018-06-17",
+      "kind": "share_subdivision",
+      "ratio": "10 new per1old",
+      "research_window_status": "before_listing_and_before2018-07-09_not_an_in_window_price_adjustment",
+      "source_ref": "annual-share-actions-evidence.json",
+      "locator": "2018annual pdf:page:274"
+    },
+    {
+      "company_id": "xiaomi",
+      "event_date": "2020-12-09",
+      "kind": "private_placement_not_rights_issue",
+      "new_class_b_shares": "1000000000",
+      "price_hkd": "23.70",
+      "source_ref": "annual-share-actions-evidence.json",
+      "locator": "2020annual pdf:page:330",
+      "status": "registered_document_fact",
+      "receipt_ref": "annual-buyback-placement-ingest-receipts.json"
+    },
+    {
+      "company_id": "xiaomi",
+      "event_date": "2025-03-31",
+      "kind": "private_placement_not_rights_issue",
+      "new_class_b_shares": "800000000",
+      "price_hkd": "53.25",
+      "source_ref": "annual-share-actions-evidence.json",
+      "locator": "2025annual pdf:page:379",
+      "status": "registered_document_fact",
+      "receipt_ref": "annual-buyback-placement-ingest-receipts.json"
+    }
+  ]
+}

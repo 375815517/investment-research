@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/original.csv",
+    "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json",
+    "data/outputs/research-records/ingest-2629e3c681369f70dcea891ee6c189570a8e4dbffe284d2c64b7a479e236d693/candidate.json",
+    "data/outputs/research-records/ingest-2629e3c681369f70dcea891ee6c189570a8e4dbffe284d2c64b7a479e236d693/validation.json",
+    "data/outputs/research-records/ingest-2629e3c681369f70dcea891ee6c189570a8e4dbffe284d2c64b7a479e236d693/review.json",
+    "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/market-observations.json",
+    "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json",
+    "data/outputs/research-records/ingest-2629e3c681369f70dcea891ee6c189570a8e4dbffe284d2c64b7a479e236d693/receipt.json"
+  ],
+  "candidate_hash": "2629e3c681369f70dcea891ee6c189570a8e4dbffe284d2c64b7a479e236d693",
+  "plan_id": "plan-c389b467d7019004899f1abbe11eaee9b3f3c7b6d2e64888ca00589b659482f6"
+}

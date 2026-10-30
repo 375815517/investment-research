@@ -1,0 +1,150 @@
+{
+  "event_hash": "ba993b090a3a6649a10cfac26f55fe27944b0f7f4cf0a65ef516b1230604c094",
+  "items": [
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-de8059e3a3838226e7d941802ec17f5fc3086abd330d5bfe5cd7a3cc2265cfad",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/candidates/candidate-de8059e3a3838226e7d941802ec17f5fc3086abd330d5bfe5cd7a3cc2265cfad.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-cd2860997f534ec0a49ef528bdd49b87/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-71ba6f8661832f4fe3507011e4bf191ba48fb6bff2ff04c901dfd7d11751c5d6/v1/document.json",
+        "data/outputs/research-records/ingest-3ff2ae7716120b6f3ce5f710eaa1f1236e48dce2f6e5f350610a0b31cc5082c5/candidate.json",
+        "data/outputs/research-records/ingest-3ff2ae7716120b6f3ce5f710eaa1f1236e48dce2f6e5f350610a0b31cc5082c5/validation.json",
+        "data/outputs/research-records/ingest-3ff2ae7716120b6f3ce5f710eaa1f1236e48dce2f6e5f350610a0b31cc5082c5/review.json",
+        "data/inputs/companies/tencent/financials/2018/batch-043480dc28a9e072920181e492903ad1141eaa1a250c3c9525e63cea2b80adcf/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2018/batch-043480dc28a9e072920181e492903ad1141eaa1a250c3c9525e63cea2b80adcf/batch.json",
+        "data/outputs/research-records/ingest-3ff2ae7716120b6f3ce5f710eaa1f1236e48dce2f6e5f350610a0b31cc5082c5/receipt.json"
+      ],
+      "item_id": "item-29710d084c605de1e08e13e6",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/6191f8b3060b47f992683bea1f89d944.json": "b147d1e5272c113876a58dcc6aceba0a84ed1ec9679f7572ab3368061f6f83f7"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/6191f8b3060b47f992683bea1f89d944.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND SIX MONTHS ENDED 30 JUNE 2018",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0815/ltn20180815892.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-b749f86d1672136958e65191c23c8d93b8ed4890a12ad76d28a83928208e6564",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/candidates/candidate-b749f86d1672136958e65191c23c8d93b8ed4890a12ad76d28a83928208e6564.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-462da324ea314236a4df764224bb9150/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f/v1/document.json",
+        "data/outputs/research-records/ingest-d91cd791ecb1da134a9ea0eb13a1bd896f50a01b7cdf27fb771d6e89e9428f2e/candidate.json",
+        "data/outputs/research-records/ingest-d91cd791ecb1da134a9ea0eb13a1bd896f50a01b7cdf27fb771d6e89e9428f2e/validation.json",
+        "data/outputs/research-records/ingest-d91cd791ecb1da134a9ea0eb13a1bd896f50a01b7cdf27fb771d6e89e9428f2e/review.json",
+        "data/inputs/companies/tencent/financials/2018/batch-3d93a0a9051bf02dee3e88e470a8ecfd2d7e62f0b695cd6352ddcd64c0dba497/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2018/batch-3d93a0a9051bf02dee3e88e470a8ecfd2d7e62f0b695cd6352ddcd64c0dba497/batch.json",
+        "data/outputs/research-records/ingest-d91cd791ecb1da134a9ea0eb13a1bd896f50a01b7cdf27fb771d6e89e9428f2e/receipt.json"
+      ],
+      "item_id": "item-34691a29b3069d9d589c2264",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/4273a8e8aa304aa597ddea52bcc586ff.json": "4096d8c0f32ca4b262a175515563c9e0affd2bd42c4f9b69511b8e72c85e5eff"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/4273a8e8aa304aa597ddea52bcc586ff.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2018",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516325.pdf"
+    },
+    {
+      "attempts": 2,
+      "candidate_id": "candidate-d4202db40d12d9d560fb14c78d914277004c010abd0e8d5734bcc7261b478d1e",
+      "candidate_ref": "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/candidates/candidate-d4202db40d12d9d560fb14c78d914277004c010abd0e8d5734bcc7261b478d1e.json",
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-9553a3403eba497fb5feed487e1665e1/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+      "ingest_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8/v1/document.json",
+        "data/outputs/research-records/ingest-cf2fae2541f27902145447c8ef0d01558b417af4d0e3435bf303d06d550a6986/candidate.json",
+        "data/outputs/research-records/ingest-cf2fae2541f27902145447c8ef0d01558b417af4d0e3435bf303d06d550a6986/validation.json",
+        "data/outputs/research-records/ingest-cf2fae2541f27902145447c8ef0d01558b417af4d0e3435bf303d06d550a6986/review.json",
+        "data/inputs/companies/tencent/financials/2018/batch-92e1b31c1bbc9449637ffc6c86e54113d732c7d442c6ffd888ae26af9f0f4b09/financial-observations.json",
+        "data/inputs/companies/tencent/financials/2018/batch-92e1b31c1bbc9449637ffc6c86e54113d732c7d442c6ffd888ae26af9f0f4b09/batch.json",
+        "data/outputs/research-records/ingest-cf2fae2541f27902145447c8ef0d01558b417af4d0e3435bf303d06d550a6986/receipt.json"
+      ],
+      "item_id": "item-384a19402558ab8f46cc243c",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "retrieval_mode": "fetched",
+      "review_hashes": {
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/237f4dd8969d48beb12a218a1488a413.json": "47a0962be03cd230595bbfc8a94fa1fcf6452bc76675e73cab554961bee6c576"
+      },
+      "review_refs": [
+        "data/outputs/research-records/acquisition/acquisition-0561315293ef64fcf981e012/reviews/237f4dd8969d48beb12a218a1488a413.json"
+      ],
+      "source_title": "",
+      "stage": "verified",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2018",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1114/ltn20181114629.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-a9ca8944a1490cd0b8e2c4b80616e633884949b919207203c728560f20e8876b/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-a9ca8944a1490cd0b8e2c4b80616e633884949b919207203c728560f20e8876b/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-5a7de6d85845467293f736f6686a28a7/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-a9ca8944a1490cd0b8e2c4b80616e633884949b919207203c728560f20e8876b",
+      "item_id": "item-60877d9e1c713d10f218e3a2",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "retrieval_mode": "fetched",
+      "skip_reason": "Human scope review: 2017 annual result precedes selected 2018–2026 financial coverage; original retained without claiming period coverage",
+      "source_title": "",
+      "stage": "skipped",
+      "title": "ANNOUNCEMENT OF THE ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2017",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0321/ltn20180321452.pdf"
+    },
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e/v1/original.pdf",
+        "data/inputs/source-files/hkex-tencent-announcements/2026/doc-39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e/v1/document.json",
+        "data/inputs/collection-records/hkex-tencent-announcements/2026/collection-6994d455c5a547d1873c654c70e24f85/collection.json"
+      ],
+      "context": "",
+      "document_id": "doc-39e30854ab671c8d35c98928bfac0085bdf28bcbadfc06c517508d4efbed541e",
+      "item_id": "item-99960a756098d970a824978d",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "retrieval_mode": "fetched",
+      "skip_reason": "Human scope review: shareholder meeting poll result, not a financial results statement; original retained as issuer event evidence",
+      "source_title": "",
+      "stage": "skipped",
+      "title": "POLL RESULTS FOR THE 2018 ANNUAL GENERAL MEETING",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516704.pdf"
+    }
+  ],
+  "previous_hash": "564c98e622447163798f68bdea755d74296f6e5c441fd028e60f8c5cc7ca1a86",
+  "recorded_at": "2026-10-30T11:38:52.039016+00:00",
+  "sequence": 21,
+  "task_id": "acquisition-0561315293ef64fcf981e012"
+}

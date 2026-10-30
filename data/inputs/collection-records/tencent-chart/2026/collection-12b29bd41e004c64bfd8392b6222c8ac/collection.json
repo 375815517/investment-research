@@ -1,0 +1,38 @@
+{
+  "collection_context": {
+    "delivery": {
+      "archive_permissions": "research-only",
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T10:51:47.292947+00:00",
+      "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00700%2Cday%2C2022-06-30%2C2022-06-30%2C320%2C",
+      "path": "/workspace/investment-research/.research-local/collections/bcc7cb2e567e499a9859ff5b54b06f30/response-76eb7e7be5574384a0776caf4ecd5d01.json",
+      "request": {
+        "parameter_names": [
+          "param"
+        ],
+        "source_id": "tencent-chart"
+      },
+      "request_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00700%2Cday%2C2022-06-30%2C2022-06-30%2C320%2C",
+      "rows": 1,
+      "sha256": "ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+      "size_bytes": 1690,
+      "source_id": "tencent-chart",
+      "usage_basis": "User-authorized bounded investment research; no redistribution license established"
+    },
+    "parameters": {
+      "param": "hk00700,day,2022-06-30,2022-06-30,320,"
+    }
+  },
+  "collection_id": "collection-12b29bd41e004c64bfd8392b6222c8ac",
+  "document_id": "doc-ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T10:51:47.293698+00:00",
+  "origin_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00700%2Cday%2C2022-06-30%2C2022-06-30%2C320%2C",
+  "publication_assertion": null,
+  "sha256": "ee72dbd322ca38b407d7ff5432aceb51f027ee76e9ebaccaba2062485b4933da",
+  "source_id": "tencent-chart",
+  "status": "received"
+}

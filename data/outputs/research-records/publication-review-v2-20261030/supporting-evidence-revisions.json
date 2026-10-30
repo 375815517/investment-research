@@ -1,0 +1,84 @@
+[
+  {
+    "company": "xiaomi",
+    "year": "2024",
+    "request": {
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "publication": {
+        "precision": "date",
+        "date": "2025-04-24",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+      "locator": "json:News:ID=7384862",
+      "excerpt": "\"formatedDate\":\"Apr 24, 2025\",\"title\":\"2024 ANNUAL REPORT\"",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "Issuer official embedded list associates filing date with 2024 annual report. Exchange attachment differs in binary hash from IR archived report; all 379 physical pages compared using pypdf, whitespace-normalized extracted text identical. Counterpart archived as doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11. Date assertion is reviewed report-content equivalence, not proof of original binary publication. Hong Kong calendar date only. Appended version adds hash-bound counterpart and per-page text comparison evidence for automatic freeze dependency closure.",
+      "expected_revision_id": "metadata-72721fc3bfc942f25c6c9d95946b1997831803e3e4603a3bd7e33bd604e21006",
+      "supporting_document_ids": [
+        "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+        "doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f"
+      ]
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-4c73e54322ae4152b62ca9fa12e0118f",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "effective_metadata_ref": "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/metadata-revisions/metadata-51998583df56afc9db3fc611205fc81d13009f9f229b68ef6dbe1443c850c08c.json",
+    "metadata_evidence_refs": [
+      "doc-2bf5811bff462480dda4cfda343a073f6f7893815da572b29bd9e262f7804019",
+      "doc-9fbb8a9baa8bb9b559ae3789080e56cd498ab1f0db6d8853ff2a63c598ccad11",
+      "doc-4a04a767bbfc26933d2ce2f862cfe04afd0286ff38276c016f7170013faf7c6f"
+    ]
+  },
+  {
+    "company": "tencent",
+    "year": "2023",
+    "request": {
+      "document_id": "doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688",
+      "publication": {
+        "precision": "date",
+        "date": "2024-04-08",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "evidence_document_id": "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "locator": "html:table:ANNUAL REPORT 2023",
+      "excerpt": "Release Time: 08/04/2024 19:35 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Financial Statements/ESG Information - [Annual Report] ANNUAL REPORT 2023 ( 6MB )",
+      "reviewer": "temporal_v2-publication-review",
+      "notes": "HKEX official list release date and annual report title explicitly linked. PDF binary differs from current issuer archive but all 282 physical pages have identical whitespace-normalized extracted text; counterpart archived doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d. Reviewed report-content equivalence, not proof of original binary publication. Only Hong Kong calendar date component used. Appended version adds hash-bound counterpart and per-page text comparison evidence for automatic freeze dependency closure.",
+      "expected_revision_id": "metadata-827dabfc00807edb3ad51cd12336b0edbe7c89cc6e00c4eb00b8b3a89bd59380",
+      "supporting_document_ids": [
+        "doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d",
+        "doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e"
+      ]
+    },
+    "response": {
+      "status": "registered",
+      "revision_id": "metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f",
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/document.json",
+        "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-7b564543c6b64b19a0f1175341062733",
+      "summary": "revise metadata",
+      "issues": [],
+      "next_actions": []
+    },
+    "effective_metadata_ref": "data/inputs/source-files/tencent-reports/2026/doc-df7d4ae4e473bd90680e62304af953eb68333b848650c9908c67778613581688/v1/metadata-revisions/metadata-1503c5c5496e67e7ff8b1d58ecab5451b5290f50207a8896e00ba476d4734d7f.json",
+    "metadata_evidence_refs": [
+      "doc-19c965d82a55fc8ee259ea1e6e6595dda7bcfc1e2f556f486470f545555d3c8b",
+      "doc-d0b8d92df84a2b71ec1b9c86aaa3453775366bd791e3e52820d405f6c28d307d",
+      "doc-56982331210e49cc87b3eb9ae35ef29a351e7ee9449c2032b4cc638891e9b34e"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "metric_id": "operating-margin",
+  "version": "1",
+  "name": "披露经营利润率",
+  "description": "来源披露的披露经营利润率，其期间、合并范围、分部/股类和调整口径由观测字段显式声明；不是平台估计值。",
+  "dataset_id": "financial-observations",
+  "unit": "percent",
+  "measure_kind": "ratio",
+  "allowed_period_types": [
+    "annual",
+    "half_year",
+    "quarter",
+    "year_to_date",
+    "month"
+  ],
+  "allowed_dimensions": [
+    "segment",
+    "product",
+    "region",
+    "share_class",
+    "population",
+    "channel"
+  ],
+  "required_dimensions": [],
+  "allowed_scales": [
+    "units"
+  ],
+  "allow_negative": true,
+  "comparability_notes": "不同币种、IFRS/调整口径、归母/总利润、分部和期间不得直接拼接；金额大小级转换必须保留转换记录。"
+}

@@ -1,0 +1,737 @@
+{
+  "classification": "AI-reviewed acquisition provenance verification, not issuer statement",
+  "method": "Exact official listing href joins captured final_url and collection SHA; archived target SHA independently reverified; no repeat download",
+  "records": [
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-q1-announcement-financial-spec.json",
+      "document_id": "doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2018",
+      "date": "2018-05-16",
+      "excerpt": "Release Time: 16/05/2018 17:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2018 ( 199KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516325.pdf",
+      "verified_sha256": "cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:07:31.853048+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516325.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/71ce9cb5c490477991756d9b86c11486/response-17155da40e8046158552a8e1f289757a.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516325.pdf",
+              "rows": 0,
+              "sha256": "cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+              "size_bytes": 204083,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-462da324ea314236a4df764224bb9150",
+          "document_id": "doc-cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:07:31.854173+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0516/ltn20180516325.pdf",
+          "publication_assertion": null,
+          "sha256": "cdb77445d578cb4a49e0311ab319d1b9d6b31467fb216fd4c98ddb23ed6f5d3f",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2018-q3-announcement-financial-spec.json",
+      "document_id": "doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+      "listing_document_id": "doc-122b085bfcca761a41127ed6640933035c9d29c5be98d6e73f2c8c2d0680b6e2",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2018",
+      "date": "2018-11-14",
+      "excerpt": "Release Time: 14/11/2018 18:24 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2018 ( 221KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1114/ltn20181114629.pdf",
+      "verified_sha256": "9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:07:34.712019+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1114/ltn20181114629.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/3aefa94f76c14661883bdb6d6f612b8d/response-3e5381b924a045a8b337e4db8d17a895.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1114/ltn20181114629.pdf",
+              "rows": 0,
+              "sha256": "9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+              "size_bytes": 227207,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-9553a3403eba497fb5feed487e1665e1",
+          "document_id": "doc-9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:07:34.713050+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/1114/ltn20181114629.pdf",
+          "publication_assertion": null,
+          "sha256": "9cbaad8e9f9c64814b67c233603c8cf6e12e1f80e41144cc49d9bcf8b3ef65d8",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-q1-announcement-financial-spec.json",
+      "document_id": "doc-e1627327d039d63fd683b1d6245242c11c14ea09a84f8803a359ef5a2faecf46",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2019",
+      "date": "2019-05-15",
+      "excerpt": "Release Time: 15/05/2019 17:09 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2019 ( 217KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515369.pdf",
+      "verified_sha256": "e1627327d039d63fd683b1d6245242c11c14ea09a84f8803a359ef5a2faecf46",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:07:57.714194+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515369.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/3bd081d3c55b4d05a4b0158958bb6d13/response-7eb4ee5f97734f97bdd87d278a9dffe9.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515369.pdf",
+              "rows": 0,
+              "sha256": "e1627327d039d63fd683b1d6245242c11c14ea09a84f8803a359ef5a2faecf46",
+              "size_bytes": 222460,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-b39ace1394634193a889705388bb4e75",
+          "document_id": "doc-e1627327d039d63fd683b1d6245242c11c14ea09a84f8803a359ef5a2faecf46",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:07:57.715164+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0515/ltn20190515369.pdf",
+          "publication_assertion": null,
+          "sha256": "e1627327d039d63fd683b1d6245242c11c14ea09a84f8803a359ef5a2faecf46",
+          "source_id": "hkex-tencent-announcements",
+          "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2019-q3-announcement-financial-spec.json",
+      "document_id": "doc-7f35f4db08576762491f100a581d824b0319f3175797e6ca77814f8d8e4149d5",
+      "listing_document_id": "doc-21a6a6bb23292dd8a4b7a1612966db27f54dab8dfddeefe62080ffec94d94292",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2019",
+      "date": "2019-11-13",
+      "excerpt": "Release Time: 13/11/2019 17:34 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2019 ( 279KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1113/2019111300972.pdf",
+      "verified_sha256": "7f35f4db08576762491f100a581d824b0319f3175797e6ca77814f8d8e4149d5",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:07:56.688750+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1113/2019111300972.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/0b4293835cba4a2fb50aea244e5ca4cc/response-7bbe5eec8cfe4539a5606d47f8bb6cdb.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1113/2019111300972.pdf",
+              "rows": 0,
+              "sha256": "7f35f4db08576762491f100a581d824b0319f3175797e6ca77814f8d8e4149d5",
+              "size_bytes": 285478,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-4d6101f557824644bea56d9d4c4eb548",
+          "document_id": "doc-7f35f4db08576762491f100a581d824b0319f3175797e6ca77814f8d8e4149d5",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:07:56.690004+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1113/2019111300972.pdf",
+          "publication_assertion": null,
+          "sha256": "7f35f4db08576762491f100a581d824b0319f3175797e6ca77814f8d8e4149d5",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-q1-announcement-financial-spec.json",
+      "document_id": "doc-021eb1c8bab3fe3403e88cf13b2052465331e19acdbf01645945fc2c62603c02",
+      "listing_document_id": "doc-ab01528390ed8f1f280a6a20eee8377b36524e9bdf1ac512dbcc3b5496fe1119",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2020",
+      "date": "2020-05-13",
+      "excerpt": "Release Time: 13/05/2020 17:08 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2020 ( 249KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0513/2020051300606.pdf",
+      "verified_sha256": "021eb1c8bab3fe3403e88cf13b2052465331e19acdbf01645945fc2c62603c02",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:08:16.281997+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0513/2020051300606.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/174c986fd76144e8ba4b66437c7b991a/response-d7056eb66bef4cc7baeef05b94b1a642.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0513/2020051300606.pdf",
+              "rows": 0,
+              "sha256": "021eb1c8bab3fe3403e88cf13b2052465331e19acdbf01645945fc2c62603c02",
+              "size_bytes": 255055,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-cc6dbf8e5d1a413faab9c91498a1ba7f",
+          "document_id": "doc-021eb1c8bab3fe3403e88cf13b2052465331e19acdbf01645945fc2c62603c02",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:08:16.283027+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0513/2020051300606.pdf",
+          "publication_assertion": null,
+          "sha256": "021eb1c8bab3fe3403e88cf13b2052465331e19acdbf01645945fc2c62603c02",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2020-q3-announcement-financial-spec.json",
+      "document_id": "doc-e8b87ca5835e67ac1fcf068cac3259f4a5d10f2b633d387cce6afd4255265216",
+      "listing_document_id": "doc-ab01528390ed8f1f280a6a20eee8377b36524e9bdf1ac512dbcc3b5496fe1119",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2020",
+      "date": "2020-11-12",
+      "excerpt": "Release Time: 12/11/2020 16:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2020 ( 297KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1112/2020111200335.pdf",
+      "verified_sha256": "e8b87ca5835e67ac1fcf068cac3259f4a5d10f2b633d387cce6afd4255265216",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:08:15.203270+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1112/2020111200335.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/317b5ad4df2846949bce4d55822f23d0/response-735609a83bf944d69a8ae97cfa22494a.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1112/2020111200335.pdf",
+              "rows": 0,
+              "sha256": "e8b87ca5835e67ac1fcf068cac3259f4a5d10f2b633d387cce6afd4255265216",
+              "size_bytes": 303818,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-d3369d13e13b413eab7e8b2348e8866f",
+          "document_id": "doc-e8b87ca5835e67ac1fcf068cac3259f4a5d10f2b633d387cce6afd4255265216",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:08:15.204617+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1112/2020111200335.pdf",
+          "publication_assertion": null,
+          "sha256": "e8b87ca5835e67ac1fcf068cac3259f4a5d10f2b633d387cce6afd4255265216",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-q1-announcement-financial-spec.json",
+      "document_id": "doc-4d2fe2bf9e9ebf3de9e1a9f498f6b079fcbbdd2f128d5b392a926528a93806c7",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2021",
+      "date": "2021-05-20",
+      "excerpt": "Release Time: 20/05/2021 16:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2021 ( 302KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000308.pdf",
+      "verified_sha256": "4d2fe2bf9e9ebf3de9e1a9f498f6b079fcbbdd2f128d5b392a926528a93806c7",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:08:40.587600+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000308.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/c2244e1f940440bbb224934d3b605220/response-a963bb62fffd4a9896b86a90e12d14b2.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000308.pdf",
+              "rows": 0,
+              "sha256": "4d2fe2bf9e9ebf3de9e1a9f498f6b079fcbbdd2f128d5b392a926528a93806c7",
+              "size_bytes": 309046,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-65c2079d5eef47bcb5b5fa52f2d88691",
+          "document_id": "doc-4d2fe2bf9e9ebf3de9e1a9f498f6b079fcbbdd2f128d5b392a926528a93806c7",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:08:40.588788+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0520/2021052000308.pdf",
+          "publication_assertion": null,
+          "sha256": "4d2fe2bf9e9ebf3de9e1a9f498f6b079fcbbdd2f128d5b392a926528a93806c7",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2021-q3-announcement-financial-spec.json",
+      "document_id": "doc-c38ba688b2894a2ef038c6ed641d86eaa83cb1428e35258080dc3585d7e309a3",
+      "listing_document_id": "doc-323efbfaa3ae24b51fc70bc4870984a0e7523f16ac59c533f573cbd9bb06c3f4",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2021",
+      "date": "2021-11-10",
+      "excerpt": "Release Time: 10/11/2021 16:36 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2021 ( 320KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1110/2021111000481.pdf",
+      "verified_sha256": "c38ba688b2894a2ef038c6ed641d86eaa83cb1428e35258080dc3585d7e309a3",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:08:42.636642+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1110/2021111000481.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/f1ab415606f9429f877ff378adf4ca27/response-d6e799ef30184c0f9374f87028b25b7a.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1110/2021111000481.pdf",
+              "rows": 0,
+              "sha256": "c38ba688b2894a2ef038c6ed641d86eaa83cb1428e35258080dc3585d7e309a3",
+              "size_bytes": 328016,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-d035e298cedd4ef9b96036987d18e7ae",
+          "document_id": "doc-c38ba688b2894a2ef038c6ed641d86eaa83cb1428e35258080dc3585d7e309a3",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:08:42.637868+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1110/2021111000481.pdf",
+          "publication_assertion": null,
+          "sha256": "c38ba688b2894a2ef038c6ed641d86eaa83cb1428e35258080dc3585d7e309a3",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-q1-announcement-financial-spec.json",
+      "document_id": "doc-faaeecacf0aeb9db8af18b6c7a169fb8cdfbff71bb2ec63fc8307af5403c4020",
+      "listing_document_id": "doc-c8294df4c554ec37e4a6d50bb59277e526ec4eae7dc18049c89e06315c005f6e",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2022",
+      "date": "2022-05-18",
+      "excerpt": "Release Time: 18/05/2022 16:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2022 ( 615KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0518/2022051800271.pdf",
+      "verified_sha256": "faaeecacf0aeb9db8af18b6c7a169fb8cdfbff71bb2ec63fc8307af5403c4020",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:08:58.666784+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0518/2022051800271.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/7dcad36008dd45028bfae158de9def02/response-4b4fea7ea6e34ca882440b79ef4bbb4b.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0518/2022051800271.pdf",
+              "rows": 0,
+              "sha256": "faaeecacf0aeb9db8af18b6c7a169fb8cdfbff71bb2ec63fc8307af5403c4020",
+              "size_bytes": 630122,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-d14f28d593b44e23a7a64b5d37668800",
+          "document_id": "doc-faaeecacf0aeb9db8af18b6c7a169fb8cdfbff71bb2ec63fc8307af5403c4020",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:08:58.668385+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0518/2022051800271.pdf",
+          "publication_assertion": null,
+          "sha256": "faaeecacf0aeb9db8af18b6c7a169fb8cdfbff71bb2ec63fc8307af5403c4020",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2022-q3-announcement-financial-spec.json",
+      "document_id": "doc-714a71e721b44e2103e0f9bae410f7f8a25340e717ec904f5716800776db2c19",
+      "listing_document_id": "doc-c8294df4c554ec37e4a6d50bb59277e526ec4eae7dc18049c89e06315c005f6e",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2022",
+      "date": "2022-11-16",
+      "excerpt": "Release Time: 16/11/2022 16:40 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2022 ( 725KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600375.pdf",
+      "verified_sha256": "714a71e721b44e2103e0f9bae410f7f8a25340e717ec904f5716800776db2c19",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:00.340445+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600375.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/e082368862e74d9c8e7f3ba3cd6d6338/response-285d530a84134360b59fd12e4c29e592.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600375.pdf",
+              "rows": 0,
+              "sha256": "714a71e721b44e2103e0f9bae410f7f8a25340e717ec904f5716800776db2c19",
+              "size_bytes": 742519,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-e7639fd383db4a3b97acbe6471699acc",
+          "document_id": "doc-714a71e721b44e2103e0f9bae410f7f8a25340e717ec904f5716800776db2c19",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:00.342267+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1116/2022111600375.pdf",
+          "publication_assertion": null,
+          "sha256": "714a71e721b44e2103e0f9bae410f7f8a25340e717ec904f5716800776db2c19",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-q1-announcement-financial-spec.json",
+      "document_id": "doc-58dc377a97eaafdf77b96768d7a8a6c002e0a611500aa4d78075e28e30437b94",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2023",
+      "date": "2023-05-17",
+      "excerpt": "Release Time: 17/05/2023 16:30 Stock Code: 00700 Stock Short Name: TENCENT Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2023 ( 627KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700239.pdf",
+      "verified_sha256": "58dc377a97eaafdf77b96768d7a8a6c002e0a611500aa4d78075e28e30437b94",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:05.740914+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700239.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/07efe575939c453297fef5137189f9f5/response-47dfe1c394644c9fbf91b82efba780b3.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700239.pdf",
+              "rows": 0,
+              "sha256": "58dc377a97eaafdf77b96768d7a8a6c002e0a611500aa4d78075e28e30437b94",
+              "size_bytes": 642079,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-f352a2bc5a874bf9bab101bec686aef0",
+          "document_id": "doc-58dc377a97eaafdf77b96768d7a8a6c002e0a611500aa4d78075e28e30437b94",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:05.742569+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0517/2023051700239.pdf",
+          "publication_assertion": null,
+          "sha256": "58dc377a97eaafdf77b96768d7a8a6c002e0a611500aa4d78075e28e30437b94",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2023-q3-announcement-financial-spec.json",
+      "document_id": "doc-3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+      "listing_document_id": "doc-689de1008b2bfd7f3b2b06a5d50e29c935492e64a4daf04fa7026deb4b69d304",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2023",
+      "date": "2023-11-15",
+      "excerpt": "Release Time: 15/11/2023 16:30 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2023 ( 711KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1115/2023111500283.pdf",
+      "verified_sha256": "3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:19.039100+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1115/2023111500283.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/dafddbb0249e4171a58cbaa969a71a54/response-f3bb1a376f5243ea80de9a9010156891.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1115/2023111500283.pdf",
+              "rows": 0,
+              "sha256": "3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+              "size_bytes": 727693,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-7cfd622fe42d46f3942f34201e3da6ea",
+          "document_id": "doc-3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:19.040913+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1115/2023111500283.pdf",
+          "publication_assertion": null,
+          "sha256": "3a36bd73aebbd04742362b4a272f3cb650e3b8b9800e78848c26fc5a1eb471cf",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-q1-announcement-financial-spec.json",
+      "document_id": "doc-2f9a5cb0389704914aaea4439e4cbf26ba2203cebe60a2255dc7520b88fe1431",
+      "listing_document_id": "doc-a20b465212b80758fcf4009649fdd7de4e5e8def51a081b127933c5cff6c3904",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2024",
+      "date": "2024-05-14",
+      "excerpt": "Release Time: 14/05/2024 16:30 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2024 ( 681KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0514/2024051400293.pdf",
+      "verified_sha256": "2f9a5cb0389704914aaea4439e4cbf26ba2203cebe60a2255dc7520b88fe1431",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:26.779492+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0514/2024051400293.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/ee48c2185ca34e08b24f4f05c17be193/response-1d1e6297446f453cb1601387d2b41801.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0514/2024051400293.pdf",
+              "rows": 0,
+              "sha256": "2f9a5cb0389704914aaea4439e4cbf26ba2203cebe60a2255dc7520b88fe1431",
+              "size_bytes": 697733,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-b49fa3ff63e14132b65d3b4141e5ecf1",
+          "document_id": "doc-2f9a5cb0389704914aaea4439e4cbf26ba2203cebe60a2255dc7520b88fe1431",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:26.781112+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0514/2024051400293.pdf",
+          "publication_assertion": null,
+          "sha256": "2f9a5cb0389704914aaea4439e4cbf26ba2203cebe60a2255dc7520b88fe1431",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2024-q3-announcement-financial-spec.json",
+      "document_id": "doc-feb53a86353377b146a7a671e2e762368e399ae2ec0d8949f4f3709b438e6003",
+      "listing_document_id": "doc-a20b465212b80758fcf4009649fdd7de4e5e8def51a081b127933c5cff6c3904",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2024",
+      "date": "2024-11-13",
+      "excerpt": "Release Time: 13/11/2024 16:30 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2024 ( 773KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1113/2024111300327.pdf",
+      "verified_sha256": "feb53a86353377b146a7a671e2e762368e399ae2ec0d8949f4f3709b438e6003",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:23.329957+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1113/2024111300327.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/e40b8e67bcab4496950424674a241108/response-0ebd7a7bbf1c4f888020e958ee80f258.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1113/2024111300327.pdf",
+              "rows": 0,
+              "sha256": "feb53a86353377b146a7a671e2e762368e399ae2ec0d8949f4f3709b438e6003",
+              "size_bytes": 791634,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-e2a55fb0a7ef472c80d6f8c049d51671",
+          "document_id": "doc-feb53a86353377b146a7a671e2e762368e399ae2ec0d8949f4f3709b438e6003",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:23.331914+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1113/2024111300327.pdf",
+          "publication_assertion": null,
+          "sha256": "feb53a86353377b146a7a671e2e762368e399ae2ec0d8949f4f3709b438e6003",
+          "source_id": "hkex-tencent-announcements",
+          "status": "received"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q1-announcement-financial-spec.json",
+      "document_id": "doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2025",
+      "date": "2025-05-14",
+      "excerpt": "Release Time: 14/05/2025 16:31 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2025 ( 652KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051400273.pdf",
+      "verified_sha256": "d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:33.531099+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051400273.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/ad53f68f2c3f4475a087bfea59f1274b/response-bb313ac37a804abd9ec5fe68c8d68f2c.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051400273.pdf",
+              "rows": 0,
+              "sha256": "d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+              "size_bytes": 667298,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-146eb99dffa6464881b249d5d5a18cc2",
+          "document_id": "doc-d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:33.532728+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0514/2025051400273.pdf",
+          "publication_assertion": null,
+          "sha256": "d9dee97e3d430d859e276e21ae08b3876f321d429ece3a3acb26110af3bd49fd",
+          "source_id": "hkex-tencent-announcements",
+          "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2025-q3-announcement-financial-spec.json",
+      "document_id": "doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "listing_document_id": "doc-72fd0b2159ca39b2b0b93ff5415646b3fd9d2309e3f53cfd620a22c48374522a",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2025",
+      "date": "2025-11-13",
+      "excerpt": "Release Time: 13/11/2025 16:30 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE AND NINE MONTHS ENDED 30 SEPTEMBER 2025 ( 732KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+      "verified_sha256": "2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:32.385354+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/2a82a027292a4a29984642483be36ad5/response-0b4a594a6b4948d993c15dac91992acd.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+              "rows": 0,
+              "sha256": "2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+              "size_bytes": 749662,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-c00d58e782694decb7c0f9ee9a560902",
+          "document_id": "doc-2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:32.387161+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+          "publication_assertion": null,
+          "sha256": "2cfaa94023b11e842d898f23fb19fd9949af68c57630c61a4d47ae542cdaa4bf",
+          "source_id": "hkex-tencent-announcements",
+          "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "candidate_spec": "data/outputs/research-records/dual-company-inputs-v2-20261030/tencent-2026-q1-announcement-financial-spec.json",
+      "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "listing_document_id": "doc-b76ee7729c2ca9ee443cbe373f6d11595010e6976b75c76f20ad2194520c7210",
+      "title": "ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2026",
+      "date": "2026-05-13",
+      "excerpt": "Release Time: 13/05/2026 16:31 Stock Code: 00700 80700 Stock Short Name: TENCENT TENCENT-R Document: Announcements and Notices - [Quarterly Results] ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED 31 MARCH 2026 ( 642KB )",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf",
+      "verified_sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+      "collection_receipts": [
+        {
+          "collection_context": {
+            "delivery": {
+              "attempts": 1,
+              "content_type": "application/pdf",
+              "fetched_at": "2026-10-30T11:09:41.814198+00:00",
+              "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf",
+              "path": "/workspace/investment-research/.research-local/collections/8742f8fce5f4402fbead4079ac5db8f4/response-0b39692193d64ecb89a9836b73fc1f82.pdf",
+              "request": {
+                "parameter_names": [],
+                "source_id": "hkex-tencent-announcements"
+              },
+              "request_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf",
+              "rows": 0,
+              "sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+              "size_bytes": 657605,
+              "source_id": "hkex-tencent-announcements"
+            }
+          },
+          "collection_id": "collection-7c30726c3975456b881503d897f64f66",
+          "document_id": "doc-e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+          "limitations": [
+            "Source attribution and publication time supplied by importer"
+          ],
+          "observed_at": "2026-10-30T11:09:41.815853+00:00",
+          "origin_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300334.pdf",
+          "publication_assertion": null,
+          "sha256": "e457a6b8eab0e107430ac16d374bc92d37a920161551826685324882235f8a61",
+          "source_id": "hkex-tencent-announcements",
+          "status": "unchanged"
+        }
+      ]
+    }
+  ]
+}

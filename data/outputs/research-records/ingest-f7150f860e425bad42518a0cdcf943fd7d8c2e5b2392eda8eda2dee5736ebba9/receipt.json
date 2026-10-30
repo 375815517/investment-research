@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf",
+    "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/document.json",
+    "data/outputs/research-records/ingest-f7150f860e425bad42518a0cdcf943fd7d8c2e5b2392eda8eda2dee5736ebba9/candidate.json",
+    "data/outputs/research-records/ingest-f7150f860e425bad42518a0cdcf943fd7d8c2e5b2392eda8eda2dee5736ebba9/validation.json",
+    "data/outputs/research-records/ingest-f7150f860e425bad42518a0cdcf943fd7d8c2e5b2392eda8eda2dee5736ebba9/review.json",
+    "data/inputs/companies/xiaomi/statements/2025/batch-78bfa990adda5f540b5dd333a8e65c3ecce452055224db2f7492f238e1ba439b/document-facts.json",
+    "data/inputs/companies/xiaomi/statements/2025/batch-78bfa990adda5f540b5dd333a8e65c3ecce452055224db2f7492f238e1ba439b/batch.json",
+    "data/outputs/research-records/ingest-f7150f860e425bad42518a0cdcf943fd7d8c2e5b2392eda8eda2dee5736ebba9/receipt.json"
+  ],
+  "candidate_hash": "f7150f860e425bad42518a0cdcf943fd7d8c2e5b2392eda8eda2dee5736ebba9",
+  "plan_id": "plan-bfe8c21d19de413cd16f19c97cf537cbaac40f717c9b0b8deb123f555d7785e7"
+}

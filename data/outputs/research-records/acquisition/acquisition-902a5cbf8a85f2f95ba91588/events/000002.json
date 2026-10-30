@@ -1,0 +1,24 @@
+{
+  "event_hash": "840f47456ba9e80357e28abcf6fd3957f1adf2c9e51bbdd3547ab6b01809efe2",
+  "items": [
+    {
+      "attempts": 1,
+      "collection_refs": [
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-reports/2026/doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306/v1/document.json",
+        "data/inputs/collection-records/xiaomi-reports/2026/collection-9515fa1b430a4c5ea80c5a7cc1310fa4/collection.json"
+      ],
+      "context": "Annual & Interim Reports",
+      "document_id": "doc-e6033663ce956a22ae74ac34117f52fa173b5a8cac28a63974c2ca0ace4ca306",
+      "item_id": "item-b6b138f9b32443b770205dca",
+      "listing_document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "stage": "awaiting_extraction",
+      "title": "2024 Interim Report",
+      "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/09/26/5-16-23/XIAOMI%202024%20INTERIM%20REPORT-ENG.pdf"
+    }
+  ],
+  "previous_hash": "3226540b10666d871b1a94be27d0fd39972f9f0018429bd749e77a527a2bbc41",
+  "recorded_at": "2026-10-30T10:47:26.887968+00:00",
+  "sequence": 2,
+  "task_id": "acquisition-902a5cbf8a85f2f95ba91588"
+}

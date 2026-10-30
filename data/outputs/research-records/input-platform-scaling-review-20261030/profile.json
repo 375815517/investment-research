@@ -1,0 +1,33 @@
+[
+  {
+    "mode": "request_local_read_snapshot_revision",
+    "elapsed_seconds": 0.3463612599989574,
+    "revision": "7c6ea2cdf4febde42672a9fe96377193a113dfe5a2e7b800856718a3daa455ab",
+    "counts": {
+      "document_calls": 126,
+      "document_index_builds": 1
+    },
+    "batch_count": 126
+  },
+  {
+    "mode": "one_document_without_snapshot",
+    "elapsed_seconds": 0.037465023997356184,
+    "counts": {
+      "document_calls": 1,
+      "document_index_builds": 1
+    }
+  },
+  {
+    "mode": "inventory",
+    "documents": 211,
+    "batches": 126
+  },
+  {
+    "mode": "revision_with_writer_lock_without_read_cache",
+    "elapsed_seconds": 11.936632965996978,
+    "revision": "e82b6f3d85b4dc1781b360e6ec5afefe88b540fc4508f8a6a91f81242e3fd067",
+    "counts": {
+      "document_index_builds": 127
+    }
+  }
+]

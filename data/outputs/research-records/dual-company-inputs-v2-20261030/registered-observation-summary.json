@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-30T11:45:00.583264+00:00",
+  "candidate_files": 226,
+  "admitted_candidate_files": 225,
+  "not_admitted_candidate_files": [
+    "xiaomi-2023-year-end-issued-shares-candidates.json"
+  ],
+  "registered": {
+    "financial-observations": {
+      "batches": 229,
+      "rows": 3073,
+      "by_company": {
+        "tencent": 1554,
+        "xiaomi": 1519
+      }
+    },
+    "operating-observations": {
+      "batches": 4,
+      "rows": 22,
+      "by_company": {
+        "tencent": 6,
+        "xiaomi": 16
+      }
+    }
+  },
+  "acquisition_tasks": {
+    "count": 21,
+    "statuses": {
+      "completed_with_skips": 10,
+      "complete": 11
+    },
+    "unreviewed_documents": 0,
+    "item_stages": {
+      "verified": 93,
+      "skipped": 21
+    }
+  },
+  "notes": [
+    "Financial counts include source-version observations, including formal interim reports and earlier announcements, and do not represent unique economic facts",
+    "The single rejected Xiaomi2023 issued-shares candidate remains outside registered data due to conflicting source figures",
+    "Task verification applies to explicitly selected observation subsets; overall field completeness remains governed by exact input profiles"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "prepare": {
+    "status": "prepared",
+    "candidate_id": "candidate-22fbdd4f4aeb53d41cc155f19abd6fdadcfe30ad75a20db4ac8c22820bffbf0c",
+    "candidate_hash": "38fadb6330c704669c31d968a99923afecbea3be0b968c3b198e52dd5f1f2e4e",
+    "record_count": 27,
+    "artifact_refs": [
+      ".research-local/candidates/candidate-22fbdd4f4aeb53d41cc155f19abd6fdadcfe30ad75a20db4ac8c22820bffbf0c.json"
+    ],
+    "next_actions": [
+      "validate"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-db7be4ba1e5c4aa582a4a0279c4fcb94",
+    "summary": "prepare",
+    "issues": []
+  },
+  "validate": {
+    "status": "review_required",
+    "validation": {
+      "candidate_id": "candidate-22fbdd4f4aeb53d41cc155f19abd6fdadcfe30ad75a20db4ac8c22820bffbf0c",
+      "candidate_hash": "38fadb6330c704669c31d968a99923afecbea3be0b968c3b198e52dd5f1f2e4e",
+      "status": "review_required",
+      "rule_version": "v1",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "record_count": 27
+    },
+    "artifact_refs": [
+      ".research-local/validations/candidate-22fbdd4f4aeb53d41cc155f19abd6fdadcfe30ad75a20db4ac8c22820bffbf0c/2ab54eb1e2a8261fe3e9244c42ac9338d788aa77e44e80759eea03f26672562e.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "severity": "warning",
+        "retryable": false
+      }
+    ],
+    "next_actions": [
+      "review"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-65c1eb65b1bc4dd8a35d3166178fc94e",
+    "summary": "validate"
+  }
+}

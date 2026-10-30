@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/original.pdf",
+    "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/document.json",
+    "data/outputs/research-records/ingest-4e73c3316411ed59d0296a5d6b4607ace45b4defbbef60f98ba90fa50b72a19b/candidate.json",
+    "data/outputs/research-records/ingest-4e73c3316411ed59d0296a5d6b4607ace45b4defbbef60f98ba90fa50b72a19b/validation.json",
+    "data/outputs/research-records/ingest-4e73c3316411ed59d0296a5d6b4607ace45b4defbbef60f98ba90fa50b72a19b/review.json",
+    "data/inputs/companies/xiaomi/financials/2022/batch-d219e4084e1e8768e78b3ac106a1e0ef4a7f745aa680bf90eb6f5c791140f305/financial-observations.json",
+    "data/inputs/companies/xiaomi/financials/2022/batch-d219e4084e1e8768e78b3ac106a1e0ef4a7f745aa680bf90eb6f5c791140f305/batch.json",
+    "data/outputs/research-records/ingest-4e73c3316411ed59d0296a5d6b4607ace45b4defbbef60f98ba90fa50b72a19b/receipt.json"
+  ],
+  "candidate_hash": "4e73c3316411ed59d0296a5d6b4607ace45b4defbbef60f98ba90fa50b72a19b",
+  "plan_id": "plan-557a59f9526d85c936db57bf771fdfd883675640482940b38dd726144827371a"
+}
