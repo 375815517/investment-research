@@ -3,16 +3,15 @@
 __pycache__/
 .build/
 node_modules/
-*.duckdb
-*.duckdb.wal
 .pytest_cache/
 .ruff_cache/
 
-# 宿主派生投影及本地安装状态；权威内容位于 skills/ 和 agent-support/
+# 宿主派生投影及本地安装状态；权威内容位于 ai/skills/ 和 ai/adapters/
 /.agents/skills/
 /.codebuddy/skills/
 /.claude/skills/
 /.workbuddy/skills/
+# 本地数据库、索引、暂存任务统一放这里；正式证据必须进入 data/
 /.research-local/
 
 # 本机凭据；公开示例配置可以提交
