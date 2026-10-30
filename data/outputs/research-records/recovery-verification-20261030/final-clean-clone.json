@@ -1,0 +1,271 @@
+{
+  "creation": {
+    "head": "56133cf2ad14c5e53a3363a6cc2d7c39f76990a2",
+    "mode": "fresh git clone, no hardlinks, core.autocrlf=true during checkout",
+    "path": "/tmp/investment-research-verified-72c9eff3",
+    "seconds": 1.561
+  },
+  "dependency_setup": "uv sync --locked --offline --group dev with existing uv package cache",
+  "limits": [
+    "Local Git clone duration is not remote download performance",
+    "Legacy worktree deletions were preserved outside the publication index"
+  ],
+  "network_during_verification": "socket.create_connection disabled",
+  "verification": {
+    "batches_verified": 415,
+    "bundles": [
+      {
+        "bundle_id": "inputs-5d6d8ee2949318cd7c4445dec549152a",
+        "profile": "annual-share-repurchase-disclosures",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-da3b04300944808c4d9d79df0370a966",
+        "profile": "hang-seng-index-history-2018-2026",
+        "status": "verified",
+        "version": "3"
+      },
+      {
+        "bundle_id": "inputs-d3863cc1eda3db817f20da41d6f6352f",
+        "profile": "market-window-hkex-2025-2026",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-e8d6c96a4d1f3c42a34e3c198751df82",
+        "profile": "market-window-sfc-2025-2026",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-2f04115c5105a926d3e2b340e14e5094",
+        "profile": "tencent-annual-core",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-a37c73e1385fd1a055ea694b4e35e83f",
+        "profile": "tencent-annual-valuation-dependencies",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-1c7494345e29f7835e087b202deb4907",
+        "profile": "tencent-annual-valuation-dependencies",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-dc0ade5867044359f82efd7dd984bc08",
+        "profile": "tencent-hk-history-2018-2026",
+        "status": "verified",
+        "version": "3"
+      },
+      {
+        "bundle_id": "inputs-2584234958f6f4b32a598f0cf2bda8d5",
+        "profile": "tencent-interim-announcement-core",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-7165beadd2772423e7184f123cd47c5f",
+        "profile": "tencent-interim-quarterly-core",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-542b6665f4ca8cb1eca86e216a973d81",
+        "profile": "tencent-operating-2024-2025",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-7c64061dd62a6e15d6acd3fc88eac4e4",
+        "profile": "tencent-year-end-issued-shares",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-dccd48132c9d1fede5fbd7debb8b7faa",
+        "profile": "xiaomi-annual-core",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-33950f61353c3b67ea015165ba8aea8c",
+        "profile": "xiaomi-annual-valuation-dependencies",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-39f10ca2c670f353f69c8e2952450a56",
+        "profile": "xiaomi-annual-valuation-dependencies",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-d7db40b4e1b6d7c568ce1b5ccb33dee1",
+        "profile": "xiaomi-hk-history-2018-2026",
+        "status": "verified",
+        "version": "3"
+      },
+      {
+        "bundle_id": "inputs-e644868a1c775cb5ce8e5cb0d8b13452",
+        "profile": "xiaomi-interim-announcement-core",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-6b8196264ffd0c718a23534c9329052c",
+        "profile": "xiaomi-interim-quarterly-core",
+        "status": "verified",
+        "version": "2"
+      },
+      {
+        "bundle_id": "inputs-f6f1898b4db644700184dfb4146c3901",
+        "profile": "xiaomi-operating-2024-2025",
+        "status": "verified",
+        "version": "1"
+      },
+      {
+        "bundle_id": "inputs-fa7deb9a818e7ac942b5e39b19f1e76d",
+        "profile": "xiaomi-year-end-issued-shares",
+        "status": "verified",
+        "version": "1"
+      }
+    ],
+    "head": "56133cf2ad14c5e53a3363a6cc2d7c39f76990a2",
+    "initial_local_cache_present": false,
+    "issues": [],
+    "originals_verified": 281,
+    "recovery": [
+      {
+        "candidate_restored": true,
+        "checkpoint": "000029.json",
+        "dataset_id": "corporate-actions",
+        "formal_inputs_unchanged": true,
+        "issue": null,
+        "status": "complete",
+        "task_id": "acquisition-493b2bf8ba006e6207c5df36"
+      },
+      {
+        "candidate_restored": true,
+        "checkpoint": "000019.json",
+        "dataset_id": "market-observations",
+        "formal_inputs_unchanged": true,
+        "issue": null,
+        "status": "complete",
+        "task_id": "acquisition-8884f1c13a4df54c8cf767f1"
+      }
+    ],
+    "status": "passed",
+    "task_statuses": [
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-0561315293ef64fcf981e012"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-0dfe6d3290d9ee187425e05e"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-1b56f5c4b66020dcadf02072"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-2b17052fcea6d649c7641c60"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-33fd4a3326efebd1414a92c4"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-38ef4ca50f232d01df71d32c"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-3febfde50735982754ffcf49"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-4bf876bea91c2c3d21efdfd5"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-5189848e1327fa5d5257de7d"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-73471611f15c46373f31495c"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-7c7c0a70a3fd2663e34c4f15"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-902a5cbf8a85f2f95ba91588"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-959af9923a113f3da9e6a1f9"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-a81ed0b8157f57da03831ef3"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-a903efffd3d561b8d8f92ae0"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-aaa02bca2061c1b50917547f"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-c32c227bbd1fee26be93d9fe"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-c9072dc5fe1e7de24616898d"
+      },
+      {
+        "matches_recorded": true,
+        "status": "complete",
+        "task_id": "acquisition-e8186ad31dbe18fcebeba8c4"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-fa13b3160035c9938b978add"
+      },
+      {
+        "matches_recorded": true,
+        "status": "completed_with_skips",
+        "task_id": "acquisition-fcb1015e36adf28171870964"
+      }
+    ]
+  }
+}

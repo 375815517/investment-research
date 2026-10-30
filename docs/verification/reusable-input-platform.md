@@ -87,3 +87,5 @@ Codex/CodeBuddy文件投影已同步；宿主自动发现与实际调用没有�
 完整检查通过366项测试、Ruff、mypy、离线演示及7个workspace包构建。最终输入包在 `data/outputs/research-records/verified-release-inputs-20261030/`，包含ready、limited及blocked的真实状态；固定版本校验通过不会改变用途状态。实现按源码摘要去重归档，旧开发期输入包也已保全对应源码，未来可按原版本恢复。
 
 新克隆验收发现并修复了公司行动新增可选付款精度字段对旧任务幂等恢复的影响：比较视图归一等价默认值，真实日期变动仍冲突，旧批次字节未改。验证和复核各自使用独立校验快照，恢复后不依赖原机器候选缓存。失败及修复回执保存在 `recovery-verification-20261030/`。
+
+最终干净Git克隆（56133cf）验证通过：无原机器 `.research-local` 缓存，20个最终输入包、281份原件及415个批次摘要均通过；21个财务任务状态一致。禁用网络连接后，公司行动与市场观测均成功恢复“已发布但未完成检查点”的状态，候选/审核从Git恢复，正式输入不变。依赖安装使用现有uv缓存；检出启用core.autocrlf=true仍保持证据摘要。回执为 `recovery-verification-20261030/final-clean-clone.json`。
