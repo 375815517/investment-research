@@ -1,0 +1,31 @@
+{
+  "dataset_id": "financial-facts",
+  "end": "2024-12-31",
+  "evidence_document_ids": [
+    "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145"
+  ],
+  "expectation_id": "xiaomi-2024-annual-observed-20261030",
+  "items": [
+    {
+      "currency": "CNY",
+      "date": "2024-12-31",
+      "due_at": "2026-10-30T08:08:57.680170+00:00",
+      "expected": true,
+      "metric_ids": [
+        "revenue",
+        "gross-profit",
+        "operating-profit",
+        "profit-for-year"
+      ],
+      "period_start": "2024-01-01",
+      "reason": "Observed issued 2024 annual results; required four consolidated actual fields from PDF page 2, not an inferred statutory deadline",
+      "report_document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+      "scope": "consolidated"
+    }
+  ],
+  "observed_at": "2026-10-30T08:08:57.680170+00:00",
+  "published_at": "2026-10-30T08:08:57.680170+00:00",
+  "registered_at": "2026-10-30T08:08:57.680170+00:00",
+  "start": "2024-12-31",
+  "subject_id": "xiaomi"
+}

@@ -1,0 +1,133 @@
+{
+  "data_readiness": "complete",
+  "host_identity": "not_attested",
+  "invocation": "verified",
+  "mode": "explicit_read_and_cli",
+  "native_discovery": "not_tested",
+  "protocol_version": "1",
+  "recorded_at": "2026-10-30T08:09:56.094139+00:00",
+  "request_sha256": "3edb7ca478d628ab553a8840aa7fc34ee29a605535a8473bc6dcb5dd6a505295",
+  "semantic_accuracy": "not_tested",
+  "skills": [
+    {
+      "path": "ai/skills/data-planning/SKILL.md",
+      "sha256": "b956552df0cd2d36de1ca49fa85135a96f988d965c366ba99f5cbc2ee90c1fe4",
+      "skill_id": "data-planning"
+    },
+    {
+      "path": "ai/skills/data-acquisition/SKILL.md",
+      "sha256": "a543ecd443959a1a200ab36ea970d8aad8650cac841bdba6087223c3adbe2cd1",
+      "skill_id": "data-acquisition"
+    },
+    {
+      "path": "ai/skills/data-review/SKILL.md",
+      "sha256": "3e87c7575b96660462fa32d6758746fda6d34a12931d4bf64564563783494d29",
+      "skill_id": "data-review"
+    }
+  ],
+  "steps": [
+    {
+      "command": [
+        "research",
+        "capabilities",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [],
+      "response_sha256": "37aa144bfb2f8f166019fb0a9bea09ce7aff9e1d0c018b7fc3e13ec0f6d81b68",
+      "result": {
+        "artifact_refs": [],
+        "datasets": [
+          "daily-prices",
+          "financial-facts"
+        ],
+        "issues": [],
+        "limitations": [
+          "No automatic Git commit or push",
+          "Publication time is importer-asserted",
+          "Calendar completeness requires evidence-backed expectation inputs; live source authentication is separate",
+          "Financial semantics require explicit review; no automatic OCR or model calls"
+        ],
+        "next_actions": [],
+        "operation_id": "op-80ca7581e13b4b95bf4635707f73ebee",
+        "operations": [
+          "capabilities",
+          "schema",
+          "import",
+          "prepare",
+          "validate",
+          "review",
+          "ingest_plan",
+          "ingest_apply",
+          "coverage",
+          "status",
+          "resume",
+          "index",
+          "source_check",
+          "collect",
+          "detect_gaps",
+          "ensure_plan",
+          "ensure_apply"
+        ],
+        "protocol_version": "1",
+        "status": "available",
+        "summary": "capabilities"
+      },
+      "status": "available"
+    },
+    {
+      "command": [
+        "research",
+        "data",
+        "detect-gaps",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [],
+      "response_sha256": "a113d1d6e0f118ab3e7bbb66b16c16210bca3f3f15d5b12823af9e1d885cac86",
+      "result": {
+        "artifact_refs": [
+          "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+          "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+          "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+        ],
+        "coverage": {
+          "expected_count": 4,
+          "present_count": 4
+        },
+        "excluded": [
+          {
+            "basis": "19 October: official day following Chung Yeung public holiday",
+            "date": "2026-10-19",
+            "reason": "not_expected"
+          },
+          {
+            "basis": "Saturday: exchange non-trading day",
+            "date": "2026-10-24",
+            "reason": "not_expected"
+          }
+        ],
+        "gaps": [],
+        "issues": [],
+        "next_actions": [],
+        "operation_id": "op-a54be622f73a4c609211bd0ac783424a",
+        "protocol_version": "1",
+        "request": {
+          "dataset_id": "daily-prices",
+          "end": "2026-10-24",
+          "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+          "knowledge_mode": "retrospective_explanation",
+          "price_basis": "provider-native",
+          "source_id": "tencent-kline",
+          "start": "2026-10-19",
+          "subject_id": "xiaomi-hk"
+        },
+        "status": "complete",
+        "summary": "detect gaps"
+      },
+      "status": "complete"
+    }
+  ],
+  "verification_id": "f1460a25a0624a0da370396dcf44b92f"
+}

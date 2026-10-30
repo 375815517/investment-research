@@ -14,3 +14,7 @@ known_limitations:
   - Historical quote split-adjustment basis has not been verified; price_basis remains provider-native.
   - No verified complete exchange calendar or corporate-action coverage.
   - Archival and redistribution rights require separate verification; this configuration does not grant them.
+
+source_symbol: 1810.HK
+security_id: xiaomi-hk
+currency: HKD

@@ -19,9 +19,11 @@
 - [运行手册](docs/operations/input-platform.md)：安装、CLI、数据与宿主适配。
 - [验收记录](docs/verification/input-platform-v1.md)：实际通过项和未完成范围。
 
+- [数据平台闭环设计](docs/plans/data-platform-closure.md)与[真实验收](docs/verification/data-platform-closure.md)：缺口检测、按需补采、真实小米数据及网页。
+
 ## 当前状态
 
-已实现首版 Python workspace、CLI、原件归档、候选校验/复核/入库、状态与索引、HTTP来源基础和宿主文件适配。离线样例仅用于验收，真实小米数据源、宿主原生调用、完整历史版本解析和API/worker/web的状态见验收记录。
+已实现 Python workspace、CLI/API/网页、原件归档、候选校验/复核/入库、缺口检测和按需补采。小米有限日期的来源原始行情及一份官方财报已完成真实闭环。来源价格/成交量口径及历史证据限制见最新验收记录；定时worker、MCP和Hook未实现。
 
 | 目录 | 用途 |
 | --- | --- |

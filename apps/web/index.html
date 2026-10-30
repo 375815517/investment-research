@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研习 · 输入数据工作台</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<header><div class="brand">研习 <span>INPUT WORKSPACE</span></div><h1>输入数据工作台</h1><p>浏览已归档资料与整理数据，检查覆盖范围，并按明确计划补齐缺口。</p></header>
+<main>
+  <section aria-labelledby="scope-title">
+    <div class="section-heading"><h2 id="scope-title">研究范围</h2><span id="connection" role="status">连接中…</span></div>
+    <form id="scope-form">
+      <div class="fields">
+        <label>研究对象（主证券）<select id="subject" required><option value="">载入中…</option></select></label>
+        <label>数据类型<select id="dataset"><option value="daily-prices">日行情</option><option value="financial-facts">财务披露事实</option></select></label>
+        <label>行情价格口径<select id="price-basis"><option value="unadjusted">已核实不复权</option><option value="provider-native">供应商原生口径（未核实复权）</option></select></label>
+        <label>起始日期<input id="start" type="date" required></label>
+        <label>结束日期<input id="end" type="date" required></label>
+        <label>历史信息模式<select id="mode"><option value="retrospective_explanation">事后资料研究</option><option value="historical_reconstruction">模拟历史公开信息</option><option value="live_observed">复现当时实际掌握的信息</option></select></label>
+        <label>信息截止时间<input id="cutoff" type="datetime-local"></label>
+      </div>
+      <p class="hint">历史模拟与当时信息复现需要明确截止时间。当前资料不会自动被视为历史时点已知。</p>
+      <button type="submit">查询已存数据</button>
+    </form>
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+  </section>
+
+  <section aria-labelledby="coverage-title">
+    <h2 id="coverage-title">覆盖与按需补采</h2>
+    <div class="fields">
+      <label>数据来源<select id="source"><option value="">选择来源</option></select></label>
+      <label>预期交易日／披露清单<select id="expectation"><option value="">未登记可用清单</option></select></label>
+    </div>
+    <p id="source-notes" class="hint"></p>
+    <p class="hint">缺口依据已登记的预期清单计算，不用自然日猜测交易日。生成计划不会执行获取；应用计划后才会采集和核验。</p>
+    <div class="actions"><button id="check-gaps" type="button" class="secondary">检查缺口</button><button id="plan" type="button" class="secondary">生成补采计划</button><button id="apply" type="button" disabled>应用当前计划</button></div>
+    <div id="coverage-summary" class="status-card">尚未查询</div>
+    <details id="plan-details"><summary>计划与执行详情</summary><pre id="plan-output">暂无计划</pre></details>
+  </section>
+
+  <section aria-labelledby="records-title">
+    <div class="section-heading"><h2 id="records-title">整理数据</h2><span id="record-count">0 条</span></div>
+    <p class="hint">展示实际返回的记录；缺失不补零。来源口径与证据引用保留在记录中。</p>
+    <div id="records" class="table-wrap"><p class="empty">选择范围后查询</p></div>
+  </section>
+
+  <section aria-labelledby="files-title">
+    <div class="section-heading"><h2 id="files-title">原始资料与归档文件</h2><button id="reload" type="button" class="secondary">刷新目录</button></div>
+    <label>查找文件<input id="file-search" type="search" placeholder="按资料名、对象或路径筛选"></label>
+    <div class="file-layout"><ul id="files" aria-label="归档文件列表"></ul><div class="preview"><h3 id="preview-title">选择文件查看</h3><a id="download" hidden>下载原件</a><pre id="preview-content">原件、采集回执与批次清单分别保存，使用引用关联。</pre></div></div>
+  </section>
+</main>
+<footer>输入数据平台 · 只提供已保存的数据、证据与采集状态，不生成指标或投资判断。</footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # 输入平台运行手册
 
-本手册对应 0.1 工程实现。先读 [输入基线](../architecture/input-data-baseline.md)；详细完成状态与限制见 [验收记录](../verification/input-platform-v1.md)。所有例子使用实际CLI，不包含尚未实现的 data plan 或自动Git发布命令。
+本手册保留首版入库流程，并在末节补充当前检测、补采、API和网页。先读 [输入基线](../architecture/input-data-baseline.md)；详细完成状态与限制见 [验收记录](../verification/input-platform-v1.md)。所有例子使用实际CLI，不包含尚未实现的 data plan 或自动Git发布命令。
 
 ## 安装与检查
 
@@ -91,3 +91,26 @@ uv build --all-packages --out-dir .research-local/dist
 CI限定新工程和离线样本，不执行legacy旧代码。真实网络与模型检查另行运行，不纳入默认离线成功承诺。
 
 发布时根据入库回执列出的路径选择性暂存。`scripts/check_publication.py --manifest paths.json`检查Git索引是否仅包含明确文件、是否覆盖输入历史或修改legacy；不自动暂存、提交或推送。该脚本是首版发布检查，不代替完整引用校验或服务器分支保护。现有无关改动保持未暂存。
+
+## 数据平台闭环
+
+最新验收见 [数据平台闭环记录](../verification/data-platform-closure.md)，范围与设计见 [本轮计划](../plans/data-platform-closure.md)。CLI、API、网页共享相同 Service。
+
+```bash
+uv run research data detect-gaps --request request.json --json
+uv run research data ensure-plan --request request.json --json
+uv run research data ensure-apply --plan-id <返回的计划ID> --json
+uv run research-server --workspace /path/to/investment-research --port 8765
+```
+
+在运行服务的同一机器打开 `http://127.0.0.1:8765`。页面选择对象、数据集、来源、口径和有证据的预期清单，查看原件与整合记录、检测缺口及应用补采计划。服务默认仅本机，不包含公网认证部署；云环境本机地址不是用户电脑可直接访问的公网地址。
+
+日行情需求示例（文件内容）：
+
+```json
+{"dataset_id":"daily-prices","subject_id":"xiaomi-hk","start":"2026-10-19","end":"2026-10-24","expectation_path":"data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json","source_id":"tencent-kline","price_basis":"provider-native"}
+```
+
+CLI 执行真实补采时在请求增加 `acquisition: {"source_id":"tencent-kline","parameters":{"param":"hk01810,day,2026-10-19,2026-10-24,20,"}}`；网页由已登记来源生成参数。每个计划最多一次来源获取，失败后报告剩余缺口；财务原件取得后进入待提取/复核，不自动批准。
+
+新增JSON行情解析固定使用原件观察时点，保守排除观察当日及未来行情，不能在次日重解析时升级盘中样本。PDF locator 使用 `pdf:page:2` 等物理页号，excerpt必须匹配该页文本；这仅核对定位，不代替语义复核。当前查询默认 unadjusted，读取供应商原始口径需显式 price_basis=provider-native。

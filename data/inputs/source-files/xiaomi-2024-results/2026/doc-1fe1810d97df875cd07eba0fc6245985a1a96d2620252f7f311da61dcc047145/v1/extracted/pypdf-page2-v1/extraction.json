@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-30T08:10:39.897334+00:00",
+  "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "limitations": [
+    "derived extraction preserves page evidence; table interpretation requires review"
+  ],
+  "original_sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "physical_pages": [
+    2
+  ],
+  "text_sha256": "0c967c2888389ede1b623c1e9dbde7fba7b7734f0a14f43dc7b5fe8d4f61d582",
+  "tool": "pypdf",
+  "tool_version": "6.21.4"
+}

@@ -1,0 +1,514 @@
+{
+  "batch_count_after": 2,
+  "batch_count_before": 2,
+  "financial": {
+    "after": {
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json",
+        "data/inputs/companies/xiaomi/reporting-calendar/2024/2026-10-30-observed/expectations.json",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 1,
+        "present_count": 1
+      },
+      "excluded": [],
+      "gaps": [],
+      "issues": [],
+      "next_actions": [],
+      "operation_id": "op-68853c3664fb4539ad86ea1f1ddf9bc2",
+      "protocol_version": "1",
+      "request": {
+        "dataset_id": "financial-facts",
+        "end": "2024-12-31",
+        "expectation_path": "data/inputs/companies/xiaomi/reporting-calendar/2024/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "unadjusted",
+        "source_id": "xiaomi-2024-results",
+        "start": "2024-12-31",
+        "subject_id": "xiaomi"
+      },
+      "status": "complete",
+      "summary": "detect gaps"
+    },
+    "before": {
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/reporting-calendar/2024/2026-10-30-observed/expectations.json",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 1,
+        "present_count": 0
+      },
+      "excluded": [],
+      "gaps": [
+        {
+          "date": "2024-12-31",
+          "missing_metrics": [
+            "gross-profit",
+            "operating-profit",
+            "profit-for-year",
+            "revenue"
+          ],
+          "reason": "processing_required",
+          "report_document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+          "retryable": false
+        }
+      ],
+      "issues": [],
+      "next_actions": [
+        "resolve_evidence_or_review"
+      ],
+      "operation_id": "op-8167881969ba4aa5976df5cca1ce9514",
+      "protocol_version": "1",
+      "request": {
+        "dataset_id": "financial-facts",
+        "end": "2024-12-31",
+        "expectation_path": "data/inputs/companies/xiaomi/reporting-calendar/2024/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "unadjusted",
+        "source_id": "xiaomi-2024-results",
+        "start": "2024-12-31",
+        "subject_id": "xiaomi"
+      },
+      "status": "review_required",
+      "summary": "detect gaps"
+    },
+    "ingest": {
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json",
+        "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/candidate.json",
+        "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/validation.json",
+        "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/review.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json",
+        "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/receipt.json"
+      ],
+      "issues": [],
+      "next_actions": [],
+      "operation_id": "op-70c8cf3de9c84732aa23d6cd289a5c56",
+      "protocol_version": "1",
+      "receipt": {
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2024-results/2026/doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145/v1/document.json",
+          "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/candidate.json",
+          "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/validation.json",
+          "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/review.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b/batch.json",
+          "data/outputs/research-records/ingest-33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376/receipt.json"
+        ],
+        "candidate_hash": "33abddfff56c31dbf4ee45f6650a6f4a08fc19c90033201ede4267e6a83a8376",
+        "plan_id": "plan-e1f7c27b8a1743cf6a1e005b90117e0e7d53b7aa2e0b8ab8f0e82b9ed40957fb"
+      },
+      "status": "registered",
+      "summary": "ingest apply"
+    },
+    "request": {
+      "dataset_id": "financial-facts",
+      "end": "2024-12-31",
+      "expectation_path": "data/inputs/companies/xiaomi/reporting-calendar/2024/2026-10-30-observed/expectations.json",
+      "source_id": "xiaomi-2024-results",
+      "start": "2024-12-31",
+      "subject_id": "xiaomi"
+    }
+  },
+  "historical_request": {
+    "artifact_refs": [
+      "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+      "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+      "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+    ],
+    "coverage": {
+      "expected_count": 0,
+      "present_count": 0
+    },
+    "gaps": [
+      {
+        "reason": "expectation_unavailable_at_cutoff",
+        "retryable": false
+      }
+    ],
+    "issues": [],
+    "next_actions": [],
+    "operation_id": "op-002ebb171b084a16af8825ad4bcfb88e",
+    "protocol_version": "1",
+    "status": "blocked",
+    "summary": "detect gaps"
+  },
+  "limitations": [
+    "price and volume provider-native; adjustment/volume units unverified",
+    "expectations observed 2026-10-30, not a certified historical calendar snapshot",
+    "source publication timestamp unknown, strict historical queries exclude observations",
+    "self-review of financial facts, no independent reviewer"
+  ],
+  "price": {
+    "acquisition": {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-c6dce67c13384909b797376cd238f0c8/collection.json"
+      ],
+      "candidate_preview": {
+        "limitations": [
+          "The day response branch is not independent proof of unadjusted prices.",
+          "Volume units and complete exchange-session coverage require evidence.",
+          "Observations cannot be published as standard daily-prices without reconciliation."
+        ],
+        "observations": [
+          {
+            "close": "27.060",
+            "high": "27.460",
+            "low": "26.560",
+            "open": "26.840",
+            "provider_volume": "106176019.000",
+            "trading_date": "2026-10-20"
+          },
+          {
+            "close": "26.800",
+            "high": "27.760",
+            "low": "26.540",
+            "open": "27.280",
+            "provider_volume": "144463851.000",
+            "trading_date": "2026-10-21"
+          },
+          {
+            "close": "25.800",
+            "high": "26.620",
+            "low": "25.660",
+            "open": "26.600",
+            "provider_volume": "149385160.000",
+            "trading_date": "2026-10-22"
+          },
+          {
+            "close": "26.800",
+            "high": "27.400",
+            "low": "25.880",
+            "open": "26.000",
+            "provider_volume": "216285102.000",
+            "trading_date": "2026-10-23"
+          }
+        ],
+        "price_basis": "provider-native",
+        "symbol": "hk01810",
+        "volume_unit": "unverified"
+      },
+      "delivery": {
+        "archive_permissions": "research-only",
+        "attempts": 1,
+        "content_type": "text/html",
+        "fetched_at": "2026-10-30T08:08:32.993295+00:00",
+        "path": "/workspace/investment-research/.research-local/collections/81db51386b52410d90484ef1a649b594/response-a34360b088404406a324cc636717d97c.json",
+        "request": {
+          "parameter_names": [
+            "param"
+          ],
+          "source_id": "tencent-kline"
+        },
+        "rows": 4,
+        "sha256": "c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+        "size_bytes": 2067,
+        "source_id": "tencent-kline",
+        "usage_basis": "User-authorized limited historical source investigation; endpoint is publicly reachable. No open license or redistribution right has been established."
+      },
+      "document": {
+        "content_revision": "v1",
+        "document_id": "doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+        "first_observed_at": "2026-10-30T08:08:32.993755+00:00",
+        "path": "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/original.json",
+        "published_at": null,
+        "sha256": "c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+        "source_id": "tencent-kline",
+        "title": "Tencent Hong Kong daily chart observations"
+      },
+      "document_id": "doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+      "next_actions": [
+        "prepare"
+      ],
+      "status": "received"
+    },
+    "after": {
+      "artifact_refs": [
+        "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+        "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+        "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 4,
+        "present_count": 4
+      },
+      "excluded": [
+        {
+          "basis": "19 October: official day following Chung Yeung public holiday",
+          "date": "2026-10-19",
+          "reason": "not_expected"
+        },
+        {
+          "basis": "Saturday: exchange non-trading day",
+          "date": "2026-10-24",
+          "reason": "not_expected"
+        }
+      ],
+      "gaps": [],
+      "next_actions": [],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2026-10-24",
+        "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline",
+        "start": "2026-10-19",
+        "subject_id": "xiaomi-hk"
+      },
+      "status": "complete"
+    },
+    "artifact_refs": [
+      "data/inputs/collection-records/tencent-kline/2026/collection-c6dce67c13384909b797376cd238f0c8/collection.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/daily-prices.csv",
+      "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/original.json",
+      "data/outputs/research-records/ensure-b0531d16fe7fbee8dd2e1da7f4c81f6e10e77ba6fef6cb836ea2920c28c7e46d/6e086332ce9441cdabc694f47b59a2ec/ensure.json",
+      "data/outputs/research-records/ingest-4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a/candidate.json",
+      "data/outputs/research-records/ingest-4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a/receipt.json",
+      "data/outputs/research-records/ingest-4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a/review.json",
+      "data/outputs/research-records/ingest-4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a/validation.json"
+    ],
+    "before": {
+      "artifact_refs": [
+        "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+        "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 4,
+        "present_count": 0
+      },
+      "excluded": [
+        {
+          "basis": "19 October: official day following Chung Yeung public holiday",
+          "date": "2026-10-19",
+          "reason": "not_expected"
+        },
+        {
+          "basis": "Saturday: exchange non-trading day",
+          "date": "2026-10-24",
+          "reason": "not_expected"
+        }
+      ],
+      "gaps": [
+        {
+          "date": "2026-10-20",
+          "missing_metrics": [],
+          "reason": "missing_observation",
+          "report_document_id": null,
+          "retryable": true
+        },
+        {
+          "date": "2026-10-21",
+          "missing_metrics": [],
+          "reason": "missing_observation",
+          "report_document_id": null,
+          "retryable": true
+        },
+        {
+          "date": "2026-10-22",
+          "missing_metrics": [],
+          "reason": "missing_observation",
+          "report_document_id": null,
+          "retryable": true
+        },
+        {
+          "date": "2026-10-23",
+          "missing_metrics": [],
+          "reason": "missing_observation",
+          "report_document_id": null,
+          "retryable": true
+        }
+      ],
+      "next_actions": [
+        "ensure_plan"
+      ],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2026-10-24",
+        "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline",
+        "start": "2026-10-19",
+        "subject_id": "xiaomi-hk"
+      },
+      "status": "partial"
+    },
+    "issues": [],
+    "next_actions": [],
+    "operation_id": "op-979dcbac7659447fb4b35a85eefcd7d2",
+    "plan_id": "ensure-b0531d16fe7fbee8dd2e1da7f4c81f6e10e77ba6fef6cb836ea2920c28c7e46d",
+    "protocol_version": "1",
+    "status": "complete",
+    "summary": "ensure apply"
+  },
+  "repeat": {
+    "acquisition": null,
+    "after": {
+      "artifact_refs": [
+        "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+        "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+        "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 4,
+        "present_count": 4
+      },
+      "excluded": [
+        {
+          "basis": "19 October: official day following Chung Yeung public holiday",
+          "date": "2026-10-19",
+          "reason": "not_expected"
+        },
+        {
+          "basis": "Saturday: exchange non-trading day",
+          "date": "2026-10-24",
+          "reason": "not_expected"
+        }
+      ],
+      "gaps": [],
+      "next_actions": [],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2026-10-24",
+        "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline",
+        "start": "2026-10-19",
+        "subject_id": "xiaomi-hk"
+      },
+      "status": "complete"
+    },
+    "artifact_refs": [
+      "data/outputs/research-records/ensure-a48f48597829d96f4825c5511abd9c74c40d10af99e0f760a4fc3f2157b1af8f/87144133082b456c923fee424fa17ee4/ensure.json"
+    ],
+    "before": {
+      "artifact_refs": [
+        "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+        "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+        "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+      ],
+      "coverage": {
+        "expected_count": 4,
+        "present_count": 4
+      },
+      "excluded": [
+        {
+          "basis": "19 October: official day following Chung Yeung public holiday",
+          "date": "2026-10-19",
+          "reason": "not_expected"
+        },
+        {
+          "basis": "Saturday: exchange non-trading day",
+          "date": "2026-10-24",
+          "reason": "not_expected"
+        }
+      ],
+      "gaps": [],
+      "next_actions": [],
+      "request": {
+        "dataset_id": "daily-prices",
+        "end": "2026-10-24",
+        "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+        "knowledge_mode": "retrospective_explanation",
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline",
+        "start": "2026-10-19",
+        "subject_id": "xiaomi-hk"
+      },
+      "status": "complete"
+    },
+    "issues": [],
+    "next_actions": [],
+    "operation_id": "op-da3831bec05d4c92b457a06e0ead94af",
+    "plan_id": "ensure-a48f48597829d96f4825c5511abd9c74c40d10af99e0f760a4fc3f2157b1af8f",
+    "protocol_version": "1",
+    "status": "complete",
+    "summary": "ensure apply"
+  },
+  "unadjusted_request": {
+    "artifact_refs": [
+      "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+      "data/inputs/source-files/hk-government-holidays/2026/doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653/v1/document.json",
+      "data/inputs/source-files/hkex-trading-hours/2026/doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c/v1/document.json"
+    ],
+    "coverage": {
+      "expected_count": 4,
+      "present_count": 0
+    },
+    "excluded": [
+      {
+        "basis": "19 October: official day following Chung Yeung public holiday",
+        "date": "2026-10-19",
+        "reason": "not_expected"
+      },
+      {
+        "basis": "Saturday: exchange non-trading day",
+        "date": "2026-10-24",
+        "reason": "not_expected"
+      }
+    ],
+    "gaps": [
+      {
+        "date": "2026-10-20",
+        "missing_metrics": [],
+        "reason": "missing_observation",
+        "report_document_id": null,
+        "retryable": true
+      },
+      {
+        "date": "2026-10-21",
+        "missing_metrics": [],
+        "reason": "missing_observation",
+        "report_document_id": null,
+        "retryable": true
+      },
+      {
+        "date": "2026-10-22",
+        "missing_metrics": [],
+        "reason": "missing_observation",
+        "report_document_id": null,
+        "retryable": true
+      },
+      {
+        "date": "2026-10-23",
+        "missing_metrics": [],
+        "reason": "missing_observation",
+        "report_document_id": null,
+        "retryable": true
+      }
+    ],
+    "issues": [],
+    "next_actions": [
+      "ensure_plan"
+    ],
+    "operation_id": "op-63654df308444fa6a30ecdabeddfbc5c",
+    "protocol_version": "1",
+    "request": {
+      "dataset_id": "daily-prices",
+      "end": "2026-10-24",
+      "expectation_path": "data/inputs/markets/calendars/hkex/2026/2026-10-30-observed/expectations.json",
+      "knowledge_mode": "retrospective_explanation",
+      "price_basis": "unadjusted",
+      "source_id": "tencent-kline",
+      "start": "2026-10-19",
+      "subject_id": "xiaomi-hk"
+    },
+    "status": "partial",
+    "summary": "detect gaps"
+  }
+}

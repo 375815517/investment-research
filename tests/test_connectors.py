@@ -208,7 +208,9 @@ def yahoo_fixture(symbol="1810.HK"):
 def test_yahoo_parser_keeps_native_basis_and_missing_rows():
     from investment_connectors import parse_yahoo_chart
 
-    result = parse_yahoo_chart(yahoo_fixture(), "1810.HK", "xiaomi-hk")
+    result = parse_yahoo_chart(
+        yahoo_fixture(), "1810.HK", "xiaomi-hk", observed_at="2025-02-01T00:00:00+00:00"
+    )
     assert len(result["records"]) == 1
     assert result["records"][0]["close"] == "11"
     assert result["records"][0]["price_basis"] == "provider-native"
@@ -220,7 +222,9 @@ def test_yahoo_mismatched_symbol_is_rejected():
     from investment_connectors import parse_yahoo_chart
 
     with pytest.raises(ConnectorError):
-        parse_yahoo_chart(yahoo_fixture(), "OTHER.HK", "xiaomi-hk")
+        parse_yahoo_chart(
+            yahoo_fixture(), "OTHER.HK", "xiaomi-hk", observed_at="2025-02-01T00:00:00+00:00"
+        )
 
 
 def test_yahoo_url_template_and_original_json(tmp_path):
@@ -238,3 +242,165 @@ def test_yahoo_url_template_and_original_json(tmp_path):
     assert "/chart/1810.HK?interval=1d" in opener.calls[0][0].full_url
     assert Path(result.path).suffix == ".json"
     assert Path(result.path).read_bytes() == yahoo_fixture()
+
+
+def test_document_requires_pdf_and_preserves_original(tmp_path):
+    source = SourceDefinition(
+        source_id="report",
+        url="https://example.invalid/report.pdf",
+        connector_id="http-document-v1",
+        dataset_id="financial-facts",
+        archive_permissions="research-only",
+        usage_basis="User-authorized research",
+    )
+    body = b"%PDF-1.7\nmock body\n%%EOF\n"
+    fetched = HttpFetcher(opener=Opener(Response(body, "application/pdf"))).fetch(
+        source, {}, tmp_path
+    )
+    assert Path(fetched.path).read_bytes() == body
+    with pytest.raises(ConnectorError):
+        HttpFetcher(opener=Opener(Response(b"not pdf", "application/pdf"))).fetch(
+            source, {}, tmp_path
+        )
+
+
+def test_research_only_requires_documented_basis():
+    with pytest.raises(ConnectorError):
+        SourceDefinition(
+            source_id="test", url="https://example.invalid", archive_permissions="research-only"
+        )
+
+
+def test_tencent_json_with_html_mime_remains_unverified(tmp_path):
+    from investment_connectors import parse_tencent_kline
+
+    body = json.dumps(
+        {"code": 0, "data": {"hk01810": {"day": [["2024-01-02", "10", "11", "12", "9", "100"]]}}}
+    ).encode()
+    source = SourceDefinition(
+        source_id="test",
+        url="https://example.invalid/chart",
+        connector_id="tencent-kline-v1",
+        allowed_parameters=("param",),
+        archive_permissions="allowed",
+    )
+    fetched = HttpFetcher(opener=Opener(Response(body, "text/html"))).fetch(
+        source, {"param": "hk01810,day,,,20,"}, tmp_path
+    )
+    parsed = parse_tencent_kline(
+        Path(fetched.path).read_bytes(), "hk01810", observed_at="2025-02-01T00:00:00+00:00"
+    )
+    assert parsed["price_basis"] == "provider-native"
+    assert parsed["volume_unit"] == "unverified"
+    assert parsed["observations"][0]["close"] == "11"
+    with pytest.raises(ConnectorError):
+        parse_tencent_kline(
+            b"<html>error</html>", "hk01810", observed_at="2025-02-01T00:00:00+00:00"
+        )
+    with pytest.raises(ConnectorError):
+        parse_tencent_kline(body, "hk00001", observed_at="2025-02-01T00:00:00+00:00")
+
+
+def test_pdf_extraction_physical_page_and_missing_text(tmp_path, monkeypatch):
+    from investment_connectors import extract_pdf_page
+    from types import SimpleNamespace
+    import pypdf
+
+    page = SimpleNamespace(extract_text=lambda **kwargs: "Revenue 100")
+    monkeypatch.setattr(
+        pypdf,
+        "PdfReader",
+        lambda *args, **kwargs: SimpleNamespace(is_encrypted=False, pages=[page]),
+    )
+    assert extract_pdf_page(tmp_path / "report.pdf", 1) == "Revenue 100"
+    with pytest.raises(ConnectorError):
+        extract_pdf_page(tmp_path / "report.pdf", 0)
+    with pytest.raises(ConnectorError):
+        extract_pdf_page(tmp_path / "report.pdf", 2)
+    page.extract_text = lambda **kwargs: ""
+    with pytest.raises(ConnectorError) as exc:
+        extract_pdf_page(tmp_path / "report.pdf", 1)
+    assert exc.value.code == "PDF_TEXT_MISSING"
+
+
+def test_configured_tencent_plan_and_fixed_parser(tmp_path):
+    import yaml
+    from investment_connectors import ConnectorService
+
+    root = tmp_path / "research/sources/tencent"
+    root.mkdir(parents=True)
+    (root / "source.yaml").write_text(
+        yaml.safe_dump(
+            {
+                "source_id": "tencent",
+                "url": "https://example.invalid",
+                "connector_id": "tencent-kline-v1",
+                "source_symbol": "hk01810",
+                "security_id": "xiaomi-hk",
+                "currency": "HKD",
+            }
+        )
+    )
+    service = ConnectorService(tmp_path)
+    plan = service.execute(
+        "plan", {"source_id": "tencent", "start_date": "2024-01-01", "end_date": "2024-01-03"}
+    )
+    assert plan["parameters"] == {"param": "hk01810,day,2024-01-01,2024-01-03,320,"}
+    raw = tmp_path / "raw.json"
+    raw.write_text(
+        json.dumps(
+            {
+                "code": 0,
+                "data": {"hk01810": {"day": [["2024-01-02", "10", "11", "12", "9", "100"]]}},
+            }
+        )
+    )
+    result = service.execute(
+        "parse",
+        {
+            "source_id": "tencent",
+            "document_path": str(raw),
+            "first_observed_at": "2025-02-01T00:00:00+00:00",
+        },
+    )
+    assert result["records"][0]["volume_unit"] == "provider-native"
+    assert result["records"][0]["security_id"] == "xiaomi-hk"
+
+
+def test_archived_intraday_rows_never_upgrade_when_replayed(monkeypatch):
+    from investment_connectors import parse_tencent_kline, parse_yahoo_chart
+    import investment_connectors.http as http
+    from datetime import datetime
+
+    body = json.dumps(
+        {
+            "code": 0,
+            "data": {
+                "hk01810": {
+                    "day": [
+                        ["2025-01-01", "10", "11", "12", "9", "100"],
+                        ["2025-01-02", "10", "11", "12", "9", "50"],
+                    ]
+                }
+            },
+        }
+    ).encode()
+    observed = "2025-01-02T02:00:00+00:00"
+    before = parse_tencent_kline(body, "hk01810", observed_at=observed)
+
+    class Tomorrow(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2025, 1, 4, tzinfo=tz)
+
+    monkeypatch.setattr(http, "datetime", Tomorrow)
+    after = parse_tencent_kline(body, "hk01810", observed_at=observed)
+    assert before == after
+    assert len(after["observations"]) == 1
+    assert after["missing_or_provisional_dates"] == ["2025-01-02"]
+    # The first Yahoo fixture row belongs to the collection date and stays excluded.
+    with pytest.raises(ConnectorError):
+        parse_yahoo_chart(yahoo_fixture(), "1810.HK", "xiaomi-hk", observed_at=observed)
+    with pytest.raises(ConnectorError) as exc:
+        parse_tencent_kline(body, "hk01810", observed_at="2025-01-02T02:00:00")
+    assert exc.value.code == "OBSERVATION_TIME_REQUIRED"

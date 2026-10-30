@@ -1,0 +1,64 @@
+{
+  "candidate_id": "candidate-e9ded9b8273e021687fc95cf5d95609c86ec692b04130617e1cff866490fe333",
+  "contract_version": "1",
+  "dataset_id": "financial-facts",
+  "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "document_sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "parser_version": "codex-explicit-pdf-review-v1",
+  "records": [
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Revenue                                                                             365,906.4           270,970.1                 35.0%",
+      "locator": "pdf:page:2",
+      "metric_id": "revenue",
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "millions",
+      "source_value": "365906.4"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Gross profit                                                                          76,560.2              57,476.2                 33.2%",
+      "locator": "pdf:page:2",
+      "metric_id": "gross-profit",
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "millions",
+      "source_value": "76560.2"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Operating profit                                                                   24,502.9              20,008.7                 22.5%",
+      "locator": "pdf:page:2",
+      "metric_id": "operating-profit",
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "millions",
+      "source_value": "24502.9"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Profit for the year                                                                23,578.4              17,474.2                 34.9%",
+      "locator": "pdf:page:2",
+      "metric_id": "profit-for-year",
+      "period_end": "2024-12-31",
+      "period_start": "2024-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "millions",
+      "source_value": "23578.4"
+    }
+  ],
+  "source_id": "xiaomi-2024-results",
+  "supersedes": []
+}

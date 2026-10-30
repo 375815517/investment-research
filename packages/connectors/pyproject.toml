@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "investment-connectors"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = ["PyYAML>=6.0,<7"]
+dependencies = ["PyYAML>=6.0,<7", "pypdf>=5,<7"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/investment_connectors"]

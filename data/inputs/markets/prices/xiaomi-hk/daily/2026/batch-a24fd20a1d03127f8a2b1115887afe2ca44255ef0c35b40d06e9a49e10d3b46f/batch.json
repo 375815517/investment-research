@@ -1,0 +1,79 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a/candidate.json",
+  "batch_id": "batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f",
+  "candidate_hash": "4b498c123b58c4bed82123531cf674c5ee67bdad8ae17e07b09b892d730a6b8a",
+  "contract_version": "1",
+  "dataset_id": "daily-prices",
+  "documents": [
+    "doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/daily-prices.csv",
+      "sha256": "bc1fc2f267b5a464a30eeded4736197815deb6f0312f0f9e3426530e144fa18c"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:08:32.993755+00:00",
+  "parser_version": "tencent-kline-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T08:08:33.020611+00:00",
+  "rows": [
+    {
+      "close": "27.060",
+      "currency": "HKD",
+      "high": "27.460",
+      "low": "26.560",
+      "open": "26.840",
+      "price_basis": "provider-native",
+      "security_id": "xiaomi-hk",
+      "session": "regular-final",
+      "trading_date": "2026-10-20",
+      "volume": "106176019.000",
+      "volume_unit": "provider-native"
+    },
+    {
+      "close": "26.800",
+      "currency": "HKD",
+      "high": "27.760",
+      "low": "26.540",
+      "open": "27.280",
+      "price_basis": "provider-native",
+      "security_id": "xiaomi-hk",
+      "session": "regular-final",
+      "trading_date": "2026-10-21",
+      "volume": "144463851.000",
+      "volume_unit": "provider-native"
+    },
+    {
+      "close": "25.800",
+      "currency": "HKD",
+      "high": "26.620",
+      "low": "25.660",
+      "open": "26.600",
+      "price_basis": "provider-native",
+      "security_id": "xiaomi-hk",
+      "session": "regular-final",
+      "trading_date": "2026-10-22",
+      "volume": "149385160.000",
+      "volume_unit": "provider-native"
+    },
+    {
+      "close": "26.800",
+      "currency": "HKD",
+      "high": "27.400",
+      "low": "25.880",
+      "open": "26.000",
+      "price_basis": "provider-native",
+      "security_id": "xiaomi-hk",
+      "session": "regular-final",
+      "trading_date": "2026-10-23",
+      "volume": "216285102.000",
+      "volume_unit": "provider-native"
+    }
+  ],
+  "source_id": "tencent-kline",
+  "status": "complete",
+  "subject_id": "xiaomi-hk",
+  "supersedes": []
+}

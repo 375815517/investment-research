@@ -1,0 +1,32 @@
+{
+  "collection_context": {
+    "delivery": {
+      "archive_permissions": "research-only",
+      "attempts": 1,
+      "content_type": "application/pdf",
+      "fetched_at": "2026-10-30T08:07:15.099072+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/b006beb5a54e4330adc4fce615851d5e/response-6d61eb18df78406f983ce1e8cf5f2bf0.pdf",
+      "request": {
+        "parameter_names": [],
+        "source_id": "xiaomi-2024-results"
+      },
+      "rows": 0,
+      "sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+      "size_bytes": 771339,
+      "source_id": "xiaomi-2024-results",
+      "usage_basis": "User-authorized investment research of publicly accessible issuer filings. Source is HKEX disclosure hosting; this does not assert an open license or redistribution permission."
+    },
+    "parameters": {}
+  },
+  "collection_id": "collection-8a6b4b58f4be4d59a5ca63b7b1f7079b",
+  "document_id": "doc-1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T08:07:15.100313+00:00",
+  "origin_url": null,
+  "publication_assertion": null,
+  "sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145",
+  "source_id": "xiaomi-2024-results",
+  "status": "received"
+}

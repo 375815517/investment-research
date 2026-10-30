@@ -1,0 +1,16 @@
+{
+  "browser": "Playwright Chromium 151",
+  "transport": "local HTTP 127.0.0.1:8765",
+  "checks": {
+    "price_rows": 4,
+    "price_expected": 4,
+    "price_present": 4,
+    "repeat_plan_apply": "complete",
+    "financial_rows": 4,
+    "financial_expected_reports": 1,
+    "financial_present_reports": 1,
+    "page_errors": []
+  },
+  "deployment": "local-only; no public deployment",
+  "screenshot": "ephemeral /tmp/data-platform-browser.png"
+}

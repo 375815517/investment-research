@@ -128,7 +128,7 @@ investment-research/
 
 应用复用共享模块：web 通过 API 查询和提交任务，API、CLI 与 worker 调用 engine；domain 不依赖应用或具体存储。engine 依赖 domain 中的接口合同，由应用装配 connectors 与 repository 实现，避免计算逻辑绑定某个来源或存储产品。只读查询可以直接通过 repository 接口，不重复运行计算。
 
-apps 是运行入口划分，不要求独立服务器；packages 是模块边界，不要求独立发布。当前采用 Python 3.12、uv workspace，已实现 CLI、四个公共包和 ai/tooling；根 tests 包含跨模块验证。API、worker、web 仍保留目录，尚未实现。
+apps 是运行入口划分，不要求独立服务器；packages 是模块边界，不要求独立发布。当前采用 Python 3.12、uv workspace，已实现 CLI、四个公共包和 ai/tooling；根 tests 包含跨模块验证。API 与网页已经实现并复用同一 Service；worker 暂缓。最新范围见[数据平台验收](../verification/data-platform-closure.md)。
 
 ## 5. 方法定义与执行实现
 

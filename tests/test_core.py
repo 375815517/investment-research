@@ -235,7 +235,7 @@ def test_status_resume_completed(tmp_path):
 
 def test_price_override_rejected(tmp_path):
     service, doc, _ = candidate(tmp_path)
-    with pytest.raises(DomainError, match="archived CSV"):
+    with pytest.raises(DomainError, match="archived source"):
         service.execute(
             "prepare",
             dict(

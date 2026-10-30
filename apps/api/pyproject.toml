@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "investment-api"
+version = "0.1.0"
+description = "Loopback-only input data API and browser workspace"
+requires-python = ">=3.12"
+dependencies = ["investment-domain", "investment-engine", "investment-connectors", "PyYAML>=6,<7", "fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[project.scripts]
+research-server = "investment_api:main"
+
+[tool.uv.sources]
+investment-domain = { workspace = true }
+investment-engine = { workspace = true }
+investment-connectors = { workspace = true }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/investment_api"]

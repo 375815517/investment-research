@@ -64,6 +64,29 @@ def build_parser() -> Parser:
             "information_cutoff",
             "knowledge_mode",
         ),
+        "detect-gaps": (
+            "dataset_id",
+            "subject_id",
+            "start",
+            "end",
+            "expectation_path",
+            "source_id",
+            "knowledge_mode",
+            "information_cutoff",
+            "as_of",
+        ),
+        "ensure-plan": (
+            "dataset_id",
+            "subject_id",
+            "start",
+            "end",
+            "expectation_path",
+            "source_id",
+            "knowledge_mode",
+            "information_cutoff",
+            "as_of",
+        ),
+        "ensure-apply": ("plan_id",),
         "ingest": ("candidate_id", "plan_id"),
         "index": (),
     }
@@ -215,7 +238,7 @@ def dispatch(args: argparse.Namespace) -> dict:
     payload = payload_from(args)
     if args.command == "host":
         return invoke(workspace, args.action, payload, host=True)
-    action = args.action
+    action = args.action.replace("-", "_")
     if args.command == "source":
         action = "source_check"
     if args.command == "data" and action == "ingest":

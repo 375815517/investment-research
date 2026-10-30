@@ -1,0 +1,52 @@
+{
+  "dataset_id": "daily-prices",
+  "end": "2026-10-24",
+  "evidence_document_ids": [
+    "doc-5997383be4e265ac0765b18b6a1226c5f725a7731e9aad3dd84728ade6f2c653",
+    "doc-02c32bf4f9f75bef84681998781ccb624d2fda34aaa993a2cd587490bf259e7c"
+  ],
+  "expectation_id": "xiaomi-hk-20261019-24-observed-20261030",
+  "items": [
+    {
+      "date": "2026-10-19",
+      "due_at": "2026-10-19T08:25:00Z",
+      "expected": false,
+      "reason": "19 October: official day following Chung Yeung public holiday"
+    },
+    {
+      "date": "2026-10-20",
+      "due_at": "2026-10-20T08:25:00Z",
+      "expected": true,
+      "reason": "HKEX weekday full session close no later than 16:10 HKT plus 15-minute research tolerance"
+    },
+    {
+      "date": "2026-10-21",
+      "due_at": "2026-10-21T08:25:00Z",
+      "expected": true,
+      "reason": "HKEX weekday full session close no later than 16:10 HKT plus 15-minute research tolerance"
+    },
+    {
+      "date": "2026-10-22",
+      "due_at": "2026-10-22T08:25:00Z",
+      "expected": true,
+      "reason": "HKEX weekday full session close no later than 16:10 HKT plus 15-minute research tolerance"
+    },
+    {
+      "date": "2026-10-23",
+      "due_at": "2026-10-23T08:25:00Z",
+      "expected": true,
+      "reason": "HKEX weekday full session close no later than 16:10 HKT plus 15-minute research tolerance"
+    },
+    {
+      "date": "2026-10-24",
+      "due_at": "2026-10-24T08:25:00Z",
+      "expected": false,
+      "reason": "Saturday: exchange non-trading day"
+    }
+  ],
+  "observed_at": "2026-10-30T08:08:18.470646+00:00",
+  "published_at": "2026-10-30T08:08:18.470646+00:00",
+  "registered_at": "2026-10-30T08:08:18.470646+00:00",
+  "start": "2026-10-19",
+  "subject_id": "xiaomi-hk"
+}

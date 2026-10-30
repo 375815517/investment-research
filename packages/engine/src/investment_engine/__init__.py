@@ -37,6 +37,9 @@ class Service:
         "index",
         "source_check",
         "collect",
+        "detect_gaps",
+        "ensure_plan",
+        "ensure_apply",
     )
 
     def __init__(self, workspace: Path, connector_service=None):
@@ -73,6 +76,21 @@ class Service:
             self.repo.json(checkpoint, saved, immutable=False)
             raise
 
+    def _detect_gaps(self, payload):
+        from .ensure import detect
+
+        return detect(self, payload)
+
+    def _ensure_plan(self, payload):
+        from .ensure import plan
+
+        return plan(self, payload)
+
+    def _ensure_apply(self, payload):
+        from .ensure import apply
+
+        return apply(self, payload)
+
     def _capabilities(self, payload):
         return dict(
             status="available",
@@ -81,7 +99,7 @@ class Service:
             limitations=[
                 "No automatic Git commit or push",
                 "Publication time is importer-asserted",
-                "Calendar coverage and live source authentication require separate adapters",
+                "Calendar completeness requires evidence-backed expectation inputs; live source authentication is separate",
                 "Financial semantics require explicit review; no automatic OCR or model calls",
             ],
         )
@@ -225,7 +243,7 @@ class Service:
         if dataset == "daily-prices" and records is not None:
             raise DomainError(
                 "UNTRUSTED_PRICE_OVERRIDE",
-                "Price candidates must be parsed from the archived CSV; records overrides are not supported",
+                "Price candidates must be parsed from the archived source; records overrides are not supported",
             )
         if records is None:
             if dataset != "daily-prices":
@@ -233,10 +251,32 @@ class Service:
                     "CANDIDATES_REQUIRED",
                     "Financial extraction requires records with evidence locators",
                 )
-            text = self.repo.path(doc["path"]).read_text(encoding="utf-8-sig")
-            if text.lstrip().startswith("<"):
-                raise DomainError("UNEXPECTED_CONTENT", "HTML is not a price CSV")
-            records = list(csv.DictReader(io.StringIO(text)))
+            if Path(doc["path"]).suffix.lower() == ".csv":
+                text = self.repo.path(doc["path"]).read_text(encoding="utf-8-sig")
+                if text.lstrip().startswith("<"):
+                    raise DomainError("UNEXPECTED_CONTENT", "HTML is not a price CSV")
+                records = list(csv.DictReader(io.StringIO(text)))
+            else:
+                if self.connector_service is None:
+                    raise DomainError(
+                        "PARSER_UNAVAILABLE",
+                        "Archived source requires its deterministic connector parser",
+                    )
+                try:
+                    parsed = self.connector_service.execute(
+                        "parse",
+                        {
+                            "document_path": str(self.repo.path(doc["path"])),
+                            "source_id": doc["source_id"],
+                            "first_observed_at": doc["first_observed_at"],
+                        },
+                    )
+                except Exception as exc:
+                    raise DomainError(
+                        getattr(exc, "code", "PARSE_FAILED"), "Archived source parser failed", 3
+                    ) from exc
+                records = parsed["records"]
+                payload = dict(payload, parser_version=parsed["parser_id"])
         if not isinstance(records, list) or not records:
             raise DomainError("EMPTY_BATCH", "A candidate batch must contain records")
         candidate = dict(
@@ -274,7 +314,12 @@ class Service:
             try:
                 record = model.model_validate(raw).model_dump(mode="json")
                 key = (
-                    (record["security_id"], record["trading_date"], record["session"])
+                    (
+                        record["security_id"],
+                        record["trading_date"],
+                        record["session"],
+                        record["price_basis"],
+                    )
                     if model is DailyPrice
                     else (
                         record["company_id"],
@@ -314,6 +359,32 @@ class Service:
                     if Path(doc["path"]).suffix in (".txt", ".md", ".csv", ".json", ".html"):
                         if record["excerpt"] not in self.repo.path(doc["path"]).read_text():
                             raise ValueError("Evidence excerpt not present in original")
+                    elif Path(doc["path"]).suffix.lower() == ".pdf":
+                        page_match = re.fullmatch(r"pdf:page:([1-9][0-9]*)", record["locator"])
+                        if not page_match or self.connector_service is None:
+                            raise ValueError(
+                                "PDF requires pdf:page:<physical-page> and a configured extractor"
+                            )
+                        try:
+                            page = self.connector_service.execute(
+                                "extract_pdf_page",
+                                {
+                                    "path": str(self.repo.path(doc["path"])),
+                                    "page": int(page_match[1]),
+                                },
+                            )
+                        except Exception as exc:
+                            raise ValueError("PDF evidence extraction failed") from exc
+                        if " ".join(record["excerpt"].split()) not in " ".join(
+                            page["text"].split()
+                        ):
+                            raise ValueError(
+                                "Evidence excerpt not present on the specified PDF page"
+                            )
+                    else:
+                        raise ValueError(
+                            "Unsupported evidence format requires a verified text extraction"
+                        )
                 normalized.append(record)
             except (ValidationError, ValueError) as exc:
                 issues.append(
@@ -407,7 +478,7 @@ class Service:
 
         def business_key(row):
             if candidate["dataset_id"] == "daily-prices":
-                return row["security_id"], row["trading_date"], row["session"]
+                return row["security_id"], row["trading_date"], row["session"], row["price_basis"]
             return (
                 row["company_id"],
                 row["metric_id"],
@@ -638,6 +709,10 @@ class Service:
                 continue
             matched = False
             for row in batch["rows"]:
+                if batch["dataset_id"] == "daily-prices" and row["price_basis"] != payload.get(
+                    "price_basis", "unadjusted"
+                ):
+                    continue
                 day = row.get("trading_date", row.get("period_end"))
                 if (
                     payload.get("start")
@@ -649,7 +724,12 @@ class Service:
                 matched = True
                 business_key: tuple
                 if batch["dataset_id"] == "daily-prices":
-                    business_key = (row["security_id"], row["trading_date"], row["session"])
+                    business_key = (
+                        row["security_id"],
+                        row["trading_date"],
+                        row["session"],
+                        row["price_basis"],
+                    )
                 else:
                     business_key = (
                         row["company_id"],

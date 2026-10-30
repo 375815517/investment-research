@@ -1,0 +1,18 @@
+source_id: tencent-kline
+name: Tencent Hong Kong daily chart observations
+url: https://web.ifzq.gtimg.cn/appstock/app/fqkline/get
+connector_id: tencent-kline-v1
+allowed_parameters:
+- param
+dataset_id: daily-prices
+archive_permissions: research-only
+usage_basis: User-authorized limited historical source investigation; endpoint is
+  publicly reachable. No open license or redistribution right has been established.
+known_limitations:
+- Price adjustment and volume units remain unverified; source-native observations
+  only.
+- Content-Type may be text/html despite JSON body; parser validates full JSON structure.
+
+source_symbol: hk01810
+security_id: xiaomi-hk
+currency: HKD

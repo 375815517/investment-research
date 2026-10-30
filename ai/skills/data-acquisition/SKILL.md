@@ -1,17 +1,18 @@
 ---
 name: data-acquisition
-description: 使用已声明的工具获取或导入原件，准备可核查候选数据，保留采集范围和证据。
+description: 按固定的补齐计划获取原件并整理候选数据，保留覆盖和失败记录，最后重新检查缺口。
 ---
 
-先读 [输入基线](../../../docs/architecture/input-data-baseline.md) 和 [共同证据规则](../../rules/research-evidence.md)。行情细则见 [行情指南](../market-data-acquisition/SKILL.md)，文档细则见 [证据检索指南](../evidence-retrieval/SKILL.md)。
+先读 [输入基线](../../../docs/architecture/input-data-baseline.md)、[共同证据规则](../../rules/research-evidence.md)、[数据闭环约定](../../rules/data-completion.md)。行情细则见 [行情指南](../market-data-acquisition/SKILL.md)，文档细则见 [证据指南](../evidence-retrieval/SKILL.md)。
 
-1. 执行 `research capabilities --json`，确认当前数据集、解析器和操作。获取能力缺失时不能报告采集成功。
-2. 根据来源合同使用已支持接口，或由宿主工具取得文件。浏览器/人工下载文件同样通过 `research data import --request import.json --json` 进入归档；具体字段读取 schema，不自行拼正式存储路径。
-3. 保存返回的 document、collection 和 operation 引用。检查实际取得范围、部分成功与失败；采集成功不代表结构化数据合格。
-4. 调用 `research data prepare --request prepare.json --json`。稳定格式使用已登记解析器；AI 提取采用候选协议，保留原文值、单位、期间、主体、原文定位和歧义，不能把估计或目标登记成实际事实。
-5. 调用 `research data validate --candidate-id <ID> --json`，把问题交给数据核验流程。原件保留，未通过的候选不直接入库。
-6. 中断时使用 `research operation status <ID> --json` 检查真实状态；只有返回的 next_actions 明确支持续跑时调用 resume。不要重复执行结果未知的写入。
+1. 使用 data-planning 获得 detect-gaps 结果和 `research data ensure-plan --request ensure.json --json` 的固定计划。检查其来源、对象、区间、期望依据、预估动作和阻断项。
+2. 对当前任务已授权且可执行的计划，调用 `research data ensure-apply --request apply.json --json`；apply.json 只提交 plan_id。计划失效时重新规划，不自行编辑计划或自动换来源扩大范围。
+3. 获取与整理结果分别判断。complete 需要随后缺口复查确认；partial、blocked、review_required 保留真实状态。已有原件但缺解析能力时进入处理任务，不重复下载冒充补齐。
+4. 若需人工/宿主获取原件，使用已支持来源或浏览器取得文件后经 `research data import --request import.json --json` 归档；保存实际来源和时间。不直接写正式业务目录。
+5. 对需要语义提取的资料，使用 `research data prepare --request prepare.json --json` 提交原文值、单位、期间、主体、定位和歧义。`research data validate --candidate-id <ID> --json` 返回需复核时交给 data-review；ensure 不自动批准 AI 候选。PDF 定位必须为 `pdf:page:N`（从1起的物理页码），excerpt 必须来自该页，并进入后续复核。JSON 行情必须从归档原件经固定解析器提取，不提交 AI 编写的 records 替代报价。
+6. 中断先执行 `research operation status <ID> --json`；仅按真实 next_actions 续跑，结果未知先查回执，不反复 apply。
+7. 用原需求再次执行 `research data detect-gaps --request gaps.json --json`。只有满足明确期望的复查结果才能称为数据准备完成；原件下载、格式正确和正式记录齐全是不同状态。
 
-不在此步骤自动提交或推送 Git。输出原件与候选引用、覆盖、失败/歧义和下一步；大文件只引用，不全部填入聊天。
+不自动提交或推送 Git，不触发指标、预测、复盘或定时任务。输出请求/计划、原件与整合批次引用、复查结果及仍未解决的缺口。
 
-验收：重复导入原件不重复归档；多证券响应保留一份原件；错误页面不当作行情；AI 对单位不确定时保留待核实项。
+验收：重复补齐不产生重复事实；错误页面不能当作行情；需审核不能被重复 apply 绕过；部分范围成功与剩余缺口同时保留。

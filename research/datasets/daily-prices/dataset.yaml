@@ -5,6 +5,7 @@ schema_authority: investment_domain.DailyPrice
 parser_id: csv-daily-prices-v1
 review_policy: deterministic-validation
 record_grain: security_id x trading_date x session x price_basis x source-version
-required_price_basis: unadjusted
+default_query_price_basis: unadjusted
+allowed_price_basis: [unadjusted, provider-native]
 partition: markets/prices/<security_id>/daily/<year>/<batch_id>
 status: initial-implemented-contract

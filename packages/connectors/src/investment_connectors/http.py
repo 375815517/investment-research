@@ -19,7 +19,7 @@ import urllib.parse
 import urllib.request
 import uuid
 from dataclasses import asdict, dataclass, field
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Callable
 from zoneinfo import ZoneInfo
@@ -82,6 +82,10 @@ class SourceDefinition:
     auth_env: str | None = None
     archive_permissions: str = "unknown"
     known_limitations: tuple[str, ...] = ()
+    usage_basis: str = ""
+    source_symbol: str = ""
+    security_id: str = ""
+    currency: str = ""
 
     def __post_init__(self) -> None:
         if not isinstance(self.source_id, str) or not _ID.fullmatch(self.source_id):
@@ -97,14 +101,21 @@ class SourceDefinition:
         for value in (self.max_bytes, self.max_attempts):
             if isinstance(value, bool) or not isinstance(value, int):
                 raise ConnectorError("CONFIG_INVALID", "Byte and attempt limits must be integers.")
-        if self.connector_id not in {"http-csv-v1", "yahoo-chart-v1"}:
+        if self.connector_id not in {
+            "http-csv-v1",
+            "yahoo-chart-v1",
+            "http-document-v1",
+            "tencent-kline-v1",
+        }:
             raise ConnectorError(
                 "CONNECTOR_UNSUPPORTED",
-                "Unknown connector; supported: http-csv-v1, yahoo-chart-v1.",
+                "Unknown connector; use a registered CSV, chart or document connector.",
             )
-        if self.dataset_id != "daily-prices":
+        if self.dataset_id not in {"daily-prices", "financial-facts"} or (
+            self.connector_id != "http-document-v1" and self.dataset_id != "daily-prices"
+        ):
             raise ConnectorError(
-                "DATASET_UNSUPPORTED", "This connector currently supports daily-prices only."
+                "DATASET_UNSUPPORTED", "Dataset is incompatible with the configured connector."
             )
         if not 0 < self.timeout_seconds <= 60 or not 0 < self.max_bytes <= 50_000_000:
             raise ConnectorError("CONFIG_INVALID", "Timeout or response-size bound is invalid.")
@@ -114,8 +125,12 @@ class SourceDefinition:
             raise ConnectorError("CONFIG_INVALID", "auth_env must name an environment variable.")
         if self.auth_env and urllib.parse.urlsplit(self.url).scheme != "https":
             raise ConnectorError("CONFIG_INVALID", "Credential-bearing requests require HTTPS.")
-        if self.archive_permissions not in {"allowed", "unknown", "restricted"}:
+        if self.archive_permissions not in {"allowed", "research-only", "unknown", "restricted"}:
             raise ConnectorError("CONFIG_INVALID", "Invalid archive_permissions value.")
+        if self.archive_permissions == "research-only" and not self.usage_basis.strip():
+            raise ConnectorError(
+                "CONFIG_INVALID", "Research-only acquisition requires usage_basis."
+            )
         for name in self.allowed_parameters:
             if (
                 not isinstance(name, str)
@@ -163,10 +178,9 @@ class SourceDefinition:
             if not self.auth_env
             else ("configured" if os.environ.get(self.auth_env) else "missing"),
             "network": "not_checked",
-            "parser": "csv-format-check-only"
-            if self.connector_id == "http-csv-v1"
-            else "yahoo-source-native-quotes",
+            "parser": self.connector_id,
             "archive_permissions": self.archive_permissions,
+            "usage_basis": self.usage_basis,
             "dataset_id": self.dataset_id,
             "limitations": list(self.known_limitations),
         }
@@ -214,7 +228,7 @@ class HttpFetcher:
     def fetch(
         self, source: SourceDefinition, parameters: dict[str, Any], target_dir: Path
     ) -> FetchResult:
-        if source.archive_permissions != "allowed":
+        if source.archive_permissions not in {"allowed", "research-only"}:
             raise ConnectorError(
                 "SOURCE_ARCHIVE_BLOCKED", "Source archival permission must be explicitly allowed."
             )
@@ -227,7 +241,7 @@ class HttpFetcher:
                 "CONFIG_INVALID", "Request parameters must be scalar strings or numbers."
             )
         headers = {
-            "Accept": "application/json, text/csv, application/csv, text/plain",
+            "Accept": "application/pdf, application/json, text/csv, application/csv, text/plain",
             "User-Agent": "investment-research/0.1",
         }
         if source.auth_env:
@@ -253,7 +267,9 @@ class HttpFetcher:
                 request = urllib.request.Request(url, headers=headers)
                 with self.opener.open(request, timeout=source.timeout_seconds) as response:
                     content_type = response.headers.get_content_type()
-                    if content_type in {"text/html", "application/xhtml+xml"}:
+                    if content_type in {"text/html", "application/xhtml+xml"} and (
+                        source.connector_id != "tencent-kline-v1"
+                    ):
                         raise ConnectorError(
                             "SOURCE_CONTENT_INVALID", "Expected CSV, received an HTML response."
                         )
@@ -292,10 +308,22 @@ class HttpFetcher:
                     ) from None
                 self.sleep(source.retry_delay_seconds)
         assert data is not None
+        observed_at = datetime.now(UTC).isoformat()
         if source.connector_id == "yahoo-chart-v1":
-            parsed = parse_yahoo_chart(data, str(parameters.get("symbol", "")), "source-preview")
+            parsed = parse_yahoo_chart(
+                data, str(parameters.get("symbol", "")), "source-preview", observed_at=observed_at
+            )
             rows = len(parsed["records"])
             extension = "json"
+        elif source.connector_id == "http-document-v1":
+            if not data.startswith(b"%PDF-") or b"%%EOF" not in data[-2048:]:
+                raise ConnectorError("SOURCE_CONTENT_INVALID", "Expected a complete PDF document.")
+            rows, extension = 0, "pdf"
+        elif source.connector_id == "tencent-kline-v1":
+            parsed = parse_tencent_kline(
+                data, str(parameters.get("param", "")).split(",")[0], observed_at=observed_at
+            )
+            rows, extension = len(parsed["observations"]), "json"
         else:
             try:
                 text = data.decode("utf-8-sig")
@@ -327,14 +355,16 @@ class HttpFetcher:
             sha256=hashlib.sha256(data).hexdigest(),
             size_bytes=len(data),
             content_type=content_type,
-            fetched_at=datetime.now(UTC).isoformat(),
+            fetched_at=observed_at,
             attempts=attempt,
             rows=rows,
             request={"source_id": source.source_id, "parameter_names": sorted(parameters)},
         )
 
 
-def parse_yahoo_chart(data: bytes, expected_symbol: str, security_id: str) -> dict[str, Any]:
+def parse_yahoo_chart(
+    data: bytes, expected_symbol: str, security_id: str, *, observed_at: str
+) -> dict[str, Any]:
     """Extract source-native quote values, never relabel as verified unadjusted."""
     if not _ID.fullmatch(security_id) or ".." in security_id:
         raise ConnectorError("CONFIG_INVALID", "Invalid security_id.")
@@ -357,7 +387,7 @@ def parse_yahoo_chart(data: bytes, expected_symbol: str, security_id: str) -> di
             raise ValueError("array lengths")
         records = []
         missing_dates = []
-        today = datetime.now(tz).date()
+        today = _observation_time(observed_at).astimezone(tz).date()
         for i, timestamp in enumerate(timestamps):
             trading_date = datetime.fromtimestamp(timestamp, tz).date()
             if trading_date >= today or any(quote[key][i] is None for key in keys):
@@ -405,7 +435,87 @@ class ConnectorService:
         self.fetcher = fetcher or HttpFetcher()
 
     def execute(self, operation: str, payload: dict[str, Any]) -> dict[str, Any]:
+        if operation == "extract_pdf_page":
+            return {"text": extract_pdf_page(payload["path"], payload["page"])}
         source = SourceDefinition.load(self.workspace, str(payload.get("source_id", "")))
+        if operation == "plan":
+            parameters: dict[str, Any] = {}
+            if source.connector_id in {"yahoo-chart-v1", "tencent-kline-v1"}:
+                try:
+                    start = date.fromisoformat(payload["start_date"])
+                    end = date.fromisoformat(payload["end_date"])
+                    if start > end or (end - start).days > 300:
+                        raise ValueError("range")
+                except (KeyError, TypeError, ValueError):
+                    raise ConnectorError(
+                        "CONFIG_INVALID", "Provide an ordered ISO date range of at most 300 days."
+                    ) from None
+                if source.connector_id == "yahoo-chart-v1":
+                    parameters = {
+                        "symbol": source.source_symbol,
+                        "period1": int(
+                            datetime.combine(start, datetime.min.time(), UTC).timestamp()
+                        ),
+                        "period2": int(
+                            datetime.combine(
+                                end + timedelta(days=1), datetime.min.time(), UTC
+                            ).timestamp()
+                        ),
+                        "interval": "1d",
+                        "events": "div,splits",
+                    }
+                else:
+                    parameters = {"param": f"{source.source_symbol},day,{start},{end},320,"}
+            return {
+                "source_id": source.source_id,
+                "security_id": source.security_id,
+                "parameters": parameters,
+                "dataset_id": source.dataset_id,
+            }
+        if operation == "parse":
+            path = Path(payload.get("document_path", payload.get("path", "")))
+            security_id = source.security_id or str(payload.get("security_id", ""))
+            if not security_id or not source.source_symbol:
+                raise ConnectorError(
+                    "CONFIG_INVALID", "Parsing requires configured security and source symbol."
+                )
+            if source.connector_id == "yahoo-chart-v1":
+                parsed = parse_yahoo_chart(
+                    path.read_bytes(),
+                    source.source_symbol,
+                    security_id,
+                    observed_at=payload.get("first_observed_at", ""),
+                )
+                records = parsed["records"]
+            elif source.connector_id == "tencent-kline-v1":
+                parsed = parse_tencent_kline(
+                    path.read_bytes(),
+                    source.source_symbol,
+                    observed_at=payload.get("first_observed_at", ""),
+                )
+                if not re.fullmatch(r"[A-Z]{3}", source.currency):
+                    raise ConnectorError("CONFIG_INVALID", "Configured quote currency is required.")
+                records = [
+                    {
+                        "security_id": security_id,
+                        "trading_date": row["trading_date"],
+                        **{key: row[key] for key in ("open", "high", "low", "close")},
+                        "volume": row["provider_volume"],
+                        "volume_unit": "provider-native",
+                        "price_basis": "provider-native",
+                        "currency": source.currency,
+                        "session": "regular-final",
+                    }
+                    for row in parsed["observations"]
+                ]
+            else:
+                raise ConnectorError("OPERATION_UNSUPPORTED", "No JSON parser for this source.")
+            return {
+                "records": records,
+                "parser_id": source.connector_id,
+                "limitations": parsed["limitations"],
+            }
+
         if operation == "source_check":
             return {
                 "protocol_version": "1",
@@ -427,6 +537,8 @@ class ConnectorService:
             )
         result = self.fetcher.fetch(source, payload.get("parameters", {}), target)
         receipt = asdict(result)
+        receipt["archive_permissions"] = source.archive_permissions
+        receipt["usage_basis"] = source.usage_basis
         (target / "delivery.json").write_text(
             json.dumps(receipt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
@@ -449,5 +561,100 @@ class ConnectorService:
                 Path(result.path).read_bytes(),
                 str(payload.get("parameters", {}).get("symbol", "")),
                 str(payload.get("security_id", "source-preview")),
+                observed_at=result.fetched_at,
+            )
+        elif source.connector_id == "tencent-kline-v1":
+            output["candidate_preview"] = parse_tencent_kline(
+                Path(result.path).read_bytes(),
+                str(payload.get("parameters", {}).get("param", "")).split(",")[0],
+                observed_at=result.fetched_at,
             )
         return output
+
+
+def parse_tencent_kline(data: bytes, expected_symbol: str, *, observed_at: str) -> dict[str, Any]:
+    """Retain provider field semantics; unit and price basis require separate evidence."""
+    try:
+        if not re.fullmatch(r"hk[0-9]{5}", expected_symbol):
+            raise ValueError("symbol")
+        response = json.loads(data)
+        if response["code"] != 0:
+            raise ValueError("provider error")
+        payload = response["data"][expected_symbol]
+        rows = payload["day"]
+        observations = []
+        dates = set()
+        observed_date = (
+            _observation_time(observed_at).astimezone(ZoneInfo("Asia/Hong_Kong")).date().isoformat()
+        )
+        missing_dates = []
+        for row in rows:
+            if not isinstance(row, list) or len(row) < 6:
+                raise ValueError("row")
+            day = datetime.strptime(row[0], "%Y-%m-%d").date().isoformat()
+            if day in dates:
+                raise ValueError("duplicate date")
+            if day >= observed_date:
+                missing_dates.append(day)
+                continue
+            dates.add(day)
+            values = [float(value) for value in row[1:6]]
+            if not all(math.isfinite(value) and value >= 0 for value in values):
+                raise ValueError("number")
+            observations.append(
+                dict(
+                    zip(
+                        ("trading_date", "open", "close", "high", "low", "provider_volume"), row[:6]
+                    )
+                )
+            )
+        if not observations:
+            raise ValueError("empty")
+        return {
+            "symbol": expected_symbol,
+            "observations": observations,
+            "missing_or_provisional_dates": missing_dates,
+            "price_basis": "provider-native",
+            "volume_unit": "unverified",
+            "limitations": [
+                "The day response branch is not independent proof of unadjusted prices.",
+                "Volume units and complete exchange-session coverage require evidence.",
+                "Observations cannot be published as standard daily-prices without reconciliation.",
+            ],
+        }
+    except (ValueError, TypeError, KeyError, IndexError, UnicodeError):
+        raise ConnectorError("SOURCE_CONTENT_INVALID", "Tencent day response is invalid.") from None
+
+
+def extract_pdf_page(path: Path | str, page: int) -> str:
+    """Extract one physical PDF page (1-based), without OCR or inferred content."""
+    from pypdf import PdfReader
+    from pypdf.errors import PdfReadError
+
+    if isinstance(page, bool) or not isinstance(page, int) or page < 1:
+        raise ConnectorError("PDF_PAGE_INVALID", "PDF physical page must be a positive integer.")
+    try:
+        reader = PdfReader(str(path), strict=True)
+        if reader.is_encrypted or page > len(reader.pages):
+            raise ConnectorError("PDF_PAGE_INVALID", "Encrypted PDF or page outside document.")
+        text = reader.pages[page - 1].extract_text(extraction_mode="layout")
+        if not text or not text.strip():
+            raise ConnectorError(
+                "PDF_TEXT_MISSING", "Page has no extractable text; OCR requires review."
+            )
+        return text
+    except (OSError, PdfReadError, ValueError, IndexError):
+        raise ConnectorError("PDF_INVALID", "Cannot parse PDF evidence.") from None
+
+
+def _observation_time(value: str) -> datetime:
+    try:
+        moment = datetime.fromisoformat(value)
+        if moment.tzinfo is None or moment.utcoffset() is None:
+            raise ValueError("timezone required")
+        return moment
+    except (TypeError, ValueError):
+        raise ConnectorError(
+            "OBSERVATION_TIME_REQUIRED",
+            "Parsing requires the original timezone-aware first observation time.",
+        ) from None

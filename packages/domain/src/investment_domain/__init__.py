@@ -32,8 +32,8 @@ class DailyPrice(Contract):
     close: Decimal
     volume: Decimal
     currency: str = Field(pattern=r"^[A-Z]{3}$")
-    volume_unit: Literal["shares"]
-    price_basis: Literal["unadjusted"]
+    volume_unit: Literal["shares", "provider-native"]
+    price_basis: Literal["unadjusted", "provider-native"]
     session: Literal["regular-final"]
 
     @model_validator(mode="after")
@@ -110,3 +110,21 @@ SCHEMAS: dict[str, type[BaseModel]] = {
     "Issue": Issue,
     "Response": Response,
 }
+
+from .coverage import (  # noqa: E402
+    AcquisitionRequest,
+    CoverageRequest,
+    EnsureRequest,
+    ExpectationItem,
+    ExpectationSet,
+)
+
+SCHEMAS.update(
+    {
+        "AcquisitionRequest": AcquisitionRequest,
+        "CoverageRequest": CoverageRequest,
+        "EnsureRequest": EnsureRequest,
+        "ExpectationItem": ExpectationItem,
+        "ExpectationSet": ExpectationSet,
+    }
+)

@@ -1,0 +1,14 @@
+source_id: xiaomi-2025-annual
+name: Xiaomi 2025 annual report
+url: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf
+connector_id: http-document-v1
+dataset_id: financial-facts
+max_bytes: 12000000
+archive_permissions: research-only
+usage_basis: User-authorized investment research of publicly accessible issuer filings.
+  Source is HKEX disclosure hosting; this does not assert an open license or redistribution
+  permission.
+known_limitations:
+- PDF text extraction is derived evidence and must retain physical page locators.
+- Public access does not establish permission for republication; this configuration
+  authorizes research collection only.
