@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "source_commit": "5aa9e2289fd066c56c7e8eaab92bcbcc3e432777",
+  "files": [
+    {
+      "original_path": ".gitignore",
+      "archived_path": "legacy/2026-10-30/.gitignore",
+      "sha256": "f6a646ad62a77a67cb8545cc15e290f5bc63717653f4f58d7275a305091b9c21"
+    },
+    {
+      "original_path": ".idea/.gitignore",
+      "archived_path": "legacy/2026-10-30/.idea/.gitignore",
+      "sha256": "de3dcd3b67895aa24d01485c60e342e81e37ea1530859b0756519a00f1b6d700"
+    },
+    {
+      "original_path": ".idea/CopilotChatHistory.xml",
+      "archived_path": "legacy/2026-10-30/.idea/CopilotChatHistory.xml",
+      "sha256": "3135701a044987fe345144c094cbba49a7b5a81488fa3d77ade0a0317a31cf7b"
+    },
+    {
+      "original_path": ".idea/CopilotChatTabs.xml",
+      "archived_path": "legacy/2026-10-30/.idea/CopilotChatTabs.xml",
+      "sha256": "27bae0ff604aeb144fb99d21f75c15982e3d7defe927b480733b41c2d785b628"
+    },
+    {
+      "original_path": ".idea/checkstyle-idea.xml",
+      "archived_path": "legacy/2026-10-30/.idea/checkstyle-idea.xml",
+      "sha256": "426f65e454da9a729e7dcd58950165511b9716f13add122c8420be29038a57d3"
+    },
+    {
+      "original_path": ".idea/google-java-format.xml",
+      "archived_path": "legacy/2026-10-30/.idea/google-java-format.xml",
+      "sha256": "b555214cfb395f2bb22fda7af57f4c7923b429ecaef6a91c8e52f548f30747ce"
+    },
+    {
+      "original_path": ".idea/inspectionProfiles/Project_Default.xml",
+      "archived_path": "legacy/2026-10-30/.idea/inspectionProfiles/Project_Default.xml",
+      "sha256": "b1ee6e17bad5f177255189b4bd0fc9d8f4cf8b2c3d813e3e4bb6a47863d250d2"
+    },
+    {
+      "original_path": ".idea/investment-research.iml",
+      "archived_path": "legacy/2026-10-30/.idea/investment-research.iml",
+      "sha256": "aa516dd328c30c7bf42ba6c051927ac11ac4683045e86fa317531f58b4d6b827"
+    },
+    {
+      "original_path": ".idea/misc.xml",
+      "archived_path": "legacy/2026-10-30/.idea/misc.xml",
+      "sha256": "c90f4540ff948ffce28efb02ab2d429833d320c2cde8e8eb4f3e8b424a9cf7bb"
+    },
+    {
+      "original_path": ".idea/modules.xml",
+      "archived_path": "legacy/2026-10-30/.idea/modules.xml",
+      "sha256": "e9477c58d1c6d611478a8bf9798f01669cb47cd487b21f6e32c642569c80ed65"
+    },
+    {
+      "original_path": ".idea/project_settings.xml",
+      "archived_path": "legacy/2026-10-30/.idea/project_settings.xml",
+      "sha256": "6cd7c09abefd072c660da48e54949ea182ba16c42a56359cd05382d19697f8f4"
+    },
+    {
+      "original_path": ".idea/vcs.xml",
+      "archived_path": "legacy/2026-10-30/.idea/vcs.xml",
+      "sha256": "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e"
+    },
+    {
+      "original_path": "AGENTS.md",
+      "archived_path": "legacy/2026-10-30/AGENTS.md",
+      "sha256": "5be1c3052ddd56351259f28f51ce811d603fb23751c196e9eed264e249a2f4ef"
+    },
+    {
+      "original_path": "README.md",
+      "archived_path": "legacy/2026-10-30/README.md",
+      "sha256": "8229be7db5f88b1fcf1c93164aa766a1ed5e41e53e2092d2d6d58363e117be91"
+    },
+    {
+      "original_path": "apps/research-web/APP.yaml",
+      "archived_path": "legacy/2026-10-30/apps/research-web/APP.yaml",
+      "sha256": "c5a9cb6f4aac399cd9261c470215305c3c89445b3a348e72c42fc2a592eb9c27"
+    },
+    {
+      "original_path": "apps/research-web/README.md",
+      "archived_path": "legacy/2026-10-30/apps/research-web/README.md",
+      "sha256": "56cb2521187d6fb70f710e8b9d056eda5b576c2d517ae827d9d8cd444c49e6dc"
+    },
+    {
+      "original_path": "apps/research-web/lib/markdown.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/lib/markdown.js",
+      "sha256": "173019a0475b660d6dddeaf58d65ec67ea1ac0dd9d405b433d8bbf2933167dd9"
+    },
+    {
+      "original_path": "apps/research-web/lib/store.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/lib/store.js",
+      "sha256": "f2edff2280c858f59360115b1482fa1d2338b3100b366b68526c7f798c9c733f"
+    },
+    {
+      "original_path": "apps/research-web/package.json",
+      "archived_path": "legacy/2026-10-30/apps/research-web/package.json",
+      "sha256": "39a16cb236f8248ec4cb1fbdca21f7f87f221076dbc17160d680fa98decb0568"
+    },
+    {
+      "original_path": "apps/research-web/public/app.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/app.js",
+      "sha256": "79bb63d6a6a8a64cb1ac143ab7a85db3fffff887ee5958339412315c53a1ce5e"
+    },
+    {
+      "original_path": "apps/research-web/public/index.html",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/index.html",
+      "sha256": "b248372d1b3e9930e337fe834ad507b7da1ea354e1ac83b7099baa8029072f67"
+    },
+    {
+      "original_path": "apps/research-web/public/pdf-viewer.css",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/pdf-viewer.css",
+      "sha256": "a996f8195eca9dc59d4c71a43dfa97e7aa4f8f7bb4d51bf5fd20ff4f495d72b7"
+    },
+    {
+      "original_path": "apps/research-web/public/pdf-viewer.html",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/pdf-viewer.html",
+      "sha256": "b6201f05b5c1145648ba41d6936abbad69b3173bd3a02dbb5adf2e099ad86136"
+    },
+    {
+      "original_path": "apps/research-web/public/pdf-viewer.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/pdf-viewer.js",
+      "sha256": "e46719afbcf111801318a05e99eb9ce4f6937f370e6ff1d46300e93270bc53a3"
+    },
+    {
+      "original_path": "apps/research-web/public/style.css",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/style.css",
+      "sha256": "f5cf9295439cb947cbec820f814539ebc490087464e55f0e98a43af69cfc6634"
+    },
+    {
+      "original_path": "apps/research-web/public/vendor/LICENSE",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/vendor/LICENSE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "original_path": "apps/research-web/public/vendor/assets.json",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/vendor/assets.json",
+      "sha256": "c6fa23b3c98bc7f272ef43b296d30441e13c9e69991ed69e8f8bd09c395840c3"
+    },
+    {
+      "original_path": "apps/research-web/public/vendor/manifest.json",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/vendor/manifest.json",
+      "sha256": "7f78ae028748a890f62e04cf3de72de48efb14f31066c7a17040d4f6335c559d"
+    },
+    {
+      "original_path": "apps/research-web/public/vendor/pdf.min.mjs",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/vendor/pdf.min.mjs",
+      "sha256": "57456c8e0c81e46be31174b499ef77f2b9f5ee46d04412ba627320a36755d4c2"
+    },
+    {
+      "original_path": "apps/research-web/public/vendor/pdf.worker.min.mjs",
+      "archived_path": "legacy/2026-10-30/apps/research-web/public/vendor/pdf.worker.min.mjs",
+      "sha256": "9536359f1b8367850d485731ca1d5e45c159a7b7a0912325e539937aa21ceb18"
+    },
+    {
+      "original_path": "apps/research-web/server.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/server.js",
+      "sha256": "afa0f85bc9f16a468b549cab967c9623b4cd965141fa956ecb334df258681144"
+    },
+    {
+      "original_path": "apps/research-web/test.js",
+      "archived_path": "legacy/2026-10-30/apps/research-web/test.js",
+      "sha256": "750e7e2772d262ffcd0ed3ce84558bd911aec902f877c61975de3ba90fd4c567"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/assumptions.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/assumptions.md",
+      "sha256": "759c94a771a81617822097652733b28744d6960381cc2912127b93da224ec010"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/context.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/context.md",
+      "sha256": "4b62efaaff910fe59eeca08c86666a8838f0481fec0c3305d4be25dc41d5e93f"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/facts.csv",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/facts.csv",
+      "sha256": "ae197fbc306816d61269d4951b04c48f9b7fa533d1874e278b906c38d7ae9e36"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/report.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/report.md",
+      "sha256": "8a1b12d86a28ab674543d23d3005f5b75275a73626596bd22444c1adbfe5bb03"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/retrospective.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/retrospective.md",
+      "sha256": "b6484455650baeb0071c86def5d903a95484b3a9b0d919a8e31f10b629b63156"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/sources.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/sources.md",
+      "sha256": "46008eaed98d70140175cb247f586e0e9ccc928e06391bb2cdad7890c0bbadc2"
+    },
+    {
+      "original_path": "companies/tencent/analyses/2026-10-21-initial/verification.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/analyses/2026-10-21-initial/verification.md",
+      "sha256": "0aa54589e6204823e819acae7741530f52ae258ed8c141319fc18de564a4f656"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/README.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/README.md",
+      "sha256": "6e7141b96c6f2940bff965cd0a153f52d884250f8e1cb89095c13dc29fd645b6"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/learnings.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/learnings.md",
+      "sha256": "eb576be02e8d780bd91bc605135d567be7e51d129015ea75179ec87d56a10745"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/methods.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/methods.md",
+      "sha256": "34906b680d010830a7327b6a2a9594c7b7d8cc620bd58170f4b4e57e72420afc"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/profile.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/profile.md",
+      "sha256": "a986ba9acba2265192349c653317fc116221e6194789044f8bb5df03835d3610"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/questions.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/questions.md",
+      "sha256": "cf07f647fc5361975cfa692ebf632ad7c6407e8f048c581386c3c0138dd818c5"
+    },
+    {
+      "original_path": "companies/tencent/knowledge/sources.md",
+      "archived_path": "legacy/2026-10-30/companies/tencent/knowledge/sources.md",
+      "sha256": "0b5a6751c9611d6aaaf846bb5d4480a7a465a40200da643d6b528e91c24e19bc"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/assumptions.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/assumptions.md",
+      "sha256": "d64e3d858a2dc4db35f7a068ea7b424fd227b968e1523df44424a23ede30e242"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/claims.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/claims.csv",
+      "sha256": "bcbbd0fd76c663afc2d49b2897ecc6988a046491943ba1c79b8de6bdfd5afffe"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/context.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/context.md",
+      "sha256": "1eb5f48a01867330e9afc4722a1d33e47ae33d45c64e1647806ab524d4abb0c1"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/facts.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/facts.csv",
+      "sha256": "9cb25f7252e2abc2004a8dcfdc45792bf6390f458d7a16ed0cf93934e04f966a"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/inputs/prices.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/inputs/prices.csv",
+      "sha256": "02648e898fea27f1c43eb2102b58ffda31d123fb8d05bae58e3d189df2b65d08"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/report.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/report.md",
+      "sha256": "a620bf9271dc4d11765e5a74c493078f92ed056d0f1eeae539db0b6d9baa1935"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/retrospective.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/retrospective.md",
+      "sha256": "1839de3ffd4736c9d936ab33e40f8e082611c3b6f524a9d74763ee9c09d28d91"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/event-returns.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/event-returns.csv",
+      "sha256": "a47371506e96099e8ea77649a1cd5c25e2931fb2a56eaf63c48993a8f8af3f2d"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/manifest.json",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/manifest.json",
+      "sha256": "fe37482dd4db8bebd7112478acc93750d463415848a8ec28f9167a8aacad8b03"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/parameters.json",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/parameters.json",
+      "sha256": "0b22216b3024face0f0bb5363b0a561683a2b57aa8d3713abcea83b32e815fe4"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/results.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/runs/base/results.csv",
+      "sha256": "cf36cb03fa037876b36de7b6a8d7a1914dd4ca79d29be895de71a7d7aa5c93b6"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/sources.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/sources.md",
+      "sha256": "d6921b07846f8ee2aeceb53f6dd81ca622703f781a81aea6181de8c429017701"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-growth-evidence/verification.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-growth-evidence/verification.md",
+      "sha256": "d8eaf38368c8621e9e8ab73fd7bbdca7eff81398ad71479f1d4be0e501217599"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/assumptions.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/assumptions.md",
+      "sha256": "88267cac42d25fdd2365582c22d81d267921f31f5079602a2233be55fc2e3bd2"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/background.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/background.md",
+      "sha256": "49e8e7ff779a6b293d4770a52ce5d890250b9a2b7fc80d1a630fce3323d8f404"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/context.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/context.md",
+      "sha256": "a45161d2e4cc54b13212101d44fc72de514c00d81d8295e9d4e0d2d58669a207"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/facts.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/facts.csv",
+      "sha256": "06c3981a175759e1bcded1023d04c9508d9efb0471b9240245db7287fbd5af17"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/report.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/report.md",
+      "sha256": "8ebdb57b308f0cecee51cd0105fcb971437d0bf372e3d43e6396e008efb566a0"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/retrospective.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/retrospective.md",
+      "sha256": "b6484455650baeb0071c86def5d903a95484b3a9b0d919a8e31f10b629b63156"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/sources.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/sources.md",
+      "sha256": "8054645ef6db95db768a52bec85a23a6021d7d84d48e0ae60a2eb70a24791cda"
+    },
+    {
+      "original_path": "companies/xiaomi/analyses/2026-10-21-initial/verification.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/analyses/2026-10-21-initial/verification.md",
+      "sha256": "0aa54589e6204823e819acae7741530f52ae258ed8c141319fc18de564a4f656"
+    },
+    {
+      "original_path": "companies/xiaomi/data/events.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/data/events.csv",
+      "sha256": "43976182939dda17ae15d4dfa69f7e7483220ee20a9b60ac41a3aac59cb3db79"
+    },
+    {
+      "original_path": "companies/xiaomi/data/market/dashboard.json",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/data/market/dashboard.json",
+      "sha256": "043331bab49f5cb068658abb1662c6f9d52e0b713484e9f8289df1a4fac7a93c"
+    },
+    {
+      "original_path": "companies/xiaomi/data/market/prices.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/data/market/prices.csv",
+      "sha256": "02648e898fea27f1c43eb2102b58ffda31d123fb8d05bae58e3d189df2b65d08"
+    },
+    {
+      "original_path": "companies/xiaomi/data/market/raw/2026-10-21.json",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/data/market/raw/2026-10-21.json",
+      "sha256": "181ba7be4b7bebe85fc79bdf7a510108733a4257ee24a3b171dcdc678c2ad9a2"
+    },
+    {
+      "original_path": "companies/xiaomi/data/market/status.json",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/data/market/status.json",
+      "sha256": "e8e9eaba5cabc242600a9831c87743393a8918580af38880ecf50e2a961e2244"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/README.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/README.md",
+      "sha256": "4abc1616d13551c621ae7cc9414852fb51595e912f6bdb3f3652086609ebf963"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/learnings.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/learnings.md",
+      "sha256": "0d0ac58f3b64209bc5825e8ac62e02ef1f9cdc9e291b5225e9d2151f57847f23"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/methods.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/methods.md",
+      "sha256": "1c5391022f5134e05c7ec26059073bcb11f42bbed1b38477230fb5c8638fd4bb"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/profile.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/profile.md",
+      "sha256": "4ab1c9b2cc14d2af404de0c993e22c9511a6e382a6654c37b60d92d7182fef36"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/questions.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/questions.md",
+      "sha256": "c5841a8e74d07aec4e41f4c1f1c0832f4ec288ffc2f04d0411b8e9bce71169d8"
+    },
+    {
+      "original_path": "companies/xiaomi/knowledge/sources.md",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/knowledge/sources.md",
+      "sha256": "1551318fd5aeef59e1a662cd1ee2a25f513efee6d4ae4d8b5b6f4f097c76ca27"
+    },
+    {
+      "original_path": "companies/xiaomi/sources/2025-results.pdf",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/sources/2025-results.pdf",
+      "sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+    },
+    {
+      "original_path": "companies/xiaomi/sources/2025-target.pdf",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/sources/2025-target.pdf",
+      "sha256": "1fe1810d97df875cd07eba0fc6245985a1a96d2620252f7f311da61dcc047145"
+    },
+    {
+      "original_path": "companies/xiaomi/sources/2026-h1.pdf",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/sources/2026-h1.pdf",
+      "sha256": "e27b604854c08d2ca3eefffebabef647ae2a8dde92d4e08d5580746ab4dbfdce"
+    },
+    {
+      "original_path": "companies/xiaomi/sources/register.csv",
+      "archived_path": "legacy/2026-10-30/companies/xiaomi/sources/register.csv",
+      "sha256": "c547cf58f8e3f2ed495d58f7ab6fde364ab8447035ffdc9446f12f19976c4971"
+    },
+    {
+      "original_path": "docs/migration-files.csv",
+      "archived_path": "legacy/2026-10-30/docs/migration-files.csv",
+      "sha256": "1a6fe4c7ed291454d88112a9376091dc3da643d74ec7ef9d5292727edc0b4127"
+    },
+    {
+      "original_path": "docs/migration.md",
+      "archived_path": "legacy/2026-10-30/docs/migration.md",
+      "sha256": "6b153c7642e5eb189eb9102348b8c7396c898d49ea1e03cdca1212e40f0386e7"
+    },
+    {
+      "original_path": "docs/oriel-project-app-proposal.md",
+      "archived_path": "legacy/2026-10-30/docs/oriel-project-app-proposal.md",
+      "sha256": "374fa61d82edbba2fc0345669c7ffe31d4832def01bf68311c0a84e6484d3d2d"
+    },
+    {
+      "original_path": "framework/data-contract.md",
+      "archived_path": "legacy/2026-10-30/framework/data-contract.md",
+      "sha256": "706dfedaa0b34dbbb3f61f0297eb206d23055dc80454fa0ab92d0507d237e649"
+    },
+    {
+      "original_path": "framework/lessons.md",
+      "archived_path": "legacy/2026-10-30/framework/lessons.md",
+      "sha256": "5a47f9e2b549184561a2c8afe1c3df4ffe2a0393d39485c127db19a00ed7ae5c"
+    },
+    {
+      "original_path": "framework/methodology.md",
+      "archived_path": "legacy/2026-10-30/framework/methodology.md",
+      "sha256": "0d829f6096d14d5cee39c0e62f504fd8e91d7281fa2fbfb289fcc0bc61f18777"
+    },
+    {
+      "original_path": "framework/references/2026-10-21-open-source-practices.md",
+      "archived_path": "legacy/2026-10-30/framework/references/2026-10-21-open-source-practices.md",
+      "sha256": "d96f502da02a3e053755b87b5b3eac46ad8eb0e61190e46726c83469900e7554"
+    },
+    {
+      "original_path": "framework/rules.md",
+      "archived_path": "legacy/2026-10-30/framework/rules.md",
+      "sha256": "0aa8cf2cac002f9810f2d42d1ed1f0e5a4d694fa9c90e9e1daa9d93175b637e3"
+    },
+    {
+      "original_path": "framework/templates/analysis.md",
+      "archived_path": "legacy/2026-10-30/framework/templates/analysis.md",
+      "sha256": "fe877d21ff09cf294368a759f4fe01a9af9771311edb76c107932336cb967319"
+    },
+    {
+      "original_path": "framework/templates/company.md",
+      "archived_path": "legacy/2026-10-30/framework/templates/company.md",
+      "sha256": "d6d595861f1601c6daf72aad6d9a1acc5d0c99bfd7a4d8a2f819e808cb37e1c0"
+    },
+    {
+      "original_path": "framework/templates/verification.md",
+      "archived_path": "legacy/2026-10-30/framework/templates/verification.md",
+      "sha256": "34d715f3a3e5a3740e2220c78c530551dc27bb680dc310ebd1a81a9b5cea42cd"
+    },
+    {
+      "original_path": "industries/automotive/methodology.md",
+      "archived_path": "legacy/2026-10-30/industries/automotive/methodology.md",
+      "sha256": "a131e0fa28ca6597ba73347ea963347d9184e03a65a25074158720c88df3a1f8"
+    },
+    {
+      "original_path": "industries/platforms/methodology.md",
+      "archived_path": "legacy/2026-10-30/industries/platforms/methodology.md",
+      "sha256": "a5f721047128bdfc583c30cd8050845a103441059dd7c519c6d91aa82d4eec43"
+    },
+    {
+      "original_path": "industries/smartphones/methodology.md",
+      "archived_path": "legacy/2026-10-30/industries/smartphones/methodology.md",
+      "sha256": "4670ab22908ce7e3ddbf23b13feb35902c4e9c916fcddf121a5c3f21d975b59e"
+    },
+    {
+      "original_path": "requirements.txt",
+      "archived_path": "legacy/2026-10-30/requirements.txt",
+      "sha256": "afa5bd1cbd0d0be1318c3e8992b31f1deae587e80425877fc7dee2fee0d1572f"
+    },
+    {
+      "original_path": "tools/build-web.mjs",
+      "archived_path": "legacy/2026-10-30/tools/build-web.mjs",
+      "sha256": "b3a8c1eac75a270e1e547cb196ff702bee625fa4c0aa9564d97a542d2548e366"
+    },
+    {
+      "original_path": "tools/pipeline.py",
+      "archived_path": "legacy/2026-10-30/tools/pipeline.py",
+      "sha256": "33fce481e6886743bebff85dc8de49406e30bd2002dcb300d485887102cf3f22"
+    },
+    {
+      "original_path": "tools/test_pipeline.py",
+      "archived_path": "legacy/2026-10-30/tools/test_pipeline.py",
+      "sha256": "f83dea1c2ed0ed49be6e900d8f6faf44b5659276e817620ffbb9a21376a17f25"
+    }
+  ]
+}

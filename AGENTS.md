@@ -1,12 +1,9 @@
-# 研习项目工作约定
+# AI 工作入口
 
-本项目是独立 Git 仓库，根目录为 /Users/zhuqiang/Dev/investment-research。尚未接入 Oriel Workspace；既有 Default 任务属于历史记录，不复制其状态，也不借用旧 Claim 执行新工作。用户明确要求接入时再使用受支持入口。
-先读README.md、framework/rules.md、framework/methodology.md和framework/data-contract.md，再读目标公司knowledge及具体analyses。
+本仓库根目录就是投资研究工作空间。先读 [README.md](README.md)，再读 [架构文档](docs/architecture/research-workspace.md)，按当前任务进入相关目录。
 
-长期资产只有这一份：framework通用、industries行业、companies公司。公司公共知识在knowledge；每次分析独立留档，固定当时输入、上下文和假设，不用新行情改写旧结论。
-
-历史报告、PDF、冻结CSV、计算参数/结果/manifest保持可追溯；新增研究按framework/templates与已有analyses格式创建。原始证据与研究者撰写的历史报告不得混同。
-
-Web作者源码只在apps/research-web；tools/build-web.mjs只写本项目.build/research-web。当前不正式托管，不能重新创建Default/apps投资研究副本。原来的shared、playbooks等链接由阅读模块兼容解析，新内容一律使用新路径。
-
-迁移或新建路径前核对项目内消费者；不在旧 Default 空间另建研究资产副本。Oriel升级诉求在docs/oriel-project-app-proposal.md，仅记录待转交，不代表已发出。
+- 当前仅有架构与目录骨架；不把计划中的命令、Skills、Hook、数据服务或运行能力描述为已实现。
+- AI 负责理解、假设与研究组织；确定性计算、版本保护与正式登记由执行系统承担。研究资产提供方法，输入数据与研究产出分别保存。
+- `skills/` 是权威方法源。多宿主使用工具生成投影，禁止多份方法各自维护；适配工具尚未实现。
+- `legacy/` 保存原项目，是待逐项迁移的历史资料。其规则和机器绝对路径不作为当前根规范；不得覆盖历史报告、原始证据和计算快照。
+- 新增实现遵循架构边界，保护用户改动，完成与变更相称的验证。提交和推送按当前任务授权执行。
