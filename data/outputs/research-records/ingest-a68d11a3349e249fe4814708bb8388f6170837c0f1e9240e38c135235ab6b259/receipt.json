@@ -1,0 +1,14 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/tencent-kline/2026/doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968/v1/original.json",
+    "data/inputs/source-files/tencent-kline/2026/doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968/v1/document.json",
+    "data/outputs/research-records/ingest-a68d11a3349e249fe4814708bb8388f6170837c0f1e9240e38c135235ab6b259/candidate.json",
+    "data/outputs/research-records/ingest-a68d11a3349e249fe4814708bb8388f6170837c0f1e9240e38c135235ab6b259/validation.json",
+    "data/outputs/research-records/ingest-a68d11a3349e249fe4814708bb8388f6170837c0f1e9240e38c135235ab6b259/review.json",
+    "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/daily-prices.csv",
+    "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+    "data/outputs/research-records/ingest-a68d11a3349e249fe4814708bb8388f6170837c0f1e9240e38c135235ab6b259/receipt.json"
+  ],
+  "candidate_hash": "a68d11a3349e249fe4814708bb8388f6170837c0f1e9240e38c135235ab6b259",
+  "plan_id": "plan-8fc0f986589465d4daaf879830210fc233c8e0c90dd613ddec1fa696df40d941"
+}

@@ -114,3 +114,16 @@ uv run research-server --workspace /path/to/investment-research --port 8765
 CLI 执行真实补采时在请求增加 `acquisition: {"source_id":"tencent-kline","parameters":{"param":"hk01810,day,2026-10-19,2026-10-24,20,"}}`；网页由已登记来源生成参数。每个计划最多一次来源获取，失败后报告剩余缺口；财务原件取得后进入待提取/复核，不自动批准。
 
 新增JSON行情解析固定使用原件观察时点，保守排除观察当日及未来行情，不能在次日重解析时升级盘中样本。PDF locator 使用 `pdf:page:2` 等物理页号，excerpt必须匹配该页文本；这仅核对定位，不代替语义复核。当前查询默认 unadjusted，读取供应商原始口径需显式 price_basis=provider-native。
+
+## 长区间行情回补
+
+`scripts/backfill_price_history.py` 使用共享采集/校验/入库服务，按半年分窗以满足来源请求长度约束；响应超出请求范围或校验失败即阻断该窗口。每窗保存回执，失败窗口可单独重跑，已入库版本不覆盖。`collected`仅表示所有窗口获取入库成功，交易日完整性须另核对。
+
+```bash
+uv run python scripts/backfill_price_history.py --source tencent-kline --security xiaomi-hk --start 2018-07-09 --end 2026-10-29
+research --json data coverage --request request.json
+```
+
+查询请求指定 `dataset_id=daily-prices`、`subject_id=xiaomi-hk`、起止日期及 `price_basis=provider-native`。本轮验证见小米入口。
+
+有官方证据的休市记录位于 `data/inputs/markets/trading-status/<security>/<year>/<revision>/status.json`，合同为 `MarketClosure`。查询按信息时点读取并排除来源休市占位行，同时返回excluded及证据引用；原件与旧批次保留。零成交量本身不是休市证据，不能自动过滤。日期只有日级公开证据时，不伪造准确发布时间，历史模式下未知时间的排除记录不追溯生效。

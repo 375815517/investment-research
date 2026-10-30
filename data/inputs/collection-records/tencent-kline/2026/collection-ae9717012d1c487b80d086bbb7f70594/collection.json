@@ -1,0 +1,36 @@
+{
+  "collection_context": {
+    "delivery": {
+      "archive_permissions": "research-only",
+      "attempts": 1,
+      "content_type": "text/html",
+      "fetched_at": "2026-10-30T08:26:35.242081+00:00",
+      "path": "/workspace/investment-research/.research-local/collections/1bdc768843f242c9a4735bf19a54714b/response-7e84ba47110f4ef3816100da3dcf8895.json",
+      "request": {
+        "parameter_names": [
+          "param"
+        ],
+        "source_id": "tencent-kline"
+      },
+      "rows": 126,
+      "sha256": "9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+      "size_bytes": 16454,
+      "source_id": "tencent-kline",
+      "usage_basis": "User-authorized limited historical source investigation; endpoint is publicly reachable. No open license or redistribution right has been established."
+    },
+    "parameters": {
+      "param": "hk01810,day,2021-07-01,2021-12-31,320,"
+    }
+  },
+  "collection_id": "collection-ae9717012d1c487b80d086bbb7f70594",
+  "document_id": "doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+  "limitations": [
+    "Source attribution and publication time supplied by importer"
+  ],
+  "observed_at": "2026-10-30T08:26:35.244916+00:00",
+  "origin_url": null,
+  "publication_assertion": null,
+  "sha256": "9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+  "source_id": "tencent-kline",
+  "status": "received"
+}

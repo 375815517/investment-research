@@ -1,0 +1,76 @@
+{
+  "finished_at": "2026-10-30T08:27:18.821933+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "end": "2021-06-30",
+    "security_id": "xiaomi-hk",
+    "source_id": "tencent-kline",
+    "start": "2021-01-01"
+  },
+  "started_at": "2026-10-30T08:27:17.963846+00:00",
+  "status": "collected",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/document.json",
+        "data/outputs/research-records/ingest-ee5c960be13e92c67dec71db23f929263a85540a34583efbef06257e9b618f7b/candidate.json",
+        "data/outputs/research-records/ingest-ee5c960be13e92c67dec71db23f929263a85540a34583efbef06257e9b618f7b/validation.json",
+        "data/outputs/research-records/ingest-ee5c960be13e92c67dec71db23f929263a85540a34583efbef06257e9b618f7b/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+        "data/outputs/research-records/ingest-ee5c960be13e92c67dec71db23f929263a85540a34583efbef06257e9b618f7b/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-1a1b32f5ed934f099e78503ffdabfdf2/collection.json"
+      ],
+      "document_id": "doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06",
+      "end": "2021-06-30",
+      "first": "2021-01-04",
+      "last": "2021-06-30",
+      "observed_rows": 121,
+      "start": "2021-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-1ba48169ec92151ff24a90c1bcfa4259036fed05e778397cbc55505d46b4d6a3/6f2c5cbf421ab1cfec1cc1bdd2f73bd80d767245764b665fffcf09c9e128891d.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-0c0ed173f2784d31ae85ad63489e0425",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "ee5c960be13e92c67dec71db23f929263a85540a34583efbef06257e9b618f7b",
+          "candidate_id": "candidate-1ba48169ec92151ff24a90c1bcfa4259036fed05e778397cbc55505d46b4d6a3",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 121,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    }
+  ]
+}

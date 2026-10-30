@@ -676,6 +676,9 @@ class Service:
             raise DomainError("CUTOFF_REQUIRED", mode)
         cutoff_time = self._timestamp(cutoff) if cutoff else None
         rows, refs, excluded = [], [], []
+        from .market_status import visible_closures
+
+        closures = visible_closures(self.repo, mode, cutoff_time)
         eligible = []
         for rel, batch in self.repo.batches():
             if payload.get("dataset_id") and batch["dataset_id"] != payload["dataset_id"]:
@@ -720,6 +723,18 @@ class Service:
                     or payload.get("end")
                     and day > payload["end"]
                 ):
+                    continue
+                closure = closures.get((row.get("security_id"), day))
+                if batch["dataset_id"] == "daily-prices" and closure:
+                    excluded.append(
+                        dict(
+                            batch_id=batch["batch_id"],
+                            trading_date=day,
+                            reason="confirmed_market_closed",
+                            evidence_refs=closure,
+                        )
+                    )
+                    refs.extend(closure)
                     continue
                 matched = True
                 business_key: tuple

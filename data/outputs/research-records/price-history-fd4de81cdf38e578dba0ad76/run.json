@@ -1,0 +1,24 @@
+{
+  "finished_at": "2026-10-30T08:27:19.188988+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "end": "2022-12-31",
+    "security_id": "xiaomi-hk",
+    "source_id": "tencent-kline",
+    "start": "2022-07-01"
+  },
+  "started_at": "2026-10-30T08:27:18.827658+00:00",
+  "status": "partial",
+  "windows": [
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2022-12-31",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2022-07-01",
+      "status": "blocked"
+    }
+  ]
+}

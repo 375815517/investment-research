@@ -1,0 +1,708 @@
+{
+  "finished_at": "2026-10-30T08:26:49.747511+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "end": "2026-10-29",
+    "security_id": "xiaomi-hk",
+    "source_id": "tencent-kline",
+    "start": "2018-07-09"
+  },
+  "started_at": "2026-10-30T08:26:16.614907+00:00",
+  "status": "partial",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/document.json",
+        "data/outputs/research-records/ingest-9470368d253dd950504327d126aa5ceb1396a242dca7b71d80e88e5fa7480e2f/candidate.json",
+        "data/outputs/research-records/ingest-9470368d253dd950504327d126aa5ceb1396a242dca7b71d80e88e5fa7480e2f/validation.json",
+        "data/outputs/research-records/ingest-9470368d253dd950504327d126aa5ceb1396a242dca7b71d80e88e5fa7480e2f/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+        "data/outputs/research-records/ingest-9470368d253dd950504327d126aa5ceb1396a242dca7b71d80e88e5fa7480e2f/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-3a99317a5d884b39a2df50cdcf8907e1/collection.json"
+      ],
+      "document_id": "doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767",
+      "end": "2018-12-31",
+      "first": "2018-07-09",
+      "last": "2018-12-31",
+      "observed_rows": 121,
+      "start": "2018-07-09",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-cdf8212f3824dab3f16f0467df1981bc767127d52ddceb58b7b081eff5e4cf41/aee6a56f380679cfadd05b686761e699c9d77a9706c50d3565acf5627d56e24d.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-6856ef5553634570bd9f198697db97d9",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "9470368d253dd950504327d126aa5ceb1396a242dca7b71d80e88e5fa7480e2f",
+          "candidate_id": "candidate-cdf8212f3824dab3f16f0467df1981bc767127d52ddceb58b7b081eff5e4cf41",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 121,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2019-06-30",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2019-01-01",
+      "status": "blocked"
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/document.json",
+        "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/candidate.json",
+        "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/validation.json",
+        "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+        "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-a6128487d5684ab18932b2a0f7841fc2/collection.json"
+      ],
+      "document_id": "doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a",
+      "end": "2019-12-31",
+      "first": "2019-07-02",
+      "last": "2019-12-31",
+      "observed_rows": 127,
+      "start": "2019-07-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-476889ff3e391c269423f50247c809442043c133dc8965dcdd8fa5496179cc19/6f959f0274e3a613905071543412ed5a25438d87a0dfce771d6fd48be6656be4.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-b82dda1ef4114a449c2d49a2cc641bc9",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33",
+          "candidate_id": "candidate-476889ff3e391c269423f50247c809442043c133dc8965dcdd8fa5496179cc19",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 127,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/document.json",
+        "data/outputs/research-records/ingest-a88550fc96ee2f051c48ca6dae8e9b0b6874fa317f7f58d3c1868d22ea79bcc6/candidate.json",
+        "data/outputs/research-records/ingest-a88550fc96ee2f051c48ca6dae8e9b0b6874fa317f7f58d3c1868d22ea79bcc6/validation.json",
+        "data/outputs/research-records/ingest-a88550fc96ee2f051c48ca6dae8e9b0b6874fa317f7f58d3c1868d22ea79bcc6/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+        "data/outputs/research-records/ingest-a88550fc96ee2f051c48ca6dae8e9b0b6874fa317f7f58d3c1868d22ea79bcc6/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-c8cc1c32897d4d7b8ab3a685d9045b0e/collection.json"
+      ],
+      "document_id": "doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e",
+      "end": "2020-06-30",
+      "first": "2020-01-02",
+      "last": "2020-06-30",
+      "observed_rows": 122,
+      "start": "2020-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-02172672f2dc1f7585bce2adb6cd2a501bfa002c30341edabd19f5d12e7405bf/c66445d1bd3ba34c2f799127d0bb19135aee6cfce15c42b0fae80dc4c2ea13c8.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-c03515bedeb347d0936c64b48e0df3e5",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "a88550fc96ee2f051c48ca6dae8e9b0b6874fa317f7f58d3c1868d22ea79bcc6",
+          "candidate_id": "candidate-02172672f2dc1f7585bce2adb6cd2a501bfa002c30341edabd19f5d12e7405bf",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 122,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2020-12-31",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2020-07-01",
+      "status": "blocked"
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2021-06-30",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2021-01-01",
+      "status": "blocked"
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/document.json",
+        "data/outputs/research-records/ingest-b4e462d79ea847ca017016b8499f19faa0570df43700ede57037aafc5cb2e277/candidate.json",
+        "data/outputs/research-records/ingest-b4e462d79ea847ca017016b8499f19faa0570df43700ede57037aafc5cb2e277/validation.json",
+        "data/outputs/research-records/ingest-b4e462d79ea847ca017016b8499f19faa0570df43700ede57037aafc5cb2e277/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+        "data/outputs/research-records/ingest-b4e462d79ea847ca017016b8499f19faa0570df43700ede57037aafc5cb2e277/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-ae9717012d1c487b80d086bbb7f70594/collection.json"
+      ],
+      "document_id": "doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+      "end": "2021-12-31",
+      "first": "2021-07-02",
+      "last": "2021-12-31",
+      "observed_rows": 126,
+      "start": "2021-07-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-5d677251ef03cb2cb9de757af9452588981146d133928669faea92f7ee02fc40/79a1eeb880cdb659506cb803a83624b3b2a000ce73faad31aaa5f5132f4c5be2.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-a0d888b1074a4482abe936e87c63113e",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "b4e462d79ea847ca017016b8499f19faa0570df43700ede57037aafc5cb2e277",
+          "candidate_id": "candidate-5d677251ef03cb2cb9de757af9452588981146d133928669faea92f7ee02fc40",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 126,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/document.json",
+        "data/outputs/research-records/ingest-cbc4568d98f7bc296a953d4b35be0c12f8688dd56d515b97cef92d8597d1fb22/candidate.json",
+        "data/outputs/research-records/ingest-cbc4568d98f7bc296a953d4b35be0c12f8688dd56d515b97cef92d8597d1fb22/validation.json",
+        "data/outputs/research-records/ingest-cbc4568d98f7bc296a953d4b35be0c12f8688dd56d515b97cef92d8597d1fb22/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+        "data/outputs/research-records/ingest-cbc4568d98f7bc296a953d4b35be0c12f8688dd56d515b97cef92d8597d1fb22/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-0eecfc2bfb58450a949e17aeb1f05609/collection.json"
+      ],
+      "document_id": "doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a",
+      "end": "2022-06-30",
+      "first": "2022-01-03",
+      "last": "2022-06-30",
+      "observed_rows": 120,
+      "start": "2022-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-268747843f3344437d4b0044d24fe959591a29f22aafc8c1df8382ad0480a28e/53d4a3048f5ddc4d5215e9f9eb6fd1f90f443994284c773a83899bf3cf6c8922.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-f059f78121794c8facaedc903ccd38a6",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "cbc4568d98f7bc296a953d4b35be0c12f8688dd56d515b97cef92d8597d1fb22",
+          "candidate_id": "candidate-268747843f3344437d4b0044d24fe959591a29f22aafc8c1df8382ad0480a28e",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 120,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2022-12-31",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2022-07-01",
+      "status": "blocked"
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/document.json",
+        "data/outputs/research-records/ingest-d18f59910d8547a838a272977a73f84d4049b635f877bc9d03739503130c7648/candidate.json",
+        "data/outputs/research-records/ingest-d18f59910d8547a838a272977a73f84d4049b635f877bc9d03739503130c7648/validation.json",
+        "data/outputs/research-records/ingest-d18f59910d8547a838a272977a73f84d4049b635f877bc9d03739503130c7648/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+        "data/outputs/research-records/ingest-d18f59910d8547a838a272977a73f84d4049b635f877bc9d03739503130c7648/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-49b245e2289544cd848baf32a996a33d/collection.json"
+      ],
+      "document_id": "doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8",
+      "end": "2023-06-30",
+      "first": "2023-01-03",
+      "last": "2023-06-30",
+      "observed_rows": 120,
+      "start": "2023-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-068a7f67b9993ab1ec261e2f9a592a4aa7df57c6cad1b87e65ecdb6170f54eef/041f253efe2f8c88f9997c0b8f9707c6005e4c25cdb409179ba698bd5165de29.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-87533f192e494099a2815b9310dc8783",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "d18f59910d8547a838a272977a73f84d4049b635f877bc9d03739503130c7648",
+          "candidate_id": "candidate-068a7f67b9993ab1ec261e2f9a592a4aa7df57c6cad1b87e65ecdb6170f54eef",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 120,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2023-12-31",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2023-07-01",
+      "status": "blocked"
+    },
+    {
+      "code": "SOURCE_HTTP_ERROR",
+      "end": "2024-06-30",
+      "reason": "Source acquisition failed; see the archived collection receipt",
+      "start": "2024-01-01",
+      "status": "blocked"
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/document.json",
+        "data/outputs/research-records/ingest-82f00c7cd4b9a892afbd4458d6dd3d967ff2f5635375a16c98b670c99552c704/candidate.json",
+        "data/outputs/research-records/ingest-82f00c7cd4b9a892afbd4458d6dd3d967ff2f5635375a16c98b670c99552c704/validation.json",
+        "data/outputs/research-records/ingest-82f00c7cd4b9a892afbd4458d6dd3d967ff2f5635375a16c98b670c99552c704/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+        "data/outputs/research-records/ingest-82f00c7cd4b9a892afbd4458d6dd3d967ff2f5635375a16c98b670c99552c704/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-ca3a5d77744041e6918b46b29fe05e9b/collection.json"
+      ],
+      "document_id": "doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623",
+      "end": "2024-12-31",
+      "first": "2024-07-02",
+      "last": "2024-12-31",
+      "observed_rows": 125,
+      "start": "2024-07-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-9dd7b90d0dd0ed6c7e03e30d1396b21d25dc385e9fa85add14c455305298f1ff/20a7198364f419de1ca2f873c4cd8f9717985b40eea02df504b4d9460739d88c.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-214a352b1ce04f5b96c9eddc3f63c63b",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "82f00c7cd4b9a892afbd4458d6dd3d967ff2f5635375a16c98b670c99552c704",
+          "candidate_id": "candidate-9dd7b90d0dd0ed6c7e03e30d1396b21d25dc385e9fa85add14c455305298f1ff",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 125,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/document.json",
+        "data/outputs/research-records/ingest-465bdff6cdefb774e547a0cd5beb5f00b2f9564222dd930cb2a2434a13d8fbe8/candidate.json",
+        "data/outputs/research-records/ingest-465bdff6cdefb774e547a0cd5beb5f00b2f9564222dd930cb2a2434a13d8fbe8/validation.json",
+        "data/outputs/research-records/ingest-465bdff6cdefb774e547a0cd5beb5f00b2f9564222dd930cb2a2434a13d8fbe8/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+        "data/outputs/research-records/ingest-465bdff6cdefb774e547a0cd5beb5f00b2f9564222dd930cb2a2434a13d8fbe8/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-151a424a78cc4c0f9d0694985120d1c2/collection.json"
+      ],
+      "document_id": "doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56",
+      "end": "2025-06-30",
+      "first": "2025-01-02",
+      "last": "2025-06-30",
+      "observed_rows": 120,
+      "start": "2025-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-e47a85a359ee44376989a27b50fe96e4b13c948ce585c9f97a000fbed0cf5476/54cee084f688e67f28b3682ed768ab0d9719bc06cf402ad53b450fc91b2f0476.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-cabbd075de11434aafaf04e7868171b0",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "465bdff6cdefb774e547a0cd5beb5f00b2f9564222dd930cb2a2434a13d8fbe8",
+          "candidate_id": "candidate-e47a85a359ee44376989a27b50fe96e4b13c948ce585c9f97a000fbed0cf5476",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 120,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/document.json",
+        "data/outputs/research-records/ingest-8451be7e441da60aa1a60122ade906059de3f73c63641d8b182230ec58aea664/candidate.json",
+        "data/outputs/research-records/ingest-8451be7e441da60aa1a60122ade906059de3f73c63641d8b182230ec58aea664/validation.json",
+        "data/outputs/research-records/ingest-8451be7e441da60aa1a60122ade906059de3f73c63641d8b182230ec58aea664/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+        "data/outputs/research-records/ingest-8451be7e441da60aa1a60122ade906059de3f73c63641d8b182230ec58aea664/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-17a4c1fc4f1c47ba9dc623f337b318b9/collection.json"
+      ],
+      "document_id": "doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9",
+      "end": "2025-12-31",
+      "first": "2025-07-02",
+      "last": "2025-12-31",
+      "observed_rows": 126,
+      "start": "2025-07-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-6199da11c03b374169dac046017eca2e0302ee1533a394ed967024d2f6e56dbb/a748c3f534e8b274973046d4647386f5f715269005eeac289fe0a27948606120.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-395eb3586bd14020b4b2cab0fa569aab",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "8451be7e441da60aa1a60122ade906059de3f73c63641d8b182230ec58aea664",
+          "candidate_id": "candidate-6199da11c03b374169dac046017eca2e0302ee1533a394ed967024d2f6e56dbb",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 126,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/document.json",
+        "data/outputs/research-records/ingest-91e8efa5481c51faa0fbb8bf2ac57d85d65532f7129004b638267e30eefbc5dd/candidate.json",
+        "data/outputs/research-records/ingest-91e8efa5481c51faa0fbb8bf2ac57d85d65532f7129004b638267e30eefbc5dd/validation.json",
+        "data/outputs/research-records/ingest-91e8efa5481c51faa0fbb8bf2ac57d85d65532f7129004b638267e30eefbc5dd/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+        "data/outputs/research-records/ingest-91e8efa5481c51faa0fbb8bf2ac57d85d65532f7129004b638267e30eefbc5dd/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-badf7ee546d344cc8abc33915dd65d64/collection.json"
+      ],
+      "document_id": "doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6",
+      "end": "2026-06-30",
+      "first": "2026-01-02",
+      "last": "2026-06-30",
+      "observed_rows": 119,
+      "start": "2026-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-b72cf83e1df540262977509679820bea9502ea03be5c41c040b9da1ee0a1035d/664db578c816daaf6384651ca278c3ac5317af04c8b4206c78d1f1dbedb10bc2.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-4fc03f76d29546e197f057a1b19aa9e1",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "91e8efa5481c51faa0fbb8bf2ac57d85d65532f7129004b638267e30eefbc5dd",
+          "candidate_id": "candidate-b72cf83e1df540262977509679820bea9502ea03be5c41c040b9da1ee0a1035d",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 119,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    },
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/document.json",
+        "data/outputs/research-records/ingest-54f42ca55a84b5a6074764b4280ef8838b7ce67d734e73d655cdbb485e534aaa/candidate.json",
+        "data/outputs/research-records/ingest-54f42ca55a84b5a6074764b4280ef8838b7ce67d734e73d655cdbb485e534aaa/validation.json",
+        "data/outputs/research-records/ingest-54f42ca55a84b5a6074764b4280ef8838b7ce67d734e73d655cdbb485e534aaa/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+        "data/outputs/research-records/ingest-54f42ca55a84b5a6074764b4280ef8838b7ce67d734e73d655cdbb485e534aaa/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-3e7f7a16691449beafec294195326468/collection.json"
+      ],
+      "document_id": "doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086",
+      "end": "2026-10-29",
+      "first": "2026-07-02",
+      "last": "2026-10-29",
+      "observed_rows": 84,
+      "start": "2026-07-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-61acd83759c8a36ad796f17c3c3c5fc9bcbe394ba652125349b32044c9519438/fccba3985d572a6184d2d242741f7f4e0fe7da92384c00cc97e18f8a0ed0bdff.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-01a25c1541624a059dba182ca7ab2804",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "54f42ca55a84b5a6074764b4280ef8838b7ce67d734e73d655cdbb485e534aaa",
+          "candidate_id": "candidate-61acd83759c8a36ad796f17c3c3c5fc9bcbe394ba652125349b32044c9519438",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 84,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    }
+  ]
+}

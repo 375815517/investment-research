@@ -84,6 +84,27 @@ class ImportRequest(Contract):
         return value
 
 
+class MarketClosure(Contract):
+    """Explicit evidence of a non-trading date, independent of vendor placeholders."""
+
+    record_id: str
+    security_id: str = Field(pattern=r"^[a-z0-9][a-z0-9_-]{0,79}$")
+    trading_date: date
+    market_status: Literal["closed"]
+    reason: str = Field(min_length=1)
+    evidence_document_ids: list[str] = Field(min_length=1)
+    published_at: datetime | None = None
+    observed_at: datetime
+    registered_at: datetime
+
+    @field_validator("published_at", "observed_at", "registered_at")
+    @classmethod
+    def aware(cls, value):
+        if value and value.tzinfo is None:
+            raise ValueError("Closure timestamps must include timezone")
+        return value
+
+
 class Issue(Contract):
     code: str
     message: str
@@ -104,6 +125,7 @@ class Response(Contract):
 
 SCHEMAS: dict[str, type[BaseModel]] = {
     "Evidence": Evidence,
+    "MarketClosure": MarketClosure,
     "DailyPrice": DailyPrice,
     "FinancialFact": FinancialFact,
     "ImportRequest": ImportRequest,

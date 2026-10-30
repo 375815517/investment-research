@@ -1,0 +1,76 @@
+{
+  "finished_at": "2026-10-30T08:27:17.068542+00:00",
+  "limitations": [
+    "Collection success is not trading-calendar completeness",
+    "Price and volume semantics remain as declared by each source"
+  ],
+  "request": {
+    "end": "2019-06-30",
+    "security_id": "xiaomi-hk",
+    "source_id": "tencent-kline",
+    "start": "2019-01-01"
+  },
+  "started_at": "2026-10-30T08:27:16.035594+00:00",
+  "status": "collected",
+  "windows": [
+    {
+      "artifact_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/document.json",
+        "data/outputs/research-records/ingest-8ef13d3a15096f8c2739df6fc27cc75f7e0f4c892c4e197b8c0744933d4bc71d/candidate.json",
+        "data/outputs/research-records/ingest-8ef13d3a15096f8c2739df6fc27cc75f7e0f4c892c4e197b8c0744933d4bc71d/validation.json",
+        "data/outputs/research-records/ingest-8ef13d3a15096f8c2739df6fc27cc75f7e0f4c892c4e197b8c0744933d4bc71d/review.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/daily-prices.csv",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+        "data/outputs/research-records/ingest-8ef13d3a15096f8c2739df6fc27cc75f7e0f4c892c4e197b8c0744933d4bc71d/receipt.json"
+      ],
+      "collection_refs": [
+        "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/original.json",
+        "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/document.json",
+        "data/inputs/collection-records/tencent-kline/2026/collection-e6fc6a687dd44a2da145ff0d8aa0c248/collection.json"
+      ],
+      "document_id": "doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5",
+      "end": "2019-06-30",
+      "first": "2019-01-02",
+      "last": "2019-06-28",
+      "observed_rows": 119,
+      "start": "2019-01-01",
+      "status": "registered",
+      "validation": {
+        "artifact_refs": [
+          ".research-local/validations/candidate-e58eb04b3d046cab575be5fb76e3462efae25c2b890964d276c23db41d3a5de3/a8bf6e711cb7605d9e986d07480f063290a8b81af502047228811e492e27b061.json"
+        ],
+        "issues": [
+          {
+            "code": "PUBLICATION_UNKNOWN",
+            "message": "Historical/live cutoff queries exclude this batch",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [
+          "ingest_plan"
+        ],
+        "operation_id": "op-5a4bb5ab7f734f848cdc2465533016a1",
+        "protocol_version": "1",
+        "status": "eligible",
+        "summary": "validate",
+        "validation": {
+          "candidate_hash": "8ef13d3a15096f8c2739df6fc27cc75f7e0f4c892c4e197b8c0744933d4bc71d",
+          "candidate_id": "candidate-e58eb04b3d046cab575be5fb76e3462efae25c2b890964d276c23db41d3a5de3",
+          "issues": [
+            {
+              "code": "PUBLICATION_UNKNOWN",
+              "message": "Historical/live cutoff queries exclude this batch",
+              "retryable": false,
+              "severity": "warning"
+            }
+          ],
+          "record_count": 119,
+          "rule_version": "v1",
+          "status": "eligible"
+        }
+      }
+    }
+  ]
+}

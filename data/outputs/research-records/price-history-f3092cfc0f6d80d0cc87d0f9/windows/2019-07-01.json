@@ -1,0 +1,59 @@
+{
+  "artifact_refs": [
+    "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+    "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/document.json",
+    "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/candidate.json",
+    "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/validation.json",
+    "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/review.json",
+    "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/daily-prices.csv",
+    "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+    "data/outputs/research-records/ingest-79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33/receipt.json"
+  ],
+  "collection_refs": [
+    "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+    "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/document.json",
+    "data/inputs/collection-records/tencent-kline/2026/collection-a6128487d5684ab18932b2a0f7841fc2/collection.json"
+  ],
+  "document_id": "doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a",
+  "end": "2019-12-31",
+  "first": "2019-07-02",
+  "last": "2019-12-31",
+  "observed_rows": 127,
+  "start": "2019-07-01",
+  "status": "registered",
+  "validation": {
+    "artifact_refs": [
+      ".research-local/validations/candidate-476889ff3e391c269423f50247c809442043c133dc8965dcdd8fa5496179cc19/6f959f0274e3a613905071543412ed5a25438d87a0dfce771d6fd48be6656be4.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "retryable": false,
+        "severity": "warning"
+      }
+    ],
+    "next_actions": [
+      "ingest_plan"
+    ],
+    "operation_id": "op-b82dda1ef4114a449c2d49a2cc641bc9",
+    "protocol_version": "1",
+    "status": "eligible",
+    "summary": "validate",
+    "validation": {
+      "candidate_hash": "79c383e8d95bb670a105e67a7d665ed38b470e6d17b86c70183be16c41f1be33",
+      "candidate_id": "candidate-476889ff3e391c269423f50247c809442043c133dc8965dcdd8fa5496179cc19",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "retryable": false,
+          "severity": "warning"
+        }
+      ],
+      "record_count": 127,
+      "rule_version": "v1",
+      "status": "eligible"
+    }
+  }
+}
