@@ -585,7 +585,8 @@ class Service:
 
     def _validate(self, payload):
         candidate = self._candidate(payload["candidate_id"])
-        records, issues = self._check(candidate)
+        with self.repo.read_snapshot():
+            records, issues = self._check(candidate)
         errors = any(x["severity"] == "error" for x in issues)
         status = (
             "quarantined"
@@ -614,7 +615,8 @@ class Service:
 
     def _review(self, payload):
         candidate = self._candidate(payload["candidate_id"])
-        _, issues = self._check(candidate)
+        with self.repo.read_snapshot():
+            _, issues = self._check(candidate)
         if any(x["severity"] == "error" for x in issues):
             raise DomainError("QUALITY_BLOCKED", "Invalid records cannot be approved", 3)
         if (

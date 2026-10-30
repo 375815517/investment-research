@@ -7,6 +7,37 @@ import pytest
 from investment_engine.action_dependencies import resolve
 
 
+def test_legacy_payment_defaults_are_compatible_without_hiding_changed_dates():
+    from copy import deepcopy
+
+    from investment_domain import CorporateAction
+    from investment_engine.datasets import canonical_row
+
+    legacy = dict(
+        security_id="sample-hk",
+        action_id="distribution-paid",
+        action_type="spinoff",
+        action_status="effected",
+        updates_action_id="distribution-declared",
+        announcement_date="2023-03-24",
+        payment_date="2023-03-24",
+        share_class="ordinary",
+        basis="Certificates dispatched; investor receipt date is not established",
+        locator="pdf:page:1",
+        excerpt="Certificates dispatched on 24 March 2023",
+    )
+    original = deepcopy(legacy)
+    current = CorporateAction.model_validate(legacy).model_dump(mode="json")
+    assert canonical_row("corporate-actions", legacy) == canonical_row("corporate-actions", current)
+    assert legacy == original
+    assert canonical_row("corporate-actions", legacy) != canonical_row(
+        "corporate-actions", dict(current, payment_date="2023-03-25")
+    )
+    assert canonical_row("corporate-actions", dict(legacy, batch_refs=["old/batch.json"]))[
+        "batch_refs"
+    ] == ["old/batch.json"]
+
+
 def test_confirmation_references_same_security_and_type_without_guessing_terms():
     declaration = dict(
         action_id="declared",

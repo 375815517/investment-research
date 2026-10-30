@@ -8,6 +8,36 @@ from investment_domain import DomainError
 from test_core import PRICE, admit, candidate
 
 
+@pytest.mark.parametrize("operation", ["validate", "review"])
+def test_candidate_checks_reuse_reads_but_reverify_next_request(tmp_path, monkeypatch, operation):
+    service, doc, prepared = candidate(tmp_path)
+    checks, index = service._check, service.repo._document_index
+    builds = []
+
+    def repeated_dependencies(value):
+        result = checks(value)
+        service.repo.document(doc["document_id"])
+        service.repo.document(doc["document_id"])
+        return result
+
+    def counted_index():
+        builds.append(True)
+        return index()
+
+    monkeypatch.setattr(service, "_check", repeated_dependencies)
+    monkeypatch.setattr(service.repo, "_document_index", counted_index)
+    payload = dict(candidate_id=prepared["candidate_id"])
+    if operation == "review":
+        payload.update(decision="approved", reviewer="test", notes="Verified source")
+    service.execute(operation, payload)
+    assert len(builds) == 1
+    assert service.repo._snapshot.get() is None
+    original = service.repo.path(doc["document"]["path"])
+    original.write_bytes(original.read_bytes().replace(b"11", b"12"))
+    with pytest.raises(DomainError):
+        service.execute(operation, payload)
+
+
 def test_verified_view_requires_lock_and_blocks_writes(tmp_path):
     service, doc, _ = candidate(tmp_path)
     repo = service.repo

@@ -1,0 +1,3597 @@
+{
+  "assessment": {
+    "artifact_refs": [
+      "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json",
+      "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+    ],
+    "audit": {
+      "artifact_refs": [
+        "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json",
+        "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+      ],
+      "keys": [
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-03-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-03",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-03-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+              ],
+              "excerpt": "03/10/2025,1810,XIAOMI-W,345316604,18992413220",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-03",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "345316604",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-03-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-03",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-03-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+              ],
+              "excerpt": "03/10/2025,1810,XIAOMI-W,345316604,18992413220",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-03",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "18992413220",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-10-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-10",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-10-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+              ],
+              "excerpt": "10/10/2025,1810,XIAOMI-W,384411931,20008641009",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-10",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "384411931",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-10-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-10",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-10-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+              ],
+              "excerpt": "10/10/2025,1810,XIAOMI-W,384411931,20008641009",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-10",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "20008641009",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-17-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-17",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-17-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+              ],
+              "excerpt": "17/10/2025,1810,XIAOMI-W,465058210,21374075332",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-17",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "465058210",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-17-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-17",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-17-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+              ],
+              "excerpt": "17/10/2025,1810,XIAOMI-W,465058210,21374075332",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-17",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "21374075332",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-24-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-24",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-24-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+              ],
+              "excerpt": "24/10/2025,1810,XIAOMI-W,464598988,21334385529",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-24",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "464598988",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-24-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-24",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-24-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+              ],
+              "excerpt": "24/10/2025,1810,XIAOMI-W,464598988,21334385529",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-24",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "21334385529",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-31-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-31",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-31-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+              ],
+              "excerpt": "31/10/2025,1810,XIAOMI-W,487218543,21047841058",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-31",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "487218543",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2025-10-31-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-31",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2025-10-31-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+              ],
+              "excerpt": "31/10/2025,1810,XIAOMI-W,487218543,21047841058",
+              "locator": "text:line:337",
+              "metadata_revision_ids": {
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-31",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "21047841058",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-02-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-02",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-02-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+              ],
+              "excerpt": "02/10/2026,1810,XIAOMI-W,1487798779,36064242403",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-02",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "1487798779",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-02-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-02",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-02-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+              ],
+              "excerpt": "02/10/2026,1810,XIAOMI-W,1487798779,36064242403",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-02",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "36064242403",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-09-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-09",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-09-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+              ],
+              "excerpt": "09/10/2026,1810,XIAOMI-W,1482303648,38480602702",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-09",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "1482303648",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-09-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-09",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-09-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+              ],
+              "excerpt": "09/10/2026,1810,XIAOMI-W,1482303648,38480602702",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-09",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "38480602702",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-16-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-16",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-16-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+              ],
+              "excerpt": "16/10/2026,1810,XIAOMI-W,1379970926,36790024887",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-16",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "1379970926",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-16-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-16",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-16-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+              ],
+              "excerpt": "16/10/2026,1810,XIAOMI-W,1379970926,36790024887",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-16",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "36790024887",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-23-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-23",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-23-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+              ],
+              "excerpt": "23/10/2026,1810,XIAOMI-W,1322417231,35440781791",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-23",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "1322417231",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "xiaomi-2026-10-23-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-23",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-xiaomi",
+            "subject_id": "xiaomi-hk"
+          },
+          "key_id": "xiaomi-2026-10-23-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e",
+              "batch_refs": [
+                "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+              ],
+              "excerpt": "23/10/2026,1810,XIAOMI-W,1322417231,35440781791",
+              "locator": "text:line:358",
+              "metadata_revision_ids": {
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-23",
+              "record_kind": "source_reported",
+              "security_id": "xiaomi-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-xiaomi",
+              "source_value": "35440781791",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-03-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-03",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-03-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+              ],
+              "excerpt": "03/10/2025,700,TENCENT,40175765,27058377728",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-03",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "40175765",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-03-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-03",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-03-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+              ],
+              "excerpt": "03/10/2025,700,TENCENT,40175765,27058377728",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-03",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "27058377728",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-10-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-10",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-10-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+              ],
+              "excerpt": "10/10/2025,700,TENCENT,41457144,27009329316",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-10",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "41457144",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-10-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-10",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-10-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+              ],
+              "excerpt": "10/10/2025,700,TENCENT,41457144,27009329316",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-10",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "27009329316",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-17-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-17",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-17-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+              ],
+              "excerpt": "17/10/2025,700,TENCENT,37228503,22634929824",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-17",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "37228503",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-17-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-17",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-17-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+              ],
+              "excerpt": "17/10/2025,700,TENCENT,37228503,22634929824",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-17",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "22634929824",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-24-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-24",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-24-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+              ],
+              "excerpt": "24/10/2025,700,TENCENT,38287195,24408086813",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-24",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "38287195",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-24-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-24",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-24-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+              ],
+              "excerpt": "24/10/2025,700,TENCENT,38287195,24408086813",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-24",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "24408086813",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-31-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2025-10-31",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-31-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+              ],
+              "excerpt": "31/10/2025,700,TENCENT,37821625,23789802125",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-31",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "37821625",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2025-10-31-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2025-10-31",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2025-10-31-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+              ],
+              "excerpt": "31/10/2025,700,TENCENT,37821625,23789802125",
+              "locator": "text:line:149",
+              "metadata_revision_ids": {
+                "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2025-10-31",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "23789802125",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-02-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-02",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-02-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+              ],
+              "excerpt": "02/10/2026,700,TENCENT,75217572,31681641326",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-02",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "75217572",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-02-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-02",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-02-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+              ],
+              "excerpt": "02/10/2026,700,TENCENT,75217572,31681641326",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-02",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "31681641326",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-09-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-09",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-09-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+              ],
+              "excerpt": "09/10/2026,700,TENCENT,81361623,34562417450",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-09",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "81361623",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-09-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-09",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-09-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+              ],
+              "excerpt": "09/10/2026,700,TENCENT,81361623,34562417450",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-09",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "34562417450",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-16-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-16",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-16-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+              ],
+              "excerpt": "16/10/2026,700,TENCENT,76657027,32027305881",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-16",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "76657027",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-16-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-16",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-16-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+              ],
+              "excerpt": "16/10/2026,700,TENCENT,76657027,32027305881",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-16",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "32027305881",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-23-reported_short_position",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": null,
+              "metric_id": "reported_short_position",
+              "observed_date": "2026-10-23",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "shares"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-23-reported_short_position",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json"
+              ],
+              "currency": null,
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+              ],
+              "excerpt": "23/10/2026,700,TENCENT,72213645,27874466970",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1": "original"
+              },
+              "metric_id": "reported_short_position",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-23",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "72213645",
+              "unit": "shares",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        },
+        {
+          "artifact_refs": [
+            "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json"
+          ],
+          "excluded": [],
+          "expected": {
+            "dataset_id": "market-observations",
+            "key_id": "tencent-2026-10-23-reported_short_position_value",
+            "max_matches": 1,
+            "required": true,
+            "selectors": {
+              "currency": "HKD",
+              "metric_id": "reported_short_position_value",
+              "observed_date": "2026-10-23",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "unit": "currency"
+            },
+            "source_id": "sfc-tencent",
+            "subject_id": "tencent-hk"
+          },
+          "key_id": "tencent-2026-10-23-reported_short_position_value",
+          "observed_count": 1,
+          "rows": [
+            {
+              "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+              "batch_id": "batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426",
+              "batch_refs": [
+                "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json"
+              ],
+              "currency": "HKD",
+              "denominator_ref": null,
+              "document_metadata_refs": [
+                "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json"
+              ],
+              "document_refs": [
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+              ],
+              "excerpt": "23/10/2026,700,TENCENT,72213645,27874466970",
+              "locator": "text:line:160",
+              "metadata_revision_ids": {
+                "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1": "original"
+              },
+              "metric_id": "reported_short_position_value",
+              "missing_reason": null,
+              "observed_at": null,
+              "observed_date": "2026-10-23",
+              "record_kind": "source_reported",
+              "security_id": "tencent-hk",
+              "session": "reporting_period",
+              "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+              "source_id": "sfc-tencent",
+              "source_value": "27874466970",
+              "unit": "currency",
+              "value_status": "reported"
+            }
+          ],
+          "status": "satisfied",
+          "unavailable_count": 0
+        }
+      ],
+      "limitations": [
+        "Completeness is limited to declared exact keys, not all published reports or internet sources",
+        "Unavailable or non-disclosed values never satisfy required numeric inputs"
+      ],
+      "missing_key_ids": [],
+      "profile_id": "market-window-sfc-2025-2026",
+      "profile_version": "1",
+      "required_count": 36,
+      "satisfied_required_count": 36,
+      "scope": "declared_exact_keys",
+      "status": "complete"
+    },
+    "findings": [
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2025-10-03-reported_short_position",
+          "tencent-2025-10-03-reported_short_position_value",
+          "xiaomi-2025-10-03-reported_short_position",
+          "xiaomi-2025-10-03-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2025-10-10-reported_short_position",
+          "tencent-2025-10-10-reported_short_position_value",
+          "xiaomi-2025-10-10-reported_short_position",
+          "xiaomi-2025-10-10-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2025-10-17-reported_short_position",
+          "tencent-2025-10-17-reported_short_position_value",
+          "xiaomi-2025-10-17-reported_short_position",
+          "xiaomi-2025-10-17-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2025-10-24-reported_short_position",
+          "tencent-2025-10-24-reported_short_position_value",
+          "xiaomi-2025-10-24-reported_short_position",
+          "xiaomi-2025-10-24-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2025-10-31-reported_short_position",
+          "tencent-2025-10-31-reported_short_position_value",
+          "xiaomi-2025-10-31-reported_short_position",
+          "xiaomi-2025-10-31-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2026-10-02-reported_short_position",
+          "tencent-2026-10-02-reported_short_position_value",
+          "xiaomi-2026-10-02-reported_short_position",
+          "xiaomi-2026-10-02-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2026-10-09-reported_short_position",
+          "tencent-2026-10-09-reported_short_position_value",
+          "xiaomi-2026-10-09-reported_short_position",
+          "xiaomi-2026-10-09-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2026-10-16-reported_short_position",
+          "tencent-2026-10-16-reported_short_position_value",
+          "xiaomi-2026-10-16-reported_short_position",
+          "xiaomi-2026-10-16-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec",
+        "severity": "warning"
+      },
+      {
+        "code": "PUBLICATION_AVAILABILITY_UNKNOWN",
+        "group_id": null,
+        "key_ids": [
+          "tencent-2026-10-23-reported_short_position",
+          "tencent-2026-10-23-reported_short_position_value",
+          "xiaomi-2026-10-23-reported_short_position",
+          "xiaomi-2026-10-23-reported_short_position_value"
+        ],
+        "message": "No verified public availability bound: doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1",
+        "severity": "warning"
+      }
+    ],
+    "limitations": [
+      "Ready applies only to declared inputs and groups; it is not factor effectiveness or complete history certification",
+      "No comparison is inferred between independent keys; downstream joins must declare comparison groups",
+      "Hash integrity and review attestations do not certify source truth"
+    ],
+    "next_actions": [
+      "PUBLICATION_AVAILABILITY_UNKNOWN"
+    ],
+    "purpose": "source_description",
+    "scope": "declared_exact_keys_and_comparison_groups",
+    "status": "limited"
+  },
+  "bundle_id": "inputs-e8d6c96a4d1f3c42a34e3c198751df82",
+  "bundle_version": "input-bundle-v1",
+  "documents": {
+    "doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d": {
+      "metadata_revision": "original",
+      "original_sha256": "291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+    },
+    "doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c": {
+      "metadata_revision": "original",
+      "original_sha256": "447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+    },
+    "doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef": {
+      "metadata_revision": "original",
+      "original_sha256": "63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+    },
+    "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1": {
+      "metadata_revision": "original",
+      "original_sha256": "7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+    },
+    "doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30": {
+      "metadata_revision": "original",
+      "original_sha256": "a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+    },
+    "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18": {
+      "metadata_revision": "original",
+      "original_sha256": "bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+    },
+    "doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858": {
+      "metadata_revision": "original",
+      "original_sha256": "ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+    },
+    "doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419": {
+      "metadata_revision": "original",
+      "original_sha256": "d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+    },
+    "doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec": {
+      "metadata_revision": "original",
+      "original_sha256": "d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/batch.json",
+      "sha256": "92647efcfc37881f494b4853bc1fcb154664886a3084ff9b22ae6a18de4d6a92"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-5acf6781ff1c7e46f785cddf1bfbd365cb7bfdbe81995fc0f7e24f05725ef249/market-observations.json",
+      "sha256": "650a6af116193e89988c40a4c8dbe895f593d454d2d1fb40200e3dd6d564917c"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/batch.json",
+      "sha256": "9f573cfa4c4195012057d81eb3a592b70d3df209963d4be988e93a530fe970ba"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-614480cba770e42e632ba493bfc2a1b3833a37d66c21ded4ce509e2f12a35679/market-observations.json",
+      "sha256": "508deb010e9dd93603309d039d1d31c02371941c6dcbd8ccc2f6a4f08f855148"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/batch.json",
+      "sha256": "ea35467805be344c8c21490819d29866029fa3d5e15f4234abc0d2dfbe5dbd27"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-7c009efaa15904d2ea5a0bb25ac6e5d14964f239a62c6c2b526332cda717dbfe/market-observations.json",
+      "sha256": "6c434e2cfb6c907b3637c5171a9656b3b59aed25ad7f7186c264a7e12210c7be"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/batch.json",
+      "sha256": "6eb606135c6b1dafc132cc2409c09a53769b7bab39ef87e7f58dde89ed357933"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-bdfa27ded45a6f06d614f35bd54e79d747ce0d504e341087e0bebd75d9a7e62b/market-observations.json",
+      "sha256": "45ba8f0848db24d41b9f54d04712c43f05dd930ca5dea4935cb5bdf86746727f"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/batch.json",
+      "sha256": "6de37e217759e3c2c4ea697fe7cacb3f97bdd96df23e60cc0c78724fbbd2fe15"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2025/batch-d509a4a8764a4534b3f7081fff42de0702f9a17b8311bdfaecaefe7e0303a206/market-observations.json",
+      "sha256": "6dd9d13821ea63897aba075ef55c2f8cd74d9b903883c3743200a874c4252f0c"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/batch.json",
+      "sha256": "4f0a78e328466090f5b65f2dc2af2150e0184b968db1de5128e21c76ff982e30"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-2dc4443bae4c268f7d5da2164725afef6e2775f9f3f41689af979f84aa6db5b6/market-observations.json",
+      "sha256": "fcd2720e42a57e6b3aef8a10203d644454214b7f188a4a5b35f5f812bfd3de05"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/batch.json",
+      "sha256": "3c9ecf1a4aaf02c34055ab67ec01971e0f6abfe67aa154defc4a6e6f915d2d08"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-34a0d9aeaf5d725e075176961a42664ca51924b3a793b8ed3aafe6c50b3c5426/market-observations.json",
+      "sha256": "80eeb93a1f9e1faf6bfb826f222e7c745c869af18f2750669c44926b21ec6358"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/batch.json",
+      "sha256": "3a813381c9213d72b344a780cc2922340d00cb73db39de87a9f375132e10a430"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-3648869a6e01bdee006ca4dcecb29909637bb3a73da3a858e5e5f4b37b2b32bf/market-observations.json",
+      "sha256": "a7b1fc5852e90ee36929399bcd86d356c2a7932f7da0dfe614c2ba0af678b7af"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/batch.json",
+      "sha256": "7c38c6989580ce30b4ff50ba2115605b3f1ddae6d3e720dedac24af6f6939bb6"
+    },
+    {
+      "path": "data/inputs/markets/observations/tencent-hk/2026/batch-85a0b838f821b1df3becb0ffbc97eb5dd7407dc16695b795493d90bb614e0e7c/market-observations.json",
+      "sha256": "d03980d162c78bfa33a94dafc85b86dc6762c353ca4bd157df00b7a31d3ecf0c"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/batch.json",
+      "sha256": "8afbfd281cfcb7fcfb779218885a6479f29abedf3adb266fa9c369d9aafeaca4"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-30810d1a5dfa94aa2839d4384201bc8a2a66ad3d53a1aa419779dc5d32c51962/market-observations.json",
+      "sha256": "34a86db6e115edb53a2f29c65be02290c7f79f30fd99341a613ef297c7a10fc7"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/batch.json",
+      "sha256": "d03cc0ba50d3f199b03d1fa4ee777b16206f0f40933094d0a3c9660d8ae40f99"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-346d0ed71137298b876770a913b81730ba2f3c2e4503c1a13c88f3a8547285e7/market-observations.json",
+      "sha256": "83db23e76d3e5d3eb052e4c2c70761067770f0cbc48487b7587f0d0f5c2f593d"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/batch.json",
+      "sha256": "22aa0218b6da4edef2be0c3c5da0ab2ddeb3706ce5ed42de6bfb80ec135d5d66"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-4c15be804e9f244ea52265630491b1d2884495691f74ce929a36c3c4fa51b6e0/market-observations.json",
+      "sha256": "91cffa29ab197e9f0069f5de2a313e3de620c2499c66203203b6c04abe46dc80"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/batch.json",
+      "sha256": "e3219bf71b32a993e1cb0feb0ae897c3db8fe8a41bc45a620493be2c768c0707"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-c819a4ff2075bb85b0cfd028588597b241db2e965563be5ea41e14a395c2869c/market-observations.json",
+      "sha256": "716c069aed567771129436f211f2c817302be53f5f774d38f977043fbd0deaaa"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/batch.json",
+      "sha256": "fd74c86836113908521253f31df9361ef68d4b12b4e9eee28effa4301eac2a13"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2025/batch-d155eb0fac29180cc4dca4a2d42eeb1fd282ba7bbe9a437a2cda45d1690cacb4/market-observations.json",
+      "sha256": "72c116d7fcc270a9ddc691f576f179c7b3c9be6cce85a654008080dc8006d359"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/batch.json",
+      "sha256": "d5c2f5353873820b0c3908a3ea1ded28950204bae5fd3a09ef6568d1a341ad01"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-19eb43069c7dcae1690773326a22619690a5bfbd0dabda31e6eee081fbd834f0/market-observations.json",
+      "sha256": "c5232f39c40a3f25066195901bcac47019bb58875b37dc04806fb13e7c2896d8"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/batch.json",
+      "sha256": "3829b0977b737f1d546ecc62741c0e2e7d6ceb3eb3bea897a0fe868b952d833e"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-1e7ccc653fb046b55aac103414b5bd8e629eaaaf608ced9410f64662877b92db/market-observations.json",
+      "sha256": "eb4ba90063969b90f38891498d69913d3b38a0b7be3b01ab010c8ebbba6ee73b"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/batch.json",
+      "sha256": "ca06291d68d894676513a5c19a6217c5928e4a295066d6dfc5da8f3ca40e0e87"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-86bfec87f3e73ecc229d3fcc5597673daf660aa4a95a362f16989a0f2899727e/market-observations.json",
+      "sha256": "74631add9e992304def9403d5e05752a9df0cf31d666eaf6c3b55bc209943935"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/batch.json",
+      "sha256": "1054d4a91ffb629cba5d792e54953c886f28b403d3f4652607608b01fb06c8b6"
+    },
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-e1ff9dfc7895afd13aa186726959f6f5c8b68408ee587a3e6829877120cd3a4e/market-observations.json",
+      "sha256": "8dde7368d1cdcb3339cc5103ef616b894ca89554813abf4f95f5061b5483e259"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json",
+      "sha256": "9bf8d6549315344f6657e17807f363791d679dfcbf7f7963a5351b059311e804"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/original.csv",
+      "sha256": "bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json",
+      "sha256": "9afb649107c3935286322de26114285906b61aa626b9348f60f6d32d3f03a7ec"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/original.csv",
+      "sha256": "7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/document.json",
+      "sha256": "6dcd89ea9c7821aa52c8d1c2377f5acd5632a7df73881f7ddbc63033365f7fb0"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d/v1/original.csv",
+      "sha256": "291493ccaf9082d2699bb5e24ecb1a7150b46a256547c15f846cf8b631b07f2d"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/document.json",
+      "sha256": "55e40522fe537f048b2af9db9d11af2c78eac3bb662ace8bf9a56b5fad9de8c8"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c/v1/original.csv",
+      "sha256": "447054d6a248aa3f7a01a46f55838702d3aae8e256baa73f9b95297594ccf22c"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/document.json",
+      "sha256": "c89a2974476d23924c9949f354c7a9888f51718dab3ce66b833dca0e8c5a819a"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef/v1/original.csv",
+      "sha256": "63d96345470aa7e73950a4c10efd5793238e8bcab4c01ca16f5569246d88d5ef"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/document.json",
+      "sha256": "6987824ce37bb4aa37da8ca73d02a4255e768152cc377b702d2c61043e066db4"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30/v1/original.csv",
+      "sha256": "a6e0afe50d58cb258ba46518968629a286120c65294af63dd25b7f6d7603bb30"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/document.json",
+      "sha256": "2e2062d7ac8954ffba44770f7c6051461bb103aea83a420bc7ddbdeb2087e3d1"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858/v1/original.csv",
+      "sha256": "ccbb9167cfa7cddaa1cb961fb78389546acd3b0f2b5d876837ad2bed09d4c858"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/document.json",
+      "sha256": "0fbb12174612ebb55c1deb996f9f6c22293fec417ad2c1895f9aa2fe8bbeff67"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419/v1/original.csv",
+      "sha256": "d62e496473e70a88f3698a1dc1c0c9536820371e7bed88c8c71532927db8b419"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/document.json",
+      "sha256": "c1819bdf8422ce7c636cbd5a2387348e5e48078a9576d7988b9c6f2edd6d0bc0"
+    },
+    {
+      "path": "data/inputs/source-files/sfc-xiaomi/2026/doc-d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec/v1/original.csv",
+      "sha256": "d9ead2ac21ace34528874872c74e20efccbe0dd032cf0131c648f063394ed2ec"
+    },
+    {
+      "path": "data/outputs/research-records/transformations/normalization-e1f33813440bca78da83f45920ce1e80/run.json",
+      "sha256": "e1f33813440bca78da83f45920ce1e80a506ecb61a78ddfec9049563ce8075f4"
+    },
+    {
+      "path": "research/units/scales.json",
+      "sha256": "cfcae62aff1d83eaa4750ad2571c2cedfd36d30b6d4c1c68b21e35a59ee75272"
+    }
+  ],
+  "implementation": {
+    "files": [
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/c02b93a0175bf96257e1492442a7b086e581b2c54dc00b040b8c22f653b99f1b/source.txt",
+        "path": "ai/tooling/src/investment_ai/__init__.py",
+        "sha256": "c02b93a0175bf96257e1492442a7b086e581b2c54dc00b040b8c22f653b99f1b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/abaf76df2fdbfaebf5588bd103796dddd8e113616f483b0128b363357e3a3f77/source.txt",
+        "path": "ai/tooling/src/investment_ai/manager.py",
+        "sha256": "abaf76df2fdbfaebf5588bd103796dddd8e113616f483b0128b363357e3a3f77"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d72727dc3764a891865ac3bede402b5793d3ceb65bf35f124f6e021be63138fa/source.txt",
+        "path": "ai/tooling/src/investment_ai/probe.py",
+        "sha256": "d72727dc3764a891865ac3bede402b5793d3ceb65bf35f124f6e021be63138fa"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/277517a17e0f7cf8096ca84198d1094cda933fac97928c0b6658bc9e6306abdf/source.txt",
+        "path": "ai/tooling/tests/test_probe.py",
+        "sha256": "277517a17e0f7cf8096ca84198d1094cda933fac97928c0b6658bc9e6306abdf"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/913fc936423d86db85671eab0ef4565b9a240889b9dfde0a1f14814025c80e19/source.txt",
+        "path": "apps/api/src/investment_api/__init__.py",
+        "sha256": "913fc936423d86db85671eab0ef4565b9a240889b9dfde0a1f14814025c80e19"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/24a01c2d0cfdf28471bc208a09f8356e8efbfe74ff9e4692029d6e904a4d3156/source.txt",
+        "path": "apps/api/src/investment_api/server.py",
+        "sha256": "24a01c2d0cfdf28471bc208a09f8356e8efbfe74ff9e4692029d6e904a4d3156"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a40615760442ce8aa1b443c81434b7f3e8a48bfc0aff049e02122f698a0e82ac/source.txt",
+        "path": "apps/cli/src/investment_cli/__init__.py",
+        "sha256": "a40615760442ce8aa1b443c81434b7f3e8a48bfc0aff049e02122f698a0e82ac"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/0472e2ffee01c7582c667fb3eb1ef01023e7d584f175cef8cb475e45e6bd1736/source.txt",
+        "path": "apps/cli/src/investment_cli/__main__.py",
+        "sha256": "0472e2ffee01c7582c667fb3eb1ef01023e7d584f175cef8cb475e45e6bd1736"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/fd1f0201d5aa0852c0f776f75f83b4b4eadfef091b83903aa6ecffd9ecd2dfe1/source.txt",
+        "path": "apps/cli/src/investment_cli/main.py",
+        "sha256": "fd1f0201d5aa0852c0f776f75f83b4b4eadfef091b83903aa6ecffd9ecd2dfe1"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2ad5504672948a7c649f1a9a1e785417f081c56a1ebc67ff2882699900bb17c0/source.txt",
+        "path": "packages/connectors/src/investment_connectors/__init__.py",
+        "sha256": "2ad5504672948a7c649f1a9a1e785417f081c56a1ebc67ff2882699900bb17c0"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3eb2a286fd1fbe01718301429c1b4343ec567735747d92c5e403bdb676db4515/source.txt",
+        "path": "packages/connectors/src/investment_connectors/hkex_daily.py",
+        "sha256": "3eb2a286fd1fbe01718301429c1b4343ec567735747d92c5e403bdb676db4515"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/da85f51db718204b61332825fa69c09efa106118793488420de8567fc399d15c/source.txt",
+        "path": "packages/connectors/src/investment_connectors/http.py",
+        "sha256": "da85f51db718204b61332825fa69c09efa106118793488420de8567fc399d15c"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3095f4c3c86b7d510a3e6dfecf8a010c2213d1e3ba8e6c878b548a821aa8a7ee/source.txt",
+        "path": "packages/connectors/src/investment_connectors/observations.py",
+        "sha256": "3095f4c3c86b7d510a3e6dfecf8a010c2213d1e3ba8e6c878b548a821aa8a7ee"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/68606ca49596291743189a8e461de070f36f7e9493c53324db534d22dd61ffab/source.txt",
+        "path": "packages/connectors/src/investment_connectors/providers.py",
+        "sha256": "68606ca49596291743189a8e461de070f36f7e9493c53324db534d22dd61ffab"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/7c70866cd350a6e124f11a2b9fd0839435a1fd1fc3563c3c9df0a4359dfb16a2/source.txt",
+        "path": "packages/domain/src/investment_domain/__init__.py",
+        "sha256": "7c70866cd350a6e124f11a2b9fd0839435a1fd1fc3563c3c9df0a4359dfb16a2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/85f7a0bb9a27ffbb62a9b68aa57ddb9452d4067ae02a24704ef910a884ebba3f/source.txt",
+        "path": "packages/domain/src/investment_domain/assessment.py",
+        "sha256": "85f7a0bb9a27ffbb62a9b68aa57ddb9452d4067ae02a24704ef910a884ebba3f"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a641af978a96ed0dca579d6073754cbd045099f90b5b57c2d0a17abf75b97560/source.txt",
+        "path": "packages/domain/src/investment_domain/coverage.py",
+        "sha256": "a641af978a96ed0dca579d6073754cbd045099f90b5b57c2d0a17abf75b97560"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/fd79d91e97f7ffc26e91bba95c1ddb678ac07278ee1aaedce38a0f9175b092cb/source.txt",
+        "path": "packages/domain/src/investment_domain/market_context.py",
+        "sha256": "fd79d91e97f7ffc26e91bba95c1ddb678ac07278ee1aaedce38a0f9175b092cb"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ee6577fdb750eff5c0184d1e0042bd0367ad14f487ff99bf8257df4f10c3b0e6/source.txt",
+        "path": "packages/domain/src/investment_domain/measurements.py",
+        "sha256": "ee6577fdb750eff5c0184d1e0042bd0367ad14f487ff99bf8257df4f10c3b0e6"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/a55f79f8e85eda221e10999ace85eec069574bc65e4f67bf7fda7047810a0a59/source.txt",
+        "path": "packages/domain/src/investment_domain/observations.py",
+        "sha256": "a55f79f8e85eda221e10999ace85eec069574bc65e4f67bf7fda7047810a0a59"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3e5050284648bc09539509d750c98c969ae1621f9356e93258eddd69feaeeef8/source.txt",
+        "path": "packages/domain/src/investment_domain/period_transforms.py",
+        "sha256": "3e5050284648bc09539509d750c98c969ae1621f9356e93258eddd69feaeeef8"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2d5b0e4df8f55fc909ac8e9cca10df44a7dee7894e80cda258f2c4ebff8d360c/source.txt",
+        "path": "packages/domain/src/investment_domain/profiles.py",
+        "sha256": "2d5b0e4df8f55fc909ac8e9cca10df44a7dee7894e80cda258f2c4ebff8d360c"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/5a959a86e41f5bbc59b87a7346ed812b74b2f5daaa22489ccadeec799ef736e6/source.txt",
+        "path": "packages/domain/src/investment_domain/publication.py",
+        "sha256": "5a959a86e41f5bbc59b87a7346ed812b74b2f5daaa22489ccadeec799ef736e6"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/0fb8756171316da28c2e16007b54ab9780af75a28fcd51b3aa937288058ff2dc/source.txt",
+        "path": "packages/engine/src/investment_engine/__init__.py",
+        "sha256": "0fb8756171316da28c2e16007b54ab9780af75a28fcd51b3aa937288058ff2dc"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/bf54aeaeac4ff0a2e18e4829f5088b22e50f26110001681f79ae35bda24b8f83/source.txt",
+        "path": "packages/engine/src/investment_engine/acquisition.py",
+        "sha256": "bf54aeaeac4ff0a2e18e4829f5088b22e50f26110001681f79ae35bda24b8f83"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/abb3206be11ef826c38a25c2ad28ab49c64fb5d3cc7cc9b8bc14adbff14608fa/source.txt",
+        "path": "packages/engine/src/investment_engine/action_dependencies.py",
+        "sha256": "abb3206be11ef826c38a25c2ad28ab49c64fb5d3cc7cc9b8bc14adbff14608fa"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/84220f675ed4f77ab2cdcca3bdfc2a8de97933ba261ff9cfdbecef8acbe3408b/source.txt",
+        "path": "packages/engine/src/investment_engine/assessment.py",
+        "sha256": "84220f675ed4f77ab2cdcca3bdfc2a8de97933ba261ff9cfdbecef8acbe3408b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/e49602ffcea24fd0886cf88af2312a4c82c8c5915f4a3cc2ea0710ff7ed73d6a/source.txt",
+        "path": "packages/engine/src/investment_engine/bundles.py",
+        "sha256": "e49602ffcea24fd0886cf88af2312a4c82c8c5915f4a3cc2ea0710ff7ed73d6a"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/475fbc02041b1281546c40b425ec02edc208747ebfcd84a38cf2cef48d2f002d/source.txt",
+        "path": "packages/engine/src/investment_engine/datasets.py",
+        "sha256": "475fbc02041b1281546c40b425ec02edc208747ebfcd84a38cf2cef48d2f002d"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/4a01472b51b03b92ff36c3961701da9eb68cf646f1e039725a829ab785705e42/source.txt",
+        "path": "packages/engine/src/investment_engine/ensure.py",
+        "sha256": "4a01472b51b03b92ff36c3961701da9eb68cf646f1e039725a829ab785705e42"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d27320c2698f1540b04c3292ccd937117ef2d7a664d94d9e7fd32a09df9b98b2/source.txt",
+        "path": "packages/engine/src/investment_engine/evidence_time.py",
+        "sha256": "d27320c2698f1540b04c3292ccd937117ef2d7a664d94d9e7fd32a09df9b98b2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ce732429b4c7ca7b95deaf0e056eba51088eb91f8a9771bc32c595bd6580fd9e/source.txt",
+        "path": "packages/engine/src/investment_engine/market_status.py",
+        "sha256": "ce732429b4c7ca7b95deaf0e056eba51088eb91f8a9771bc32c595bd6580fd9e"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3043431de37da0aa4fc0a3019b1865231f8d79730da2cbdd7599a71546723072/source.txt",
+        "path": "packages/engine/src/investment_engine/period_transforms.py",
+        "sha256": "3043431de37da0aa4fc0a3019b1865231f8d79730da2cbdd7599a71546723072"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/9113faccc7b7ec03474a0bbcec593be6e61aa29a4cfc37524797abcebd49e9bc/source.txt",
+        "path": "packages/engine/src/investment_engine/profiles.py",
+        "sha256": "9113faccc7b7ec03474a0bbcec593be6e61aa29a4cfc37524797abcebd49e9bc"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/5fe41924c636b0319b3c1c5f0a025d249ddf8b844d9d9755215bd2a885eb615d/source.txt",
+        "path": "packages/engine/src/investment_engine/temporal.py",
+        "sha256": "5fe41924c636b0319b3c1c5f0a025d249ddf8b844d9d9755215bd2a885eb615d"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/b10b40dd98f5863eb3b5bbd7be2080b1fea57bb5d8dca273a6bbb05d416f10f3/source.txt",
+        "path": "packages/engine/src/investment_engine/transforms.py",
+        "sha256": "b10b40dd98f5863eb3b5bbd7be2080b1fea57bb5d8dca273a6bbb05d416f10f3"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/de5e9b6f634ed519d61c51a84ba24169d813f228b7769cdeb6a4b9d6fa3d6f4a/source.txt",
+        "path": "packages/repository/src/investment_repository/__init__.py",
+        "sha256": "de5e9b6f634ed519d61c51a84ba24169d813f228b7769cdeb6a4b9d6fa3d6f4a"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/006d642f5a7104ac9c78aa8343f7cf9306529c49b672c91db1516336b7ba3f95/source.txt",
+        "path": "packages/repository/src/investment_repository/metadata.py",
+        "sha256": "006d642f5a7104ac9c78aa8343f7cf9306529c49b672c91db1516336b7ba3f95"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/22301464e04cfd32a62089127a77f9a269e01e3ee755836bd27a31a47acda18e/source.txt",
+        "path": "pyproject.toml",
+        "sha256": "22301464e04cfd32a62089127a77f9a269e01e3ee755836bd27a31a47acda18e"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d9e32efc7b24e3480de48e364473c5b6c5f8fc8a00bd4d7923b58fe6a5196917/source.txt",
+        "path": "scripts/backfill_price_history.py",
+        "sha256": "d9e32efc7b24e3480de48e364473c5b6c5f8fc8a00bd4d7923b58fe6a5196917"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2480e772d9b94733e5658fa71b59dcaf8c962f5f493a2619728cd422cb5511a2/source.txt",
+        "path": "scripts/build_input_profiles.py",
+        "sha256": "2480e772d9b94733e5658fa71b59dcaf8c962f5f493a2619728cd422cb5511a2"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/d1749f6844007e6ae835fdf5dd90763ca1a4638189b5dc8eda121fdd5d542d5d/source.txt",
+        "path": "scripts/build_market_history_profiles.py",
+        "sha256": "d1749f6844007e6ae835fdf5dd90763ca1a4638189b5dc8eda121fdd5d542d5d"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/2aa12d13df97634ccd7bd7878a841ce2ffd1850945734ac44266d0a49465f097/source.txt",
+        "path": "scripts/check_publication.py",
+        "sha256": "2aa12d13df97634ccd7bd7878a841ce2ffd1850945734ac44266d0a49465f097"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/3c3dc88516edbc0f6e55b7133fbc301f77e64649d04d6bf0d549e34432ffacd7/source.txt",
+        "path": "scripts/demo_input_pipeline.py",
+        "sha256": "3c3dc88516edbc0f6e55b7133fbc301f77e64649d04d6bf0d549e34432ffacd7"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02/source.txt",
+        "path": "scripts/extract_report_candidates.py",
+        "sha256": "1a35261929c6aed36747f4520f50178c5ea0cc67779d3cffec48714d0ab8af02"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/c78da3d8b37e0638a85c9744fcd5ea404f58ba2cb8e4496a3dd499cca453bdac/source.txt",
+        "path": "scripts/retry_price_history.py",
+        "sha256": "c78da3d8b37e0638a85c9744fcd5ea404f58ba2cb8e4496a3dd499cca453bdac"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/93fe0142d15df8a02911ca118f5edaf89a0d165190dd1d5408af9ff4e747071b/source.txt",
+        "path": "scripts/verify_short_sale_ratio.py",
+        "sha256": "93fe0142d15df8a02911ca118f5edaf89a0d165190dd1d5408af9ff4e747071b"
+      },
+      {
+        "archive_ref": "data/outputs/research-records/implementation-files/ce7ae20bda69db1462040e5d6c8ede1397a3c660807b5b7704e3d5a621dc19a5/source.txt",
+        "path": "uv.lock",
+        "sha256": "ce7ae20bda69db1462040e5d6c8ede1397a3c660807b5b7704e3d5a621dc19a5"
+      }
+    ],
+    "git_head_at_freeze": "a67545f130c7db38401adc27629b3bb8b9da9495",
+    "note": "Exact source and lock bytes are content-addressed archives; HEAD alone does not certify a clean tree. Archives are never automatically executed."
+  },
+  "label": "verified-release-20261030",
+  "limitations": [
+    "Freezing a blocked or limited input set preserves its limitations; it does not certify readiness",
+    "Verification reads pinned files and rows, never substitutes newly available data",
+    "Source and implementation hashes establish reproducibility boundaries, not source authenticity"
+  ],
+  "profile": {
+    "comparison_groups": [],
+    "definition_refs": [],
+    "expected_keys": [
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-03-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-03",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-03-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-03",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-10-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-10",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-10-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-10",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-17-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-17",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-17-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-17",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-24-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-24",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-24-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-24",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-31-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-31",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2025-10-31-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-31",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-02-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-02",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-02-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-02",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-09-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-09",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-09-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-09",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-16-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-16",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-16-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-16",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-23-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-23",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "xiaomi-2026-10-23-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-23",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-xiaomi",
+        "subject_id": "xiaomi-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-03-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-03",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-03-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-03",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-10-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-10",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-10-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-10",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-17-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-17",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-17-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-17",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-24-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-24",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-24-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-24",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-31-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2025-10-31",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2025-10-31-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2025-10-31",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-02-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-02",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-02-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-02",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-09-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-09",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-09-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-09",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-16-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-16",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-16-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-16",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-23-reported_short_position",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": null,
+          "metric_id": "reported_short_position",
+          "observed_date": "2026-10-23",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "shares"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      },
+      {
+        "dataset_id": "market-observations",
+        "key_id": "tencent-2026-10-23-reported_short_position_value",
+        "max_matches": 1,
+        "required": true,
+        "selectors": {
+          "currency": "HKD",
+          "metric_id": "reported_short_position_value",
+          "observed_date": "2026-10-23",
+          "session": "reporting_period",
+          "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+          "unit": "currency"
+        },
+        "source_id": "sfc-tencent",
+        "subject_id": "tencent-hk"
+      }
+    ],
+    "information_cutoff": null,
+    "knowledge_mode": "retrospective_explanation",
+    "profile_id": "market-window-sfc-2025-2026",
+    "purpose": "source_description",
+    "version": "1"
+  },
+  "transformations": [
+    {
+      "path": "data/outputs/research-records/transformations/normalization-e1f33813440bca78da83f45920ce1e80/run.json",
+      "replayed_values": [
+        {
+          "key_id": "xiaomi-2025-10-03-reported_short_position",
+          "normalized_value": "345316604"
+        },
+        {
+          "key_id": "xiaomi-2025-10-03-reported_short_position_value",
+          "normalized_value": "18992413220"
+        },
+        {
+          "key_id": "xiaomi-2025-10-10-reported_short_position",
+          "normalized_value": "384411931"
+        },
+        {
+          "key_id": "xiaomi-2025-10-10-reported_short_position_value",
+          "normalized_value": "20008641009"
+        },
+        {
+          "key_id": "xiaomi-2025-10-17-reported_short_position",
+          "normalized_value": "465058210"
+        },
+        {
+          "key_id": "xiaomi-2025-10-17-reported_short_position_value",
+          "normalized_value": "21374075332"
+        },
+        {
+          "key_id": "xiaomi-2025-10-24-reported_short_position",
+          "normalized_value": "464598988"
+        },
+        {
+          "key_id": "xiaomi-2025-10-24-reported_short_position_value",
+          "normalized_value": "21334385529"
+        },
+        {
+          "key_id": "xiaomi-2025-10-31-reported_short_position",
+          "normalized_value": "487218543"
+        },
+        {
+          "key_id": "xiaomi-2025-10-31-reported_short_position_value",
+          "normalized_value": "21047841058"
+        },
+        {
+          "key_id": "xiaomi-2026-10-02-reported_short_position",
+          "normalized_value": "1487798779"
+        },
+        {
+          "key_id": "xiaomi-2026-10-02-reported_short_position_value",
+          "normalized_value": "36064242403"
+        },
+        {
+          "key_id": "xiaomi-2026-10-09-reported_short_position",
+          "normalized_value": "1482303648"
+        },
+        {
+          "key_id": "xiaomi-2026-10-09-reported_short_position_value",
+          "normalized_value": "38480602702"
+        },
+        {
+          "key_id": "xiaomi-2026-10-16-reported_short_position",
+          "normalized_value": "1379970926"
+        },
+        {
+          "key_id": "xiaomi-2026-10-16-reported_short_position_value",
+          "normalized_value": "36790024887"
+        },
+        {
+          "key_id": "xiaomi-2026-10-23-reported_short_position",
+          "normalized_value": "1322417231"
+        },
+        {
+          "key_id": "xiaomi-2026-10-23-reported_short_position_value",
+          "normalized_value": "35440781791"
+        },
+        {
+          "key_id": "tencent-2025-10-03-reported_short_position",
+          "normalized_value": "40175765"
+        },
+        {
+          "key_id": "tencent-2025-10-03-reported_short_position_value",
+          "normalized_value": "27058377728"
+        },
+        {
+          "key_id": "tencent-2025-10-10-reported_short_position",
+          "normalized_value": "41457144"
+        },
+        {
+          "key_id": "tencent-2025-10-10-reported_short_position_value",
+          "normalized_value": "27009329316"
+        },
+        {
+          "key_id": "tencent-2025-10-17-reported_short_position",
+          "normalized_value": "37228503"
+        },
+        {
+          "key_id": "tencent-2025-10-17-reported_short_position_value",
+          "normalized_value": "22634929824"
+        },
+        {
+          "key_id": "tencent-2025-10-24-reported_short_position",
+          "normalized_value": "38287195"
+        },
+        {
+          "key_id": "tencent-2025-10-24-reported_short_position_value",
+          "normalized_value": "24408086813"
+        },
+        {
+          "key_id": "tencent-2025-10-31-reported_short_position",
+          "normalized_value": "37821625"
+        },
+        {
+          "key_id": "tencent-2025-10-31-reported_short_position_value",
+          "normalized_value": "23789802125"
+        },
+        {
+          "key_id": "tencent-2026-10-02-reported_short_position",
+          "normalized_value": "75217572"
+        },
+        {
+          "key_id": "tencent-2026-10-02-reported_short_position_value",
+          "normalized_value": "31681641326"
+        },
+        {
+          "key_id": "tencent-2026-10-09-reported_short_position",
+          "normalized_value": "81361623"
+        },
+        {
+          "key_id": "tencent-2026-10-09-reported_short_position_value",
+          "normalized_value": "34562417450"
+        },
+        {
+          "key_id": "tencent-2026-10-16-reported_short_position",
+          "normalized_value": "76657027"
+        },
+        {
+          "key_id": "tencent-2026-10-16-reported_short_position_value",
+          "normalized_value": "32027305881"
+        },
+        {
+          "key_id": "tencent-2026-10-23-reported_short_position",
+          "normalized_value": "72213645"
+        },
+        {
+          "key_id": "tencent-2026-10-23-reported_short_position_value",
+          "normalized_value": "27874466970"
+        }
+      ],
+      "transformation_id": "normalization-e1f33813440bca78da83f45920ce1e80"
+    }
+  ]
+}

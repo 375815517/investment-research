@@ -36,6 +36,12 @@ def subject(row):
 
 
 def canonical_row(dataset, row):
+    if dataset == "corporate-actions":
+        # Optional contract extensions must not turn an already published action
+        # into a conflicting observation when an interrupted task is replayed.
+        # Normalize the comparison view only; historical bytes remain unchanged.
+        payload = {key: value for key, value in row.items() if key in CorporateAction.model_fields}
+        return dict(row, **CorporateAction.model_validate(payload).model_dump(mode="json"))
     if dataset == "market-observations" and row.get("observed_at"):
         return dict(
             row,

@@ -1,0 +1,257 @@
+{
+  "batches_verified": 415,
+  "bundles": [
+    {
+      "bundle_id": "inputs-2cdd877a00de8df767a36a6c0892ed14",
+      "profile": "annual-share-repurchase-disclosures",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-5b763be2b1159ad55f55f3e58dac3eff",
+      "profile": "hang-seng-index-history-2018-2026",
+      "status": "verified",
+      "version": "3"
+    },
+    {
+      "bundle_id": "inputs-0289c8bdf961c64713884db103a16561",
+      "profile": "market-window-hkex-2025-2026",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-859035c2d9dd2895acc197627075da5e",
+      "profile": "market-window-sfc-2025-2026",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-0bacd2979674a63e897f68c6950b0a8c",
+      "profile": "tencent-annual-core",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-5f738199a0b532ab1a94cf0075ff29e6",
+      "profile": "tencent-annual-valuation-dependencies",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-1d8b9c724b0ad5164b9ae5317a0a66cd",
+      "profile": "tencent-annual-valuation-dependencies",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-f0068a9d5b56295c953773f9eda186c4",
+      "profile": "tencent-hk-history-2018-2026",
+      "status": "verified",
+      "version": "3"
+    },
+    {
+      "bundle_id": "inputs-8999052bf68b63c55132d85889a480d7",
+      "profile": "tencent-interim-announcement-core",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-c6c822864c897cbc78cfbc1ef59cc212",
+      "profile": "tencent-interim-quarterly-core",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-d6e9e2c0deceb9831057f8d7a9c45394",
+      "profile": "tencent-operating-2024-2025",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-939377a304c42bf864f662663c8e3faa",
+      "profile": "tencent-year-end-issued-shares",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-baf79ae932eeb76c01c4c904ccf059df",
+      "profile": "xiaomi-annual-core",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-3befd1db04801488ed6e61d37f7ca307",
+      "profile": "xiaomi-annual-valuation-dependencies",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-b9f98944ff0f78acd0b50af7acefff45",
+      "profile": "xiaomi-annual-valuation-dependencies",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-7fabd99bc2608a1bf71b773583e58c84",
+      "profile": "xiaomi-hk-history-2018-2026",
+      "status": "verified",
+      "version": "3"
+    },
+    {
+      "bundle_id": "inputs-d76622ec5aad44598aa2be4b1503bb4d",
+      "profile": "xiaomi-interim-announcement-core",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-bb8a50cabf53bbc757156682551994a6",
+      "profile": "xiaomi-interim-quarterly-core",
+      "status": "verified",
+      "version": "2"
+    },
+    {
+      "bundle_id": "inputs-d0a36eb5ad1a9e5d77580585045bf7ef",
+      "profile": "xiaomi-operating-2024-2025",
+      "status": "verified",
+      "version": "1"
+    },
+    {
+      "bundle_id": "inputs-a9df366dea9d5aa1a5a780022ab510ff",
+      "profile": "xiaomi-year-end-issued-shares",
+      "status": "verified",
+      "version": "1"
+    }
+  ],
+  "head": "a67545f130c7db38401adc27629b3bb8b9da9495",
+  "initial_local_cache_present": true,
+  "issues": [],
+  "originals_verified": 281,
+  "recovery": [
+    {
+      "candidate_restored": true,
+      "checkpoint": "000029.json",
+      "dataset_id": "corporate-actions",
+      "formal_inputs_unchanged": false,
+      "issue": null,
+      "status": "blocked",
+      "task_id": "acquisition-493b2bf8ba006e6207c5df36"
+    },
+    {
+      "candidate_restored": true,
+      "checkpoint": "000019.json",
+      "dataset_id": "market-observations",
+      "formal_inputs_unchanged": true,
+      "issue": null,
+      "status": "complete",
+      "task_id": "acquisition-8884f1c13a4df54c8cf767f1"
+    }
+  ],
+  "status": "failed",
+  "task_statuses": [
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-0561315293ef64fcf981e012"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-0dfe6d3290d9ee187425e05e"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-1b56f5c4b66020dcadf02072"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-2b17052fcea6d649c7641c60"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-33fd4a3326efebd1414a92c4"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-38ef4ca50f232d01df71d32c"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-3febfde50735982754ffcf49"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-4bf876bea91c2c3d21efdfd5"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-5189848e1327fa5d5257de7d"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-73471611f15c46373f31495c"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-7c7c0a70a3fd2663e34c4f15"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-902a5cbf8a85f2f95ba91588"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-959af9923a113f3da9e6a1f9"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-a81ed0b8157f57da03831ef3"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-a903efffd3d561b8d8f92ae0"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-aaa02bca2061c1b50917547f"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-c32c227bbd1fee26be93d9fe"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-c9072dc5fe1e7de24616898d"
+    },
+    {
+      "matches_recorded": true,
+      "status": "complete",
+      "task_id": "acquisition-e8186ad31dbe18fcebeba8c4"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-fa13b3160035c9938b978add"
+    },
+    {
+      "matches_recorded": true,
+      "status": "completed_with_skips",
+      "task_id": "acquisition-fcb1015e36adf28171870964"
+    }
+  ]
+}

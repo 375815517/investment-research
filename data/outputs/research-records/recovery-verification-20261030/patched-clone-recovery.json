@@ -1,0 +1,28 @@
+{
+  "bundles": [],
+  "head": "a67545f130c7db38401adc27629b3bb8b9da9495",
+  "initial_local_cache_present": false,
+  "issues": [],
+  "recovery": [
+    {
+      "candidate_restored": true,
+      "checkpoint": "000029.json",
+      "dataset_id": "corporate-actions",
+      "formal_inputs_unchanged": true,
+      "issue": null,
+      "status": "complete",
+      "task_id": "acquisition-493b2bf8ba006e6207c5df36"
+    },
+    {
+      "candidate_restored": true,
+      "checkpoint": "000019.json",
+      "dataset_id": "market-observations",
+      "formal_inputs_unchanged": true,
+      "issue": null,
+      "status": "complete",
+      "task_id": "acquisition-8884f1c13a4df54c8cf767f1"
+    }
+  ],
+  "status": "passed",
+  "task_statuses": []
+}

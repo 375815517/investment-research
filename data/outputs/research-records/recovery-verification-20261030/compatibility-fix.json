@@ -1,0 +1,23 @@
+{
+  "candidate_id": "candidate-7207991fab2e9acbe01b953843340f1408d281017b38ee84e174b0a54ebdc643",
+  "cause": "Old row lacked optional payment precision/period fields. New model added semantically equivalent defaults, but raw dict comparison treated them as changed facts.",
+  "fix": "Canonical comparison validates current action semantics and normalizes defaults without rewriting legacy bytes; candidate validation/review use independent verified read views.",
+  "legacy_batch_id": "batch-3da36b577317c6ecd4cfe62855bd617cf5c242854f5191802c4932303bb1ac4c",
+  "limitations": "Patched clone is intermediate verification; final clean Git clone is recorded separately.",
+  "observed_failure": "RECORD_CONFLICT for previously registered Meituan distribution confirmation",
+  "patched_clone": {
+    "candidate_cache_restored": true,
+    "corporate_actions": "complete",
+    "formal_inputs_unchanged": true,
+    "market_observations": "complete"
+  },
+  "recorded_at": "2026-10-30T12:14:59.130535+00:00",
+  "tests": {
+    "full_suite_passed": 366,
+    "mypy": "passed",
+    "offline_demo": "passed",
+    "package_builds": 7,
+    "ruff": "passed"
+  },
+  "trigger": "Fresh clone with candidate/review caches removed; restore approved checkpoint after batch publication before verified event"
+}
