@@ -120,3 +120,133 @@ def test_non_object_and_malformed_requests(workspace, tmp_path, monkeypatch, cap
         == 2
     )
     assert json.loads(capsys.readouterr().out)["issues"][0]["code"] == "invalid_request"
+
+
+def test_multisource_filter_transport(workspace, monkeypatch, capsys):
+    calls = []
+
+    def invoke(workspace, operation, payload, host=False):
+        calls.append((operation, payload))
+        return {"status": "ok"}
+
+    monkeypatch.setattr(cli, "invoke", invoke)
+    assert (
+        cli.main(
+            [
+                "--workspace",
+                str(workspace),
+                "--json",
+                "data",
+                "coverage",
+                "--dataset-id",
+                "document-facts",
+                "--subject-id",
+                "china",
+                "--source-id",
+                "policy",
+                "--document-kind",
+                "policy",
+                "--metric-id",
+                "test",
+            ]
+        )
+        == 0
+    )
+    assert calls == [
+        (
+            "coverage",
+            {
+                "dataset_id": "document-facts",
+                "subject_id": "china",
+                "source_id": "policy",
+                "document_kind": "policy",
+                "metric_id": "test",
+            },
+        )
+    ]
+
+
+def test_audit_inputs_request_transport(workspace, tmp_path, monkeypatch, capsys):
+    calls = []
+    request = tmp_path / "audit.json"
+    payload = {
+        "requirements": [
+            {
+                "dataset_id": "document-facts",
+                "subject_id": "xiaomi",
+                "start": "2026-01-01",
+                "end": "2026-10-30",
+            }
+        ]
+    }
+    request.write_text(json.dumps(payload))
+
+    def invoke(workspace, operation, payload, host=False):
+        calls.append((operation, payload))
+        return {"status": "complete", "scope": "declared_sample_requirements"}
+
+    monkeypatch.setattr(cli, "invoke", invoke)
+    assert (
+        cli.main(
+            [
+                "--workspace",
+                str(workspace),
+                "--json",
+                "data",
+                "audit-inputs",
+                "--request",
+                str(request),
+            ]
+        )
+        == 0
+    )
+    assert calls == [("audit_inputs", payload)]
+
+
+def test_assessment_transport_preserves_limits_and_machine_exit(
+    workspace, tmp_path, monkeypatch, capsys
+):
+    calls = []
+    request = tmp_path / "assessment.json"
+    payload = {
+        "requirements": [
+            {
+                "dataset_id": "daily-prices",
+                "subject_id": "xiaomi-hk",
+                "start": "2025-01-01",
+                "end": "2025-12-31",
+                "price_basis": "provider-native",
+            }
+        ]
+    }
+    request.write_text(json.dumps(payload))
+
+    def invoke(workspace, operation, payload, host=False):
+        calls.append((operation, payload))
+        return {
+            "status": "limited",
+            "scope": "declared_sample_requirements",
+            "findings": [{"code": "UNVERIFIED_PRICE_BASIS", "message": "Source basis unknown"}],
+        }
+
+    monkeypatch.setattr(cli, "invoke", invoke)
+    code = cli.main(
+        [
+            "--workspace",
+            str(workspace),
+            "--json",
+            "data",
+            "assess-inputs",
+            "--request",
+            str(request),
+            "--purpose",
+            "quantitative_comparison",
+        ]
+    )
+    assert code == 3
+    assert calls == [("assess_inputs", payload | {"purpose": "quantitative_comparison"})]
+    result = json.loads(capsys.readouterr().out)
+    assert result["status"] == "limited"
+    assert result["findings"][0]["code"] == "UNVERIFIED_PRICE_BASIS"
+    assert cli.result_exit_code({"status": "ready"}) == 0
+    assert cli.result_exit_code({"status": "blocked"}) == 3

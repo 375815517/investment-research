@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-30T09:33:52.540400+00:00",
+  "assessments": [
+    {
+      "requirements": "requested-inputs",
+      "purpose": "source_description",
+      "status": "blocked",
+      "satisfied": 15,
+      "total": 19
+    },
+    {
+      "requirements": "acquired-samples",
+      "purpose": "source_description",
+      "status": "limited",
+      "satisfied": 14,
+      "total": 14
+    },
+    {
+      "requirements": "annual-summary-history",
+      "purpose": "source_description",
+      "status": "limited",
+      "satisfied": 32,
+      "total": 32
+    }
+  ]
+}

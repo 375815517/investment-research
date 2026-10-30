@@ -404,3 +404,82 @@ def test_archived_intraday_rows_never_upgrade_when_replayed(monkeypatch):
     with pytest.raises(ConnectorError) as exc:
         parse_tencent_kline(body, "hk01810", observed_at="2025-01-02T02:00:00")
     assert exc.value.code == "OBSERVATION_TIME_REQUIRED"
+
+
+def test_html_visible_text_omits_scripts_and_normalizes_evidence(tmp_path):
+    from investment_connectors.observations import extract_html_text
+
+    raw = b"<!doctype html><html><script>fake PE 100</script><style>bad</style><p>A &amp; B</p><div>  value  20 </div></html>"
+    assert extract_html_text(raw) == "A & B value 20"
+    source = SourceDefinition(
+        source_id="policy",
+        url="https://example.invalid",
+        connector_id="http-html-v1",
+        dataset_id="document-facts",
+        archive_permissions="allowed",
+        subject_id="cn",
+        document_kind="policy",
+    )
+    result = HttpFetcher(opener=Opener(Response(raw, "text/html"))).fetch(source, {}, tmp_path)
+    assert Path(result.path).suffix == ".html"
+
+
+def test_sfc_short_position_is_stock_and_preserves_raw_line():
+    from investment_connectors.observations import parse_sfc_short_positions
+
+    raw = b"Date,Stock Code,Stock Name,Aggregated Reportable Short Positions (Shares),Aggregated Reportable Short Positions (HK$)\n23/10/2026,1810,TEST,100,200\n23/10/2026,81810,OTHER,5,10\n"
+    rows = parse_sfc_short_positions(raw, "01810", "xiaomi-hk")
+    assert [x["metric_id"] for x in rows] == [
+        "reported_short_position",
+        "reported_short_position_value",
+    ]
+    assert rows[0]["source_value"] == "100"
+    assert rows[0]["excerpt"] in raw.decode()
+    assert rows[0]["session"] == "reporting_period"
+    with pytest.raises(ValueError):
+        parse_sfc_short_positions(raw, "99999", "missing")
+
+
+def test_hkex_session_does_not_mix_morning_and_full_day():
+    from investment_connectors.observations import parse_hkex_short_turnover
+
+    template = "<html><pre>Short Selling Turnover (Main Board) up to {} close today\nSHORTSELL REPORT TRADING DATE : 30 OCT 2026 (FRIDAY)\n   1810 TEST 1,000 20,000\n %81810 OTHER 5 10\n</pre></html>"
+    morning = parse_hkex_short_turnover(template.format("morning").encode(), "01810", "xiaomi-hk")
+    full = parse_hkex_short_turnover(template.format("day").encode(), "01810", "xiaomi-hk")
+    assert morning[0]["session"] == "intraday"
+    assert full[0]["session"] == "full_day"
+    assert full[1]["metric_id"] == "short_sale_turnover"
+    assert full[1]["currency"] == "HKD"
+    with pytest.raises(ValueError):
+        parse_hkex_short_turnover(template.format("day").encode(), "81810", "xiaomi-rmb")
+
+
+def test_stockanalysis_labels_and_snapshot_timestamp_are_explicit():
+    from investment_connectors.observations import parse_stockanalysis_statistics
+
+    raw = b"<html>Example HKG:1810 Shares Outstanding 25.74B Float 17.19B PE Ratio 18.64</html>"
+    rows = parse_stockanalysis_statistics(
+        raw, "01810", "xiaomi-hk", observed_at="2026-10-30T12:30:00+00:00"
+    )
+    assert rows[0]["source_value"] == "25740000000.00"
+    assert rows[2]["metric_id"] == "pe_provider"
+    assert "observed_date" not in rows[0]
+    assert rows[0]["observed_at"] == "2026-10-30T12:30:00+00:00"
+    assert "not the fundamental effective date" in rows[0]["basis"]
+    with pytest.raises(ValueError):
+        parse_stockanalysis_statistics(
+            raw, "99999", "other", observed_at="2026-10-30T12:30:00+00:00"
+        )
+
+
+def test_stockanalysis_historical_pe_aligns_headers_and_retains_hindsight():
+    from investment_connectors.observations import parse_stockanalysis_ratios
+
+    raw = b'<html>HKG:1810<table><tr><th id="TTM">Current</th><th id="2025-12-31">Dec 31, 2025</th></tr><tr><td>PE Ratio</td><td>18.64</td><td>21.98</td></tr></table></html>'
+    rows = parse_stockanalysis_ratios(raw, "01810", "xiaomi-hk")
+    assert len(rows) == 1
+    assert rows[0]["observed_date"] == "2025-12-31"
+    assert rows[0]["source_value"] == "21.98"
+    assert "hindsight" in rows[0]["basis"]
+    with pytest.raises(ValueError):
+        parse_stockanalysis_ratios(raw.replace(b"<td>21.98</td>", b""), "01810", "xiaomi-hk")

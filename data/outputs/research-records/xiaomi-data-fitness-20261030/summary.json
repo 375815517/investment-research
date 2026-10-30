@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-30T09:33:25.400728+00:00",
+  "assessments": [
+    {
+      "requirements": "acquired-samples",
+      "purpose": "source_description",
+      "status": "limited",
+      "satisfied": 14,
+      "total": 14
+    },
+    {
+      "requirements": "acquired-samples",
+      "purpose": "quantitative_comparison",
+      "status": "blocked",
+      "satisfied": 14,
+      "total": 14
+    },
+    {
+      "requirements": "acquired-samples",
+      "purpose": "historical_point_in_time",
+      "status": "blocked",
+      "satisfied": 2,
+      "total": 14
+    },
+    {
+      "requirements": "requested-inputs",
+      "purpose": "source_description",
+      "status": "blocked",
+      "satisfied": 15,
+      "total": 19
+    },
+    {
+      "requirements": "requested-inputs",
+      "purpose": "quantitative_comparison",
+      "status": "blocked",
+      "satisfied": 15,
+      "total": 19
+    },
+    {
+      "requirements": "requested-inputs",
+      "purpose": "historical_point_in_time",
+      "status": "blocked",
+      "satisfied": 2,
+      "total": 19
+    },
+    {
+      "requirements": "annual-summary-history",
+      "purpose": "source_description",
+      "status": "limited",
+      "satisfied": 32,
+      "total": 32
+    },
+    {
+      "requirements": "annual-summary-history",
+      "purpose": "quantitative_comparison",
+      "status": "blocked",
+      "satisfied": 32,
+      "total": 32
+    },
+    {
+      "requirements": "annual-summary-history",
+      "purpose": "historical_point_in_time",
+      "status": "blocked",
+      "satisfied": 0,
+      "total": 32
+    }
+  ]
+}

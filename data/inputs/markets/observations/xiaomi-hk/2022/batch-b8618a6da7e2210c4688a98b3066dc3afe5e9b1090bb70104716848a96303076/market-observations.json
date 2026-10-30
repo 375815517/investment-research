@@ -1,0 +1,20 @@
+[
+  {
+    "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+    "locator": "text:PE Ratio:2022-12-31",
+    "metric_id": "pe_provider",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2022-12-31",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "point_in_time",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "97.55",
+    "unit": "multiple",
+    "value_status": "reported"
+  }
+]

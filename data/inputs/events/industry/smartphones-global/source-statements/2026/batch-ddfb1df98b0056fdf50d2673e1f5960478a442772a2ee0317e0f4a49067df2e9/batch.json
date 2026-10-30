@@ -1,0 +1,40 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3ce60bb6dcbc2fb4661e9b8d6700ba1b8dcbc0a272368314542bf21850c7a4e1/candidate.json",
+  "batch_id": "batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9",
+  "candidate_hash": "3ce60bb6dcbc2fb4661e9b8d6700ba1b8dcbc0a272368314542bf21850c7a4e1",
+  "contract_version": "1",
+  "dataset_id": "document-facts",
+  "documents": [
+    "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/document-facts.json",
+      "sha256": "c49c0366934438cbb31239875bb69df323695621eb6c6c0e1570190b97bfa89e"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:47:00.202375+00:00",
+  "parser_version": "codex-visible-source-review-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T08:47:00.842062+00:00",
+  "rows": [
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "competition_statement",
+      "effective_from": null,
+      "effective_to": null,
+      "event_date": "2026-06-30",
+      "excerpt": "Samsung retained its position as the world's largest smartphone vendor, shipping 60.5 million units (+5% YoY) for a 22% market share.",
+      "fact_id": "omdia-samsung-2026q2-rank",
+      "locator": "section:Vendor Highlights/Samsung",
+      "statement": "同一Omdia报告称三星为全球最大智能手机厂商，2026年第二季度出货6050万台，市场份额22%；用于同期间同口径的竞争比较。",
+      "subject_id": "smartphones-global",
+      "subject_type": "industry"
+    }
+  ],
+  "source_id": "omdia-2026q2",
+  "status": "complete",
+  "subject_id": "smartphones-global",
+  "supersedes": []
+}

@@ -21,9 +21,11 @@
 
 - [数据平台闭环设计](docs/plans/data-platform-closure.md)与[真实验收](docs/verification/data-platform-closure.md)：缺口检测、按需补采、真实小米数据及网页。
 
+- [小米多源验收与剩余缺口](docs/verification/xiaomi-data-fitness.md)：政策、财报、新闻、行业竞争、卖空/淡仓与供应商估值。
+
 ## 当前状态
 
-已实现 Python workspace、CLI/API/网页、原件归档、候选校验/复核/入库、缺口检测和按需补采。小米有限日期的来源原始行情及一份官方财报已完成真实闭环。来源价格/成交量口径及历史证据限制见最新验收记录；定时worker、MCP和Hook未实现。
+已实现 Python workspace、CLI/API/网页、原件归档、候选校验/复核/入库、缺口检测和按需补采。小米上市以来来源行情、财报及政策/新闻/行业竞争样本已完成原件到整合记录的真实闭环；市场观测包含官方卖空/淡仓和供应商估值样本。样本准入不等于全历史完备或适用于所有分析。来源价格/成交量口径及历史证据限制见最新验收记录；定时worker、MCP和Hook未实现。
 
 | 目录 | 用途 |
 | --- | --- |

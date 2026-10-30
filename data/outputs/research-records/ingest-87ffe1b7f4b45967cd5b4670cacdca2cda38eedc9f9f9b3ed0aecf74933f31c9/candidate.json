@@ -1,0 +1,40 @@
+{
+  "candidate_id": "candidate-67779c268e0ee5f970a676eaf4e44fff17d4031c720ef3b16cad924bd58eb5b0",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "document_id": "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "document_sha256": "b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2",
+  "parser_version": "codex-annual-pdf-page-review-v1",
+  "records": [
+    {
+      "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+      "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+      "locator": "pdf:page:378",
+      "metric_id": "issued_shares",
+      "observed_date": "2025-12-31",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Class A ordinary shares",
+      "source_value": "4511553144",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+      "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+      "locator": "pdf:page:378",
+      "metric_id": "issued_shares",
+      "observed_date": "2025-12-31",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Class B ordinary shares",
+      "source_value": "21535682134",
+      "unit": "shares",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "supersedes": []
+}

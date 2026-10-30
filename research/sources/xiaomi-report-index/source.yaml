@@ -1,0 +1,14 @@
+source_id: xiaomi-report-index
+name: Xiaomi annual and interim report discovery index
+url: https://ir.mi.com/financial-information/annual-interim-reports
+connector_id: http-html-v1
+dataset_id: document-facts
+subject_id: xiaomi
+subject_type: company
+source_category: company-report-index
+archive_permissions: research-only
+usage_basis: User-authorized research discovery archive; not an open redistribution
+  license
+known_limitations:
+- Index discovery is not successful report download or structural fact admission.
+- Current website file paths may reflect migrations, not original publication times.

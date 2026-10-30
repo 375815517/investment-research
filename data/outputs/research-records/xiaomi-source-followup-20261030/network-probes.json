@@ -1,0 +1,94 @@
+{
+  "recorded_at": "2026-10-30T09:31:05.719903+00:00",
+  "attempts": [
+    {
+      "key": "hkex-day-29",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm",
+      "final_url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm",
+      "status": 200,
+      "bytes": 23188085,
+      "sha256": "24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1"
+    },
+    {
+      "key": "hkex-day-current",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/D260930e.htm",
+      "final_url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/D260930e.htm",
+      "status": 200,
+      "bytes": 22445872,
+      "sha256": "d1cbedbf8942ad3c68d6eb61ff115f76981d0e0da936d41b3af80ce7743506d1"
+    },
+    {
+      "key": "hkex-day-list",
+      "url": "https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/Securities-Statistics-Archive/Daily-Quotations?sc_lang=en",
+      "final_url": "https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/Securities-Statistics-Archive/Daily-Quotations?sc_lang=en",
+      "status": 404,
+      "bytes": 2761,
+      "sha256": "aaf81af6c2d3690188b09d6b8d56e78e2f9cadb7cbd14e1819f5f26bacef5c59"
+    },
+    {
+      "key": "xiaomi-reports",
+      "url": "https://ir.mi.com/financial-information/annual-reports",
+      "final_url": "https://ir.mi.com/financial-information/annual-reports",
+      "status": 404,
+      "bytes": 23089,
+      "sha256": "4e6bc55e6684f67deddfd4cb6744323584a01179cde2691cce216b799d159829"
+    },
+    {
+      "key": "xiaomi-results",
+      "url": "https://ir.mi.com/financial-information/financial-results",
+      "final_url": "https://ir.mi.com/financial-information/financial-results",
+      "status": 404,
+      "bytes": 23095,
+      "sha256": "5298ecac3d8aae0177af4c9b70d492006776c682d0442e0e8876013acfd8bcef"
+    },
+    {
+      "key": "stockanalysis-history",
+      "url": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "final_url": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "status": 200,
+      "bytes": 114719,
+      "sha256": "7f43b3bfce701f0bc44bf75401937c6119e2872f2f688601f99513d75001b80d"
+    },
+    {
+      "key": "akshare-tencent",
+      "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock/stock_hk_daily_sina.py",
+      "final_url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock/stock_hk_daily_sina.py",
+      "status": 404,
+      "bytes": 14,
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    },
+    {
+      "key": "hkex-day-30",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261030e.htm",
+      "final_url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261030e.htm",
+      "status": 404,
+      "bytes": 2756,
+      "sha256": "43630f0e0c38193d0e8ab13c03a9f15c23a3536f60017d28a345e1c672db11ec"
+    },
+    {
+      "key": "xiaomi-reports-index",
+      "url": "https://ir.mi.com/financial-information/annual-interim-reports",
+      "final_url": "https://ir.mi.com/financial-information/annual-interim-reports",
+      "status": 200,
+      "bytes": 33416,
+      "sha256": "04402b151377180712a54efadc34f2990c02ec3bbd563b3eb9e9260dc5ce8e11"
+    },
+    {
+      "key": "xiaomi-quarterly",
+      "url": "https://ir.mi.com/financial-information/quarterly-results",
+      "final_url": "https://ir.mi.com/financial-information/quarterly-results",
+      "status": 200,
+      "bytes": 81313,
+      "sha256": "e610cf0bd4aa6fe9c7910f25c7fd43f85670090c169069b91d3017f799cdc275"
+    },
+    {
+      "key": "akshare-hk",
+      "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock/stock_hk_sina.py",
+      "final_url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock/stock_hk_sina.py",
+      "status": 404,
+      "bytes": 14,
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    }
+  ],
+  "notes": "HTTP200 is not data adequacy. Probe contents not all admitted; archive references provided separately for used evidence."
+}

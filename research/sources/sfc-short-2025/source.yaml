@@ -1,0 +1,16 @@
+source_id: sfc-short-2025
+name: sfc-short-2025
+url: https://www.sfc.hk/-/media/EN/pdf/spr/2025/10/31/Short_Position_Reporting_Aggregated_Data_20251031.csv?rev=a4e7de0f55cc4de1aef35c576c11d589
+connector_id: sfc-short-positions-v1
+dataset_id: market-observations
+source_symbol: 01810
+security_id: xiaomi-hk
+currency: HKD
+archive_permissions: research-only
+usage_basis: User-authorized limited investment research of publicly accessible source
+  documents. Public access is not an open redistribution license.
+known_limitations:
+- Source snapshot does not establish historical public availability; source reporting
+  period and acquisition time differ.
+- Short-selling transaction flow, reportable short-position stock and provider valuation
+  estimates cannot be combined into a net long/short ratio.

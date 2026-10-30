@@ -23,6 +23,8 @@ ALLOWED_REQUEST_FIELDS = {
     "expectation_path",
     "source_id",
     "price_basis",
+    "metric_id",
+    "document_kind",
     "knowledge_mode",
     "information_cutoff",
     "as_of",
@@ -69,7 +71,9 @@ def invoke(workspace: Path, args: list[str], request: dict[str, Any] | None = No
     }
 
 
-def probe(workspace: Path, request: dict[str, Any]) -> dict:
+def probe(workspace: Path, request: dict[str, Any], operation: str = "detect-gaps") -> dict:
+    if operation not in {"detect-gaps", "coverage"}:
+        raise ValueError("Probe only supports read-only detect-gaps or coverage")
     if set(request) - ALLOWED_REQUEST_FIELDS:
         raise ValueError("Probe only accepts data-gap query fields; no execution or secret fields")
     manager = HostManager(workspace)
@@ -84,7 +88,7 @@ def probe(workspace: Path, request: dict[str, Any]) -> dict:
     if capability["exit_code"] != 0:
         raise ValueError("CLI capability discovery failed")
     # Actual command execution is the compatibility check, not a guessed capabilities layout.
-    gaps = invoke(manager.root, ["data", "detect-gaps"], request)
+    gaps = invoke(manager.root, ["data", operation], request)
     if gaps["exit_code"] not in {0, 3} or gaps["status"] in {None, "error", "failed"}:
         raise ValueError("Gap query failed; no successful invocation evidence recorded")
     report = {
@@ -99,6 +103,7 @@ def probe(workspace: Path, request: dict[str, Any]) -> dict:
         "request_sha256": sha(encoded(request)),
         "invocation": "verified",
         "data_readiness": gaps["status"],
+        "completeness": "not_assessed" if operation == "coverage" else "see_gap_result",
         "steps": [capability, gaps],
     }
     relative = f".research-local/ai-verification/{report['verification_id']}.json"
@@ -109,6 +114,7 @@ def probe(workspace: Path, request: dict[str, Any]) -> dict:
         "invocation": "verified",
         "native_discovery": "not_tested",
         "data_readiness": gaps["status"],
+        "completeness": "not_assessed" if operation == "coverage" else "see_gap_result",
         "report_path": relative,
         "report_sha256": sha(encoded(report)),
     }
@@ -118,12 +124,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workspace", type=Path, required=True)
     parser.add_argument("--request", type=Path, required=True)
+    parser.add_argument("--operation", choices=["detect-gaps", "coverage"], default="detect-gaps")
     args = parser.parse_args()
     try:
         request = json.loads(args.request.read_text())
         if not isinstance(request, dict):
             raise ValueError("Request must be an object")
-        result = probe(args.workspace, request)
+        result = probe(args.workspace, request, args.operation)
     except (ValueError, OSError, subprocess.TimeoutExpired) as exc:
         print(json.dumps({"status": "error", "message": str(exc)}))
         return 2

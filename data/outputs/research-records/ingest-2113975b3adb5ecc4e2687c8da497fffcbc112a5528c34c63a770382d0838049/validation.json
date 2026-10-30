@@ -1,0 +1,12 @@
+{
+  "candidate_hash": "2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049",
+  "issues": [
+    {
+      "code": "PUBLICATION_UNKNOWN",
+      "message": "Historical/live cutoff queries exclude this batch",
+      "retryable": false,
+      "severity": "warning"
+    }
+  ],
+  "rule_version": "v1"
+}

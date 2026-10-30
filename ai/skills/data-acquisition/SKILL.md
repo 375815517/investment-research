@@ -16,3 +16,19 @@ description: 按固定的补齐计划获取原件并整理候选数据，保留�
 不自动提交或推送 Git，不触发指标、预测、复盘或定时任务。输出请求/计划、原件与整合批次引用、复查结果及仍未解决的缺口。
 
 验收：重复补齐不产生重复事实；错误页面不能当作行情；需审核不能被重复 apply 绕过；部分范围成功与剩余缺口同时保留。
+
+## 多源输入约束
+
+遵循 [多源输入与金融口径](../../rules/multi-source-inputs.md)：先固定需求清单与逐渠道覆盖，再获取和复查。付费、不可取得、未检索与覆盖未知不能改写为无数据或已完成。来源陈述、已核实事实和AI推断分开；PE、股类、卖空成交和须申报淡仓按各自定义保存，不能用 `1-short` 推导多头比例。
+
+## 新资料数据集的执行边界
+
+`document-facts` 与 `market-observations` 使用 `prepare → validate → review → ingest`，以 `coverage` 读取已准入记录，再人工核对原始有限需求清单；目前不支持这两类的 detect-gaps/ensure 自动完整性判断。不得将 coverage 的 available 解释为全量完整，不得为套用 ensure 把新资料伪装成 financial-facts。
+
+DocumentFact 只允许 source_assertion，表示来源陈述；管理层目标、政策预期、传闻和AI推断不能标为已实现事实。MarketObservation 只接受 source_reported：`not_disclosed` 需来源证据、null 值和 missing_reason；平台没找到资料应记渠道缺口，不能伪造来源未披露记录。实际字段以 schema 为准，所有新类均需复核。来源PE不代表本平台计算估值。
+
+## 数据适用性检查
+
+遵循[数据适用性规则](../../rules/data-fitness.md)。先固定问题、用途、期间及所需维度，再查看 coverage、执行有限需求 audit-inputs，随后用同一需求调用 assess-inputs；实际命令与 schema 以 capabilities 为准。source_description、historical_point_in_time、quantitative_comparison 分别评价，不把 ready 泛化为所有研究均可用。报告限制及未覆盖的人工检查，保留原始需求与缺口。详细[设计与请求示例](../../../docs/plans/data-fitness-assessment.md)。
+
+新闻/政策样本数不是全网完整率，四个损益字段不是完整基本面，须申报淡仓不是全市场多空分布。口径未知、缺历史公开时间或匹配分母时，不让 AI 补造数值；补采后重新评估并保存新结果。

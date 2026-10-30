@@ -12,6 +12,8 @@
 
 数据准备闭环：[缺口与补齐规则](rules/data-completion.md)，按 detect_gaps → ensure_plan → ensure_apply → 复查执行。当前范围不含指标、预测、复盘或定时执行。
 
+多源资料遵循 [需求、渠道覆盖与金融口径](rules/multi-source-inputs.md)，保留不可得和未知，不把来源主张当已证实事实。
+
 核心流程：[规划](skills/data-planning/SKILL.md) → [获取整理](skills/data-acquisition/SKILL.md) → [核验入库](skills/data-review/SKILL.md)。专门问题参考行情与证据检索指南；影响研究仅保留为后续领域指南，本轮不调用。
 
 初始化按 [工作空间设置](skills/workspace-setup/SKILL.md)，后续维护按 [维护指南](skills/workspace-maintenance/SKILL.md)。生成的宿主 Skill 副本不提交，安装回执保存在 .research-local。实际宿主是否自动发现并调用 Skill 需要在对应宿主验证，文件校验通过不代表已经完成该验证。显式读取与CLI调用可用 [probe](tooling/README.md) 记录；它不证明原生发现或模型理解。

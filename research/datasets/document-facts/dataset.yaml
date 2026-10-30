@@ -1,0 +1,6 @@
+dataset_id: document-facts
+schema_version: '1'
+record_schema: DocumentFact
+schema_authority: investment_domain.DocumentFact
+review_policy: evidence-and-semantic-review
+status: implemented-finite-contract

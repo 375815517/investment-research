@@ -18,7 +18,7 @@ from pydantic import BaseModel, ConfigDict, Field
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from investment_connectors import ConnectorService, ConnectorError
-from investment_domain import DomainError
+from investment_domain import DomainError, AuditInputsRequest, AssessInputsRequest
 from investment_engine import Service
 
 MAX_PREVIEW = 512 * 1024
@@ -173,16 +173,26 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
             "ensure_plan",
             "ensure_apply",
             "status",
+            "audit_inputs",
+            "assess_inputs",
         ]
         return result
 
     @app.get("/api/catalog")
     def catalog():
-        entries = []
+        entries: list[dict[str, Any]] = []
         securities = []
         sources = []
         expectations = []
-        for dirname in ("data/inputs", "research/sources", "research/datasets"):
+        datasets = []
+        audits = []
+        truncated = False
+        for dirname in (
+            "data/inputs",
+            "research/sources",
+            "research/datasets",
+            "research/coverage-policies",
+        ):
             base = root / dirname
             for path in sorted(base.rglob("*")) if base.exists() else []:
                 if not path.is_file() or path.name.startswith("."):
@@ -192,7 +202,13 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                     safe_input_file(root, relative)
                 except HTTPException:
                     continue
-                entries.append({"path": relative, "name": path.name, "size": path.stat().st_size})
+                # The preview cap must not hide source, security or requirement metadata.
+                if len(entries) < 2000:
+                    entries.append(
+                        {"path": relative, "name": path.name, "size": path.stat().st_size}
+                    )
+                else:
+                    truncated = True
                 if path.stat().st_size <= MAX_PREVIEW:
                     try:
                         value = (
@@ -201,6 +217,25 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                             else json.loads(path.read_text())
                         )
                         if isinstance(value, dict):
+                            if dirname == "research/coverage-policies" and isinstance(
+                                value.get("requirements"), list
+                            ):
+                                audits.append(
+                                    {
+                                        "path": relative,
+                                        "name": path.stem,
+                                        "count": len(value["requirements"]),
+                                    }
+                                )
+                            if path.name == "dataset.yaml" and value.get("dataset_id"):
+                                datasets.append(
+                                    {
+                                        "id": value["dataset_id"],
+                                        "name": value.get("name", value["dataset_id"]),
+                                        "record_grain": value.get("record_grain"),
+                                        "status": value.get("status"),
+                                    }
+                                )
                             if path.name == "security.json" and value.get("security_id"):
                                 securities.append(
                                     {
@@ -217,6 +252,11 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                                         "name": value.get("name", value["source_id"]),
                                         "dataset_id": value.get("dataset_id"),
                                         "security_id": value.get("security_id"),
+                                        "subject_id": value.get("subject_id"),
+                                        "subject_type": value.get("subject_type"),
+                                        "category": value.get(
+                                            "source_category", value.get("document_kind")
+                                        ),
                                         "limitations": value.get("known_limitations", []),
                                     }
                                 )
@@ -233,20 +273,14 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                                 )
                     except (ValueError, UnicodeError, yaml.YAMLError):
                         pass
-                if len(entries) >= 2000:
-                    return {
-                        "entries": entries,
-                        "securities": securities,
-                        "sources": sources,
-                        "expectations": expectations,
-                        "truncated": True,
-                    }
         return {
             "entries": entries,
             "securities": securities,
             "sources": sources,
             "expectations": expectations,
-            "truncated": False,
+            "datasets": datasets,
+            "audits": audits,
+            "truncated": truncated,
         }
 
     @app.get("/api/coverage")
@@ -256,6 +290,9 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
         start: str | None = None,
         end: str | None = None,
         price_basis: str = "unadjusted",
+        source_id: str | None = None,
+        metric_id: str | None = None,
+        document_kind: str | None = None,
         knowledge_mode: str = "retrospective_explanation",
         information_cutoff: str | None = None,
     ):
@@ -267,12 +304,23 @@ def create_app(workspace: Path, service: Any = None, web_root: Path | None = Non
                 "start": start,
                 "end": end,
                 "price_basis": price_basis,
+                "source_id": source_id,
+                "metric_id": metric_id,
+                "document_kind": document_kind,
                 "knowledge_mode": knowledge_mode,
                 "information_cutoff": information_cutoff,
             }.items()
             if value is not None
         }
         return engine.execute("coverage", payload)
+
+    @app.post("/api/audit-inputs")
+    def audit_inputs(request: AuditInputsRequest):
+        return engine.execute("audit_inputs", request.model_dump(mode="json", exclude_none=True))
+
+    @app.post("/api/assess-inputs")
+    def assess_inputs(request: AssessInputsRequest):
+        return engine.execute("assess_inputs", request.model_dump(mode="json", exclude_none=True))
 
     @app.post("/api/gaps")
     def gaps(request: GapRequest):

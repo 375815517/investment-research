@@ -2,6 +2,8 @@
 
 from investment_domain import DomainError, MarketClosure
 
+from .evidence_time import document_available
+
 
 def visible_closures(repo, mode, cutoff):
     result: dict[tuple[str, str], list[str]] = {}
@@ -16,8 +18,13 @@ def visible_closures(repo, mode, cutoff):
             if mode == "live_observed" and max(record.observed_at, record.registered_at) > cutoff:
                 continue
         refs = [relative]
+        evidence_available = True
         for document_id in record.evidence_document_ids:
-            _, ref = repo.document(document_id)
+            document, ref = repo.document(document_id)
+            if not document_available(document, mode, cutoff):
+                evidence_available = False
+                break
             refs.append(ref)
-        result.setdefault((record.security_id, str(record.trading_date)), []).extend(refs)
+        if evidence_available:
+            result.setdefault((record.security_id, str(record.trading_date)), []).extend(refs)
     return result

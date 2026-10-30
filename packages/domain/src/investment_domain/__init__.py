@@ -150,3 +150,21 @@ SCHEMAS.update(
         "ExpectationSet": ExpectationSet,
     }
 )
+
+from .observations import DocumentFact, MarketObservation, RatioDenominator  # noqa: E402
+
+SCHEMAS.update(
+    {
+        "DocumentFact": DocumentFact,
+        "MarketObservation": MarketObservation,
+        "RatioDenominator": RatioDenominator,
+    }
+)
+
+from .observations import InputRequirement, AuditInputsRequest  # noqa: E402
+
+SCHEMAS.update({"InputRequirement": InputRequirement, "AuditInputsRequest": AuditInputsRequest})
+
+from .assessment import AssessInputsRequest  # noqa: E402
+
+SCHEMAS["AssessInputsRequest"] = AssessInputsRequest

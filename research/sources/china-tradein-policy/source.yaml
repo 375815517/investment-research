@@ -1,0 +1,16 @@
+source_id: china-tradein-policy
+name: 中国消费品以旧换新政策
+url: https://www.gov.cn/zhengce/content/202403/content_6939232.htm
+connector_id: http-html-v1
+dataset_id: document-facts
+archive_permissions: research-only
+usage_basis: User-authorized investment research archive; public access does not establish
+  open redistribution rights
+subject_id: china
+subject_type: jurisdiction
+document_kind: policy
+source_category: policy
+max_bytes: 3000000
+known_limitations:
+- Source assertion, not verified causal investment conclusion
+- Historical coverage is limited to this captured document

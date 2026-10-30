@@ -127,3 +127,37 @@ research --json data coverage --request request.json
 查询请求指定 `dataset_id=daily-prices`、`subject_id=xiaomi-hk`、起止日期及 `price_basis=provider-native`。本轮验证见小米入口。
 
 有官方证据的休市记录位于 `data/inputs/markets/trading-status/<security>/<year>/<revision>/status.json`，合同为 `MarketClosure`。查询按信息时点读取并排除来源休市占位行，同时返回excluded及证据引用；原件与旧批次保留。零成交量本身不是休市证据，不能自动过滤。日期只有日级公开证据时，不伪造准确发布时间，历史模式下未知时间的排除记录不追溯生效。
+
+## 多源资料与市场观测
+
+当前可执行数据集为daily-prices、financial-facts、document-facts、market-observations。后两类必须复核：政策、报道等的批准请求额外包含 `statement_consistency_checked: true`；这是复核者明确声明已检查摘要忠于原文，不是身份认证。
+
+```bash
+uv run research schema DocumentFact --json
+uv run research schema MarketObservation --json
+uv run research data audit-inputs --request research/coverage-policies/xiaomi-multi-source/acquired-samples.json --json
+uv run research data audit-inputs --request research/coverage-policies/xiaomi-multi-source/requested-inputs.json --json
+```
+
+第一份只声明已取得样本，第二份保留全部已提出核心字段需求。第二份仍为partial；同日总成交额样本已补，仍缺直接披露卖空成交比例、须申报淡仓比例、多头比例和精确自由流通比例。派生卖空占比验证另存，不冒充来源原值。勿删需求以把partial变为complete。
+
+新数据使用coverage按subject_id/start/end和可选source_id/metric_id/document_kind查询；日期精度与UTC规则见决定003。网页支持新类型原件/批次复核与需求清单核查。新类没有预期清单自动补采器，页面禁用该按钮；原件仍可通过登记连接器collect或经过记录的import取得。
+
+## 数据适用性评估
+
+`audit-inputs`只检查声明样本数，`assess-inputs`按用途评估已准入数据，CLI/API/网页共用执行逻辑。结果为ready（仅声明用途与样本）、limited（带限制使用）或blocked（必需输入缺失或口径冲突）。后两者CLI退出3；不要忽略JSON中的findings和limitations。
+
+```bash
+uv run research data assess-inputs --request research/coverage-policies/xiaomi-multi-source/requested-inputs.json --purpose source_description --json
+uv run research data audit-inputs --request research/coverage-policies/xiaomi-multi-source/annual-summary-history.json --json
+```
+
+历史用途请求同时指定purpose=historical_point_in_time、knowledge_mode=historical_reconstruction或live_observed、带时区information_cutoff。公开时间是导入时的证据声明，不是认证；未知原件、未来分母、未来休市/日历证据不得用于旧截止点。quantitative_comparison发现未知复权/量单位、供应商PE口径或混合股类时阻断。没有进行全历史/全网覆盖认证，不返回主观“可靠度百分比”。
+
+同表量额可用于有定义的派生验证，不能改写为来源直接披露值：
+
+```bash
+uv run python scripts/verify_short_sale_ratio.py --security xiaomi-hk --source hkex-daily-20261029 --date 2026-10-29
+```
+
+该脚本匹配同证券、日期、全日、股类、币种及共享原件，拒绝多重分母/零分母/混合时段，返回derived_validation及输入引用，不写market-observations。卖空成交占比不是持仓空头比例，更不是1减后可得到的多头比例。

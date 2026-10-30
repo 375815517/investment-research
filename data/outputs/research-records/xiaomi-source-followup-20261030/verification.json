@@ -1,0 +1,83 @@
+{
+  "status": "partial_historical_inputs",
+  "counts": {
+    "financial-facts": 52,
+    "market-observations": 22
+  },
+  "new_annual_rows": 28,
+  "new_market_rows": 4,
+  "annual_source_checks": [
+    {
+      "year": 2018,
+      "source_id": "xiaomi-2018-annual",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/batch.json"
+      ]
+    },
+    {
+      "year": 2019,
+      "source_id": "xiaomi-2019-annual",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2019/batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12/batch.json"
+      ]
+    },
+    {
+      "year": 2020,
+      "source_id": "xiaomi-2020-annual",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2020/batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76/batch.json"
+      ]
+    },
+    {
+      "year": 2021,
+      "source_id": "xiaomi-2021-annual",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2021/batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3/batch.json"
+      ]
+    },
+    {
+      "year": 2022,
+      "source_id": "xiaomi-2022-annual",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2022/batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539/batch.json"
+      ]
+    },
+    {
+      "year": 2023,
+      "source_id": "xiaomi-2023-annual",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2023/batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d/batch.json"
+      ]
+    },
+    {
+      "year": 2024,
+      "source_id": "xiaomi-2024-annual",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "record_count": 4,
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json"
+      ]
+    }
+  ],
+  "remaining_gaps": [
+    "Exact historical publication times not established for archived annual PDFs; strict historical cutoff excludes unknowns.",
+    "2018-2025 annual originals available, but only 4 income-summary fields per year selected from individual 2018-2024 reports; quarterly/full statements not fully structured.",
+    "Daily PE, float and short-position histories still sparse; no long-position population definition.",
+    "HKEX 2026-10-30 Daily Quotations returned 404; 29 October totals cannot serve as 30 October denominator.",
+    "Official 29 October numerator/denominator available; computed ratios are not source_reported observations.",
+    "Provider-native price/volume history is not fully unit/adjustment-certified by one-day crosscheck.",
+    "Policies/news/competition remain limited samples, not an exhaustive historical universe."
+  ]
+}

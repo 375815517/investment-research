@@ -1,0 +1,70 @@
+{
+  "candidate_id": "candidate-31b685b23671cf389f0002d9fda5272dfd0710f3e618e70315cc86be1c366f98",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "document_id": "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+  "document_sha256": "24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+  "parser_version": "hkex-daily-manual-reviewed-v1",
+  "records": [
+    {
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "short_sale_volume",
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "source_value": "18736400",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "currency": "HKD",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "short_sale_turnover",
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "source_value": "483583896",
+      "unit": "currency",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "volume",
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "source_value": "88051477",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "currency": "HKD",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "locator": "text:section:short_selling:stock:1810",
+      "metric_id": "turnover",
+      "observed_date": "2026-10-29",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "source_value": "2273256204",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "hkex-daily-20261029",
+  "supersedes": []
+}

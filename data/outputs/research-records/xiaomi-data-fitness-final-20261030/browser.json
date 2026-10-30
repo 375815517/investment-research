@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-30T09:37:06.920Z",
+  "browser": "151.0.7922.34",
+  "service": "temporary loopback service from current workspace on port 8767",
+  "cases": [
+    {
+      "name": "requested-inputs",
+      "purpose": "source_description",
+      "status": "blocked",
+      "satisfied": 15,
+      "requirements": 19,
+      "findings": 42,
+      "summary": "适用性：已阻断。仅评估所选清单与用途；全历史完整性仍需单独核实。",
+      "http_status": 200
+    },
+    {
+      "name": "annual-summary-history",
+      "purpose": "source_description",
+      "status": "limited",
+      "satisfied": 32,
+      "requirements": 32,
+      "findings": 64,
+      "summary": "适用性：有限适用。仅评估所选清单与用途；全历史完整性仍需单独核实。",
+      "http_status": 200
+    }
+  ],
+  "market": {
+    "api_http_status": 200,
+    "api_records": 22,
+    "browser_record_count": "22 条"
+  },
+  "page_errors": [],
+  "scope": "Browser transport, rendered assessment states and stored-record counts; not independent source truth or whole-history certification"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "assertion_type": "source_assertion",
+    "document_kind": "news_report",
+    "effective_from": null,
+    "effective_to": null,
+    "event_date": "2024-03-28",
+    "excerpt": "At the event the technology giant's chief executive Lei Jun said the standard SU7 model would be priced at 215,900 yuan ($29,872; £23,663) and the Max version would cost 299,900 yuan.",
+    "fact_id": "bbc-su7-launch-pricing-2024",
+    "locator": "article:launch pricing paragraph",
+    "statement": "BBC报道雷军在发布会上宣布SU7标准版售价215900元，Max版299900元。这里只登记媒体对发布会定价的报道，不证明销量或盈利。",
+    "subject_id": "xiaomi",
+    "subject_type": "company"
+  },
+  {
+    "assertion_type": "source_assertion",
+    "document_kind": "news_report",
+    "effective_from": null,
+    "effective_to": null,
+    "event_date": "2024-03-28",
+    "excerpt": "The firm says it got over 50,000 orders within the first 27 minutes of sales.",
+    "fact_id": "bbc-su7-orders-claim-2024",
+    "locator": "article:orders paragraph",
+    "statement": "BBC转述小米称开售前27分钟订单超过5万；是公司订单声明经媒体转述，不等于交付量，也不是独立交叉验证。",
+    "subject_id": "xiaomi",
+    "subject_type": "company"
+  }
+]

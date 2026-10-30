@@ -1,0 +1,210 @@
+[
+  {
+    "status": "received",
+    "document_id": "doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+    "document": {
+      "document_id": "doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2018",
+      "sha256": "62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.614998+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-62fbdcb7234313934a7aa1ccb5e0562a140a94808ff3cc802a0f8194739da9ef/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-587d2af7e1da489d814faf83ea2677da/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-1887992c3d7a42d58f350b527dc22c3c",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a",
+    "document": {
+      "document_id": "doc-640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2019",
+      "sha256": "640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.629344+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-640f93a45b290b0161757d9f860680df332c0c0e98eecc5153d9328720c08a2a/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-52406d429b944e63891dbc37264916dd/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-714551345bf844e5bf18bf71724908c0",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f",
+    "document": {
+      "document_id": "doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2020",
+      "sha256": "8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.641894+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-8bf6f3fd587f967743e5cffacfd41c2cd779cac318815f149794393eb15d178f/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-0fc2a88f1b2e47a8a183c514dc03490b/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-a3b572efcf0849cbbb2263731022ff4b",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+    "document": {
+      "document_id": "doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2021",
+      "sha256": "86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.654501+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-86d967913cfcd9241d5653cd063c9242c81bd7fedaca7ded63bfd9e94aba65c7/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-c48bea69fc184cc4b34348fc4e3f5b04/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-034ddd76001d4a608b636762b69ce7f2",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+    "document": {
+      "document_id": "doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2022",
+      "sha256": "79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.667277+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-79e5de921d9bd59d97c4b9d87f12921c1805723e6f4f582ab2f9d60f3055145e/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-ccd3cd8c7e3d4e7d823d47cf8fcb2cc5/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-37de1058cf17436ba6c92052d6da949a",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96",
+    "document": {
+      "document_id": "doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2023",
+      "sha256": "e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.680721+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-e53e0b75d158be04fd53ec56e69819362f026c9eed7450de13bc7c1461aa6e96/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-f39fc0bdab9a481cac3116f604450f2b/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-d1156801996d45e4bdae67805aa40777",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+    "document": {
+      "document_id": "doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2024",
+      "sha256": "cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.693677+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-cdfbf2ffce0109a9a9aaed92b89d7b4db6c9468b22ff1d5cf4b46ecae3f1c9b8/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-252fd671f8084f7086978d7f93189993/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-eb4a7dee8b0044a9b95a29399d01e5f8",
+    "summary": "import",
+    "issues": []
+  },
+  {
+    "status": "received",
+    "document_id": "doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b",
+    "document": {
+      "document_id": "doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b",
+      "content_revision": "v1",
+      "source_id": "xiaomi-report-index",
+      "title": "Xiaomi report index 2025",
+      "sha256": "4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b",
+      "path": "data/inputs/source-files/xiaomi-report-index/2026/doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:31:05.706849+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b/v1/original.html",
+      "data/inputs/source-files/xiaomi-report-index/2026/doc-4628301f0a999d65e40fdfdaec8937c69bbf4f3404d91cd3ff8ad86059000d6b/v1/document.json",
+      "data/inputs/collection-records/xiaomi-report-index/2026/collection-e09d61349ab3454e8c93dcc04b6ceac2/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-eb3950740b414b2aa603c7e119a97c68",
+    "summary": "import",
+    "issues": []
+  }
+]

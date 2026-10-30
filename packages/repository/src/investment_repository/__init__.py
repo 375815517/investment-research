@@ -8,6 +8,8 @@ import os
 import re
 import tempfile
 from contextlib import contextmanager
+from contextvars import ContextVar
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
@@ -39,6 +41,9 @@ def identifier(value: str) -> str:
 
 class Repository:
     def __init__(self, workspace: Path):
+        self._snapshot: ContextVar[dict | None] = ContextVar(
+            "repository_read_snapshot", default=None
+        )
         self.root = Path(workspace).resolve()
         if not self.root.is_dir():
             raise DomainError("WORKSPACE_NOT_FOUND", str(self.root))
@@ -65,6 +70,8 @@ class Repository:
             raise DomainError("CORRUPT_RECORD", relative) from exc
 
     def write(self, relative: str, content: bytes, *, immutable=True):
+        if self._snapshot.get() is not None:
+            raise DomainError("READ_ONLY_SNAPSHOT", "Writes are forbidden during a read snapshot")
         target = self.path(relative)
         target.parent.mkdir(parents=True, exist_ok=True)
         if immutable and target.exists():
@@ -105,20 +112,53 @@ class Repository:
             finally:
                 fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
 
-    def document(self, document_id):
-        identifier(document_id)
-        base = self.path("data/inputs/source-files")
-        matches = []
-        for path in base.glob("*/*/*/*/document.json"):
+    @contextmanager
+    def read_snapshot(self):
+        """Request-local verified views; never retained across top-level requests.
+
+        ContextVar isolates concurrent API requests. The advisory writer lock
+        prevents cooperating imports during verification. External filesystem
+        edits do not honor that lock; this is a logical read view, not an OS
+        snapshot or an authenticity guarantee.
+        """
+        if self._snapshot.get() is not None:
+            yield
+            return
+        with self.lock():
+            token = self._snapshot.set(dict(document_index=None, documents={}, batches=None))
+            try:
+                yield
+            finally:
+                self._snapshot.reset(token)
+
+    def _document_index(self):
+        index: dict[str, list[tuple]] = {}
+        for path in self.path("data/inputs/source-files").glob("*/*/*/*/document.json"):
             relative = path.relative_to(self.root).as_posix()
             doc = self.read_json(relative)
-            if doc.get("document_id") == document_id:
-                matches.append((doc, relative))
+            index.setdefault(doc.get("document_id"), []).append((doc, relative))
+        return index
+
+    def document(self, document_id):
+        identifier(document_id)
+        snapshot = self._snapshot.get()
+        if snapshot is not None:
+            if document_id in snapshot["documents"]:
+                return deepcopy(snapshot["documents"][document_id])
+            if snapshot["document_index"] is None:
+                snapshot["document_index"] = self._document_index()
+            index = snapshot["document_index"]
+        else:
+            index = self._document_index()
+        matches = index.get(document_id, [])
         if len(matches) != 1:
             raise DomainError("DOCUMENT_NOT_FOUND" if not matches else "DUPLICATE_ID", document_id)
         doc, relative = matches[0]
         if digest_bytes(self.path(doc["path"]).read_bytes()) != doc["sha256"]:
             raise DomainError("EVIDENCE_CHANGED", document_id, 4)
+        if snapshot is not None:
+            snapshot["documents"][document_id] = (doc, relative)
+            return deepcopy((doc, relative))
         return doc, relative
 
     def import_bytes(
@@ -179,6 +219,9 @@ class Repository:
         return doc, [doc["path"], meta_path, receipt_path], duplicate
 
     def batches(self):
+        snapshot = self._snapshot.get()
+        if snapshot is not None and snapshot["batches"] is not None:
+            return deepcopy(snapshot["batches"])
         result = []
         for p in self.path("data/inputs").rglob("batch.json"):
             rel = p.relative_to(self.root).as_posix()
@@ -202,6 +245,9 @@ class Repository:
             for doc_id in manifest.get("documents", []):
                 self.document(doc_id)
             result.append((rel, manifest))
+        if snapshot is not None:
+            snapshot["batches"] = result
+            return deepcopy(result)
         return result
 
     def revision(self):

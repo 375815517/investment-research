@@ -14,14 +14,15 @@
     <div class="section-heading"><h2 id="scope-title">研究范围</h2><span id="connection" role="status">连接中…</span></div>
     <form id="scope-form">
       <div class="fields">
-        <label>研究对象（主证券）<select id="subject" required><option value="">载入中…</option></select></label>
-        <label>数据类型<select id="dataset"><option value="daily-prices">日行情</option><option value="financial-facts">财务披露事实</option></select></label>
+        <label>研究对象<select id="subject" required><option value="">载入中…</option></select></label>
+        <label>数据类型<select id="dataset"><option value="daily-prices">日行情</option><option value="financial-facts">财务披露事实</option><option value="market-observations">市场观测（快照）</option><option value="document-facts">来源陈述（政策／行业／新闻）</option></select></label>
         <label>行情价格口径<select id="price-basis"><option value="unadjusted">已核实不复权</option><option value="provider-native">供应商原生口径（未核实复权）</option></select></label>
         <label>起始日期<input id="start" type="date" required></label>
         <label>结束日期<input id="end" type="date" required></label>
         <label>历史信息模式<select id="mode"><option value="retrospective_explanation">事后资料研究</option><option value="historical_reconstruction">模拟历史公开信息</option><option value="live_observed">复现当时实际掌握的信息</option></select></label>
         <label>信息截止时间<input id="cutoff" type="datetime-local"></label>
       </div>
+      <p id="dataset-notes" class="hint"></p>
       <p class="hint">历史模拟与当时信息复现需要明确截止时间。当前资料不会自动被视为历史时点已知。</p>
       <button type="submit">查询已存数据</button>
     </form>
@@ -41,9 +42,27 @@
     <details id="plan-details"><summary>计划与执行详情</summary><pre id="plan-output">暂无计划</pre></details>
   </section>
 
+  <section aria-labelledby="audit-title">
+    <h2 id="audit-title">明确输入需求核查</h2>
+    <p class="hint">只核查清单声明的样本数量与渠道。满足清单不表示全部新闻、政策或市场信息完整；此操作不抓取数据。</p>
+    <label>已登记的需求清单<select id="audit-policy"><option value="">尚无清单</option></select></label>
+    <button id="audit" type="button" class="secondary">只读核查清单</button>
+    <p id="audit-summary" role="status"></p>
+    <div class="fields">
+      <label>评估用途<select id="assessment-purpose"><option value="source_description">描述来源披露的信息</option><option value="historical_point_in_time">使用历史当时已知信息</option><option value="quantitative_comparison">定量比较</option></select></label>
+    </div>
+    <p class="hint">评估沿用上方历史信息模式与信息截止时间，期间及对象以所选需求清单为准。适用结论只覆盖声明样本，不代表全历史完整或已证明因果。</p>
+    <button id="assess" type="button" class="secondary">评估数据适用性</button>
+    <p id="assessment-summary" role="status"></p>
+    <ul id="assessment-findings" aria-label="数据适用性限制"></ul>
+    <details><summary>适用性评估详情</summary><pre id="assessment-output">尚未评估</pre></details>
+    <details><summary>需求与逐项核查结果</summary><pre id="audit-output">尚未核查</pre></details>
+  </section>
+
   <section aria-labelledby="records-title">
     <div class="section-heading"><h2 id="records-title">整理数据</h2><span id="record-count">0 条</span></div>
     <p class="hint">展示实际返回的记录；缺失不补零。来源口径与证据引用保留在记录中。</p>
+    <div id="evidence-links" aria-label="原件复核入口"></div>
     <div id="records" class="table-wrap"><p class="empty">选择范围后查询</p></div>
   </section>
 

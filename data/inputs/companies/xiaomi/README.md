@@ -14,3 +14,13 @@
 已补取 2018-07-09 至 2026-10-29 的来源原始日行情，默认查询2048条，与XHKG日历模型对比无缺日。港交所确认2023-07-17休市，来源占位值保留在原件和历史批次，查询通过有证据交易状态排除。
 
 [全区间核验记录](../../../outputs/research-records/xiaomi-listing-history-20261030/verification.json) · [政策、财报、舆情与竞争资料同步计划](../../../../docs/plans/xiaomi-historical-information.md)
+
+## 多源资料与市场观测
+
+[市场观测](../../markets/observations/xiaomi-hk/)包含来源PE、股份、卖空成交与须申报淡仓。[财务](financials/)新增2025年报中2021–2025历史汇总，非当年原始发布版本。[公司声明](statements/)与[媒体报道](../../events/company/xiaomi/source-statements/)保留来源身份。
+
+共享资料：[中国政策](../../policies/jurisdiction/china/facts/)、[全球手机行业](../../industries/smartphones-global/facts/)、[竞争声明](../../events/industry/smartphones-global/source-statements/)。这些关联表示研究阅读范围，不证明小米享有某项政策资格或受益。
+
+[完整验收及5项缺口](../../../../docs/verification/xiaomi-multi-source.md)。各期记录不相加混用；自由流通比例、全市场多头比例等尚未取得可靠值。
+
+最新覆盖与用途判断见[数据适用性验收](../../../../docs/verification/xiaomi-data-fitness.md)：2018–2025年报原件已归档，52条财务来源观测、22条市场观测；完整性与历史可知性限制分别说明。

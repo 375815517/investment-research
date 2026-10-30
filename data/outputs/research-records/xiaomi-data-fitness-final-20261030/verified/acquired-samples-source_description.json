@@ -1,0 +1,1318 @@
+{
+  "recorded_at": "2026-10-30T09:36:25.152105+00:00",
+  "request": {
+    "requirements": [
+      {
+        "dataset_id": "daily-prices",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2048,
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline"
+      },
+      {
+        "dataset_id": "financial-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 20,
+        "source_id": "xiaomi-2025-annual"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "china",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "document_kind": "policy"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "document_kind": "news_report"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "smartphones-global",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "industry_report"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "smartphones-global",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "competition_statement"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "company_statement"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "metric_id": "reported_short_position"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "short_sale_volume",
+        "source_id": "hkex-short-day"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "short_sale_turnover",
+        "source_id": "hkex-short-day"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 5,
+        "metric_id": "pe_provider",
+        "source_id": "stockanalysis-ratios"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "pe_provider",
+        "source_id": "stockanalysis-statistics"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "metric_id": "issued_shares",
+        "source_id": "xiaomi-2025-annual"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "free_float_shares",
+        "source_id": "stockanalysis-statistics"
+      }
+    ],
+    "purpose": "source_description"
+  },
+  "result": {
+    "status": "limited",
+    "purpose": "source_description",
+    "scope": "declared_sample_requirements",
+    "ready_means": "Usable only for the declared bounded purpose and samples; not certified investment truth or complete history",
+    "audit": {
+      "status": "complete",
+      "scope": "declared_sample_requirements",
+      "results": [
+        {
+          "requirement": {
+            "dataset_id": "daily-prices",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "tencent-kline",
+            "metric_id": null,
+            "document_kind": null,
+            "minimum_records": 2048,
+            "price_basis": "provider-native"
+          },
+          "observed_count": 2048,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+            "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+            "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+            "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json"
+          ],
+          "excluded": [
+            {
+              "batch_id": "batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670",
+              "trading_date": "2023-07-17",
+              "reason": "confirmed_market_closed",
+              "evidence_refs": [
+                "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+                "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+              ]
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "financial-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "xiaomi-2025-annual",
+            "metric_id": null,
+            "document_kind": null,
+            "minimum_records": 20,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 20,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/companies/xiaomi/financials/2021/batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1/batch.json",
+            "data/inputs/companies/xiaomi/financials/2022/batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9/batch.json",
+            "data/inputs/companies/xiaomi/financials/2023/batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470/batch.json",
+            "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+            "data/inputs/companies/xiaomi/financials/2025/batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "china",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "policy",
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "news_report",
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "smartphones-global",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "industry_report",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "smartphones-global",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "competition_statement",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "company_statement",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "reported_short_position",
+            "document_kind": null,
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json",
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "hkex-short-day",
+            "metric_id": "short_sale_volume",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "hkex-short-day",
+            "metric_id": "short_sale_turnover",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-ratios",
+            "metric_id": "pe_provider",
+            "document_kind": null,
+            "minimum_records": 5,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 5,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+            "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+            "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+            "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-statistics",
+            "metric_id": "pe_provider",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "xiaomi-2025-annual",
+            "metric_id": "issued_shares",
+            "document_kind": null,
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-statistics",
+            "metric_id": "free_float_shares",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 1,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+          ],
+          "excluded": []
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/companies/xiaomi/financials/2021/batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1/batch.json",
+        "data/inputs/companies/xiaomi/financials/2022/batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9/batch.json",
+        "data/inputs/companies/xiaomi/financials/2023/batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470/batch.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+        "data/inputs/companies/xiaomi/financials/2025/batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241/batch.json",
+        "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json",
+        "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json",
+        "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/batch.json",
+        "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+        "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+        "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+        "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json",
+        "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+      ],
+      "limitations": [
+        "Satisfies only the explicit sample counts, not internet-wide news completeness or exchange-calendar coverage"
+      ]
+    },
+    "observations": [
+      {
+        "requirement_index": 0,
+        "observed_count": 2048,
+        "source_ids": [
+          "tencent-kline"
+        ],
+        "document_ids": [
+          "doc-04afc76151204d19c9d2207e3df33fd5a19c6878efd71d3e7ed970eb255e2616",
+          "doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9",
+          "doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968",
+          "doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086",
+          "doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06",
+          "doc-654b7f3ab8cb88a65e5e2d2820639f8c6632675446b0bbc1ccee2bbe97806b1a",
+          "doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e",
+          "doc-8129bad3b34a18ca69994a8a7121288a2c47a095b83540e01e82386cc1053d97",
+          "doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5",
+          "doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56",
+          "doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+          "doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a",
+          "doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a",
+          "doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+          "doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6",
+          "doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8",
+          "doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767",
+          "doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-04afc76151204d19c9d2207e3df33fd5a19c6878efd71d3e7ed970eb255e2616",
+          "doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9",
+          "doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968",
+          "doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086",
+          "doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06",
+          "doc-654b7f3ab8cb88a65e5e2d2820639f8c6632675446b0bbc1ccee2bbe97806b1a",
+          "doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e",
+          "doc-8129bad3b34a18ca69994a8a7121288a2c47a095b83540e01e82386cc1053d97",
+          "doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5",
+          "doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56",
+          "doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381",
+          "doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a",
+          "doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a",
+          "doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a",
+          "doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6",
+          "doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8",
+          "doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767",
+          "doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623"
+        ],
+        "excluded": [
+          {
+            "batch_id": "batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670",
+            "trading_date": "2023-07-17",
+            "reason": "confirmed_market_closed",
+            "evidence_refs": [
+              "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+              "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+            ]
+          }
+        ]
+      },
+      {
+        "requirement_index": 1,
+        "observed_count": 20,
+        "source_ids": [
+          "xiaomi-2025-annual"
+        ],
+        "document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 2,
+        "observed_count": 2,
+        "source_ids": [
+          "china-tradein-policy"
+        ],
+        "document_ids": [
+          "doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df"
+        ],
+        "unknown_publication_document_ids": [],
+        "excluded": []
+      },
+      {
+        "requirement_index": 3,
+        "observed_count": 2,
+        "source_ids": [
+          "bbc-su7"
+        ],
+        "document_ids": [
+          "doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616"
+        ],
+        "unknown_publication_document_ids": [],
+        "excluded": []
+      },
+      {
+        "requirement_index": 4,
+        "observed_count": 1,
+        "source_ids": [
+          "omdia-2026q2"
+        ],
+        "document_ids": [
+          "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 5,
+        "observed_count": 1,
+        "source_ids": [
+          "omdia-2026q2"
+        ],
+        "document_ids": [
+          "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 6,
+        "observed_count": 1,
+        "source_ids": [
+          "xiaomi-2025-annual"
+        ],
+        "document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 7,
+        "observed_count": 2,
+        "source_ids": [
+          "sfc-short-2025",
+          "sfc-short-latest"
+        ],
+        "document_ids": [
+          "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1",
+          "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1",
+          "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 8,
+        "observed_count": 1,
+        "source_ids": [
+          "hkex-short-day"
+        ],
+        "document_ids": [
+          "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 9,
+        "observed_count": 1,
+        "source_ids": [
+          "hkex-short-day"
+        ],
+        "document_ids": [
+          "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 10,
+        "observed_count": 5,
+        "source_ids": [
+          "stockanalysis-ratios"
+        ],
+        "document_ids": [
+          "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 11,
+        "observed_count": 1,
+        "source_ids": [
+          "stockanalysis-statistics"
+        ],
+        "document_ids": [
+          "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 12,
+        "observed_count": 2,
+        "source_ids": [
+          "xiaomi-2025-annual"
+        ],
+        "document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+        ],
+        "excluded": []
+      },
+      {
+        "requirement_index": 13,
+        "observed_count": 1,
+        "source_ids": [
+          "stockanalysis-statistics"
+        ],
+        "document_ids": [
+          "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+        ],
+        "unknown_publication_document_ids": [
+          "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+        ],
+        "excluded": []
+      }
+    ],
+    "findings": [
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 0,
+        "evidence_refs": [
+          "data/inputs/source-files/tencent-kline/2026/doc-04afc76151204d19c9d2207e3df33fd5a19c6878efd71d3e7ed970eb255e2616/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-654b7f3ab8cb88a65e5e2d2820639f8c6632675446b0bbc1ccee2bbe97806b1a/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-8129bad3b34a18ca69994a8a7121288a2c47a095b83540e01e82386cc1053d97/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/original.json",
+          "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/original.json"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 0,
+        "evidence_refs": [
+          "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+          "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+          "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+        ]
+      },
+      {
+        "code": "PRICE_BASIS_UNVERIFIED",
+        "dimension": "comparability",
+        "severity": "warning",
+        "message": "Provider-native prices have no verified adjustment basis; no comparable return claim",
+        "requirement_index": 0,
+        "evidence_refs": [
+          "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+          "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+          "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+        ]
+      },
+      {
+        "code": "NATIVE_UNIT_UNVERIFIED",
+        "dimension": "comparability",
+        "severity": "warning",
+        "message": "Native volume units are not established as shares or lots",
+        "requirement_index": 0,
+        "evidence_refs": [
+          "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+          "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+          "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 1,
+        "evidence_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 1,
+        "evidence_refs": [
+          "data/inputs/companies/xiaomi/financials/2021/batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1/batch.json",
+          "data/inputs/companies/xiaomi/financials/2022/batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9/batch.json",
+          "data/inputs/companies/xiaomi/financials/2023/batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470/batch.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+          "data/inputs/companies/xiaomi/financials/2025/batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241/batch.json"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 2,
+        "evidence_refs": [
+          "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 2,
+        "evidence_refs": [
+          "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 3,
+        "evidence_refs": [
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 3,
+        "evidence_refs": [
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 4,
+        "evidence_refs": [
+          "data/inputs/source-files/omdia-2026q2/2026/doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 4,
+        "evidence_refs": [
+          "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 4,
+        "evidence_refs": [
+          "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 5,
+        "evidence_refs": [
+          "data/inputs/source-files/omdia-2026q2/2026/doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 5,
+        "evidence_refs": [
+          "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 5,
+        "evidence_refs": [
+          "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 6,
+        "evidence_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 6,
+        "evidence_refs": [
+          "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 6,
+        "evidence_refs": [
+          "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 7,
+        "evidence_refs": [
+          "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/original.csv",
+          "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/original.csv"
+        ]
+      },
+      {
+        "code": "SOURCE_INDEPENDENCE_UNVERIFIED",
+        "dimension": "reliability",
+        "severity": "warning",
+        "message": "Multiple source IDs do not establish independent origins or agreement",
+        "requirement_index": 7,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 8,
+        "evidence_refs": [
+          "data/inputs/source-files/hkex-short-day/2026/doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 8,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 9,
+        "evidence_refs": [
+          "data/inputs/source-files/hkex-short-day/2026/doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 9,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 10,
+        "evidence_refs": [
+          "data/inputs/source-files/stockanalysis-ratios/2026/doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 10,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json"
+        ]
+      },
+      {
+        "code": "PE_METHOD_NOT_STANDARDIZED",
+        "dimension": "comparability",
+        "severity": "warning",
+        "message": "Source PE is not a verified common earnings window or platform-calculated TTM",
+        "requirement_index": 10,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 11,
+        "evidence_refs": [
+          "data/inputs/source-files/stockanalysis-statistics/2026/doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 11,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+        ]
+      },
+      {
+        "code": "PE_METHOD_NOT_STANDARDIZED",
+        "dimension": "comparability",
+        "severity": "warning",
+        "message": "Source PE is not a verified common earnings window or platform-calculated TTM",
+        "requirement_index": 11,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 12,
+        "evidence_refs": [
+          "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 12,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json"
+        ]
+      },
+      {
+        "code": "MIXED_MEASUREMENT_BASIS",
+        "dimension": "comparability",
+        "severity": "warning",
+        "message": "A metric has mixed units, scope, sessions, share classes or source bases; partition or explicitly normalize before comparison",
+        "requirement_index": 12,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_TIME_UNKNOWN",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Some originals lack a precise public availability time; do not use them for historical decisions",
+        "requirement_index": 13,
+        "evidence_refs": [
+          "data/inputs/source-files/stockanalysis-statistics/2026/doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2/v1/original.html"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 13,
+        "evidence_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+        ]
+      }
+    ],
+    "dimensions": {
+      "integrity": "verified_original_and_batch_hashes",
+      "coverage": {
+        "declared_samples": "complete",
+        "full_history": "not_assessed",
+        "source_population": "not_assessed"
+      },
+      "reliability": "traceable_source_claims_not_independently_authenticated",
+      "temporal": "retrospective_only",
+      "comparability": "limitations_found"
+    },
+    "limitations": [
+      "Sample counts cannot prove trading-calendar, report-series, policy or news completeness",
+      "Checks do not certify causality, forecast suitability, sentiment representativeness or cross-source independence",
+      "Hashes establish byte integrity, not authenticity or semantic truth; admission review is an assertion, not reviewer identity verification"
+    ],
+    "artifact_refs": [
+      "data/inputs/companies/xiaomi/financials/2021/batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1/batch.json",
+      "data/inputs/companies/xiaomi/financials/2022/batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9/batch.json",
+      "data/inputs/companies/xiaomi/financials/2023/batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470/batch.json",
+      "data/inputs/companies/xiaomi/financials/2024/batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1/batch.json",
+      "data/inputs/companies/xiaomi/financials/2025/batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241/batch.json",
+      "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json",
+      "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json",
+      "data/inputs/events/industry/smartphones-global/source-statements/2026/batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9/batch.json",
+      "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2018/batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2019/batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2020/batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2021/batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2022/batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2023/batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2024/batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2025/batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f/batch.json",
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json",
+      "data/inputs/markets/trading-status/xiaomi-hk/2023/2026-10-30-confirmed/status.json",
+      "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json",
+      "data/inputs/source-files/bbc-su7/2026/doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616/v1/document.json",
+      "data/inputs/source-files/bbc-su7/2026/doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616/v1/original.html",
+      "data/inputs/source-files/china-tradein-policy/2026/doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df/v1/document.json",
+      "data/inputs/source-files/china-tradein-policy/2026/doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df/v1/original.html",
+      "data/inputs/source-files/hkex-market-notices/2026/doc-22378f99f08e490467b0e00a4f02a2552c7b21e62ddf52731f53c9ce5327c81f/v1/document.json",
+      "data/inputs/source-files/hkex-short-day/2026/doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9/v1/document.json",
+      "data/inputs/source-files/hkex-short-day/2026/doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9/v1/original.html",
+      "data/inputs/source-files/omdia-2026q2/2026/doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852/v1/document.json",
+      "data/inputs/source-files/omdia-2026q2/2026/doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852/v1/original.html",
+      "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/document.json",
+      "data/inputs/source-files/sfc-short-2025/2026/doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18/v1/original.csv",
+      "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/document.json",
+      "data/inputs/source-files/sfc-short-latest/2026/doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1/v1/original.csv",
+      "data/inputs/source-files/stockanalysis-ratios/2026/doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f/v1/document.json",
+      "data/inputs/source-files/stockanalysis-ratios/2026/doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f/v1/original.html",
+      "data/inputs/source-files/stockanalysis-statistics/2026/doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2/v1/document.json",
+      "data/inputs/source-files/stockanalysis-statistics/2026/doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2/v1/original.html",
+      "data/inputs/source-files/tencent-kline/2026/doc-04afc76151204d19c9d2207e3df33fd5a19c6878efd71d3e7ed970eb255e2616/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-04afc76151204d19c9d2207e3df33fd5a19c6878efd71d3e7ed970eb255e2616/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-0b23d35bd056d8132ee318eca739bb8e41915b845b81861eb8af8cd4f087fcc9/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-3171d8a49afc5b59c5a01b93b4203ab53df931cd03926d7aa340f83c64065968/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-5fc320cb5f9a179a08c42e46aeaee77584aafe4550bfbfaa035cca26399a6a06/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-654b7f3ab8cb88a65e5e2d2820639f8c6632675446b0bbc1ccee2bbe97806b1a/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-654b7f3ab8cb88a65e5e2d2820639f8c6632675446b0bbc1ccee2bbe97806b1a/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-70f308116a4e244eb0c03878c96d31119574084fc1e001e29b61a4944cadb77e/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-8129bad3b34a18ca69994a8a7121288a2c47a095b83540e01e82386cc1053d97/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-8129bad3b34a18ca69994a8a7121288a2c47a095b83540e01e82386cc1053d97/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-8e720c7b5bccd084ce7f869ea8394b3858e476eedbc5fcb72a1d2b2efcd991a5/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-968076fb4ab22d620eb6b8d8f286c9e09e28a386e4acd810070e6e0ffcc11b56/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-9a86892f51e1de9a0784307722a6988d54b05f4259594ce146f209a626352381/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-b33cd535187d3603e590607bf0524dd333dd7cf9fa074bb997648f0b8f71ef4a/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-b50297f7189ab19041c925cae83d442652d5f0a5ba431a24e4a34f83eab4ef5a/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-c461b421d6de29e71a92c9affdd0d093442471d5b39ee2a2401c81f45366e75a/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-c9aeeb309060d58e8ee956b72a2676c2fe54e221f52d0db1a9e78a59f1ef1ab6/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-e020bfdda980e5daa031548b2cf503fd268b620f5039f8d708a5dcca23447ff8/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-ea1930e27e6d01f6f4801724e7c81b995e3c35daf27f59412165f30ae1a09767/v1/original.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/document.json",
+      "data/inputs/source-files/tencent-kline/2026/doc-f4dbaa17cf6b996e1c19ea9d187f9c34e7b4bf4335c3b43c36240a8758d5e623/v1/original.json",
+      "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/document.json",
+      "data/inputs/source-files/xiaomi-2025-annual/2026/doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2/v1/original.pdf"
+    ],
+    "next_actions": [
+      "MIXED_MEASUREMENT_BASIS",
+      "NATIVE_UNIT_UNVERIFIED",
+      "PE_METHOD_NOT_STANDARDIZED",
+      "PRICE_BASIS_UNVERIFIED",
+      "PUBLICATION_TIME_UNKNOWN",
+      "SOURCE_INDEPENDENCE_UNVERIFIED"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-01a31d8a12304527a15e3cfbf8a49924",
+    "summary": "assess inputs",
+    "issues": []
+  },
+  "duration_seconds": 0.4331543740008783
+}

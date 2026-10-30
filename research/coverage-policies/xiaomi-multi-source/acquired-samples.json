@@ -1,0 +1,123 @@
+{
+  "requirements": [
+    {
+      "dataset_id": "daily-prices",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 2048,
+      "price_basis": "provider-native",
+      "source_id": "tencent-kline"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 20,
+      "source_id": "xiaomi-2025-annual"
+    },
+    {
+      "dataset_id": "document-facts",
+      "subject_id": "china",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 2,
+      "document_kind": "policy"
+    },
+    {
+      "dataset_id": "document-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 2,
+      "document_kind": "news_report"
+    },
+    {
+      "dataset_id": "document-facts",
+      "subject_id": "smartphones-global",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "document_kind": "industry_report"
+    },
+    {
+      "dataset_id": "document-facts",
+      "subject_id": "smartphones-global",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "document_kind": "competition_statement"
+    },
+    {
+      "dataset_id": "document-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "document_kind": "company_statement"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 2,
+      "metric_id": "reported_short_position"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "metric_id": "short_sale_volume",
+      "source_id": "hkex-short-day"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "metric_id": "short_sale_turnover",
+      "source_id": "hkex-short-day"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 5,
+      "metric_id": "pe_provider",
+      "source_id": "stockanalysis-ratios"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "metric_id": "pe_provider",
+      "source_id": "stockanalysis-statistics"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 2,
+      "metric_id": "issued_shares",
+      "source_id": "xiaomi-2025-annual"
+    },
+    {
+      "dataset_id": "market-observations",
+      "subject_id": "xiaomi-hk",
+      "start": "2018-07-09",
+      "end": "2026-10-30",
+      "minimum_records": 1,
+      "metric_id": "free_float_shares",
+      "source_id": "stockanalysis-statistics"
+    }
+  ]
+}

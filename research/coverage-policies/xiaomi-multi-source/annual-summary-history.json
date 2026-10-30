@@ -1,0 +1,292 @@
+{
+  "requirements": [
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-01-01",
+      "end": "2018-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2018-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-01-01",
+      "end": "2018-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2018-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-01-01",
+      "end": "2018-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2018-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2018-01-01",
+      "end": "2018-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2018-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2019-01-01",
+      "end": "2019-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2019-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2019-01-01",
+      "end": "2019-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2019-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2019-01-01",
+      "end": "2019-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2019-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2019-01-01",
+      "end": "2019-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2019-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2020-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2020-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2020-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2020-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2021-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2021-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2021-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2021-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2022-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2022-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2022-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2022-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2023-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2023-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2023-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2023-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2024-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2024-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2024-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2024-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric_id": "revenue",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2025-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric_id": "gross-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2025-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric_id": "operating-profit",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2025-annual"
+    },
+    {
+      "dataset_id": "financial-facts",
+      "subject_id": "xiaomi",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric_id": "profit-for-year",
+      "minimum_records": 1,
+      "source_id": "xiaomi-2025-annual"
+    }
+  ]
+}

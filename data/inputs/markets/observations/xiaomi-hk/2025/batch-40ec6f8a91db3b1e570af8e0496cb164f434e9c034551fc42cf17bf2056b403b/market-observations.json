@@ -1,0 +1,38 @@
+[
+  {
+    "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+    "locator": "pdf:page:378",
+    "metric_id": "issued_shares",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2025-12-31",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "point_in_time",
+    "share_class": "Class A ordinary shares",
+    "source_value": "4511553144",
+    "unit": "shares",
+    "value_status": "reported"
+  },
+  {
+    "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+    "locator": "pdf:page:378",
+    "metric_id": "issued_shares",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2025-12-31",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "point_in_time",
+    "share_class": "Class B ordinary shares",
+    "source_value": "21535682134",
+    "unit": "shares",
+    "value_status": "reported"
+  }
+]

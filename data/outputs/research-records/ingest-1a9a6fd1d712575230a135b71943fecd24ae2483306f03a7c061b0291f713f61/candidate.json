@@ -1,0 +1,57 @@
+{
+  "candidate_id": "candidate-aad2497fc288e8799797461afc48a7f2d72b3e144e4bfcc8d58d5b87421f9081",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "document_id": "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2",
+  "document_sha256": "d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2",
+  "parser_version": "stockanalysis-statistics-v1",
+  "records": [
+    {
+      "basis": "Provider all-share-classes total; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "excerpt": "Shares Outstanding 25.74B",
+      "locator": "text:label:Shares Outstanding",
+      "metric_id": "issued_shares",
+      "observed_at": "2026-10-30T08:45:08.056923+00:00",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "25740000000.00",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "Provider Float; share-class universe/float methodology unverified; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "excerpt": "Float 17.19B",
+      "locator": "text:label:Float",
+      "metric_id": "free_float_shares",
+      "observed_at": "2026-10-30T08:45:08.056923+00:00",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "17190000000.00",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "Provider PE Ratio, described as trailing PE; earnings/price alignment not independently verified; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "excerpt": "PE Ratio 18.64",
+      "locator": "text:label:PE Ratio",
+      "metric_id": "pe_provider",
+      "observed_at": "2026-10-30T08:45:08.056923+00:00",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "18.64",
+      "unit": "multiple",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "stockanalysis-statistics",
+  "supersedes": []
+}

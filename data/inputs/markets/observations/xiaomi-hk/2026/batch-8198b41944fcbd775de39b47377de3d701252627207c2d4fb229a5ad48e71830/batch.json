@@ -1,0 +1,63 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-c2471a34101b9145e22d5dcea2d30e67cc75a174e8f243bff03eafacd0a3cc1d/candidate.json",
+  "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+  "candidate_hash": "c2471a34101b9145e22d5dcea2d30e67cc75a174e8f243bff03eafacd0a3cc1d",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/market-observations.json",
+      "sha256": "4cf3b3576936e46163fc7b8c58f579f58d371548e9c6411bf04a575922a1c849"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:45:07.999109+00:00",
+  "parser_version": "hkex-short-turnover-v1",
+  "published_at": null,
+  "record_count": 2,
+  "registered_at": "2026-10-30T08:51:32.873561+00:00",
+  "rows": [
+    {
+      "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 52,358,000 1,398,338,308",
+      "locator": "text:stock:01810",
+      "metric_id": "short_sale_volume",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-30",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "52358000",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+      "currency": "HKD",
+      "denominator_ref": null,
+      "excerpt": "1810 XIAOMI-W 52,358,000 1,398,338,308",
+      "locator": "text:stock:01810",
+      "metric_id": "short_sale_turnover",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2026-10-30",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "full_day",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "1398338308",
+      "unit": "currency",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "hkex-short-day",
+  "status": "complete",
+  "subject_id": "xiaomi-hk",
+  "supersedes": []
+}

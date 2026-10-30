@@ -1,0 +1,68 @@
+{
+  "scope": "one-day independent-source comparison, not full-history validation",
+  "date": "2026-10-29",
+  "provider_coverage": {
+    "status": "available",
+    "rows": [
+      {
+        "close": "25.680",
+        "currency": "HKD",
+        "high": "26.080",
+        "low": "25.460",
+        "open": "25.700",
+        "price_basis": "provider-native",
+        "security_id": "xiaomi-hk",
+        "session": "regular-final",
+        "trading_date": "2026-10-29",
+        "volume": "88051477.000",
+        "volume_unit": "provider-native",
+        "batch_id": "batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61",
+        "source_id": "tencent-kline",
+        "batch_refs": [
+          "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json"
+        ],
+        "document_refs": [
+          "doc-4e4ef3292092cef364a4bcbec88930872c67081aada3afa3a857b2e7e7fb2086"
+        ]
+      }
+    ],
+    "record_count": 1,
+    "date_semantics": "observed_at uses UTC calendar dates; observed_date retains source date precision",
+    "artifact_refs": [
+      "data/inputs/markets/prices/xiaomi-hk/daily/2026/batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61/batch.json"
+    ],
+    "excluded": [],
+    "coverage": {
+      "observed_records": 1,
+      "completeness": "unknown_without_expected_calendar"
+    },
+    "issues": [
+      {
+        "code": "COVERAGE_LIMITATION",
+        "severity": "warning",
+        "message": "Latest explicit revisions returned per source; no source priority or calendar completeness inferred",
+        "retryable": false
+      }
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-5bb27cc545e442e6a0693add35df937f",
+    "summary": "coverage",
+    "next_actions": []
+  },
+  "official_document_id": "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+  "official_section": "QUOTATIONS 1810 XIAOMI-W HKD; price column close/high/low; SHARES TRADED",
+  "official_values": {
+    "close": "25.68",
+    "high": "26.08",
+    "low": "25.46",
+    "volume": "88051477",
+    "volume_unit": "shares"
+  },
+  "matches": {
+    "close": true,
+    "high": true,
+    "low": true,
+    "volume": true
+  },
+  "conclusion": "Matched all 4 observed fields for one day. Existing provider-native unit and adjustment labels remain unchanged; this does not validate all historical sessions, corporate actions or total-return suitability."
+}

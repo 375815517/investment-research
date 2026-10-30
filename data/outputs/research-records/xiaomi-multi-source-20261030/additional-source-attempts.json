@@ -1,0 +1,25 @@
+{
+  "attempts": [
+    {
+      "document_id": "doc-717820f04e87522491c3a303fa4592dac46b86df1ec824e58351df8f30468c8b",
+      "reason": "Fetched HTML says Please enter symbol; no verified ticker-specific numeric values",
+      "source_id": "aastocks-short",
+      "status": "content_incomplete",
+      "url": "https://www.aastocks.com/en/stocks/analysis/stock-short-selling-ratio.aspx?symbol=01810"
+    },
+    {
+      "document_id": "doc-5a939172b3aeabc0724d2c012745a941a4eaad83b18d54d1b3a4f8a1132be74e",
+      "reason": "Fetched HTML says Please enter symbol; no verified ticker-specific numeric values",
+      "source_id": "aastocks-quote",
+      "status": "content_incomplete",
+      "url": "https://www.aastocks.com/en/stocks/quote/detail-quote.aspx?symbol=01810"
+    },
+    {
+      "http_status": 404,
+      "reason": "No response data admitted",
+      "status": "http_error",
+      "url": "https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261030e.htm"
+    }
+  ],
+  "recorded_at": "2026-10-30T09:04:55.737336+00:00"
+}

@@ -1,0 +1,194 @@
+{
+  "completeness": "not_assessed",
+  "data_readiness": "available",
+  "host_identity": "not_attested",
+  "invocation": "verified",
+  "mode": "explicit_read_and_cli",
+  "native_discovery": "not_tested",
+  "protocol_version": "1",
+  "recorded_at": "2026-10-30T09:02:51.241328+00:00",
+  "request_sha256": "6d054f8357e4c7bf0c493bc5f6d0e8784f4600d56271ef76193b56ac6b0b77fc",
+  "semantic_accuracy": "not_tested",
+  "skills": [
+    {
+      "path": "ai/skills/data-planning/SKILL.md",
+      "sha256": "d29603be9e3d6de4ab6aa31da1bff7c8f676e56ca0a4c62023bd4203bc589d90",
+      "skill_id": "data-planning"
+    },
+    {
+      "path": "ai/skills/data-acquisition/SKILL.md",
+      "sha256": "589a0addd374ebc7d1ef7c96679509c67fb4139154037ca4cf9418cd8ba6570e",
+      "skill_id": "data-acquisition"
+    },
+    {
+      "path": "ai/skills/data-review/SKILL.md",
+      "sha256": "ab9624714133b0f2f58393a4107efd010f7a58d308a571ce754089b03c6c8e32",
+      "skill_id": "data-review"
+    }
+  ],
+  "steps": [
+    {
+      "command": [
+        "research",
+        "capabilities",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [],
+      "response_sha256": "0a99738ba645a182ae18be6b3a16547ba7f1a8cad4a73783dd63a1c8f27bdae1",
+      "result": {
+        "artifact_refs": [],
+        "datasets": [
+          "daily-prices",
+          "financial-facts",
+          "document-facts",
+          "market-observations"
+        ],
+        "issues": [],
+        "limitations": [
+          "No automatic Git commit or push",
+          "Publication time is importer-asserted",
+          "Calendar completeness requires evidence-backed expectation inputs; live source authentication is separate",
+          "Financial semantics require explicit review; no automatic OCR or model calls"
+        ],
+        "next_actions": [],
+        "operation_id": "op-ce771feadca3460597ac705da8061e83",
+        "operations": [
+          "capabilities",
+          "schema",
+          "import",
+          "prepare",
+          "validate",
+          "review",
+          "ingest_plan",
+          "ingest_apply",
+          "coverage",
+          "status",
+          "resume",
+          "index",
+          "source_check",
+          "collect",
+          "detect_gaps",
+          "ensure_plan",
+          "ensure_apply",
+          "audit_inputs"
+        ],
+        "protocol_version": "1",
+        "status": "available",
+        "summary": "capabilities"
+      },
+      "status": "available"
+    },
+    {
+      "command": [
+        "research",
+        "data",
+        "coverage",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [
+        {
+          "code": "COVERAGE_LIMITATION",
+          "message": "Latest explicit revisions returned per source; no source priority or calendar completeness inferred",
+          "retryable": false,
+          "severity": "warning"
+        }
+      ],
+      "response_sha256": "7e84a6dd23f23375b0329bdf7104db9a7f24f694dcc2112d49f63501530f5af8",
+      "result": {
+        "artifact_refs": [
+          "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json",
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ],
+        "coverage": {
+          "completeness": "unknown_without_expected_calendar",
+          "observed_records": 3
+        },
+        "date_semantics": "observed_at uses UTC calendar dates; observed_date retains source date precision",
+        "excluded": [],
+        "issues": [
+          {
+            "code": "COVERAGE_LIMITATION",
+            "message": "Latest explicit revisions returned per source; no source priority or calendar completeness inferred",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [],
+        "operation_id": "op-cd9da66686d4418abd6b7638dff624a4",
+        "protocol_version": "1",
+        "record_count": 3,
+        "rows": [
+          {
+            "assertion_type": "source_assertion",
+            "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+            "batch_refs": [
+              "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/batch.json"
+            ],
+            "document_kind": "company_statement",
+            "document_refs": [
+              "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+            ],
+            "effective_from": null,
+            "effective_to": null,
+            "event_date": "2025-12-31",
+            "excerpt": "In 2025, our smartphone shipments reached 165.2 million units.",
+            "fact_id": "xiaomi-2025-smartphone-shipments",
+            "locator": "pdf:page:11",
+            "source_id": "xiaomi-2025-annual",
+            "statement": "小米2025年报称2025年智能手机出货1.652亿台；属于公司报告的出货口径，不等于终端零售或平台独立调查。",
+            "subject_id": "xiaomi",
+            "subject_type": "company"
+          },
+          {
+            "assertion_type": "source_assertion",
+            "batch_id": "batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70",
+            "batch_refs": [
+              "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+            ],
+            "document_kind": "news_report",
+            "document_refs": [
+              "doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616"
+            ],
+            "effective_from": null,
+            "effective_to": null,
+            "event_date": "2024-03-28",
+            "excerpt": "At the event the technology giant's chief executive Lei Jun said the standard SU7 model would be priced at 215,900 yuan ($29,872; £23,663) and the Max version would cost 299,900 yuan.",
+            "fact_id": "bbc-su7-launch-pricing-2024",
+            "locator": "article:launch pricing paragraph",
+            "source_id": "bbc-su7",
+            "statement": "BBC报道雷军在发布会上宣布SU7标准版售价215900元，Max版299900元。这里只登记媒体对发布会定价的报道，不证明销量或盈利。",
+            "subject_id": "xiaomi",
+            "subject_type": "company"
+          },
+          {
+            "assertion_type": "source_assertion",
+            "batch_id": "batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70",
+            "batch_refs": [
+              "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+            ],
+            "document_kind": "news_report",
+            "document_refs": [
+              "doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616"
+            ],
+            "effective_from": null,
+            "effective_to": null,
+            "event_date": "2024-03-28",
+            "excerpt": "The firm says it got over 50,000 orders within the first 27 minutes of sales.",
+            "fact_id": "bbc-su7-orders-claim-2024",
+            "locator": "article:orders paragraph",
+            "source_id": "bbc-su7",
+            "statement": "BBC转述小米称开售前27分钟订单超过5万；是公司订单声明经媒体转述，不等于交付量，也不是独立交叉验证。",
+            "subject_id": "xiaomi",
+            "subject_type": "company"
+          }
+        ],
+        "status": "available",
+        "summary": "coverage"
+      },
+      "status": "available"
+    }
+  ],
+  "verification_id": "4e0b94e7f7f94f56b9d760b3bb9413ae"
+}

@@ -1,0 +1,81 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-1a9a6fd1d712575230a135b71943fecd24ae2483306f03a7c061b0291f713f61/candidate.json",
+  "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+  "candidate_hash": "1a9a6fd1d712575230a135b71943fecd24ae2483306f03a7c061b0291f713f61",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/market-observations.json",
+      "sha256": "d82d59274796113f929c9d3f15c783d6a2c1a40791e8e77481caf738c973ab01"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:45:08.056923+00:00",
+  "parser_version": "stockanalysis-statistics-v1",
+  "published_at": null,
+  "record_count": 3,
+  "registered_at": "2026-10-30T08:51:34.509763+00:00",
+  "rows": [
+    {
+      "basis": "Provider all-share-classes total; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "Shares Outstanding 25.74B",
+      "locator": "text:label:Shares Outstanding",
+      "metric_id": "issued_shares",
+      "missing_reason": null,
+      "observed_at": "2026-10-30T08:45:08.056923Z",
+      "observed_date": null,
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "25740000000.00",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "Provider Float; share-class universe/float methodology unverified; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "Float 17.19B",
+      "locator": "text:label:Float",
+      "metric_id": "free_float_shares",
+      "missing_reason": null,
+      "observed_at": "2026-10-30T08:45:08.056923Z",
+      "observed_date": null,
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "17190000000.00",
+      "unit": "shares",
+      "value_status": "reported"
+    },
+    {
+      "basis": "Provider PE Ratio, described as trailing PE; earnings/price alignment not independently verified; snapshot acquisition time is not the fundamental effective date",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "PE Ratio 18.64",
+      "locator": "text:label:PE Ratio",
+      "metric_id": "pe_provider",
+      "missing_reason": null,
+      "observed_at": "2026-10-30T08:45:08.056923Z",
+      "observed_date": null,
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+      "source_value": "18.64",
+      "unit": "multiple",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "stockanalysis-statistics",
+  "status": "complete",
+  "subject_id": "xiaomi-hk",
+  "supersedes": []
+}

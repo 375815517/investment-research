@@ -1,0 +1,16 @@
+source_id: omdia-2026q2
+name: Omdia 2026年第二季度全球智能手机报告
+url: https://omdia.tech.informa.com/pr/2026/july/global-smartphone-shipments-fell-6percent-in-2q26-as-supply-side-pressures-reshape-the-market
+connector_id: http-html-v1
+dataset_id: document-facts
+archive_permissions: research-only
+usage_basis: User-authorized investment research archive; public access does not establish
+  open redistribution rights
+subject_id: smartphones-global
+subject_type: industry
+document_kind: industry_report
+source_category: industry_report
+max_bytes: 3000000
+known_limitations:
+- Source assertion, not verified causal investment conclusion
+- Historical coverage is limited to this captured document

@@ -1,0 +1,13 @@
+{
+  "command": "UV_CACHE_DIR=/workspace/.cache/uv bash scripts/check.sh",
+  "status": "passed",
+  "tests": 185,
+  "mypy_source_files": 23,
+  "ruff": "passed",
+  "format": "passed",
+  "offline_cli_steps": 17,
+  "packages_built": 7,
+  "host_filesystem": "verified",
+  "host_native_discovery": "unknown",
+  "legacy_preexisting_deletions_preserved": 95
+}

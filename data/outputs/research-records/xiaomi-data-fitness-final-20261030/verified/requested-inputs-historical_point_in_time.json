@@ -1,0 +1,2547 @@
+{
+  "recorded_at": "2026-10-30T09:36:27.521610+00:00",
+  "request": {
+    "requirements": [
+      {
+        "dataset_id": "daily-prices",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2048,
+        "price_basis": "provider-native",
+        "source_id": "tencent-kline"
+      },
+      {
+        "dataset_id": "financial-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 20,
+        "source_id": "xiaomi-2025-annual"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "china",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "document_kind": "policy"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "document_kind": "news_report"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "smartphones-global",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "industry_report"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "smartphones-global",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "competition_statement"
+      },
+      {
+        "dataset_id": "document-facts",
+        "subject_id": "xiaomi",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "document_kind": "company_statement"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "metric_id": "reported_short_position"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "short_sale_volume",
+        "source_id": "hkex-short-day"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "short_sale_turnover",
+        "source_id": "hkex-short-day"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 5,
+        "metric_id": "pe_provider",
+        "source_id": "stockanalysis-ratios"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "pe_provider",
+        "source_id": "stockanalysis-statistics"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 2,
+        "metric_id": "issued_shares",
+        "source_id": "xiaomi-2025-annual"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "free_float_shares",
+        "source_id": "stockanalysis-statistics"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "short_sale_ratio"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "reported_short_position_ratio"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "long_position_ratio"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "free_float_ratio"
+      },
+      {
+        "dataset_id": "market-observations",
+        "subject_id": "xiaomi-hk",
+        "start": "2018-07-09",
+        "end": "2026-10-30",
+        "minimum_records": 1,
+        "metric_id": "turnover"
+      }
+    ],
+    "purpose": "historical_point_in_time",
+    "knowledge_mode": "historical_reconstruction",
+    "information_cutoff": "2025-12-31T23:59:59+08:00"
+  },
+  "result": {
+    "status": "blocked",
+    "purpose": "historical_point_in_time",
+    "scope": "declared_sample_requirements",
+    "ready_means": "Usable only for the declared bounded purpose and samples; not certified investment truth or complete history",
+    "audit": {
+      "status": "partial",
+      "scope": "declared_sample_requirements",
+      "results": [
+        {
+          "requirement": {
+            "dataset_id": "daily-prices",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "tencent-kline",
+            "metric_id": null,
+            "document_kind": null,
+            "minimum_records": 2048,
+            "price_basis": "provider-native"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "financial-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "xiaomi-2025-annual",
+            "metric_id": null,
+            "document_kind": null,
+            "minimum_records": 20,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "china",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "policy",
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+          ],
+          "excluded": []
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "news_report",
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 2,
+          "unavailable_count": 0,
+          "status": "satisfied",
+          "artifact_refs": [
+            "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+          ],
+          "excluded": [
+            {
+              "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "smartphones-global",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "industry_report",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "smartphones-global",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "competition_statement",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "document-facts",
+            "subject_id": "xiaomi",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": null,
+            "document_kind": "company_statement",
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "reported_short_position",
+            "document_kind": null,
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "hkex-short-day",
+            "metric_id": "short_sale_volume",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "hkex-short-day",
+            "metric_id": "short_sale_turnover",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-ratios",
+            "metric_id": "pe_provider",
+            "document_kind": null,
+            "minimum_records": 5,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-statistics",
+            "metric_id": "pe_provider",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "xiaomi-2025-annual",
+            "metric_id": "issued_shares",
+            "document_kind": null,
+            "minimum_records": 2,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": "stockanalysis-statistics",
+            "metric_id": "free_float_shares",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "short_sale_ratio",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "reported_short_position_ratio",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "long_position_ratio",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "free_float_ratio",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        },
+        {
+          "requirement": {
+            "dataset_id": "market-observations",
+            "subject_id": "xiaomi-hk",
+            "start": "2018-07-09",
+            "end": "2026-10-30",
+            "source_id": null,
+            "metric_id": "turnover",
+            "document_kind": null,
+            "minimum_records": 1,
+            "price_basis": "unadjusted"
+          },
+          "observed_count": 0,
+          "unavailable_count": 0,
+          "status": "missing",
+          "artifact_refs": [],
+          "excluded": [
+            {
+              "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+              "reason": "not_public_at_cutoff"
+            },
+            {
+              "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+              "reason": "not_public_at_cutoff"
+            }
+          ]
+        }
+      ],
+      "artifact_refs": [
+        "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json",
+        "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+      ],
+      "limitations": [
+        "Satisfies only the explicit sample counts, not internet-wide news completeness or exchange-calendar coverage"
+      ]
+    },
+    "observations": [
+      {
+        "requirement_index": 0,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-bcba47fb045462c5211e613f53373998b09a9c5b4bc3285de202a2f0d48f3a8a",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9fa55547e78b69ede51031ae65cce27e1a92508ba7aed0ff355f304256cdcdc9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-355a1ade11249184b9e2ba7fcb19c19fe77198c4630534811e6def2bfe37195f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-0b96814c936bd6b841ed604ae4b4d03756395f9ece51088efe999c41bac4fcc4",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-1fe5c1456e2f9e5003ca49310ef5ad41c2118d5059d46056cbb19d50cd16c68a",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-d7e2b3340847e5a2bec5ca2b662d79b99b13cff9f7747674ac8aeaa26362ce5f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df576b491254720d164800e52926b3af329a20f3709154bbae83e6047a5144f5",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-21443819124253263eee3700ba3976798b569769f588579db82ffeb9b0414dcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ac57f0cb4f2524e76c5f6ac5f54659b37c294f12f2e7383ceeecc5f06abeec32",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b1fd8d8d27e27d08afe0f8184fe0427ec1c9192d7f41eb797af44de0cc7cfb1c",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-32d3b18894924862975aaa82f25189a5f5896cc03de7e12b30f22d5408fcf62c",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-a0fdbf47302b75545a87647ee541a1390da83cc8a46b73e205fa3641e1f381e5",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-a24fd20a1d03127f8a2b1115887afe2ca44255ef0c35b40d06e9a49e10d3b46f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ed99a4c087c6939c815263d56540e8b0bd115f09752d15e10f1087531cd71c61",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-899c8a1ab624809c3acd3beebccb4935e9549cff233883607c9f123f7676317c",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9678fd90af43882e7f9e566da27935995defefe786e709036f88347b0616f670",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-71253c034a405fe353dad33fa694db481e22b22d9acb6deca10634f0d2576dd6",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b583fc0cdc5c1d047991eabf8c858cda1f6920baea1e8b3b055219d3182d2011",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 1,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-67adbdbd0a20e38a22e546c9404143eb5c7c37588d2d958951bc427ae221e9b1",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-4b20a101467077888b3c3bd405ad3faf30c0a412c706c4ec18a7a8eef79db241",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-2128076ee1c2b143543c817eb37d0a1895b8c0abf520c7e2673332503c71b470",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-a93659cc0ecffc297bdfea51e33a3cc66294b9f7966bdf3d25df709984920ca1",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b9c140740c7f84658a58e96b295b80f1695b6875f0ddb0a348a6d937366e244b",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 2,
+        "observed_count": 2,
+        "source_ids": [
+          "china-tradein-policy"
+        ],
+        "document_ids": [
+          "doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df"
+        ],
+        "unknown_publication_document_ids": [],
+        "excluded": []
+      },
+      {
+        "requirement_index": 3,
+        "observed_count": 2,
+        "source_ids": [
+          "bbc-su7"
+        ],
+        "document_ids": [
+          "doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616"
+        ],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 4,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 5,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-ddfb1df98b0056fdf50d2673e1f5960478a442772a2ee0317e0f4a49067df2e9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 6,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 7,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 8,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 9,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 10,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 11,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 12,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 13,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 14,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 15,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 16,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 17,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      },
+      {
+        "requirement_index": 18,
+        "observed_count": 0,
+        "source_ids": [],
+        "document_ids": [],
+        "unknown_publication_document_ids": [],
+        "excluded": [
+          {
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "reason": "not_public_at_cutoff"
+          },
+          {
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "reason": "not_public_at_cutoff"
+          }
+        ]
+      }
+    ],
+    "findings": [
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 0,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 0,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 1,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 1,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 2,
+        "evidence_refs": [
+          "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 2,
+        "evidence_refs": [
+          "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 2,
+        "evidence_refs": [
+          "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json"
+        ]
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "warning",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 3,
+        "evidence_refs": [
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ]
+      },
+      {
+        "code": "SINGLE_SOURCE_SCOPE",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Only one source is represented; this is not independent corroboration",
+        "requirement_index": 3,
+        "evidence_refs": [
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ]
+      },
+      {
+        "code": "SOURCE_ASSERTIONS_ONLY",
+        "dimension": "reliability",
+        "severity": "info",
+        "message": "Records establish what the source said, not independent truth, causality or representative sentiment",
+        "requirement_index": 3,
+        "evidence_refs": [
+          "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json"
+        ]
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 4,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 4,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 5,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 5,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 6,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 6,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 7,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 7,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 8,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 8,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 9,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 9,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 10,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 10,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 11,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 11,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 12,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 12,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 13,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 13,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 14,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 14,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 15,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 15,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 16,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 16,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 17,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 17,
+        "evidence_refs": []
+      },
+      {
+        "code": "REQUIRED_SAMPLES_MISSING",
+        "dimension": "coverage",
+        "severity": "error",
+        "message": "Declared minimum sample count is not met after availability and cutoff filtering",
+        "requirement_index": 18,
+        "evidence_refs": []
+      },
+      {
+        "code": "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+        "dimension": "temporal",
+        "severity": "info",
+        "message": "Cutoff filtering passed only for importer-asserted timestamps, not independently authenticated publication history",
+        "requirement_index": 18,
+        "evidence_refs": []
+      }
+    ],
+    "dimensions": {
+      "integrity": "verified_original_and_batch_hashes",
+      "coverage": {
+        "declared_samples": "partial",
+        "full_history": "not_assessed",
+        "source_population": "not_assessed"
+      },
+      "reliability": "traceable_source_claims_not_independently_authenticated",
+      "temporal": "cutoff_filtered_importer_assertions",
+      "comparability": "no_structural_conflict_detected_semantic_equivalence_not_certified"
+    },
+    "limitations": [
+      "Sample counts cannot prove trading-calendar, report-series, policy or news completeness",
+      "Checks do not certify causality, forecast suitability, sentiment representativeness or cross-source independence",
+      "Hashes establish byte integrity, not authenticity or semantic truth; admission review is an assertion, not reviewer identity verification"
+    ],
+    "artifact_refs": [
+      "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/batch.json",
+      "data/inputs/policies/jurisdiction/china/facts/2024/batch-86b95a9174dfdd85198c9f53d7bb6939aa2afe14318a952a26ded799ef9ef839/batch.json",
+      "data/inputs/source-files/bbc-su7/2026/doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616/v1/document.json",
+      "data/inputs/source-files/bbc-su7/2026/doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616/v1/original.html",
+      "data/inputs/source-files/china-tradein-policy/2026/doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df/v1/document.json",
+      "data/inputs/source-files/china-tradein-policy/2026/doc-007e12dbe580c9eee2d3ac029b328a7985214ce1390ba63a48c037096d2fd5df/v1/original.html"
+    ],
+    "next_actions": [
+      "PUBLICATION_ASSERTION_NOT_AUTHENTICATED",
+      "REQUIRED_SAMPLES_MISSING"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-d40445f25394432e9029689970aafd46",
+    "summary": "assess inputs",
+    "issues": []
+  },
+  "duration_seconds": 0.5102586659995723
+}

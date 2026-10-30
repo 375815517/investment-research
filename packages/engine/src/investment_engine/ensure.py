@@ -6,6 +6,8 @@ from uuid import uuid4
 from investment_domain import CoverageRequest, DomainError, EnsureRequest, ExpectationSet
 from investment_repository import digest_bytes, fingerprint, identifier, utc_now
 
+from .evidence_time import document_available
+
 
 def detect(service, payload):
     request = CoverageRequest.model_validate(payload)
@@ -26,17 +28,23 @@ def detect(service, payload):
             "EXPECTATION_SCOPE_MISMATCH", "Expectation has a different dataset or subject"
         )
     refs = [request.expectation_path]
+    dependencies = []
     for doc_id in expectation.evidence_document_ids:
-        _, doc_refs = repo.document(doc_id)
+        document, doc_refs = repo.document(doc_id)
+        dependencies.append(document)
         refs.append(doc_refs)
     cutoff = request.information_cutoff
     mode = request.knowledge_mode
     as_of = request.as_of or datetime.fromisoformat(utc_now())
     # Historical expectations themselves must be knowable by the same cutoff.
     if cutoff and mode != "retrospective_explanation":
-        if expectation.published_at > cutoff or (
-            mode == "live_observed"
-            and max(expectation.observed_at, expectation.registered_at) > cutoff
+        if (
+            expectation.published_at > cutoff
+            or (
+                mode == "live_observed"
+                and max(expectation.observed_at, expectation.registered_at) > cutoff
+            )
+            or any(not document_available(doc, mode, cutoff) for doc in dependencies)
         ):
             return dict(
                 status="blocked",
@@ -97,13 +105,7 @@ def detect(service, payload):
                 report, report_refs = repo.document(item.report_document_id)
                 report_visible = True
                 if cutoff and mode != "retrospective_explanation":
-                    published = report.get("published_at")
-                    report_visible = bool(published and service._timestamp(published) <= cutoff)
-                    if mode == "live_observed":
-                        report_visible = (
-                            report_visible
-                            and service._timestamp(report["first_observed_at"]) <= cutoff
-                        )
+                    report_visible = document_available(report, mode, cutoff)
                 if report_visible:
                     refs.append(report_refs)
                     reason = "processing_required"

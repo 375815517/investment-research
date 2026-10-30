@@ -89,3 +89,46 @@ def test_non_json_cli_result_rejected(workspace, monkeypatch):
     )
     with pytest.raises(ValueError, match="JSON object"):
         invoke(workspace, ["capabilities"])
+
+
+@pytest.mark.parametrize("dataset_id", ["document-facts", "market-observations"])
+@pytest.mark.parametrize("readiness", ["available", "missing"])
+def test_multisource_coverage_is_not_completeness(workspace, monkeypatch, dataset_id, readiness):
+    calls = []
+
+    def command(args, **kwargs):
+        calls.append((args, kwargs))
+        payload = {"protocol_version": "1", "status": readiness if "coverage" in args else "ok"}
+        return subprocess.CompletedProcess(args, 0, json.dumps(payload), "")
+
+    monkeypatch.setattr(subprocess, "run", command)
+    request = {"dataset_id": dataset_id, "subject_id": "xiaomi"}
+    request.update(
+        {"document_kind": "policy"}
+        if dataset_id == "document-facts"
+        else {"metric_id": "pe_provider"}
+    )
+    result = probe(workspace, request, operation="coverage")
+    assert result["completeness"] == "not_assessed"
+    assert result["data_readiness"] == readiness
+    assert json.loads(calls[1][1]["input"]) == request
+    assert "coverage" in calls[1][0]
+    assert all("ensure-apply" not in args for args, _ in calls)
+
+
+@pytest.mark.parametrize("dataset_id", ["document-facts", "market-observations"])
+def test_multisource_unsupported_gap_contract_remains_error(workspace, monkeypatch, dataset_id):
+    def command(args, **kwargs):
+        error = "detect-gaps" in args
+        payload = {"protocol_version": "1", "status": "error" if error else "ok"}
+        return subprocess.CompletedProcess(args, 2 if error else 0, json.dumps(payload), "")
+
+    monkeypatch.setattr(subprocess, "run", command)
+    with pytest.raises(ValueError, match="Gap query failed"):
+        probe(workspace, {"dataset_id": dataset_id})
+    assert not (workspace / ".research-local").exists()
+
+
+def test_probe_rejects_mutating_operation(workspace):
+    with pytest.raises(ValueError, match="read-only"):
+        probe(workspace, {}, operation="ensure-apply")

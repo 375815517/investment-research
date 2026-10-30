@@ -1,0 +1,16 @@
+source_id: hkex-daily-20261029
+name: HKEX Daily Quotations 2026-10-29
+url: https://www.hkex.com.hk/eng/stat/smstat/dayquot/d261029e.htm
+connector_id: http-html-v1
+dataset_id: market-observations
+security_id: xiaomi-hk
+source_symbol: 01810
+currency: HKD
+max_bytes: 30000000
+archive_permissions: research-only
+usage_basis: User-authorized limited investment research archive; public access does
+  not establish open redistribution rights
+known_limitations:
+- Single official daily report, not a complete historical series.
+- Exact historical publication timestamp unknown; only retrospective use.
+- Short-selling transaction flow is not investor position or long/short sentiment.

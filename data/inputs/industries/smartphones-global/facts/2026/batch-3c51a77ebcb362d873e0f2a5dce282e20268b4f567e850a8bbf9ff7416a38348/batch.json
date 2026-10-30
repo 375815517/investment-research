@@ -1,0 +1,40 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3ce60bb6dcbc2fb4661e9b8d6700ba1b8dcbc0a272368314542bf21850c7a4e1/candidate.json",
+  "batch_id": "batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348",
+  "candidate_hash": "3ce60bb6dcbc2fb4661e9b8d6700ba1b8dcbc0a272368314542bf21850c7a4e1",
+  "contract_version": "1",
+  "dataset_id": "document-facts",
+  "documents": [
+    "doc-2bcbdffb672ace1570202274eb70cfd880e6268c4dd0c9e322b0a578a4337852"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/industries/smartphones-global/facts/2026/batch-3c51a77ebcb362d873e0f2a5dce282e20268b4f567e850a8bbf9ff7416a38348/document-facts.json",
+      "sha256": "31e4747a59bcee64dd85d64b16830ffc2221576d35b57fc979c4da41b75e1d8c"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:47:00.202375+00:00",
+  "parser_version": "codex-visible-source-review-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T08:47:00.844881+00:00",
+  "rows": [
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "industry_report",
+      "effective_from": null,
+      "effective_to": null,
+      "event_date": "2026-06-30",
+      "excerpt": "Xiaomi retained third place with 31.2 million shipments, down 26% YoY, representing a second consecutive quarter of decline.",
+      "fact_id": "omdia-xiaomi-2026q2-shipments",
+      "locator": "section:Vendor Highlights/Xiaomi",
+      "statement": "Omdia报告称2026年第二季度小米全球智能手机出货3120万台，同比下降26%，仍居第三；这是机构出货口径，不是终端零售销量或经本平台独立统计的结果。",
+      "subject_id": "smartphones-global",
+      "subject_type": "industry"
+    }
+  ],
+  "source_id": "omdia-2026q2",
+  "status": "complete",
+  "subject_id": "smartphones-global",
+  "supersedes": []
+}

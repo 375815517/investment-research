@@ -1,0 +1,79 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/candidate.json",
+  "batch_id": "batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36",
+  "candidate_hash": "cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed",
+  "contract_version": "1",
+  "dataset_id": "financial-facts",
+  "documents": [
+    "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/financial-facts.json",
+      "sha256": "5ea1cf35e29f2f5a7475614c29744eb221e68e1d93556b0cfb554dedfd37fdb2"
+    }
+  ],
+  "first_observed_at": "2026-10-30T09:30:23.810048+00:00",
+  "parser_version": "annual-summary-current-year-reviewed-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T09:30:26.870875+00:00",
+  "rows": [
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Revenue                                                                                    174,915,425         114,624,742           68,434,161           66,811,258",
+      "locator": "pdf:page:12",
+      "metric_id": "revenue",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "174915425"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Gross profit                                                                                22,191,939           15,154,205              7,249,355              2,699,933",
+      "locator": "pdf:page:12",
+      "metric_id": "gross-profit",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "22191939"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Operating profit                                                                           1,196,472           12,215,467              3,785,064              1,372,670",
+      "locator": "pdf:page:12",
+      "metric_id": "operating-profit",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "1196472"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Profit/(loss) for the year                                                        13,477,747          (43,889,115)               491,606            (7,627,030)",
+      "locator": "pdf:page:12",
+      "metric_id": "profit-for-year",
+      "period_end": "2018-12-31",
+      "period_start": "2018-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "13477747"
+    }
+  ],
+  "source_id": "xiaomi-2018-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

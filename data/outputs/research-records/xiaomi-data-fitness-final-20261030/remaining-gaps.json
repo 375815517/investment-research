@@ -1,0 +1,46 @@
+{
+  "scope": "Remaining input limitations after official annual-report and HKEX follow-up",
+  "issues": [
+    {
+      "category": "source_reported_ratios",
+      "items": [
+        "short_sale_ratio",
+        "reported_short_position_ratio",
+        "long_position_ratio",
+        "free_float_ratio"
+      ],
+      "status": "missing_direct_observations",
+      "resolution": "Verify explicit source definition, same-date share class and denominator; short-sale turnover ratio already calculated separately for 2026-10-29"
+    },
+    {
+      "category": "position_distribution",
+      "status": "undefined_population_and_no_microdata",
+      "resolution": "Define instrument, reporting population, weights and bins; acquire corresponding observations before displaying distribution"
+    },
+    {
+      "category": "financial_statement_coverage",
+      "status": "partial_extraction",
+      "resolution": "Annual originals2018–2025 acquired; extract and review balance sheet, cash flow, attributable profit/EPS and segments; discover interim/quarterly releases"
+    },
+    {
+      "category": "historical_availability",
+      "status": "unknown_precise_publication_times",
+      "resolution": "Obtain original announcement-time evidence and reviewed versioned metadata correction; do not edit existing archive metadata"
+    },
+    {
+      "category": "historical_market_series",
+      "status": "sparse",
+      "resolution": "Acquire dated PE, effective shares, float methodology and short data; do not forward-fill unknown observations"
+    },
+    {
+      "category": "policy_news_competition",
+      "status": "bounded_samples",
+      "resolution": "Define research product/region/time and source corpus; expand dated discovery, preserve failed searches and common origins"
+    },
+    {
+      "category": "price_semantics",
+      "status": "provider_native",
+      "resolution": "Verify historical adjustment basis, volume units and corporate actions; one official crosscheck does not certify full series"
+    }
+  ]
+}

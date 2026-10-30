@@ -1,0 +1,38 @@
+{
+  "coverage_limits": [
+    "Daily prices complete only against XHKG calendar model for2018-07-09..2026-10-29; volume unit remainsprovider-native",
+    "Financial samples2021..2025 from2025report plus2024original; not all reports since IPO",
+    "PE2021..2025 fiscal endpoints and a current provider snapshot, not daily PE history",
+    "SFC two dates2025/2026; HKEX one date2026-10-30 morning/full day; not complete historical series",
+    "Policies/news/industry: finite reviewed examples, not full internet or full period corpus"
+  ],
+  "recorded_at": "2026-10-30T08:56:19.552205+00:00",
+  "scope": "sample source coverage, not all historical observations",
+  "unresolved": [
+    {
+      "action": "obtain labelled official daily quotation or licensed history",
+      "metric": "short_sale_ratio",
+      "reason": "HKEX short-sale numerator available, no verified same-date same-counter total-turnover denominator yet"
+    },
+    {
+      "action": "match effective issued shares and precisely define ratio",
+      "metric": "reported_short_position_ratio",
+      "reason": "SFC counts are reportable-position population; denominator on matching observation date/share-class not verified"
+    },
+    {
+      "action": "choose a specific disclosed population/instrument before collection",
+      "metric": "long_position_ratio",
+      "reason": "No defined whole-market investor population, comparable long/short position scope or authoritative source; not 1 minus short sale ratio"
+    },
+    {
+      "action": "obtain matching methodology and effective-date denominator",
+      "metric": "free_float_ratio",
+      "reason": "Provider Float and Shares Outstanding have unresolved share-class universe/methodology; do not divide rounded unmatched values"
+    },
+    {
+      "action": "connect verified total-turnover source; never derive turnover by OHLC times volume",
+      "metric": "turnover",
+      "reason": "Official daily quotation URL probes returned404; quote frontend contains no ticker data in fetched HTML"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-fa9f23f54c1dc2aa33e6ef88f685d7c986937d4933759624b6ba64586852c77e/candidate.json",
+  "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+  "candidate_hash": "fa9f23f54c1dc2aa33e6ef88f685d7c986937d4933759624b6ba64586852c77e",
+  "contract_version": "1",
+  "dataset_id": "market-observations",
+  "documents": [
+    "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/market-observations.json",
+      "sha256": "479cf0bf9a47b552ddaf41f5cbc81bb36ca98734d4bb3868d0db0956b3b8776e"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:45:08.118224+00:00",
+  "parser_version": "stockanalysis-ratios-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T08:51:35.608939+00:00",
+  "rows": [
+    {
+      "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+      "currency": null,
+      "denominator_ref": null,
+      "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+      "locator": "text:PE Ratio:2021-12-31",
+      "metric_id": "pe_provider",
+      "missing_reason": null,
+      "observed_at": null,
+      "observed_date": "2021-12-31",
+      "record_kind": "source_reported",
+      "security_id": "xiaomi-hk",
+      "session": "point_in_time",
+      "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+      "source_value": "19.88",
+      "unit": "multiple",
+      "value_status": "reported"
+    }
+  ],
+  "source_id": "stockanalysis-ratios",
+  "status": "complete",
+  "subject_id": "xiaomi-hk",
+  "supersedes": []
+}

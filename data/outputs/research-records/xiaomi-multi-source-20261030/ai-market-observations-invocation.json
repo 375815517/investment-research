@@ -1,0 +1,608 @@
+{
+  "completeness": "not_assessed",
+  "data_readiness": "available",
+  "host_identity": "not_attested",
+  "invocation": "verified",
+  "mode": "explicit_read_and_cli",
+  "native_discovery": "not_tested",
+  "protocol_version": "1",
+  "recorded_at": "2026-10-30T09:02:50.612531+00:00",
+  "request_sha256": "fa65ab3b125dcb5135d1047f5abc04fa5239416fbdbdd1ec60f02d1576329d42",
+  "semantic_accuracy": "not_tested",
+  "skills": [
+    {
+      "path": "ai/skills/data-planning/SKILL.md",
+      "sha256": "d29603be9e3d6de4ab6aa31da1bff7c8f676e56ca0a4c62023bd4203bc589d90",
+      "skill_id": "data-planning"
+    },
+    {
+      "path": "ai/skills/data-acquisition/SKILL.md",
+      "sha256": "589a0addd374ebc7d1ef7c96679509c67fb4139154037ca4cf9418cd8ba6570e",
+      "skill_id": "data-acquisition"
+    },
+    {
+      "path": "ai/skills/data-review/SKILL.md",
+      "sha256": "ab9624714133b0f2f58393a4107efd010f7a58d308a571ce754089b03c6c8e32",
+      "skill_id": "data-review"
+    }
+  ],
+  "steps": [
+    {
+      "command": [
+        "research",
+        "capabilities",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [],
+      "response_sha256": "762ff290b36e40b0cc1914316e8f1b717d259dbe68ccb52812ac14a3dd59ebad",
+      "result": {
+        "artifact_refs": [],
+        "datasets": [
+          "daily-prices",
+          "financial-facts",
+          "document-facts",
+          "market-observations"
+        ],
+        "issues": [],
+        "limitations": [
+          "No automatic Git commit or push",
+          "Publication time is importer-asserted",
+          "Calendar completeness requires evidence-backed expectation inputs; live source authentication is separate",
+          "Financial semantics require explicit review; no automatic OCR or model calls"
+        ],
+        "next_actions": [],
+        "operation_id": "op-8083acb8c6944287a582865fc0194830",
+        "operations": [
+          "capabilities",
+          "schema",
+          "import",
+          "prepare",
+          "validate",
+          "review",
+          "ingest_plan",
+          "ingest_apply",
+          "coverage",
+          "status",
+          "resume",
+          "index",
+          "source_check",
+          "collect",
+          "detect_gaps",
+          "ensure_plan",
+          "ensure_apply",
+          "audit_inputs"
+        ],
+        "protocol_version": "1",
+        "status": "available",
+        "summary": "capabilities"
+      },
+      "status": "available"
+    },
+    {
+      "command": [
+        "research",
+        "data",
+        "coverage",
+        "--json"
+      ],
+      "exit_code": 0,
+      "issues": [
+        {
+          "code": "COVERAGE_LIMITATION",
+          "message": "Latest explicit revisions returned per source; no source priority or calendar completeness inferred",
+          "retryable": false,
+          "severity": "warning"
+        }
+      ],
+      "response_sha256": "da1b57af0573ebdc725f68e1367666247dd506f0bcd2af9f6dd97c58962ee2dd",
+      "result": {
+        "artifact_refs": [
+          "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json",
+          "data/inputs/markets/observations/xiaomi-hk/2026/batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9/batch.json"
+        ],
+        "coverage": {
+          "completeness": "unknown_without_expected_calendar",
+          "observed_records": 18
+        },
+        "date_semantics": "observed_at uses UTC calendar dates; observed_date retains source date precision",
+        "excluded": [],
+        "issues": [
+          {
+            "code": "COVERAGE_LIMITATION",
+            "message": "Latest explicit revisions returned per source; no source priority or calendar completeness inferred",
+            "retryable": false,
+            "severity": "warning"
+          }
+        ],
+        "next_actions": [],
+        "operation_id": "op-b9db7e8ef73f4cd195b2a60a770189c4",
+        "protocol_version": "1",
+        "record_count": 18,
+        "rows": [
+          {
+            "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+            "batch_id": "batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2021/batch-95ec047acbf0cdc16c540d3292eb957dfa075dabe4b21e22dc97cd64fc417955/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+            ],
+            "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+            "locator": "text:PE Ratio:2021-12-31",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2021-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "stockanalysis-ratios",
+            "source_value": "19.88",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+            "batch_id": "batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2022/batch-b8618a6da7e2210c4688a98b3066dc3afe5e9b1090bb70104716848a96303076/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+            ],
+            "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+            "locator": "text:PE Ratio:2022-12-31",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2022-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "stockanalysis-ratios",
+            "source_value": "97.55",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+            "batch_id": "batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2023/batch-aabf393e71cee9c78f921c6d40fc074ba99b6a2db78afde30079c374039bfa4f/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+            ],
+            "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+            "locator": "text:PE Ratio:2023-12-31",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2023-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "stockanalysis-ratios",
+            "source_value": "20.30",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+            "batch_id": "batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2024/batch-df0ff41751eb5fb430bc84940c74e636fad60bf627c849790eda80d6c86bb07d/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+            ],
+            "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+            "locator": "text:PE Ratio:2024-12-31",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2024-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "stockanalysis-ratios",
+            "source_value": "34.39",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+            ],
+            "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+            "locator": "pdf:page:378",
+            "metric_id": "issued_shares",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2025-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Class A ordinary shares",
+            "source_id": "xiaomi-2025-annual",
+            "source_value": "4511553144",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "Issuer issued ordinary share capital by class at 2025-12-31; not free float, not shares in CCASS. Class A is not the 01810 listed Class B trading counter.",
+            "batch_id": "batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2025/batch-40ec6f8a91db3b1e570af8e0496cb164f434e9c034551fc42cf17bf2056b403b/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+            ],
+            "excerpt": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively.",
+            "locator": "pdf:page:378",
+            "metric_id": "issued_shares",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2025-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Class B ordinary shares",
+            "source_id": "xiaomi-2025-annual",
+            "source_value": "21535682134",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "StockAnalysis historical PE Ratio at provider period ending; hindsight snapshot, not proof of historical publication availability or independently recomputed PE",
+            "batch_id": "batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2025/batch-6005e084e6e2f0d69ce384c188c7a51787503167c83e54b79b6f00ba56e6bfcf/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ed40e30f5a5fbeb107c7c16cbc338cac8254810f9d793fcb64486cc8bb59487f"
+            ],
+            "excerpt": "PE Ratio 18.64 21.98 34.39 20.30 97.55 19.88",
+            "locator": "text:PE Ratio:2025-12-31",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2025-12-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "stockanalysis-ratios",
+            "source_value": "21.98",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+            ],
+            "excerpt": "31/10/2025,1810,XIAOMI-W,487218543,21047841058",
+            "locator": "text:line:337",
+            "metric_id": "reported_short_position",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2025-10-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "reporting_period",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "sfc-short-2025",
+            "source_value": "487218543",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+            "batch_id": "batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2025/batch-7fe274e153dbca477c1f62ff8451df222213297a7800c390e46684b1f1b7c166/batch.json"
+            ],
+            "currency": "HKD",
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-bae509aade72934a7c37256e337303e5033c8de7fe32cc4c5f0fec94eeb3bf18"
+            ],
+            "excerpt": "31/10/2025,1810,XIAOMI-W,487218543,21047841058",
+            "locator": "text:line:337",
+            "metric_id": "reported_short_position_value",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2025-10-31",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "reporting_period",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "sfc-short-2025",
+            "source_value": "21047841058",
+            "unit": "currency",
+            "value_status": "reported"
+          },
+          {
+            "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+            ],
+            "excerpt": "1810 XIAOMI-W 52,358,000 1,398,338,308",
+            "locator": "text:stock:01810",
+            "metric_id": "short_sale_volume",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-30",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "full_day",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "hkex-short-day",
+            "source_value": "52358000",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+            "batch_id": "batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-8198b41944fcbd775de39b47377de3d701252627207c2d4fb229a5ad48e71830/batch.json"
+            ],
+            "currency": "HKD",
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-03c4723f15ba593793af71b612cf5d07c2ab0148ae56905f6f1474c583b9bfd9"
+            ],
+            "excerpt": "1810 XIAOMI-W 52,358,000 1,398,338,308",
+            "locator": "text:stock:01810",
+            "metric_id": "short_sale_turnover",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-30",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "full_day",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "hkex-short-day",
+            "source_value": "1398338308",
+            "unit": "currency",
+            "value_status": "reported"
+          },
+          {
+            "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+            ],
+            "excerpt": "23/10/2026,1810,XIAOMI-W,1322417231,35440781791",
+            "locator": "text:line:358",
+            "metric_id": "reported_short_position",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-23",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "reporting_period",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "sfc-short-latest",
+            "source_value": "1322417231",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "SFC aggregated reportable short positions; reporting-threshold population, not total market short interest or net long/short balance.",
+            "batch_id": "batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-9578d10948cc44730dc6cef974d6278f8e71e6e22e8a1a8f220a4e350989767f/batch.json"
+            ],
+            "currency": "HKD",
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-7e75dd0ae3f67557501030b8d52c1b75b5eef0feb87367d24354c3cd57688cf1"
+            ],
+            "excerpt": "23/10/2026,1810,XIAOMI-W,1322417231,35440781791",
+            "locator": "text:line:358",
+            "metric_id": "reported_short_position_value",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-23",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "reporting_period",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "sfc-short-latest",
+            "source_value": "35440781791",
+            "unit": "currency",
+            "value_status": "reported"
+          },
+          {
+            "basis": "Provider all-share-classes total; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+            ],
+            "excerpt": "Shares Outstanding 25.74B",
+            "locator": "text:label:Shares Outstanding",
+            "metric_id": "issued_shares",
+            "missing_reason": null,
+            "observed_at": "2026-10-30T08:45:08.056923Z",
+            "observed_date": null,
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+            "source_id": "stockanalysis-statistics",
+            "source_value": "25740000000.00",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "Provider Float; share-class universe/float methodology unverified; rounded displayed value; snapshot acquisition time is not the fundamental effective date",
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+            ],
+            "excerpt": "Float 17.19B",
+            "locator": "text:label:Float",
+            "metric_id": "free_float_shares",
+            "missing_reason": null,
+            "observed_at": "2026-10-30T08:45:08.056923Z",
+            "observed_date": null,
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+            "source_id": "stockanalysis-statistics",
+            "source_value": "17190000000.00",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "Provider PE Ratio, described as trailing PE; earnings/price alignment not independently verified; snapshot acquisition time is not the fundamental effective date",
+            "batch_id": "batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-98eb55dd1995051b5474af3512be98b996168e214d50568355ad90b6043721c0/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-d13d8e12efb75bb71a8deabf558e174ecbf506bb7b89c982ceba1fbe766462c2"
+            ],
+            "excerpt": "PE Ratio 18.64",
+            "locator": "text:label:PE Ratio",
+            "metric_id": "pe_provider",
+            "missing_reason": null,
+            "observed_at": "2026-10-30T08:45:08.056923Z",
+            "observed_date": null,
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "point_in_time",
+            "share_class": "Provider aggregation; class coverage stated in basis, no cross-class ratio inferred",
+            "source_id": "stockanalysis-statistics",
+            "source_value": "18.64",
+            "unit": "multiple",
+            "value_status": "reported"
+          },
+          {
+            "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9/batch.json"
+            ],
+            "currency": null,
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ee77591b3f6acf441334b138594ddcc4f8acb8ee802d72b3e1956e602573bbb6"
+            ],
+            "excerpt": "1810 XIAOMI-W 28,066,000 753,013,092",
+            "locator": "text:stock:01810",
+            "metric_id": "short_sale_volume",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-30",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "intraday",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "hkex-short-morning",
+            "source_value": "28066000",
+            "unit": "shares",
+            "value_status": "reported"
+          },
+          {
+            "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+            "batch_id": "batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9",
+            "batch_refs": [
+              "data/inputs/markets/observations/xiaomi-hk/2026/batch-ffe6abece950ecb15ce064465e7e338b38099ae606bc834a672b4491c108c7a9/batch.json"
+            ],
+            "currency": "HKD",
+            "denominator_ref": null,
+            "document_refs": [
+              "doc-ee77591b3f6acf441334b138594ddcc4f8acb8ee802d72b3e1956e602573bbb6"
+            ],
+            "excerpt": "1810 XIAOMI-W 28,066,000 753,013,092",
+            "locator": "text:stock:01810",
+            "metric_id": "short_sale_turnover",
+            "missing_reason": null,
+            "observed_at": null,
+            "observed_date": "2026-10-30",
+            "record_kind": "source_reported",
+            "security_id": "xiaomi-hk",
+            "session": "intraday",
+            "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+            "source_id": "hkex-short-morning",
+            "source_value": "753013092",
+            "unit": "currency",
+            "value_status": "reported"
+          }
+        ],
+        "status": "available",
+        "summary": "coverage"
+      },
+      "status": "available"
+    }
+  ],
+  "verification_id": "b1d78558abf441bc961daa9f23fe9028"
+}

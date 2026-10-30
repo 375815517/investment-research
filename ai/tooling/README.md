@@ -17,3 +17,7 @@ uv run --locked python -m investment_ai.probe --workspace /path/to/workspace --r
 ```
 
 该工具读取三个 canonical Skill，执行真实 CLI capabilities 和 detect-gaps，保存摘要、退出码及结果至 .research-local/ai-verification。返回 invocation=verified 仅表示协议调用成功，data_readiness 保留真实业务状态；即便缺口未知或阻塞也不会伪装成数据齐全。native_discovery、语义准确性和宿主身份验证分别保持未验证。工具不 apply、不联网获取、不投影 Skill。
+
+多源数据集使用同一查询协议；probe 不将资料下载量解释为事实完整率。传入的数据集须由实际 CLI 支持；合同拒绝时不产生调用成功回执。领域规则见 [多源输入](../rules/multi-source-inputs.md)。
+
+对 document-facts / market-observations 可使用 `--operation coverage`（请求含当前 coverage 支持的 dataset_id、subject_id、区间等）。这只查询已有记录，`completeness=not_assessed`；available 不表示需求已齐全。这两类目前没有 detect-gaps/ensure 自动完整性合同，仍需按有限需求清单人工复查。

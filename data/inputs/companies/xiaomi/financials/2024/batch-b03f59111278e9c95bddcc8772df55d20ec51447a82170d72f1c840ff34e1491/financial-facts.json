@@ -1,0 +1,54 @@
+[
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Revenue                                                                               365,906,350    270,970,141   280,044,016   328,309,145   245,865,633",
+    "locator": "pdf:page:8",
+    "metric_id": "revenue",
+    "period_end": "2024-12-31",
+    "period_start": "2024-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "365906350"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Gross profit                                                                           76,560,194 57,476,239 47,577,190 58,260,941 36,751,862",
+    "locator": "pdf:page:8",
+    "metric_id": "gross-profit",
+    "period_end": "2024-12-31",
+    "period_start": "2024-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "76560194"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Operating profit                                                                   24,502,896 20,008,670 2,816,498 26,028,664 24,034,729",
+    "locator": "pdf:page:8",
+    "metric_id": "operating-profit",
+    "period_end": "2024-12-31",
+    "period_start": "2024-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "24502896"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Profit for the year                                                               23,578,449 17,474,196 2,502,568 19,283,235 20,312,710",
+    "locator": "pdf:page:8",
+    "metric_id": "profit-for-year",
+    "period_end": "2024-12-31",
+    "period_start": "2024-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "23578449"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Revenue                                                                             205,838,682   174,915,425   114,624,742      68,434,161      66,811,258",
+    "locator": "pdf:page:12",
+    "metric_id": "revenue",
+    "period_end": "2019-12-31",
+    "period_start": "2019-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "205838682"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Gross profit                                                                         28,554,033      22,191,939      15,154,205        7,249,355        2,699,933",
+    "locator": "pdf:page:12",
+    "metric_id": "gross-profit",
+    "period_end": "2019-12-31",
+    "period_start": "2019-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "28554033"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Operating profit                                                                 11,760,217        1,196,472      12,215,467        3,785,064        1,372,670",
+    "locator": "pdf:page:12",
+    "metric_id": "operating-profit",
+    "period_end": "2019-12-31",
+    "period_start": "2019-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "11760217"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Profit/(loss) for the year                                                 10,102,950      13,477,747    (43,889,115)          491,606      (7,627,030)",
+    "locator": "pdf:page:12",
+    "metric_id": "profit-for-year",
+    "period_end": "2019-12-31",
+    "period_start": "2019-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "10102950"
+  }
+]

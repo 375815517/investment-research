@@ -1,0 +1,169 @@
+{
+  "import_receipt": {
+    "status": "received",
+    "document_id": "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+    "document": {
+      "document_id": "doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+      "content_revision": "v1",
+      "source_id": "hkex-daily-20261029",
+      "title": "HKEX Daily Quotations 29 October 2026",
+      "sha256": "24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1",
+      "path": "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/original.html",
+      "published_at": null,
+      "first_observed_at": "2026-10-30T09:28:31.886707+00:00"
+    },
+    "artifact_refs": [
+      "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/original.html",
+      "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/document.json",
+      "data/inputs/collection-records/hkex-daily-20261029/2026/collection-55ae4e36ed854242b17d9329613e3cd5/collection.json"
+    ],
+    "next_actions": [
+      "prepare"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-03ddfafcc1eb44c4ae8250d1aa9978ec",
+    "summary": "import",
+    "issues": []
+  },
+  "records": [
+    {
+      "security_id": "xiaomi-hk",
+      "observed_date": "2026-10-29",
+      "metric_id": "short_sale_volume",
+      "source_value": "18736400",
+      "value_status": "reported",
+      "unit": "shares",
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "record_kind": "source_reported",
+      "locator": "text:section:short_selling:stock:1810",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "observed_date": "2026-10-29",
+      "metric_id": "short_sale_turnover",
+      "source_value": "483583896",
+      "value_status": "reported",
+      "unit": "currency",
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "record_kind": "source_reported",
+      "locator": "text:section:short_selling:stock:1810",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "currency": "HKD"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "observed_date": "2026-10-29",
+      "metric_id": "volume",
+      "source_value": "88051477",
+      "value_status": "reported",
+      "unit": "shares",
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "record_kind": "source_reported",
+      "locator": "text:section:short_selling:stock:1810",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204"
+    },
+    {
+      "security_id": "xiaomi-hk",
+      "observed_date": "2026-10-29",
+      "metric_id": "turnover",
+      "source_value": "2273256204",
+      "value_status": "reported",
+      "unit": "currency",
+      "basis": "HKEX Daily Quotations SHORT SELLING TURNOVER - DAILY REPORT, current-day 01810 HKD counter; headers Total Short Selling Turnover (SH)/($) and Total Turnover (SH)/($). Full-day transaction flow, not investor-position distribution.",
+      "session": "full_day",
+      "share_class": "01810 XIAOMI-W listed Class B HKD counter; excludes 81810 RMB counter",
+      "record_kind": "source_reported",
+      "locator": "text:section:short_selling:stock:1810",
+      "excerpt": "1810 XIAOMI-W             18,736,400         483,583,896      88,051,477       2,273,256,204",
+      "currency": "HKD"
+    }
+  ],
+  "validation": {
+    "status": "review_required",
+    "validation": {
+      "candidate_id": "candidate-31b685b23671cf389f0002d9fda5272dfd0710f3e618e70315cc86be1c366f98",
+      "candidate_hash": "4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0",
+      "status": "review_required",
+      "rule_version": "v1",
+      "issues": [
+        {
+          "code": "PUBLICATION_UNKNOWN",
+          "message": "Historical/live cutoff queries exclude this batch",
+          "severity": "warning",
+          "retryable": false
+        }
+      ],
+      "record_count": 4
+    },
+    "artifact_refs": [
+      ".research-local/validations/candidate-31b685b23671cf389f0002d9fda5272dfd0710f3e618e70315cc86be1c366f98/f6a5ae410ecbacc9a20be5f97d11136bd67e9f49df87e77d560af56b80ae24c6.json"
+    ],
+    "issues": [
+      {
+        "code": "PUBLICATION_UNKNOWN",
+        "message": "Historical/live cutoff queries exclude this batch",
+        "severity": "warning",
+        "retryable": false
+      }
+    ],
+    "next_actions": [
+      "review"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-b1c058a1279343b29cff37283648f475",
+    "summary": "validate"
+  },
+  "review": {
+    "status": "approved",
+    "review_ref": ".research-local/reviews/candidate-31b685b23671cf389f0002d9fda5272dfd0710f3e618e70315cc86be1c366f98/118453f7b4e54fe3990a0033bc022ecd.json",
+    "artifact_refs": [
+      ".research-local/reviews/candidate-31b685b23671cf389f0002d9fda5272dfd0710f3e618e70315cc86be1c366f98/118453f7b4e54fe3990a0033bc022ecd.json"
+    ],
+    "next_actions": [
+      "ingest_plan"
+    ],
+    "protocol_version": "1",
+    "operation_id": "op-fd28674d8ab847ff9056183b1fa673d1",
+    "summary": "review",
+    "issues": []
+  },
+  "admission": {
+    "status": "registered",
+    "artifact_refs": [
+      "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/original.html",
+      "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/document.json",
+      "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/candidate.json",
+      "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/validation.json",
+      "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/review.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc/market-observations.json",
+      "data/inputs/markets/observations/xiaomi-hk/2026/batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc/batch.json",
+      "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/receipt.json"
+    ],
+    "receipt": {
+      "candidate_hash": "4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0",
+      "plan_id": "plan-a438326c815cdb1a62bf76d450032306cbb8f077a1abfeba9ffb96d018a3a383",
+      "artifact_refs": [
+        "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/original.html",
+        "data/inputs/source-files/hkex-daily-20261029/2026/doc-24769f98ba36f26b37712decfd90a46d910d9fb7b637d0ad69bc7111ae22b6a1/v1/document.json",
+        "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/candidate.json",
+        "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/validation.json",
+        "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/review.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc/market-observations.json",
+        "data/inputs/markets/observations/xiaomi-hk/2026/batch-8ea14bd6d0ea5d2dc5b547e4e86ac832ea2f152a5ea5a72d57aefa91b9adfadc/batch.json",
+        "data/outputs/research-records/ingest-4eb4c91ee5c687dbacc8f0f064a92e25fb0f03ec0be6a0b38e5f2eb2684f95b0/receipt.json"
+      ]
+    },
+    "protocol_version": "1",
+    "operation_id": "op-bbd86cf6fb2146f0a387127b7308787a",
+    "summary": "ingest apply",
+    "issues": [],
+    "next_actions": []
+  }
+}

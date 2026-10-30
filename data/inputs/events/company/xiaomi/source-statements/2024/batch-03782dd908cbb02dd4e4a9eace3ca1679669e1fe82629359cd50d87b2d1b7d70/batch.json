@@ -1,0 +1,53 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-992c2ca6c1e9639cadba10fb8b09b1ffcd2cacbc204fc6ab8f1c3a1d1270698e/candidate.json",
+  "batch_id": "batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70",
+  "candidate_hash": "992c2ca6c1e9639cadba10fb8b09b1ffcd2cacbc204fc6ab8f1c3a1d1270698e",
+  "contract_version": "1",
+  "dataset_id": "document-facts",
+  "documents": [
+    "doc-a2bbf7f36ba48b552e7753b7a62544a26a3da2b6e5d920171e0e3b66dea6f616"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/events/company/xiaomi/source-statements/2024/batch-03782dd908cbb02dd4e4a9eace3ca1679669e1fe82629359cd50d87b2d1b7d70/document-facts.json",
+      "sha256": "482bff1dac008b06a45c9d21f37448c4f29a1242a76ed274cebedff606e713e2"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:47:00.850757+00:00",
+  "parser_version": "codex-visible-source-review-v1",
+  "published_at": "2024-03-29T01:06:44+00:00",
+  "record_count": 2,
+  "registered_at": "2026-10-30T08:47:01.590609+00:00",
+  "rows": [
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "news_report",
+      "effective_from": null,
+      "effective_to": null,
+      "event_date": "2024-03-28",
+      "excerpt": "At the event the technology giant's chief executive Lei Jun said the standard SU7 model would be priced at 215,900 yuan ($29,872; £23,663) and the Max version would cost 299,900 yuan.",
+      "fact_id": "bbc-su7-launch-pricing-2024",
+      "locator": "article:launch pricing paragraph",
+      "statement": "BBC报道雷军在发布会上宣布SU7标准版售价215900元，Max版299900元。这里只登记媒体对发布会定价的报道，不证明销量或盈利。",
+      "subject_id": "xiaomi",
+      "subject_type": "company"
+    },
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "news_report",
+      "effective_from": null,
+      "effective_to": null,
+      "event_date": "2024-03-28",
+      "excerpt": "The firm says it got over 50,000 orders within the first 27 minutes of sales.",
+      "fact_id": "bbc-su7-orders-claim-2024",
+      "locator": "article:orders paragraph",
+      "statement": "BBC转述小米称开售前27分钟订单超过5万；是公司订单声明经媒体转述，不等于交付量，也不是独立交叉验证。",
+      "subject_id": "xiaomi",
+      "subject_type": "company"
+    }
+  ],
+  "source_id": "bbc-su7",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

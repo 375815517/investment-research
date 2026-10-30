@@ -1,0 +1,15 @@
+source_id: xiaomi-2022-annual
+name: Xiaomi 2022 Annual Report
+url: https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2023/04/26/6-55-12/2022%20Annual%20Report_ENG.pdf
+connector_id: http-document-v1
+dataset_id: financial-facts
+max_bytes: 20000000
+archive_permissions: research-only
+usage_basis: User-authorized investment research archive of public issuer report;
+  not an open redistribution license
+known_limitations:
+- Original annual reporting period version archived from issuer website today; exact
+  historical publication timestamp not established.
+- Physical PDF page text requires semantic review. Four summary metrics do not cover
+  complete financial statements.
+- Website file migration paths are not evidence of original publication date.

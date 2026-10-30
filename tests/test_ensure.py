@@ -97,7 +97,10 @@ def test_evidence_tampering_blocks_detection(tmp_path):
     assert exc.value.code == "EVIDENCE_CHANGED"
 
 
-def test_live_past_cannot_be_fixed_by_current_acquisition(tmp_path):
+def test_live_past_cannot_be_fixed_by_current_acquisition(tmp_path, monkeypatch):
+    # Isolate missing observations from unavailable calendar evidence: this fixture's
+    # supporting document really was observed before the queried historical cutoff.
+    monkeypatch.setattr("investment_repository.utc_now", lambda: "2024-01-03T00:00:00Z")
     service, doc, _ = candidate(tmp_path)
     request = expectation(service, doc["document_id"])
     result = service.execute(

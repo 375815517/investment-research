@@ -1,0 +1,54 @@
+[
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Revenue                                                                              280,044,016    328,309,145   245,865,633   205,838,682   174,915,425",
+    "locator": "pdf:page:8",
+    "metric_id": "revenue",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "280044016"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Gross profit                                                                         47,577,190      58,260,941      36,751,862      28,554,033      22,191,939",
+    "locator": "pdf:page:8",
+    "metric_id": "gross-profit",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "47577190"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Operating profit                                                                    2,816,498      26,028,664      24,034,729      11,760,217        1,196,472",
+    "locator": "pdf:page:8",
+    "metric_id": "operating-profit",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "2816498"
+  },
+  {
+    "company_id": "xiaomi",
+    "currency": "CNY",
+    "excerpt": "Profit for the year                                                                2,502,568      19,283,235      20,312,710      10,102,950      13,477,747",
+    "locator": "pdf:page:8",
+    "metric_id": "profit-for-year",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "record_kind": "reported_actual",
+    "scope": "consolidated",
+    "source_unit": "thousands",
+    "source_value": "2502568"
+  }
+]

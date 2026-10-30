@@ -1,0 +1,16 @@
+source_id: bbc-su7
+name: BBC：小米首款电动车上市报道
+url: https://www.bbc.com/news/business-68672192
+connector_id: http-html-v1
+dataset_id: document-facts
+archive_permissions: research-only
+usage_basis: User-authorized investment research archive; public access does not establish
+  open redistribution rights
+subject_id: xiaomi
+subject_type: company
+document_kind: news_report
+source_category: news_report
+max_bytes: 3000000
+known_limitations:
+- Source assertion, not verified causal investment conclusion
+- Historical coverage is limited to this captured document

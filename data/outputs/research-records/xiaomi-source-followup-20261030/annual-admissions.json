@@ -1,0 +1,807 @@
+[
+  {
+    "year": 2018,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+      "document": {
+        "document_id": "doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2018-annual",
+        "title": "2018 Annual Report",
+        "sha256": "fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744",
+        "path": "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:23.810048+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2018-annual/2026/collection-b7b132c1b0754bd790c11239853d7cea/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-031d5bd5ce61406abad74e87d9d0e3a5",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "source_value": "174915425",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Revenue                                                                                    174,915,425         114,624,742           68,434,161           66,811,258"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "source_value": "22191939",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Gross profit                                                                                22,191,939           15,154,205              7,249,355              2,699,933"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "source_value": "1196472",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Operating profit                                                                           1,196,472           12,215,467              3,785,064              1,372,670"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2018-01-01",
+        "period_end": "2018-12-31",
+        "source_value": "13477747",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Profit/(loss) for the year                                                        13,477,747          (43,889,115)               491,606            (7,627,030)"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/document.json",
+        "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/candidate.json",
+        "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/validation.json",
+        "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/review.json",
+        "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/batch.json",
+        "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed",
+        "plan_id": "plan-cfeab00f5742521b0a68e054879cede147994330881e65336f7be0f536e9fdc9",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2018-annual/2026/doc-fc14972b130b23ff0cbfa10de174c2435b9bdec2242eed6470758364866f9744/v1/document.json",
+          "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/candidate.json",
+          "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/validation.json",
+          "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/review.json",
+          "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2018/batch-1c78095925d1a59eb7b2439b9d8bbf8dd3012fc8d534ce656060d3fb45c65b36/batch.json",
+          "data/outputs/research-records/ingest-cca22c4d88a5263f1951d4faacb1be43bdac8e678724551c1b7a40df25a1c0ed/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-c6b0c63a3e154cfe8f108ab329e30293",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2019,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+      "document": {
+        "document_id": "doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2019-annual",
+        "title": "2019 Annual Report",
+        "sha256": "b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa",
+        "path": "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:26.880637+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2019-annual/2026/collection-1ace7b907ab545779b300ff9cead00d0/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-685058d964f8477d9b7092a0341b0f27",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "source_value": "205838682",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Revenue                                                                             205,838,682   174,915,425   114,624,742      68,434,161      66,811,258"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "source_value": "28554033",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Gross profit                                                                         28,554,033      22,191,939      15,154,205        7,249,355        2,699,933"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "source_value": "11760217",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Operating profit                                                                 11,760,217        1,196,472      12,215,467        3,785,064        1,372,670"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2019-01-01",
+        "period_end": "2019-12-31",
+        "source_value": "10102950",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Profit/(loss) for the year                                                 10,102,950      13,477,747    (43,889,115)          491,606      (7,627,030)"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/document.json",
+        "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/candidate.json",
+        "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/validation.json",
+        "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/review.json",
+        "data/inputs/companies/xiaomi/financials/2019/batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2019/batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12/batch.json",
+        "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048",
+        "plan_id": "plan-bf95c2cacc053ed8b1ccb3e063413aabbb58bb6c458ff59e63b8c67d3658e064",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2019-annual/2026/doc-b1c058f98a5f9d08665e1d5af6f0f65acaf11000de37480185b6159f793de0fa/v1/document.json",
+          "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/candidate.json",
+          "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/validation.json",
+          "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/review.json",
+          "data/inputs/companies/xiaomi/financials/2019/batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2019/batch-dc10b8089ef11953797e6a5a1489bdae46370416e7e21b7b032f2f6652ce8e12/batch.json",
+          "data/outputs/research-records/ingest-f118f298ff76a9a2cb2e27a542566595c8e491afffd21a4fd64a3eaebbfcd048/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-c7c2d78155e740a2acd5f905ddc4b966",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2020,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+      "document": {
+        "document_id": "doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2020-annual",
+        "title": "2020 Annual Report",
+        "sha256": "a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2",
+        "path": "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:30.533249+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2020-annual/2026/collection-e511dffa88794078ac7a39d868ca2eed/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-e75768be3e0840bca0ac0fb9d3a945a3",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "source_value": "245865633",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Revenue                                                                          245,865,633   205,838,682   174,915,425   114,624,742     68,434,161"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "source_value": "36751862",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Gross profit                                                                     36,751,862     28,554,033     22,191,939     15,154,205       7,249,355"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "source_value": "24034729",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Operating profit                                                              24,034,729     11,760,217       1,196,472     12,215,467       3,785,064"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2020-01-01",
+        "period_end": "2020-12-31",
+        "source_value": "20312710",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:12",
+        "excerpt": "Profit/(loss) for the year                                               20,312,710     10,102,950     13,477,747    (43,889,115)         491,606"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/document.json",
+        "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/candidate.json",
+        "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/validation.json",
+        "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/review.json",
+        "data/inputs/companies/xiaomi/financials/2020/batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2020/batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76/batch.json",
+        "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac",
+        "plan_id": "plan-6d9d99936c47324eb39450d7ff34f84fb335cf85e3a93b631bfa309a9e076540",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2020-annual/2026/doc-a3ab1d587908f49d21665205467caaa1fcf70032febe934c2578dad82178eaf2/v1/document.json",
+          "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/candidate.json",
+          "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/validation.json",
+          "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/review.json",
+          "data/inputs/companies/xiaomi/financials/2020/batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2020/batch-76c9350e37b410f5eb9e60ca165af854211ac06bdf6b07e5ed44ba99336d5f76/batch.json",
+          "data/outputs/research-records/ingest-512ad1c47c193fdf403a927fda39c15270e57eee1c3de62f16eebc151ea56dac/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-dd59af49d47d43a4ae8ea1f9fd08549d",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2021,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+      "document": {
+        "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2021-annual",
+        "title": "2021 Annual Report",
+        "sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+        "path": "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:33.020974+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2021-annual/2026/collection-e37072b4456140bd81890eb0d4a36752/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-d8151fbe13f94c4ca0196be4eaacfc6d",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "source_value": "328309145",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Revenue                                                                             328,309,145   245,865,633   205,838,682   174,915,425   114,624,742"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "source_value": "58260941",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Gross profit                                                                         58,260,941      36,751,862      28,554,033      22,191,939      15,154,205"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "source_value": "26028664",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Operating profit                                                                 26,028,664      24,034,729      11,760,217        1,196,472      12,215,467"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2021-01-01",
+        "period_end": "2021-12-31",
+        "source_value": "19283235",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Profit/(loss) for the year                                                 19,283,235      20,312,710      10,102,950      13,477,747    (43,889,115)"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/document.json",
+        "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/candidate.json",
+        "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/validation.json",
+        "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/review.json",
+        "data/inputs/companies/xiaomi/financials/2021/batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2021/batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3/batch.json",
+        "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6",
+        "plan_id": "plan-3bf83b7e5fa6d1b132eee959110a23d5cd0f0dde0bd00dcce4b9e988b9b323bf",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2021-annual/2026/doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e/v1/document.json",
+          "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/candidate.json",
+          "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/validation.json",
+          "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/review.json",
+          "data/inputs/companies/xiaomi/financials/2021/batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2021/batch-fe18877eb2e78627fc5abb70d4ff554d59b435dcdf507d2c32e502857ed948d3/batch.json",
+          "data/outputs/research-records/ingest-9f0a7fbdeeb13f7ca6284f0388e7874f768008383f192d4d58aa0593a27a0ed6/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-c8efdd93119940d6a001850192a8c625",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2022,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+      "document": {
+        "document_id": "doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2022-annual",
+        "title": "2022 Annual Report",
+        "sha256": "eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c",
+        "path": "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:38.607948+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2022-annual/2026/collection-c2f49e20cf7c487f956ea799f45caa2b/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-62c9939f6b524220a75420060a52c677",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "source_value": "280044016",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Revenue                                                                              280,044,016    328,309,145   245,865,633   205,838,682   174,915,425"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "source_value": "47577190",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Gross profit                                                                         47,577,190      58,260,941      36,751,862      28,554,033      22,191,939"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "source_value": "2816498",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Operating profit                                                                    2,816,498      26,028,664      24,034,729      11,760,217        1,196,472"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2022-01-01",
+        "period_end": "2022-12-31",
+        "source_value": "2502568",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Profit for the year                                                                2,502,568      19,283,235      20,312,710      10,102,950      13,477,747"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/document.json",
+        "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/candidate.json",
+        "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/validation.json",
+        "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/review.json",
+        "data/inputs/companies/xiaomi/financials/2022/batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2022/batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539/batch.json",
+        "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049",
+        "plan_id": "plan-a0a1058921dbac53529d4d33b7d5308a808d74b6ea6bc7685423ac05b0438b02",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2022-annual/2026/doc-eb0004b47e0d5890f63f4a7cb313e52183f470e4777753b7c4a8c092799e9f4c/v1/document.json",
+          "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/candidate.json",
+          "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/validation.json",
+          "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/review.json",
+          "data/inputs/companies/xiaomi/financials/2022/batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2022/batch-e11055390e978ba56b10c93fad8cd02efe5352f87adc6a51a3ee7bd53713c539/batch.json",
+          "data/outputs/research-records/ingest-2113975b3adb5ecc4e2687c8da497fffcbc112a5528c34c63a770382d0838049/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-c5175f3907dd4804b97aa1642c19b79e",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2023,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+      "document": {
+        "document_id": "doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2023-annual",
+        "title": "2023 Annual Report",
+        "sha256": "76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3",
+        "path": "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:45.002378+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2023-annual/2026/collection-2a2609ce05e746c89872b2640a477fd6/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-27dffe4e8eef4b26ba036699216d14f8",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "source_value": "270970141",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Revenue                                                                               270,970,141    280,044,016   328,309,145   245,865,633   205,838,682"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "source_value": "57476239",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Gross profit                                                                     57,476,239     47,577,190     58,260,941     36,751,862     28,554,033"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "source_value": "20008670",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Operating profit                                                              20,008,670       2,816,498     26,028,664     24,034,729     11,760,217"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2023-01-01",
+        "period_end": "2023-12-31",
+        "source_value": "17474196",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Profit for the year                                                          17,474,196       2,502,568     19,283,235     20,312,710     10,102,950"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/document.json",
+        "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/candidate.json",
+        "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/validation.json",
+        "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/review.json",
+        "data/inputs/companies/xiaomi/financials/2023/batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2023/batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d/batch.json",
+        "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4",
+        "plan_id": "plan-bd386d22fcbd73e2a0fa2c93255bc266b7f8aebfb95746583eff98ec240b95b9",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2023-annual/2026/doc-76e579dbc5c01372bef6efb8e4ae0e96ada17336a2b32b5714bc07506534aec3/v1/document.json",
+          "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/candidate.json",
+          "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/validation.json",
+          "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/review.json",
+          "data/inputs/companies/xiaomi/financials/2023/batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2023/batch-19762d3c21419e517338484b93958085c1606ad36e941512559b61e7d2959b4d/batch.json",
+          "data/outputs/research-records/ingest-1cd91117af3c9e8e0bbd66c37f1b376fa858d1aa38c473e2278c019aaa0d71e4/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-94a6b7d0acd4488082670acf3e8eadef",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  },
+  {
+    "year": 2024,
+    "import_receipt": {
+      "status": "received",
+      "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+      "document": {
+        "document_id": "doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+        "content_revision": "v1",
+        "source_id": "xiaomi-2024-annual",
+        "title": "2024 Annual Report",
+        "sha256": "2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af",
+        "path": "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "published_at": null,
+        "first_observed_at": "2026-10-30T09:30:47.747584+00:00"
+      },
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/inputs/collection-records/xiaomi-2024-annual/2026/collection-0c49b8b790a54053b7c29fedc8cc0abe/collection.json"
+      ],
+      "next_actions": [
+        "prepare"
+      ],
+      "protocol_version": "1",
+      "operation_id": "op-e79c4a71918a44c3ac2b7d204d839145",
+      "summary": "import",
+      "issues": []
+    },
+    "records": [
+      {
+        "company_id": "xiaomi",
+        "metric_id": "revenue",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "source_value": "365906350",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Revenue                                                                               365,906,350    270,970,141   280,044,016   328,309,145   245,865,633"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "gross-profit",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "source_value": "76560194",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Gross profit                                                                           76,560,194 57,476,239 47,577,190 58,260,941 36,751,862"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "operating-profit",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "source_value": "24502896",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Operating profit                                                                   24,502,896 20,008,670 2,816,498 26,028,664 24,034,729"
+      },
+      {
+        "company_id": "xiaomi",
+        "metric_id": "profit-for-year",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "source_value": "23578449",
+        "source_unit": "thousands",
+        "currency": "CNY",
+        "scope": "consolidated",
+        "record_kind": "reported_actual",
+        "locator": "pdf:page:8",
+        "excerpt": "Profit for the year                                                               23,578,449 17,474,196 2,502,568 19,283,235 20,312,710"
+      }
+    ],
+    "admission": {
+      "status": "registered",
+      "artifact_refs": [
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+        "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+        "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/candidate.json",
+        "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/validation.json",
+        "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/review.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/financial-facts.json",
+        "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+        "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/receipt.json"
+      ],
+      "receipt": {
+        "candidate_hash": "313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d",
+        "plan_id": "plan-91a890685de02f78b8edbb6b5cf0976caab95484a2545e9a10150510acffac98",
+        "artifact_refs": [
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/original.pdf",
+          "data/inputs/source-files/xiaomi-2024-annual/2026/doc-2becc8b3f13c005759300afda10b96048f6e8eb5ebedc74c4cf7f1ef5991b5af/v1/document.json",
+          "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/candidate.json",
+          "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/validation.json",
+          "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/review.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/financial-facts.json",
+          "data/inputs/companies/xiaomi/financials/2024/batch-b03f59111278e9c95bddcc8772df55d20ec51447a82170d72f1c840ff34e1491/batch.json",
+          "data/outputs/research-records/ingest-313d3d26f328c83dc361c39acf66033a8755e6615953b7002cad61a3e43be22d/receipt.json"
+        ]
+      },
+      "protocol_version": "1",
+      "operation_id": "op-08aaca9ea8a942a0951a48084c03beb2",
+      "summary": "ingest apply",
+      "issues": [],
+      "next_actions": []
+    }
+  }
+]

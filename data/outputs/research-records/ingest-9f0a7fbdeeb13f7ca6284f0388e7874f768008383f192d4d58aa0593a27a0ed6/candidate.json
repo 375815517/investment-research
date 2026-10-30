@@ -1,0 +1,64 @@
+{
+  "candidate_id": "candidate-ce9442fb1781c2748745e453216d482d6ce1c470f702be4da345ab0e23cbab51",
+  "contract_version": "1",
+  "dataset_id": "financial-facts",
+  "document_id": "doc-5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+  "document_sha256": "5cf2ec8081880f34cc27e1f9b02a5a7b7a3c65e6677dbe7b302762e8e0b2474e",
+  "parser_version": "annual-summary-current-year-reviewed-v1",
+  "records": [
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Revenue                                                                             328,309,145   245,865,633   205,838,682   174,915,425   114,624,742",
+      "locator": "pdf:page:8",
+      "metric_id": "revenue",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "328309145"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Gross profit                                                                         58,260,941      36,751,862      28,554,033      22,191,939      15,154,205",
+      "locator": "pdf:page:8",
+      "metric_id": "gross-profit",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "58260941"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Operating profit                                                                 26,028,664      24,034,729      11,760,217        1,196,472      12,215,467",
+      "locator": "pdf:page:8",
+      "metric_id": "operating-profit",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "26028664"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Profit/(loss) for the year                                                 19,283,235      20,312,710      10,102,950      13,477,747    (43,889,115)",
+      "locator": "pdf:page:8",
+      "metric_id": "profit-for-year",
+      "period_end": "2021-12-31",
+      "period_start": "2021-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "19283235"
+    }
+  ],
+  "source_id": "xiaomi-2021-annual",
+  "supersedes": []
+}

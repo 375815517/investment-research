@@ -57,6 +57,10 @@ def build_parser() -> Parser:
         "validate": ("candidate_id",),
         "review": ("candidate_id", "reviewer", "decision", "notes"),
         "coverage": (
+            "source_id",
+            "metric_id",
+            "document_kind",
+            "price_basis",
             "dataset_id",
             "subject_id",
             "start",
@@ -65,6 +69,7 @@ def build_parser() -> Parser:
             "knowledge_mode",
         ),
         "detect-gaps": (
+            "price_basis",
             "dataset_id",
             "subject_id",
             "start",
@@ -76,6 +81,7 @@ def build_parser() -> Parser:
             "as_of",
         ),
         "ensure-plan": (
+            "price_basis",
             "dataset_id",
             "subject_id",
             "start",
@@ -89,6 +95,8 @@ def build_parser() -> Parser:
         "ensure-apply": ("plan_id",),
         "ingest": ("candidate_id", "plan_id"),
         "index": (),
+        "audit-inputs": (),
+        "assess-inputs": ("purpose", "knowledge_mode", "information_cutoff"),
     }
     for name, names in fields.items():
         child = operations.add_parser(name)
@@ -253,6 +261,7 @@ def result_exit_code(result: dict) -> int:
         "review_required",
         "blocked",
         "partial",
+        "limited",
         "quarantined",
         "invalid",
     }:

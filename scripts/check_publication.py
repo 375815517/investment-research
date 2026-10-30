@@ -23,8 +23,14 @@ def check(workspace: Path, allowed: list[str]) -> list[str]:
         if path.startswith("legacy/"):
             errors.append(f"LEGACY_PROTECTED: {path}")
         if path.startswith("data/inputs/") and status != "A":
-            # Existing documentation and skeletons are not immutable research records.
-            if not (path.endswith(".md") or path.endswith(".gitkeep")):
+            # Only business-directory navigation and skeletons may change. Markdown
+            # source originals are evidence too, irrespective of file extension.
+            parts = Path(path).parts
+            navigation = parts[-1] in {"README.md", ".gitkeep"} and parts[2] not in {
+                "source-files",
+                "collection-records",
+            }
+            if not navigation:
                 errors.append(f"HISTORY_OVERWRITE: {path}")
     return errors
 

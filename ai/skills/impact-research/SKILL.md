@@ -26,3 +26,9 @@ description: 分析价格变动的候选解释，构建事件传导假设，并�
 - 收盘后政策发布：不能解释同日收盘前跌幅；需另查提前预期证据。
 - 补贴后销量增、毛利降：分开检查需求与利润传导，不自动认定净利好。
 - 核实到期仍无披露：记录 inconclusive/blocked，不默认原假设成立或失败。
+
+## 数据适用性检查
+
+遵循[数据适用性规则](../../rules/data-fitness.md)。先固定问题、用途、期间及所需维度，再查看 coverage、执行有限需求 audit-inputs，随后用同一需求调用 assess-inputs；实际命令与 schema 以 capabilities 为准。source_description、historical_point_in_time、quantitative_comparison 分别评价，不把 ready 泛化为所有研究均可用。报告限制及未覆盖的人工检查，保留原始需求与缺口。详细[设计与请求示例](../../../docs/plans/data-fitness-assessment.md)。
+
+新闻/政策样本数不是全网完整率，四个损益字段不是完整基本面，须申报淡仓不是全市场多空分布。口径未知、缺历史公开时间或匹配分母时，不让 AI 补造数值；补采后重新评估并保存新结果。

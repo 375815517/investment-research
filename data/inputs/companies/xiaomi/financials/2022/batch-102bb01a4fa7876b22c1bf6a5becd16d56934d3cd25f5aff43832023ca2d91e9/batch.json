@@ -1,0 +1,79 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3d7bfecc11f1df94f489b7c5c683b9cb862ed4bf16f3c06a577ad47d735d98cc/candidate.json",
+  "batch_id": "batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9",
+  "candidate_hash": "3d7bfecc11f1df94f489b7c5c683b9cb862ed4bf16f3c06a577ad47d735d98cc",
+  "contract_version": "1",
+  "dataset_id": "financial-facts",
+  "documents": [
+    "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/financials/2022/batch-102bb01a4fa7876b22c1bf6a5becd16d56934d3cd25f5aff43832023ca2d91e9/financial-facts.json",
+      "sha256": "5b8d059ea4ca4ddc0a75ef989bdac6a762d26cd8ccb55de4e87ad714e47c80e5"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:53:08.770248+00:00",
+  "parser_version": "codex-annual-pdf-page-review-v1",
+  "published_at": null,
+  "record_count": 4,
+  "registered_at": "2026-10-30T08:53:14.190208+00:00",
+  "rows": [
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Revenue                                                                                457,286,687    365,906,350   270,970,141   280,044,016   328,309,145",
+      "locator": "pdf:page:8",
+      "metric_id": "revenue",
+      "period_end": "2022-12-31",
+      "period_start": "2022-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "280044016"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Gross profit                                                                         101,805,847      76,560,194     57,476,239     47,577,190     58,260,941",
+      "locator": "pdf:page:8",
+      "metric_id": "gross-profit",
+      "period_end": "2022-12-31",
+      "period_start": "2022-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "47577190"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Operating profit                                                                   47,900,920      24,502,896     20,008,670       2,816,498     26,028,664",
+      "locator": "pdf:page:8",
+      "metric_id": "operating-profit",
+      "period_end": "2022-12-31",
+      "period_start": "2022-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "2816498"
+    },
+    {
+      "company_id": "xiaomi",
+      "currency": "CNY",
+      "excerpt": "Profit for the year                                                               41,566,439      23,578,449     17,474,196       2,502,568     19,283,235",
+      "locator": "pdf:page:8",
+      "metric_id": "profit-for-year",
+      "period_end": "2022-12-31",
+      "period_start": "2022-01-01",
+      "record_kind": "reported_actual",
+      "scope": "consolidated",
+      "source_unit": "thousands",
+      "source_value": "2502568"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

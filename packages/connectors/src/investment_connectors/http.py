@@ -26,6 +26,8 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
+from .observations import OBSERVATION_PARSERS, PARSER_ERRORS, extract_html_text
+
 _ID = re.compile(r"^[a-z0-9][a-z0-9_-]{0,79}$")
 _PARAMETER = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9_.-]{0,99}$")
 _ENV = re.compile(r"^[A-Z][A-Z0-9_]*$")
@@ -86,6 +88,10 @@ class SourceDefinition:
     source_symbol: str = ""
     security_id: str = ""
     currency: str = ""
+    subject_id: str = ""
+    subject_type: str = ""
+    document_kind: str = ""
+    source_category: str = ""
 
     def __post_init__(self) -> None:
         if not isinstance(self.source_id, str) or not _ID.fullmatch(self.source_id):
@@ -106,17 +112,23 @@ class SourceDefinition:
             "yahoo-chart-v1",
             "http-document-v1",
             "tencent-kline-v1",
+            "http-html-v1",
+            *OBSERVATION_PARSERS,
         }:
             raise ConnectorError(
                 "CONNECTOR_UNSUPPORTED",
                 "Unknown connector; use a registered CSV, chart or document connector.",
             )
-        if self.dataset_id not in {"daily-prices", "financial-facts"} or (
-            self.connector_id != "http-document-v1" and self.dataset_id != "daily-prices"
-        ):
-            raise ConnectorError(
-                "DATASET_UNSUPPORTED", "Dataset is incompatible with the configured connector."
-            )
+        supported_datasets = {
+            "http-csv-v1": {"daily-prices"},
+            "yahoo-chart-v1": {"daily-prices"},
+            "tencent-kline-v1": {"daily-prices"},
+            "http-document-v1": {"financial-facts", "document-facts", "market-observations"},
+            "http-html-v1": {"document-facts", "market-observations"},
+            **{key: {"market-observations"} for key in OBSERVATION_PARSERS},
+        }
+        if self.dataset_id not in supported_datasets[self.connector_id]:
+            raise ConnectorError("DATASET_UNSUPPORTED", "Dataset is incompatible with connector.")
         if not 0 < self.timeout_seconds <= 60 or not 0 < self.max_bytes <= 50_000_000:
             raise ConnectorError("CONFIG_INVALID", "Timeout or response-size bound is invalid.")
         if not 1 <= self.max_attempts <= 3 or not 0 <= self.retry_delay_seconds <= 5:
@@ -268,7 +280,14 @@ class HttpFetcher:
                 with self.opener.open(request, timeout=source.timeout_seconds) as response:
                     content_type = response.headers.get_content_type()
                     if content_type in {"text/html", "application/xhtml+xml"} and (
-                        source.connector_id != "tencent-kline-v1"
+                        source.connector_id
+                        not in {
+                            "tencent-kline-v1",
+                            "http-html-v1",
+                            "hkex-short-turnover-v1",
+                            "stockanalysis-statistics-v1",
+                            "stockanalysis-ratios-v1",
+                        }
                     ):
                         raise ConnectorError(
                             "SOURCE_CONTENT_INVALID", "Expected CSV, received an HTML response."
@@ -315,6 +334,23 @@ class HttpFetcher:
             )
             rows = len(parsed["records"])
             extension = "json"
+        elif source.connector_id in OBSERVATION_PARSERS:
+            try:
+                records = OBSERVATION_PARSERS[source.connector_id](
+                    data, source.source_symbol, source.security_id, observed_at=observed_at
+                )
+            except PARSER_ERRORS:
+                raise ConnectorError(
+                    "SOURCE_CONTENT_INVALID", "Source observation schema is invalid."
+                ) from None
+            rows = len(records)
+            extension = "csv" if source.connector_id == "sfc-short-positions-v1" else "html"
+        elif source.connector_id == "http-html-v1":
+            if not data.lstrip().lower().startswith(
+                (b"<!doctype html", b"<html")
+            ) or not extract_html_text(data):
+                raise ConnectorError("SOURCE_CONTENT_INVALID", "Expected nonempty HTML document.")
+            rows, extension = 0, "html"
         elif source.connector_id == "http-document-v1":
             if not data.startswith(b"%PDF-") or b"%%EOF" not in data[-2048:]:
                 raise ConnectorError("SOURCE_CONTENT_INVALID", "Expected a complete PDF document.")
@@ -435,6 +471,14 @@ class ConnectorService:
         self.fetcher = fetcher or HttpFetcher()
 
     def execute(self, operation: str, payload: dict[str, Any]) -> dict[str, Any]:
+        if operation == "extract_text":
+            path = Path(payload["path"])
+            raw = path.read_bytes()
+            return {
+                "text": extract_html_text(raw)
+                if path.suffix.lower() in {".html", ".htm"}
+                else raw.decode("utf-8-sig")
+            }
         if operation == "extract_pdf_page":
             return {"text": extract_pdf_page(payload["path"], payload["page"])}
         source = SourceDefinition.load(self.workspace, str(payload.get("source_id", "")))
@@ -479,6 +523,19 @@ class ConnectorService:
                 raise ConnectorError(
                     "CONFIG_INVALID", "Parsing requires configured security and source symbol."
                 )
+            if source.connector_id in OBSERVATION_PARSERS:
+                try:
+                    records = OBSERVATION_PARSERS[source.connector_id](
+                        path.read_bytes(),
+                        source.source_symbol,
+                        security_id,
+                        observed_at=payload.get("first_observed_at", ""),
+                    )
+                except PARSER_ERRORS:
+                    raise ConnectorError(
+                        "SOURCE_CONTENT_INVALID", "Source observation schema is invalid."
+                    ) from None
+                return {"records": records, "parser_id": source.connector_id, "limitations": []}
             if source.connector_id == "yahoo-chart-v1":
                 parsed = parse_yahoo_chart(
                     path.read_bytes(),

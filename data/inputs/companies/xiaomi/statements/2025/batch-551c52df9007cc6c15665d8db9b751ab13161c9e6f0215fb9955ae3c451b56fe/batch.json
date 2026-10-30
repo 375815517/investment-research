@@ -1,0 +1,40 @@
+{
+  "audit_ref": "data/outputs/research-records/ingest-3ead8f0053cb9af9d7eb2cf45622ba9b84458a652cdd149b535318284cc97ca0/candidate.json",
+  "batch_id": "batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe",
+  "candidate_hash": "3ead8f0053cb9af9d7eb2cf45622ba9b84458a652cdd149b535318284cc97ca0",
+  "contract_version": "1",
+  "dataset_id": "document-facts",
+  "documents": [
+    "doc-b787f0290513e48a95078ed2a68dc1e240da68d204e5dd9aedc59b66a7c75ec2"
+  ],
+  "files": [
+    {
+      "path": "data/inputs/companies/xiaomi/statements/2025/batch-551c52df9007cc6c15665d8db9b751ab13161c9e6f0215fb9955ae3c451b56fe/document-facts.json",
+      "sha256": "4005d8ee1451c6b289f4b95ad13ae4981981ccf65d7a2851ec2bd4172a61383c"
+    }
+  ],
+  "first_observed_at": "2026-10-30T08:53:08.770248+00:00",
+  "parser_version": "manual-v1",
+  "published_at": null,
+  "record_count": 1,
+  "registered_at": "2026-10-30T08:54:10.292650+00:00",
+  "rows": [
+    {
+      "assertion_type": "source_assertion",
+      "document_kind": "company_statement",
+      "effective_from": null,
+      "effective_to": null,
+      "event_date": "2025-12-31",
+      "excerpt": "In 2025, our smartphone shipments reached 165.2 million units.",
+      "fact_id": "xiaomi-2025-smartphone-shipments",
+      "locator": "pdf:page:11",
+      "statement": "小米2025年报称2025年智能手机出货1.652亿台；属于公司报告的出货口径，不等于终端零售或平台独立调查。",
+      "subject_id": "xiaomi",
+      "subject_type": "company"
+    }
+  ],
+  "source_id": "xiaomi-2025-annual",
+  "status": "complete",
+  "subject_id": "xiaomi",
+  "supersedes": []
+}

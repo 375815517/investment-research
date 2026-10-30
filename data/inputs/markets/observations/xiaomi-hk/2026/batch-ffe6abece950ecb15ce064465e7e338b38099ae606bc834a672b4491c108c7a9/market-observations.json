@@ -1,0 +1,38 @@
+[
+  {
+    "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+    "currency": null,
+    "denominator_ref": null,
+    "excerpt": "1810 XIAOMI-W 28,066,000 753,013,092",
+    "locator": "text:stock:01810",
+    "metric_id": "short_sale_volume",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2026-10-30",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "intraday",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "28066000",
+    "unit": "shares",
+    "value_status": "reported"
+  },
+  {
+    "basis": "HKEX short-selling turnover; transaction flow for the stated session, not short-position stock or investor long/short ratio.",
+    "currency": "HKD",
+    "denominator_ref": null,
+    "excerpt": "1810 XIAOMI-W 28,066,000 753,013,092",
+    "locator": "text:stock:01810",
+    "metric_id": "short_sale_turnover",
+    "missing_reason": null,
+    "observed_at": null,
+    "observed_date": "2026-10-30",
+    "record_kind": "source_reported",
+    "security_id": "xiaomi-hk",
+    "session": "intraday",
+    "share_class": "Specified source stock-code counter; no cross-class aggregation inferred",
+    "source_value": "753013092",
+    "unit": "currency",
+    "value_status": "reported"
+  }
+]

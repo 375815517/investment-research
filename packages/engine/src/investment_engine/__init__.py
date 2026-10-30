@@ -3,6 +3,7 @@
 import csv
 import io
 import re
+from contextlib import nullcontext
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from datetime import datetime
 from pathlib import Path
@@ -10,7 +11,16 @@ from uuid import uuid4
 
 from pydantic import ValidationError
 
-from investment_domain import SCHEMAS, DailyPrice, DomainError, FinancialFact, ImportRequest
+from investment_domain import SCHEMAS, DailyPrice, DomainError, ImportRequest
+from .datasets import (
+    MODELS,
+    canonical_row,
+    business_key as record_key,
+    day as record_day,
+    subject as record_subject,
+    partition,
+    html_text,
+)
 from investment_repository import (
     Repository,
     digest_bytes,
@@ -40,6 +50,8 @@ class Service:
         "detect_gaps",
         "ensure_plan",
         "ensure_apply",
+        "audit_inputs",
+        "assess_inputs",
     )
 
     def __init__(self, workspace: Path, connector_service=None):
@@ -56,7 +68,13 @@ class Service:
         saved = dict(operation=operation, payload=payload, status="running", started_at=utc_now())
         self.repo.json(checkpoint, saved)
         try:
-            result = getattr(self, "_" + operation)(payload)
+            snapshot = (
+                self.repo.read_snapshot()
+                if operation in ("audit_inputs", "assess_inputs")
+                else nullcontext()
+            )
+            with snapshot:
+                result = getattr(self, "_" + operation)(payload)
             result = dict(result)
             result.update(protocol_version="1", operation_id=operation_id)
             for key, value in dict(
@@ -91,11 +109,59 @@ class Service:
 
         return apply(self, payload)
 
+    def _assess_inputs(self, payload):
+        from .assessment import assess
+
+        return assess(self, payload)
+
+    def _audit_inputs(self, payload):
+        from investment_domain import AuditInputsRequest
+
+        request = AuditInputsRequest.model_validate(payload)
+        results, refs = [], []
+        for requirement in request.requirements:
+            query = requirement.model_dump(
+                mode="json", exclude_none=True, exclude={"minimum_records"}
+            )
+            query["knowledge_mode"] = request.knowledge_mode
+            if request.information_cutoff:
+                query["information_cutoff"] = request.information_cutoff.isoformat()
+            observed = self._coverage(query)
+            rows = observed["rows"]
+            available = [
+                row
+                for row in rows
+                if requirement.dataset_id != "market-observations"
+                or (row.get("value_status") == "reported" and row.get("source_value") is not None)
+            ]
+            # Business samples are counted once even when multiple sources corroborate them.
+            keys = {record_key(requirement.dataset_id, row) for row in available}
+            results.append(
+                dict(
+                    requirement=requirement.model_dump(mode="json"),
+                    observed_count=len(keys),
+                    unavailable_count=len(rows) - len(available),
+                    status="satisfied" if len(keys) >= requirement.minimum_records else "missing",
+                    artifact_refs=observed["artifact_refs"],
+                    excluded=observed["excluded"],
+                )
+            )
+            refs.extend(observed["artifact_refs"])
+        return dict(
+            status="complete" if all(x["status"] == "satisfied" for x in results) else "partial",
+            scope="declared_sample_requirements",
+            results=results,
+            artifact_refs=sorted(set(refs)),
+            limitations=[
+                "Satisfies only the explicit sample counts, not internet-wide news completeness or exchange-calendar coverage"
+            ],
+        )
+
     def _capabilities(self, payload):
         return dict(
             status="available",
             operations=list(self.OPERATIONS),
-            datasets=["daily-prices", "financial-facts"],
+            datasets=list(MODELS),
             limitations=[
                 "No automatic Git commit or push",
                 "Publication time is importer-asserted",
@@ -237,7 +303,7 @@ class Service:
     def _prepare(self, payload):
         doc, _ = self.repo.document(payload["document_id"])
         dataset = payload["dataset_id"]
-        if dataset not in ("daily-prices", "financial-facts"):
+        if dataset not in MODELS:
             raise DomainError("UNKNOWN_DATASET", dataset)
         records = payload.get("records")
         if dataset == "daily-prices" and records is not None:
@@ -246,12 +312,12 @@ class Service:
                 "Price candidates must be parsed from the archived source; records overrides are not supported",
             )
         if records is None:
-            if dataset != "daily-prices":
+            if dataset not in ("daily-prices", "market-observations"):
                 raise DomainError(
                     "CANDIDATES_REQUIRED",
-                    "Financial extraction requires records with evidence locators",
+                    "Document and financial extraction require records with evidence locators",
                 )
-            if Path(doc["path"]).suffix.lower() == ".csv":
+            if dataset == "daily-prices" and Path(doc["path"]).suffix.lower() == ".csv":
                 text = self.repo.path(doc["path"]).read_text(encoding="utf-8-sig")
                 if text.lstrip().startswith("<"):
                     raise DomainError("UNEXPECTED_CONTENT", "HTML is not a price CSV")
@@ -269,6 +335,7 @@ class Service:
                             "document_path": str(self.repo.path(doc["path"])),
                             "source_id": doc["source_id"],
                             "first_observed_at": doc["first_observed_at"],
+                            "dataset_id": dataset,
                         },
                     )
                 except Exception as exc:
@@ -308,29 +375,13 @@ class Service:
         doc, _ = self.repo.document(candidate["document_id"])
         if doc["sha256"] != candidate["document_sha256"]:
             raise DomainError("EVIDENCE_CHANGED", candidate["document_id"], 4)
-        model = DailyPrice if candidate["dataset_id"] == "daily-prices" else FinancialFact
+        model = MODELS[candidate["dataset_id"]]
         normalized, issues, keys = [], [], set()
         for index, raw in enumerate(candidate["records"]):
             try:
                 record = model.model_validate(raw).model_dump(mode="json")
-                key = (
-                    (
-                        record["security_id"],
-                        record["trading_date"],
-                        record["session"],
-                        record["price_basis"],
-                    )
-                    if model is DailyPrice
-                    else (
-                        record["company_id"],
-                        record["metric_id"],
-                        record["period_start"],
-                        record["period_end"],
-                        record["scope"],
-                        record["currency"],
-                    )
-                )
-                if model is DailyPrice and not (
+                key = record_key(candidate["dataset_id"], record)
+                if candidate["dataset_id"] in ("daily-prices", "market-observations") and not (
                     record["security_id"].startswith("demo-")
                     and candidate["source_id"].startswith("demo-")
                 ):
@@ -346,17 +397,22 @@ class Service:
                     registration = self.repo.read_json(
                         registrations[-1].relative_to(self.repo.root).as_posix()
                     )
-                    if (
-                        not registration.get("user_confirmed")
-                        or registration.get("currency") != record["currency"]
+                    if not registration.get("user_confirmed") or (
+                        record.get("currency") is not None
+                        and registration.get("currency") != record["currency"]
                     ):
                         raise ValueError("Security confirmation or currency does not match")
                 if key in keys:
                     raise ValueError("Duplicate business key in candidate")
                 keys.add(key)
-                if model is FinancialFact:
+                if model is not DailyPrice:
                     # Evidence text matching can verify an excerpt, not its financial interpretation.
-                    if Path(doc["path"]).suffix in (".txt", ".md", ".csv", ".json", ".html"):
+                    suffix = Path(doc["path"]).suffix.lower()
+                    if suffix in (".html", ".htm"):
+                        original_text = html_text(self.repo.path(doc["path"]).read_text())
+                        if " ".join(record["excerpt"].split()) not in original_text:
+                            raise ValueError("Evidence excerpt not present in rendered source text")
+                    elif suffix in (".txt", ".md", ".csv", ".json"):
                         if record["excerpt"] not in self.repo.path(doc["path"]).read_text():
                             raise ValueError("Evidence excerpt not present in original")
                     elif Path(doc["path"]).suffix.lower() == ".pdf":
@@ -385,6 +441,8 @@ class Service:
                         raise ValueError(
                             "Unsupported evidence format requires a verified text extraction"
                         )
+                if record.get("denominator_ref"):
+                    self.repo.document(record["denominator_ref"]["document_id"])
                 normalized.append(record)
             except (ValidationError, ValueError) as exc:
                 issues.append(
@@ -414,7 +472,7 @@ class Service:
         status = (
             "quarantined"
             if errors
-            else ("review_required" if candidate["dataset_id"] == "financial-facts" else "eligible")
+            else ("review_required" if candidate["dataset_id"] != "daily-prices" else "eligible")
         )
         report = dict(
             candidate_id=candidate["candidate_id"],
@@ -447,7 +505,18 @@ class Service:
             or not payload.get("notes")
         ):
             raise DomainError("INVALID_REVIEW", "Review requires decision, reviewer and notes")
+        if (
+            candidate["dataset_id"] == "document-facts"
+            and payload["decision"] == "approved"
+            and payload.get("statement_consistency_checked") is not True
+        ):
+            raise DomainError(
+                "SEMANTIC_REVIEW_REQUIRED",
+                "Approval must explicitly verify statement consistency with the cited source",
+                3,
+            )
         review = dict(
+            statement_consistency_checked=payload.get("statement_consistency_checked", False),
             candidate_id=candidate["candidate_id"],
             candidate_hash=fingerprint(candidate),
             decision=payload["decision"],
@@ -477,16 +546,7 @@ class Service:
             raise DomainError("INVALID_REVISION", "A superseded batch does not exist")
 
         def business_key(row):
-            if candidate["dataset_id"] == "daily-prices":
-                return row["security_id"], row["trading_date"], row["session"], row["price_basis"]
-            return (
-                row["company_id"],
-                row["metric_id"],
-                row["period_start"],
-                row["period_end"],
-                row["scope"],
-                row["currency"],
-            )
+            return record_key(candidate["dataset_id"], row)
 
         proposed = {business_key(row): row for row in records}
         for _, previous in existing:
@@ -516,7 +576,8 @@ class Service:
             for row in batch["rows"]:
                 if (
                     business_key(row) in proposed
-                    and row != proposed[business_key(row)]
+                    and canonical_row(candidate["dataset_id"], row)
+                    != canonical_row(candidate["dataset_id"], proposed[business_key(row)])
                     and batch["batch_id"] not in supersedes
                 ):
                     raise DomainError(
@@ -525,7 +586,7 @@ class Service:
                         4,
                     )
         review = None
-        if candidate["dataset_id"] == "financial-facts":
+        if candidate["dataset_id"] != "daily-prices":
             reviews = [
                 self.repo.read_json(p.relative_to(self.repo.root).as_posix())
                 for p in self.repo.path(
@@ -591,11 +652,12 @@ class Service:
             ):
                 raise DomainError("STALE_PLAN", "Repository or review changed after planning", 4)
             doc, doc_meta = self.repo.document(candidate["document_id"])
-            groups: dict[tuple[str, str], list[dict]] = {}
+            groups: dict[tuple[str, str, str], list[dict]] = {}
             for record in records:
-                subject = record.get("security_id", record.get("company_id"))
-                period = record.get("trading_date", record.get("period_end"))
-                groups.setdefault((subject, period[:4]), []).append(record)
+                subject = record_subject(record)
+                period = record_day(record)
+                prefix = partition(candidate["dataset_id"], record)
+                groups.setdefault((subject, period[:4], prefix), []).append(record)
             audit = f"data/outputs/research-records/ingest-{plan['candidate_hash']}"
             refs = [doc["path"], doc_meta]
             self.repo.json(f"{audit}/candidate.json", candidate)
@@ -607,17 +669,16 @@ class Service:
             refs.extend(
                 [f"{audit}/candidate.json", f"{audit}/validation.json", f"{audit}/review.json"]
             )
-            for (subject, year), group in sorted(groups.items()):
-                batch_id = "batch-" + fingerprint(
-                    dict(candidate_hash=plan["candidate_hash"], subject=subject, year=year)
+            for (subject, year, prefix), group in sorted(groups.items()):
+                batch_identity = dict(
+                    candidate_hash=plan["candidate_hash"], subject=subject, year=year
                 )
+                if candidate["dataset_id"] not in ("daily-prices", "financial-facts"):
+                    batch_identity["partition"] = prefix
+                batch_id = "batch-" + fingerprint(batch_identity)
                 is_price = candidate["dataset_id"] == "daily-prices"
-                folder = (
-                    f"data/inputs/markets/prices/{identifier(subject)}/daily/{year}/{batch_id}"
-                    if is_price
-                    else f"data/inputs/companies/{identifier(subject)}/financials/{year}/{batch_id}"
-                )
-                name = "daily-prices.csv" if is_price else "financial-facts.json"
+                folder = f"data/inputs/{prefix}/{year}/{batch_id}"
+                name = "daily-prices.csv" if is_price else candidate["dataset_id"] + ".json"
                 if is_price:
                     output = io.StringIO(newline="")
                     writer = csv.DictWriter(
@@ -644,7 +705,14 @@ class Service:
                     contract_version="1",
                     candidate_hash=plan["candidate_hash"],
                     supersedes=candidate.get("supersedes", []),
-                    documents=[candidate["document_id"]],
+                    documents=sorted(
+                        {candidate["document_id"]}
+                        | {
+                            r["denominator_ref"]["document_id"]
+                            for r in group
+                            if r.get("denominator_ref")
+                        }
+                    ),
                     source_id=candidate["source_id"],
                     parser_version=candidate["parser_version"],
                     published_at=doc["published_at"],
@@ -704,6 +772,29 @@ class Service:
                         dict(batch_id=batch["batch_id"], reason="not_observed_at_cutoff")
                     )
                     continue
+            if mode != "retrospective_explanation":
+                dependency_unavailable = False
+                for document_id in batch.get("documents", []):
+                    dependency, _ = self.repo.document(document_id)
+                    if (
+                        not dependency.get("published_at")
+                        or self._timestamp(dependency["published_at"]) > cutoff_time
+                        or (
+                            mode == "live_observed"
+                            and self._timestamp(dependency["first_observed_at"]) > cutoff_time
+                        )
+                    ):
+                        excluded.append(
+                            dict(
+                                batch_id=batch["batch_id"],
+                                document_id=document_id,
+                                reason="dependency_unavailable_at_cutoff",
+                            )
+                        )
+                        dependency_unavailable = True
+                        break
+                if dependency_unavailable:
+                    continue
             eligible.append((rel, batch))
         superseded = {prior for _, batch in eligible for prior in batch.get("supersedes", [])}
         unique: dict[tuple, dict] = {}
@@ -711,12 +802,22 @@ class Service:
             if batch["batch_id"] in superseded:
                 continue
             matched = False
-            for row in batch["rows"]:
+            for stored_row in batch["rows"]:
+                row = canonical_row(batch["dataset_id"], stored_row)
                 if batch["dataset_id"] == "daily-prices" and row["price_basis"] != payload.get(
                     "price_basis", "unadjusted"
                 ):
                     continue
-                day = row.get("trading_date", row.get("period_end"))
+                if payload.get("source_id") and batch["source_id"] != payload["source_id"]:
+                    continue
+                if payload.get("metric_id") and row.get("metric_id") != payload["metric_id"]:
+                    continue
+                if (
+                    payload.get("document_kind")
+                    and row.get("document_kind") != payload["document_kind"]
+                ):
+                    continue
+                day = record_day(row)
                 if (
                     payload.get("start")
                     and day < payload["start"]
@@ -737,23 +838,7 @@ class Service:
                     refs.extend(closure)
                     continue
                 matched = True
-                business_key: tuple
-                if batch["dataset_id"] == "daily-prices":
-                    business_key = (
-                        row["security_id"],
-                        row["trading_date"],
-                        row["session"],
-                        row["price_basis"],
-                    )
-                else:
-                    business_key = (
-                        row["company_id"],
-                        row["metric_id"],
-                        row["period_start"],
-                        row["period_end"],
-                        row["scope"],
-                        row["currency"],
-                    )
+                business_key = record_key(batch["dataset_id"], row)
                 key = (batch["dataset_id"], batch["source_id"], *business_key)
                 if key in unique:
                     prior = unique[key]
@@ -780,6 +865,7 @@ class Service:
             status="available" if rows else "missing",
             rows=rows,
             record_count=len(rows),
+            date_semantics="observed_at uses UTC calendar dates; observed_date retains source date precision",
             artifact_refs=refs,
             excluded=excluded,
             coverage=dict(
