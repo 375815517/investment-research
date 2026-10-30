@@ -3,7 +3,7 @@ name: market-data-acquisition
 description: 获取或核查证券日行情、交易日历和公司行动，建立有来源与时间口径的市场数据包。
 ---
 
-先读取 [共同证据规则](../../rules/research-evidence.md) 和 [数据设计](../../../docs/architecture/research-data-design.md)。这是供宿主显式读取的流程，尚无自动安装或平台 CLI。
+先读取 [共同证据规则](../../rules/research-evidence.md) 和 [数据设计](../../../docs/architecture/research-data-design.md)。这是领域方法指南；公共执行流程见 [数据获取与整理](../data-acquisition/SKILL.md)，实际能力先通过 research capabilities 检查。
 
 输入路径与归属遵循 [输入基线 v1](../../../docs/architecture/input-data-baseline.md)：原件放 source-files，采集回执放 collection-records，业务批次附 batch.json。企业首次建档由用户确认主证券；已有确认不重复询问。
 

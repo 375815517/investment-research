@@ -18,3 +18,8 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Python packaging and static analysis artifacts
+.mypy_cache/
+*.egg-info/
+/dist/

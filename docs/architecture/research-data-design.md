@@ -92,7 +92,7 @@ AI 检索入口需要两种小型目录：资料目录（ID、路径、对象、
 
 ## 10. Skills 与分期验收
 
-本次提供三个可由通用 Agent 显式读取的 Skill：[行情获取](../../ai/skills/market-data-acquisition/SKILL.md)、[证据检索](../../ai/skills/evidence-retrieval/SKILL.md)、[影响研究](../../ai/skills/impact-research/SKILL.md)。它们能指导人工使用现有工具，尚未安装到宿主发现目录，也没有后台任务或保证业务不变量的能力。
+本次提供三个可由通用 Agent 显式读取的 Skill：[行情获取](../../ai/skills/market-data-acquisition/SKILL.md)、[证据检索](../../ai/skills/evidence-retrieval/SKILL.md)、[影响研究](../../ai/skills/impact-research/SKILL.md)。这三个领域指南与新增的通用数据流程 Skill 配合使用。首版 CLI 和宿主文件安装工具已实现，后台任务和原生宿主调用尚未验收；详见[运行手册](../operations/input-platform.md)。
 
 实施顺序：
 

@@ -1,0 +1,8 @@
+dataset_id: financial-facts
+schema_version: '1'
+record_schema: FinancialFact
+schema_authority: investment_domain.FinancialFact
+parser_id: submitted-candidates-v1
+review_policy: evidence-bound-review
+record_grain: company_id x metric_id x period x scope x currency x source-version
+status: initial-implemented-contract

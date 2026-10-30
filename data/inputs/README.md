@@ -1,6 +1,6 @@
 # 研究输入
 
-权威合同：[输入数据结构基线 v1](../../docs/architecture/input-data-baseline.md)。当前为目录骨架，无已采集的正式小米数据或已确认主证券。
+权威合同：[输入数据结构基线 v1](../../docs/architecture/input-data-baseline.md)。小米主证券已由用户确认采用港股 01810/HKD，见 companies/xiaomi/profile 和 markets/securities/xiaomi-hk 的确认记录；尚无准入的正式小米行情。确认记录是研究范围选择，不代替官方证券主数据验证。
 
 | 目录 | 保存内容 |
 | --- | --- |

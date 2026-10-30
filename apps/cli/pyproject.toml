@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "investment-cli"
+version = "0.1.0"
+description = "Human and Agent command interface for the research workspace"
+requires-python = ">=3.12"
+dependencies = ["investment-domain", "investment-engine", "investment-ai", "investment-connectors"]
+
+[project.scripts]
+research = "investment_cli:main"
+
+[tool.uv.sources]
+investment-domain = { workspace = true }
+investment-engine = { workspace = true }
+investment-ai = { workspace = true }
+investment-connectors = { workspace = true }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/investment_cli"]

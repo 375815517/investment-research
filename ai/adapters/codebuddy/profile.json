@@ -1,0 +1,11 @@
+{
+  "host_id": "codebuddy",
+  "profile_version": "1",
+  "root_entry": "CODEBUDDY.md",
+  "target_directory": ".codebuddy/skills",
+  "support_level": "experimental-filesystem-only",
+  "discovery": "unknown",
+  "invocation": "not_tested",
+  "hooks": "disabled",
+  "notes": "Experimental project file projection only. No CodeBuddy version, Skill discovery or invocation has been verified. Read root entry and canonical Skills directly if discovery is unavailable."
+}

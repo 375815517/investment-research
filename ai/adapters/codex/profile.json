@@ -1,0 +1,11 @@
+{
+  "host_id": "codex",
+  "profile_version": "1",
+  "root_entry": "AGENTS.md",
+  "target_directory": ".agents/skills",
+  "support_level": "filesystem-adapter",
+  "discovery": "unknown",
+  "invocation": "not_tested",
+  "hooks": "disabled",
+  "notes": "Project Skill projection; filesystem verification does not prove discovery by the running host."
+}

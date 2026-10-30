@@ -1,0 +1,16 @@
+source_id: yahoo-chart
+name: Yahoo Finance chart historical quote observations
+connector_id: yahoo-chart-v1
+dataset_id: daily-prices
+url: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}
+allowed_parameters: [symbol, period1, period2, interval, events]
+timeout_seconds: 20
+max_bytes: 2000000
+max_attempts: 2
+retry_delay_seconds: 0.5
+archive_permissions: unknown
+known_limitations:
+  - Public endpoint is not an exchange feed or a guaranteed service contract.
+  - Historical quote split-adjustment basis has not been verified; price_basis remains provider-native.
+  - No verified complete exchange calendar or corporate-action coverage.
+  - Archival and redistribution rights require separate verification; this configuration does not grant them.

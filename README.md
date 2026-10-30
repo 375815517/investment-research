@@ -15,9 +15,13 @@
 - [研究数据与 AI 检索设计](docs/architecture/research-data-design.md)：行情、实体关系、事件影响、知识记录与实施顺序。
 - [研究证据规则](ai/rules/research-evidence.md)：所有研究 Skills 共享的证据约束。
 
+- [实施计划](docs/plans/input-platform-implementation.md)：模块、依赖和分期验收。
+- [运行手册](docs/operations/input-platform.md)：安装、CLI、数据与宿主适配。
+- [验收记录](docs/verification/input-platform-v1.md)：实际通过项和未完成范围。
+
 ## 当前状态
 
-当前已完成架构、数据设计与目录骨架，并提供行情获取、证据检索、影响研究三个可显式读取的 Skill。尚未实现执行平台、宿主自动安装、初始化命令或自动研究流程。空目录使用 `.gitkeep` 保留。
+已实现首版 Python workspace、CLI、原件归档、候选校验/复核/入库、状态与索引、HTTP来源基础和宿主文件适配。离线样例仅用于验收，真实小米数据源、宿主原生调用、完整历史版本解析和API/worker/web的状态见验收记录。
 
 | 目录 | 用途 |
 | --- | --- |
@@ -31,3 +35,13 @@
 输入与成果均纳入 Git。原件集中在 `data/inputs/source-files/`，采集记录在 `collection-records/`，整理结果放在具体业务目录；每次研究的输入版本清单保存在 research-records，完整目录见架构文档。数据库和索引仅作为可重建的查询缓存。大文件可按需使用 Git LFS，目前尚未配置。
 
 目标体验是克隆后能理解项目，初始化后能运行离线示例，配置数据来源后能持续采集和研究。当前不能把目录已建立视为这些能力已经可用。
+
+## 快速验证
+
+```bash
+uv sync --locked --group dev
+uv run --locked research --json doctor
+uv run --locked python scripts/demo_input_pipeline.py
+```
+
+演示使用临时工作区的合成数据，不写正式研究档案。完整检查使用 `bash scripts/check.sh`。

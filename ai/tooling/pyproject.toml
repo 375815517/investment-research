@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "investment-ai"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "Project-scoped host adaptation for investment research"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/investment_ai"]

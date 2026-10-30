@@ -3,7 +3,7 @@ name: evidence-retrieval
 description: 围绕企业、行业、政策和事件检索资料、核查原文，形成可追溯证据包与缺口清单。
 ---
 
-先读取 [共同证据规则](../../rules/research-evidence.md) 和 [数据设计](../../../docs/architecture/research-data-design.md)。无平台 CLI 时用实际文件读取、rg 及宿主可用检索工具；不得宣称已自动登记。
+先读取 [共同证据规则](../../rules/research-evidence.md) 和 [数据设计](../../../docs/architecture/research-data-design.md)。公共执行流程见 [数据规划](../data-planning/SKILL.md) 和 [数据核验](../data-review/SKILL.md)；只有实际工具回执才证明登记结果。
 
 输入路径与归属遵循 [输入基线 v1](../../../docs/architecture/input-data-baseline.md)：原件放 source-files，采集回执放 collection-records，业务批次附 batch.json。企业首次建档由用户确认主证券；已有确认不重复询问。
 
