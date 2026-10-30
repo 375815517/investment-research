@@ -1,6 +1,8 @@
 # Git 数据管理约定
 
-状态：2026-10-30 确立的目标合同。当前只有文档和空目录，发布器、同步任务、索引重建与校验器尚未实现。本文更新了此前将 Git 限于代码和方法的存储设计。
+状态：2026-10-30 确立的目标合同。当前具备文档、目录骨架和手工研究 Skills，发布器、同步任务、索引重建与校验器尚未实现。本文更新了此前将 Git 限于代码和方法的存储设计。
+
+输入路径和归属以 [输入数据结构基线 v1](../architecture/input-data-baseline.md) 为准。本文负责 Git 发布、同步与恢复规则。
 
 ## 权威来源与目录
 
@@ -8,6 +10,8 @@
 
 | 目录 | 保存内容 |
 | --- | --- |
+| `data/inputs/source-files/` | 财报、政策、网页和接口响应等共享原件 |
+| `data/inputs/collection-records/` | 实际获取的请求范围、结果、原件引用和缺口 |
 | `data/inputs/companies/` | 企业档案、财报、经营数据与公告 |
 | `data/inputs/industries/` | 行业分类、产业链、供需与行业报告 |
 | `data/inputs/markets/` | 证券、行情、指数、公司行动与交易日历 |
@@ -26,38 +30,18 @@
 
 方法定义没有观测值；实际企业记录、指标数值、模型训练结果都进入数据层。研究产出再次作为输入时通过引用关联，保留其推断或产出身份。
 
+进一步的行情合同、关系和核实任务见 [研究数据设计](../architecture/research-data-design.md)。
+
 ## 业务归档与阅读方式
 
-先按业务含义定位内容，再在对象目录中区分原件、整理后的数据和来源说明。一份政策归入 policies，多个企业和行业引用它；证券行情归入 markets，通过证券与企业关系关联公司。行业报告归入 industries，跨行业的宏观报告归入 macro。资料仅有一份权威归档，跨分类检索由元数据关系和派生索引支持。
+原件、采集回执和结构化数据分开存放。企业自身资料归企业，行业与政策等共享记录独立保存；企业 README 集中提供引用导航，不复制原件或行情。唯一目录合同和小米路径见 [输入基线](../architecture/input-data-baseline.md)。
 
-下面仅展示拟定命名，未创建示例数据。revision_id 区分修订，正式文件不原地覆盖：
-
-```text
-data/inputs/companies/<company_id>/
-├── profile/<revision_id>/profile.json
-├── financials/<report_period>/<revision_id>/
-│   ├── report.pdf               # 原件
-│   ├── financials.json          # 整理后的数值，引用原件
-│   └── source.json              # 来源、时间和摘要
-└── announcements/<document_id>/<revision_id>/
-
-data/outputs/company-research/<company_id>/<research_id>/<revision_id>/
-├── report.md                    # 研究正文
-├── evidence.json                # 证据引用
-└── research.json                # 方法、运行及预测引用
-
-data/outputs/research-records/<run_id>/
-├── inputs.json                  # 本次使用的具体输入版本与摘要
-├── run.json                     # 代码、方法、参数和执行记录
-└── model-responses/             # 本次需要保留的 AI 响应
-```
-
-目录用于查找，记录中的稳定标识、时间和来源决定语义。国际事件可以同时关联地区、政策、产业和公司，不按所有关联对象重复存放。每次研究的输入清单属于研究记录，引用既有资料即可，不额外复制整个数据集。研究结果再次作为输入时同样引用其原始身份。
+正式记录修订新增版本。每次研究的 inputs.json 固定具体文件与摘要，其位置沿用 data/outputs/research-records/<run_id>/。输出组织本轮不调整。
 
 ## 文件与版本合同
 
 - 正文采用 Markdown；元数据及单条登记采用 JSON；批量记录按实际读取需求采用 JSONL、CSV 或 Parquet。具体 schema 后续定义，不在本次填充伪数据。
-- 按数据集、对象、时间及批次分区。行情的建议形态为 `data/inputs/markets/prices/<security_id>/<period>/<batch_id>.jsonl`；正式研究产出使用 `<类别>/<对象>/<record_id>/<revision_id>/`。命名是后续实现约束，不表示当前已有数据集。
+- 按数据集、对象、时间及批次分区。日行情路径为 `data/inputs/markets/prices/<security_id>/daily/<year>/<batch_id>/daily-prices.csv`，同目录附 `batch.json`；正式研究产出使用 `<类别>/<对象>/<record_id>/<revision_id>/`。命名是后续实现约束，不表示当前已有数据集。
 - 原件保存来源标识、原始 URL、公开时间、采集时间、报告期或事件时间、内容摘要及必要来源说明；不得把抓取时间当成公开时间。相同内容可共享原件，但各次采集的来源和时间单独记录。
 - 标准化记录保留实体标识、单位、币种、适用时间、来源引用、转换方法版本及修订关系。行情同时明确价格和复权口径。缺失值不默认为零。
 - 输入清单放在 `data/outputs/research-records/<run_id>/inputs.json`，固定输入文件、版本和摘要，承担快照职责；运行清单固定代码提交、方法版本、参数、输入快照与输出引用。涉及 AI 时保存实际模型标识、提示词版本、响应及证据；敏感凭据必须在持久化前剔除。
